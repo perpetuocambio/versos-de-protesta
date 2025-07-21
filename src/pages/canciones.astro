@@ -1,0 +1,143 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+
+// Filtrar solo posts que tengan información de canción original
+const songPosts = allPosts
+  .filter(post => post.data.originalSong)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Agrupar por década
+const songsByDecade = {};
+songPosts.forEach(post => {
+  const year = post.data.originalSong?.year;
+  if (year) {
+    const decade = Math.floor(year / 10) * 10;
+    if (!songsByDecade[decade]) {
+      songsByDecade[decade] = [];
+    }
+    songsByDecade[decade].push(post);
+  }
+});
+
+// Ordenar décadas
+const decades = Object.keys(songsByDecade)
+  .map(d => parseInt(d))
+  .sort((a, b) => a - b);
+
+// Estadísticas
+const totalSongs = songPosts.length;
+const countries = [...new Set(songPosts.map(p => p.data.originalSong?.origin).filter(Boolean))];
+const artists = [...new Set(songPosts.map(p => p.data.originalSong?.artist).filter(Boolean))];
+---
+
+<Layout title="Canciones - Análisis Musical Revolucionario">
+  <h1 style="font-size: 2.5rem; margin-bottom: 2rem; color: #1f2937; text-align: center;">
+    🎵 Canciones Revolucionarias
+  </h1>
+  
+  <div style="text-align: center; margin-bottom: 3rem;">
+    <p style="font-size: 1.1rem; color: #6b7280; max-width: 700px; margin: 0 auto 2rem auto;">
+      Colección de himnos, canciones de protesta y música revolucionaria analizada desde una perspectiva multilingüe y gramatical.
+    </p>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; max-width: 600px; margin: 0 auto;">
+      <div style="background: #fef3c7; padding: 1rem; border-radius: 8px; border: 1px solid #fbbf24;">
+        <div style="font-size: 2rem; font-weight: bold; color: #92400e;">{totalSongs}</div>
+        <div style="color: #92400e; font-size: 0.9rem;">Canciones Analizadas</div>
+      </div>
+      <div style="background: #dbeafe; padding: 1rem; border-radius: 8px; border: 1px solid #3b82f6;">
+        <div style="font-size: 2rem; font-weight: bold; color: #1e40af;">{countries.length}</div>
+        <div style="color: #1e40af; font-size: 0.9rem;">Países de Origen</div>
+      </div>
+      <div style="background: #dcfce7; padding: 1rem; border-radius: 8px; border: 1px solid #22c55e;">
+        <div style="font-size: 2rem; font-weight: bold; color: #166534;">{artists.length}</div>
+        <div style="color: #166534; font-size: 0.9rem;">Artistas Destacados</div>
+      </div>
+    </div>
+  </div>
+
+  {decades.map(decade => (
+    <section style="margin-bottom: 3rem;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 1.5rem; color: #374151; display: flex; align-items: center; gap: 0.5rem;">
+        📅 Década de {decade}
+        <span style="background: #f3f4f6; color: #6b7280; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.8rem;">
+          {songsByDecade[decade].length} canción{songsByDecade[decade].length !== 1 ? 'es' : ''}
+        </span>
+      </h2>
+      
+      <div style="display: grid; gap: 1.5rem;">
+        {songsByDecade[decade].map(post => (
+          <article style="background: white; border-radius: 12px; padding: 2rem; border: 1px solid #e5e7eb; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <div style="display: grid; md:grid-template-columns: 1fr auto; gap: 2rem; align-items: start;">
+              <div>
+                <h3 style="margin: 0 0 0.5rem 0;">
+                  <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.3rem; font-weight: 600;">
+                    {post.data.day !== undefined && `Día ${post.data.day}: `}
+                    {post.data.title}
+                  </a>
+                </h3>
+                <p style="color: #6b7280; margin: 0 0 1rem 0; line-height: 1.6;">
+                  {post.data.description}
+                </p>
+                
+                <div style="display: flex; gap: 1rem; align-items: center; font-size: 0.9rem; color: #9ca3af; margin-bottom: 1rem;">
+                  <span>📅 Lección: {post.data.pubDate.toLocaleDateString('es-ES')}</span>
+                  <span>📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
+                  {post.data.languagesIncluded && (
+                    <span>🌍 {post.data.languagesIncluded.length} idiomas</span>
+                  )}
+                </div>
+                
+                {post.data.grammarTopics && post.data.grammarTopics.length > 0 && (
+                  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    {post.data.grammarTopics.map(topic => (
+                      <span style="background: #f0fdf4; color: #166534; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; border: 1px solid #bbf7d0;">
+                        {topic}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+              
+              <div style="background: linear-gradient(135deg, #fef7ed, #fed7aa); padding: 1.5rem; border-radius: 8px; min-width: 250px;">
+                <h4 style="margin: 0 0 1rem 0; color: #92400e; font-size: 1rem; font-weight: 600;">
+                  🎵 Canción Original
+                </h4>
+                <div style="space-y: 0.5rem;">
+                  <div style="font-weight: 600; color: #1c1917; font-style: italic;">
+                    "{post.data.originalSong.title}"
+                  </div>
+                  {post.data.originalSong.artist && (
+                    <div style="color: #44403c; font-size: 0.9rem;">
+                      👤 {post.data.originalSong.artist}
+                    </div>
+                  )}
+                  {post.data.originalSong.year && (
+                    <div style="color: #78716c; font-size: 0.9rem;">
+                      📅 {post.data.originalSong.year}
+                    </div>
+                  )}
+                  {post.data.originalSong.origin && (
+                    <div style="color: #57534e; font-size: 0.9rem;">
+                      🌍 {post.data.originalSong.origin}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  {songPosts.length === 0 && (
+    <div style="text-align: center; padding: 4rem 0; color: #6b7280;">
+      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">🎵 Pronto habrá análisis musicales</h2>
+      <p>Estamos preparando un análisis detallado de canciones revolucionarias históricas.</p>
+    </div>
+  )}
+</Layout>

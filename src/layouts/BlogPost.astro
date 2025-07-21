@@ -1,0 +1,244 @@
+---
+import Layout from './Layout.astro';
+import LanguageNavigation from '../components/LanguageNavigation.astro';
+import MusicMetadata from '../components/MusicMetadata.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  heroImage?: string;
+  contentType?: 'lesson' | 'song-analysis' | 'grammar' | 'cultural';
+  day?: number;
+  primaryLanguages: string[];
+  level?: 'beginner' | 'intermediate' | 'advanced';
+  tags?: string[];
+  originalSong?: {
+    title: string;
+    artist?: string;
+    year?: number;
+    origin?: string;
+  };
+  languagesIncluded?: string[];
+  grammarTopics?: string[];
+  musicalComplexity?: 'simple' | 'intermediate' | 'complex';
+}
+
+const { 
+  title, 
+  description, 
+  pubDate, 
+  updatedDate, 
+  heroImage, 
+  contentType = 'lesson',
+  day,
+  primaryLanguages,
+  level = 'intermediate',
+  tags, 
+  originalSong,
+  languagesIncluded = ['es', 'en', 'de', 'pt', 'ru', 'zh'],
+  grammarTopics,
+  musicalComplexity
+} = Astro.props;
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('es-ES', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+<Layout title={title} description={description}>
+  <article>
+    {heroImage && (
+      <img 
+        src={heroImage} 
+        alt={title}
+        style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;"
+      />
+    )}
+    
+    <header style="margin-bottom: 2rem;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: #1f2937;">{title}</h1>
+      <p style="font-size: 1.2rem; color: #6b7280; margin-bottom: 1.5rem; line-height: 1.6;">{description}</p>
+      
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; color: #6b7280; font-size: 0.9rem; margin-bottom: 1.5rem;">
+        <time>📅 {formatDate(pubDate)}</time>
+        {updatedDate && (
+          <time>✏️ Actualizado: {formatDate(updatedDate)}</time>
+        )}
+        <span>📊 Nivel: {level === 'beginner' ? 'Principiante' : level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
+        {primaryLanguages && primaryLanguages.length > 0 && (
+          <span>🗣️ Idiomas: {primaryLanguages.join(', ')}</span>
+        )}
+      </div>
+      
+      {tags && tags.length > 0 && (
+        <div style="margin-bottom: 1.5rem;">
+          {tags.map(tag => (
+            <span style="background: #dbeafe; color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; margin-right: 0.5rem; display: inline-block; border: 1px solid #93c5fd;">
+              #{tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </header>
+    
+    <MusicMetadata 
+      originalSong={originalSong}
+      grammarTopics={grammarTopics}
+      musicalComplexity={musicalComplexity}
+      day={day}
+      contentType={contentType}
+    />
+    
+    <LanguageNavigation languagesIncluded={languagesIncluded} />
+    
+    <div style="prose: max-width: none; line-height: 1.8;">
+      <slot />
+    </div>
+    
+    <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e5e7eb;">
+      <a href={`${import.meta.env.BASE_URL}blog/`} style="color: #2563eb; text-decoration: none;">← Volver al blog</a>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  article :global(h2) {
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem 0;
+    color: #1f2937;
+  }
+  
+  article :global(h3) {
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.75rem 0;
+    color: #374151;
+  }
+  
+  article :global(p) {
+    margin-bottom: 1rem;
+  }
+  
+  article :global(ul, ol) {
+    margin: 1rem 0;
+    padding-left: 2rem;
+  }
+  
+  article :global(li) {
+    margin-bottom: 0.5rem;
+  }
+  
+  article :global(blockquote) {
+    border-left: 4px solid #2563eb;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #6b7280;
+  }
+  
+  /* Contenedor para tablas de traducción multilingüe */
+  article :global(.table-container) {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilo para tablas de traducción multilingüe */
+  article :global(table) {
+    width: 100%;
+    min-width: 1200px;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 0.9rem;
+    background: white;
+    table-layout: auto;
+  }
+  
+  article :global(th) {
+    background: linear-gradient(135deg, #4b5563, #374151);
+    color: white;
+    padding: 0.7rem 0.5rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  article :global(td) {
+    padding: 0.7rem 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  article :global(tr:nth-child(even)) {
+    background: #f8fafc;
+  }
+  
+  article :global(tr:hover) {
+    background: #f3f4f6;
+  }
+  
+  /* Estilo para bloques de código de canciones */
+  article :global(pre) {
+    background: linear-gradient(135deg, #1f2937, #374151);
+    color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 12px;
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-left: 4px solid #6b7280;
+    font-family: 'Fira Code', 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'Courier New', monospace;
+    line-height: 1.6;
+  }
+  
+  /* Banderas y símbolos de idiomas */
+  article :global(.flag) {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Elementos de pronunciación IPA */
+  article :global(.ipa) {
+    font-family: 'Noto Serif', 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif;
+    color: #7c3aed;
+    font-weight: 500;
+  }
+  
+  article :global(code) {
+    background: #f3f4f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  article :global(pre) {
+    background: #1f2937;
+    color: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+  
+  article :global(pre code) {
+    background: transparent;
+    padding: 0;
+  }
+  
+  /* Resaltado especial para texto en diferentes idiomas */
+  article :global(.language-es) { border-left: 3px solid #dc2626; }
+  article :global(.language-en) { border-left: 3px solid #2563eb; }
+  article :global(.language-de) { border-left: 3px solid #eab308; }
+  article :global(.language-pt) { border-left: 3px solid #16a34a; }
+  article :global(.language-ru) { border-left: 3px solid #dc2626; }
+  article :global(.language-zh) { border-left: 3px solid #dc2626; }
+</style>

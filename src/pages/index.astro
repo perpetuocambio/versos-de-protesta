@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const recentPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+
+<Layout title="Versos de Protesta - Aprende idiomas con himnos revolucionarios">
+  <section style="text-align: center; margin-bottom: 3rem;">
+    <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #1f2937;">
+      🚩 Versos de Protesta
+    </h1>
+    <p style="font-size: 1.3rem; color: #6b7280; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+      Aprende 5 idiomas a través de los himnos que cambiaron el mundo. Desde "A las Barricadas" hasta "L'Internationale", cada canción obrera es una ventana a la historia, la gramática y el alma de los pueblos.
+    </p>
+  </section>
+
+  <section style="margin-bottom: 3rem;">
+    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #374151;">
+      🎵 Himnos Revolucionarios
+    </h2>
+    
+    {recentPosts.length > 0 ? (
+      <div style="display: grid; gap: 1.5rem;">
+        {recentPosts.map((post) => (
+          <article style="border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; background: #fafafa;">
+            <h3 style="margin-bottom: 0.5rem;">
+              <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.3rem;">
+                {post.data.title}
+              </a>
+            </h3>
+            <p style="color: #6b7280; margin-bottom: 1rem;">{post.data.description}</p>
+            <div style="display: flex; gap: 1rem; align-items: center; font-size: 0.9rem; color: #9ca3af;">
+              <span>📅 {post.data.pubDate.toLocaleDateString('es-ES')}</span>
+              <span>🌍 {post.data.language}</span>
+              {post.data.level && (
+                <span>📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
+              )}
+            </div>
+            {post.data.tags && post.data.tags.length > 0 && (
+              <div style="margin-top: 0.75rem;">
+                {post.data.tags.map(tag => (
+                  <span style="background: #e5e7eb; color: #374151; padding: 0.2rem 0.6rem; border-radius: 9999px; font-size: 0.75rem; margin-right: 0.5rem;">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p style="text-align: center; color: #9ca3af; font-style: italic;">
+        Los himnos obreros esperan ser analizados. 
+      </p>
+    )}
+  </section>
+
+  <section style="text-align: center; background: #f3f4f6; padding: 2rem; border-radius: 8px;">
+    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #374151;">
+      ¿Preparado para el aprendizaje de idiomas?
+    </h2>
+    <p style="color: #6b7280; margin-bottom: 1.5rem;">
+      Cada himno es una lección. Cada verso, una ventana a 5 culturas. Únete al movimiento que aprende idiomas cantando la historia de la lucha obrera.
+    </p>
+    <a 
+      href={`${import.meta.env.BASE_URL}blog/`}
+      style="background: #dc2626; color: white; padding: 0.75rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 500; display: inline-block; box-shadow: 0 2px 4px rgba(220,38,38,0.3);"
+    >
+    </a>
+  </section>
+</Layout>

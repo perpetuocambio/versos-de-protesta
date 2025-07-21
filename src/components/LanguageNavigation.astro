@@ -1,0 +1,119 @@
+---
+export interface Props {
+  currentPath?: string;
+  languagesIncluded?: string[];
+}
+
+const { currentPath = '', languagesIncluded = ['es', 'en', 'de', 'pt', 'ru', 'zh'] } = Astro.props;
+
+const languages = {
+  es: { name: 'Español', flag: '🇪🇸', native: 'Español' },
+  en: { name: 'English', flag: '🇬🇧', native: 'English' },
+  de: { name: 'Deutsch', flag: '🇩🇪', native: 'Deutsch' },
+  pt: { name: 'Português', flag: '🇵🇹', native: 'Português' },
+  ru: { name: 'Русский', flag: '🇷🇺', native: 'Русский' },
+  zh: { name: 'Chinese', flag: '🇨🇳', native: '中文' },
+  fr: { name: 'Français', flag: '🇫🇷', native: 'Français' },
+  it: { name: 'Italiano', flag: '🇮🇹', native: 'Italiano' }
+};
+
+const availableLanguages = languagesIncluded
+  .map(code => ({ code, ...languages[code] }))
+  .filter(lang => lang.name);
+---
+
+<nav class="language-nav">
+  <h3 class="nav-title">🌍 Idiomas incluidos</h3>
+  <div class="language-grid">
+    {availableLanguages.map(lang => (
+      <div class="language-item">
+        <span class="flag">{lang.flag}</span>
+        <div class="language-info">
+          <span class="language-name">{lang.native}</span>
+          <span class="language-code">{lang.code.toUpperCase()}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+</nav>
+
+<style>
+  .language-nav {
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .nav-title {
+    font-size: 1.1rem;
+    margin: 0 0 1rem 0;
+    color: #334155;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+  
+  .language-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+  }
+  
+  .language-item:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+    transform: translateY(-1px);
+  }
+  
+  .flag {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  
+  .language-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .language-name {
+    font-weight: 500;
+    color: #1e293b;
+    font-size: 0.9rem;
+  }
+  
+  .language-code {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 640px) {
+    .language-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .language-item {
+      padding: 0.5rem;
+      gap: 0.5rem;
+    }
+    
+    .flag {
+      font-size: 1.2rem;
+    }
+  }
+</style>

@@ -1,0 +1,59 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout title="Blog - Todos los artículos">
+  <h1 style="font-size: 2.5rem; margin-bottom: 2rem; color: #1f2937;">
+    📖 Todos los artículos
+  </h1>
+  
+  {sortedPosts.length > 0 ? (
+    <div style="display: grid; gap: 2rem;">
+      {sortedPosts.map((post) => (
+        <article style="border: 1px solid #e5e7eb; padding: 2rem; border-radius: 12px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+          <h2 style="margin-bottom: 0.75rem;">
+            <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.5rem; font-weight: 600;">
+              {post.data.title}
+            </a>
+          </h2>
+          <p style="color: #6b7280; margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
+            {post.data.description}
+          </p>
+          
+          <div style="display: flex; gap: 1.5rem; align-items: center; font-size: 0.95rem; color: #9ca3af; margin-bottom: 1rem;">
+            <span>📅 {post.data.pubDate.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+            <span>🌍 {post.data.language}</span>
+            {post.data.level && (
+              <span style="background: #f0f9ff; color: #0369a1; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.8rem;">
+                📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}
+              </span>
+            )}
+          </div>
+          
+          {post.data.tags && post.data.tags.length > 0 && (
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              {post.data.tags.map(tag => (
+                <span style="background: #f3f4f6; color: #374151; padding: 0.3rem 0.8rem; border-radius: 9999px; font-size: 0.8rem;">
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  ) : (
+    <div style="text-align: center; padding: 4rem 0;">
+      <h2 style="font-size: 1.5rem; color: #6b7280; margin-bottom: 1rem;">
+        📝 No hay artículos aún
+      </h2>
+      <p style="color: #9ca3af;">
+        ¡Pronto habrá contenido interesante sobre idiomas!
+      </p>
+    </div>
+  )}
+</Layout>

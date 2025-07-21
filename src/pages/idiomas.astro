@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+
+// Agrupar por idiomas incluidos
+const languageGroups = {};
+const languages = {
+  es: { name: 'Español', flag: '🇪🇸', native: 'Español' },
+  en: { name: 'English', flag: '🇬🇧', native: 'English' },
+  de: { name: 'Deutsch', flag: '🇩🇪', native: 'Deutsch' },
+  pt: { name: 'Português', flag: '🇵🇹', native: 'Português' },
+  ru: { name: 'Русский', flag: '🇷🇺', native: 'Русский' },
+  zh: { name: 'Chinese', flag: '🇨🇳', native: '中文' },
+  fr: { name: 'Français', flag: '🇫🇷', native: 'Français' },
+  it: { name: 'Italiano', flag: '🇮🇹', native: 'Italiano' }
+};
+
+allPosts.forEach(post => {
+  const langs = post.data.languagesIncluded || post.data.primaryLanguages || ['es'];
+  langs.forEach(lang => {
+    if (!languageGroups[lang]) {
+      languageGroups[lang] = [];
+    }
+    languageGroups[lang].push(post);
+  });
+});
+
+// Estadísticas por idioma
+const languageStats = Object.entries(languageGroups).map(([code, posts]) => ({
+  code,
+  ...languages[code],
+  count: posts.length,
+  posts: posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+})).sort((a, b) => b.count - a.count);
+---
+
+<Layout title="Idiomas - Contenido Multilingüe">
+  <h1 style="font-size: 2.5rem; margin-bottom: 2rem; color: #1f2937; text-align: center;">
+    🌍 Contenido por Idiomas
+  </h1>
+  
+  <div style="text-align: center; margin-bottom: 3rem; color: #6b7280;">
+    <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+      Explora las lecciones organizadas por idioma. Cada lección incluye múltiples idiomas 
+      para análisis comparativo y aprendizaje multilingüe.
+    </p>
+  </div>
+
+  <div style="display: grid; gap: 2rem; margin-bottom: 3rem;">
+    {languageStats.map(lang => (
+      <section style="background: white; border-radius: 12px; padding: 2rem; border: 1px solid #e5e7eb; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <header style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #f3f4f6;">
+          <span style="font-size: 2rem;">{lang.flag}</span>
+          <div>
+            <h2 style="font-size: 1.5rem; margin: 0; color: #1f2937;">{lang.native}</h2>
+            <p style="margin: 0; color: #6b7280; font-size: 0.9rem;">
+              {lang.count} lección{lang.count !== 1 ? 'es' : ''} disponible{lang.count !== 1 ? 's' : ''}
+            </p>
+          </div>
+        </header>
+        
+        <div style="display: grid; gap: 1rem;">
+          {lang.posts.slice(0, 5).map(post => (
+            <article style="padding: 1rem; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+              <h3 style="margin: 0 0 0.5rem 0;">
+                <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.1rem;">
+                  {post.data.day !== undefined && `Día ${post.data.day}: `}
+                  {post.data.title}
+                </a>
+              </h3>
+              <p style="color: #6b7280; margin: 0 0 0.75rem 0; font-size: 0.9rem;">
+                {post.data.description}
+              </p>
+              <div style="display: flex; gap: 1rem; align-items: center; font-size: 0.8rem; color: #9ca3af;">
+                <span>📅 {post.data.pubDate.toLocaleDateString('es-ES')}</span>
+                {post.data.originalSong && (
+                  <span>🎵 "{post.data.originalSong.title}"</span>
+                )}
+                <span>📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
+              </div>
+            </article>
+          ))}
+          
+          {lang.posts.length > 5 && (
+            <div style="text-align: center; margin-top: 1rem;">
+              <a 
+                href={`${import.meta.env.BASE_URL}idiomas/${lang.code}/`}
+                style="color: #2563eb; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border: 1px solid #2563eb; border-radius: 6px; display: inline-block; transition: all 0.2s;"
+              >
+                Ver todas las {lang.posts.length} lecciones →
+              </a>
+            </div>
+          )}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <section style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 12px; text-align: center;">
+    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #1e40af;">
+      📚 Metodología Multilingüe
+    </h2>
+    <p style="color: #1e40af; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+      Cada lección combina música revolucionaria con análisis gramatical comparativo en múltiples idiomas. 
+      Aprende patrones lingüísticos universales a través de canciones históricas de resistencia y lucha social.
+    </p>
+  </section>
+</Layout>

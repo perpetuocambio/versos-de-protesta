@@ -1,0 +1,228 @@
+---
+export interface Props {
+  originalSong?: {
+    title: string;
+    artist?: string;
+    year?: number;
+    origin?: string;
+  };
+  grammarTopics?: string[];
+  musicalComplexity?: 'simple' | 'intermediate' | 'complex';
+  day?: number;
+  contentType?: string;
+}
+
+const { 
+  originalSong, 
+  grammarTopics = [], 
+  musicalComplexity,
+  day,
+  contentType = 'lesson'
+} = Astro.props;
+
+const complexityLabels = {
+  simple: { label: 'Simple', icon: '🟢', color: '#22c55e' },
+  intermediate: { label: 'Intermedio', icon: '🟡', color: '#eab308' },
+  complex: { label: 'Complejo', icon: '🔴', color: '#ef4444' }
+};
+
+const contentTypeLabels = {
+  lesson: { label: 'Lección', icon: '📚' },
+  'song-analysis': { label: 'Análisis Musical', icon: '🎵' },
+  grammar: { label: 'Gramática', icon: '📝' },
+  cultural: { label: 'Contexto Cultural', icon: '🏛️' }
+};
+---
+
+<div class="music-metadata">
+  <div class="metadata-grid">
+    {day !== undefined && (
+      <div class="metadata-item">
+        <span class="metadata-icon">📅</span>
+        <div class="metadata-content">
+          <span class="metadata-label">Día</span>
+          <span class="metadata-value">Día {day}</span>
+        </div>
+      </div>
+    )}
+    
+    <div class="metadata-item">
+      <span class="metadata-icon">{contentTypeLabels[contentType]?.icon || '📚'}</span>
+      <div class="metadata-content">
+        <span class="metadata-label">Tipo</span>
+        <span class="metadata-value">{contentTypeLabels[contentType]?.label || 'Lección'}</span>
+      </div>
+    </div>
+    
+    {originalSong && (
+      <div class="metadata-item song-info">
+        <span class="metadata-icon">🎵</span>
+        <div class="metadata-content">
+          <span class="metadata-label">Canción Original</span>
+          <div class="song-details">
+            <span class="song-title">"{originalSong.title}"</span>
+            {originalSong.artist && (
+              <span class="song-artist">por {originalSong.artist}</span>
+            )}
+            {originalSong.year && (
+              <span class="song-year">({originalSong.year})</span>
+            )}
+            {originalSong.origin && (
+              <span class="song-origin">🌍 {originalSong.origin}</span>
+            )}
+          </div>
+        </div>
+      </div>
+    )}
+    
+    {musicalComplexity && (
+      <div class="metadata-item">
+        <span class="metadata-icon">{complexityLabels[musicalComplexity].icon}</span>
+        <div class="metadata-content">
+          <span class="metadata-label">Complejidad Musical</span>
+          <span 
+            class="metadata-value complexity-badge"
+            style={`color: ${complexityLabels[musicalComplexity].color}`}
+          >
+            {complexityLabels[musicalComplexity].label}
+          </span>
+        </div>
+      </div>
+    )}
+    
+    {grammarTopics.length > 0 && (
+      <div class="metadata-item grammar-topics">
+        <span class="metadata-icon">📝</span>
+        <div class="metadata-content">
+          <span class="metadata-label">Temas Gramaticales</span>
+          <div class="grammar-tags">
+            {grammarTopics.map(topic => (
+              <span class="grammar-tag">{topic}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .music-metadata {
+    background: linear-gradient(135deg, #fef7ed, #fed7aa);
+    border: 1px solid #fdba74;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 8px rgba(251, 146, 60, 0.1);
+  }
+  
+  .metadata-grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .metadata-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #fde68a;
+    transition: all 0.2s ease;
+  }
+  
+  .metadata-item:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.15);
+  }
+  
+  .metadata-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  
+  .metadata-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+  }
+  
+  .metadata-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #92400e;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .metadata-value {
+    font-weight: 500;
+    color: #1c1917;
+  }
+  
+  .complexity-badge {
+    font-weight: 600;
+  }
+  
+  .song-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .song-title {
+    font-weight: 600;
+    color: #1c1917;
+    font-style: italic;
+  }
+  
+  .song-artist {
+    font-size: 0.9rem;
+    color: #44403c;
+  }
+  
+  .song-year {
+    font-size: 0.85rem;
+    color: #78716c;
+  }
+  
+  .song-origin {
+    font-size: 0.85rem;
+    color: #57534e;
+    font-weight: 500;
+  }
+  
+  .grammar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  
+  .grammar-tag {
+    background: #fbbf24;
+    color: #92400e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid #f59e0b;
+  }
+  
+  .song-info {
+    border-left: 4px solid #f59e0b;
+  }
+  
+  .grammar-topics {
+    border-left: 4px solid #10b981;
+  }
+  
+  @media (min-width: 768px) {
+    .metadata-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+</style>
