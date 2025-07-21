@@ -1,5 +1,5 @@
 ---
-title: "A las Barricadas - Traducción Multilingüe"
+title: "A las Barricadas"
 description: "Análisis completo del himno anarquista 'A las Barricadas' con traducciones y análisis gramatical en 5 idiomas"
 pubDate: 2024-01-16
 contentType: "song-analysis"
@@ -17,7 +17,7 @@ grammarTopics: ["subjuntivo", "imperativos", "adjetivos-posesivos", "comparacion
 musicalComplexity: "intermediate"
 ---
 
-# DÍA 1: "A LAS BARRICADAS" - TRADUCCIÓN MULTILINGÜE
+# DÍA 1: "A LAS BARRICADAS" 
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 

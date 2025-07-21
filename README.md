@@ -89,7 +89,7 @@ Cada archivo de contenido debe incluir metadatos específicos:
 
 ```yaml
 ---
-title: "DÍA X: [TÍTULO CANCIÓN] - Traducción Multilingüe"
+title: "DÍA X: [TÍTULO CANCIÓN]"
 description: "Análisis multilingüe con traducciones, gramática e IPA"
 pubDate: 2024-01-0X
 contentType: "song-analysis"

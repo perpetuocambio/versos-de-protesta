@@ -1,5 +1,5 @@
 ---
-title: "DÍA 3: El Pueblo Unido Jamás Será Vencido - Traducción Multilingüe"
+title: "El Pueblo Unido Jamás Será Vencido"
 description: "Análisis multilingüe del himno de Sergio Ortega con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del Chile de Allende"
 pubDate: 2024-01-03
 contentType: "song-analysis"
@@ -11,6 +11,7 @@ originalSong:
   year: 1973
   language: "es"
   genre: "anthem"
+  origin: "Chile"
 grammarTopics: 
   - "Participios pasados"
   - "Futuro simple vs compuesto"
@@ -25,7 +26,7 @@ estimatedTime: "75-90 min"
 tags: ["chile", "allende", "música", "revolución", "gramática-comparativa"]
 ---
 
-# DÍA 3: EL PUEBLO UNIDO JAMÁS SERÁ VENCIDO - TRADUCCIÓN MULTILINGÜE
+# DÍA 3: EL PUEBLO UNIDO JAMÁS SERÁ VENCIDO
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 

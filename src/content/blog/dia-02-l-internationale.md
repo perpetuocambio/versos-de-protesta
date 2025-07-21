@@ -1,5 +1,5 @@
 ---
-title: "L'Internationale - Traducción Multilingüe"
+title: "L'Internationale"
 description: "Análisis completo del himno socialista internacional 'L'Internationale' con traducciones y análisis gramatical en 5 idiomas"
 pubDate: 2024-01-17
 contentType: "song-analysis"
@@ -17,7 +17,7 @@ grammarTopics: ["futuro", "imperativo-plural", "tiempos-compuestos", "voz-pasiva
 musicalComplexity: "intermediate"
 ---
 
-# DÍA 2: L'INTERNATIONALE - TRADUCCIÓN MULTILINGÜE
+# DÍA 2: L'INTERNATIONALE
 
 ## 🎵 CANCIÓN ORIGINAL (FRANCÉS)
 

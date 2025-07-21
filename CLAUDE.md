@@ -16,7 +16,7 @@
 
 ```yaml
 ---
-title: "DÍA X: [TÍTULO CANCIÓN] - Traducción Multilingüe"
+title: "DÍA X: [TÍTULO CANCIÓN]"
 description: "Análisis multilingüe de [canción] con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico"
 pubDate: 2024-01-0X
 contentType: "song-analysis"  # o "lesson", "grammar", "cultural"
@@ -46,7 +46,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 ### FORMATO DOCUMENTACIÓN DIARIA EXACTO:
 
 ```
-# DÍA X: [TÍTULO CANCIÓN] - TRADUCCIÓN MULTILINGÜE
+# DÍA X: [TÍTULO CANCIÓN]
 
 ## 🎵 CANCIÓN ORIGINAL ([IDIOMA FUENTE])
 
