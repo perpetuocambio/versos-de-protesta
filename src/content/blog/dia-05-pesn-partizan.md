@@ -28,24 +28,66 @@ tags: ["resistencia", "segunda-guerra-mundial", "francia", "rusia", "antifascism
 
 # DÍA 5: ПЕСНЬ ПАРТИЗАН / LE CHANT DES PARTISANS
 
-## 🎵 CANCIÓN ORIGINAL (RUSO)
+## 🎵 CANCIÓN ORIGINAL 
 
-**"Песнь Партизан" - Анна Смирнова Марли (1942)**
-
-*Fragmentos para análisis lingüístico:*
+**"Le Chant des Partisans" - Anna Marly (1943)**
 
 ```
-Вставайте, люди русские... [fragmento]
-На священную войну...
+Ami, entends-tu
+Le vol noir des corbeaux
+Sur nos plaines?
+Ami, entends-tu
+Les cris sourds du pays
+Qu'on enchaîne?
+Ohé! partisans,
+Ouvriers et paysans,
+C'est l'alarme!
+Ce soir l'ennemi
+Connaîtra le prix du sang
+Et les larmes!
+
+Montez de la mine,
+Descendez des collines,
+Camarades!
+Sortez de la paille
+Les fusils, la mitraille,
+Les grenades...
+Ohé! les tueurs,
+A la balle et au couteau,
+Tuez vite!
+Ohé! saboteur,
+Attention à ton fardeau:
+Dynamite!
+
+C'est nous qui brisons
+Les barreaux des prisons
+Pour nos frères,
+La haine à nos trousses
+Et la faim qui nous pousse,
+La misère...
+Il y a des pays
+Ou les gens au creux de lits
+Font des rêves;
+Ici, nous, vois-tu,
+Nous on marche et nous on tue,
+Nous on crève.
+
+Ici chacun sait
+Ce qu'il veut, ce qui'il fait
+Quand il passe...
+Ami, si tu tombes
+Un ami sort de l'ombre
+A ta place.
+Demain du sang noir
+Sechera au grand soleil
+Sur les routes.
+Sifflez, compagnons,
+Dans la nuit la Liberté
+Nous écoute...
+
 ```
 
-**Adaptación francesa "Le Chant des Partisans":**
-```
-Ami, entends-tu... [fragmento]
-Le pays qui se libère...
-```
-
-**Nota:** Esta canción, compuesta originalmente en ruso por Anna Marly (emigrante rusa en Francia), se convirtió en el himno oficial de la Resistencia francesa. Los análisis siguientes se enfocan en aspectos gramaticales y fonéticos específicos.
+**Nota histórica:** Esta canción, con música original de Anna Marly (emigrante rusa en Francia) y letra de Emmanuel d'Astier de la Vigerie y Maurice Druon, se convirtió en el himno oficial de la Resistencia francesa en 1943.
 
 ---
 
@@ -82,76 +124,443 @@ Le pays qui se libère...
 
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
 
-### РУССКИЙ
-**"Песнь Партизан" (ORIGINAL)**
-```
-[Análisis de fragmentos lingüísticos]
-- Imperativo: "Вставайте" (¡Levántense!)
-- Genitivo: "священной войны" (de la guerra sagrada)
-- Estructura aspectual: verbos perfectivos/imperfectivos
-```
-
 ### ESPAÑOL
-**"Canción de los Partisanos"**
+**"El Canto de los Partisanos"**
 ```
-[Fragmentos adaptados para análisis]
-- Imperativo: "¡Levántense, pueblo!"
-- Estructura: artículo + sustantivo + adjetivo
-- Voz pasiva: "el país será liberado"
+AAmigo, ¿oyes
+El vuelo negro de los cuervos
+Sobre nuestras colinas?
+Amigo, ¿oyes
+Los gritos ásperos de la tierra
+Que estamos encadenando?
+¡Ahoy, partisanos!
+Obreros y campesinos,
+Esta es la alarma.
+Vean al enemigo
+Conocerá el precio de la sangre
+Y las lágrimas.
+
+Salgan de las minas,
+Camaradas, bajen de las colinas.
+Camaradas.
+Salgan de la paja
+Los fusiles, la metralla,
+Menos granadas...
+¡Ahoy, asesinos!
+A la bala y al cuchillo,
+Maten rápido.
+¡Ahoy, saboteador!
+Atención, carga atronadora:
+Dinamita.
+
+Somos nosotros quienes rompemos
+Las rejas de los clandestinos
+Frutos de la vid,
+Odio y su rastro
+Y el hambre que nos impulsa,
+Pobreza...
+Hay países
+Donde los muertos en el hueco de las camas
+Sueñan; Aquí, nosotros, ya ves,
+Caminamos y nos mata,
+Morimos.
+
+Aquí todos saben
+Lo que quieren, lo que hacen
+Cuando pasan...
+Amigo, si caes
+Un amigo como la sombra
+Hay un lugar.
+Mañana, sangre negra
+Se secará al sol brillante
+Ruta en el...
+Silben, compañeros,
+En la noche, la Libertad
+Nos escucha...
 ```
 
 ### ENGLISH
 **"Song of the Partisans"**
 ```
-[Linguistic analysis fragments]
-- Imperative: "Rise up, people!"
-- Structure: article + noun + relative clause
-- Passive voice: "the country will be freed"
+Friend, do you hear
+The black flight of crows
+Over our hills?
+Friend, do you hear
+The harsh cries of the land
+That we are enchaining?
+Ahoy partisans,
+Workers and peasants,
+This is the alarm.
+See the enemy
+Will know the price of blood
+And tears.
+
+Climb from the mines,
+Comrades come down from the hills.
+Comrades.
+Come out of the straw
+The rifles, the shrapnel,
+Less grenades...
+Ahoy killers,
+To the bullet and the knife,
+Kill quickly.
+Ahoy saboteur,
+Attention thundering burden:
+Dinamita.
+
+It's us who break
+The bars of the clandestine
+Fruits of the vine,
+Hatred and their trail
+And the hunger that drives us,
+Poverty...
+There are countries
+Where the dead in the hollow of beds
+Dream;
+Here, we, you see,
+We walk and it kills us,
+We die.
+
+Here everyone knows
+What they want, what they do
+When they pass...
+Friend, if you fall
+A friend like the shadow
+There's a place.
+Tomorrow, black blood
+Will dry in the bright sun
+Route on the...
+Whistle, companions,
+In the night, Liberty
+Listens to us...
 ```
 
 ### DEUTSCH
 **"Lied der Partisanen"**
 ```
-[Sprachanalyse-Fragmente]
-- Imperativ: "Steht auf, Volk!"
-- Struktur: Artikel + Substantiv + Genitiv
-- Passiv: "das Land wird befreit werden"
+Freund, hörst du
+den schwarzen Krähenschwarm
+über unsere Hügel?
+Freund, hörst du
+die schrillen Schreie des Landes,
+das wir in Ketten legen?
+Ahoi Partisanen,
+Arbeiter und Bauern,
+Dies ist der Alarm.
+Seht den Feind,
+der den Preis des Blutes
+und der Tränen erfahren wird.
+
+Steigt aus den Minen,
+Kameraden, kommt von den Hügeln herunter.
+Kameraden.
+Kommt aus dem Stroh,
+die Gewehre, die Granatsplitter,
+weniger Granaten...
+Ahoi Mörder,
+zu Kugel und Messer,
+tötet schnell.
+Ahoi Saboteur,
+Achtung, donnernde Last:
+Dinamita.
+
+Wir sind es, die
+die Gitter der geheimen
+Früchte des Weinstocks,
+des Hasses und seiner Spur
+und des Hungers, der uns treibt,
+der Armut...
+Es gibt Länder,
+wo die Toten in den Höhlen der Betten
+träumen;
+Hier, wir, siehst du,
+Wir gehen und es bringt uns um,
+Wir sterben.
+
+Hier weiß jeder,
+was er will, was er tut,
+wenn er stirbt...
+Freund, wenn du fällst,
+Ein Freund wie der Schatten,
+Es gibt einen Ort.
+Morgen wird schwarzes Blut in der hellen Sonne trocknen,
+Weg auf dem...
+Pfeift, Gefährten,
+In der Nacht hört uns die Freiheit zu...
 ```
 
 ### PORTUGUÊS
 **"Canção dos Partidários"**
 ```
-[Fragmentos para análise]
-- Imperativo: "Levantem-se, povo!"
-- Estrutura: artigo + substantivo + preposição
-- Voz passiva: "o país será libertado"
+Freund, hörst du
+den schwarzen Krähenschwarm
+über unsere Hügel?
+Freund, hörst du
+die schrillen Schreie des Landes,
+das wir in Ketten legen?
+Ahoi Partisanen,
+Arbeiter und Bauern,
+Dies ist der Alarm.
+Seht den Feind,
+der den Preis des Blutes
+und der Tränen erfahren wird.
+
+Steigt aus den Minen,
+Kameraden, kommt von den Hügeln herunter.
+Kameraden.
+Kommt aus dem Stroh,
+die Gewehre, die Granatsplitter,
+weniger Granaten...
+Ahoi Mörder,
+zu Kugel und Messer,
+tötet schnell.
+Ahoi Saboteur,
+Achtung, donnernde Last:
+Dinamita.
+
+Wir sind es, die
+die Gitter der geheimen
+Früchte des Weinstocks,
+des Hasses und seiner Spur
+und des Hungers, der uns treibt,
+der Armut...
+Es gibt Länder,
+wo die Toten in den Höhlen der Betten
+träumen;
+Hier, wir, siehst du,
+Wir gehen und es bringt uns um,
+Wir sterben.
+
+Hier weiß jeder,
+was er will, was er tut,
+wenn er stirbt...
+Freund, wenn du fällst,
+Ein Freund wie der Schatten,
+Es gibt einen Ort.
+Morgen wird schwarzes Blut in der hellen Sonne trocknen,
+Weg auf dem...
+Pfeift, Gefährten,
+In der Nacht hört uns die Freiheit zu...
+```
+
+### РУССКИЙ
+**"Песнь Партизан"**
+```
+Друг, слышишь ли ты
+Черную стаю ворон
+Над нашими равнинами?
+Друг, слышишь ли ты
+Приглушенные крики страны
+В цепях?
+Эй! Партизаны,
+Рабочие и крестьяне,
+Набат!
+Сегодня ночью враг
+Узнает цену крови
+И слёз!
+
+Поднимайтесь из шахт,
+Товарищи!
+Вылезайте из соломы
+Винтовки, шрапнель,
+Гранат...
+Эй! Убийцы,
+Пулями и ножами,
+Убивайте быстро!
+Эй! Диверсант,
+Береги свою ношу:
+Динамит!
+
+Это мы ломаем
+Тюремные решетки
+За наших братьев,
+Ненависть по пятам
+И голод, который гонит нас,
+Нищета...
+Есть страны,
+Где люди в глубинах своих постелей
+Мечтают; вот, видишь,
+Мы маршируем и убиваем,
+Мы умираем.
+
+Здесь каждый знает,
+Чего хочет, что делает,
+Когда проходит мимо...
+Друг, если ты упадёшь,
+Друг выйдет из тени,
+Занять твоё место.
+Завтра чёрная кровь,
+Высохнет на ярком солнце,
+На дорогах.
+Свистите, товарищи,
+В ночи Свобода,
+Слушает нас...
 ```
 
 ### РУССКИЙ ROM.
-**"Pesn' Partizan" (ROMANIZAÇÃO)**
+**"Pesn' Partizan"**
 ```
-[Romanizatsiya dlya analiza]
-- Imperativ: "Vstavajte, lyudi!"
-- Struktura: sushchestvitel'noe + prilagatel'noe
-- Stradatel'nyy zalog: "strana budet osvobozhdena"
+Drug, slyshish' li ty
+Chernuyu stayu voron
+Nad nashimi kholmami?
+Drug, slyshish' li ty
+Zhostkiye kriki zemli,
+Chto my zakovyvayem v tsepi?
+Ey, partizany,
+Rabochiye i krest'yane,
+Eto trevoga.
+Vidite vraga,
+Uznayete tsenu krovi
+I sloz.
+
+Podnimaytes' s shakht,
+Tovarishchi, spustites' s kholmov.
+Tovarishchi.
+Vylezayte iz solomy
+Vintovki, shrapnel',
+Men'she granat...
+Ey, ubiytsy,
+K pule i nozhu,
+Ubivayte skoreye.
+Ey, diversant,
+Vnimaniye, gromopodobnoye bremya:
+Dinamita.
+
+Eto my lomayem
+Prut'ya taynykh
+Plodov vinogradnoy lozy,
+Nenavist' i ikh sled
+I golod, chto gonit nas,
+Nishcheta...
+Yest' strany,
+Gde mertvetsy v pustotakh krovatey
+Spyat;
+Zdes' my, vidite li,
+My idem, i eto ubivayet nas,
+My umirayem.
+
+Zdes' vse znayut,
+Chego oni khotyat, chto delayut,
+Kogda prokhodyat...
+Drug, yesli ty upadesh',
+Drug, kak ten',
+Yest' mesto.
+Zavtra chornaya krov'
+Vysokhnet na yarkom solntse
+Marshruta po...
+Svistite, tovarishchi,
+V nochi Svoboda
+Slushayet nas...
 ```
 
 ### 中文
-**"游击队之歌"**
+**"游击队员之歌"**
 ```
-[语言分析片段]
-- 祈使句: "起来，人民！"
-- 结构: 动词 + 宾语 + 补语
-- 被动态: "国家将被解放"
+朋友，你听见了吗？
+黑色的乌鸦群飞过
+我们的平原？
+朋友，你听见了吗？
+这片土地的沉闷哭喊
+被锁链锁住？
+啊唷！游击队员们，
+工人和农民们，
+警报响了！
+今夜，敌人
+将尝到血的代价
+和泪水！
+
+从矿井里出来吧，
+同志们！
+从稻草堆里出来吧，
+步枪，榴弹，
+手榴弹……
+啊唷！刽子手们，
+拿着子弹和刀子，
+快点杀人！
+啊唷！破坏分子们，
+小心你的负担：
+炸药！
+
+是我们打破了
+监狱的铁窗，
+为了我们的兄弟，
+仇恨紧随其后，
+饥饿驱使我们，
+贫困……
+有些国家，
+人们在床榻的深渊里
+做梦；而在这里，你看，
+我们前进，我们杀戮，
+我们死去。
+
+在这里，每个人都知道
+他们想要什么，他们做什么
+当他们经过时……
+朋友，如果你跌倒了
+一位朋友会从阴影中走出来
+代替你。
+明天，黑色的血液
+将在明媚的阳光下
+在路上
+风干。
+吹口哨吧，同伴们，
+在夜里，自由
+聆听着我们……
 ```
 
 ### PINYIN
-**"Yóujīduì Zhī Gē"**
+**"Yóujīduìyuán Zhī Gē"**
 ```
-[Yǔyán fēnxī piànduān]
-- Qíshǐ jù: "Qǐlái, rénmín!"
-- Jiégòu: dòngcí + bīnyǔ + bǔyǔ
-- Bèidòng tài: "guójiā jiāng bèi jiěfàng"
+Péngyǒu, nǐ tīngjiànle ma?
+Hēisè de wūyā qún fēiguò
+wǒmen de píngyuán?
+Péngyǒu, nǐ tīngjiànle ma?
+Zhè piàn tǔdì de chénmèn kū hǎn
+bèi suǒliàn suǒ zhù?
+A yō! Yóují duìyuánmen,
+gōngrén hé nóngmínmen,
+jǐngbào xiǎngle!
+Jīnyè, dírén
+jiāng cháng dào xuè de dàijià
+hé lèishuǐ!
+
+Cóng kuàngjǐng lǐ chūlái ba,
+tóngzhìmen!
+Cóng dàocǎo duī lǐ chūlái ba,
+bùqiāng, liúdàn,
+shǒuliúdàn……
+a yō! Guìzǐshǒumen,
+názhe zǐdàn hé dāozǐ,
+kuài diǎn shārén!
+A yō! Pòhuài fèn zǐ men,
+xiǎoxīn nǐ de fùdān:
+Zhàyào!
+
+Shì wǒmen dǎpòle
+jiānyù de tiěchuāng,
+wèile wǒmen de xiōngdì,
+chóuhèn jǐn suí qí hòu,
+jī'è qūshǐ wǒmen,
+pínkùn……
+yǒuxiē guójiā,
+rénmen zài chuángtà de shēnyuān lǐ
+zuòmèng; ér zài zhèlǐ, nǐ kàn,
+wǒmen qiánjìn, wǒmen shālù,
+wǒmen sǐqù.
+
+Zài zhèlǐ, měi gèrén dōu zhīdào
+tāmen xiǎng yào shénme, tāmen zuò shénme
+dāng tāmen jīngguò shí……
+péngyǒu, rúguǒ nǐ diédǎole
+yī wèi péngyǒu huì cóng yīnyǐng zhōng zǒu chūlái
+dàitì nǐ.
+Míngtiān, hēisè de xiěyè
+jiàng zài míngmèi de yángguāng xià
+zài lùshàng
+fēnggān.
+Chuī kǒushào ba, tóngbànmen,
+zài yèlǐ, zìyóu
+língtīngzhe wǒmen……
 ```
 
 ---
