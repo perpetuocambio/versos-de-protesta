@@ -33,25 +33,69 @@ tags: ["italia", "protesta", "música", "años-70", "gramática-comparativa"]
 **"Il Galeone" - Paola Nicolazzi (1970)**
 
 ```
-Il galeone che va per mare
-porta con sé la libertà
-e quando arriva nel suo porto
-tutti cantano: libertà!
 
-Ma se il vento non soffia forte
-il galeone non può partire
-e se il mare è troppo calmo
-la sua vela non può salire
+Siamo la ciurma anemica
+d'una galera infame
+su cui ratta la morte
+miete per lenta fame.
 
-Oh marinai, oh marinai
-venite tutti quaggiù
-il galeone della libertà
-ci aspetta laggiù
+Mai orizzonti limpidi
+schiude la nostra aurora
+e sulla tolda squallida
+urla la scolta ognora.
 
-Il galeone che va per mare
-porta speranza a chi non ce l'ha
-e quando passa per i paesi
-la gente grida: libertà!
+I nostri dì si involano
+fra fetide carene
+siam magri smunti schiavi
+stretti in ferro catene.
+
+Nessun nocchiero ardito, 
+sfida dei venti l'ira? 
+Pur sulla nave muda, 
+l'etere ognun sospira! *
+
+Sorge sul mar la luna
+ruotan le stelle in cielo
+ma sulle nostre luci
+steso è un funereo velo.
+
+Torme di schiavi adusti
+chini a gemer sul remo
+spezziam queste carene
+o chini a remar morremo!
+
+Cos'è gementi schiavi
+questo remar remare?
+Meglio morir tra' i flutti
+sul biancheggiar del mare.
+
+Remiam finché la nave
+si schianti sui frangenti
+alte bandier rossonere
+fra il sibilar dei venti!
+
+E sia pietosa coltrice
+l'onda spumosa e ria
+ma sorga un dì sui martiri
+il sol dell'anarchia.
+
+Su schiavi allarmi allarmi!
+L'onda gorgoglia e sale
+tuoni baleni e fulmini
+sul galeon fatale.
+
+Su schiavi allarmi allarmi!
+Pugnam col braccio forte!
+Giuriam giuriam giustizia!
+O libertà o morte!
+
+Falci del messidoro, 
+spighe ondeggianti al vento! 
+Voi siate i nostri labari, 
+nell'epico cimento! *
+
+Giuriam giuriam giustizia!
+O libertà o morte!
 ```
 
 ---
@@ -89,29 +133,6 @@ la gente grida: libertà!
 
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
 
-### ITALIANO
-**"Il Galeone" (ORIGINAL)**
-```
-Il galeone che va per mare
-porta con sé la libertà
-e quando arriva nel suo porto
-tutti cantano: libertà!
-
-Ma se il vento non soffia forte
-il galeone non può partire
-e se il mare è troppo calmo
-la sua vela non può salire
-
-Oh marinai, oh marinai
-venite tutti quaggiù
-il galeone della libertà
-ci aspetta laggiù
-
-Il galeone che va per mare
-porta speranza a chi non ce l'ha
-e quando passa per i paesi
-la gente grida: libertà!
-```
 
 ### ESPAÑOL
 **"El Galeón"**
@@ -140,169 +161,458 @@ la gente grita: ¡libertad!
 ### ENGLISH
 **"The Galleon"**
 ```
-The galleon that sails the sea
-carries freedom along with it
-and when it arrives at its port
-everyone sings: freedom!
+We are the anemic crew
+of an infamous galley
+where death swiftly
+reaps through slow hunger.
 
-But if the wind doesn't blow strong
-the galleon cannot depart
-and if the sea is too calm
-its sail cannot rise
+Our dawn never reveals clear horizons
+and on the squalid deck
+the watch always howls.
 
-Oh sailors, oh sailors
-come all down here
-the galleon of freedom
-awaits us down there
+Our days fly by
+among fetid hulls
+we are lean, emaciated slaves
+bound in iron chains.
 
-The galleon that sails the sea
-brings hope to those who lack it
-and when it passes through the towns
-people shout: freedom!
+Does no bold helmsman
+challenge the wrath of the winds?
+
+Yet on the ship the waves shift,
+everyone sighs for the ether! *
+
+The moon rises over the sea
+the stars rotate in the sky
+but over our lights
+a funereal veil is spread.
+
+Swarms of sunburned slaves
+bent to moan over the oar
+let us shatter these hulls
+or bent to row we will die!
+
+What is this, groaning slaves
+this rowing, rowing?
+Better to die among the waves
+on the whitening sea.
+
+Let us row until the ship
+crashes on the breakers
+high red-and-black flags
+amid the whistling winds!
+
+And may the foamy, rhyming wave be a merciful blanket
+but may the sun of anarchy rise one day over the martyrs
+.
+
+Over slaves, alarms, alarms!
+The wave gurgles and rises
+thunder, lightning, and lightning
+on the fatal galleon.
+
+Over slaves, alarms, alarms!
+Let us fight with our strong arms!
+Let us swear, swear justice!
+O freedom or death!
+
+Scythes of the Messidor,
+ears of corn waving in the wind!
+Be you our banners,
+in the epic ordeal! *
+
+Let us swear, swear justice!
+O freedom or death!
 ```
 
 ### DEUTSCH
 **"Die Galeone"**
 ```
-Die Galeone, die übers Meer fährt
-trägt die Freiheit mit sich
-und wenn sie in ihrem Hafen ankommt
-singen alle: Freiheit!
+Wir sind die blutarme Mannschaft
+einer berüchtigten Galeere,
+auf der der Tod schnell
+durch langsamen Hunger erntet.
 
-Aber wenn der Wind nicht stark weht
-kann die Galeone nicht abfahren
-und wenn das Meer zu ruhig ist
-kann ihr Segel nicht steigen
+Unser Morgengrauen offenbart nie klare Horizonte,
+und auf dem schmutzigen Deck
+heult stets die Wache.
 
-Oh Seeleute, oh Seeleute
-kommt alle hier herunter
-die Galeone der Freiheit
-wartet dort unten auf uns
+Unsere Tage vergehen wie im Flug
+zwischen stinkenden Schiffsrümpfen,
+wir sind magere, ausgemergelte Sklaven,
+in Eisenketten gefesselt.
 
-Die Galeone, die übers Meer fährt
-bringt Hoffnung denen, die keine haben
-und wenn sie durch die Dörfer fährt
-rufen die Leute: Freiheit!
+Fordert kein mutiger Steuermann
+den Zorn der Winde heraus?
+
+Doch auf dem Schiff drehen sich die Wellen,
+jeder seufzt nach dem Äther! *
+
+Der Mond geht über dem Meer auf,
+die Sterne drehen sich am Himmel,
+doch über unseren Lichtern
+breitet sich ein düsterer Schleier.
+
+Schwärme sonnenverbrannter Sklaven,
+beugen sich stöhnend über das Ruder,
+lasst uns diese Rümpfe zerschmettern,
+oder gebeugt zum Rudern, wir werden sterben!
+
+Was ist das, stöhnende Sklaven,
+dieses Rudern, Rudern?
+Lieber sterben in den Wellen
+auf dem weiß werdenden Meer.
+
+Rudern wir, bis das Schiff
+an den Brechern zerschellt,
+mit hohen rot-schwarzen Fahnen
+im pfeifenden Wind!
+
+Und möge die schäumende, reimende Welle eine gnädige Decke sein,
+doch möge die Sonne der Anarchie eines Tages über den Märtyrern aufgehen.
+
+Über Sklaven, Alarm, Alarm!
+Die Welle gurgelt und erhebt sich
+Donner, Blitz und Blitz
+auf der tödlichen Galeone.
+
+Über Sklaven, Alarm, Alarm!
+Lasst uns mit unseren starken Armen kämpfen!
+Lasst uns schwören, schwören Gerechtigkeit!
+O Freiheit oder Tod!
+
+Sensen des Messidor,
+Ähren, die im Wind wehen!
+Seid unsere Banner,
+in der epischen Tortur! *
+
+Lasst uns schwören, schwören Gerechtigkeit!
+O Freiheit oder Tod!
 ```
 
 ### PORTUGUÊS
 **"O Galeão"**
 ```
-O galeão que vai pelo mar
-leva consigo a liberdade
-e quando chega ao seu porto
-todos cantam: liberdade!
+Somos a tripulação anémica
+de uma galé infame
+onde a morte ceifou rapidamente
+a fome lenta.
 
-Mas se o vento não sopra forte
-o galeão não pode partir
-e se o mar está muito calmo
-a sua vela não pode subir
+O nosso amanhecer nunca revela horizontes claros
+e no convés esquálido
+a sentinela uiva sempre.
 
-Oh marinheiros, oh marinheiros
-venham todos aqui embaixo
-o galeão da liberdade
-nos espera lá embaixo
+Os nossos dias voam
+entre cascos fétidos
+somos escravos magros e emagrecidos
+presos em correntes de ferro.
 
-O galeão que vai pelo mar
-leva esperança a quem não a tem
-e quando passa pelos povoados
-a gente grita: liberdade!
+Nenhum timoneiro ousado
+desafia a fúria dos ventos?
+
+No entanto, no navio, as ondas movem-se,
+todos suspiram pelo éter! *
+
+A lua nasce sobre o mar
+as estrelas giram no céu
+mas sobre as nossas luzes
+estende-se um véu fúnebre.
+
+Enxames de escravos queimados pelo sol
+curvados para gemer sobre o remo
+vamos partir esses cascos
+ou curvados para remar, morreremos!
+
+O que é isto, escravos gemendo
+esse remo, a remar?
+Melhor morrer entre as ondas
+no mar embranquecido.
+
+Vamos remar até ao navio
+bater na rebentação
+altas bandeiras vermelhas e pretas
+no meio dos ventos assobiadores!
+
+E que a onda espumosa e rimada seja um cobertor misericordioso
+mas que o sol da anarquia nasça um dia sobre os mártires
+.
+
+Sobre escravos, alarmes, alarmes!
+A onda borbulha e sobe
+trovão, relâmpago e relâmpago
+no galeão fatal.
+
+Sobre escravos, alarmes, alarmes!
+Vamos lutar com os nossos braços fortes!
+Vamos jurar, jurar justiça!
+Ó liberdade ou morte!
+
+Foices do Messidor,
+espigas de milho a balançar ao vento!
+Sede os nossos estandartes,
+na provação épica! *
+
+Vamos jurar, jurar justiça!
+Ó liberdade ou morte!
 ```
 
 ### РУССКИЙ
 **"Галеон"**
 ```
-Галеон, что плывёт по морю
-несёт с собой свободу
-и когда прибывает в свой порт
-все поют: свобода!
+Мы – анемичная команда
+позорной галеры,
+где смерть быстро
+пожинает плоды медленного голода.
 
-Но если ветер не дует сильно
-галеон не может отплыть
-и если море слишком спокойно
-его парус не может подняться
+Наш рассвет никогда не открывает ясных горизонтов,
+и на грязной палубе
+всегда воет дозор.
 
-О моряки, о моряки
-идите все сюда вниз
-галеон свободы
-ждёт нас там внизу
+Наши дни пролетают
+среди зловонных корпусов,
+мы – тощие, изможденные рабы,
+скованные железными цепями.
 
-Галеон, что плывёт по морю
-несёт надежду тем, у кого её нет
-и когда проходит мимо селений
-люди кричат: свобода!
+Неужели ни один отважный рулевой
+не бросит вызов гневу ветров?
+
+Но на корабле волны колышутся,
+все вздыхают по эфиру! *
+
+Луна восходит над морем,
+звезды вращаются в небе,
+но над нашими огнями
+расстелилась траурная пелена.
+
+Стаи обожженных солнцем рабов,
+склонившись стонать над веслом,
+да разобьем мы эти корпуса,
+или, согнувшись, грести, мы умрем!
+
+Что это, стонущие рабы,
+эта гребля, гребля?
+Лучше умереть среди волн
+в белеющем море.
+
+Будем грести, пока корабль
+не разобьётся о буруны
+под высокими красно-чёрными флагами
+под свистом ветра!
+
+И пусть пенная, рифмующаяся волна будет милосердным одеялом
+но пусть солнце анархии взойдет однажды над мучениками
+.
+
+Над рабами, тревогами, тревогами!
+Волна булькает и поднимается
+гром, молния и молния
+на роковом галеоне.
+
+Над рабами, тревогами, тревогами!
+Будем сражаться нашими сильными руками!
+Давайте поклянёмся, поклянёмся в справедливости!
+О свобода или смерть!
+
+Косы Мессидора,
+колосья, колышущиеся на ветру!
+Будьте нашими знаменами
+в эпическом испытании! *
+
+Давайте поклянёмся, поклянёмся в справедливости!
+О свобода или смерть!
 ```
 
 ### РУССКИЙ ROM.
 **"Galeon"**
 ```
-Galeon, chto plyvet po moryu
-nesyot s soboy svobodu
-i kogda pribyvaet v svoy port
-vse poyut: svoboda!
+My – anemichnaya komanda
+pozornoy galery,
+gde smert' bystro
+pozhinayet plody medlennogo goloda.
 
-No esli veter ne duet sil'no
-galeon ne mozhet otplyt'
-i esli more slishkom spokoyno
-ego parus ne mozhet podnyat'sya
+Nash rassvet nikogda ne otkryvayet yasnykh gorizontov,
+i na gryaznoy palube
+vsegda voyet dozor.
 
-O moryaki, o moryaki
-idite vse syuda vniz
-galeon svobody
-zhdyot nas tam vnizu
+Nashi dni proletayut
+sredi zlovonnykh korpusov,
+my – toshchiye, izmozhdennyye raby,
+skovannyye zheleznymi tsepyami.
 
-Galeon, chto plyvet po moryu
-nesyot nadezhdu tem, u kogo yeyo net
-i kogda prokhodit mimo seleniy
-lyudi krichat: svoboda!
+Neuzheli ni odin otvazhnyy rulevoy
+ne brosit vyzov gnevu vetrov?
+
+No na korable volny kolyshutsya,
+vse vzdykhayut po efiru! *
+
+Luna voskhodit nad morem,
+zvezdy vrashchayutsya v nebe,
+no nad nashimi ognyami
+rasstelilas' traurnaya pelena.
+
+Stai obozhzhennykh solntsem rabov,
+sklonivshis' stonat' nad veslom,
+da razob'yem my eti korpusa,
+ili, sognuvshis', gresti, my umrem!
+
+Chto eto, stonushchiye raby,
+eta greblya, greblya?
+Luchshe umeret' sredi voln
+v beleyushchem more.
+
+Budem gresti, poka korabl'
+ne razob'yotsya o buruny
+pod vysokimi krasno-chornymi flagami
+pod svistom vetra!
+
+I pust' pennaya, rifmuyushchayasya volna budet miloserdnym odeyalom
+no pust' solntse anarkhii vzoydet odnazhdy nad muchenikami
+.
+
+Nad rabami, trevogami, trevogami!
+Volna bul'kayet i podnimayetsya
+grom, molniya i molniya
+na rokovom galeone.
+
+Nad rabami, trevogami, trevogami!
+Budem srazhat'sya nashimi sil'nymi rukami!
+Davayte poklyanomsya, poklyanomsya v spravedlivosti!
+O svoboda ili smert'!
+
+Kosy Messidora,
+kolos'ya, kolyshushchiyesya na vetru!
+Bud'te nashimi znamenami
+v epicheskom ispytanii! *
+
+Davayte poklyanomsya, poklyanomsya v spravedlivosti!
+O svoboda ili smert'!
 ```
 
 ### 中文
 **"大帆船"**
 ```
-在海上航行的大帆船
-带着自由一起前行
-当它到达港口时
-所有人都唱着：自由！
+我们是一艘臭名昭著的桨帆船上贫血的船员，
+死亡在这里迅速地
+通过缓慢的饥饿收割。
 
-但如果风吹得不够强
-大帆船无法启航
-如果海面太过平静
-它的帆无法升起
+黎明时分，地平线从未清晰可见，
+肮脏的甲板上，
+值班的哨兵总是嚎叫。
 
-哦船员们，哦船员们
-都到这里来吧
-自由的大帆船
-在下面等着我们
+我们的日子飞逝，
+在散发着恶臭的船体中，
+我们是瘦弱憔悴的奴隶，
+被铁链束缚着。
 
-在海上航行的大帆船
-给没有希望的人带来希望
-当它经过村庄时
-人们喊着：自由！
+难道没有一位勇敢的舵手，
+敢于挑战狂风的怒吼吗？
+
+然而，船上波涛汹涌，
+每个人都在向苍穹叹息！*
+
+月亮升起在海面上，
+群星在天空中旋转，
+但在我们的灯光上方，
+却笼罩着一层葬礼的面纱。
+
+一群群晒伤的奴隶，
+俯身对着桨呻吟，
+让我们击碎这些船体，
+否则，俯身划桨，我们就会死去！
+
+这是什么，呻吟的奴隶们，
+这划桨，划桨？
+宁死在
+这泛白的大海的波涛之中。
+
+让我们划船，直到船儿
+撞上浪花，
+红黑两色的旗帜高高飘扬，
+在呼啸的狂风中！
+
+愿这泛着泡沫、韵律的波浪成为仁慈的毯子，
+但愿无政府主义的太阳终有一天会升起，照耀着烈士们。
+
+为奴隶们，警报！警报！
+波浪汩汩作响，
+雷声、闪电、闪电，
+笼罩着这艘致命的大帆船。
+
+为奴隶们，警报！警报！
+让我们用我们强壮的臂膀战斗！
+让我们发誓，发誓正义！
+哦，不自由，毋宁死！
+
+弥赛亚的镰刀，
+风中飘扬的麦穗！
+在史诗般的考验中，
+你们要做我们的旗帜！*
+
+让我们发誓，发誓正义！
+哦，不自由，毋宁死！
 ```
 
 ### PINYIN
 **"Dà Fānchuán"**
 ```
-Zài hǎishang hángxíng de dà fānchuán
-dàizhe zìyóu yīqǐ qiánxíng
-dāng tā dàodá gǎngkǒu shí
-suǒyǒu rén dōu chàngzhe: zìyóu!
+Wǒmen shì yī sōu chòumíng zhāozhù de jiǎng fānchuánshàng pínxiě de chuányuán,
+sǐwáng zài zhèlǐ xùnsù de
+tōngguò huǎnmàn de jī'è shōugē.
 
-Dàn rúguǒ fēng chuī de bùgòu qiáng
-dà fānchuán wúfǎ qǐháng
-rúguǒ hǎimiàn tài guò píngjìng
-tā de fān wúfǎ shēngqǐ
+Límíng shífēn, dìpíngxiàn cóng wèi qīngxī kějiàn,
+āng zāng de jiǎbǎn shàng,
+zhíbān de shàobīng zǒng shì háo jiào.
 
-Ó chuányuánmen, ó chuányuánmen
-dōu dào zhèlǐ lái ba
-zìyóu de dà fānchuán
-zài xiàmiàn děngzhe wǒmen
+Wǒmen de rìzǐ fēishì,
+zài sànfàzhe èchòu de chuántǐ zhōng,
+wǒmen shì shòuruò qiáocuì de núlì,
+bèi tiě liàn shùfùzhe.
 
-Zài hǎishang hángxíng de dà fānchuán
-gěi méiyǒu xīwàng de rén dàilái xīwàng
-dāng tā jīngguò cūnzhuāng shí
-rénmen hǎnzhe: zìyóu!
+Nándào méiyǒu yī wèi yǒnggǎn de duòshǒu,
+gǎnyú tiǎozhàn kuángfēng de nùhǒu ma?
+
+Rán'ér, chuán shàng bōtāoxiōngyǒng,
+měi gèrén dōu zài xiàng cāngqióng tànxí!*
+
+Yuèliàng shēng qǐ zài hǎimiàn shàng,
+qúnxīng zài tiānkōng zhōng xuánzhuǎn,
+dàn zài wǒmen de dēngguāng shàngfāng,
+què lóngzhàozhe yī céng zànglǐ de miànshā.
+
+Yīqún qún shài shāng de núlì,
+fǔ shēn duìzhe jiǎng shēnyín,
+ràng wǒmen jī suì zhèxiē chuántǐ,
+fǒuzé, fǔ shēn huà jiǎng, wǒmen jiù huì sǐqù!
+
+Zhè shì shénme, shēnyín de núlìmen,
+zhè huà jiǎng, huà jiǎng?
+Nìng sǐ zài
+zhè fàn bái de dàhǎi de bōtāo zhī zhōng.
+
+Ràng wǒmen huáchuán, zhídào chuán er
+zhuàng shàng lànghuā,
+hóng hēi liǎng sè de qízhì gāo gāo piāoyáng,
+zài hūxiào de kuángfēng zhōng!
+
+Yuàn zhè fànzhe pàomò, yùnlǜ de bōlàng chéngwéi réncí de tǎnzǐ,
+dàn yuàn wú zhèngfǔ zhǔyì de tàiyáng zhōng yǒu yītiān huì shēng qǐ, zhàoyàozhe lièshìmen.
+
+Wèi núlìmen, jǐngbào! Jǐngbào!
+Bōlàng gǔgǔ zuò xiǎng,
+léi shēng, shǎndiàn, shǎndiàn,
+lóngzhàozhe zhè sōu zhìmìng de dà fānchuán.
+
+Wèi núlìmen, jǐngbào! Jǐngbào!
+Ràng wǒmen yòng wǒmen qiángzhuàng de bìbǎng zhàndòu!
+Ràng wǒmen fāshì, fāshì zhèngyì!
+Ó, bù zìyóu, wúnìng sǐ!
+
+Mí sài yà de liándāo,
+fēng zhōng piāoyáng de mài suì!
+Zài shǐshī bān de kǎoyàn zhōng,
+nǐmen yào zuò wǒmen de qízhì!*
+
+Ràng wǒmen fāshì, fāshì zhèngyì!
+Ó, bù zìyóu, wúnìng sǐ!
 ```
 
 ---

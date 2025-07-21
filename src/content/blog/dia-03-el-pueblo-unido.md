@@ -33,28 +33,67 @@ tags: ["chile", "allende", "música", "revolución", "gramática-comparativa"]
 **"El Pueblo Unido Jamás Será Vencido" - Sergio Ortega/Quilapayún (1973)**
 
 ```
-El pueblo unido jamás será vencido
-El pueblo unido jamás será vencido
-
-De pie, cantemos que vamos a triunfar
-Avanzan ya banderas de unidad
-Y tú vendrás marchando junto a mí
-Y así verás tu canto y tu bandera florecer
-
-La luz de un rojo amanecer
-Anuncia ya la vida que vendrá
-
-El pueblo unido jamás será vencido
+El pueblo unido, jamás será vencido
 El pueblo unido jamás será vencido
 
-La patria está forjando la unidad
-De norte a sur se movilizará
-Desde el salar del norte caluroso
+De pie, cantar
+Que vamos a triunfar
+Avanzan ya
+Banderas de unidad
+Y tú vendrás
+Marchando junto a mí
+Y así verás
+Tu canto y tu bandera florecer
+La luz
+De un rojo amanecer
+Anuncia ya
+La vida que vendrá
+
+De pie, luchar
+El pueblo va a triunfar
+Será mejor
+La vida que vendrá
+A conquistar
+Nuestra felicidad
+Y en un clamor
+Mil voces de combate se alzarán
+Dirán
+Canción de libertad
+Con decisión
+La patria vencerá
+
+Y ahora el pueblo
+Que se alza en la lucha
+Con voz de gigante
+Gritando: ¡adelante!
+El pueblo unido, jamás será vencido
+El pueblo unido jamás será vencido
+
+La patria está
+Forjando la unidad
+De norte a sur
+Se movilizará
+Desde el salar
+Ardiente y mineral
 Al bosque austral
-
 Unidos en la lucha y el trabajo
-Iremos hacia adelante
-El pueblo unido jamás será vencido
+Irán
+La patria cubrirán
+Su paso ya
+Anuncia el porvenir
+
+De pie, cantar
+El pueblo va a triunfar
+Millones ya
+Imponen la verdad
+De acero son
+Ardiente batallón
+Sus manos van
+Llevando la justicia y la razón
+Mujer
+Con fuego y con valor
+Ya estás aquí
+Junto al trabajador
 ```
 
 ---
@@ -92,148 +131,451 @@ El pueblo unido jamás será vencido
 
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
 
-### ESPAÑOL
-**"El Pueblo Unido Jamás Será Vencido" (ORIGINAL)**
-```
-El pueblo unido jamás será vencido
-El pueblo unido jamás será vencido
-
-De pie, cantemos que vamos a triunfar
-Avanzan ya banderas de unidad
-Y tú vendrás marchando junto a mí
-Y así verás tu canto y tu bandera florecer
-
-La luz de un rojo amanecer
-Anuncia ya la vida que vendrá
-
-El pueblo unido jamás será vencido
-El pueblo unido jamás será vencido
-```
-
 ### ENGLISH
 **"The People United Will Never Be Defeated"**
 ```
 The people united will never be defeated
 The people united will never be defeated
 
-Stand up, let's sing we're going to triumph
-Banners of unity advance now
-And you will come marching along with me
-And thus you'll see your song and banner bloom
+Stand up, sing
+That we will triumph
+Now advance
+Flags of unity
+And you will come
+Marching beside me
+And so you will see
+Your song and your flag flourish
+The light
+Of a red dawn
+Announces now
+The life to come
 
-The light of a red dawn
-Already announces the life to come
+Stand up, fight
+The people will triumph
+It will be better
+The life to come
+To conquer
+Our happiness
+And in a clamor
+A thousand voices of combat will rise
+They will say
+Song of freedom
+With determination
+The homeland will triumph
 
-The people united will never be defeated
-The people united will never be defeated
+And now the people
+Who rise in the fight
+With the voice of a giant
+Shouting: Forward! The united people will never be defeated
+The united people will never be defeated
+
+The homeland is
+Forging unity
+From north to south
+It will mobilize
+From the salt flat
+Burning and mineral
+To the southern forest
+United in struggle and work
+They will go
+They will cover the homeland
+Its path already
+Announces the future
+
+Stand up, sing
+The people will triumph
+Millions already
+Impose the truth
+They are made of steel
+A burning battalion
+Their hands go
+Bringing justice and reason
+Woman
+With fire and courage
+You are already here
+Alongside the worker
 ```
 
 ### DEUTSCH
 **"Das Vereinte Volk Wird Niemals Besiegt"**
 ```
-Das vereinte Volk wird niemals besiegt
-Das vereinte Volk wird niemals besiegt
+Das vereinte Volk wird niemals besiegt werden
+Das vereinte Volk wird niemals besiegt werden
 
-Steht auf, lasst uns singen, wir werden siegen
-Fahnen der Einheit rücken schon vor
-Und du wirst marschierend mit mir kommen
-Und so wirst du dein Lied und deine Fahne erblühen sehen
+Steht auf, singt,
+dass wir triumphieren werden
+Nun rückt vor
+Flaggen der Einheit
+Und ihr werdet kommen
+Marschiert an meiner Seite
+Und so werdet ihr sehen
+Euer Lied und eure Flagge wehen
+Das Licht
+einer roten Morgenröte
+Kündigt jetzt
+Das kommende Leben an
 
-Das Licht einer roten Morgendämmerung
-Kündigt schon das Leben an, das kommen wird
+Steht auf, kämpft
+Das Volk wird triumphieren
+Es wird besser sein
+Das kommende Leben
+Um
+Unser Glück zu erobern
+Und mit lautem Geschrei
+werden sich tausend Stimmen des Kampfes erheben
+Sie werden sagen
+Lied der Freiheit
+Mit Entschlossenheit
+Das Vaterland wird triumphieren
 
-Das vereinte Volk wird niemals besiegt
-Das vereinte Volk wird niemals besiegt
+Und nun das Volk
+Das sich im Kampf erhebt
+Mit der Stimme eines Riesen
+Ruft: Vorwärts! Das vereinte Volk wird niemals besiegt werden
+Das vereinte Volk wird niemals besiegt werden
+
+Das Vaterland
+schmiedet Einheit
+Von Norden nach Süden
+Es wird mobilisieren
+Von der Salzwüste
+Brennend und mineralisch
+Bis zum südlichen Wald
+Vereint in Kampf und Arbeit
+Sie werden gehen
+Sie werden das Vaterland bedecken
+Ihr Weg ist bereits
+Kündigt die Zukunft an
+
+Steht auf, singt
+Das Volk wird triumphieren
+Millionen bereits
+Verkünden die Wahrheit
+Sie sind aus Stahl
+Ein brennendes Bataillon
+Ihre Hände gehen
+Bringen Gerechtigkeit und Vernunft
+Frau
+Mit Feuer und Mut
+Du bist bereits hier
+An der Seite des Arbeiters
 ```
 
 ### PORTUGUÊS
 **"O Povo Unido Jamais Será Vencido"**
 ```
-O povo unido jamais será vencido
-O povo unido jamais será vencido
+O povo unido nunca será derrotado
+O povo unido nunca será derrotado
 
-De pé, cantemos que vamos triunfar
-Avançam já bandeiras de unidade
-E tu virás marchando junto a mim
-E assim verás teu canto e tua bandeira florescer
+Levante-se, cante
+Que triunfaremos
+Agora avance
+Bandeiras da unidade
+E você virá
+Marchando ao meu lado
+E assim verá
+A sua canção e a sua bandeira florescerem
+A luz
+De um amanhecer vermelho
+Anuncia agora
+A vida por vir
 
-A luz de um vermelho amanhecer
-Anuncia já a vida que virá
+Levante-se, lute
+O povo triunfará
+Será melhor
+A vida por vir
+Para conquistar
+A nossa felicidade
+E num clamor
+Mil vozes de combate se levantarão
+Elas dirão
+Canção da liberdade
+Com determinação
+A pátria triunfará
 
-O povo unido jamais será vencido
-O povo unido jamais será vencido
+E agora o povo
+Que se levanta na luta
+Com a voz de um gigante
+Gritando: Avante! O povo unido nunca será derrotado
+O povo unido nunca será derrotado
+
+A pátria está
+Forjando a unidade
+De norte a sul
+Ela mobilizar-se-á
+Das salinas
+Queimando e mineralizando
+À floresta do Sul
+Unidos na luta e no trabalho
+Eles irão
+Eles cobrirão a pátria
+O seu caminho já
+Anuncia o futuro
+
+Levante-se, cante
+O povo triunfará
+Milhões já
+Imponha a verdade
+São feitos de aço
+Um batalhão em chamas
+As suas mãos vão
+Trazendo justiça e razão
+Mulher
+Com fogo e coragem
+Você já está aqui
+Ao lado do trabalhador
 ```
 
 ### РУССКИЙ
 **"Единый Народ Никогда Не Будет Побеждён"**
 ```
-Единый народ никогда не будет побеждён
+Единый народ никогда не будет побеждён. Единый народ никогда не будет побеждён.
+
+Вставайте, пойте,
+Что мы победим.
+Теперь вперёд.
+Флаги единства.
+И вы придёте,
+Маршируя рядом со мной.
+И вы увидите,
+Ваша песня и ваш флаг расцветают.
+Свет.
+Красной зари.
+Возвещает сейчас.
+Грядущую жизнь.
+
+Вставайте, сражайтесь,
+Народ победит.
+Будет лучше.
+Грядущая жизнь.
+Завоевать.
+Наше счастье.
+И в шуме.
+Тысячи голосов битвы поднимутся.
+Они скажут.
+Песнь свободы.
+С решимостью.
+Родина победит.
+
+И теперь народ.
+Кто поднимается на борьбу.
+Голосом великана.
+Кричит: Вперёд! Единый народ никогда не будет побеждён
 Единый народ никогда не будет побеждён
 
-Встаньте, споём, мы победим
-Знамёна единства уже наступают
-И ты придёшь, шагая рядом со мной
-И так увидишь, как твоя песня и знамя расцветут
+Родина
+Кует единство
+С севера на юг
+Она мобилизуется
+От солончака
+Пылающего и минерального
+До южного леса
+Объединённые в борьбе и труде
+Они пойдут
+Они покроют родину
+Её путь уже
+Возвещает будущее
 
-Свет красной зари
-Возвещает уже жизнь, которая придёт
-
-Единый народ никогда не будет побеждён
-Единый народ никогда не будет побеждён
+Встаньте, пойте
+Народ победит
+Миллионы уже
+Утвердят правду
+Они сделаны из стали
+Пылающий батальон
+Их руки идут
+Неся справедливость и разум
+Женщина
+С огнём и мужеством
+Ты уже здесь
+Рядом с рабочим
 ```
 
 ### РУССКИЙ ROM.
 **"Edinyy Narod Nikogda Ne Budet Pobezhdyon"**
 ```
-Edinyy narod nikogda ne budet pobezhdyon
-Edinyy narod nikogda ne budet pobezhdyon
+Yedinyy narod nikogda ne budet pobezhdon. Yedinyy narod nikogda ne budet pobezhdon.
 
-Vstan'te, spoyom, my pobedim
-Znamyona edinstva uzhe nastupayut
-I ty pridyosh', shagaya ryadom so mnoy
-I tak uvidish', kak tvoya pesnya i znamya rastsvetu
+Vstavayte, poyte,
+Chto my pobedim.
+Teper' vperod.
+Flagi yedinstva.
+I vy pridote,
+Marshiruya ryadom so mnoy.
+I vy uvidite,
+Vasha pesnya i vash flag rastsvetayut.
+Svet.
+Krasnoy zari.
+Vozveshchayet seychas.
+Gryadushchuyu zhizn'.
 
-Svet krasnoy zari
-Vozvestchaet uzhe zhizn', kotoraya pridyot
+Vstavayte, srazhaytes',
+Narod pobedit.
+Budet luchshe.
+Gryadushchaya zhizn'.
+Zavoyevat'.
+Nashe schast'ye.
+I v shume.
+Tysyachi golosov bitvy podnimutsya.
+Oni skazhut.
+Pesn' svobody.
+S reshimost'yu.
+Rodina pobedit.
 
-Edinyy narod nikogda ne budet pobezhdyon
-Edinyy narod nikogda ne budet pobezhdyon
+I teper' narod.
+Kto podnimayetsya na bor'bu.
+Golosom velikana.
+Krichit: Vperod! Yedinyy narod nikogda ne budet pobezhdon
+Yedinyy narod nikogda ne budet pobezhdon
+
+Rodina
+Kuyet yedinstvo
+S severa na yug
+Ona mobilizuyetsya
+Ot solonchaka
+Pylayushchego i mineral'nogo
+Do yuzhnogo lesa
+Ob"yedinonnyye v bor'be i trude
+Oni poydut
+Oni pokroyut rodinu
+Yeyo put' uzhe
+Vozveshchayet budushcheye
+
+Vstan'te, poyte
+Narod pobedit
+Milliony uzhe
+Utverdyat pravdu
+Oni sdelany iz stali
+Pylayushchiy batal'on
+Ikh ruki idut
+Nesya spravedlivost' i razum
+Zhenshchina
+S ognom i muzhestvom
+Ty uzhe zdes'
+Ryadom s rabochim
 ```
 
 ### 中文
 **"团结的人民永远不会被战胜"**
 ```
-团结的人民永远不会被战胜
-团结的人民永远不会被战胜
+团结的人民永远不会被打败
+团结的人民永远不会被打败
 
-起来，让我们歌唱，我们将胜利
-团结的旗帜已经前进
-你将和我一起行进
-这样你将看到你的歌声和旗帜绽放
-
+站起来，歌唱
+我们终将胜利
+现在前进
+团结的旗帜
+你们将会到来
+与我并肩作战
+你们将看到
+你们的歌声和你们的旗帜在蓬勃生长
 红色黎明的光芒
-已经宣告即将到来的生活
+正在宣告
+未来的生活
 
-团结的人民永远不会被战胜
-团结的人民永远不会被战胜
+站起来，战斗
+人民终将胜利
+未来的生活将会更加美好
+去征服
+我们的幸福
+在一片呐喊声中
+千军万马将齐声高唱
+自由之歌
+坚定不移
+祖国终将胜利
+
+现在，人民
+奋起战斗
+以巨人般的声音
+高喊：前进！团结的人民永不言败
+团结的人民永不言败
+
+祖国正在
+凝聚团结
+从北到南
+它将动员起来
+从盐滩
+燃烧的矿藏
+到南方的森林
+团结起来，共同奋斗
+他们将前进
+他们将覆盖祖国
+它的道路已经
+宣告未来
+
+站起来，歌唱
+人民将胜利
+数百万人已经
+将真理强加于人
+他们如同钢铁
+一支燃烧的军队
+他们的双手伸出
+带来正义和理性
+女人
+带着火焰和勇气
+你们已经在这里
+与工人并肩作战
 ```
 
 ### PINYIN
 **"Tuánjié de Rénmín Yǒngyuǎn Bù Huì Bèi Zhànshèng"**
 ```
-Tuánjié de rénmín yǒngyuǎn bù huì bèi zhànshèng
-Tuánjié de rénmín yǒngyuǎn bù huì bèi zhànshèng
+Tuánjié de rénmín yǒngyuǎn bù huì bèi dǎbài
+tuánjié de rénmín yǒngyuǎn bù huì bèi dǎbài
 
-Qǐlái, ràng wǒmen gēchàng, wǒmen jiāng shènglì
-Tuánjié de qízhì yǐjīng qiánjìn
-Nǐ jiāng hé wǒ yīqǐ xíngjìn
-Zhèyàng nǐ jiāng kàndào nǐ de gēshēng hé qízhì zhànfàng
+zhàn qǐlái, gēchàng
+wǒmen zhōng jiāng shènglì
+xiànzài qiánjìn
+tuánjié de qízhì
+nǐmen jiāng huì dàolái
+yǔ wǒ bìngjiān zuòzhàn
+nǐmen jiāng kàn dào
+nǐmen de gēshēng hé nǐmen de qízhì zài péngbó shēngzhǎng
+hóngsè límíng de guāngmáng
+zhèngzài xuāngào
+wèilái de shēnghuó
 
-Hóngsè límíng de guāngmáng
-Yǐjīng xuāngào jíjiāng dàolái de shēnghuó
+zhàn qǐlái, zhàndòu
+rénmín zhōng jiāng shènglì
+wèilái de shēnghuó jiāng huì gèngjiā měihǎo
+qù zhēngfú
+wǒmen de xìngfú
+zài yīpiàn nàhǎn shēng zhōng
+qiān jūn wàn mǎ jiāng qí shēnggāo chàng
+zìyóu zhī gē
+jiāndìng bù yí
+zǔguó zhōng jiāng shènglì
 
-Tuánjié de rénmín yǒngyuǎn bù huì bèi zhànshèng
-Tuánjié de rénmín yǒngyuǎn bù huì bèi zhànshèng
+xiànzài, rénmín
+fènqǐ zhàndòu
+yǐ jùrén bān de shēngyīn
+gāo hǎn: Qiánjìn! Tuánjié de rénmín yǒng bù yán bài
+tuánjié de rénmín yǒng bù yán bài
+
+zǔguó zhèngzài
+níngjù tuánjié
+cóng běi dào nán
+tā jiāng dòngyuán qǐlái
+cóng yán tān
+ránshāo de kuàngcáng
+dào nánfāng de sēnlín
+tuánjié qǐlái, gòngtóng fèndòu
+tāmen jiāng qiánjìn
+tāmen jiāng fùgài zǔguó
+tā de dàolù yǐjīng
+xuāngào wèilái
+
+zhàn qǐlái, gēchàng
+rénmín jiāng shènglì
+shù bǎi wàn rén yǐjīng
+jiāng zhēnlǐ qiángjiā yú rén
+tāmen rútóng gāngtiě
+yī zhī ránshāo de jūnduì
+tāmen de shuāngshǒu shēn chū
+dài lái zhèngyì hé lǐxìng
+nǚrén
+dài zháo huǒyàn hé yǒngqì
+nǐmen yǐjīng zài zhèlǐ
+yǔ gōngrén bìngjiān zuòzhàn
 ```
 
 ---

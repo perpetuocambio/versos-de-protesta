@@ -25,20 +25,39 @@ musicalComplexity: "intermediate"
 *Letra: Valeriano Orobón Fernández (1933) | Música: basada en "Varshavianka" polaca (1905) | Popularizada: Guerra Civil Española (1936)*
 
 ```
-Negras tormentas agitan los aires,
-nubes oscuras nos impiden ver,
-aunque nos espere el dolor y la muerte,
+Negras tormentas agitan los aires
+nubes oscuras nos impiden ver.
+Aunque nos espere el dolor y la muerte
 contra el enemigo nos llama el deber.
 
-El bien más preciado es la libertad,
-hay que defenderla con fe y valor,
-alza la bandera revolucionaria
-que del triunfo nos lleva en pos.
+El bien más preciado es la libertad
+hay que defenderla con fe y valor.
 
-A las barricadas, a las barricadas,
+Alza la bandera revolucionaria
+que del triunfo sin cesar nos lleva en pos.
+Alza la bandera revolucionaria
+que del triunfo sin cesar nos lleva en pos.
+
+Negras tormentas agitan los aires
+nubes oscuras nos impiden ver.
+Aunque nos espere el dolor y la muerte
+contra el enemigo nos llama el deber.
+
+El bien más preciado es la libertad
+hay que defenderla con fe y valor.
+
+Alza la bandera revolucionaria
+que del triunfo sin cesar nos lleva en pos.
+Alza la bandera revolucionaria
+que del triunfo sin cesar nos lleva en pos.
+
+En pie el pueblo obrero, a la batalla
+hay que derrocar a la reacción.
+
+¡A las barricadas! ¡A las barricadas!
 por el triunfo de la Confederación.
-A las barricadas, a las barricadas,
-por el triunfo de la Confederación.
+¡A las barricadas! ¡A las barricadas!
+por el triunfo de la Confederación. 
 ```
 
 #### **TABLA PEDAGÓGICA - EQUIVALENCIAS PALABRA POR PALABRA**
@@ -91,136 +110,279 @@ por el triunfo de la Confederación.
 
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
 
-### Español
-**"A las Barricadas" (ORIGINAL)**
-```
-Negras tormentas agitan los aires,
-nubes oscuras nos impiden ver,
-aunque nos espere el dolor y la muerte,
-contra el enemigo nos llama el deber.
-
-El bien más preciado es la libertad,
-hay que defenderla con fe y valor,
-alza la bandera revolucionaria
-que del triunfo nos lleva en pos.
-
-A las barricadas, a las barricadas,
-por el triunfo de la Confederación.
-A las barricadas, a las barricadas,
-por el triunfo de la Confederación.
-```
-
 ### English ENGLISH
 **"To the Barricades"**
 ```
-Black storms shake the skies above,
-dark clouds blind us from the light,
-though we face both pain and death,
-duty calls us to the fight.
+Black storms stir the air
+Dark clouds prevent us from seeing.
+Although pain and death await us,
+duty calls us against the enemy.
 
-Freedom is our precious prize,
-we must guard it strong and true,
-raise the banner of revolt
-that will lead us victory through.
+The most precious good is freedom
+it must be defended with faith and courage.
 
-To the barricades, to the barricades,
-for our union's triumph we shall fight.
-To the barricades, to the barricades,
-for our union's triumph we shall fight.
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+
+Black storms stir the air
+Dark clouds prevent us from seeing.
+Although pain and death await us,
+duty calls us against the enemy.
+
+The most precious good is freedom
+it must be defended with faith and courage.
+
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+
+The working people, rise up, to battle,
+we must overthrow reaction.
+
+To the barricades! To the barricades!
+for the triumph of the Confederation.
+To the barricades! To the barricades!
+for the triumph of the Confederation.
 ```
 
 ### Deutsch DEUTSCH
 **"Zu den Barrikaden"**
 ```
-Schwarze Stürme schütteln Himmel,
-dunkle Wolken blenden uns,
-ob uns wartet Schmerz und Sterben,
-ruft die Pflicht zum Widerstand.
+Schwarze Stürme wühlen in der Luft
+Dunkle Wolken versperren uns die Sicht.
+Obwohl Schmerz und Tod uns erwarten,
+ruft uns die Pflicht gegen den Feind.
 
-Freiheit ist das höchste Gut,
-wir verteid'gen es mit Mut,
-hisst die rote Fahne hoch,
-die zum Siege führen tut.
+Das kostbarste Gut ist die Freiheit,
+sie muss mit Glauben und Mut verteidigt werden.
 
-Zu den Barrikaden, zu den Barrikaden,
-für den Sieg der Konföderation.
-Zu den Barrikaden, zu den Barrikaden,
-für den Sieg der Konföderation.
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Schwarze Stürme wühlen in der Luft
+Dunkle Wolken versperren uns die Sicht.
+Obwohl Schmerz und Tod uns erwarten,
+ruft uns die Pflicht gegen den Feind.
+
+Das kostbarste Gut ist die Freiheit,
+sie muss mit Glauben und Mut verteidigt werden.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Werktätige, erhebt euch zum Kampf,
+wir müssen die Reaktion stürzen.
+
+Auf die Barrikaden! Auf die Barrikaden!
+für den Triumph der Konföderation.
+Auf die Barrikaden! Auf die Barrikaden! für den Triumph der Konföderation.
 ```
 
 ### Português PORTUGUÊS
 **"Para as Barricadas"**
 ```
-Negras tempestades agitam os ares,
-nuvens escuras nos impedem ver,
-embora nos espere a dor e a morte,
-contra o inimigo nos chama o dever.
+Tempestades negras agitam o ar
+Nuvens negras impedem-nos de ver.
+Embora a dor e a morte nos aguardem,
+o dever chama-nos contra o inimigo.
 
-O bem mais precioso é a liberdade,
-há que defendê-la com fé e valor,
-ergue a bandeira revolucionária
-que do triunfo nos leva em direção.
+O bem mais precioso é a liberdade
+deve ser defendida com fé e coragem.
 
-Para as barricadas, para as barricadas,
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+
+Tempestades negras agitam o ar
+Nuvens negras impedem-nos de ver.
+Embora a dor e a morte nos aguardem,
+o dever chama-nos contra o inimigo.
+
+O bem mais precioso é a liberdade
+deve ser defendida com fé e coragem.
+
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+
+Trabalhadores, levantai-vos, para a batalha,
+devemos derrubar a reação.
+
+Às barricadas! Às barricadas!
 pelo triunfo da Confederação.
-Para as barricadas, para as barricadas,
+Às barricadas! Às barricadas!
 pelo triunfo da Confederação.
 ```
 
 ### Русский РУССКИЙ
 **"На Баррикады"**
 ```
-Чёрные бури колышут небеса,
-тёмные тучи закрыли нам свет,
-хоть ожидают нас боль и смерть,
-долг призывает на битву с врагом.
+Черные бури колышут воздух.
+Темные тучи мешают нам видеть.
+Хотя нас ждут боль и смерть,
+долг зовет нас на борьбу с врагом.
 
-Самое ценное благо - свобода,
-надо защищать её с верой, с отвагой,
-поднимай знамя революции,
-что к победе ведёт нас вперёд.
+Самое драгоценное благо — свобода.
+Ее нужно защищать с верой и мужеством.
 
-На баррикады, на баррикады,
-за победу Конфедерации.
-На баррикады, на баррикады,
-за победу Конфедерации.
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Черные бури колышут воздух.
+Темные тучи мешают нам видеть.
+Хотя нас ждут боль и смерть,
+долг зовет нас на борьбу с врагом.
+
+Самое драгоценное благо — свобода.
+Ее нужно защищать с верой и мужеством.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Трудовой народ, вставайте на бой,
+мы должны свергнуть реакцию.
+
+На баррикады! На баррикады!
+За триумф Конфедерации.
+На баррикады! На баррикады!
+За торжество Конфедерации.
+```
+
+
+### РУССКИЙ ROM.
+
+```
+Chernyye buri kolyshut vozdukh.
+Temnyye tuchi meshayut nam videt'.
+Khotya nas zhdut bol' i smert',
+dolg zovet nas na bor'bu s vragom.
+
+Samoye dragotsennoye blago — svoboda.
+Yeye nuzhno zashchishchat' s veroy i muzhestvom.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Chernyye buri kolyshut vozdukh.
+Temnyye tuchi meshayut nam videt'.
+Khotya nas zhdut bol' i smert',
+dolg zovet nas na bor'bu s vragom.
+
+Samoye dragotsennoye blago — svoboda.
+Yeye nuzhno zashchishchat' s veroy i muzhestvom.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Trudovoy narod, vstavayte na boy,
+my dolzhny svergnut' reaktsiyu.
+
+Na barrikady! Na barrikady!
+Za triumf Konfederatsii.
+Na barrikady! Na barrikady!
+Za torzhestvo Konfederatsii.
 ```
 
 ### 中文 中文
 **"到街垒去"**
 ```
-黑色风暴摇撼天空，
-乌云遮蔽我们的视线，
-虽然等待我们的是痛苦和死亡，
-职责召唤我们对抗敌人。
+黑色风暴席卷而来
+乌云遮蔽了我们的视线。
+尽管痛苦和死亡在等待着我们，
+责任在召唤我们对抗敌人。
 
 最珍贵的财富是自由，
-必须用信念和勇气捍卫它，
-高举革命的旗帜，
-它将带领我们走向胜利。
+我们必须用信念和勇气去捍卫它。
 
-到街垒去，到街垒去，
-为了联盟的胜利。
-到街垒去，到街垒去，
-为了联盟的胜利。
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+黑色风暴席卷而来
+乌云遮蔽了我们的视线。
+尽管痛苦和死亡在等待着我们，
+责任在召唤我们对抗敌人。
+
+最珍贵的财富是自由，
+我们必须用信念和勇气去捍卫它。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+劳动人民，起来战斗，
+我们必须推翻反动派。
+
+走向街垒！走向街垒！
+为了联邦的胜利。
+冲上路障！冲上路障！
+为了邦联的胜利。
 ```
 
 **Pinyin:**
 ```
-Hēisè fēngbào yáohàn tiānkōng,
-wūyún zhēbì wǒmen de shìxiàn,
-suīrán děngdài wǒmen de shì tòngkǔ hé sǐwáng,
-zhízé zhàohuàn wǒmen duìkàng dírén.
+Hēisè fēngbào xíjuǎn ér lái
+wūyún zhēbìle wǒmen de shìxiàn.
+Jǐnguǎn tòngkǔ hé sǐwáng zài děngdàizhuó wǒmen,
+zérèn zài zhàohuàn wǒmen duìkàng dírén.
 
 Zuì zhēnguì de cáifù shì zìyóu,
-bìxū yòng xìnniàn hé yǒngqì hànwèi tā,
-gāojǔ gémìng de qízhì,
-tā jiāng dàilǐng wǒmen zǒuxiàng shènglì.
+wǒmen bìxū yòng xìnniàn hé yǒngqì qù hànwèi tā.
 
-Dào jiēlěi qù, dào jiēlěi qù,
-wèile liánméng de shènglì.
-Dào jiēlěi qù, dào jiēlěi qù,
-wèile liánméng de shènglì.
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Hēisè fēngbào xíjuǎn ér lái
+wūyún zhēbìle wǒmen de shìxiàn.
+Jǐnguǎn tòngkǔ hé sǐwáng zài děngdàizhuó wǒmen,
+zérèn zài zhàohuàn wǒmen duìkàng dírén.
+
+Zuì zhēnguì de cáifù shì zìyóu,
+wǒmen bìxū yòng xìnniàn hé yǒngqì qù hànwèi tā.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Láodòng rénmín, qǐlái zhàndòu,
+wǒmen bìxū tuīfān fǎndòngpài.
+
+Zǒuxiàng jiēlěi! Zǒuxiàng jiēlěi!
+Wèile liánbāng de shènglì.
+Chōng shàng lùzhàng! Chōng shàng lùzhàng!
+Wèile bānglián de shènglì.
 ```
 
 ---
