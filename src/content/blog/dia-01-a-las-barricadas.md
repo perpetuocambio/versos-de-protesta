@@ -1,20 +1,29 @@
 ---
-title: "A las Barricadas"
-description: "Análisis completo del himno anarquista 'A las Barricadas' con traducciones y análisis gramatical en 5 idiomas"
+title: "DÍA 1: A las Barricadas"
+description: "Análisis multilingüe del himno anarquista 'A las Barricadas' con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico de la Guerra Civil Española"
 pubDate: 2024-01-16
 contentType: "song-analysis"
-day: 1
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
-level: "intermediate"
-tags: ["himno-anarquista", "guerra-civil-española", "traducción", "análisis-musical"]
+day: 1
 originalSong:
   title: "A las Barricadas"
   artist: "Valeriano Orobón Fernández"
   year: 1933
+  language: "es"
+  genre: "anthem"
   origin: "España (basada en Varshavianka polaca de 1905)"
-languagesIncluded: ["es", "en", "de", "pt", "ru", "zh"]
-grammarTopics: ["subjuntivo", "imperativos", "adjetivos-posesivos", "comparaciones"]
-musicalComplexity: "intermediate"
+grammarTopics: 
+  - "Subjuntivo español"
+  - "Imperativos colectivos"
+  - "Adjetivos posesivos"
+vocabulary: 
+  - "barricadas"
+  - "libertad"
+  - "revolución"
+culturalContext: "Himno anarquista de la Guerra Civil Española basado en la Varshavianka polaca"
+difficultyLevel: "intermediate"
+estimatedTime: "60-90 min"
+tags: ["himno-anarquista", "guerra-civil-española", "traducción", "anarquismo", "gramática-comparativa"]
 ---
 
 # DÍA 1: "A LAS BARRICADAS" 
@@ -184,7 +193,8 @@ wir müssen die Reaktion stürzen.
 
 Auf die Barrikaden! Auf die Barrikaden!
 für den Triumph der Konföderation.
-Auf die Barrikaden! Auf die Barrikaden! für den Triumph der Konföderation.
+Auf die Barrikaden! Auf die Barrikaden!
+für den Triumph der Konföderation.
 ```
 
 ### Português PORTUGUÊS
@@ -306,7 +316,7 @@ Na barrikady! Na barrikady!
 Za torzhestvo Konfederatsii.
 ```
 
-### 中文 中文
+### 中文
 **"到街垒去"**
 ```
 黑色风暴席卷而来
@@ -346,7 +356,8 @@ Za torzhestvo Konfederatsii.
 为了邦联的胜利。
 ```
 
-**Pinyin:**
+### PINYIN
+**"Dào Jiēlěi Qù"**
 ```
 Hēisè fēngbào xíjuǎn ér lái
 wūyún zhēbìle wǒmen de shìxiàn.
@@ -506,58 +517,23 @@ Estribillo:| Am    | F     | G     | C     |
 
 ---
 
-## 🎯 EJERCICIOS PRÁCTICOS
+## 📚 RECURSOS ADICIONALES MÚSICA OBRERA
 
-### **Ejercicio 1: Traducción Comparativa**
-
-Traduce esta frase a los 6 idiomas estudiados:
-
-**"La libertad del pueblo no se negocia"**
-
-| Idioma | Tu traducción | Verificación |
-|--------|---------------|--------------|
-| **English** | _________________ | *People's freedom is not negotiable* |
-| **Deutsch** | _________________ | *Die Freiheit des Volkes ist nicht verhandelbar* |
-| **Português** | _________________ | *A liberdade do povo não se negocia* |
-| **Русский** | _________________ | *Свобода народа не подлежит торгу* |
-| **中文** | _________________ | *人民的自由不容谈判* |
-
-### **Ejercicio 2: Análisis de Subjuntivo**
-
-Identifica el modo verbal en cada versión:
-
-1. "Aunque nos espere el dolor" → **subjuntivo** (español)
-2. "Though we face the pain" → _____________ (inglés)
-3. "Ob uns wartet der Schmerz" → _____________ (alemán)
-4. "Embora nos espere a dor" → _____________ (portugués)
-
-### **Ejercicio 3: Práctica de Pronunciación**
-
-Usando el IPA proporcionado, practica estos términos clave:
-
-| Palabra | IPA | Idioma | Significado |
-|---------|-----|--------|-------------|
-| **trabajador** | [traβaˈxador] | Español | worker |
-| **revolution** | [ˌrɛvəˈluːʃən] | English | revolución |
-| **Freiheit** | [ˈfraɪhaɪt] | Deutsch | libertad |
-| **свобода** | [svɐˈbodə] | Русский | freedom |
-
----
-
-## 📚 RECURSOS ADICIONALES
-
-### **Enlaces Históricos**
-- **Archivo Sonoro CNT**: Grabaciones originales de "A las Barricadas"
+### **Archivos Históricos de "A las Barricadas"**
+- **Archivo Sonoro CNT**: Grabaciones originales de "A las Barricadas" (1936-1939)
 - **Biblioteca Nacional de España**: Partituras de himnos anarquistas
 - **International Institute of Social History**: Documentos CNT-FAI
+- **Fundación Anselmo Lorenzo**: Archivo musical libertario
 
-### **Versiones Musicales Recomendadas**
-1. **Chicho Sánchez Ferlosio** - Versión folk acústica
-2. **Manu Chao** - Adaptación contemporánea
-3. **Ewan MacColl** - Versión en inglés
-4. **Oktoberklub** - Versión alemana (DDR)
+### **Versiones Musicales Históricas**
+1. **Chicho Sánchez Ferlosio** - Versión folk acústica antifranquista
+2. **Quilapayún** - Adaptación solidaria chilena
+3. **Ewan MacColl** - Versión inglesa internacionalista
+4. **Oktoberklub** - Versión alemana (RDA, 1970s)
 
-### **Próxima Lección**
-**Día 2: "L'Internationale"** - El himno obrero internacional y sus traducciones en 5 idiomas con análisis de los sistemas de tiempos verbales futuros.
+### **Análisis Musicológicos**
+- "Cancionero Revolucionario Español" - Serge Salaün
+- "Music and Spanish Civil War" - Gemma Pérez Zalduondo  
+- "Songs of Struggle and Protest" - Smithsonian Folkways
 
 ---

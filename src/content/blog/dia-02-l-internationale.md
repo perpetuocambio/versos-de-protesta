@@ -1,20 +1,30 @@
 ---
-title: "L'Internationale"
-description: "Análisis completo del himno socialista internacional 'L'Internationale' con traducciones y análisis gramatical en 5 idiomas"
+title: "DÍA 2: L'Internationale"
+description: "Análisis multilingüe del himno socialista internacional 'L'Internationale' con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico de la Comuna de París"
 pubDate: 2024-01-17
 contentType: "song-analysis"
-day: 2
 primaryLanguages: ["fr", "es", "en", "de", "pt", "ru", "zh"]
-level: "advanced"
-tags: ["himno-socialista", "comuna-de-parís", "traducción", "futuro-verbal"]
+day: 2
 originalSong:
   title: "L'Internationale"
   artist: "Eugène Pottier / Pierre De Geyter"
   year: 1888
+  language: "fr"
+  genre: "anthem"
   origin: "Francia (letra 1871, música 1888)"
-languagesIncluded: ["fr", "es", "en", "de", "pt", "ru", "zh"]
-grammarTopics: ["futuro", "imperativo-plural", "tiempos-compuestos", "voz-pasiva"]
-musicalComplexity: "intermediate"
+grammarTopics: 
+  - "Futuro francés vs otros idiomas"
+  - "Imperativos plurales"
+  - "Tiempos compuestos"
+  - "Voz pasiva"
+vocabulary: 
+  - "internationale"
+  - "prolétariat"
+  - "révolution"
+culturalContext: "Himno socialista internacional nacido de la Comuna de París"
+difficultyLevel: "advanced"
+estimatedTime: "90-105 min"
+tags: ["himno-socialista", "comuna-de-parís", "francia", "socialismo", "gramática-comparativa"]
 ---
 
 # DÍA 2: L'INTERNATIONALE
@@ -309,15 +319,7 @@ Völker, hört die Signale!
 Auf, zum letzten Gefecht!
 Die Internationale
 Erkämpft das Menschenrecht!
-See pop shows near Marbella
-Get tickets as low as $13
-You might also like
-Imagine
-John Lennon
-Das Zelt
-Jeans Team
-Linksradikaler Schlager
-Swiss
+
 In Stadt und Land, ihr Arbeitsleute
 Wir sind die stärkste der Partei'n
 Die Müßiggänger schiebt beiseite!
@@ -646,27 +648,88 @@ Siyat' ognyom svoikh luchey.
 
 ```
 
-**Pinyin:**
+### PINYIN
+**"Guójì Gē"**
 ```
-qǐlái, jīhán jiāopò de núlì!
-Qǐlái, quán shìjiè shòukǔ de rén! 
-Mǎnqiāng de rèxuè yǐjīng fèiténg, 
-yào wéi zhēnlǐ ér dòuzhēng! 
-Jiù shìjiè dǎ gè luòhuāliúshuǐ, 
-núlìmen qǐlái, qǐlái! 
-Bùyào shuō wǒmen yīwúsuǒyǒu, 
-wǒmen yào zuò tiānxià de zhǔrén! 
-Fù gē zhè shì zuìhòu de dòuzhēng, 
+(yī)
+Qǐlái, jīhán jiāopò de núlì!
+Qǐlái, quán shìjiè shòukǔ de rén!
+Mǎnqiāng de rèxuè yǐjīng fèiténg,
+yào wéi zhēnlǐ ér dòuzhēng!
+Jiù shìjiè dǎ gè luòhuāliúshuǐ,
+núlìmen qǐlái, qǐlái!
+Bùyào shuō wǒmen yīwúsuǒyǒu,
+wǒmen yào zuò tiānxià de zhǔrén!
+
+Fù gē
+Zhè shì zuìhòu de dòuzhēng,
 tuánjié qǐlái dào míngtiān,
-yīng tè nà xióng nài ěr jiù yīdìng yào shíxiàn! 
-Zhè shì zuìhòu de dòuzhēng, tuánjié qǐlái dào míngtiān, 
-yīng tè nà xióng nài ěr jiù yīdìng yào shíxiàn! 
+Yīng tè nà xióng nài ěr
+jiù yīdìng yào shíxiàn!
+Zhè shì zuìhòu de dòuzhēng,
+tuánjié qǐlái dào míngtiān,
+Yīng tè nà xióng nài ěr
+jiù yīdìng yào shíxiàn!
 
-cónglái jiù méiyǒu shé me jiùshìzhǔ, yě bù kào shénxiān huángdì! Yào chuàngzào rénlèi de xìngfú, quán kào wǒmen zìjǐ! Wǒmen yào duóhuí láodòng guǒshí, ràng sīxiǎng chōngpò láolóng! Kuài bǎ nà lú huǒshāo dé tōnghóng, chènrèdǎtiě cáinéng chénggōng! Fù gē 
+(èr)
+Cónglái jiù méiyǒu shé me jiùshìzhǔ,
+yě bù kào shénxiān huángdì!
+Yào chuàngzào rénlèi de xìngfú,
+quán kào wǒmen zìjǐ!
+Wǒmen yào duóhuí láodòng guǒshí,
+ràng sīxiǎng chōngpò láolóng!
+Kuài bǎ nà lú huǒshāo dé tōnghóng,
+chènrèdǎtiě cáinéng chénggōng!
 
-shì shéi chuàngzàole rénlèi shìjiè? Shì wǒmen láodòng qúnzhòng! Yīqiè guī láodòng zhě suǒyǒu, nǎ néng róng dé jìshēng chóng?! Zuì kěhèn nàxiē dúshé měngshòu, chī jǐnle wǒmen de xiěròu! Yīdàn bǎ tāmen xiāomiè gānjìng, xiānhóng de tàiyáng zhào biàn quánqiú! Fù gē (sān) yāpò de guójiā, kōngdòng de fǎlǜ, kējuānzáshuì zhà qióngkǔ. Wú yìwù de fù rén jìn xiǎng xiāoyáo, qióng rén de quánlì jǐn shì kōng huà. Shòu gòule `jiānhù'xià de chénlún, píngděng hūhuàn xīn de fǎlǜ: Méiyǒu wú yìwù de quánlì, yě méiyǒu wú quánlì de yìwù! Fù gē 
+Fù gē
 
-kuàngjǐng hé tiělù de dìwáng, zài shén tánshàng qí chǒu wúbǐ. Tāmen chúle lüèduó láodòng, hái huì zuò xiē shénme ne? Zài tāmen de bǎoxiǎnxiāng lǐ, láodòng de cáifù duījī chéngshān! Cóng nàxiē bōxuè zhě de shǒu lǐ, rénmín zhǐshì tǎo huí xuèzhài. Fù gē (wǔ) guówáng yòng xiāoyān míhuò wǒmen, wǒmen yào tuánjié tǎofá tā. Ràng jūn zhōng zhànshì yīqí bàgōng, shǐ bàolì jīqì luàn zuò yī tuán. Shí rén mómen ruò gǎn zài xià mìnglìng, jiào wǒmen sòngsǐ chéng qí xūróng; tāmen jiāng huì kàn dào zǐdàn, huì shè xiàng wǒmen de jiāngjūn! Fù gē
+(liù)
+Shì shéi chuàngzàole rénlèi shìjiè?
+Shì wǒmen láodòng qúnzhòng!
+Yīqiè guī láodòng zhě suǒyǒu,
+nǎ néng róng dé jìshēng chóng?!
+Zuì kěhèn nàxiē dúshé měngshòu,
+chī jǐnle wǒmen de xiěròu!
+Yīdàn bǎ tāmen xiāomiè gānjìng,
+xiānhóng de tàiyáng zhào biàn quánqiú!
+
+Fù gē
+
+(sān)
+Yāpò de guójiā, kōngdòng de fǎlǜ,
+kējuānzáshuì zhà qióngkǔ.
+Wú yìwù de fù rén jìn xiǎng xiāoyáo,
+qióng rén de quánlì jǐn shì kōng huà.
+Shòu gòule 'jiānhù' xià de chénlún,
+píngděng hūhuàn xīn de fǎlǜ:
+Méiyǒu wú yìwù de quánlì,
+yě méiyǒu wú quánlì de yìwù!
+
+Fù gē
+
+(sì)
+Kuàngjǐng hé tiělù de dìwáng,
+zài shén tánshàng qí chǒu wúbǐ.
+Tāmen chúle lüèduó láodòng,
+hái huì zuò xiē shénme ne?
+Zài tāmen de bǎoxiǎnxiāng lǐ,
+láodòng de cáifù duījī chéngshān!
+Cóng nàxiē bōxuè zhě de shǒu lǐ,
+rénmín zhǐshì tǎo huí xuèzhài.
+
+Fù gē
+
+(wǔ)
+Guówáng yòng xiāoyān míhuò wǒmen,
+wǒmen yào tuánjié tǎofá tā.
+Ràng jūn zhōng zhànshì yīqí bàgōng,
+shǐ bàolì jīqì luàn zuò yī tuán.
+Shí rén mómen ruò gǎn zài xià mìnglìng,
+jiào wǒmen sòngsǐ chéng qí xūróng;
+tāmen jiāng huì kàn dào zǐdàn,
+huì shè xiàng wǒmen de jiāngjūn!
+
+Fù gē
 ```
 
 ---
@@ -780,53 +843,26 @@ Estribillo:| C     | G     | Am    | Dm    |
 
 ---
 
-## 🎯 EJERCICIOS PRÁCTICOS
+## 📚 RECURSOS ADICIONALES SOCIALISMO INTERNACIONAL
 
-### **Ejercicio 1: Formas de Futuro**
+### **Archivos Históricos de L'Internationale**
+- **Bibliothèque nationale de France**: Manuscritos originales Pottier/De Geyter
+- **Marx-Engels-Gesamtausgabe**: Correspondencia sobre adopción socialista
+- **Hoover Institution Archives**: Versiones en 100+ idiomas
+- **Instituto Gramsci**: Análisis de difusión italiana
 
-Identifica el tipo de futuro en cada idioma:
+### **Grabaciones Históricas Fundamentales**
+- **Versión francesa original** (Pierre De Geyter, 1888)
+- **Coro del Ejército Rojo** - Himno oficial URSS (1920s-1944)
+- **Pete Seeger & Woody Guthrie** - Versión folk americana antifascista
+- **Amália Rodrigues** - Adaptación fado portuguesa clandestina
+- **Ernst Busch** - Versión alemana de resistencia antinazi
 
-1. **Francés**: "Le monde va changer" → _____________
-2. **Español**: "El mundo va a cambiar" → _____________  
-3. **Inglés**: "The world will change" → _____________
-4. **Alemán**: "Die Welt wird sich ändern" → _____________
-
-### **Ejercicio 2: Imperativos Colectivos**
-
-Convierte a imperativo plural:
-
-1. **Español**: "Levántate" → _____________
-2. **Francés**: "Lève-toi" → _____________
-3. **Inglés**: "Rise" → _____________
-4. **Alemán**: "Steh auf" → _____________
-
-### **Ejercicio 3: Análisis de Negación**
-
-Analiza la estructura negativa:
-
-1. "Nous ne sommes rien" (francés)
-   - Elementos: _______ + _______ + _______
-2. "We are nothing" (inglés)  
-   - Elementos: _______ + _______ + _______
-3. "Мы ничего не имеем" (ruso)
-   - Elementos: _______ + _______ + _______ + _______
-
----
-
-## 📚 RECURSOS ADICIONALES
-
-### **Grabaciones Históricas**
-- **Versión original francesa** (1888)
-- **Coro del Ejército Rojo** (1920s-1940s)
-- **Pete Seeger** - Versión folk americana
-- **Amalia Rodrigues** - Adaptación fado portuguesa
-
-### **Análisis Musicológicos**
-- "L'Internationale: Hymne et symbole" - Claude Pennetier
-- "Songs of Social Protest" - Smithsonian Folkways
-- "Música y Revolución" - Josep Martí
-
-### **Próxima Lección**
-**Día 3: "Bella Ciao"** - Análisis de la canción partisana italiana con enfoque en construcciones temporales del pasado y aspectos verbales.
+### **Análisis Musicológicos Especializados**
+- "L'Internationale: Hymne et symbole" - Claude Pennetier (PCF)
+- "The International in 100 Languages" - Smithsonian Folkways
+- "Música y Revolución: Cantos Socialistas" - Josep Martí
+- "Hymns of Revolutionary Socialism" - Eric Hobsbawm
+- "Soviet Musical Culture and Socialist Realism" - Boris Schwarz
 
 ---

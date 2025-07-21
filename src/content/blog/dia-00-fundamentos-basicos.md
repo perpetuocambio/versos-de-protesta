@@ -1,15 +1,30 @@
 ---
-title: "Fundamentos Básicos - Conceptos Gramaticales"
+title: "DÍA 0: Fundamentos Básicos - Conceptos Gramaticales"
 description: "Introducción a sistemas gramaticales fundamentales a través de música obrera internacional en 5 idiomas"
 pubDate: 2024-01-15
 contentType: "grammar"
-day: 0
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
-level: "beginner"
-tags: ["gramática", "fundamentos", "multilingüe", "música-obrera"]
-languagesIncluded: ["es", "en", "de", "pt", "ru", "zh"]
-grammarTopics: ["artículos", "pronombres", "casos", "conjugación-verbal", "preposiciones"]
-musicalComplexity: "simple"
+day: 0
+originalSong:
+  title: "Fundamentos Gramaticales"
+  artist: "Conceptos Teóricos"
+  year: 2024
+  language: "es"
+  genre: "educational"
+  origin: "Síntesis pedagógica"
+grammarTopics: 
+  - "Artículos definidos e indefinidos"
+  - "Sistemas pronominales"
+  - "Casos rusos básicos"
+  - "Conjugación verbal comparativa"
+vocabulary: 
+  - "trabajador"
+  - "canción"
+  - "pueblo"
+culturalContext: "Introducción teórica a la música obrera internacional como base pedagógica"
+difficultyLevel: "beginner"
+estimatedTime: "45-60 min"
+tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducción"]
 ---
 
 # DÍA 0: FUNDAMENTOS BÁSICOS - CONCEPTOS GRAMATICALES
