@@ -20,7 +20,7 @@ musicalComplexity: "simple"
 
 #### **TRADICIONES MUSICALES OBRERAS POR REGIÓN**
 
-| Región | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Tradición** | Canción Obrera | Worker Song | Arbeiterlied | Canção Operária | Рабочая песня | Rabóchaya pésnya | 工人歌曲 | gōngrén gēqǔ |
 | **Periodo clave** | 1840-presente | 1840-present | 1840-Gegenwart | 1840-presente | 1840-настоящее | 1840-nastoyáshcheye | 1840年至今 | 1840 nián zhì jīn |
@@ -28,7 +28,7 @@ musicalComplexity: "simple"
 
 #### **CARACTERÍSTICAS MUSICALES UNIVERSALES**
 
-| Característica | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Característica | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Ritmo** | Compás de marcha | March rhythm | Marschrhythmus | Compasso de marcha | Маршевый ритм | Márshevyy ritm | 进行曲节拍 | jìnxíngqǔ jiépāi |
 | **Melodía** | Fácil de cantar | Easy to sing | Leicht singbar | Fácil de cantar | Легко петь | Legkó pet' | 容易唱 | róngyì chàng |
@@ -37,7 +37,7 @@ musicalComplexity: "simple"
 
 #### **CONTEXTO HISTÓRICO INTERNACIONAL EN 5 IDIOMAS**
 
-| País | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| País | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |------|-----|-----|-----|-----|------|---------|------|-----------|
 | **España** | Coplas anarquistas CNT-FAI (1936), resistencia antifranquista | Anarchist coplas CNT-FAI (1936), anti-Franco resistance | Anarchistische Coplas CNT-FAI (1936), Anti-Franco-Widerstand | Coplas anarquistas CNT-FAI (1936), resistência antifranquista | Анархистские коплы CNT-FAI (1936), антифранкистское сопротивление | Anarkhístskiye kópły CNT-FAI (1936), antifránkistskoye soprotivléniye | 无政府主义歌谣CNT-FAI (1936)，反佛朗哥抵抗 | wúzhèngfǔzhǔyì gēyáo CNT-FAI (1936), fǎn Fólǎnggē dǐkàng |
 | **Reino Unido/EE.UU.** | Spirituals abolicionistas (1850), IWW songs (Joe Hill), protest folk | Abolitionist spirituals (1850), IWW songs (Joe Hill), protest folk | Abolitionistische Spirituals (1850), IWW-Lieder (Joe Hill), Protest-Folk | Spirituals abolicionistas (1850), canções IWW (Joe Hill), protest folk | Аболиционистские спиричуэлс (1850), песни IWW (Джо Хилл), протест-фолк | Abolitsionístskiye spirichuéls (1850), pésni IWW (Dzho Khill), protést-folk | 废奴主义灵歌 (1850)，IWW歌曲 (乔·希尔)，抗议民谣 | fèinú zhǔyì línggē (1850), IWW gēqǔ (Qiáo Xī'ěr), kàngyì mínyáo |
@@ -72,7 +72,7 @@ musicalComplexity: "simple"
 
 **Ejemplos musicales**: *el trabajador*, *la revolución*, *los obreros*, *las canciones*
 
-#### 🇬🇧 INGLÉS - SISTEMA SIMPLIFICADO
+#### English INGLÉS - SISTEMA SIMPLIFICADO
 | Tipo | Forma | Uso | Ejemplo |
 |------|-------|-----|---------|
 | **Definido** | the | único/específico | **the** worker |
@@ -81,7 +81,7 @@ musicalComplexity: "simple"
 
 **Regla**: *a* + consonante, *an* + vocal: *a worker*, *an anthem*
 
-#### 🇩🇪 ALEMÁN - SISTEMA CON CASOS
+#### Deutsch ALEMÁN - SISTEMA CON CASOS
 | Caso | Masculino | Femenino | Neutro | Ejemplo |
 |------|-----------|----------|--------|---------|
 | **Nominativ** | der | die | das | **Der Arbeiter** singt |
@@ -89,7 +89,7 @@ musicalComplexity: "simple"
 | **Dativ** | dem | der | dem | Mit **dem Arbeiter** |
 | **Genitiv** | des | der | des | Das Lied **des Arbeiters** |
 
-#### 🇵🇹 PORTUGUÊS - SISTEMA CON CONTRACCIONES
+#### Português PORTUGUÊS - SISTEMA CON CONTRACCIONES
 | Género | Definido Sing | Definido Pl | Indefinido Sing | Indefinido Pl |
 |--------|---------------|-------------|-----------------|---------------|
 | **Masculino** | o | os | um | uns |
@@ -97,14 +97,14 @@ musicalComplexity: "simple"
 
 **Contracciones obligatorias**: *do* (de + o), *da* (de + a), *no* (em + o), *na* (em + a)
 
-#### 🇷🇺 RUSO - SISTEMA SIN ARTÍCULOS
+#### Русский RUSO - SISTEMA SIN ARTÍCULOS
 **Características**:
 - **Sin artículos definidos/indefinidos** como el/la/un/una
 - **Determinación por contexto** y terminaciones de caso
 - **Demostrativos**: этот (este), тот (aquel), такой (tal)
 - **Posesivos**: мой (mi), твой (tu), наш (nuestro)
 
-#### 🇨🇳 CHINO - SISTEMA SIN ARTÍCULOS
+#### 中文 CHINO - SISTEMA SIN ARTÍCULOS
 **Características**:
 - **Sin artículos** definidos/indefinidos
 - **Determinación por**: contexto, posición, clasificadores
@@ -132,7 +132,7 @@ musicalComplexity: "simple"
 | **3ª pl M** | ellos | los | les | se |
 | **3ª pl F** | ellas | las | les | se |
 
-#### 🇬🇧 INGLÉS - PRONOMBRES PERSONALES
+#### English INGLÉS - PRONOMBRES PERSONALES
 | Persona | Subject | Object | Possessive | Reflexive |
 |---------|---------|--------|------------|-----------|
 | **1st sing** | I | me | my/mine | myself |
@@ -144,7 +144,7 @@ musicalComplexity: "simple"
 | **2nd pl** | you | you | your/yours | yourselves |
 | **3rd pl** | they | them | their/theirs | themselves |
 
-#### 🇩🇪 ALEMÁN - PRONOMBRES POR CASOS
+#### Deutsch ALEMÁN - PRONOMBRES POR CASOS
 | Persona | Nominativ | Akkusativ | Dativ | Genitiv |
 |---------|-----------|-----------|-------|---------|
 | **1ª sing** | ich | mich | mir | meiner |
@@ -156,7 +156,7 @@ musicalComplexity: "simple"
 | **2ª pl** | ihr | euch | euch | euer |
 | **3ª pl** | sie | sie | ihnen | ihrer |
 
-#### 🇵🇹 PORTUGUÊS - PRONOMBRES PERSONALES
+#### Português PORTUGUÊS - PRONOMBRES PERSONALES
 | Pessoa | Sujeito | Objeto Direto | Objeto Indireto | Reflexivo |
 |--------|---------|---------------|-----------------|-----------|
 | **1ª sing** | eu | me | me | me |
@@ -170,7 +170,7 @@ musicalComplexity: "simple"
 
 **Diferencias con español**: *lhe* (le), *lhes* (les), *vós* (vosotros arcaico)
 
-#### 🇷🇺 РУССКИЙ - PRONOMBRES POR CASOS
+#### Русский РУССКИЙ - PRONOMBRES POR CASOS
 | Лицо | И.п. | В.п. | Р.п. | Д.п. | Т.п. | П.п. |
 |------|------|------|------|------|------|------|
 | **1л ед** | я | меня | меня | мне | мной | обо мне |
@@ -182,7 +182,7 @@ musicalComplexity: "simple"
 | **2л мн** | вы | вас | вас | вам | вами | о вас |
 | **3л мн** | они | их | их | им | ими | о них |
 
-#### 🇨🇳 CHINO - PRONOMBRES SIN FLEXIÓN
+#### 中文 CHINO - PRONOMBRES SIN FLEXIÓN
 | Persona | Sujeto | Objeto | Posesivo | Ejemplo |
 |---------|---------|--------|----------|---------|
 | **1ª sing** | 我 wǒ | 我 wǒ | 我的 wǒ de | 我唱歌 wǒ chàng gē |
@@ -203,7 +203,7 @@ musicalComplexity: "simple"
 
 ### 🚀 PHRASAL VERBS Y PARTÍCULAS SEPARABLES
 
-#### 🇬🇧 PHRASAL VERBS FUNDAMENTALES EN CANCIONES OBRERAS
+#### English PHRASAL VERBS FUNDAMENTALES EN CANCIONES OBRERAS
 
 | Phrasal Verb | Significado | Ejemplo en canción obrera | Separable |
 |--------------|-------------|---------------------------|----------|
@@ -220,7 +220,7 @@ musicalComplexity: "simple"
 - **Separable**: "Stand **the workers** up" / "Stand them up"
 - **No separable**: "Come together" (NUNCA "Come workers together")
 
-#### 🇩🇪 VERBOS SEPARABLES ALEMANES CRÍTICOS
+#### Deutsch VERBOS SEPARABLES ALEMANES CRÍTICOS
 
 | Verbo Separable | Significado | Ejemplo en Arbeiterlied | Posición |
 |-----------------|-------------|-------------------------|----------|
@@ -235,7 +235,7 @@ musicalComplexity: "simple"
 **REGLA V2**: En oraciones principales, partícula VA AL FINAL
 - "Heute **stehen** die Arbeiter **auf**" (Hoy se levantan los trabajadores)
 
-#### 🇷🇺 VERBOS DE MOVIMIENTO + PREFIJOS DIRECCIONALES
+#### Русский VERBOS DE MOVIMIENTO + PREFIJOS DIRECCIONALES
 
 | Verbo Base | + Prefijo | Significado | Ejemplo obrero |
 |------------|-----------|-------------|----------------|
@@ -249,7 +249,7 @@ musicalComplexity: "simple"
 
 #### COMPARACIÓN EN 5 IDIOMAS
 
-| Concepto | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇨🇳 |
+| Concepto | Español | English | Deutsch | Português | Русский | 中文 |
 |----------|-----|-----|-----|-----|-----|-----|
 | **"A pesar de"** | a pesar de | in spite of | trotz + Gen | apesar de | несмотря на + Acc | 尽管 jǐnguǎn |
 | **"En lugar de"** | en lugar de | instead of | anstatt + Gen | em vez de | вместо + Gen | 而不是 ér bú shì |
@@ -257,9 +257,9 @@ musicalComplexity: "simple"
 | **"A través de"** | a través de | through | durch + Acc | através de | через + Acc | 通过 tōngguò |
 
 **EJEMPLO OBRERO**: "A pesar de la represión, seguimos luchando"
-- 🇬🇧: "In spite of repression, we keep fighting"
-- 🇩🇪: "Trotz **der Unterdrückung** kämpfen wir weiter" (Genitivo obligatorio)
-- 🇷🇺: "Несмотря на **подавление**, мы продолжаем бороться" (Acusativo obligatorio)
+- English: "In spite of repression, we keep fighting"
+- Deutsch: "Trotz **der Unterdrückung** kämpfen wir weiter" (Genitivo obligatorio)
+- Русский: "Несмотря на **подавление**, мы продолжаем бороться" (Acusativo obligatorio)
 
 ### 🗣️ VOZ PASIVA Y CONSTRUCCIONES IMPERSONALES
 
@@ -269,12 +269,12 @@ musicalComplexity: "simple"
 
 | Idioma | Construcción Pasiva | Notas Críticas |
 |--------|---------------------|----------------|
-| 🇪🇸 | Los trabajadores **fueron reprimidos** | Pasiva perfecta con SER |
-| 🇬🇧 | Workers **were repressed** | Pasiva simple |
-| 🇩🇪 | Die Arbeiter **wurden unterdrückt** | Pasiva con WERDEN |
-| 🇵🇹 | Os trabalhadores **foram reprimidos** | Similar al español |
-| 🇷🇺 | Рабочие **были подавлены** | Pasiva con БЫТЬ |
-| 🇨🇳 | 工人**被**镇压了 | Construcción 被 [bèi] obligatoria |
+| Español | Los trabajadores **fueron reprimidos** | Pasiva perfecta con SER |
+| English | Workers **were repressed** | Pasiva simple |
+| Deutsch | Die Arbeiter **wurden unterdrückt** | Pasiva con WERDEN |
+| Português | Os trabalhadores **foram reprimidos** | Similar al español |
+| Русский | Рабочие **были подавлены** | Pasiva con БЫТЬ |
+| 中文 | 工人**被**镇压了 | Construcción 被 [bèi] obligatoria |
 
 #### CONSTRUCCIONES IMPERSONALES
 
@@ -282,11 +282,11 @@ musicalComplexity: "simple"
 
 | Idioma | Construcción | Análisis |
 |--------|--------------|----------|
-| 🇪🇸 | **Se** lucha por la libertad | SE impersonal |
-| 🇬🇧 | **There is** fighting for freedom | THERE + BE + -ING |
-| 🇩🇪 | **Es wird** für die Freiheit gekämpft | ES WIRD + participio |
-| 🇷🇺 | **За свободу борются** | Sin sujeto explícito |
-| 🇨🇳 | **为了**自由**而**战斗 | Construcción 为了...而... |
+| Español | **Se** lucha por la libertad | SE impersonal |
+| English | **There is** fighting for freedom | THERE + BE + -ING |
+| Deutsch | **Es wird** für die Freiheit gekämpft | ES WIRD + participio |
+| Русский | **За свободу борются** | Sin sujeto explícito |
+| 中文 | **为了**自由**而**战斗 | Construcción 为了...而... |
 
 ### 🎭 SUBJUNTIVO Y MODOS VERBALES EN CONTEXTO OBRERO
 
@@ -296,12 +296,12 @@ musicalComplexity: "simple"
 
 | Idioma | Construcción | Modo |
 |--------|--------------|------|
-| 🇪🇸 | Ojalá que los trabajadores **se unan** | Subjuntivo presente |
-| 🇬🇧 | I wish (that) workers **would unite** | Condicional |
-| 🇩🇪 | Ich wünschte, die Arbeiter **würden sich vereinen** | Konjunktiv II |
-| 🇵🇹 | Oxalá que os trabalhadores **se unam** | Subjuntivo (similar español) |
-| 🇷🇺 | Хотелось бы, чтобы рабочие **объединились** | Subjuntivo con Бы |
-| 🇨🇳 | 希望工人们**能够**团结 | Modo potencial 能够 |
+| Español | Ojalá que los trabajadores **se unan** | Subjuntivo presente |
+| English | I wish (that) workers **would unite** | Condicional |
+| Deutsch | Ich wünschte, die Arbeiter **würden sich vereinen** | Konjunktiv II |
+| Português | Oxalá que os trabalhadores **se unam** | Subjuntivo (similar español) |
+| Русский | Хотелось бы, чтобы рабочие **объединились** | Subjuntivo con Бы |
+| 中文 | 希望工人们**能够**团结 | Modo potencial 能够 |
 
 ---
 
@@ -319,7 +319,7 @@ musicalComplexity: "simple"
 | **Condicional** | cantaría | cantarías | cantaría | cantaríamos | cantaríais | cantarían |
 | **Subjuntivo Pres** | cante | cantes | cante | cantemos | cantéis | canten |
 
-##### 🇬🇧 INGLÉS - CONJUGACIÓN "SING"
+##### English INGLÉS - CONJUGACIÓN "SING"
 | Tense | I | you | he/she/it | we | you | they |
 |-------|---|-----|-----------|----|----|------|
 | **Present Simple** | sing | sing | sings | sing | sing | sing |
@@ -329,7 +329,7 @@ musicalComplexity: "simple"
 | **Present Perfect** | have sung | have sung | has sung | have sung | have sung | have sung |
 | **Future** | will sing | will sing | will sing | will sing | will sing | will sing |
 
-##### 🇩🇪 ALEMÁN - CONJUGACIÓN "SINGEN"
+##### Deutsch ALEMÁN - CONJUGACIÓN "SINGEN"
 | Zeit | ich | du | er/sie/es | wir | ihr | sie |
 |------|-----|----|-----------|----|-----|-----|
 | **Präsens** | singe | singst | singt | singen | singt | singen |
@@ -338,7 +338,7 @@ musicalComplexity: "simple"
 | **Futur I** | werde singen | wirst singen | wird singen | werden singen | werdet singen | werden singen |
 | **Konjunktiv II** | sänge | sängest | sänge | sängen | sänget | sängen |
 
-##### 🇵🇹 PORTUGUÊS - CONJUGAÇÃO "CANTAR"
+##### Português PORTUGUÊS - CONJUGAÇÃO "CANTAR"
 | Tempo | eu | tu | ele/ela | nós | vós | eles/elas |
 |-------|----|----|---------|-----|-----|-----------|
 | **Presente** | canto | cantas | canta | cantamos | cantais | cantam |
@@ -347,7 +347,7 @@ musicalComplexity: "simple"
 | **Futuro** | cantarei | cantarás | cantará | cantaremos | cantareis | cantarão |
 | **Condicional** | cantaria | cantarias | cantaria | cantaríamos | cantaríeis | cantariam |
 
-##### 🇷🇺 РУССКИЙ - СПРЯЖЕНИЕ "ПЕТЬ"
+##### Русский РУССКИЙ - СПРЯЖЕНИЕ "ПЕТЬ"
 | Время | я | ты | он/она/оно | мы | вы | они |
 |-------|---|----|-------------|----|----|-----|
 | **Настоящее** | пою | поёшь | поёт | поём | поёте | поют |
@@ -355,7 +355,7 @@ musicalComplexity: "simple"
 | **Будущее** | буду петь | будешь петь | будет петь | будем петь | будете петь | будут петь |
 | **Повелительное** | - | пой | пусть поёт | споём | пойте | пусть поют |
 
-##### 🇨🇳 CHINO - CONJUGACIÓN "唱" (CHÀNG)
+##### 中文 CHINO - CONJUGACIÓN "唱" (CHÀNG)
 | 时态 | 我 | 你 | 他/她/它 | 我们 | 你们 | 他们 |
 |------|----|----|---------|------|------|------|
 | **现在** | 我唱 | 你唱 | 他唱 | 我们唱 | 你们唱 | 他们唱 |
@@ -366,7 +366,7 @@ musicalComplexity: "simple"
 
 #### COMPARACIÓN BÁSICA - PRESENTE SIMPLE
 
-| Persona | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Persona | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |---------|-----|-----|-----|-----|------|---------|------|-----------|
 | **1ª sing** | canto | I sing | ich singe | canto | пою | póyu | 我唱 | wǒ chàng |
 | **2ª sing** | cantas | you sing | du singst | cantas | поёшь | poyósh' | 你唱 | nǐ chàng |
@@ -377,34 +377,34 @@ musicalComplexity: "simple"
 
 #### AUXILIARES Y ASPECTOS ESPECÍFICOS
 
-##### 🇬🇧 INGLÉS - ASPECTOS
+##### English INGLÉS - ASPECTOS
 | Aspecto | Forma | Ejemplo | Función |
 |---------|-------|---------|---------|
 | **Simple** | sing | Workers sing | Acción habitual |
 | **Continuous** | are singing | Workers are singing | Acción en progreso |
 | **Perfect** | have sung | Workers have sung | Resultado presente |
 
-##### 🇩🇪 ALEMÁN - AUXILIARES
+##### Deutsch ALEMÁN - AUXILIARES
 | Zeit | Auxiliar | Partizip | Beispiel |
 |------|----------|----------|----------|
 | **Perfekt** | haben/sein | gesungen | Wir *haben gesungen* |
 | **Plusquamperfekt** | hatte/war | gesungen | Sie *hatten gesungen* |
 | **Futur II** | werde haben | gesungen | Wir *werden gesungen haben* |
 
-##### 🇵🇹 PORTUGUÊS vs Español
+##### Português PORTUGUÊS vs Español
 | Tempo | Português | Español | Diferencia |
 |-------|-----------|---------|-----------|
 | **Pretérito Perfeito** | cantei, cantaste, cantou | canté, cantaste, cantó | -ei/-e, -ou/-ó |
 | **Gerúndio** | cantando | cantando | Idéntico |
 | **Futuro do Pretérito** | cantaria | cantaría | -ia/-ía (acentuación) |
 
-##### 🇷🇺 РУССКИЙ - ASPECTOS
+##### Русский РУССКИЙ - ASPECTOS
 | Вид | Función | Пример | Romanización |
 |-----|---------|--------|--------------|
 | **Несовершенный** | Proceso/repetición | петь, пою, пел | pet', póyu, pel |
 | **Совершенный** | Resultado/único | спеть, спою, спел | spet', spóyu, spel |
 
-##### 🇨🇳 CHINO - MARCADORES ASPECTUALES
+##### 中文 CHINO - MARCADORES ASPECTUALES
 | 标记 | 功能 | 例句 | Pinyin |
 |------|------|------|--------|
 | **了** | Perfectivo | 我唱了 | wǒ chàng le |
@@ -417,7 +417,7 @@ musicalComplexity: "simple"
 
 #### CONCEPTOS FUNDAMENTALES EN 5 IDIOMAS
 
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | 中文 Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **trabajador** | worker [ˈwɜːrkɚ] | Arbeiter [ˈaɐ̯baɪtɐ] | trabalhador [tɾɐbɐʎɐˈdoɾ] | рабочий [rɐˈbotʂɪj] | rabóchiy | 工人 [kʊŋ˥ ʐən˧˥] | gōngrén |
 | **lucha** | struggle [ˈstrʌɡəl] | Kampf [kampf] | luta [ˈlutɐ] | борьба [bɐˈrʲbə] | bor'bá | 斗争 [toʊ̯˥˩ tʂəŋ˥] | dòuzhēng |
@@ -432,7 +432,7 @@ musicalComplexity: "simple"
 
 #### VERBOS DE ACCIÓN REVOLUCIONARIA
 
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | 中文 Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **luchar** | fight [faɪt] | kämpfen [ˈkɛmpfən] | lutar [luˈtaɾ] | бороться [bɐˈrotsə] | borót'sya | 战斗 [tʂan˥˩ toʊ̯˥˩] | zhàndòu |
 | **resistir** | resist [rɪˈzɪst] | widerstehen [ˈviːdɐʃteːən] | resistir [ʁɨziʃˈtiɾ] | сопротивляться [səprɐˈtʲivlʲətsə] | soprotivlyát'sya | 反抗 [fan˨˩˦ kʰaŋ˥˩] | fǎnkàng |
@@ -445,31 +445,31 @@ musicalComplexity: "simple"
 
 ## 🎪 GÉNEROS MUSICALES OBREROS POR IDIOMA
 
-### 🇪🇸 **TRADICIÓN ESPAÑOLA/LATINOAMERICANA**
+### Español **TRADICIÓN ESPAÑOLA/LATINOAMERICANA**
 - **Cancionero Anarquista**: Himnos CNT-FAI, coplas republicanas
 - **Nueva Canción Militante**: Víctor Jara, Quilapayún
 - **Resistencia Antifranquista**: Chicho Sánchez Ferlosio, Raimon
 - **Folk Revolucionario**: Atahualpa Yupanqui, Inti-Illimani
 
-### 🇬🇧 **TRADICIÓN ANGLÓFONA**
+### English **TRADICIÓN ANGLÓFONA**
 - **Labor Songs Clásicas**: Joe Hill, IWW Wobblies
 - **Protest Folk Militante**: Woody Guthrie, Phil Ochs
 - **Punk Antiestablishment**: Dead Kennedys, Crass
 - **Spiritual Abolicionista**: "We Shall Overcome", freedom songs
 
-### 🇩🇪 **TRADICIÓN ALEMANA**
+### Deutsch **TRADICIÓN ALEMANA**
 - **Arbeiterlieder Tradicional**: August Bebel, Franz Mehring
 - **Resistencia Antinazi**: Wolf Biermann, oktoberklub
 - **Punk Político**: Ton Steine Scherben, Feeling B
 - **Electronic Industrial**: Laibach (política), Test Dept
 
-### 🇵🇹 **TRADICIÓN PORTUGUESA**
+### Português **TRADICIÓN PORTUGUESA**
 - **Fado Social**: Adriano Correia de Oliveira, José Afonso
 - **Revolução dos Cravos**: "Grândola Vila Morena", José Mário Branco
 - **Nova Canção**: Brigada Víctor Jara, GAC
 - **Folk Revolucionario**: Janita Salomé, Fausto
 
-### 🇷🇺 **TRADICIÓN RUSA/SOVIÉTICA**
+### Русский **TRADICIÓN RUSA/SOVIÉTICA**
 - **Canciones Populistas**: Народная воля (Narodnaya Volya)
 - **Himnos Revolucionarios**: "Варшавянка", "Интернационал"
 - **Canciones Soviéticas**: Александров, Дунаевский
@@ -481,7 +481,7 @@ musicalComplexity: "simple"
 
 ### ESTRUCTURA: "LOS TRABAJADORES CANTAN CANCIONES DE RESISTENCIA"
 
-| Elemento | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Elemento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Orden** | SVO | SVO | SVO | SVO | SVO | SVO | SVO | SVO |
 | **Estructura** | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | N + V + N + Prep+N | N + V + N + Prep+N | N + V + N | N + V + N |
@@ -489,14 +489,14 @@ musicalComplexity: "simple"
 
 ### EXPRESAR FINALIDAD: "PARA LA LIBERTAD"
 
-| Función | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Función | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |---------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Preposición** | para | for | für + Akkusativ | para | за + Akkusativ | za + Akkusativ | 为了 | wèile |
 | **Ejemplo** | Cantan para la libertad | They sing for freedom | Sie singen für die Freiheit | Cantam para a liberdade | Поют за свободу | Póyut za svobódu | 为了自由而唱 | wèile zìyóu ér chàng |
 
 ### NEGACIÓN CONTRASTIVA
 
-| Tipo | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Tipo | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Simple** | No cantan | They don't sing | Sie singen nicht | Não cantam | Они не поют | Oní ne póyut | 他们不唱 | tāmen bù chàng |
 | **Doble** | No cantan nada | They sing nothing | Sie singen nichts | Não cantam nada | Они ничего не поют | Oní nichegó ne póyut | 他们什么都不唱 | tāmen shénme dōu bù chàng |
@@ -619,21 +619,21 @@ Rasgueo: ↓     ↑     ↓  ↑  ↓     ↑     ↓  ↑
 Función: Ma-ni-fes-ta-ción, ma-ni-fes-ta-ción
 ```
 
-#### 🇬🇧 **PATRÓN ANGLÓFONO** - Folk tradicional
+#### English **PATRÓN ANGLÓFONO** - Folk tradicional
 ```
 Tiempo:  1  +  2  +  3  +  4  +
 Rasgueo: ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑
 Función: Steady protest march rhythm
 ```
 
-#### 🇩🇪 **PATRÓN ALEMÁN** - Marcha disciplinada  
+#### Deutsch **PATRÓN ALEMÁN** - Marcha disciplinada  
 ```
 Tiempo:  1  2  3  4  1  2  3  4
 Rasgueo: ↓     ↓     ↓     ↓   
 Función: Military precision, Arbeitermarsch
 ```
 
-#### 🇷🇺 **PATRÓN RUSO** - Folk rápido
+#### Русский **PATRÓN RUSO** - Folk rápido
 ```
 Tiempo:  1 e + a 2 e + a 3 e + a 4 e + a
 Rasgueo: ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑
@@ -645,11 +645,11 @@ Función: Rapid alternating, Russian folk style
 | Idioma | BPM Ideal | Razón Pedagógica | Tipo Musical |
 |--------|-----------|------------------|--------------|
 | **Español** | 120-140 BPM | Ritmo natural del habla española | Marcha/Copla |
-| **🇬🇧 Inglés** | 100-120 BPM | Permite clara articulación consonántica | Folk/Protest |
-| **🇩🇪 Alemán** | 80-100 BPM | Facilita pronunciación de consonantes complejas | Marcha/Lied |
-| **🇵🇹 Português** | 110-130 BPM | Acomoda nasalizaciones y diptongos | Fado/March |
-| **🇷🇺 Ruso** | 90-110 BPM | Permite palatalizaciones claras | Folk/Himno |
-| **🇨🇳 Chino** | 80-100 BPM | Esencial para tonos lexicales precisos | Tradicional |
+| **English Inglés** | 100-120 BPM | Permite clara articulación consonántica | Folk/Protest |
+| **Deutsch Alemán** | 80-100 BPM | Facilita pronunciación de consonantes complejas | Marcha/Lied |
+| **Português Português** | 110-130 BPM | Acomoda nasalizaciones y diptongos | Fado/March |
+| **Русский Ruso** | 90-110 BPM | Permite palatalizaciones claras | Folk/Himno |
+| **中文 Chino** | 80-100 BPM | Esencial para tonos lexicales precisos | Tradicional |
 
 ### **ACENTOS LINGÜÍSTICOS vs ACENTOS MUSICALES**
 
@@ -660,21 +660,21 @@ tra-ba-JA-dor    (3ª sílaba acentuada)
  ↓     ↓         (acento musical coincide)
 ```
 
-#### **🇬🇧 INGLÉS - Adaptación necesaria**
+#### **English INGLÉS - Adaptación necesaria**
 ```
 WOR-ker          (1ª sílaba acentuada)
  1  2  3  4      (1º tiempo fuerte)
  ↓              (coincidencia natural)
 ```
 
-#### **🇩🇪 ALEMÁN - Complejidad consonántica**
+#### **Deutsch ALEMÁN - Complejidad consonántica**
 ```
 AR-bei-ter      (1ª sílaba acentuada)
  1   2   3      (1º tiempo fuerte)
  ↓              (acentuar consonantes claramente)
 ```
 
-#### **🇨🇳 CHINO - Tonos prioritarios**
+#### **中文 CHINO - Tonos prioritarios**
 ```
 gōng-rén        (1º tono alto, 2º tono ascendente)
   ¯    /        (tonos lexicales)
@@ -689,10 +689,10 @@ gōng-rén        (1º tono alto, 2º tono ascendente)
 | Idioma | Hablado [IPA] | Cantado [IPA] | Cambio |
 |--------|---------------|---------------|---------|
 | **Español** | trabajador [tɾaβaχaˈðoɾ] | trabajador [trabahaˈdor] | Consonantes más claras |
-| **🇬🇧** | worker [ˈwɜːrkɚ] | worker [ˈwɝːrkər] | R más marcada |
-| **🇩🇪** | Arbeiter [ˈaɐ̯baɪtɐ] | Arbeiter [ˈarbeiter] | R consonántica |
-| **🇵🇹** | trabalhador [tɾabaʎaˈdoɾ] | trabalhador [trabaʎaˈdor] | Menos nasalización |
-| **🇷🇺** | рабочий [rɐˈbotʂɪj] | рабочий [raˈbotʃij] | Vocales más abiertas |
-| **🇨🇳** | 工人 [kʊŋ˥ ʐən˧˥] | 工人 [kuŋ˥ ʐən˧˥] | Tonos MÁS marcados |
+| **English** | worker [ˈwɜːrkɚ] | worker [ˈwɝːrkər] | R más marcada |
+| **Deutsch** | Arbeiter [ˈaɐ̯baɪtɐ] | Arbeiter [ˈarbeiter] | R consonántica |
+| **Português** | trabalhador [tɾabaʎaˈdoɾ] | trabalhador [trabaʎaˈdor] | Menos nasalización |
+| **Русский** | рабочий [rɐˈbotʂɪj] | рабочий [raˈbotʃij] | Vocales más abiertas |
+| **中文** | 工人 [kʊŋ˥ ʐən˧˥] | 工人 [kuŋ˥ ʐən˧˥] | Tonos MÁS marcados |
 
 ---

@@ -47,7 +47,7 @@ Sera le genre humain
 
 #### **1871 - COMUNA DE PARÍS**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Inicio Comuna** | Dieciocho de marzo de mil ochocientos setenta y uno | Eighteenth of March eighteen seventy-one | Achtzehnter März achtzehnhunderteinundsiebzig | Dezoito de março de mil oitocentos e setenta e um | Восемнадцатое марта тысяча восемьсот семьдесят первого года | Vosemnádtsatoye marta týsyacha vosem'sot sem'desyát pervogo goda | 一八七一年三月十八日 | yī bā qī yī nián sān yuè shí bā rì |
 | **Duración** | Setenta y dos días | Seventy-two days | Zweiundsiebzig Tage | Setenta e dois dias | Семьдесят два дня | Sem'desyát dva dnya | 七十二天 | qīshí'èr tiān |
@@ -55,7 +55,7 @@ Sera le genre humain
 
 #### **ESTADÍSTICAS INTERNACIONALES DE LA CANCIÓN**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Países que la adoptaron** | Más de cincuenta países | More than fifty countries | Über fünfzig Länder | Mais de cinquenta países | Более пятидесяти стран | Bóleye pyatidesyáti stran | 五十多个国家 | wǔshí duō gè guójiā |
 | **Traducciones** | Más de cien idiomas | More than one hundred languages | Über hundert Sprachen | Mais de cem idiomas | Более ста языков | Bóleye sta yazykóv | 一百多种语言 | yībǎi duō zhǒng yǔyán |
@@ -63,7 +63,7 @@ Sera le genre humain
 
 #### **LÍNEA TEMPORAL SOCIALISTA INTERNACIONAL**
 
-| Año | Evento | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **1848** | Manifiesto Comunista | mil ochocientos cuarenta y ocho | eighteen forty-eight | achtzehnhundertachtundvierzig | mil oitocentos e quarenta e oito | тысяча восемьсот сорок восьмой | týsyacha vosem'sót sórok vos'móy | 一八四八年 | yī bā sì bā nián |
 | **1871** | Comuna de París | mil ochocientos setenta y uno | eighteen seventy-one | achtzehnhunderteinundsiebzig | mil oitocentos e setenta e um | тысяча восемьсот семьдесят первый | týsyacha vosem'sót sem'desyát pérvyy | 一八七一年 | yī bā qī yī nián |
@@ -93,7 +93,7 @@ El género humano
 Es la Internacional
 ```
 
-### 🇬🇧 ENGLISH
+### English ENGLISH
 **"The Internationale"**
 ```
 Arise, ye workers from your slumber
@@ -111,7 +111,7 @@ The Internationale
 Unites the human race
 ```
 
-### 🇩🇪 DEUTSCH
+### Deutsch DEUTSCH
 **"Die Internationale"**
 ```
 Wacht auf, Verdammte dieser Erde
@@ -129,7 +129,7 @@ Die Internationale
 Erkämpft das Menschenrecht
 ```
 
-### 🇵🇹 PORTUGUÊS
+### Português PORTUGUÊS
 **"A Internacional"**
 ```
 De pé, ó vítimas da fome
@@ -147,7 +147,7 @@ Uma terra sem amos
 A Internacional
 ```
 
-### 🇷🇺 РУССКИЙ
+### Русский РУССКИЙ
 **"Интернационал"**
 ```
 Вставай, проклятьем заклеймённый
@@ -165,7 +165,7 @@ A Internacional
 Воспрянет род людской
 ```
 
-### 🇨🇳 中文
+### 中文 中文
 **"国际歌"**
 ```
 起来，饥寒交迫的奴隶
@@ -208,37 +208,37 @@ Jiù yīdìng yào shíxiàn
 
 | Idioma | Construcción | Forma | Función |
 |--------|--------------|-------|---------|
-| **🇫🇷 Français** | **va** changer | Futuro próximo (aller + inf) | Futuro inmediato |
-| **🇪🇸 Español** | **va a** cambiar | Perífrasis de futuro (ir a + inf) | Futuro próximo |
-| **🇬🇧 English** | **will** change | Auxiliar modal + inf | Futuro simple |
-| **🇩🇪 Deutsch** | **wird** sich **ändern** | Auxiliar werden + inf | Futuro I |
-| **🇵🇹 Português** | **vai** mudar | Futuro próximo (ir + inf) | Futuro próximo |
-| **🇷🇺 Русский** | **построим** | Futuro perfectivo sintético | Futuro resultado |
-| **🇨🇳 中文** | **要** + verbo | Partícula + verbo | Futuro intencional |
+| **Français Français** | **va** changer | Futuro próximo (aller + inf) | Futuro inmediato |
+| **Español Español** | **va a** cambiar | Perífrasis de futuro (ir a + inf) | Futuro próximo |
+| **English English** | **will** change | Auxiliar modal + inf | Futuro simple |
+| **Deutsch Deutsch** | **wird** sich **ändern** | Auxiliar werden + inf | Futuro I |
+| **Português Português** | **vai** mudar | Futuro próximo (ir + inf) | Futuro próximo |
+| **Русский Русский** | **построим** | Futuro perfectivo sintético | Futuro resultado |
+| **中文 中文** | **要** + verbo | Partícula + verbo | Futuro intencional |
 
 ### **IMPERATIVO PLURAL: "DEBOUT!" / "ARISE!"**
 
 | Idioma | Forma Singular | Forma Plural | Registro | Uso |
 |--------|----------------|--------------|----------|-----|
-| **🇫🇷** | debout | debout | Invariable | Adverbio como exclamación |
-| **🇪🇸** | arriba | arriba | Invariable | Adverbio direccional |
-| **🇬🇧** | arise | arise | Invariable | Verbo arcaico |
-| **🇩🇪** | wach auf | wacht auf | Variable | 2ª pers. plural |
-| **🇵🇹** | de pé | de pé | Invariable | Locución adverbial |
-| **🇷🇺** | вставай | вставайте | Variable | Aspecto imperfectivo |
-| **🇨🇳** | 起来 | 起来 | Invariable | Verbo compuesto |
+| **Français** | debout | debout | Invariable | Adverbio como exclamación |
+| **Español** | arriba | arriba | Invariable | Adverbio direccional |
+| **English** | arise | arise | Invariable | Verbo arcaico |
+| **Deutsch** | wach auf | wacht auf | Variable | 2ª pers. plural |
+| **Português** | de pé | de pé | Invariable | Locución adverbial |
+| **Русский** | вставай | вставайте | Variable | Aspecto imperfectivo |
+| **中文** | 起来 | 起来 | Invariable | Verbo compuesto |
 
 ### **CONSTRUCCIÓN DE IDENTIFICACIÓN: "NOUS NE SOMMES RIEN"**
 
 | Idioma | Sujeto | Cópula | Predicado | Negación |
 |--------|--------|--------|-----------|----------|
-| **🇫🇷** | nous | sommes | rien | ne...pas omitido |
-| **🇪🇸** | nosotros | somos | nada | no explícito |
-| **🇬🇧** | we | are | nothing | negación incorporada |
-| **🇩🇪** | wir | sind | nichts | negación incorporada |
-| **🇵🇹** | nós | somos | nada | não explícito |
-| **🇷🇺** | кто | был | ничем | instrumental predicativo |
-| **🇨🇳** | 我们 | - | 一无所有 | negación léxica |
+| **Français** | nous | sommes | rien | ne...pas omitido |
+| **Español** | nosotros | somos | nada | no explícito |
+| **English** | we | are | nothing | negación incorporada |
+| **Deutsch** | wir | sind | nichts | negación incorporada |
+| **Português** | nós | somos | nada | não explícito |
+| **Русский** | кто | был | ничем | instrumental predicativo |
+| **中文** | 我们 | - | 一无所有 | negación léxica |
 
 ---
 
@@ -301,7 +301,7 @@ Estribillo:| C     | G     | Am    | Dm    |
 
 #### **Términos Fundamentales en 5 IDIOMAS**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇨🇳 |
+| Concepto | Español | English | Deutsch | Português | Русский | 中文 |
 |----------|---------|-----|-----|-----|------|-----|
 | **Proletariado** | proletariado | proletariat | Proletariat | proletariado | пролетариат | 无产阶级 |
 | **Revolución** | revolución | revolution | Revolution | revolução | революция | 革命 |

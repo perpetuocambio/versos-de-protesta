@@ -43,7 +43,7 @@ por el triunfo de la Confederación.
 
 #### **TABLA PEDAGÓGICA - EQUIVALENCIAS PALABRA POR PALABRA**
 
-| Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin | Función Gramatical |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin | Función Gramatical |
 |---------|-----|-----|-----|------|---------|------|-----------|-------------------|
 | **Negras** | Black | Schwarze | Negras | Чёрные | Chyórnye | 黑色的 | hēisè de | Adjetivo |
 | **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | Sustantivo |
@@ -64,7 +64,7 @@ por el triunfo de la Confederación.
 
 #### **17 DE JULIO DE 1936 - INICIO GUERRA CIVIL ESPAÑOLA**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Inicio Guerra** | El diecisiete de julio de mil novecientos treinta y seis comenzó la Guerra Civil | On July seventeenth nineteen thirty-six the Civil War began | Am siebzehnten Juli neunzehnhundertsechsunddreißig begann der Bürgerkrieg | Em dezassete de julho de mil novecentos e trinta e seis começou a Guerra Civil | Семнадцатого июля тысяча девятьсот тридцать шестого года началась Гражданская война | Semnadtsátogo iyúlya týsyacha devyat'sót tridtsat' shestógo góda nachalas' Grazhdánskaya voyná | 一九三六年七月十七日内战开始 | yījiǔsānliù nián qīyuè shíqī rì nèizhàn kāishǐ |
 | **Duración** | Duró tres años | It lasted three years | Er dauerte drei Jahre | Durou três anos | Она длилась три года | Ona dlilas' tri goda | 持续了三年 | chíxù le sān nián |
@@ -72,7 +72,7 @@ por el triunfo de la Confederación.
 
 #### **ESTADÍSTICAS CNT-FAI (ANARQUISTAS)**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Miembros 1936** | 1,5 millones | 1.5 million | 1,5 Millionen | 1,5 milhões | полтора миллиона | poltora milliona | 一百五十万 | yībǎiwǔshíwàn |
 | **Colectividades** | 3.000 | 3,000 | 3.000 | 3.000 | три тысячи | tri tysyachi | 三千 | sānqiān |
@@ -80,7 +80,7 @@ por el triunfo de la Confederación.
 
 #### **LÍNEA TEMPORAL REVOLUCIONARIA**
 
-| Año | Evento | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
 |-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **1871** | Comuna París | mil ochocientos setenta y uno | eighteen seventy-one | achtzehnhunderteinundsiebzig | mil oitocentos e setenta e um | тысяча восемьсот семьдесят первый | tysyacha vosem'sót sem'desyát pérvyy | 一八七一年 | yī bā qī yī nián |
 | **1917** | Revolución Rusa | mil novecientos diecisiete | nineteen seventeen | neunzehnhundertsiebzehn | mil novecentos e dezassete | тысяча девятьсот семнадцатый | tysyacha devyat'sót semnádtsatyy | 一九一七年 | yījiǔyīqī nián |
@@ -110,7 +110,7 @@ A las barricadas, a las barricadas,
 por el triunfo de la Confederación.
 ```
 
-### 🇬🇧 ENGLISH
+### English ENGLISH
 **"To the Barricades"**
 ```
 Black storms shake the skies above,
@@ -129,7 +129,7 @@ To the barricades, to the barricades,
 for our union's triumph we shall fight.
 ```
 
-### 🇩🇪 DEUTSCH
+### Deutsch DEUTSCH
 **"Zu den Barrikaden"**
 ```
 Schwarze Stürme schütteln Himmel,
@@ -148,7 +148,7 @@ Zu den Barrikaden, zu den Barrikaden,
 für den Sieg der Konföderation.
 ```
 
-### 🇵🇹 PORTUGUÊS
+### Português PORTUGUÊS
 **"Para as Barricadas"**
 ```
 Negras tempestades agitam os ares,
@@ -167,7 +167,7 @@ Para as barricadas, para as barricadas,
 pelo triunfo da Confederação.
 ```
 
-### 🇷🇺 РУССКИЙ
+### Русский РУССКИЙ
 **"На Баррикады"**
 ```
 Чёрные бури колышут небеса,
@@ -186,7 +186,7 @@ pelo triunfo da Confederação.
 за победу Конфедерации.
 ```
 
-### 🇨🇳 中文
+### 中文 中文
 **"到街垒去"**
 ```
 黑色风暴摇撼天空，
@@ -231,34 +231,34 @@ wèile liánméng de shènglì.
 
 | Idioma | Construcción | Análisis Gramatical | Función |
 |--------|--------------|-------------------|---------|
-| **🇪🇸 Español** | **aunque** nos **espere** | Conj. + subjuntivo presente | Concesión hipotética |
-| **🇬🇧 English** | **though** we **face** | Conj. + indicativo presente | Concesión real |
-| **🇩🇪 Deutsch** | **ob** uns **wartet** | Conj. + indicativo presente | Interrogativa indirecta |
-| **🇵🇹 Português** | **embora** nos **espere** | Conj. + subjuntivo presente | Concesión (igual español) |
-| **🇷🇺 Русский** | **хоть** **ожидают** | Partícula + indicativo | Concesión con partícula |
-| **🇨🇳 中文** | **虽然** + [oración completa] | Conj. + cláusula independiente | Concesión con 虽然...但是 |
+| **Español Español** | **aunque** nos **espere** | Conj. + subjuntivo presente | Concesión hipotética |
+| **English English** | **though** we **face** | Conj. + indicativo presente | Concesión real |
+| **Deutsch Deutsch** | **ob** uns **wartet** | Conj. + indicativo presente | Interrogativa indirecta |
+| **Português Português** | **embora** nos **espere** | Conj. + subjuntivo presente | Concesión (igual español) |
+| **Русский Русский** | **хоть** **ожидают** | Partícula + indicativo | Concesión con partícula |
+| **中文 中文** | **虽然** + [oración completa] | Conj. + cláusula independiente | Concesión con 虽然...但是 |
 
 ### **IMPERATIVO COLECTIVO: "ALZA LA BANDERA"**
 
 | Idioma | Forma Imperativa | Sujeto Implícito | Registro |
 |--------|------------------|------------------|----------|
-| **🇪🇸 Español** | **alza** (tú) / **alzad** (vosotros) | 2ª persona | Familiar/colectivo |
-| **🇬🇧 English** | **raise** (invariable) | 2ª persona | Neutro |
-| **🇩🇪 Deutsch** | **hisst** (ihr) | 2ª persona plural | Colectivo |
-| **🇵🇹 Português** | **ergue** (tu) / **erguei** (vós) | 2ª persona | Similar español |
-| **🇷🇺 Русский** | **поднимай** (ты) / **поднимайте** (вы) | 2ª persona | Formal/informal |
-| **🇨🇳 中文** | **高举** (imperativo implícito) | Sin marca personal | Imperativo general |
+| **Español Español** | **alza** (tú) / **alzad** (vosotros) | 2ª persona | Familiar/colectivo |
+| **English English** | **raise** (invariable) | 2ª persona | Neutro |
+| **Deutsch Deutsch** | **hisst** (ihr) | 2ª persona plural | Colectivo |
+| **Português Português** | **ergue** (tu) / **erguei** (vós) | 2ª persona | Similar español |
+| **Русский Русский** | **поднимай** (ты) / **поднимайте** (вы) | 2ª persona | Formal/informal |
+| **中文 中文** | **高举** (imperativo implícito) | Sin marca personal | Imperativo general |
 
 ### **CONSTRUCCIÓN SUPERLATIVA: "EL BIEN MÁS PRECIADO"**
 
 | Idioma | Estructura | Artículo | Superlativo | Orden |
 |--------|------------|----------|-------------|-------|
-| **🇪🇸** | **el** bien **más** preciado | def. masc | más + adj | art + sust + sup + adj |
-| **🇬🇧** | **our** **most** precious prize | poses. | most + adj | poses + sup + adj + sust |
-| **🇩🇪** | **das** **höchste** Gut | def. neutro | adj + est | art + sup + sust |
-| **🇵🇹** | **o** bem **mais** precioso | def. masc | mais + adj | art + sust + sup + adj |
-| **🇷🇺** | **самое** ценное благо | sup. neutro | само- + adj | sup + adj + sust |
-| **🇨🇳** | **最**珍贵的财富 | - | 最 + adj | sup + adj + sust |
+| **Español** | **el** bien **más** preciado | def. masc | más + adj | art + sust + sup + adj |
+| **English** | **our** **most** precious prize | poses. | most + adj | poses + sup + adj + sust |
+| **Deutsch** | **das** **höchste** Gut | def. neutro | adj + est | art + sup + sust |
+| **Português** | **o** bem **mais** precioso | def. masc | mais + adj | art + sust + sup + adj |
+| **Русский** | **самое** ценное благо | sup. neutro | само- + adj | sup + adj + sust |
+| **中文** | **最**珍贵的财富 | - | 最 + adj | sup + adj + sust |
 
 ---
 
@@ -334,7 +334,7 @@ Estribillo:| Am    | F     | G     | C     |
 
 #### **Términos Anarquistas en 5 IDIOMAS**
 
-| Concepto | Español | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇨🇳 |
+| Concepto | Español | English | Deutsch | Português | Русский | 中文 |
 |----------|-----|-----|-----|-----|------|-----|
 | **Anarquismo** | anarquismo | anarchism | Anarchismus | anarquismo | анархизм | 无政府主义 |
 | **Autogestión** | autogestión | self-management | Selbstverwaltung | autogestão | самоуправление | 自治管理 |
@@ -354,11 +354,11 @@ Traduce esta frase a los 6 idiomas estudiados:
 
 | Idioma | Tu traducción | Verificación |
 |--------|---------------|--------------|
-| **🇬🇧** | _________________ | *People's freedom is not negotiable* |
-| **🇩🇪** | _________________ | *Die Freiheit des Volkes ist nicht verhandelbar* |
-| **🇵🇹** | _________________ | *A liberdade do povo não se negocia* |
-| **🇷🇺** | _________________ | *Свобода народа не подлежит торгу* |
-| **🇨🇳** | _________________ | *人民的自由不容谈判* |
+| **English** | _________________ | *People's freedom is not negotiable* |
+| **Deutsch** | _________________ | *Die Freiheit des Volkes ist nicht verhandelbar* |
+| **Português** | _________________ | *A liberdade do povo não se negocia* |
+| **Русский** | _________________ | *Свобода народа не подлежит торгу* |
+| **中文** | _________________ | *人民的自由不容谈判* |
 
 ### **Ejercicio 2: Análisis de Subjuntivo**
 

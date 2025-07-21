@@ -7,14 +7,14 @@ const allPosts = await getCollection('blog');
 // Agrupar por idiomas incluidos
 const languageGroups = {};
 const languages = {
-  es: { name: 'Español', flag: '🇪🇸', native: 'Español' },
-  en: { name: 'English', flag: '🇬🇧', native: 'English' },
-  de: { name: 'Deutsch', flag: '🇩🇪', native: 'Deutsch' },
-  pt: { name: 'Português', flag: '🇵🇹', native: 'Português' },
-  ru: { name: 'Русский', flag: '🇷🇺', native: 'Русский' },
-  zh: { name: 'Chinese', flag: '🇨🇳', native: '中文' },
-  fr: { name: 'Français', flag: '🇫🇷', native: 'Français' },
-  it: { name: 'Italiano', flag: '🇮🇹', native: 'Italiano' }
+  es: { name: 'Español', flag: 'Español', native: 'Español' },
+  en: { name: 'English', flag: 'English', native: 'English' },
+  de: { name: 'Deutsch', flag: 'Deutsch', native: 'Deutsch' },
+  pt: { name: 'Português', flag: 'Português', native: 'Português' },
+  ru: { name: 'Русский', flag: 'Русский', native: 'Русский' },
+  zh: { name: 'Chinese', flag: '中文', native: '中文' },
+  fr: { name: 'Français', flag: 'Français', native: 'Français' },
+  it: { name: 'Italiano', flag: 'Italiano', native: 'Italiano' }
 };
 
 allPosts.forEach(post => {

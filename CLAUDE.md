@@ -2,7 +2,7 @@
 
 ## 🎯 SETUP INICIAL
 
-**Idiomas**: 🇪🇸 Español (nativo) | 🇬🇧 English (B2) | 🇩🇪 Deutsch (A1+) | 🇵🇹 Português (A0+) | 🇷🇺 Русский (A0) | 🇷🇺 Romanización | 🇨🇳 中文 (<A1) | 🇨🇳 Pinyin
+**Idiomas**: Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin
 
 **Filosofía**: Un tema → 5 idiomas paralelos → Material de consulta completo
 
@@ -64,7 +64,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 #### **[AÑO] - [EVENTO PRINCIPAL]**
 
-| Concepto | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **[Concepto 1]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 | **[Concepto 2]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
@@ -72,7 +72,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 #### **[ESTADÍSTICAS ESPECÍFICAS DEL TEMA]**
 
-| Concepto | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **[Stat 1]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 | **[Stat 2]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
@@ -80,7 +80,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 #### **LÍNEA TEMPORAL [TEMA]**
 
-| Año | Evento | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **[1871]** | [Evento] | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 | **[1917]** | [Evento] | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
@@ -91,49 +91,49 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
 
-### 🇪🇸 ESPAÑOL
+### ESPAÑOL
 **"[Título]" (ORIGINAL)**
 ```
 [Canción completa]
 ```
 
-### 🇬🇧 ENGLISH
+### ENGLISH
 **"[Título traducido]"**
 ```
 [Traducción completa manteniendo métrica]
 ```
 
-### 🇩🇪 DEUTSCH
+### DEUTSCH
 **"[Título traducido]"**
 ```
 [Traducción completa manteniendo métrica]
 ```
 
-### 🇵🇹 PORTUGUÊS
+### PORTUGUÊS
 **"[Título traducido]"**
 ```
 [Traducción completa manteniendo métrica]
 ```
 
-### 🇷🇺 РУССКИЙ
+### РУССКИЙ
 **"[Título en cirílico]"**
 ```
 [Traducción en cirílico SOLAMENTE]
 ```
 
-### 🇷🇺 ROMANIZACIÓN
+### РУССКИЙ ROM.
 **"[Título romanizado]"**
 ```
 [Romanización completa línea por línea]
 ```
 
-### 🇨🇳 中文
+### 中文
 **"[Título en hanzi]"**
 ```
 [Traducción en hanzi SOLAMENTE]
 ```
 
-### 🇨🇳 PINYIN
+### PINYIN
 **"[Título en pinyin]"**
 ```
 [Pinyin completo línea por línea]
@@ -143,20 +143,20 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ## 📈 VOCABULARIO HISTÓRICO-SOCIAL
 
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **[palabra1]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
 | **[palabra2]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
 
 ### VOCABULARIO HISTÓRICO ESPECÍFICO
 
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **[palabra histórica]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **[número]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
 
@@ -164,35 +164,35 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ## 🔧 GRAMÁTICA TABULAR POR IDIOMA
 
-### 🇩🇪 ALEMÁN - [TEMA GRAMATICAL ESPECÍFICO]
+### ALEMÁN - [TEMA GRAMATICAL ESPECÍFICO]
 [Tablas con ejemplos de la canción]
 
-### 🇵🇹 PORTUGUÊS - [TEMA GRAMATICAL ESPECÍFICO]  
+### PORTUGUÊS - [TEMA GRAMATICAL ESPECÍFICO]  
 [Tablas con contraste ES/PT]
 
-### 🇷🇺 РУССКИЙ - [TEMA GRAMATICAL ESPECÍFICO]
+### РУССКИЙ - [TEMA GRAMATICAL ESPECÍFICO]
 [Tabla en cirílico solamente]
 
-### 🇨🇳 中文 - [TEMA GRAMATICAL ESPECÍFICO]
+### 中文 - [TEMA GRAMATICAL ESPECÍFICO]
 [Tabla en hanzi solamente]
 
 ---
 
 ## 🗣️ PRONUNCIACIÓN IPA COMPLETA
 
-### 🇬🇧 INGLÉS - [FRAGMENTO ESPECÍFICO]
+### INGLÉS - [FRAGMENTO ESPECÍFICO]
 [IPA línea por línea]
 
-### 🇩🇪 DEUTSCH - PROBLEMAS PARA HISPANOHABLANTE
+### DEUTSCH - PROBLEMAS PARA HISPANOHABLANTE
 [IPA + explicación de dificultades específicas]
 
-### 🇵🇹 PORTUGUÊS - [CARACTERÍSTICA FONÉTICA]
+### PORTUGUÊS - [CARACTERÍSTICA FONÉTICA]
 [IPA + explicación de dificultades]
 
-### 🇷🇺 РУССКИЙ - [CARACTERÍSTICA FONÉTICA]
+### РУССКИЙ - [CARACTERÍSTICA FONÉTICA]
 [IPA del cirílico]
 
-### 🇨🇳 中文 - TONOS OBLIGATORIOS
+### 中文 - TONOS OBLIGATORIOS
 [IPA del hanzi + explicación tonos]
 
 ---
@@ -201,28 +201,28 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ### VERBO "[VERBO PRINCIPAL]" EN 5 IDIOMAS
 
-#### 🇪🇸 ESPAÑOL
+#### ESPAÑOL
 [Tabla completa]
 
-#### 🇬🇧 ENGLISH
+#### ENGLISH
 [Tabla completa]
 
-#### 🇩🇪 DEUTSCH
+#### DEUTSCH
 [Tabla completa]
 
-#### 🇵🇹 PORTUGUÊS
+#### PORTUGUÊS
 [Tabla completa]
 
-#### 🇷🇺 РУССКИЙ
+#### РУССКИЙ
 [Tabla en cirílico]
 
-#### 🇷🇺 ROMANIZACIÓN
+#### РУССКИЙ ROM.
 [Tabla romanizada correspondiente]
 
-#### 🇨🇳 中文
+#### 中文
 [Tabla en hanzi]
 
-#### 🇨🇳 PINYIN
+#### PINYIN
 [Tabla en pinyin correspondiente]
 
 ---
@@ -231,25 +231,25 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ### SISTEMA NUMÉRICO POR IDIOMA
 
-#### 🇬🇧 INGLÉS - AÑOS
+#### INGLÉS - AÑOS
 [Tabla con IPA y contexto histórico]
 
-#### 🇩🇪 ALEMÁN - SISTEMA COMPLEJO
+#### ALEMÁN - SISTEMA COMPLEJO
 [Tabla con números compuestos + IPA]
 
-#### 🇵🇹 PORTUGUÊS - NÚMEROS COMPOSTOS
+#### PORTUGUÊS - NÚMEROS COMPOSTOS
 [Tabla con IPA y contexto]
 
-#### 🇷🇺 РУССКИЙ - ПАДЕЖИ С ЧИСЛАМИ
+#### РУССКИЙ - ПАДЕЖИ С ЧИСЛАМИ
 [Tabla con casos en cirílico]
 
-#### 🇨🇳 中文 - NÚMEROS + CLASIFICADORES
+#### 中文 - NÚMEROS + CLASIFICADORES
 [Tabla en hanzi]
 
 ### EXPRESIONES TEMPORALES HISTÓRICAS
 
 #### "[FECHA ESPECÍFICA]"
-| Idioma | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Idioma | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Expresión** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 | **IPA** | [ES IPA] | [EN IPA] | [DE IPA] | [PT IPA] | [RU IPA] | [RU rom IPA] | [ZH IPA] | [ZH pinyin IPA] |
@@ -261,7 +261,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ### ESTRUCTURA: "[FRASE ESPECÍFICA DE LA CANCIÓN]"
 
-| Elemento | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Elemento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Estructura** | [patrón ES] | [patrón EN] | [patrón DE] | [patrón PT] | [patrón RU] | [patrón RU rom] | [patrón ZH] | [patrón ZH pinyin] |
 | **Orden** | [orden ES] | [orden EN] | [orden DE] | [orden PT] | [orden RU] | [orden RU rom] | [orden ZH] | [orden ZH pinyin] |
@@ -269,7 +269,7 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ### EXPRESAR [FUNCIÓN GRAMATICAL]: "[EJEMPLO]"
 
-| Elemento | 🇪🇸 | 🇬🇧 | 🇩🇪 | 🇵🇹 | 🇷🇺 | 🇷🇺 Rom. | 🇨🇳 | 🇨🇳 Pinyin |
+| Elemento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Estructura** | [estructura ES] | [estructura EN] | [estructura DE] | [estructura PT] | [estructura RU] | [estructura RU rom] | [estructura ZH] | [estructura ZH pinyin] |
 | **Ejemplo** | [ejemplo ES] | [ejemplo EN] | [ejemplo DE] | [ejemplo PT] | [ejemplo RU] | [ejemplo RU rom] | [ejemplo ZH] | [ejemplo ZH pinyin] |
@@ -278,42 +278,42 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ## 🌍 CONTEXTO HISTÓRICO EN 5 IDIOMAS
 
-### 🇪🇸 ESPAÑOL
+### ESPAÑOL
 **"[Título]" y [contexto histórico]**
 
 [Texto histórico completo en español - párrafo único continuo]
 
-### 🇬🇧 ENGLISH
+### ENGLISH
 **"[Título]" and [contexto histórico]**
 
 [MISMO texto traducido al inglés - párrafo único continuo]
 
-### 🇩🇪 DEUTSCH
+### DEUTSCH
 **"[Título]" und [contexto histórico]**
 
 [MISMO texto traducido al alemán - párrafo único continuo]
 
-### 🇵🇹 PORTUGUÊS
+### PORTUGUÊS
 **"[Título]" e [contexto histórico]**
 
 [MISMO texto traducido al portugués - párrafo único continuo]
 
-### 🇷🇺 РУССКИЙ
+### РУССКИЙ
 **"[Título en cirílico]" и [contexto histórico]**
 
 [MISMO texto en ruso cirílico - párrafo único continuo]
 
-### 🇷🇺 ROMANIZACIÓN
+### РУССКИЙ ROM.
 **"[Título romanizado]" i [contexto histórico]**
 
 [MISMO texto romanizado - párrafo único continuo]
 
-### 🇨🇳 中文
+### 中文
 **"[Título en hanzi]"与[año]年的世界**
 
 [MISMO texto en chino hanzi - párrafo único continuo]
 
-### 🇨🇳 PINYIN
+### PINYIN
 **"[Título en pinyin]" yǔ [año] nián de shìjiè**
 
 [MISMO texto en pinyin - párrafo único continuo]
@@ -322,14 +322,14 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 ### ELEMENTOS OBLIGATORIOS EN CADA DOCUMENTACIÓN:
 
 #### 📊 TABLA VOCABULARIO COMPARATIVO OBLIGATORIA:
-| Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
 
 #### 🔧 TABLAS GRAMÁTICA EXHAUSTIVAS POR IDIOMA:
-- **🇩🇪 Alemán**: Artículos + Casos + Declinaciones completas
-- **🇵🇹 Portugués**: Verbos + Contraste sistemático ES/PT 
-- **🇷🇺 Ruso**: 6 Casos + Declinaciones + Palatización
-- **🇨🇳 Chino**: Hanzi + Pinyin + 4 Tonos + Trazos + Clasificadores
-- **🇬🇧 Inglés**: Estructuras + Phrasal verbs + Expresiones
+- **Alemán**: Artículos + Casos + Declinaciones completas
+- **Portugués**: Verbos + Contraste sistemático ES/PT 
+- **Ruso**: 6 Casos + Declinaciones + Palatización
+- **Chino**: Hanzi + Pinyin + 4 Tonos + Trazos + Clasificadores
+- **Inglés**: Estructuras + Phrasal verbs + Expresiones
 
 #### 🗣️ PRONUNCIACIÓN IPA PALABRA POR PALABRA:
 - Transcripción fonética completa de cada verso
@@ -352,20 +352,20 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 Cada sección debe incluir exactamente estos 8 "idiomas" en este orden:
 
-1. 🇪🇸 **ESPAÑOL** - Idioma base/referencia
-2. 🇬🇧 **ENGLISH** - Traducción completa
-3. 🇩🇪 **DEUTSCH** - Traducción completa  
-4. 🇵🇹 **PORTUGUÊS** - Traducción completa
-5. 🇷🇺 **РУССКИЙ** - Texto en cirílico SOLAMENTE 
-6. 🇷🇺 **ROMANIZACIÓN** - Equivalente romanizado del #5 SOLAMENTE
-7. 🇨🇳 **中文** - Texto en hanzi SOLAMENTE
-8. 🇨🇳 **PINYIN** - Equivalente pinyin del #7 SOLAMENTE
+1. **ESPAÑOL** - Idioma base/referencia
+2. **ENGLISH** - Traducción completa
+3. **DEUTSCH** - Traducción completa  
+4. **PORTUGUÊS** - Traducción completa
+5. **РУССКИЙ** - Texto en cirílico SOLAMENTE 
+6. **РУССКИЙ ROM.** - Equivalente romanizado del #5 SOLAMENTE
+7. **中文** - Texto en hanzi SOLAMENTE
+8. **PINYIN** - Equivalente pinyin del #7 SOLAMENTE
 
 **REGLAS ESTRICTAS:**
 
 **TABLAS DE VOCABULARIO/GRAMÁTICA:**
 - SIEMPRE 8 columnas exactas
-- Formato: | Español | 🇬🇧 [IPA] | 🇩🇪 [IPA] | 🇵🇹 [IPA] | 🇷🇺 [IPA] | 🇷🇺 Rom. | 🇨🇳 [IPA] | 🇨🇳 Pinyin |
+- Formato: | Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
 
 **TRADUCCIONES DE CANCIONES:**
 - 8 subsecciones separadas, una por cada "idioma"
@@ -375,7 +375,7 @@ Cada sección debe incluir exactamente estos 8 "idiomas" en este orden:
 
 **CONTEXTO HISTÓRICO:**
 - 8 subsecciones separadas con el MISMO texto
-- Cada subsección: ### + emoji + nombre del "idioma"
+- Cada subsección: ### + nombre del idioma
 - Párrafo único continuo en cada idioma
 - NUNCA intercalar romanización o pinyin en el texto
 
@@ -476,44 +476,12 @@ VIERNES: Economía/tendencias sociales
 - ¿Mi tolerancia a la ambigüedad ha aumentado?
 
 ### AFTER 6 MESES:
-- **🇬🇧 EN**: B2+ sólido → C1 emergente
-- **🇩🇪 DE**: A2 comunicativo funcional
-- **🇵🇹 PT**: A2 aprovechando español maximamente  
-- **🇷🇺 RU**: A1 básico pero real
-- **🇨🇳 ZH**: A1 retomado con bases sólidas
+- **EN**: B2+ sólido → C1 emergente
+- **DE**: A2 comunicativo funcional
+- **PT**: A2 aprovechando español maximamente  
+- **RU**: A1 básico pero real
+- **ZH**: A1 retomado con bases sólidas
 
-
-## 📚 BACKLOG EXPANDIDO - MÚSICA OBRERA INTERNACIONAL
-
-### SESIONES PLANIFICADAS CON ENFOQUE OBRERO
-
-#### **SEMANA 1: HIMNOS DE RESISTENCIA**
-1. **A las Barricadas** (España) → 5 idiomas ✅
-2. **L'Internationale** (Francia) → Versiones en 5 idiomas ✅
-3. **Bella Ciao** (Italia) → Tienes: "canallas, bella ciao" y "Bella ciao - Gómez Naharro"
-4. **We Shall Overcome** (EE.UU.) → Tienes: "We Shall Overcome | Patriotic Songs"
-5. **Warszawianka** (Polonia) → Tienes: "Warszawianka - 1970's Polish People's Army" y "Warszawianka! The Song of Warsaw!"
-
-#### **SEMANA 2: HIMNOS SINDICALES NACIONALES** 
-1. **Hijos del Pueblo** (España) → Tienes: "Hijos del Pueblo - Himno Anarquista"
-2. **Bandiera Rossa** (Italia) → Tienes: "Commandantes: Bandiera Rossa"
-3. **¡Ay, Carmela!** (España) → Tienes: "Ay Carmela" y "¡Ay Carmela! / Viva la Quince Brigada"
-4. **Unidos Obreros** (China) → Tienes: "'Unidos Obreros, Campesinos y Soldados' - Canción Comunista China"
-5. **Himno del Octubre Rojo** (Ruso) → Tienes: "Himno del Octubre Rojo - Гимн Красный Октябрь"
-
-#### **SEMANA 3: BRIGADAS INTERNACIONALES Y RESISTENCIA**
-1. **Himno de las Brigadas Internacionales** → Tienes: "Himno De Las Brigadas Internacionales"
-2. **Batallón Thälmann** → Tienes: "Batallón Thälmann [Canción de las Brigadas Internacionale]"
-3. **Wir sind des Geyers schwarzer Haufen** (Alemán) → Tienes: "Wir sind des Geyers schwarzer Haufen - German Communist Revolutionary song"
-4. **Adelante, Brigada Internacional** → Tienes: "Adelante, Brigada Internacional - Pi de la Serra"
-5. **No a la Intervención** (El Salvador) → Tienes: "No a la Intervención - No to Intervention (Salvadoran Revolutionary Song)"
-
-#### **SEMANA 4: HIMNOS REVOLUCIONARIOS Y ZAPATISTAS**
-1. **Himno del Ejército Zapatista** → Tienes: "Himno del Ejército ZAPATISTA de Liberación Nacional E.Z.L.N." y "himno zapatista/ezln/"
-2. **Venceremos** (Chile) → Tienes: "\"Venceremos\", himno de campaña de Salvador Allende"
-3. **Himno Guerrillero** → Tienes: "Los muertos de cristo-Himno guerrillero"
-4. **Música de la Revolución Cultural** (China) → Tienes: "伟大的无产阶级文革的音乐! Music of the Great Proletariat Cultural Revolution!"
-5. **The Russian Revolution** → Tienes: "The Russian Revolution (Red Army Choir)" y "The Russian Revolution (Instrumental)"
 
 ### CRITERIOS SELECCIÓN MUSICAL OBRERA
 
