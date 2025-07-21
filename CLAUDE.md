@@ -451,6 +451,139 @@ VIERNES: Economía/tendencias sociales
 
 ---
 
+## 🎯 PLAN PEDAGÓGICO GRAMÁTICA SISTEMÁTICA
+
+### **PROBLEMA IDENTIFICADO: SOBRECARGA Y FALTA DE PROGRESIÓN**
+
+#### **ANÁLISIS CRÍTICO ACTUAL (DÍAS 00-05):**
+- **DÍA 00**: SOBRECARGA MASIVA (15+ conceptos mayores) → IMPOSIBLE pedagógicamente
+- **DÍAS 01-05**: Distribución irregular → saltos abruptos de dificultad
+- **REPETICIONES**: Voz pasiva (días 00,02,03), participios (días 03,04), imperativo (días 01,02)
+- **AUSENCIAS**: Fundamentos básicos (presente simple sistemático, negación, interrogación)
+
+### **PROGRESIÓN GRAMÁTICA HOMOGÉNEA OBLIGATORIA**
+
+#### **🔥 REGLA DE ORO: MÁXIMO 3-4 CONCEPTOS GRAMATICALES POR DÍA**
+
+#### **DISTRIBUCIÓN SISTEMÁTICA PARA 12 DÍAS:**
+
+##### **BLOQUE I: FUNDAMENTOS ABSOLUTOS (DÍAS 00-02)**
+
+**DÍA 00: ARTÍCULOS Y PRESENTE SIMPLE**
+- Artículos definidos básicos (el/la/der/die/le/a/o)
+- Presente simple "cantar" (yo canto/I sing/ich singe)
+- Pronunciación básica de terminaciones verbales
+
+**DÍA 01: NEGACIÓN Y INTERROGACIÓN**
+- Negación básica (no canto/don't sing/ich singe nicht/je ne chante pas)
+- Interrogación básica (¿cantas?/do you sing?/singst du?/chantes-tu?)
+- Respuestas cortas (sí/no/yes/no/ja/nein/oui/non)
+
+**DÍA 02: PRONOMBRES PERSONALES**
+- Sujetos (yo/I/ich/je/我/я)
+- Objetos básicos (me/me/mich/me/我/меня)
+- Reflexivos básicos (se lava/washes himself/wäscht sich)
+
+##### **BLOQUE II: CONSTRUCCIÓN TEMPORAL (DÍAS 03-05)**
+
+**DÍA 03: PASADO SIMPLE**
+- Pretérito simple regular (canté/sang/sang/chantai)
+- Auxiliares básicos "haber/haben/avoir/have"
+- Participios pasados REGULARES solamente
+
+**DÍA 04: FUTURO BÁSICO**
+- Futuro simple (cantaré/will sing/werde singen/chanterai)
+- Futuro próximo/inmediato (voy a cantar/going to sing)
+- Expresar intenciones básicas
+
+**DÍA 05: ARTÍCULOS COMPLEJOS Y GÉNERO**
+- Artículos indefinidos (un/a/eine/des/un/une)
+- Concordancia básica género/número
+- Introducción casos alemanes/rusos (solo nominativo/acusativo)
+
+##### **BLOQUE III: ESTRUCTURAS INTERMEDIAS (DÍAS 06-08)**
+
+**DÍA 06: ADJETIVOS Y POSESIVOS**
+- Adjetivos posesivos (mi/my/mein/mon/我的/мой)
+- Concordancia adjetival básica
+- Posición adjetival por idioma
+
+**DÍA 07: PREPOSICIONES BÁSICAS**
+- Lugar (en/in/in/dans/在/в)
+- Tiempo (a las 3/at 3/um 3/à 3h)
+- Movimiento básico (a/to/nach/vers/到/в)
+
+**DÍA 08: PRETÉRITO COMPUESTO**
+- Pretérito perfecto (he cantado/have sung/habe gesungen)
+- Participios pasados IRREGULARES básicos
+- Diferencia pretérito simple vs compuesto
+
+##### **BLOQUE IV: MODOS Y CASOS (DÍAS 09-11)**
+
+**DÍA 09: IMPERATIVO BÁSICO**
+- Comandos directos (¡canta!/sing!/sing!/chante!)
+- Imperativo negativo (no cantes/don't sing)
+- Imperativo de cortesía
+
+**DÍA 10: CASOS RUSOS/ALEMANES BÁSICOS**
+- 3 casos básicos: nominativo/acusativo/dativo
+- Funciones básicas (sujeto/objeto directo/objeto indirecto)
+- Preposiciones que rigen casos específicos
+
+**DÍA 11: SUBJUNTIVO BÁSICO**
+- Subjuntivo presente básico español (que cante)
+- Condicional francés básico (je chanterais)
+- Konjunktiv II alemán básico (ich würde singen)
+
+#### **🔧 METODOLOGÍA DE APLICACIÓN:**
+
+##### **POR CADA CONCEPTO GRAMATICAL OBLIGATORIO:**
+
+1. **TABLA COMPARATIVA 6 IDIOMAS**:
+   | Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+
+2. **EJEMPLO MUSICAL CONTEXTUAL**:
+   - Aplicar cada concepto a la canción del día
+   - Mostrar cómo se usa en el contexto lírico específico
+
+3. **EJERCICIO IMPLÍCITO**:
+   - NO ejercicios explícitos (violación CLAUDE.md)
+   - SÍ tablas de consulta con ejemplos múltiples
+   - SÍ conjugaciones exhaustivas para referencia
+
+4. **CONEXIÓN CULTURAL**:
+   - Relacionar cada estructura con el contexto histórico
+   - Mostrar cómo cada idioma expresa el concepto de manera cultural
+
+##### **VERIFICACIÓN OBLIGATORIA ANTES DE CREAR CONTENIDO:**
+
+**✅ CHECKLIST GRAMÁTICA:**
+- [ ] Máximo 3-4 conceptos gramaticales por día
+- [ ] Conceptos siguen progresión lógica establecida
+- [ ] NO repetición de conceptos ya cubiertos
+- [ ] Tabla comparativa 6 idiomas para cada concepto
+- [ ] Aplicación contextual a la canción del día
+- [ ] Terminología gramatical consistente
+- [ ] Prerequisitos claros (no saltos abruptos)
+
+### **REDISTRIBUCIÓN CONTENIDO EXISTENTE:**
+
+#### **CONTENIDO SOBRANTE DÍA 00 → REDISTRIBUIR:**
+- **Phrasal verbs ingleses** → DÍA 15+ (avanzado)
+- **6 casos rusos completos** → DÍAS 10, 13, 16 (gradual)
+- **Voz pasiva 5 idiomas** → DÍA 14+ (avanzado)
+- **Subjuntivo comparativo** → DÍA 11, 17+ (gradual)
+- **Sistemas pronominales complejos** → DÍAS 12, 15+ (gradual)
+
+#### **CONCEPTOS NUEVOS A AÑADIR:**
+- **Números básicos 0-100** → DÍA 06
+- **Días de la semana/meses** → DÍA 07  
+- **Familia y relaciones** → DÍA 08
+- **Colores básicos** → DÍA 09
+- **Verbos modales básicos** → DÍA 12
+
+---
+
 ## 📞 COMANDO PARA MÍ
 
 **Para sesión musical escribo:**
