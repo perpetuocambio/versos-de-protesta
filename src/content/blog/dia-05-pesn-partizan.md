@@ -184,52 +184,50 @@ Nos escucha...
 ```
 Friend, do you hear
 The black flight of crows
-Over our hills?
+Over our plains?
 Friend, do you hear
-The harsh cries of the land
-That we are enchaining?
-Ahoy partisans,
+The muffled cries of the country
+In chains?
+Ahoy! partisans,
 Workers and peasants,
-This is the alarm.
-See the enemy
+It's the alarm!
+Tonight the enemy
 Will know the price of blood
-And tears.
+And tears!
 
-Climb from the mines,
-Comrades come down from the hills.
-Comrades.
+Come up from the mines,
+Comrades!
 Come out of the straw
 The rifles, the shrapnel,
-Less grenades...
-Ahoy killers,
-To the bullet and the knife,
-Kill quickly.
-Ahoy saboteur,
-Attention thundering burden:
-Dinamita.
+The grenades...
+Ahoy! killers,
+With bullets and knives,
+Kill quickly!
+Ahoy! saboteur,
+Watch your burden:
+Dynamite!
 
-It's us who break
-The bars of the clandestine
-Fruits of the vine,
-Hatred and their trail
-And the hunger that drives us,
+It is we who break
+The prison bars
+For our brothers,
+Hatred at our heels
+And hunger that drives us,
 Poverty...
 There are countries
-Where the dead in the hollow of beds
-Dream;
-Here, we, you see,
-We walk and it kills us,
+Where people in the hollows of their beds
+Dream; Here, you see,
+We march and we kill,
 We die.
 
-Here everyone knows
+Here, everyone knows
 What they want, what they do
-When they pass...
+When they pass by...
 Friend, if you fall
-A friend like the shadow
-There's a place.
+A friend comes out of the shadows
+In your place.
 Tomorrow, black blood
 Will dry in the bright sun
-Route on the...
+On the roads.
 Whistle, companions,
 In the night, Liberty
 Listens to us...
@@ -240,107 +238,107 @@ Listens to us...
 ```
 Freund, hörst du
 den schwarzen Krähenschwarm
-über unsere Hügel?
+über unsere Ebenen?
 Freund, hörst du
-die schrillen Schreie des Landes,
-das wir in Ketten legen?
-Ahoi Partisanen,
+die gedämpften Schreie des Landes
+in Ketten?
+Ahoi! Partisanen,
 Arbeiter und Bauern,
-Dies ist der Alarm.
-Seht den Feind,
-der den Preis des Blutes
-und der Tränen erfahren wird.
+Es ist Alarm!
+Heute Nacht wird der Feind
+den Preis des Blutes
+und der Tränen erfahren!
 
-Steigt aus den Minen,
-Kameraden, kommt von den Hügeln herunter.
-Kameraden.
-Kommt aus dem Stroh,
-die Gewehre, die Granatsplitter,
-weniger Granaten...
-Ahoi Mörder,
-zu Kugel und Messer,
-tötet schnell.
-Ahoi Saboteur,
-Achtung, donnernde Last:
-Dinamita.
+Kommt aus den Minen,
+Kameraden!
+Kommt aus dem Stroh
+der Gewehre, der Granatsplitter,
+der Granaten...
+Ahoi! Mörder,
+mit Kugeln und Messern,
+tötet schnell!
+Ahoi! Saboteur,
+Passt auf eure Last auf:
+Dynamit!
 
 Wir sind es, die
-die Gitter der geheimen
-Früchte des Weinstocks,
-des Hasses und seiner Spur
-und des Hungers, der uns treibt,
-der Armut...
+die Gefängnisgitter
+für unsere Brüder zerbrechen,
+Hass an unseren Fersen
+und Hunger, der uns treibt,
+Armut...
 Es gibt Länder,
-wo die Toten in den Höhlen der Betten
-träumen;
-Hier, wir, siehst du,
-Wir gehen und es bringt uns um,
-Wir sterben.
+wo die Menschen in ihren Betten
+träumen; hier seht ihr,
+marschieren und töten wir,
+sterben wir.
 
 Hier weiß jeder,
-was er will, was er tut,
-wenn er stirbt...
+was er will und tut,
+wenn er vorbeigeht...
 Freund, wenn du fällst,
-Ein Freund wie der Schatten,
-Es gibt einen Ort.
-Morgen wird schwarzes Blut in der hellen Sonne trocknen,
-Weg auf dem...
+tritt ein Freund aus den Schatten
+an deiner Stelle.
+Morgen wird schwarzes Blut
+in der hellen Sonne
+auf den Straßen trocknen.
 Pfeift, Gefährten,
-In der Nacht hört uns die Freiheit zu...
+in der Nacht
+hört uns die Freiheit zu...
 ```
 
 ### PORTUGUÊS
 **"Canção dos Partidários"**
 ```
-Freund, hörst du
-den schwarzen Krähenschwarm
-über unsere Hügel?
-Freund, hörst du
-die schrillen Schreie des Landes,
-das wir in Ketten legen?
-Ahoi Partisanen,
-Arbeiter und Bauern,
-Dies ist der Alarm.
-Seht den Feind,
-der den Preis des Blutes
-und der Tränen erfahren wird.
+Amigo, ouves
+O voo negro dos corvos
+Sobre as nossas planícies?
+Amigo, ouves
+Os gritos abafados do país
+Acorrentado?
+Ahoy! guerrilheiros,
+Trabalhadores e camponeses,
+É o alarme!
+Esta noite o inimigo
+Saberá o preço do sangue
+E das lágrimas!
 
-Steigt aus den Minen,
-Kameraden, kommt von den Hügeln herunter.
-Kameraden.
-Kommt aus dem Stroh,
-die Gewehre, die Granatsplitter,
-weniger Granaten...
-Ahoi Mörder,
-zu Kugel und Messer,
-tötet schnell.
-Ahoi Saboteur,
-Achtung, donnernde Last:
-Dinamita.
+Saiam das minas,
+Camaradas!
+Saiam da palha
+As espingardas, os estilhaços,
+As granadas...
+Ahoy! assassinos,
+Com balas e facas,
+Matem depressa!
+Ahoy! sabotador,
+Cuidado com o seu fardo:
+Dinamite!
 
-Wir sind es, die
-die Gitter der geheimen
-Früchte des Weinstocks,
-des Hasses und seiner Spur
-und des Hungers, der uns treibt,
-der Armut...
-Es gibt Länder,
-wo die Toten in den Höhlen der Betten
-träumen;
-Hier, wir, siehst du,
-Wir gehen und es bringt uns um,
-Wir sterben.
+Somos nós que quebramos
+As grades da prisão
+Por nossos irmãos,
+O ódio nos nossos calcanhares
+E a fome que nos impulsiona,
+A pobreza...
+Há países
+Onde as pessoas, no oco das suas camas,
+Sonham; Aqui, vê-se,
+Marchamos e matamos,
+Morremos.
 
-Hier weiß jeder,
-was er will, was er tut,
-wenn er stirbt...
-Freund, wenn du fällst,
-Ein Freund wie der Schatten,
-Es gibt einen Ort.
-Morgen wird schwarzes Blut in der hellen Sonne trocknen,
-Weg auf dem...
-Pfeift, Gefährten,
-In der Nacht hört uns die Freiheit zu...
+Aqui, todos sabem
+O que querem, o que fazem
+Quando passam...
+Amigo, se cair
+Um amigo sai das sombras
+Em seu lugar.
+Amanhã, sangue negro
+Secará sob o sol brilhante
+Nas estradas.
+Assobiem, companheiros,
+Na noite, a Liberdade
+Ouve-nos...
 ```
 
 ### РУССКИЙ
@@ -402,54 +400,52 @@ In der Nacht hört uns die Freiheit zu...
 ```
 Drug, slyshish' li ty
 Chernuyu stayu voron
-Nad nashimi kholmami?
+Nad nashimi ravninami?
 Drug, slyshish' li ty
-Zhostkiye kriki zemli,
-Chto my zakovyvayem v tsepi?
-Ey, partizany,
+Priglushennyye kriki strany
+V tsepyakh?
+Ey! Partizany,
 Rabochiye i krest'yane,
-Eto trevoga.
-Vidite vraga,
-Uznayete tsenu krovi
-I sloz.
+Nabat!
+Segodnya noch'yu vrag
+Uznayet tsenu krovi
+I sloz!
 
-Podnimaytes' s shakht,
-Tovarishchi, spustites' s kholmov.
-Tovarishchi.
+Podnimaytes' iz shakht,
+Tovarishchi!
 Vylezayte iz solomy
 Vintovki, shrapnel',
-Men'she granat...
-Ey, ubiytsy,
-K pule i nozhu,
-Ubivayte skoreye.
-Ey, diversant,
-Vnimaniye, gromopodobnoye bremya:
-Dinamita.
+Granat...
+Ey! Ubiytsy,
+Pulyami i nozhami,
+Ubivayte bystro!
+Ey! Diversant,
+Beregi svoyu noshu:
+Dinamit!
 
 Eto my lomayem
-Prut'ya taynykh
-Plodov vinogradnoy lozy,
-Nenavist' i ikh sled
-I golod, chto gonit nas,
+Tyuremnyye reshetki
+Za nashikh brat'yev,
+Nenavist' po pyatam
+I golod, kotoryy gonit nas,
 Nishcheta...
 Yest' strany,
-Gde mertvetsy v pustotakh krovatey
-Spyat;
-Zdes' my, vidite li,
-My idem, i eto ubivayet nas,
+Gde lyudi v glubinakh svoikh posteley
+Mechtayut; vot, vidish',
+My marshiruyem i ubivayem,
 My umirayem.
 
-Zdes' vse znayut,
-Chego oni khotyat, chto delayut,
-Kogda prokhodyat...
-Drug, yesli ty upadesh',
-Drug, kak ten',
-Yest' mesto.
-Zavtra chornaya krov'
-Vysokhnet na yarkom solntse
-Marshruta po...
+Zdes' kazhdyy znayet,
+Chego khochet, chto delayet,
+Kogda prokhodit mimo...
+Drug, yesli ty upadosh',
+Drug vyydet iz teni,
+Zanyat' tvoyo mesto.
+Zavtra chornaya krov',
+Vysokhnet na yarkom solntse,
+Na dorogakh.
 Svistite, tovarishchi,
-V nochi Svoboda
+V nochi Svoboda,
 Slushayet nas...
 ```
 
