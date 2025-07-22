@@ -27,13 +27,56 @@ jobs:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies
+    - name: Setup Python for validation scripts
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install Python dependencies
+      run: |
+        pip install pyyaml
+        
+    - name: Install npm dependencies
       run: npm ci
       
+    - name: Validate lesson structure (if any lessons exist)
+      run: |
+        if ls src/content/blog/dia-*.md 1> /dev/null 2>&1; then
+          echo "📋 Validating lesson structure..."
+          npm run validate-lessons
+        else
+          echo "ℹ️ No lesson files found to validate"
+        fi
+        
     - name: Build dictionary and site
       run: |
-        echo "🔧 Building dictionary and chunking for production..."
+        echo "🔧 Building dictionary and site for production..."
         npm run build
+        
+    - name: Generate build report
+      run: |
+        echo "## 📊 Build Report" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -f src/data/dictionary-stats.json ]; then
+          TOTAL_WORDS=$(cat src/data/dictionary-stats.json | jq -r '.totalUniqueWords // 0')
+          TOTAL_LESSONS=$(cat src/data/dictionary-stats.json | jq -r '.byLesson | length // 0')
+          echo "- **Total words:** $TOTAL_WORDS" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total lessons:** $TOTAL_LESSONS" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ -d src/data/internal/v1/dictionary/chunks ]; then
+          CHUNK_COUNT=$(ls src/data/internal/v1/dictionary/chunks/*.json 2>/dev/null | wc -l)
+          echo "- **Total chunks:** $CHUNK_COUNT" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ -d dist ]; then
+          DIST_SIZE=$(du -sh dist | cut -f1)
+          echo "- **Site size:** $DIST_SIZE" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ Build completed successfully!" >> $GITHUB_STEP_SUMMARY
         
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v2
@@ -53,3 +96,11 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
+      
+    - name: Deployment summary
+      run: |
+        echo "## 🚀 Deployment Complete" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ Site successfully deployed to GitHub Pages!" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🌐 **Live URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY

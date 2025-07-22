@@ -12,14 +12,11 @@
     "update-content": "node scripts/build-dictionary.mjs && node scripts/migrate-to-internal-structure.mjs && node scripts/chunk-dictionary-for-scale.mjs && echo 'Contenido actualizado con estructura interna'",
     "internal-migrate": "node scripts/migrate-to-internal-structure.mjs",
     "dictionary-legacy": "npm run build-dictionary && npm run partition-dictionary",
-    "prepare": "command -v pre-commit >/dev/null 2>&1 && pre-commit install || echo 'Pre-commit not installed, skipping hooks setup'",
-    "precommit-setup": "pip install pre-commit && pre-commit install",
+    "prepare": "command -v pre-commit >/dev/null 2>&1 && pre-commit install || echo 'Pre-commit not available, skipping hooks setup'",
+    "precommit-setup": "pip3 install pre-commit && pre-commit install",
     "validate-lessons": "python3 scripts/validate-lesson.py src/content/blog/dia-*.md"
   },
   "dependencies": {
     "astro": "^5.12.0"
-  },
-  "devDependencies": {
-    "pre-commit": "^3.6.0"
   }
 }

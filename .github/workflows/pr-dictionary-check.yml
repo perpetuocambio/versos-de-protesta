@@ -21,7 +21,16 @@ jobs:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies
+    - name: Setup Python for validation scripts
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install Python dependencies
+      run: |
+        pip install pyyaml
+        
+    - name: Install npm dependencies
       run: npm ci
       
     - name: Validate new lessons

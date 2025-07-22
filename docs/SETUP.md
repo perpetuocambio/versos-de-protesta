@@ -15,8 +15,12 @@ npm install
 
 ### 3. **Configurar Pre-commit Hooks (RECOMENDADO)**
 ```bash
-# Instalar pre-commit
-pip install pre-commit
+# Instalar pre-commit (requiere Python)
+pip3 install pre-commit
+
+# O usando conda/homebrew:
+# conda install pre-commit
+# brew install pre-commit
 
 # Configurar hooks automáticos
 npm run precommit-setup
@@ -24,6 +28,8 @@ npm run precommit-setup
 # Verificar instalación
 pre-commit --version
 ```
+
+**Nota**: Si no tienes Python/pip, puedes usar el proyecto sin pre-commit, pero tendrás que ejecutar `npm run update-content` manualmente después de crear lecciones.
 
 ## 🔄 Pre-commit vs GitHub Actions
 
