@@ -1,6 +1,6 @@
 ---
 title: "OY, IR NARISHE TSIENISTN"
-description: "Análisis multilingüe de la canción yiddish anti-sionista con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del Bund socialista"
+description: "La respuesta socialista yiddish al sionismo: el Bund y la resistencia cultural en Europa Oriental"
 pubDate: 2024-01-10
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]

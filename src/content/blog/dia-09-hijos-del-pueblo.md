@@ -1,6 +1,6 @@
 ---
 title: "HIJOS DEL PUEBLO"
-description: "Análisis multilingüe de Hijos del pueblo con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del anarquismo español"
+description: "El himno que despertó la conciencia obrera española desde la Comuna hasta la Guerra Civil"
 pubDate: 2024-01-09
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]

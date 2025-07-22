@@ -1,6 +1,6 @@
 ---
 title: "Fundamentos Básicos - Conceptos Gramaticales"
-description: "Introducción a sistemas gramaticales fundamentales a través de música obrera internacional en 5 idiomas"
+description: "Fundamentos gramaticales esenciales para el estudio de himnos revolucionarios internacionales"
 pubDate: 2024-01-15
 contentType: "grammar"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]

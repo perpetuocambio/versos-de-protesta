@@ -1,6 +1,6 @@
 ---
 title: "THE SACRED WAR"
-description: "Análisis multilingüe de Священная война con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico de la Segunda Guerra Mundial"
+description: "La 'Guerra Sagrada' soviética: cuando 22 millones de vidas se alzaron contra la invasión nazi (1941)"
 pubDate: 2024-01-08
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]

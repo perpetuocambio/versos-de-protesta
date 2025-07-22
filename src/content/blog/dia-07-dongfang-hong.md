@@ -1,6 +1,6 @@
 ---
 title: "东方红 (DŌNGFĀNG HÓNG)"
-description: "Análisis multilingüe del himno revolucionario chino '东方红' con traducciones en 8 idiomas, gramática comparativa, preposiciones básicas, IPA y contexto histórico de la Revolución Cultural China"
+description: "El sol que se alza en el Este: himno no oficial de la Revolución Cultural china y símbolo del maoísmo mundial"
 pubDate: 2024-01-07
 contentType: "song-analysis"
 primaryLanguages: ["zh", "es", "en", "de", "pt", "ru", "fr"]

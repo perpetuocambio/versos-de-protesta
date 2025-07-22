@@ -1,6 +1,6 @@
 ---
 title: "Il Galeone"
-description: "Análisis multilingüe de la canción de protesta italiana 'Il Galeone' de Paola Nicolazzi con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico"
+description: "La metáfora marinera que navegó por la contracultura italiana de los años 70, entre revolución y poesía"
 pubDate: 2024-01-04
 contentType: "song-analysis"
 primaryLanguages: ["it", "es", "en", "de", "pt", "ru", "zh"]

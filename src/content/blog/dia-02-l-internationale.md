@@ -1,6 +1,6 @@
 ---
 title: "DÍA 2: L'Internationale"
-description: "Análisis multilingüe del himno socialista internacional 'L'Internationale' con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico de la Comuna de París"
+description: "Nacida en las cenizas de la Comuna de París (1871), la canción que unió a los trabajadores del mundo entero"
 pubDate: 2024-01-17
 contentType: "song-analysis"
 primaryLanguages: ["fr", "es", "en", "de", "pt", "ru", "zh"]

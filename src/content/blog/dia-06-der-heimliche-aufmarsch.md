@@ -1,6 +1,6 @@
 ---
 title: "DER HEIMLICHE AUFMARSCH"
-description: "Análisis multilingüe del himno antifascista alemán de Hanns Eisler y Erich Weinert con traducciones en 6 idiomas, gramática comparativa, IPA y contexto histórico de la República de Weimar"
+description: "La profética advertencia de Eisler contra el militarismo fascista en la agonizante República de Weimar (1930)"
 pubDate: 2024-01-06
 contentType: "song-analysis"
 primaryLanguages: ["de", "es", "en", "fr", "pt", "ru", "zh"]

@@ -1,6 +1,6 @@
 ---
 title: "El Pueblo Unido Jamás Será Vencido"
-description: "Análisis multilingüe del himno de Sergio Ortega con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del Chile de Allende"
+description: "El himno de la Unidad Popular chilena que se convirtió en símbolo de resistencia contra la dictadura de Pinochet"
 pubDate: 2024-01-03
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]

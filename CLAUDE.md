@@ -17,7 +17,7 @@
 ```yaml
 ---
 title: "DÍA X: [TÍTULO CANCIÓN]"
-description: "Análisis multilingüe de [canción] con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico"
+description: "[CONTEXTO HISTÓRICO/POLÍTICO ESPECÍFICO DE LA CANCIÓN - SIN MENCIONAR 'ANÁLISIS MULTILINGÜE']"
 pubDate: 2024-01-0X
 contentType: "song-analysis"  # o "lesson", "grammar", "cultural"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
