@@ -1,5 +1,5 @@
 ---
-title: "Il Galeone"
+title: "DÍA 04: Il Galeone"
 description: "Análisis multilingüe de la canción de protesta italiana 'Il Galeone' de Paola Nicolazzi con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico"
 pubDate: 2024-01-04
 contentType: "song-analysis"

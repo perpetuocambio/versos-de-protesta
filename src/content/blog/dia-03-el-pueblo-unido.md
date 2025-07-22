@@ -1,5 +1,5 @@
 ---
-title: "El Pueblo Unido Jamás Será Vencido"
+title: "DÍA 03: El Pueblo Unido Jamás Será Vencido"
 description: "Análisis multilingüe del himno de Sergio Ortega con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del Chile de Allende"
 pubDate: 2024-01-03
 contentType: "song-analysis"

@@ -1,9 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SearchBox from '../components/SearchBox.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
-const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedPosts = allPosts.sort((a, b) => (a.data.day || 999) - (b.data.day || 999));
+
+// Prepare search data
+const searchData = sortedPosts.map(post => ({
+  slug: post.slug,
+  title: post.data.title,
+  description: post.data.description,
+  day: post.data.day,
+  originalSong: post.data.originalSong,
+  tags: post.data.tags,
+  artist: post.data.originalSong?.artist
+}));
 ---
 
 <Layout title="Blog - Todos los artículos">
@@ -11,12 +23,19 @@ const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
     📖 Todos los artículos
   </h1>
   
+  <SearchBox />
+  
+  <script define:vars={{searchData}}>
+    window.blogPosts = searchData;
+  </script>
+  
   {sortedPosts.length > 0 ? (
     <div style="display: grid; gap: 2rem;">
       {sortedPosts.map((post) => (
         <article style="border: 1px solid #e5e7eb; padding: 2rem; border-radius: 12px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
           <h2 style="margin-bottom: 0.75rem;">
             <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.5rem; font-weight: 600;">
+              {post.data.day !== undefined && `Día ${post.data.day}: `}
               {post.data.title}
             </a>
           </h2>
