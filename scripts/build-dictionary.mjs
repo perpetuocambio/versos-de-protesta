@@ -137,7 +137,7 @@ async function buildDictionary() {
   console.log('🚀 Iniciando construcción del diccionario...');
   
   // Crear directorio de datos si no existe
-  const dataDir = path.join(projectRoot, 'src', 'data');
+  const dataDir = path.join(projectRoot, 'public', 'data');
   await fs.mkdir(dataDir, { recursive: true });
   
   // Buscar todos los archivos markdown de lecciones

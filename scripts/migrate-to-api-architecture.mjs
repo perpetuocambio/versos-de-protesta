@@ -204,7 +204,7 @@ async function migrateToApiArchitecture() {
     );
     
     console.log('\\n✅ Migración a arquitectura API completada exitosamente');
-    console.log('📁 Estructura API creada en: src/data/api/v1/');
+    console.log('📁 Estructura API creada en: public/data/api/v1/');
     console.log('🗑️ Archivos innecesarios eliminados');
     console.log('💾 Cache optimizado generado');
     

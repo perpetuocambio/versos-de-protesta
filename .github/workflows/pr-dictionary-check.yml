@@ -81,8 +81,8 @@ jobs:
         
         # Check if dictionary files were generated
         if [ -f src/data/dictionary-stats.json ]; then
-          TOTAL_WORDS=$(cat src/data/dictionary-stats.json | jq -r '.totalUniqueWords')
-          TOTAL_LESSONS=$(cat src/data/dictionary-stats.json | jq -r '.byLesson | length')
+          TOTAL_WORDS=$(cat public/data/dictionary-stats.json | jq -r '.totalUniqueWords')
+          TOTAL_LESSONS=$(cat public/data/dictionary-stats.json | jq -r '.byLesson | length')
           
           echo "## 📊 Dictionary Build Test Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY

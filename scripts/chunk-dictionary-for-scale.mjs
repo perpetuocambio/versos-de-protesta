@@ -26,7 +26,7 @@ async function chunkDictionaryForScale() {
   console.log('🔧 Optimizando diccionario para escalabilidad a 100+ lecciones...');
   
   try {
-    const dataDir = path.join(projectRoot, 'src', 'data');
+    const dataDir = path.join(projectRoot, 'public', 'data');
     const internalDir = path.join(dataDir, 'internal', 'v1', 'dictionary');
     const chunksDir = path.join(internalDir, 'chunks');
     
@@ -251,8 +251,8 @@ async function chunkDictionaryForScale() {
     console.log(`   💾 Estimación a 100 lecciones: ${Math.ceil(100/CHUNK_SIZE) * avgChunkSize}KB por idioma por chunk`);
     
     console.log('\\n✅ Optimización para escalabilidad completada');
-    console.log('📁 Chunks: src/data/internal/v1/dictionary/chunks/');
-    console.log('🔍 Índices: src/data/internal/v1/dictionary/languages/*-index.json');
+    console.log('📁 Chunks: public/data/internal/v1/dictionary/chunks/');
+    console.log('🔍 Índices: public/data/internal/v1/dictionary/languages/*-index.json');
     
   } catch (error) {
     console.error('❌ Error en optimización de escalabilidad:', error);

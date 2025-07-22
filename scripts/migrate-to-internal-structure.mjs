@@ -12,7 +12,7 @@ async function migrateToInternalStructure() {
   console.log('🔄 Generando metadata y cache para el diccionario interno...');
   
   try {
-    const dataDir = path.join(projectRoot, 'src', 'data');
+    const dataDir = path.join(projectRoot, 'public', 'data');
     const internalDir = path.join(dataDir, 'internal', 'v1');
     const internalLangDir = path.join(internalDir, 'dictionary', 'languages');
     
@@ -108,8 +108,8 @@ async function migrateToInternalStructure() {
     );
     
     console.log('\n✅ Proceso de metadata y cache completado');
-    console.log('📁 Diccionario interno: src/data/internal/v1/dictionary/');
-    console.log('💾 Cache optimizado: src/data/internal/cache/');
+    console.log('📁 Diccionario interno: public/data/internal/v1/dictionary/');
+    console.log('💾 Cache optimizado: public/data/internal/cache/');
     
   } catch (error) {
     console.error('❌ Error en el proceso:', error);

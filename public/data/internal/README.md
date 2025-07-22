@@ -14,7 +14,7 @@ Esta implementación usa una arquitectura tipo API REST ÚNICAMENTE para organiz
 ### 🗂️ Estructura de Directorios Internos (Solo Diccionario)
 
 ```
-src/data/internal/
+public/data/internal/
 ├── v1/                          # Versionado interno de datos
 │   └── dictionary/              # SOLO datos de diccionario
 │       ├── index.json          # Lista de idiomas disponibles

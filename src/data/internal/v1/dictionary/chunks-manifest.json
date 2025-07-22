@@ -7,70 +7,13 @@
     "chunkSize": 20
   },
   "meta": {
-    "totalLanguages": 8,
-    "totalChunks": 8,
+    "totalLanguages": 0,
+    "totalChunks": 0,
     "scalabilityTarget": "100+ lessons",
     "estimatedMaxSizeAt100Lessons": "750KB per language",
-    "generated": "2025-07-22T22:10:13.490Z"
+    "generated": "2025-07-22T22:16:06.228Z"
   },
-  "languages": [
-    {
-      "code": "es",
-      "totalChunks": 1,
-      "totalWords": 239,
-      "estimatedSizeKB": 193,
-      "chunksPath": "/internal/v1/dictionary/chunks/es-*"
-    },
-    {
-      "code": "en",
-      "totalChunks": 1,
-      "totalWords": 292,
-      "estimatedSizeKB": 199,
-      "chunksPath": "/internal/v1/dictionary/chunks/en-*"
-    },
-    {
-      "code": "de",
-      "totalChunks": 1,
-      "totalWords": 295,
-      "estimatedSizeKB": 200,
-      "chunksPath": "/internal/v1/dictionary/chunks/de-*"
-    },
-    {
-      "code": "pt",
-      "totalChunks": 1,
-      "totalWords": 295,
-      "estimatedSizeKB": 200,
-      "chunksPath": "/internal/v1/dictionary/chunks/pt-*"
-    },
-    {
-      "code": "ru",
-      "totalChunks": 1,
-      "totalWords": 293,
-      "estimatedSizeKB": 200,
-      "chunksPath": "/internal/v1/dictionary/chunks/ru-*"
-    },
-    {
-      "code": "ru-rom",
-      "totalChunks": 1,
-      "totalWords": 297,
-      "estimatedSizeKB": 200,
-      "chunksPath": "/internal/v1/dictionary/chunks/ru-rom-*"
-    },
-    {
-      "code": "zh",
-      "totalChunks": 1,
-      "totalWords": 292,
-      "estimatedSizeKB": 200,
-      "chunksPath": "/internal/v1/dictionary/chunks/zh-*"
-    },
-    {
-      "code": "zh-pinyin",
-      "totalChunks": 1,
-      "totalWords": 295,
-      "estimatedSizeKB": 198,
-      "chunksPath": "/internal/v1/dictionary/chunks/zh-pinyin-*"
-    }
-  ],
+  "languages": [],
   "performance": {
     "loadingStrategy": "chunk-on-demand",
     "cacheStrategy": "aggressive-chunk-cache",

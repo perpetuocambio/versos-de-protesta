@@ -65,8 +65,8 @@ jobs:
           echo "- **Total lessons:** $TOTAL_LESSONS" >> $GITHUB_STEP_SUMMARY
         fi
         
-        if [ -d src/data/internal/v1/dictionary/chunks ]; then
-          CHUNK_COUNT=$(ls src/data/internal/v1/dictionary/chunks/*.json 2>/dev/null | wc -l)
+        if [ -d public/data/internal/v1/dictionary/chunks ]; then
+          CHUNK_COUNT=$(ls public/data/internal/v1/dictionary/chunks/*.json 2>/dev/null | wc -l)
           echo "- **Total chunks:** $CHUNK_COUNT" >> $GITHUB_STEP_SUMMARY
         fi
         
