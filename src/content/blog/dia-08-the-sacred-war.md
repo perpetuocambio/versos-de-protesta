@@ -1,5 +1,5 @@
 ---
-title: "DÍA 8: THE SACRED WAR"
+title: "THE SACRED WAR"
 description: "Análisis multilingüe de Священная война con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico de la Segunda Guerra Mundial"
 pubDate: 2024-01-08
 contentType: "song-analysis"

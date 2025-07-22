@@ -1,5 +1,5 @@
 ---
-title: "DÍA 7: 东方红 (DŌNGFĀNG HÓNG)"
+title: "东方红 (DŌNGFĀNG HÓNG)"
 description: "Análisis multilingüe del himno revolucionario chino '东方红' con traducciones en 8 idiomas, gramática comparativa, preposiciones básicas, IPA y contexto histórico de la Revolución Cultural China"
 pubDate: 2024-01-07
 contentType: "song-analysis"

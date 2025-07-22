@@ -1,5 +1,5 @@
 ---
-title: "DÍA 0: Fundamentos Básicos - Conceptos Gramaticales"
+title: "Fundamentos Básicos - Conceptos Gramaticales"
 description: "Introducción a sistemas gramaticales fundamentales a través de música obrera internacional en 5 idiomas"
 pubDate: 2024-01-15
 contentType: "grammar"

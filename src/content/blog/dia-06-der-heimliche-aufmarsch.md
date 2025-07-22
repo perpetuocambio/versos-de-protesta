@@ -1,5 +1,5 @@
 ---
-title: "DÍA 6: DER HEIMLICHE AUFMARSCH"
+title: "DER HEIMLICHE AUFMARSCH"
 description: "Análisis multilingüe del himno antifascista alemán de Hanns Eisler y Erich Weinert con traducciones en 6 idiomas, gramática comparativa, IPA y contexto histórico de la República de Weimar"
 pubDate: 2024-01-06
 contentType: "song-analysis"

@@ -1,5 +1,5 @@
 ---
-title: "DÍA 9: HIJOS DEL PUEBLO"
+title: "HIJOS DEL PUEBLO"
 description: "Análisis multilingüe de Hijos del pueblo con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del anarquismo español"
 pubDate: 2024-01-09
 contentType: "song-analysis"
