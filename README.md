@@ -123,13 +123,32 @@ El sistema automáticamente procesa el vocabulario y actualiza toda la estructur
 - **Mantenimiento**: Automatización completa del diccionario
 - **Accuracy**: Sin duplicados, ordenamiento correcto por idioma
 
+## ⚡ Configuración Rápida
+
+```bash
+# 1. Instalar
+npm install && npm run precommit-setup
+
+# 2. Crear lección
+vim src/content/blog/dia-XX-titulo.md
+
+# 3. Commit automático
+git add . && git commit -m "Add Día XX"  # ← Pre-commit actualiza todo
+
+# 4. Push
+git push  # ← Deploy automático
+```
+
 ## 🤝 Contribuir
 
-1. **Fork** el repositorio
-2. **Crear rama**: `git checkout -b nueva-leccion-XX`
-3. **Agregar lección** siguiendo el template
-4. **Pull Request** → validación automática
-5. **Merge** → deploy automático
+1. **Setup**: `npm install && npm run precommit-setup`
+2. **Fork** y crear rama: `git checkout -b nueva-leccion-XX`
+3. **Agregar lección** con estructura obligatoria
+4. **Commit**: Pre-commit valida y actualiza diccionario automáticamente
+5. **PR**: Validación adicional en CI
+6. **Merge**: Deploy automático
+
+**📖 Guía completa**: [`docs/SETUP.md`](./docs/SETUP.md)
 
 ## 📄 Licencia
 

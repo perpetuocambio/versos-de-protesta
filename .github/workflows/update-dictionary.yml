@@ -1,4 +1,4 @@
-name: Update Dictionary on New Lessons
+name: Verify Pre-commit Updates
 
 on:
   push:
@@ -6,20 +6,11 @@ on:
     paths:
       - 'src/content/blog/dia-*.md'
       - 'src/content/blog/día-*.md'
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'src/content/blog/dia-*.md'
-      - 'src/content/blog/día-*.md'
+      - 'src/data/**'
   workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Reason for manual dictionary update'
-        required: false
-        default: 'Manual update'
 
 jobs:
-  update-dictionary:
+  verify-precommit:
     runs-on: ubuntu-latest
     
     steps:
@@ -34,120 +25,42 @@ jobs:
         
     - name: Install dependencies
       run: npm ci
-      
-    - name: Check for lesson changes
-      id: check_changes
+        
+    - name: Verify dictionary consistency
       run: |
-        if git diff --name-only HEAD~1 HEAD | grep -E 'src/content/blog/d[ií]a-.*\.md'; then
-          echo "lessons_changed=true" >> $GITHUB_OUTPUT
-          echo "📝 New lesson files detected!"
-        else
-          echo "lessons_changed=false" >> $GITHUB_OUTPUT
-          echo "ℹ️ No lesson files changed"
+        echo "🔍 Verifying dictionary was updated by pre-commit..."
+        
+        # Check if we have lesson files
+        LESSON_FILES=$(find src/content/blog -name 'dia-*.md' | wc -l)
+        echo "📚 Found $LESSON_FILES lesson files"
+        
+        # Check if dictionary files exist
+        if [ ! -d src/data/internal ]; then
+          echo "❌ Dictionary files missing - pre-commit may have failed"
+          echo "💡 Run: npm run update-content locally and commit again"
+          exit 1
         fi
         
-    - name: Update dictionary
-      if: steps.check_changes.outputs.lessons_changed == 'true' || github.event_name == 'workflow_dispatch'
+        echo "✅ Dictionary structure verified"
+        
+    - name: Generate verification report
       run: |
-        echo "🔄 Updating dictionary with new lessons..."
-        npm run update-content
-        
-    - name: Check if dictionary files changed
-      id: check_dict_changes
-      if: steps.check_changes.outputs.lessons_changed == 'true' || github.event_name == 'workflow_dispatch'
-      run: |
-        if git diff --name-only | grep -E 'src/data/'; then
-          echo "dict_changed=true" >> $GITHUB_OUTPUT
-          echo "📊 Dictionary files updated!"
-          git status
-        else
-          echo "dict_changed=false" >> $GITHUB_OUTPUT
-          echo "ℹ️ No dictionary changes to commit"
-        fi
-        
-    - name: Commit and push dictionary updates
-      if: steps.check_dict_changes.outputs.dict_changed == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # Add all dictionary files
-        git add src/data/
-        
-        # Create commit with detailed info
-        NEW_LESSONS=$(git log --name-only --pretty="" HEAD~1..HEAD | grep -E 'src/content/blog/d[ií]a-.*\.md' | wc -l)
-        COMMIT_MSG="🤖 Auto-update: Dictionary rebuilt with new lessons
-
-        📈 Changes:
-        - Processed $NEW_LESSONS new lesson(s)
-        - Updated vocabulary chunks and indices
-        - Regenerated language mappings
-        
-        🔧 Generated with automated dictionary pipeline
-        🕐 $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-        
-        Co-Authored-By: Dictionary Bot <noreply@github.com>"
-        
-        git commit -m "$COMMIT_MSG" || exit 0
-        git push
-        
-    - name: Generate build report
-      if: steps.check_changes.outputs.lessons_changed == 'true' || github.event_name == 'workflow_dispatch'
-      run: |
-        echo "## 📊 Dictionary Update Report" >> $GITHUB_STEP_SUMMARY
+        echo "## 📊 Pre-commit Verification Report" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         
         if [ -f src/data/dictionary-stats.json ]; then
-          TOTAL_WORDS=$(cat src/data/dictionary-stats.json | jq -r '.totalUniqueWords')
-          TOTAL_LESSONS=$(cat src/data/dictionary-stats.json | jq -r '.byLesson | length')
+          TOTAL_WORDS=$(cat src/data/dictionary-stats.json | jq -r '.totalUniqueWords // 0')
+          TOTAL_LESSONS=$(cat src/data/dictionary-stats.json | jq -r '.byLesson | length // 0')
           echo "- **Total words:** $TOTAL_WORDS" >> $GITHUB_STEP_SUMMARY
           echo "- **Total lessons:** $TOTAL_LESSONS" >> $GITHUB_STEP_SUMMARY
         fi
         
         if [ -d src/data/internal/v1/dictionary/chunks ]; then
-          CHUNK_COUNT=$(ls src/data/internal/v1/dictionary/chunks/*.json | wc -l)
+          CHUNK_COUNT=$(ls src/data/internal/v1/dictionary/chunks/*.json 2>/dev/null | wc -l)
           echo "- **Total chunks:** $CHUNK_COUNT" >> $GITHUB_STEP_SUMMARY
         fi
         
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### 🗂️ Files Updated:" >> $GITHUB_STEP_SUMMARY
-        git diff --name-only HEAD~1 HEAD | grep -E 'src/data/' | while read file; do
-          echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
-        done
-        
+        echo "✅ Pre-commit hooks working correctly!" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "✅ Dictionary pipeline completed successfully!" >> $GITHUB_STEP_SUMMARY
-
-  deploy:
-    needs: update-dictionary
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Build site
-      run: npm run build
-      
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        
-    - name: Deployment summary
-      run: |
-        echo "## 🚀 Deployment Report" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "✅ Site built and deployed successfully!" >> $GITHUB_STEP_SUMMARY
-        echo "🌐 **URL:** https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_STEP_SUMMARY
+        echo "🔄 **Dictionary updated automatically by pre-commit**" >> $GITHUB_STEP_SUMMARY

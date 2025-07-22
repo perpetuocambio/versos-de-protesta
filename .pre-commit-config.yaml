@@ -1,0 +1,51 @@
+# Pre-commit hooks para Versos de Protesta
+repos:
+  - repo: local
+    hooks:
+      # Hook principal: actualizar diccionario antes del commit
+      - id: update-dictionary
+        name: 🔄 Update Dictionary
+        entry: bash -c 'npm run update-content && git add src/data/'
+        language: system
+        files: '^src/content/blog/d[ií]a-.*\.md$'
+        pass_filenames: false
+        verbose: true
+        
+      # Hook de validación: verificar estructura de lecciones
+      - id: validate-lesson-structure
+        name: 📋 Validate Lesson Structure  
+        entry: python3 scripts/validate-lesson.py
+        language: system
+        files: '^src/content/blog/d[ií]a-.*\.md$'
+        
+      # Hook de limpieza: formato y orden
+      - id: cleanup-dictionary
+        name: 🧹 Cleanup Dictionary Files
+        entry: bash -c 'find src/data/ -name "*.json" -exec jq --sort-keys . {} \; > /tmp/sorted.json && mv /tmp/sorted.json {}'
+        language: system
+        files: '^src/data/.*\.json$'
+        pass_filenames: false
+
+  # Hooks estándar de calidad
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '\.md$'
+      - id: end-of-file-fixer
+        exclude: '\.json$'
+      - id: check-json
+        files: '^src/data/.*\.json$'
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=500']
+        
+  # Hook específico para archivos markdown de lecciones
+  - repo: local
+    hooks:
+      - id: lesson-frontmatter-check
+        name: ✅ Check Lesson Frontmatter
+        entry: bash -c 'scripts/check-frontmatter.sh'
+        language: system
+        files: '^src/content/blog/d[ií]a-.*\.md$'
+        pass_filenames: true
