@@ -153,6 +153,9 @@ const maxYear = Math.max(...songs.map(s => s.year));
 </div>
 
 <script define:vars={{ songs, minYear, maxYear }}>
+  // Verificar que tengamos datos
+  console.log('Timeline data:', { songs, minYear, maxYear });
+  
   // Estado del timeline
   let currentZoom = 1;
   let currentStartYear = minYear;
@@ -160,14 +163,23 @@ const maxYear = Math.max(...songs.map(s => s.year));
   const maxZoom = 3;
   const minZoom = 0.5;
   
-  // Elementos DOM
-  const timelineContent = document.getElementById('timeline-content');
-  const yearMarkers = document.getElementById('year-markers');
-  const songPoints = document.getElementById('song-points');
-  const songInfo = document.getElementById('song-info');
-  const zoomInfo = document.getElementById('zoom-info');
-  const zoomInBtn = document.getElementById('zoom-in');
-  const zoomOutBtn = document.getElementById('zoom-out');
+  // Esperar a que el DOM esté cargado
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, initializing timeline...');
+    
+    // Elementos DOM
+    const timelineContent = document.getElementById('timeline-content');
+    const yearMarkers = document.getElementById('year-markers');
+    const songPoints = document.getElementById('song-points');
+    const songInfo = document.getElementById('song-info');
+    const zoomInfo = document.getElementById('zoom-info');
+    const zoomInBtn = document.getElementById('zoom-in');
+    const zoomOutBtn = document.getElementById('zoom-out');
+    
+    if (!timelineContent || !yearMarkers || !songPoints) {
+      console.error('Timeline elements not found');
+      return;
+    }
   
   function updateTimeline() {
     const timeSpan = currentEndYear - currentStartYear;
@@ -350,8 +362,11 @@ const maxYear = Math.max(...songs.map(s => s.year));
     }
   });
   
-  // Inicializar timeline
-  updateTimeline();
+    // Inicializar timeline
+    updateTimeline();
+    
+    console.log('Timeline initialized successfully');
+  });
 </script>
 
 <style>

@@ -138,19 +138,22 @@ import.meta.env.BASE_URL;
       
       /* Layout mejorado */
       .container {
-        max-width: 1400px;
+        max-width: 1600px;
+        width: 85%;
         margin: 0 auto;
         padding: 0 var(--space-xl);
       }
       
       @media (max-width: 1024px) {
         .container {
+          width: 90%;
           padding: 0 var(--space-lg);
         }
       }
       
       @media (max-width: 768px) {
         .container {
+          width: 95%;
           padding: 0 var(--space-md);
         }
       }
@@ -293,6 +296,45 @@ import.meta.env.BASE_URL;
         box-shadow: var(--shadow-md);
       }
       
+      /* Control de tamaño de fuente */
+      .font-control {
+        position: fixed;
+        top: 50%;
+        right: var(--space-md);
+        transform: translateY(-50%);
+        z-index: 100;
+        background: var(--color-paper);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-lg);
+        padding: var(--space-sm);
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-xs);
+      }
+      
+      .font-control button {
+        background: var(--color-revolutionary-red);
+        color: white;
+        border: none;
+        border-radius: var(--radius-md);
+        padding: var(--space-sm);
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.75rem;
+        transition: all 0.2s ease;
+        min-width: 32px;
+        min-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .font-control button:hover {
+        background: var(--color-revolutionary-red-dark);
+        transform: scale(1.05);
+      }
+      
       /* Estilos para tablas responsivas */
       .table-container {
         overflow-x: auto;
@@ -336,9 +378,42 @@ import.meta.env.BASE_URL;
       .vocab-table th {
         background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
       }
+      
+      /* Clases de tamaño de fuente */
+      .font-size-small { font-size: 0.9rem !important; }
+      .font-size-normal { font-size: 1rem !important; }
+      .font-size-large { font-size: 1.1rem !important; }
+      .font-size-xlarge { font-size: 1.2rem !important; }
+      
+      .font-size-small h1 { font-size: clamp(1.8rem, 4.5vw, 2.7rem) !important; }
+      .font-size-large h1 { font-size: clamp(2.2rem, 5.5vw, 3.3rem) !important; }
+      .font-size-xlarge h1 { font-size: clamp(2.4rem, 6vw, 3.6rem) !important; }
+      
+      .font-size-small h2 { font-size: clamp(1.35rem, 3.6vw, 2.025rem) !important; }
+      .font-size-large h2 { font-size: clamp(1.65rem, 4.4vw, 2.475rem) !important; }
+      .font-size-xlarge h2 { font-size: clamp(1.8rem, 4.8vw, 2.7rem) !important; }
+      
+      .font-size-small h3 { font-size: clamp(1.125rem, 2.7vw, 1.6875rem) !important; }
+      .font-size-large h3 { font-size: clamp(1.375rem, 3.3vw, 2.0625rem) !important; }
+      .font-size-xlarge h3 { font-size: clamp(1.5rem, 3.6vw, 2.25rem) !important; }
     </style>
   </head>
   <body>
+    <!-- Control de tamaño de fuente -->
+    <div class="font-control">
+      <button onclick="changeFontSize('small')" title="Fuente pequeña">
+        A-
+      </button>
+      <button onclick="changeFontSize('normal')" title="Fuente normal">
+        A
+      </button>
+      <button onclick="changeFontSize('large')" title="Fuente grande">
+        A+
+      </button>
+      <button onclick="changeFontSize('xlarge')" title="Fuente extra grande">
+        A++
+      </button>
+    </div>
     <header>
       <div class="container">
         <nav>
@@ -375,5 +450,28 @@ import.meta.env.BASE_URL;
         <p>&copy; 2024 Blog de Idiomas. Hecho con Astro.</p>
       </footer>
     </div>
+    
+    <script>
+      // Control de tamaño de fuente
+      function changeFontSize(size) {
+        const body = document.body;
+        const classes = ['font-size-small', 'font-size-normal', 'font-size-large', 'font-size-xlarge'];
+        
+        // Remover clases existentes
+        classes.forEach(cls => body.classList.remove(cls));
+        
+        // Agregar nueva clase
+        body.classList.add(`font-size-${size}`);
+        
+        // Guardar preferencia
+        localStorage.setItem('fontSize', size);
+      }
+      
+      // Cargar preferencia al iniciar
+      document.addEventListener('DOMContentLoaded', function() {
+        const savedSize = localStorage.getItem('fontSize') || 'normal';
+        changeFontSize(savedSize);
+      });
+    </script>
   </body>
 </html>

@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import SearchBox from '../components/SearchBox.astro';
 import Icon from '../components/Icon.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import ProgressBar from '../components/ProgressBar.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
@@ -20,10 +19,6 @@ const searchData = sortedPosts.map(post => ({
   artist: post.data.originalSong?.artist
 }));
 
-// Calcular progreso del curso
-const lessonsWithDay = sortedPosts.filter(post => post.data.day !== undefined);
-const maxDay = Math.max(...lessonsWithDay.map(post => post.data.day));
-const totalLessons = lessonsWithDay.length;
 
 // Breadcrumb items
 const breadcrumbItems = [
@@ -40,7 +35,6 @@ const breadcrumbItems = [
     Todas las Lecciones
   </h1>
   
-  <ProgressBar currentDay={maxDay} totalDays={12} />
   
   <SearchBox />
   
