@@ -1,23 +1,29 @@
 ---
+import Icon from './Icon.astro';
 // SearchBox component for blog search functionality
 ---
 
 <div style="margin-bottom: 2rem;">
   <div style="position: relative; max-width: 600px; margin: 0 auto;">
-    <input 
-      type="text" 
-      id="search-input"
-      placeholder="🔍 Buscar lecciones por título, descripción, canción..." 
-      style="
+    <div style="position: relative;">
+      <div style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #9ca3af; pointer-events: none;">
+        <Icon name="search" size={20} />
+      </div>
+      <input 
+        type="text" 
+        id="search-input"
+        placeholder="Buscar lecciones por título, descripción, canción..." 
+        style="
         width: 100%; 
-        padding: 0.75rem 1rem; 
+        padding: 0.75rem 1rem 0.75rem 3rem; 
         border: 2px solid #e5e7eb; 
         border-radius: 8px; 
         font-size: 1rem; 
         transition: border-color 0.2s;
         outline: none;
       "
-    />
+      />
+    </div>
     <div id="search-results" style="
       position: absolute; 
       top: 100%; 
@@ -110,8 +116,9 @@
           ${post.description}
         </p>
         ${post.originalSong ? `
-          <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #9ca3af;">
-            🎵 "${post.originalSong.title}"
+          <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #9ca3af; display: flex; align-items: center; gap: 0.25rem;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            "${post.originalSong.title}"
           </div>
         ` : ''}
       </div>

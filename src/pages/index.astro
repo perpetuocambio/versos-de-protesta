@@ -1,75 +1,250 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import NavigationCard from '../components/NavigationCard.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
 const recentPosts = allPosts
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .sort((a, b) => (a.data.day || 999) - (b.data.day || 999))
   .slice(0, 3);
+
+const totalLessons = allPosts.filter(post => post.data.day !== undefined).length;
+const songLessons = allPosts.filter(post => post.data.originalSong).length;
 ---
 
 <Layout title="Versos de Protesta - Aprende idiomas con himnos revolucionarios">
-  <section style="text-align: center; margin-bottom: 3rem;">
-    <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #1f2937;">
-      🏴🚩 Versos de Protesta
-    </h1>
-    <p style="font-size: 1.3rem; color: #6b7280; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+  <!-- Hero Section -->
+  <section style="
+    text-align: center; 
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-3xl) 0;
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+  ">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-lg);
+      margin-bottom: var(--space-xl);
+    ">
+      <Icon name="flag" size={48} class="text-revolutionary" />
+      <h1 style="margin: 0; background: linear-gradient(135deg, var(--color-revolutionary-red), var(--color-socialist-gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+        Versos de Protesta
+      </h1>
+      <Icon name="fist" size={48} class="text-socialist" />
+    </div>
+    
+    <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto var(--space-xl) auto; line-height: 1.7;">
       Aprende 5 idiomas a través de los himnos que cambiaron el mundo. Desde "A las Barricadas" hasta "L'Internationale", cada canción obrera es una ventana a la historia, la gramática y el alma de los pueblos.
     </p>
+    
+    <!-- Stats -->
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: var(--space-lg);
+      max-width: 600px;
+      margin: 0 auto;
+    ">
+      <div style="
+        background: var(--color-paper);
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--color-border);
+        box-shadow: var(--shadow-sm);
+      ">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-revolutionary-red); margin-bottom: var(--space-xs);">
+          {totalLessons}
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
+          Lecciones Completas
+        </div>
+      </div>
+      
+      <div style="
+        background: var(--color-paper);
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--color-border);
+        box-shadow: var(--shadow-sm);
+      ">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-socialist-gold); margin-bottom: var(--space-xs);">
+          {songLessons}
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
+          Himnos Analizados
+        </div>
+      </div>
+      
+      <div style="
+        background: var(--color-paper);
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--color-border);
+        box-shadow: var(--shadow-sm);
+      ">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-charcoal); margin-bottom: var(--space-xs);">
+          5
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
+          Idiomas Paralelos
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- <section style="margin-bottom: 3rem;">
-    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #374151;">
-      🎵 Himnos Revolucionarios
+  <!-- Navigation Cards -->
+  <section style="margin-bottom: var(--space-3xl);">
+    <h2 style="
+      text-align: center;
+      margin-bottom: var(--space-2xl);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-md);
+    ">
+      <Icon name="compass" size={32} class="text-revolutionary" />
+      Explora el Contenido
     </h2>
     
-    {recentPosts.length > 0 ? (
-      <div style="display: grid; gap: 1.5rem;">
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--space-xl);
+    ">
+      <NavigationCard
+        title="Todas las Lecciones"
+        description="Curso completo de idiomas a través de himnos revolucionarios. Gramática comparativa, pronunciación y contexto histórico."
+        href={`${import.meta.env.BASE_URL}blog/`}
+        icon="book-open"
+        variant="primary"
+      />
+      
+      <NavigationCard
+        title="Historia Musical"
+        description="Timeline interactivo de canciones de protesta desde 1871 hasta hoy. Descubre la cronología de la resistencia."
+        href={`${import.meta.env.BASE_URL}canciones/`}
+        icon="music"
+        variant="secondary"
+      />
+      
+      <NavigationCard
+        title="Por Idiomas"
+        description="Contenido organizado por idioma: Español, English, Deutsch, Português, Русский, 中文 y más."
+        href={`${import.meta.env.BASE_URL}idiomas/`}
+        icon="globe"
+        variant="tertiary"
+      />
+    </div>
+  </section>
+
+  <!-- Recent Lessons Preview -->
+  {recentPosts.length > 0 && (
+    <section style="margin-bottom: var(--space-3xl);">
+      <h2 style="
+        margin-bottom: var(--space-xl);
+        display: flex;
+        align-items: center;
+        gap: var(--space-md);
+      ">
+        <Icon name="clock" size={28} class="text-socialist" />
+        Últimas Lecciones
+      </h2>
+      
+      <div style="display: grid; gap: var(--space-lg);">
         {recentPosts.map((post) => (
-          <article style="border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; background: #fafafa;">
-            <h3 style="margin-bottom: 0.5rem;">
-              <a href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} style="color: #2563eb; text-decoration: none; font-size: 1.3rem;">
-                {post.data.title}
-              </a>
-            </h3>
-            <p style="color: #6b7280; margin-bottom: 1rem;">{post.data.description}</p>
-            <div style="display: flex; gap: 1rem; align-items: center; font-size: 0.9rem; color: #9ca3af;">
-              <span>📅 {post.data.pubDate.toLocaleDateString('es-ES')}</span>
-              <span>🌍 {post.data.language}</span>
-              {post.data.level && (
-                <span>📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
-              )}
+          <article class="card" style="
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: var(--space-lg);
+            align-items: center;
+          ">
+            <div style="
+              background: var(--color-revolutionary-red);
+              color: white;
+              padding: var(--space-md);
+              border-radius: var(--radius-md);
+              font-weight: 700;
+              text-align: center;
+              min-width: 60px;
+            ">
+              {post.data.day !== undefined ? `Día ${post.data.day}` : 'Nueva'}
             </div>
-            {post.data.tags && post.data.tags.length > 0 && (
-              <div style="margin-top: 0.75rem;">
-                {post.data.tags.map(tag => (
-                  <span style="background: #e5e7eb; color: #374151; padding: 0.2rem 0.6rem; border-radius: 9999px; font-size: 0.75rem; margin-right: 0.5rem;">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            )}
+            
+            <div>
+              <h3 style="margin: 0 0 var(--space-xs) 0;">
+                <a 
+                  href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} 
+                  style="color: var(--color-revolutionary-red); text-decoration: none; font-size: 1.1rem;"
+                  onmouseover="this.style.color='var(--color-revolutionary-red-dark)'"
+                  onmouseout="this.style.color='var(--color-revolutionary-red)'"
+                >
+                  {post.data.title}
+                </a>
+              </h3>
+              <p style="margin: 0; font-size: 0.95rem; line-height: 1.5;">
+                {post.data.description}
+              </p>
+            </div>
+            
+            <div style="color: var(--color-text-muted);">
+              <Icon name="arrow-right" size={20} />
+            </div>
           </article>
         ))}
       </div>
-    ) : (
-      <p style="text-align: center; color: #9ca3af; font-style: italic;">
-        Los himnos obreros esperan ser analizados. 
-      </p>
-    )}
-  </section> -->
+      
+      <div style="text-align: center; margin-top: var(--space-xl);">
+        <a 
+          href={`${import.meta.env.BASE_URL}blog/`}
+          class="btn btn-primary"
+        >
+          <Icon name="book-open" size={20} />
+          Ver Todas las Lecciones
+        </a>
+      </div>
+    </section>
+  )}
 
-  <section style="text-align: center; background: #f3f4f6; padding: 2rem; border-radius: 8px;">
-    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #374151;">
-      ¿Preparado para el aprendizaje de idiomas?
+  <!-- Call to Action -->
+  <section style="
+    text-align: center;
+    background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
+    padding: var(--space-3xl);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border);
+  ">
+    <h2 style="margin-bottom: var(--space-lg); color: var(--color-charcoal);">
+      ¿Preparado para el Aprendizaje Revolucionario?
     </h2>
-    <p style="color: #6b7280; margin-bottom: 1.5rem;">
+    <p style="margin-bottom: var(--space-xl); max-width: 600px; margin-left: auto; margin-right: auto;">
       Cada himno es una lección. Cada verso, una ventana a 5 culturas. Únete al movimiento que aprende idiomas cantando la historia de la lucha obrera.
     </p>
-    <a 
-      href={`${import.meta.env.BASE_URL}blog/`}
-      style="background: #dc2626; color: white; padding: 0.75rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 500; display: inline-block; box-shadow: 0 2px 4px rgba(220,38,38,0.3);"
-    >
-    </a>
+    
+    <div style="
+      display: flex;
+      gap: var(--space-lg);
+      justify-content: center;
+      flex-wrap: wrap;
+    ">
+      <a 
+        href={`${import.meta.env.BASE_URL}blog/`}
+        class="btn btn-primary"
+      >
+        <Icon name="flag" size={20} />
+        Comenzar el Curso
+      </a>
+      
+      <a 
+        href={`${import.meta.env.BASE_URL}canciones/`}
+        class="btn btn-secondary"
+      >
+        <Icon name="music" size={20} />
+        Explorar Himnos
+      </a>
+    </div>
   </section>
 </Layout>

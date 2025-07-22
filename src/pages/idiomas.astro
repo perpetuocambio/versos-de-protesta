@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
@@ -34,11 +36,20 @@ const languageStats = Object.entries(languageGroups).map(([code, posts]) => ({
   count: posts.length,
   posts: posts.sort((a, b) => (a.data.day || 999) - (b.data.day || 999))
 })).sort((a, b) => b.count - a.count);
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
+  { label: 'Idiomas', icon: 'globe' }
+];
 ---
 
 <Layout title="Idiomas - Contenido Multilingüe">
-  <h1 style="font-size: 2.5rem; margin-bottom: 2rem; color: #1f2937; text-align: center;">
-    🌍 Contenido por Idiomas
+  <Breadcrumb items={breadcrumbItems} />
+  
+  <h1 style="text-align: center; display: flex; align-items: center; justify-content: center; gap: var(--space-lg); margin-bottom: var(--space-xl);">
+    <Icon name="globe" size={40} class="text-revolutionary" />
+    Contenido por Idiomas
   </h1>
   
   <div style="text-align: center; margin-bottom: 3rem; color: #6b7280;">
@@ -73,11 +84,20 @@ const languageStats = Object.entries(languageGroups).map(([code, posts]) => ({
                 {post.data.description}
               </p>
               <div style="display: flex; gap: 1rem; align-items: center; font-size: 0.8rem; color: #9ca3af;">
-                <span>📅 {post.data.pubDate.toLocaleDateString('es-ES')}</span>
+                <span style="display: flex; align-items: center; gap: 0.25rem;">
+                  <Icon name="calendar" size={14} />
+                  {post.data.pubDate.toLocaleDateString('es-ES')}
+                </span>
                 {post.data.originalSong && (
-                  <span>🎵 "{post.data.originalSong.title}"</span>
+                  <span style="display: flex; align-items: center; gap: 0.25rem;">
+                    <Icon name="music" size={14} />
+                    "{post.data.originalSong.title}"
+                  </span>
                 )}
-                <span>📊 {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}</span>
+                <span style="display: flex; align-items: center; gap: 0.25rem;">
+                  <Icon name="chart-bar" size={14} />
+                  {post.data.level === 'beginner' ? 'Principiante' : post.data.level === 'intermediate' ? 'Intermedio' : 'Avanzado'}
+                </span>
               </div>
             </article>
           ))}
@@ -98,8 +118,9 @@ const languageStats = Object.entries(languageGroups).map(([code, posts]) => ({
   </div>
 
   <section style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 12px; text-align: center;">
-    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #1e40af;">
-      📚 Metodología Multilingüe
+    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #1e40af; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+      <Icon name="graduation-cap" size={32} />
+      Metodología Multilingüe
     </h2>
     <p style="color: #1e40af; max-width: 800px; margin: 0 auto; line-height: 1.6;">
       Cada lección combina música revolucionaria con análisis gramatical comparativo en múltiples idiomas. 

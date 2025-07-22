@@ -1,4 +1,6 @@
 ---
+import Icon from '../components/Icon.astro';
+
 export interface Props {
   title: string;
   description?: string;
@@ -18,78 +20,276 @@ import.meta.env.BASE_URL;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- Generator meta removed for security -->
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
     <title>{title}</title>
     <style>
+      :root {
+        /* Paleta de colores revolucionaria */
+        --color-revolutionary-red: #DC2626;
+        --color-revolutionary-red-dark: #B91C1C;
+        --color-revolutionary-red-light: #FEE2E2;
+        --color-socialist-gold: #F59E0B;
+        --color-socialist-gold-dark: #D97706;
+        --color-socialist-gold-light: #FEF3C7;
+        --color-charcoal: #1F2937;
+        --color-charcoal-light: #374151;
+        --color-charcoal-lighter: #6B7280;
+        --color-paper: #FEFEFE;
+        --color-paper-warm: #FEF7ED;
+        --color-text-primary: #111827;
+        --color-text-secondary: #6B7280;
+        --color-text-muted: #9CA3AF;
+        --color-border: #E5E7EB;
+        --color-border-light: #F3F4F6;
+        
+        /* Tipografía */
+        --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+        
+        /* Espaciado consistente */
+        --space-xs: 0.25rem;
+        --space-sm: 0.5rem;
+        --space-md: 1rem;
+        --space-lg: 1.5rem;
+        --space-xl: 2rem;
+        --space-2xl: 3rem;
+        --space-3xl: 4rem;
+        
+        /* Radios */
+        --radius-sm: 0.375rem;
+        --radius-md: 0.5rem;
+        --radius-lg: 0.75rem;
+        --radius-xl: 1rem;
+        
+        /* Sombras */
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
       
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Noto Sans', 'Liberation Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        line-height: 1.6;
-        color: #333;
-        background: #f9f9f9;
+      html {
+        font-size: 16px;
+        scroll-behavior: smooth;
       }
       
+      body {
+        font-family: var(--font-primary);
+        line-height: 1.6;
+        color: var(--color-text-primary);
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      /* Tipografía mejorada */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-primary);
+        font-weight: 700;
+        line-height: 1.2;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-lg);
+      }
+      
+      h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+      
+      h2 {
+        font-size: clamp(1.5rem, 4vw, 2.25rem);
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      
+      h3 {
+        font-size: clamp(1.25rem, 3vw, 1.875rem);
+        font-weight: 600;
+      }
+      
+      h4 {
+        font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+        font-weight: 600;
+      }
+      
+      p {
+        line-height: 1.7;
+        color: var(--color-text-secondary);
+        margin-bottom: var(--space-md);
+      }
+      
+      code, pre {
+        font-family: var(--font-mono);
+        font-size: 0.875rem;
+      }
+      
+      /* Layout mejorado */
       .container {
-        max-width: 1800px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 0 40px;
+        padding: 0 var(--space-xl);
       }
       
       @media (max-width: 1024px) {
         .container {
-          max-width: 95vw;
-          padding: 0 20px;
+          padding: 0 var(--space-lg);
         }
       }
       
       @media (max-width: 768px) {
         .container {
-          padding: 0 15px;
+          padding: 0 var(--space-md);
         }
       }
       
+      /* Header rediseñado */
       header {
-        background: white;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        margin-bottom: 2rem;
+        background: var(--color-paper);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--color-border-light);
+        box-shadow: var(--shadow-sm);
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        margin-bottom: var(--space-2xl);
       }
       
       nav {
-        padding: 1rem 0;
+        padding: var(--space-lg) 0;
+        display: flex;
+        align-items: center;
+        gap: var(--space-2xl);
       }
       
       nav a {
         text-decoration: none;
-        color: #2563eb;
+        color: var(--color-revolutionary-red);
         font-weight: 500;
-        margin-right: 2rem;
+        font-size: 0.95rem;
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-sm) var(--space-md);
+        border-radius: var(--radius-md);
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
       }
       
       nav a:hover {
-        color: #1d4ed8;
+        color: var(--color-revolutionary-red-dark);
+        background: var(--color-revolutionary-red-light);
+        transform: translateY(-1px);
       }
       
-      h1 {
-        color: #1f2937;
-        margin-bottom: 1rem;
+      nav a .icon {
+        color: inherit;
+        transition: transform 0.2s ease;
       }
       
+      nav a:hover .icon {
+        transform: scale(1.1);
+      }
+      
+      /* Main content mejorado */
       main {
-        background: white;
-        padding: 2rem;
-        border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        margin-bottom: 2rem;
+        background: var(--color-paper);
+        padding: var(--space-2xl);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--color-border-light);
+        margin-bottom: var(--space-2xl);
+        min-height: 60vh;
       }
       
+      @media (max-width: 768px) {
+        main {
+          padding: var(--space-xl);
+          border-radius: var(--radius-lg);
+        }
+      }
+      
+      /* Footer mejorado */
       footer {
         text-align: center;
-        padding: 2rem 0;
-        color: #6b7280;
+        padding: var(--space-2xl) 0;
+        color: var(--color-text-muted);
+        font-size: 0.9rem;
+        border-top: 1px solid var(--color-border-light);
+        background: var(--color-paper);
+      }
+      
+      /* Utilidades de diseño */
+      .text-revolutionary { color: var(--color-revolutionary-red) !important; }
+      .text-socialist { color: var(--color-socialist-gold) !important; }
+      .text-charcoal { color: var(--color-charcoal) !important; }
+      .bg-revolutionary { background-color: var(--color-revolutionary-red) !important; }
+      .bg-socialist { background-color: var(--color-socialist-gold) !important; }
+      .border-revolutionary { border-color: var(--color-revolutionary-red) !important; }
+      
+      /* Cards y componentes */
+      .card {
+        background: var(--color-paper);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--color-border);
+        box-shadow: var(--shadow-sm);
+        padding: var(--space-xl);
+        transition: all 0.2s ease;
+      }
+      
+      .card:hover {
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-2px);
+        border-color: var(--color-revolutionary-red-light);
+      }
+      
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-md) var(--space-xl);
+        border-radius: var(--radius-md);
+        font-family: var(--font-primary);
+        font-weight: 500;
+        font-size: 0.95rem;
+        text-decoration: none;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
+        cursor: pointer;
+      }
+      
+      .btn-primary {
+        background: var(--color-revolutionary-red);
+        color: white;
+      }
+      
+      .btn-primary:hover {
+        background: var(--color-revolutionary-red-dark);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+      }
+      
+      .btn-secondary {
+        background: var(--color-socialist-gold);
+        color: var(--color-charcoal);
+      }
+      
+      .btn-secondary:hover {
+        background: var(--color-socialist-gold-dark);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
       }
     </style>
   </head>
@@ -97,11 +297,26 @@ import.meta.env.BASE_URL;
     <header>
       <div class="container">
         <nav>
-          <a href={import.meta.env.BASE_URL}>🏠 Inicio</a>
-          <a href={`${import.meta.env.BASE_URL}blog/`}>📚 Lecciones</a>
-          <a href={`${import.meta.env.BASE_URL}idiomas/`}>🌍 Idiomas</a>
-          <a href={`${import.meta.env.BASE_URL}canciones/`}>🎵 Canciones</a>
-          <a href={`${import.meta.env.BASE_URL}about/`}>ℹ️ Acerca de</a>
+          <a href={import.meta.env.BASE_URL}>
+            <Icon name="home" size={20} />
+            Inicio
+          </a>
+          <a href={`${import.meta.env.BASE_URL}blog/`}>
+            <Icon name="book-open" size={20} />
+            Lecciones
+          </a>
+          <a href={`${import.meta.env.BASE_URL}idiomas/`}>
+            <Icon name="globe" size={20} />
+            Idiomas
+          </a>
+          <a href={`${import.meta.env.BASE_URL}canciones/`}>
+            <Icon name="music" size={20} />
+            Canciones
+          </a>
+          <a href={`${import.meta.env.BASE_URL}about/`}>
+            <Icon name="info" size={20} />
+            Acerca de
+          </a>
         </nav>
       </div>
     </header>

@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
@@ -21,11 +23,20 @@ const songs = allPosts
 const minYear = Math.min(...songs.map(s => s.year));
 const maxYear = Math.max(...songs.map(s => s.year));
 const timeSpan = maxYear - minYear;
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
+  { label: 'Canciones', icon: 'music' }
+];
 ---
 
 <Layout title="Canciones - Línea Temporal Interactiva">
-  <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: #1f2937; text-align: center;">
-    🎵 Historia Musical de la Resistencia
+  <Breadcrumb items={breadcrumbItems} />
+  
+  <h1 style="text-align: center; display: flex; align-items: center; justify-content: center; gap: var(--space-lg); margin-bottom: var(--space-lg);">
+    <Icon name="music" size={40} class="text-revolutionary" />
+    Historia Musical de la Resistencia
   </h1>
   
   <div style="text-align: center; margin-bottom: 3rem; color: #6b7280;">
@@ -123,8 +134,9 @@ const timeSpan = maxYear - minYear;
 
   <!-- Grid de canciones como respaldo -->
   <div style="margin-top: 4rem;">
-    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #1f2937; text-align: center;">
-      📚 Catálogo Completo
+    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #1f2937; text-align: center; display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
+      <Icon name="book" size={32} />
+      Catálogo Completo
     </h2>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem;">
@@ -182,8 +194,9 @@ const timeSpan = maxYear - minYear;
 
   <!-- Estadísticas -->
   <div style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 12px; text-align: center; margin-top: 4rem;">
-    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #1e40af;">
-      📊 Estadísticas Musicales
+    <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: #1e40af; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+      <Icon name="chart-bar" size={32} />
+      Estadísticas Musicales
     </h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
       <div style="background: rgba(255,255,255,0.8); padding: 1rem; border-radius: 8px;">

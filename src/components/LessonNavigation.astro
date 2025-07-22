@@ -1,0 +1,165 @@
+---
+import Icon from './Icon.astro';
+
+export interface Props {
+  currentDay: number;
+  previousLesson?: {
+    title: string;
+    href: string;
+    day: number;
+  };
+  nextLesson?: {
+    title: string;
+    href: string;
+    day: number;
+  };
+}
+
+const { currentDay, previousLesson, nextLesson } = Astro.props;
+---
+
+<nav style="
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
+  padding: var(--space-xl);
+  background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-light);
+" class="lesson-navigation">
+  
+  <!-- Lección anterior -->
+  {previousLesson ? (
+    <a 
+      href={previousLesson.href}
+      style="
+        display: flex;
+        align-items: center;
+        gap: var(--space-md);
+        padding: var(--space-md);
+        border-radius: var(--radius-md);
+        text-decoration: none;
+        color: var(--color-text-primary);
+        transition: all 0.2s ease;
+        border: 1px solid var(--color-border);
+      "
+      onmouseover="this.style.background='var(--color-revolutionary-red-light)'; this.style.borderColor='var(--color-revolutionary-red)';"
+      onmouseout="this.style.background='transparent'; this.style.borderColor='var(--color-border)';"
+    >
+      <div style="
+        background: var(--color-revolutionary-red);
+        color: white;
+        padding: var(--space-sm);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+        <Icon name="chevron-left" size={16} />
+      </div>
+      
+      <div>
+        <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: var(--space-xs);">
+          Día {previousLesson.day}
+        </div>
+        <div style="font-weight: 500; font-size: 0.95rem;">
+          {previousLesson.title}
+        </div>
+      </div>
+    </a>
+  ) : (
+    <div></div>
+  )}
+  
+  <!-- Indicador de día actual -->
+  <div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--space-md);
+  ">
+    <div style="
+      background: linear-gradient(135deg, var(--color-revolutionary-red), var(--color-revolutionary-red-dark));
+      color: white;
+      padding: var(--space-sm) var(--space-lg);
+      border-radius: var(--radius-lg);
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: var(--space-sm);
+      box-shadow: var(--shadow-sm);
+    ">
+      Día {currentDay}
+    </div>
+    
+    <div style="
+      width: 32px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-revolutionary-red), var(--color-socialist-gold));
+      border-radius: 2px;
+    "></div>
+  </div>
+  
+  <!-- Lección siguiente -->
+  {nextLesson ? (
+    <a 
+      href={nextLesson.href}
+      style="
+        display: flex;
+        align-items: center;
+        gap: var(--space-md);
+        padding: var(--space-md);
+        border-radius: var(--radius-md);
+        text-decoration: none;
+        color: var(--color-text-primary);
+        transition: all 0.2s ease;
+        border: 1px solid var(--color-border);
+        justify-self: end;
+        text-align: right;
+      "
+      onmouseover="this.style.background='var(--color-socialist-gold-light)'; this.style.borderColor='var(--color-socialist-gold)';"
+      onmouseout="this.style.background='transparent'; this.style.borderColor='var(--color-border)';"
+    >
+      <div>
+        <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: var(--space-xs);">
+          Día {nextLesson.day}
+        </div>
+        <div style="font-weight: 500; font-size: 0.95rem;">
+          {nextLesson.title}
+        </div>
+      </div>
+      
+      <div style="
+        background: var(--color-socialist-gold);
+        color: var(--color-charcoal);
+        padding: var(--space-sm);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+        <Icon name="chevron-right" size={16} />
+      </div>
+    </a>
+  ) : (
+    <div></div>
+  )}
+</nav>
+
+<style>
+  @media (max-width: 768px) {
+    .lesson-navigation {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      gap: var(--space-md);
+      text-align: center;
+    }
+    
+    .lesson-navigation a {
+      justify-self: center !important;
+      text-align: center !important;
+    }
+  }
+</style>

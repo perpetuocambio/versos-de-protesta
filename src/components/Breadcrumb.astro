@@ -1,0 +1,64 @@
+---
+import Icon from './Icon.astro';
+
+export interface Props {
+  items: Array<{
+    label: string;
+    href?: string;
+    icon?: string;
+  }>;
+}
+
+const { items } = Astro.props;
+---
+
+<nav aria-label="Breadcrumb" style="margin-bottom: var(--space-xl);">
+  <ol style="
+    display: flex; 
+    align-items: center; 
+    gap: var(--space-sm); 
+    list-style: none; 
+    font-size: 0.9rem; 
+    color: var(--color-text-muted);
+  ">
+    {items.map((item, index) => (
+      <li style="display: flex; align-items: center; gap: var(--space-sm);">
+        {index > 0 && (
+          <Icon name="chevron-right" size={14} style="color: var(--color-border);" />
+        )}
+        
+        {item.href ? (
+          <a 
+            href={item.href} 
+            style="
+              color: var(--color-revolutionary-red); 
+              text-decoration: none; 
+              display: flex; 
+              align-items: center; 
+              gap: var(--space-xs);
+              padding: var(--space-xs) var(--space-sm);
+              border-radius: var(--radius-sm);
+              transition: all 0.2s ease;
+            "
+            onmouseover="this.style.background='var(--color-revolutionary-red-light)'; this.style.color='var(--color-revolutionary-red-dark)';"
+            onmouseout="this.style.background='transparent'; this.style.color='var(--color-revolutionary-red)';"
+          >
+            {item.icon && <Icon name={item.icon} size={14} />}
+            {item.label}
+          </a>
+        ) : (
+          <span style="
+            color: var(--color-text-primary); 
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+          ">
+            {item.icon && <Icon name={item.icon} size={14} />}
+            {item.label}
+          </span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
