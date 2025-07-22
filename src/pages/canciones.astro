@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import ZoomableTimeline from '../components/ZoomableTimeline.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
@@ -42,95 +43,12 @@ const breadcrumbItems = [
   <div style="text-align: center; margin-bottom: 3rem; color: #6b7280;">
     <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
       Navega por las canciones revolucionarias desde <strong>{minYear}</strong> hasta <strong>{maxYear}</strong>. 
-      Haz clic en los puntos para descubrir cada canción.
+      Usa el zoom para explorar períodos específicos.
     </p>
   </div>
 
-  <!-- Timeline interactivo -->
-  <div style="background: linear-gradient(135deg, #f8fafc, #f1f5f9); padding: 3rem 2rem; border-radius: 20px; margin: 2rem 0; position: relative; overflow: hidden;">
-    
-    <!-- Decoraciones de fondo -->
-    <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent); border-radius: 50%;"></div>
-    <div style="position: absolute; bottom: -30px; left: -30px; width: 150px; height: 150px; background: radial-gradient(circle, rgba(239, 68, 68, 0.1), transparent); border-radius: 50%;"></div>
-    
-    <div style="position: relative; z-index: 10;">
-      
-      <!-- Línea temporal principal -->
-      <div style="position: relative; height: 120px; margin: 2rem 0; padding: 0 2rem;">
-        
-        <!-- Línea base del timeline -->
-        <div style="
-          position: absolute;
-          top: 50%;
-          left: 2rem;
-          right: 2rem;
-          height: 6px;
-          background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #3b82f6, #8b5cf6);
-          border-radius: 3px;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        "></div>
-        
-        <!-- Marcadores de años -->
-        <div style="position: absolute; top: 50%; left: 2rem; transform: translateY(-50%); font-size: 0.9rem; font-weight: 600; color: #374151;">{minYear}</div>
-        <div style="position: absolute; top: 50%; right: 2rem; transform: translateY(-50%); font-size: 0.9rem; font-weight: 600; color: #374151;">{maxYear}</div>
-        
-        <!-- Puntos de canciones -->
-        {songs.map((song, index) => {
-          const position = ((song.year - minYear) / timeSpan) * 100;
-          const colors = ['#ef4444', '#f97316', '#eab308', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6'];
-          const color = colors[index % colors.length];
-          
-          return (
-            <div 
-              class="song-point"
-              data-title={song.title}
-              data-year={song.year}
-              data-artist={song.artist}
-              data-slug={song.slug}
-              style={`
-                position: absolute;
-                top: 50%;
-                left: calc(2rem + ${position}%);
-                transform: translate(-50%, -50%);
-                width: 16px;
-                height: 16px;
-                background: ${color};
-                border-radius: 50%;
-                border: 3px solid white;
-                box-shadow: 0 0 0 2px ${color}, 0 4px 12px rgba(0,0,0,0.2);
-                cursor: pointer;
-                transition: all 0.3s ease;
-                z-index: 20;
-              `}
-            />
-          );
-        })}
-      </div>
-      
-      <!-- Panel de información -->
-      <div id="song-info" style="
-        background: white;
-        border-radius: 16px;
-        padding: 2rem;
-        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-        border: 1px solid #e5e7eb;
-        margin-top: 2rem;
-        min-height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: #6b7280;
-        font-style: italic;
-      ">
-        <div>
-          <div style="font-size: 3rem; margin-bottom: 1rem;">🎵</div>
-          <p>Haz clic en cualquier punto del timeline para descubrir la canción</p>
-        </div>
-      </div>
-      
-    </div>
-  </div>
+  <!-- Timeline interactivo con zoom -->
+  <ZoomableTimeline songs={songs} />
 
   <!-- Grid de canciones como respaldo -->
   <div style="margin-top: 4rem;">

@@ -138,7 +138,7 @@ import.meta.env.BASE_URL;
       
       /* Layout mejorado */
       .container {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
         padding: 0 var(--space-xl);
       }
@@ -212,6 +212,7 @@ import.meta.env.BASE_URL;
         border: 1px solid var(--color-border-light);
         margin-bottom: var(--space-2xl);
         min-height: 60vh;
+        overflow-x: auto; /* Para tablas anchas */
       }
       
       @media (max-width: 768px) {
@@ -290,6 +291,50 @@ import.meta.env.BASE_URL;
         background: var(--color-socialist-gold-dark);
         transform: translateY(-1px);
         box-shadow: var(--shadow-md);
+      }
+      
+      /* Estilos para tablas responsivas */
+      .table-container {
+        overflow-x: auto;
+        margin: var(--space-lg) 0;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--color-border);
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        background: var(--color-paper);
+      }
+      
+      th, td {
+        padding: var(--space-md) var(--space-sm);
+        text-align: left;
+        border-bottom: 1px solid var(--color-border-light);
+        vertical-align: top;
+      }
+      
+      th {
+        background: var(--color-revolutionary-red-light);
+        font-weight: 600;
+        color: var(--color-charcoal);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      
+      tbody tr:hover {
+        background: var(--color-paper-warm);
+      }
+      
+      /* Tablas especiales de gramática */
+      .grammar-table th {
+        background: var(--color-socialist-gold-light);
+      }
+      
+      .vocab-table th {
+        background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
       }
     </style>
   </head>

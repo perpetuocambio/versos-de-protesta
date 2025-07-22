@@ -1,0 +1,375 @@
+---
+import Icon from './Icon.astro';
+
+export interface Props {
+  songs: Array<{
+    title: string;
+    artist: string;
+    year: number;
+    slug: string;
+    genre?: string;
+  }>;
+}
+
+const { songs } = Astro.props;
+const minYear = Math.min(...songs.map(s => s.year));
+const maxYear = Math.max(...songs.map(s => s.year));
+---
+
+<div id="timeline-container" style="
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+">
+  
+  <!-- Controles de zoom -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  ">
+    <button 
+      id="zoom-out" 
+      class="btn"
+      style="
+        background: var(--color-paper);
+        border: 1px solid var(--color-border);
+        color: var(--color-text-primary);
+        padding: var(--space-sm) var(--space-md);
+        font-size: 0.9rem;
+      "
+    >
+      <Icon name="search" size={16} />
+      Zoom -
+    </button>
+    
+    <div style="
+      background: var(--color-paper);
+      border: 1px solid var(--color-border);
+      padding: var(--space-sm) var(--space-lg);
+      border-radius: var(--radius-md);
+      font-weight: 600;
+      color: var(--color-text-primary);
+    " id="zoom-info">
+      {minYear} - {maxYear}
+    </div>
+    
+    <button 
+      id="zoom-in" 
+      class="btn"
+      style="
+        background: var(--color-paper);
+        border: 1px solid var(--color-border);
+        color: var(--color-text-primary);
+        padding: var(--space-sm) var(--space-md);
+        font-size: 0.9rem;
+      "
+    >
+      <Icon name="search" size={16} />
+      Zoom +
+    </button>
+  </div>
+  
+  <!-- Contenedor del timeline con scroll horizontal -->
+  <div id="timeline-viewport" style="
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.5);
+    padding: var(--space-lg) 0;
+  ">
+    
+    <!-- Timeline escalable -->
+    <div id="timeline-content" style="
+      position: relative;
+      height: 200px;
+      min-width: 100%;
+      width: 800px;
+      margin: 0 auto;
+    ">
+      
+      <!-- Línea base -->
+      <div style="
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        right: 5%;
+        height: 6px;
+        background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #3b82f6, #8b5cf6);
+        border-radius: 3px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transform: translateY(-50%);
+      ">
+      </div>
+      
+      <!-- Marcadores de años -->
+      <div id="year-markers" style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      "></div>
+      
+      <!-- Puntos de canciones -->
+      <div id="song-points" style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      "></div>
+      
+    </div>
+  </div>
+  
+  <!-- Panel de información -->
+  <div id="song-info" style="
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    margin-top: 2rem;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6b7280;
+    font-style: italic;
+  ">
+    <div>
+      <div style="font-size: 3rem; margin-bottom: 1rem;">🎵</div>
+      <p>Haz clic en cualquier punto del timeline para descubrir la canción</p>
+    </div>
+  </div>
+  
+</div>
+
+<script define:vars={{ songs, minYear, maxYear }}>
+  // Estado del timeline
+  let currentZoom = 1;
+  let currentStartYear = minYear;
+  let currentEndYear = maxYear;
+  const maxZoom = 3;
+  const minZoom = 0.5;
+  
+  // Elementos DOM
+  const timelineContent = document.getElementById('timeline-content');
+  const yearMarkers = document.getElementById('year-markers');
+  const songPoints = document.getElementById('song-points');
+  const songInfo = document.getElementById('song-info');
+  const zoomInfo = document.getElementById('zoom-info');
+  const zoomInBtn = document.getElementById('zoom-in');
+  const zoomOutBtn = document.getElementById('zoom-out');
+  
+  function updateTimeline() {
+    const timeSpan = currentEndYear - currentStartYear;
+    const newWidth = Math.max(800, 800 * currentZoom);
+    
+    // Actualizar ancho del timeline
+    timelineContent.style.width = newWidth + 'px';
+    
+    // Limpiar contenido anterior
+    yearMarkers.innerHTML = '';
+    songPoints.innerHTML = '';
+    
+    // Crear marcadores de años
+    const yearStep = Math.max(1, Math.ceil(timeSpan / 10));
+    for (let year = currentStartYear; year <= currentEndYear; year += yearStep) {
+      const position = ((year - currentStartYear) / timeSpan) * 90 + 5;
+      const marker = document.createElement('div');
+      marker.style.cssText = `
+        position: absolute;
+        top: calc(50% + 40px);
+        left: ${position}%;
+        transform: translateX(-50%);
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--color-text-secondary);
+        background: var(--color-paper);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        border: 1px solid var(--color-border-light);
+      `;
+      marker.textContent = year;
+      yearMarkers.appendChild(marker);
+    }
+    
+    // Crear puntos de canciones
+    const visibleSongs = songs.filter(song => 
+      song.year >= currentStartYear && song.year <= currentEndYear
+    );
+    
+    visibleSongs.forEach((song, index) => {
+      const basePosition = ((song.year - currentStartYear) / timeSpan) * 90 + 5;
+      
+      // Algoritmo anti-superposición mejorado
+      const songsInSameYear = visibleSongs.filter(s => s.year === song.year);
+      const indexInYear = songsInSameYear.findIndex(s => s.title === song.title);
+      const totalInYear = songsInSameYear.length;
+      
+      let verticalOffset = 0;
+      let horizontalOffset = 0;
+      
+      if (totalInYear > 1) {
+        const spacing = 30;
+        const maxPerRow = Math.max(2, Math.floor(4 / currentZoom));
+        const row = Math.floor(indexInYear / maxPerRow);
+        const col = indexInYear % maxPerRow;
+        
+        verticalOffset = (row - (Math.ceil(totalInYear / maxPerRow) - 1) / 2) * spacing;
+        horizontalOffset = (col - (Math.min(totalInYear, maxPerRow) - 1) / 2) * 20;
+      }
+      
+      const colors = ['#ef4444', '#f97316', '#eab308', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6'];
+      const color = colors[index % colors.length];
+      
+      const point = document.createElement('div');
+      point.className = 'song-point';
+      point.style.cssText = `
+        position: absolute;
+        top: calc(50% + ${verticalOffset}px);
+        left: calc(${basePosition}% + ${horizontalOffset}px);
+        transform: translate(-50%, -50%);
+        width: ${16 + currentZoom * 4}px;
+        height: ${16 + currentZoom * 4}px;
+        background: ${color};
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 0 0 2px ${color}, 0 4px 12px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 20;
+      `;
+      
+      // Event listeners
+      point.addEventListener('click', () => {
+        // Destacar punto seleccionado
+        document.querySelectorAll('.song-point').forEach(p => {
+          p.style.transform = 'translate(-50%, -50%) scale(1)';
+        });
+        point.style.transform = 'translate(-50%, -50%) scale(1.3)';
+        
+        // Actualizar panel de información
+        songInfo.innerHTML = `
+          <div style="text-align: center;">
+            <div style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.5rem 1.5rem; border-radius: 9999px; font-weight: 700; font-size: 1.1rem; margin-bottom: 1.5rem;">
+              ${song.year}
+            </div>
+            <h3 style="font-size: 1.8rem; margin: 0 0 0.5rem 0; color: #1f2937; font-weight: 700;">
+              "${song.title}"
+            </h3>
+            <p style="color: #6b7280; font-size: 1.1rem; font-style: italic; margin: 0 0 2rem 0;">
+              ${song.artist}
+            </p>
+            <a 
+              href="${import.meta.env.BASE_URL}blog/${song.slug}/" 
+              style="
+                display: inline-block;
+                background: linear-gradient(135deg, #2563eb, #1d4ed8);
+                color: white;
+                padding: 0.75rem 2rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 600;
+                transition: transform 0.2s;
+              "
+              onmouseover="this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.transform='translateY(0)'"
+            >
+              📖 Ver análisis completo
+            </a>
+          </div>
+        `;
+        
+        songInfo.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      
+      point.addEventListener('mouseenter', () => {
+        if (!point.style.transform.includes('scale(1.3)')) {
+          point.style.transform = 'translate(-50%, -50%) scale(1.15)';
+        }
+        
+        // Tooltip
+        const tooltip = document.createElement('div');
+        tooltip.id = 'tooltip';
+        tooltip.style.cssText = `
+          position: absolute;
+          top: -60px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: var(--color-charcoal);
+          color: white;
+          padding: 0.5rem 1rem;
+          border-radius: 6px;
+          font-size: 0.8rem;
+          white-space: nowrap;
+          z-index: 100;
+          pointer-events: none;
+        `;
+        tooltip.innerHTML = `<strong>${song.title}</strong><br>${song.year} - ${song.artist}`;
+        point.appendChild(tooltip);
+      });
+      
+      point.addEventListener('mouseleave', () => {
+        if (!point.style.transform.includes('scale(1.3)')) {
+          point.style.transform = 'translate(-50%, -50%) scale(1)';
+        }
+        const tooltip = point.querySelector('#tooltip');
+        if (tooltip) tooltip.remove();
+      });
+      
+      songPoints.appendChild(point);
+    });
+    
+    // Actualizar info de zoom
+    zoomInfo.textContent = `${currentStartYear} - ${currentEndYear} (${Math.round(currentZoom * 100)}%)`;
+  }
+  
+  // Event listeners para zoom
+  zoomInBtn.addEventListener('click', () => {
+    if (currentZoom < maxZoom) {
+      currentZoom = Math.min(maxZoom, currentZoom * 1.5);
+      updateTimeline();
+    }
+  });
+  
+  zoomOutBtn.addEventListener('click', () => {
+    if (currentZoom > minZoom) {
+      currentZoom = Math.max(minZoom, currentZoom / 1.5);
+      currentStartYear = minYear;
+      currentEndYear = maxYear;
+      updateTimeline();
+    }
+  });
+  
+  // Inicializar timeline
+  updateTimeline();
+</script>
+
+<style>
+  #timeline-viewport::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  #timeline-viewport::-webkit-scrollbar-track {
+    background: var(--color-border-light);
+    border-radius: 4px;
+  }
+  
+  #timeline-viewport::-webkit-scrollbar-thumb {
+    background: var(--color-revolutionary-red);
+    border-radius: 4px;
+  }
+  
+  #timeline-viewport::-webkit-scrollbar-thumb:hover {
+    background: var(--color-revolutionary-red-dark);
+  }
+</style>
