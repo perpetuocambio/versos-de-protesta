@@ -5,34 +5,18 @@ export interface Props {
 }
 
 const { language, initialWords = 20 } = Astro.props;
-
-// Mapeo de códigos de idioma
-const languageMap = {
-  'es': 'spanish.json',
-  'en': 'english.json', 
-  'de': 'german.json',
-  'pt': 'portuguese.json',
-  'ru': 'russian.json',
-  'ru-rom': 'russian-rom.json',
-  'zh': 'chinese.json',
-  'zh-pinyin': 'chinese-pinyin.json'
-};
-
-const fileName = languageMap[language] || 'spanish.json';
 ---
 
-<div class="dynamic-dictionary" data-language={language} data-file={fileName}>
+<div class="dynamic-dictionary" data-language={language}>
   <!-- Skeleton loader inicial -->
   <div class="dictionary-skeleton" id="dictionary-skeleton">
     <div class="skeleton-header">
       <div class="skeleton-text skeleton-title"></div>
       <div class="skeleton-text skeleton-subtitle"></div>
     </div>
-    
     <div class="skeleton-search">
       <div class="skeleton-input"></div>
     </div>
-    
     <div class="skeleton-grid">
       {Array.from({length: initialWords}, (_, i) => (
         <div class="skeleton-card" key={i}>
@@ -64,178 +48,35 @@ const fileName = languageMap[language] || 'spanish.json';
 </div>
 
 <style>
-  .dynamic-dictionary {
-    width: 100%;
-    position: relative;
-  }
-  
-  /* Skeleton Loader */
-  .dictionary-skeleton {
-    animation: fadeIn 0.5s ease-in-out;
-  }
-  
-  .skeleton-header {
-    text-align: center;
-    margin-bottom: var(--space-2xl);
-  }
-  
-  .skeleton-text {
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.5s infinite;
-    border-radius: var(--radius-md);
-  }
-  
-  .skeleton-title {
-    height: 3rem;
-    width: 300px;
-    margin: 0 auto var(--space-lg);
-  }
-  
-  .skeleton-subtitle {
-    height: 1.5rem;
-    width: 200px;
-    margin: 0 auto;
-  }
-  
-  .skeleton-search {
-    max-width: 500px;
-    margin: 0 auto var(--space-2xl);
-  }
-  
-  .skeleton-input {
-    height: 3rem;
-    width: 100%;
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.5s infinite;
-    border-radius: var(--radius-lg);
-  }
-  
-  .skeleton-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: var(--space-lg);
-  }
-  
-  .skeleton-card {
-    background: var(--color-paper);
-    padding: var(--space-xl);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--color-border);
-    box-shadow: var(--shadow-sm);
-  }
-  
-  .skeleton-word {
-    height: 2rem;
-    width: 60%;
-    margin-bottom: var(--space-lg);
-  }
-  
-  .skeleton-translation {
-    height: 1rem;
-    width: 80%;
-    margin-bottom: var(--space-md);
-  }
-  
-  .skeleton-source {
-    height: 1rem;
-    width: 40%;
-  }
-  
-  @keyframes shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  /* Loading indicator */
-  .loading-indicator {
-    text-align: center;
-    padding: var(--space-3xl);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-lg);
-  }
-  
-  .spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid var(--color-border-light);
-    border-top: 4px solid var(--color-revolutionary-red);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Error message */
-  .error-message {
-    text-align: center;
-    padding: var(--space-3xl);
-    background: var(--color-paper);
-    border: 2px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    color: var(--color-text-secondary);
-  }
-  
-  .error-icon {
-    font-size: 3rem;
-    margin-bottom: var(--space-lg);
-  }
-  
-  .error-message button {
-    background: var(--color-revolutionary-red);
-    color: white;
-    border: none;
-    padding: var(--space-md) var(--space-lg);
-    border-radius: var(--radius-md);
-    cursor: pointer;
-    font-weight: 600;
-    margin-top: var(--space-md);
-  }
-  
-  .error-message button:hover {
-    background: var(--color-revolutionary-red-dark);
-  }
-  
-  /* Estados de transición */
-  .dictionary-content {
-    animation: slideIn 0.5s ease-out;
-  }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .skeleton-grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .skeleton-title {
-      width: 250px;
-    }
-  }
+  /* Estilos (sin cambios) */
+  .dynamic-dictionary { width: 100%; position: relative; }
+  .dictionary-skeleton { animation: fadeIn 0.5s ease-in-out; }
+  .skeleton-header { text-align: center; margin-bottom: var(--space-2xl); }
+  .skeleton-text { background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius-md); }
+  .skeleton-title { height: 3rem; width: 300px; margin: 0 auto var(--space-lg); }
+  .skeleton-subtitle { height: 1.5rem; width: 200px; margin: 0 auto; }
+  .skeleton-search { max-width: 500px; margin: 0 auto var(--space-2xl); }
+  .skeleton-input { height: 3rem; width: 100%; background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius-lg); }
+  .skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-lg); }
+  .skeleton-card { background: var(--color-paper); padding: var(--space-xl); border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); }
+  .skeleton-word { height: 2rem; width: 60%; margin-bottom: var(--space-lg); }
+  .skeleton-translation { height: 1rem; width: 80%; margin-bottom: var(--space-md); }
+  .skeleton-source { height: 1rem; width: 40%; }
+  @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .loading-indicator { text-align: center; padding: var(--space-3xl); display: flex; flex-direction: column; align-items: center; gap: var(--space-lg); }
+  .spinner { width: 40px; height: 40px; border: 4px solid var(--color-border-light); border-top: 4px solid var(--color-revolutionary-red); border-radius: 50%; animation: spin 1s linear infinite; }
+  @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  .error-message { text-align: center; padding: var(--space-3xl); background: var(--color-paper); border: 2px solid var(--color-border); border-radius: var(--radius-lg); color: var(--color-text-secondary); }
+  .error-icon { font-size: 3rem; margin-bottom: var(--space-lg); }
+  .error-message button { background: var(--color-revolutionary-red); color: white; border: none; padding: var(--space-md) var(--space-lg); border-radius: var(--radius-md); cursor: pointer; font-weight: 600; margin-top: var(--space-md); }
+  .error-message button:hover { background: var(--color-revolutionary-red-dark); }
+  .dictionary-content { animation: slideIn 0.5s ease-out; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  @media (max-width: 768px) { .skeleton-grid { grid-template-columns: 1fr; } .skeleton-title { width: 250px; } }
 </style>
 
-<script define:vars={{ language, fileName }}>
+<script define:vars={{ language }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -244,33 +85,39 @@ document.addEventListener('DOMContentLoaded', async function() {
   const error = document.getElementById('error-message');
   
   let dictionaryData = null;
-  
+  let allWords = [];
+
   async function loadDictionaryData() {
     try {
-      console.log(`Cargando diccionario para idioma: ${language}`);
+      console.log(`Cargando chunks para idioma: ${language}`);
       
-      // Mostrar loading después de 500ms si no ha cargado
       const loadingTimeout = setTimeout(() => {
         skeleton.style.display = 'none';
         loading.style.display = 'block';
       }, 500);
+
+      // 1. Cargar el manifest de chunks
+      const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
+      if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest de chunks');
+      const manifest = await manifestResponse.json();
+
+      // 2. Encontrar el chunk para el idioma actual
+      const chunkFile = manifest.chunks[language];
+      if (!chunkFile) throw new Error(`No se encontró chunk para el idioma ${language}`);
+
+      // 3. Cargar el archivo del chunk
+      const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
+      if (!chunkResponse.ok) throw new Error(`No se pudo cargar el archivo de chunk ${chunkFile}`);
       
-      // Cargar datos del idioma específico
-      const response = await fetch(`${import.meta.env.BASE_URL}data/lang/${fileName}`);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-      
-      dictionaryData = await response.json();
+      dictionaryData = await chunkResponse.json();
+      allWords = Object.entries(dictionaryData.words);
+
       clearTimeout(loadingTimeout);
       
-      console.log(`Diccionario cargado: ${dictionaryData.meta.wordCount} palabras`);
+      console.log(`Diccionario cargado: ${allWords.length} palabras`);
       
-      // Renderizar contenido
       await renderDictionary();
       
-      // Transición
       skeleton.style.display = 'none';
       loading.style.display = 'none';
       error.style.display = 'none';
@@ -278,7 +125,6 @@ document.addEventListener('DOMContentLoaded', async function() {
       
     } catch (err) {
       console.error('Error cargando diccionario:', err);
-      
       skeleton.style.display = 'none';
       loading.style.display = 'none';
       content.style.display = 'none';
@@ -289,30 +135,29 @@ document.addEventListener('DOMContentLoaded', async function() {
   async function renderDictionary() {
     if (!dictionaryData) return;
     
-    const words = Object.entries(dictionaryData.words);
-    
+    const letters = [...new Set(allWords.map(([word]) => word[0].toUpperCase()))].sort();
+
     content.innerHTML = `
       <div class="dictionary-header">
-        <h2>${dictionaryData.meta.language} - ${dictionaryData.meta.wordCount} palabras</h2>
+        <h2>Vocabulario de ${dictionaryData.meta.languageName} - ${allWords.length} palabras</h2>
         <div class="quick-stats">
-          <span>Popular: ${dictionaryData.index.popular.length}</span>
-          <span>Reciente: ${dictionaryData.index.recent.length}</span>
-          <span>Alfabético: ${Object.keys(dictionaryData.index.letters).length} letras</span>
+          <span>Lecciones: ${dictionaryData.meta.lessons.join(', ')}</span>
+          <span>Chunk: ${dictionaryData.meta.chunkId}</span>
         </div>
       </div>
       
       <div class="search-section">
         <input type="text" id="word-search" placeholder="Buscar palabras..." />
         <div class="alphabet-filter">
-          ${Object.keys(dictionaryData.index.letters).map(letter => 
+          ${letters.map(letter => 
             `<button class="letter-btn" onclick="filterByLetter('${letter}')">${letter}</button>`
           ).join('')}
         </div>
       </div>
       
       <div class="dictionary-grid" id="dictionary-grid">
-        ${words.map(([word, data]) => `
-          <div class="word-card" data-word="${word.toLowerCase()}">
+        ${allWords.map(([word, data]) => `
+          <div class="word-card" data-word="${word.toLowerCase()}" data-letter="${word[0].toUpperCase()}">
             <h3 class="word-title">${word}</h3>
             <div class="word-meta">
               <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
@@ -323,7 +168,6 @@ document.addEventListener('DOMContentLoaded', async function() {
       </div>
     `;
     
-    // Agregar funcionalidad de búsqueda
     setupSearch();
   }
   
@@ -333,36 +177,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     searchInput?.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
-      
       wordCards.forEach(card => {
         const word = card.dataset.word;
-        const visible = query === '' || word.includes(query);
-        card.style.display = visible ? 'block' : 'none';
+        card.style.display = query === '' || word.includes(query) ? 'block' : 'none';
       });
     });
   }
   
-  // Función global para filtrar por letra
   window.filterByLetter = function(letter) {
     const wordCards = document.querySelectorAll('.word-card');
-    const letterWords = dictionaryData?.index.letters[letter] || [];
-    
     wordCards.forEach(card => {
-      const word = card.dataset.word;
-      const visible = letterWords.some(w => w.toLowerCase() === word);
-      card.style.display = visible ? 'block' : 'none';
+      card.style.display = card.dataset.letter === letter ? 'block' : 'none';
     });
-    
-    // Actualizar botones activos
     document.querySelectorAll('.letter-btn').forEach(btn => {
       btn.classList.toggle('active', btn.textContent === letter);
     });
   };
   
-  // Función global para reintentar carga
   window.retryLoad = loadDictionaryData;
   
-  // Iniciar carga
   loadDictionaryData();
 });
 </script>
