@@ -200,7 +200,7 @@ git commit --no-verify -m "emergency commit"
 
 # Luego actualizar diccionario manualmente
 npm run update-content
-git add src/data/
+git add public/data/
 git commit -m "Update dictionary manually"
 ```
 
