@@ -1,0 +1,370 @@
+---
+import Icon from './Icon.astro';
+
+export interface Props {
+  songs: Array<{
+    title: string;
+    artist: string;
+    year: number;
+    slug: string;
+    genre?: string;
+  }>;
+}
+
+const { songs } = Astro.props;
+
+if (!songs || songs.length === 0) {
+  console.warn('SimpleTimeline: No songs data provided');
+}
+
+const minYear = songs.length > 0 ? Math.min(...songs.map(s => s.year)) : 1900;
+const maxYear = songs.length > 0 ? Math.max(...songs.map(s => s.year)) : 2000;
+const timeSpan = maxYear - minYear;
+
+// Agrupar canciones por año para evitar superposiciones
+const songsByYear = songs.reduce((acc, song) => {
+  if (!acc[song.year]) {
+    acc[song.year] = [];
+  }
+  acc[song.year].push(song);
+  return acc;
+}, {} as Record<number, typeof songs>);
+---
+
+<div class="timeline-container">
+  <div class="timeline-header">
+    <h3>
+      <Icon name="history" size={24} />
+      Línea Temporal: {minYear} - {maxYear}
+    </h3>
+    <div class="timeline-stats">
+      {songs.length} canciones • {timeSpan} años de historia
+    </div>
+  </div>
+
+  <div class="timeline-wrapper">
+    <!-- Línea principal -->
+    <div class="timeline-line"></div>
+    
+    <!-- Marcadores de décadas -->
+    <div class="decade-markers">
+      {Array.from({ length: Math.ceil(timeSpan / 10) + 1 }, (_, i) => {
+        const year = Math.floor(minYear / 10) * 10 + (i * 10);
+        if (year <= maxYear + 10) {
+          const position = ((year - minYear) / timeSpan) * 100;
+          return (
+            <div 
+              class="decade-marker" 
+              style={`left: ${position}%`}
+              data-year={year}
+            >
+              <div class="decade-line"></div>
+              <div class="decade-label">{year}</div>
+            </div>
+          );
+        }
+        return null;
+      }).filter(Boolean)}
+    </div>
+
+    <!-- Puntos de canciones -->
+    <div class="song-points">
+      {Object.entries(songsByYear).map(([year, songsInYear]) => {
+        const yearNum = parseInt(year);
+        const position = ((yearNum - minYear) / timeSpan) * 100;
+        
+        return songsInYear.map((song, index) => {
+          // Calcular offset vertical para evitar superposiciones
+          const verticalOffset = (index - (songsInYear.length - 1) / 2) * 25;
+          const colors = ['#ef4444', '#f97316', '#eab308', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6'];
+          const color = colors[song.title.length % colors.length];
+          
+          return (
+            <div 
+              class="song-point"
+              style={`left: ${position}%; transform: translate(-50%, ${verticalOffset}px); background-color: ${color}; border-color: ${color};`}
+              data-title={song.title}
+              data-artist={song.artist}
+              data-year={song.year}
+              data-slug={song.slug}
+            >
+              <div class="song-tooltip">
+                <strong>"{song.title}"</strong><br/>
+                {song.artist} ({song.year})
+              </div>
+            </div>
+          );
+        });
+      })}
+    </div>
+  </div>
+
+  <!-- Panel de información -->
+  <div class="song-info" id="song-info">
+    <div class="info-placeholder">
+      <Icon name="music" size={48} />
+      <p>Haz clic en un punto del timeline para ver información de la canción</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .timeline-container {
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    margin: var(--space-2xl) 0;
+    border: 1px solid var(--color-border-light);
+  }
+
+  .timeline-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .timeline-header h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-sm);
+    color: var(--color-revolutionary-red);
+  }
+
+  .timeline-stats {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .timeline-wrapper {
+    position: relative;
+    height: 200px;
+    margin: var(--space-2xl) 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg) var(--space-xl);
+  }
+
+  .timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    height: 6px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #3b82f6, #8b5cf6);
+    border-radius: 3px;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .decade-markers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .decade-marker {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+  }
+
+  .decade-line {
+    width: 2px;
+    height: 30px;
+    background: var(--color-border);
+    margin: 0 auto;
+    transform: translateY(-50%);
+  }
+
+  .decade-label {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    background: var(--color-paper);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border-light);
+    white-space: nowrap;
+  }
+
+  .song-points {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .song-point {
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  .song-point:hover {
+    width: 20px;
+    height: 20px;
+    z-index: 20;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+
+  .song-tooltip {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-charcoal);
+    color: white;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 100;
+  }
+
+  .song-point:hover .song-tooltip {
+    opacity: 1;
+  }
+
+  .song-info {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border);
+    margin-top: var(--space-2xl);
+    min-height: 150px;
+    transition: all 0.3s ease;
+  }
+
+  .info-placeholder {
+    text-align: center;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  /* Estados activos */
+  .song-point.active {
+    width: 24px !important;
+    height: 24px !important;
+    z-index: 30;
+    box-shadow: 0 0 0 4px currentColor, 0 6px 20px rgba(0,0,0,0.4) !important;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .timeline-wrapper {
+      height: 150px;
+      padding: var(--space-md);
+    }
+
+    .decade-label {
+      font-size: 0.7rem;
+      top: 45px;
+    }
+
+    .song-point {
+      width: 14px;
+      height: 14px;
+    }
+
+    .song-point:hover {
+      width: 18px;
+      height: 18px;
+    }
+
+    .song-tooltip {
+      font-size: 0.7rem;
+      max-width: 150px;
+      white-space: normal;
+      text-align: center;
+    }
+  }
+</style>
+
+<script define:vars={{ songs, minYear, maxYear }}>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Timeline iniciado con', songs?.length || 0, 'canciones');
+  
+  const songPoints = document.querySelectorAll('.song-point');
+  const songInfo = document.getElementById('song-info');
+  
+  if (!songInfo) {
+    console.error('Elemento song-info no encontrado');
+    return;
+  }
+
+  songPoints.forEach(point => {
+    point.addEventListener('click', function() {
+      const title = this.dataset.title;
+      const artist = this.dataset.artist;
+      const year = this.dataset.year;
+      const slug = this.dataset.slug;
+      
+      // Remover estado activo de otros puntos
+      songPoints.forEach(p => p.classList.remove('active'));
+      
+      // Activar punto actual
+      this.classList.add('active');
+      
+      // Actualizar información
+      songInfo.innerHTML = `
+        <div style="text-align: center;">
+          <div style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1.5rem; border-radius: 9999px; font-weight: 700; font-size: 1.2rem; margin-bottom: 1.5rem;">
+            ${year}
+          </div>
+          <h3 style="font-size: 2rem; margin: 0 0 0.75rem 0; color: #1f2937; font-weight: 700;">
+            "${title}"
+          </h3>
+          <p style="color: #6b7280; font-size: 1.2rem; font-style: italic; margin: 0 0 2rem 0;">
+            ${artist}
+          </p>
+          <a 
+            href="${import.meta.env.BASE_URL}blog/${slug}/" 
+            style="
+              display: inline-flex;
+              align-items: center;
+              gap: 0.5rem;
+              background: linear-gradient(135deg, #2563eb, #1d4ed8);
+              color: white;
+              padding: 1rem 2rem;
+              border-radius: 8px;
+              text-decoration: none;
+              font-weight: 600;
+              font-size: 1.1rem;
+              transition: transform 0.2s;
+            "
+            onmouseover="this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.transform='translateY(0)'"
+          >
+            📖 Ver análisis completo
+          </a>
+        </div>
+      `;
+      
+      // Scroll suave al panel
+      songInfo.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  });
+});
+</script>

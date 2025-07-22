@@ -4,9 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/build-dictionary.mjs && node scripts/migrate-to-internal-structure.mjs && node scripts/chunk-dictionary-for-scale.mjs && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "build-dictionary": "node scripts/build-dictionary.mjs",
+    "partition-dictionary": "node scripts/partition-dictionary.mjs",
+    "update-content": "node scripts/build-dictionary.mjs && node scripts/migrate-to-internal-structure.mjs && echo 'Contenido actualizado con estructura interna'",
+    "internal-migrate": "node scripts/migrate-to-internal-structure.mjs",
+    "dictionary-legacy": "npm run build-dictionary && npm run partition-dictionary"
   },
   "dependencies": {
     "astro": "^5.12.0"

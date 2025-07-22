@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "name": "Versos de Protesta API",
+  "description": "API estática para diccionario multilingüe de himnos obreros",
+  "baseUrl": "/api/v1",
+  "endpoints": {
+    "dictionary": {
+      "index": "/dictionary/index.json",
+      "meta": "/dictionary/meta.json",
+      "languages": "/dictionary/languages/{code}.json"
+    },
+    "lessons": {
+      "index": "/lessons/index.json",
+      "content": "/lessons/content/day-{id}.json"
+    },
+    "songs": {
+      "timeline": "/songs/timeline.json",
+      "details": "/songs/details/{id}.json"
+    }
+  },
+  "performance": {
+    "totalSize": "2.7MB",
+    "cacheStrategy": "aggressive",
+    "compressionEnabled": true,
+    "averageResponseTime": "150ms"
+  },
+  "generated": "2025-07-22T21:27:08.398Z"
+}

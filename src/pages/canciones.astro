@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import ZoomableTimeline from '../components/ZoomableTimeline.astro';
+import SimpleTimeline from '../components/SimpleTimeline.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
@@ -47,8 +47,8 @@ const breadcrumbItems = [
     </p>
   </div>
 
-  <!-- Timeline interactivo con zoom -->
-  <ZoomableTimeline songs={songs} />
+  <!-- Timeline interactivo -->
+  <SimpleTimeline songs={songs} />
 
   <!-- Grid de canciones como respaldo -->
   <div style="margin-top: 4rem;">

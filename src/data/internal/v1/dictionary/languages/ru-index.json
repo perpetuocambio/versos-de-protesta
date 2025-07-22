@@ -1,0 +1,400 @@
+{
+  "internal": {
+    "version": "1.0",
+    "language": "ru",
+    "chunkingStrategy": "lessons-based",
+    "chunkSize": 20,
+    "isPublic": false
+  },
+  "meta": {
+    "language": "русский",
+    "code": "ru",
+    "wordCount": 293,
+    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "generatedBy": "partition-dictionary.mjs v1.0",
+    "totalChunks": 1,
+    "chunkingOptimized": true,
+    "estimatedLoadTimeMs": 400
+  },
+  "chunks": [
+    {
+      "number": 0,
+      "file": "ru-lessons-0-11.json",
+      "lessonsRange": {
+        "start": 0,
+        "end": 11
+      },
+      "wordCount": 293,
+      "sizeKB": 200,
+      "path": "/internal/v1/dictionary/chunks/ru-lessons-0-11.json"
+    }
+  ],
+  "index": {
+    "lessonToChunk": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "popularWords": [
+      {
+        "word": "народ",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "освобождение",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1.000.000 combatentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1.200 publicações",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "10.000 intelectuais",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "15.000 sabotagens",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "2.900 horas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "20 milhões jovens",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "200.000 pessoas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "200+ composições",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "259 empresas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "3.000 pontes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "3.000.000 resistentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "300.000 combatentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "300.000 membros",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "380.000 combatentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "4.402 propriedades",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "400.000 combatentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "45 universidades",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "50.000 comunistas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "500.000 pessoas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "500+ composições",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "8 óperas modelo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "800 milhões ouvintes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "800.000 combatentes",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "единство",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "пролетарий",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "сопротивление",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "тысяча девятьсот семьдесят",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "фашизм",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "achtzehnhunderteinundsiebzig",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Aluno de Schönberg",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Anarquismo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Anna Smirnova",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Anos de chumbo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Antifascismo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Ascensão do nazismo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Cantora de resistência",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Cinco idiomas principais",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Contestação",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Crise de 1929",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "De 8% para 3%",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "desde",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Diáspora judaica",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Doze horas laborais",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Duzentas setenta e quatro células",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Duzentos e oitenta teatros",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Federação Operária Judaica",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Frente Popular",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Grande Salto Adiante, 1958",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      }
+    ]
+  }
+}

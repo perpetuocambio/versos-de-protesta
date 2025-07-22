@@ -1,0 +1,551 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import NavigationCard from '../../components/NavigationCard.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+// Importar estadísticas
+const stats = await import('../../data/dictionary-stats.json');
+
+const languageInfo = [
+  {
+    code: 'es',
+    name: 'Español',
+    nativeName: 'Español',
+    flag: '🇪🇸',
+    description: 'Idioma base del proyecto con vocabulario revolucionario y obrero',
+    wordCount: stats.default.byLanguage.es || 0,
+    icon: 'flag'
+  },
+  {
+    code: 'en', 
+    name: 'English',
+    nativeName: 'English',
+    flag: '🇬🇧',
+    description: 'English translations with IPA pronunciation and cultural context',
+    wordCount: stats.default.byLanguage.en || 0,
+    icon: 'compass'
+  },
+  {
+    code: 'de',
+    name: 'Alemán', 
+    nativeName: 'Deutsch',
+    flag: '🇩🇪',
+    description: 'Deutsche Übersetzungen mit komplexer Grammatik und Deklinationen',
+    wordCount: stats.default.byLanguage.de || 0,
+    icon: 'brain'
+  },
+  {
+    code: 'pt',
+    name: 'Portugués',
+    nativeName: 'Português', 
+    flag: '🇵🇹',
+    description: 'Português com ênfase nas diferenças sistemáticas com o espanhol',
+    wordCount: stats.default.byLanguage.pt || 0,
+    icon: 'globe'
+  },
+  {
+    code: 'ru',
+    name: 'Ruso',
+    nativeName: 'Русский',
+    flag: '🇷🇺', 
+    description: 'Русский язык с кириллицей, падежами и революционной терминологией',
+    wordCount: stats.default.byLanguage.ru || 0,
+    icon: 'star'
+  },
+  {
+    code: 'ru-rom',
+    name: 'Ruso Romanizado',
+    nativeName: 'Русский Rom.',
+    flag: '🔤',
+    description: 'Romanización del ruso para facilitar la pronunciación',
+    wordCount: stats.default.byLanguage.ruRom || 0, 
+    icon: 'mic'
+  },
+  {
+    code: 'zh',
+    name: 'Chino',
+    nativeName: '中文',
+    flag: '🇨🇳',
+    description: '中文汉字，包含笔画顺序和文化背景',
+    wordCount: stats.default.byLanguage.zh || 0,
+    icon: 'lightbulb'
+  },
+  {
+    code: 'zh-pinyin',
+    name: 'Chino Pinyin', 
+    nativeName: '中文 Pinyin',
+    flag: '🎵',
+    description: 'Romanización china con tonos obligatorios para pronunciación correcta',
+    wordCount: stats.default.byLanguage.zhPinyin || 0,
+    icon: 'music'
+  }
+];
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
+  { label: 'Diccionario', icon: 'book' }
+];
+---
+
+<Layout title="Diccionario Multilingüe - Versos de Protesta">
+  <Breadcrumb items={breadcrumbItems} />
+  
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 style="display: flex; align-items: center; justify-content: center; gap: var(--space-lg); margin-bottom: var(--space-xl);">
+        <Icon name="book" size={48} class="text-revolutionary" />
+        Diccionario Multilingüe
+        <Icon name="globe" size={48} class="text-socialist" />
+      </h1>
+      
+      <p class="hero-description">
+        Vocabulario revolucionario extraído de los himnos obreros más importantes de la historia. 
+        Cada palabra está contextualizada culturalmente y traducida a 8 "idiomas" con pronunciación IPA.
+      </p>
+      
+      <div class="stats-overview">
+        <div class="stat-big">
+          <div class="stat-number">{stats.default.totalEntries}</div>
+          <div class="stat-label">Entradas Totales</div>
+        </div>
+        <div class="stat-big">
+          <div class="stat-number">{stats.default.totalUniqueWords}</div>
+          <div class="stat-label">Palabras Únicas</div>
+        </div>
+        <div class="stat-big">
+          <div class="stat-number">{Object.keys(stats.default.byLesson).length}</div>
+          <div class="stat-label">Lecciones</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Language Grid -->
+  <section class="languages-section">
+    <h2 style="text-align: center; margin-bottom: var(--space-2xl); display: flex; align-items: center; justify-content: center; gap: var(--space-md);">
+      <Icon name="users" size={32} class="text-revolutionary" />
+      Explorar por Idioma
+    </h2>
+    
+    <div class="languages-grid">
+      {languageInfo.map((lang) => (
+        <a href={`${import.meta.env.BASE_URL}diccionario/${lang.code}/`} class="language-card">
+          <div class="language-header">
+            <div class="language-flag">{lang.flag}</div>
+            <div class="language-names">
+              <h3>{lang.name}</h3>
+              <div class="native-name">{lang.nativeName}</div>
+            </div>
+            <div class="word-count">
+              <div class="count-number">{lang.wordCount}</div>
+              <div class="count-label">palabras</div>
+            </div>
+          </div>
+          
+          <div class="language-description">
+            {lang.description}
+          </div>
+          
+          <div class="language-footer">
+            <Icon name={lang.icon} size={20} />
+            <span>Explorar vocabulario</span>
+            <Icon name="arrow-right" size={16} />
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <h2 style="text-align: center; margin-bottom: var(--space-2xl); display: flex; align-items: center; justify-content: center; gap: var(--space-md);">
+      <Icon name="star" size={32} class="text-socialist" />
+      Características del Diccionario
+    </h2>
+    
+    <div class="features-grid">
+      <NavigationCard
+        title="Vocabulario Contextual"
+        description="Cada palabra proviene de himnos revolucionarios reales con su contexto histórico y cultural completo."
+        href={`${import.meta.env.BASE_URL}diccionario/es/`}
+        icon="history"
+        variant="secondary"
+      />
+      
+      <NavigationCard
+        title="Pronunciación IPA"
+        description="Transcripción fonética internacional para cada idioma, especialmente útil para ruso y chino."
+        href={`${import.meta.env.BASE_URL}diccionario/zh/`}
+        icon="mic"
+        variant="primary"
+      />
+      
+      <NavigationCard
+        title="Trazos Chinos"
+        description="Orden de escritura animado para cada carácter chino, integrado con bases de datos MDBG y Baidu."
+        href={`${import.meta.env.BASE_URL}diccionario/zh/`}
+        icon="lightbulb"
+        variant="tertiary"
+      />
+    </div>
+  </section>
+
+  <!-- Progress by Lesson -->
+  <section class="progress-section">
+    <h2 style="text-align: center; margin-bottom: var(--space-2xl); display: flex; align-items: center; justify-content: center; gap: var(--space-md);">
+      <Icon name="chart-bar" size={32} class="text-revolutionary" />
+      Progreso por Lección
+    </h2>
+    
+    <div class="lessons-grid">
+      {Object.entries(stats.default.byLesson).map(([lesson, count]) => {
+        const dayNum = lesson.replace('Día ', '');
+        const dayString = dayNum.padStart(2, '0');
+        
+        return (
+          <div class="lesson-card">
+            <div class="lesson-number">
+              Día {dayString}
+            </div>
+            <div class="lesson-count">
+              <span class="count">{count}</span>
+              <span class="count-label">palabras</span>
+            </div>
+            <div class="lesson-bar">
+              <div 
+                class="lesson-progress" 
+                style={`width: ${(count / 61) * 100}%`}
+              ></div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Quick Access -->
+  <section class="quick-access">
+    <div class="quick-access-content">
+      <h2>Acceso Rápido</h2>
+      <p>Explora directamente el vocabulario más popular de cada idioma</p>
+      
+      <div class="quick-links">
+        <a href={`${import.meta.env.BASE_URL}diccionario/es/`} class="quick-link primary">
+          <Icon name="flag" size={24} />
+          <span>Español</span>
+          <div class="badge">{stats.default.byLanguage.es}</div>
+        </a>
+        <a href={`${import.meta.env.BASE_URL}diccionario/zh/`} class="quick-link">
+          <Icon name="lightbulb" size={24} />
+          <span>中文 Trazos</span>
+          <div class="badge">{stats.default.byLanguage.zh}</div>
+        </a>
+        <a href={`${import.meta.env.BASE_URL}diccionario/ru/`} class="quick-link">
+          <Icon name="star" size={24} />
+          <span>Русский</span>
+          <div class="badge">{stats.default.byLanguage.ru}</div>
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero-section {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-3xl) 0;
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto var(--space-2xl) auto;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+  }
+  
+  .stats-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-lg);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .stat-big {
+    background: var(--color-paper);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .stat-big .stat-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-revolutionary-red);
+    margin-bottom: var(--space-xs);
+  }
+  
+  .stat-big .stat-label {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+  
+  .languages-section {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--space-xl);
+  }
+  
+  .language-card {
+    background: var(--color-paper);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .language-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--color-socialist-gold);
+  }
+  
+  .language-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+  
+  .language-flag {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+  
+  .language-names {
+    flex: 1;
+  }
+  
+  .language-names h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-revolutionary-red);
+  }
+  
+  .native-name {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+  }
+  
+  .word-count {
+    text-align: center;
+    background: var(--color-revolutionary-red-light);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm);
+    min-width: 80px;
+  }
+  
+  .count-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-revolutionary-red-dark);
+    line-height: 1;
+  }
+  
+  .count-label {
+    font-size: 0.7rem;
+    color: var(--color-revolutionary-red-dark);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .language-description {
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: var(--space-lg);
+    font-size: 0.95rem;
+  }
+  
+  .language-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--color-socialist-gold-dark);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .features-section {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+  }
+  
+  .progress-section {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-md);
+  }
+  
+  .lesson-card {
+    background: var(--color-paper);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    transition: all 0.2s ease;
+  }
+  
+  .lesson-card:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .lesson-number {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+  }
+  
+  .lesson-count {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+  }
+  
+  .lesson-count .count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-socialist-gold);
+  }
+  
+  .lesson-count .count-label {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+  
+  .lesson-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--color-border-light);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  
+  .lesson-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-socialist-gold), var(--color-revolutionary-red));
+    transition: width 0.3s ease;
+  }
+  
+  .quick-access {
+    background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
+    padding: var(--space-3xl);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border);
+    text-align: center;
+  }
+  
+  .quick-access h2 {
+    margin-bottom: var(--space-md);
+    color: var(--color-charcoal);
+  }
+  
+  .quick-access p {
+    margin-bottom: var(--space-xl);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .quick-links {
+    display: flex;
+    gap: var(--space-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .quick-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-lg) var(--space-xl);
+    background: var(--color-paper);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: var(--color-text-primary);
+    font-weight: 600;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  
+  .quick-link:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .quick-link.primary {
+    border-color: var(--color-revolutionary-red);
+    color: var(--color-revolutionary-red);
+  }
+  
+  .quick-link .badge {
+    background: var(--color-socialist-gold);
+    color: var(--color-charcoal);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .languages-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .lessons-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .quick-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .quick-link {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+</style>
+</Layout>

@@ -300,13 +300,13 @@ import.meta.env.BASE_URL;
       .font-control {
         position: fixed;
         top: 50%;
-        right: var(--space-md);
+        right: 15px;
         transform: translateY(-50%);
-        z-index: 100;
+        z-index: 1000;
         background: var(--color-paper);
-        border: 1px solid var(--color-border);
+        border: 2px solid var(--color-revolutionary-red);
         border-radius: var(--radius-lg);
-        box-shadow: var(--shadow-lg);
+        box-shadow: var(--shadow-xl);
         padding: var(--space-sm);
         display: flex;
         flex-direction: column;
@@ -320,11 +320,11 @@ import.meta.env.BASE_URL;
         border-radius: var(--radius-md);
         padding: var(--space-sm);
         cursor: pointer;
-        font-weight: 600;
-        font-size: 0.75rem;
+        font-weight: 700;
+        font-size: 0.8rem;
         transition: all 0.2s ease;
-        min-width: 32px;
-        min-height: 32px;
+        min-width: 40px;
+        min-height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -332,7 +332,13 @@ import.meta.env.BASE_URL;
       
       .font-control button:hover {
         background: var(--color-revolutionary-red-dark);
-        transform: scale(1.05);
+        transform: scale(1.1);
+        box-shadow: var(--shadow-md);
+      }
+      
+      .font-control button.active {
+        background: var(--color-socialist-gold);
+        color: var(--color-charcoal);
       }
       
       /* Estilos para tablas responsivas */
@@ -379,38 +385,46 @@ import.meta.env.BASE_URL;
         background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
       }
       
-      /* Clases de tamaño de fuente */
-      .font-size-small { font-size: 0.9rem !important; }
-      .font-size-normal { font-size: 1rem !important; }
-      .font-size-large { font-size: 1.1rem !important; }
-      .font-size-xlarge { font-size: 1.2rem !important; }
+      /* Clases de tamaño de fuente - Sistema mejorado */
+      body.font-size-small { font-size: 14px; }
+      body.font-size-normal { font-size: 16px; }
+      body.font-size-large { font-size: 18px; }
+      body.font-size-xlarge { font-size: 20px; }
       
-      .font-size-small h1 { font-size: clamp(1.8rem, 4.5vw, 2.7rem) !important; }
-      .font-size-large h1 { font-size: clamp(2.2rem, 5.5vw, 3.3rem) !important; }
-      .font-size-xlarge h1 { font-size: clamp(2.4rem, 6vw, 3.6rem) !important; }
+      body.font-size-small h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); }
+      body.font-size-large h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); }
+      body.font-size-xlarge h1 { font-size: clamp(2.8rem, 7vw, 4.2rem); }
       
-      .font-size-small h2 { font-size: clamp(1.35rem, 3.6vw, 2.025rem) !important; }
-      .font-size-large h2 { font-size: clamp(1.65rem, 4.4vw, 2.475rem) !important; }
-      .font-size-xlarge h2 { font-size: clamp(1.8rem, 4.8vw, 2.7rem) !important; }
+      body.font-size-small h2 { font-size: clamp(1.3rem, 3.5vw, 1.95rem); }
+      body.font-size-large h2 { font-size: clamp(1.7rem, 4.5vw, 2.55rem); }
+      body.font-size-xlarge h2 { font-size: clamp(2rem, 5.2vw, 3rem); }
       
-      .font-size-small h3 { font-size: clamp(1.125rem, 2.7vw, 1.6875rem) !important; }
-      .font-size-large h3 { font-size: clamp(1.375rem, 3.3vw, 2.0625rem) !important; }
-      .font-size-xlarge h3 { font-size: clamp(1.5rem, 3.6vw, 2.25rem) !important; }
+      body.font-size-small h3 { font-size: clamp(1.1rem, 2.5vw, 1.65rem); }
+      body.font-size-large h3 { font-size: clamp(1.4rem, 3.5vw, 2.1rem); }
+      body.font-size-xlarge h3 { font-size: clamp(1.6rem, 4vw, 2.4rem); }
+      
+      body.font-size-small p { font-size: 0.9rem; line-height: 1.6; }
+      body.font-size-large p { font-size: 1.1rem; line-height: 1.8; }
+      body.font-size-xlarge p { font-size: 1.2rem; line-height: 1.9; }
+      
+      body.font-size-small td, body.font-size-small th { font-size: 0.8rem; }
+      body.font-size-large td, body.font-size-large th { font-size: 1rem; }
+      body.font-size-xlarge td, body.font-size-xlarge th { font-size: 1.1rem; }
     </style>
   </head>
   <body>
     <!-- Control de tamaño de fuente -->
-    <div class="font-control">
-      <button onclick="changeFontSize('small')" title="Fuente pequeña">
+    <div class="font-control" id="font-control">
+      <button id="font-small" onclick="changeFontSize('small')" title="Fuente pequeña">
         A-
       </button>
-      <button onclick="changeFontSize('normal')" title="Fuente normal">
+      <button id="font-normal" onclick="changeFontSize('normal')" title="Fuente normal" class="active">
         A
       </button>
-      <button onclick="changeFontSize('large')" title="Fuente grande">
+      <button id="font-large" onclick="changeFontSize('large')" title="Fuente grande">
         A+
       </button>
-      <button onclick="changeFontSize('xlarge')" title="Fuente extra grande">
+      <button id="font-xlarge" onclick="changeFontSize('xlarge')" title="Fuente extra grande">
         A++
       </button>
     </div>
@@ -433,6 +447,10 @@ import.meta.env.BASE_URL;
             <Icon name="music" size={20} />
             Canciones
           </a>
+          <a href={`${import.meta.env.BASE_URL}diccionario/`}>
+            <Icon name="book" size={20} />
+            Diccionario
+          </a>
           <a href={`${import.meta.env.BASE_URL}about/`}>
             <Icon name="info" size={20} />
             Acerca de
@@ -452,8 +470,10 @@ import.meta.env.BASE_URL;
     </div>
     
     <script>
-      // Control de tamaño de fuente
+      // Control de tamaño de fuente mejorado
       function changeFontSize(size) {
+        console.log('Cambiando tamaño de fuente a:', size);
+        
         const body = document.body;
         const classes = ['font-size-small', 'font-size-normal', 'font-size-large', 'font-size-xlarge'];
         
@@ -463,15 +483,62 @@ import.meta.env.BASE_URL;
         // Agregar nueva clase
         body.classList.add(`font-size-${size}`);
         
+        // Actualizar botones activos
+        const buttons = document.querySelectorAll('.font-control button');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        
+        const activeButton = document.getElementById(`font-${size}`);
+        if (activeButton) {
+          activeButton.classList.add('active');
+        }
+        
         // Guardar preferencia
-        localStorage.setItem('fontSize', size);
+        try {
+          localStorage.setItem('fontSize', size);
+          console.log('Preferencia guardada:', size);
+        } catch (e) {
+          console.warn('No se pudo guardar la preferencia de fuente');
+        }
+        
+        // Feedback visual
+        const fontControl = document.getElementById('font-control');
+        if (fontControl) {
+          fontControl.style.transform = 'translateY(-50%) scale(1.1)';
+          setTimeout(() => {
+            fontControl.style.transform = 'translateY(-50%) scale(1)';
+          }, 150);
+        }
       }
       
       // Cargar preferencia al iniciar
       document.addEventListener('DOMContentLoaded', function() {
-        const savedSize = localStorage.getItem('fontSize') || 'normal';
-        changeFontSize(savedSize);
+        console.log('Inicializando control de fuentes...');
+        
+        // Obtener tamaño guardado
+        let savedSize = 'normal';
+        try {
+          savedSize = localStorage.getItem('fontSize') || 'normal';
+        } catch (e) {
+          console.warn('No se pudo cargar la preferencia de fuente');
+        }
+        
+        console.log('Tamaño de fuente guardado:', savedSize);
+        
+        // Aplicar tamaño
+        setTimeout(() => {
+          changeFontSize(savedSize);
+        }, 100);
+        
+        // Asegurar visibilidad del control
+        const fontControl = document.getElementById('font-control');
+        if (fontControl) {
+          fontControl.style.display = 'flex';
+          console.log('Control de fuente visible');
+        }
       });
+      
+      // Hacer función global
+      window.changeFontSize = changeFontSize;
     </script>
   </body>
 </html>

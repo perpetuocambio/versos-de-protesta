@@ -1,0 +1,323 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ChineseCharacter from '../components/ChineseCharacter.astro';
+import Icon from '../components/Icon.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const breadcrumbItems = [
+  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
+  { label: 'Demo Chino', icon: 'lightbulb' }
+];
+
+// Algunos caracteres chinos de ejemplo del vocabulario
+const chineseExamples = [
+  { hanzi: '人', pinyin: 'rén', translation: 'persona' },
+  { hanzi: '民', pinyin: 'mín', translation: 'pueblo' },
+  { hanzi: '工', pinyin: 'gōng', translation: 'trabajo' },
+  { hanzi: '团', pinyin: 'tuán', translation: 'grupo' },
+  { hanzi: '结', pinyin: 'jié', translation: 'unir' },
+  { hanzi: '革', pinyin: 'gé', translation: 'revolución' },
+  { hanzi: '命', pinyin: 'mìng', translation: 'vida/destino' },
+  { hanzi: '歌', pinyin: 'gē', translation: 'canción' },
+  { hanzi: '一', pinyin: 'yī', translation: 'uno' },
+  { hanzi: '九', pinyin: 'jiǔ', translation: 'nueve' },
+  { hanzi: '三', pinyin: 'sān', translation: 'tres' },
+  { hanzi: '四', pinyin: 'sì', translation: 'cuatro' }
+];
+---
+
+<Layout title="Demo - Caracteres Chinos con Trazos">
+  <Breadcrumb items={breadcrumbItems} />
+  
+  <div class="demo-header">
+    <h1 style="display: flex; align-items: center; justify-content: center; gap: var(--space-lg); margin-bottom: var(--space-xl);">
+      <Icon name="lightbulb" size={40} class="text-revolutionary" />
+      Demo: Caracteres Chinos con Trazos
+      <Icon name="brush" size={40} class="text-socialist" />
+    </h1>
+    
+    <div class="demo-description">
+      <p>
+        Esta demostración muestra cómo funciona el componente <code>ChineseCharacter</code> 
+        con integración automática de animaciones de trazos desde MDBG y Baidu.
+      </p>
+      
+      <div class="features-list">
+        <div class="feature">
+          <Icon name="mouse-pointer" size={20} />
+          <span><strong>Clic:</strong> Expandir información</span>
+        </div>
+        <div class="feature">
+          <Icon name="copy" size={20} />
+          <span><strong>Doble clic:</strong> Copiar carácter</span>
+        </div>
+        <div class="feature">
+          <Icon name="external-link" size={20} />
+          <span><strong>Enlaces:</strong> MDBG y Baidu como fallback</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="size-demo">
+    <h2>Tamaños Disponibles</h2>
+    <div class="size-examples">
+      <div class="size-group">
+        <h3>Pequeño</h3>
+        <ChineseCharacter hanzi="人" pinyin="rén" translation="persona" size="small" />
+      </div>
+      <div class="size-group">
+        <h3>Mediano</h3>
+        <ChineseCharacter hanzi="民" pinyin="mín" translation="pueblo" size="medium" />
+      </div>
+      <div class="size-group">
+        <h3>Grande</h3>
+        <ChineseCharacter hanzi="工" pinyin="gōng" translation="trabajo" size="large" />
+      </div>
+    </div>
+  </div>
+
+  <div class="vocabulary-demo">
+    <h2 style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-xl);">
+      <Icon name="book-open" size={32} class="text-revolutionary" />
+      Vocabulario Revolucionario Chino
+    </h2>
+    
+    <div class="characters-grid">
+      {chineseExamples.map((char) => (
+        <ChineseCharacter 
+          hanzi={char.hanzi} 
+          pinyin={char.pinyin} 
+          translation={char.translation}
+          size="medium"
+        />
+      ))}
+    </div>
+  </div>
+
+  <div class="integration-info">
+    <h2 style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-lg);">
+      <Icon name="code" size={32} class="text-socialist" />
+      Cómo Funciona
+    </h2>
+    
+    <div class="info-cards">
+      <div class="info-card">
+        <Icon name="database" size={32} class="text-revolutionary" />
+        <h3>Fuentes de Datos</h3>
+        <p>Los trazos se obtienen automáticamente de:</p>
+        <ul>
+          <li><strong>MDBG:</strong> Base de datos principal</li>
+          <li><strong>Baidu:</strong> Fallback alternativo</li>
+          <li><strong>Enlaces directos:</strong> Si no hay GIF disponible</li>
+        </ul>
+      </div>
+      
+      <div class="info-card">
+        <Icon name="zap" size={32} class="text-socialist" />
+        <h3>Generación Automática</h3>
+        <p>El script <code>build-dictionary.mjs</code>:</p>
+        <ul>
+          <li>Extrae caracteres de las lecciones</li>
+          <li>Calcula códigos Unicode</li>
+          <li>Genera URLs de animaciones</li>
+          <li>Actualiza automáticamente con cada build</li>
+        </ul>
+      </div>
+      
+      <div class="info-card">
+        <Icon name="palette" size={32} class="text-revolutionary" />
+        <h3>Diseño Adaptativo</h3>
+        <p>El componente incluye:</p>
+        <ul>
+          <li>3 tamaños predefinidos</li>
+          <li>Fallbacks elegantes</li>
+          <li>Interacciones intuitivas</li>
+          <li>Responsive design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="usage-example">
+    <h2 style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-lg);">
+      <Icon name="code" size={32} class="text-revolutionary" />
+      Uso en Código
+    </h2>
+    
+    <div class="code-example">
+      <pre><code>&lt;ChineseCharacter 
+  hanzi="人" 
+  pinyin="rén" 
+  translation="persona"
+  size="medium"
+/&gt;</code></pre>
+    </div>
+    
+    <p class="usage-note">
+      <strong>Nota:</strong> El componente se integra automáticamente en las páginas del diccionario 
+      cuando se selecciona chino (中文) como idioma.
+    </p>
+  </div>
+</Layout>
+
+<style>
+  .demo-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-2xl) 0;
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+  }
+  
+  .demo-description {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .demo-description p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .features-list {
+    display: flex;
+    gap: var(--space-xl);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+  }
+  
+  .size-demo {
+    margin-bottom: var(--space-3xl);
+    text-align: center;
+  }
+  
+  .size-examples {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2xl);
+    flex-wrap: wrap;
+  }
+  
+  .size-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+  
+  .size-group h3 {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+  }
+  
+  .vocabulary-demo {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-xl);
+  }
+  
+  .integration-info {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+  }
+  
+  .info-card {
+    background: var(--color-paper);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .info-card h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+    color: var(--color-revolutionary-red);
+  }
+  
+  .info-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-card li {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  
+  .info-card li:last-child {
+    border-bottom: none;
+  }
+  
+  .usage-example {
+    margin-bottom: var(--space-3xl);
+  }
+  
+  .code-example {
+    background: var(--color-charcoal);
+    color: var(--color-paper);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    font-family: var(--font-mono);
+    margin-bottom: var(--space-lg);
+    overflow-x: auto;
+  }
+  
+  .code-example code {
+    color: inherit;
+    background: transparent;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .usage-note {
+    background: var(--color-socialist-gold-light);
+    color: var(--color-charcoal);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--color-socialist-gold);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .features-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .size-examples {
+      flex-direction: column;
+    }
+    
+    .characters-grid {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    
+    .info-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style></Layout>

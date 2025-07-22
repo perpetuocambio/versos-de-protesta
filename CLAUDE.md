@@ -455,11 +455,32 @@ VIERNES: Economía/tendencias sociales
 
 ### **PROBLEMA IDENTIFICADO: SOBRECARGA Y FALTA DE PROGRESIÓN**
 
-#### **ANÁLISIS CRÍTICO ACTUAL (DÍAS 00-05):**
-- **DÍA 00**: SOBRECARGA MASIVA (15+ conceptos mayores) → IMPOSIBLE pedagógicamente
-- **DÍAS 01-05**: Distribución irregular → saltos abruptos de dificultad
-- **REPETICIONES**: Voz pasiva (días 00,02,03), participios (días 03,04), imperativo (días 01,02)
-- **AUSENCIAS**: Fundamentos básicos (presente simple sistemático, negación, interrogación)
+#### **ANÁLISIS CRÍTICO ACTUAL (DÍAS 00-11) - ACTUALIZADO:**
+
+**PROBLEMAS IDENTIFICADOS:**
+- **DÍA 00**: SOBRECARGA EXTREMA (Artículos, pronombres, casos rusos, conjugaciones) → 4 conceptos mayores sin fundamentos previos
+- **REPETICIONES PROBLEMÁTICAS**:
+  - Voz pasiva: Días 02, 03 → Concepto avanzado repetido prematuramente
+  - Participios pasados: Días 03, 04, 05, 08 → 4 repeticiones del mismo concepto
+  - Imperativo: Días 01, 09, 11 → 3 repeticiones con diferentes enfoques
+  - Casos rusos: Días 00, 05, 10 → Progresión caótica
+- **SALTOS ABRUPTOS**: 
+  - Día 00 (beginner) → Día 02 (advanced) → Día 03 (intermediate)
+  - Subjuntivo español (Día 01) sin presente simple sólido
+  - Casos rusos (Día 00) sin artículos básicos establecidos
+- **DISTRIBUCIÓN ACTUAL POR DÍA**:
+  - Día 00: 4 conceptos mayores (SOBRECARGA)
+  - Día 01: 3 conceptos (ACEPTABLE)
+  - Día 02: 4 conceptos (SOBRECARGA)
+  - Día 03: 3 conceptos (ACEPTABLE)
+  - Día 04: 3 conceptos (ACEPTABLE)
+  - Día 05: 3 conceptos (ACEPTABLE)
+  - Día 06: 3 conceptos (ACEPTABLE)
+  - Día 07: 3 conceptos (ACEPTABLE)
+  - Día 08: 3 conceptos (ACEPTABLE)
+  - Día 09: 4 conceptos (SOBRECARGA)
+  - Día 10: 3 conceptos (ACEPTABLE)
+  - Día 11: 3 conceptos (ACEPTABLE)
 
 ### **PROGRESIÓN GRAMÁTICA HOMOGÉNEA OBLIGATORIA**
 

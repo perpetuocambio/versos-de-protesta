@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "totalWords": 239,
+    "totalEntries": 383,
+    "totalLanguages": 8,
+    "totalLessons": 12,
+    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "generatedBy": "partition-dictionary.mjs v1.0"
+  },
+  "languages": {
+    "es": {
+      "name": "español",
+      "code": "es",
+      "file": "spanish.json"
+    },
+    "en": {
+      "name": "english",
+      "code": "en",
+      "file": "english.json"
+    },
+    "de": {
+      "name": "deutsch",
+      "code": "de",
+      "file": "german.json"
+    },
+    "pt": {
+      "name": "português",
+      "code": "pt",
+      "file": "portuguese.json"
+    },
+    "ru": {
+      "name": "русский",
+      "code": "ru",
+      "file": "russian.json"
+    },
+    "ruRom": {
+      "name": "русский романизированный",
+      "code": "ru-rom",
+      "file": "russian-rom.json"
+    },
+    "zh": {
+      "name": "中文",
+      "code": "zh",
+      "file": "chinese.json"
+    },
+    "zhPinyin": {
+      "name": "中文 pinyin",
+      "code": "zh-pinyin",
+      "file": "chinese-pinyin.json"
+    }
+  },
+  "partitions": {
+    "es": {
+      "words": 239,
+      "fileSize": 203413,
+      "filePath": "spanish.json"
+    },
+    "en": {
+      "words": 292,
+      "fileSize": 213426,
+      "filePath": "english.json"
+    },
+    "de": {
+      "words": 295,
+      "fileSize": 214023,
+      "filePath": "german.json"
+    },
+    "pt": {
+      "words": 295,
+      "fileSize": 214569,
+      "filePath": "portuguese.json"
+    },
+    "ru": {
+      "words": 293,
+      "fileSize": 214469,
+      "filePath": "russian.json"
+    },
+    "ruRom": {
+      "words": 297,
+      "fileSize": 215153,
+      "filePath": "russian-rom.json"
+    },
+    "zh": {
+      "words": 292,
+      "fileSize": 214158,
+      "filePath": "chinese.json"
+    },
+    "zhPinyin": {
+      "words": 295,
+      "fileSize": 209462,
+      "filePath": "chinese-pinyin.json"
+    }
+  },
+  "stats": {
+    "totalEntries": 383,
+    "totalUniqueWords": 239,
+    "byLanguage": {
+      "es": 239,
+      "en": 292,
+      "de": 295,
+      "pt": 295,
+      "ru": 293,
+      "ruRom": 297,
+      "zh": 292,
+      "zhPinyin": 295
+    },
+    "byLesson": {
+      "Día 0": 26,
+      "Día 1": 10,
+      "Día 2": 10,
+      "Día 3": 31,
+      "Día 4": 31,
+      "Día 5": 46,
+      "Día 6": 44,
+      "Día 7": 61,
+      "Día 8": 30,
+      "Día 9": 30,
+      "Día 10": 31,
+      "Día 11": 33
+    },
+    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "generatedBy": "build-dictionary.mjs v1.0"
+  },
+  "routes": {
+    "es": "./lang/spanish.json",
+    "en": "./lang/english.json",
+    "de": "./lang/german.json",
+    "pt": "./lang/portuguese.json",
+    "ru": "./lang/russian.json",
+    "ru-rom": "./lang/russian-rom.json",
+    "zh": "./lang/chinese.json",
+    "zh-pinyin": "./lang/chinese-pinyin.json"
+  }
+}

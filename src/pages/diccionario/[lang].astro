@@ -1,0 +1,836 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export function getStaticPaths() {
+  return [
+    {params: {lang: 'es'}},
+    {params: {lang: 'en'}},
+    {params: {lang: 'de'}},
+    {params: {lang: 'pt'}},
+    {params: {lang: 'ru'}},
+    {params: {lang: 'ru-rom'}},
+    {params: {lang: 'zh'}},
+    {params: {lang: 'zh-pinyin'}}
+  ];
+}
+
+const { lang } = Astro.params;
+
+// Importar índice de datos internos
+const dictionaryIndex = await import('../../data/internal/v1/dictionary/index.json');
+
+const availableLangs = {
+  'es': 'Español',
+  'en': 'English', 
+  'de': 'Deutsch',
+  'pt': 'Português',
+  'ru': 'Русский',
+  'ru-rom': 'Русский Rom.',
+  'zh': '中文',
+  'zh-pinyin': '中文 Pinyin'
+};
+
+const languageMap = {
+  'ru-rom': 'russian-rom.json',
+  'zh-pinyin': 'chinese-pinyin.json'
+};
+
+// Usar nuevos endpoints de API
+const fileName = `${lang}.json`;
+const languageInfo = dictionaryIndex.default.languages.find(l => l.code === lang);
+const estimatedWords = languageInfo ? languageInfo.wordCount : 250;
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
+  { label: 'Diccionario', href: `${import.meta.env.BASE_URL}diccionario/`, icon: 'book' },
+  { label: availableLangs[lang], icon: 'globe' }
+];
+---
+
+<Layout title={`Diccionario - ${availableLangs[lang]}`}>
+  <Breadcrumb items={breadcrumbItems} />
+  
+  <div class="dictionary-header">
+    <h1 style="display: flex; align-items: center; justify-content: center; gap: var(--space-lg); margin-bottom: var(--space-xl);">
+      <Icon name="book" size={40} class="text-revolutionary" />
+      Diccionario Acumulativo
+      <span class="lang-badge">{availableLangs[lang]}</span>
+    </h1>
+    
+    <div class="lang-switcher">
+      {Object.entries(availableLangs).map(([code, name]) => (
+        <a 
+          href={`${import.meta.env.BASE_URL}diccionario/${code}/`}
+          class={code === lang ? 'active' : ''}
+        >
+          {name}
+        </a>
+      ))}
+    </div>
+    
+    <div class="performance-info">
+      <div class="perf-item">
+        <Icon name="zap" size={16} />
+        <span>Carga dinámica</span>
+      </div>
+      <div class="perf-item">
+        <Icon name="database" size={16} />
+        <span>~{estimatedWords} palabras</span>
+      </div>
+      <div class="perf-item">
+        <Icon name="clock" size={16} />
+        <span>Carga instantánea</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor del diccionario dinámico -->
+  <div class="dynamic-dictionary-container" 
+       data-language={lang} 
+       data-file={fileName}
+       data-estimated-words={estimatedWords}>
+    
+    <!-- Skeleton loader inicial -->
+    <div class="dictionary-skeleton" id="dictionary-skeleton">
+      <div class="skeleton-search">
+        <div class="skeleton-input"></div>
+        <div class="skeleton-alphabet">
+          {Array.from({length: 8}, (_, i) => (
+            <div class="skeleton-letter" key={i}></div>
+          ))}
+        </div>
+      </div>
+      
+      <div class="skeleton-grid">
+        {Array.from({length: Math.min(estimatedWords, 20)}, (_, i) => (
+          <div class="skeleton-card" key={i}>
+            <div class="skeleton-text skeleton-word"></div>
+            <div class="skeleton-text skeleton-meta"></div>
+            <div class="skeleton-text skeleton-lessons"></div>
+          </div>
+        ))}
+      </div>
+    </div>
+    
+    <!-- Contenido real (se carga dinámicamente) -->
+    <div class="dictionary-content" id="dictionary-content" style="display: none;">
+      <!-- El contenido se insertará aquí vía JavaScript -->
+    </div>
+    
+    <!-- Indicador de carga -->
+    <div class="loading-indicator" id="loading-indicator" style="display: none;">
+      <div class="spinner"></div>
+      <p>Cargando vocabulario de {availableLangs[lang]}...</p>
+      <div class="loading-stats">
+        <span>Palabras estimadas: {estimatedWords}</span>
+      </div>
+    </div>
+    
+    <!-- Error handler -->
+    <div class="error-message" id="error-message" style="display: none;">
+      <div class="error-icon">⚠️</div>
+      <h3>Error cargando diccionario</h3>
+      <p>No se pudo cargar el vocabulario de {availableLangs[lang]}.</p>
+      <button onclick="retryLoad()" class="retry-btn">
+        <Icon name="refresh-cw" size={16} />
+        Reintentar
+      </button>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .dictionary-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+  }
+  
+  .lang-badge {
+    background: var(--color-revolutionary-red);
+    color: white;
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-lg);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .lang-switcher {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    margin: var(--space-xl) 0;
+    flex-wrap: wrap;
+  }
+  
+  .lang-switcher a {
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    background: var(--color-paper);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+  }
+  
+  .lang-switcher a:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+    border-color: var(--color-revolutionary-red-light);
+  }
+  
+  .lang-switcher a.active {
+    background: var(--color-revolutionary-red);
+    color: white;
+    border-color: var(--color-revolutionary-red);
+  }
+  
+  .performance-info {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+    flex-wrap: wrap;
+  }
+  
+  .perf-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    background: var(--color-border-light);
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-sm);
+  }
+  
+  /* Skeleton Loader optimizado */
+  .dictionary-skeleton {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .skeleton-search {
+    max-width: 600px;
+    margin: 0 auto var(--space-2xl);
+  }
+  
+  .skeleton-input {
+    height: 3.5rem;
+    width: 100%;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-lg);
+  }
+  
+  .skeleton-alphabet {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+  
+  .skeleton-letter {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-md);
+  }
+  
+  .skeleton-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-lg);
+  }
+  
+  .skeleton-card {
+    background: var(--color-paper);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .skeleton-text {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-sm);
+  }
+  
+  .skeleton-word {
+    height: 1.8rem;
+    width: 70%;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .skeleton-meta {
+    height: 1rem;
+    width: 50%;
+    margin-bottom: var(--space-md);
+  }
+  
+  .skeleton-lessons {
+    height: 1rem;
+    width: 80%;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Loading indicator mejorado */
+  .loading-indicator {
+    text-align: center;
+    padding: var(--space-3xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid var(--color-border-light);
+    border-top: 4px solid var(--color-revolutionary-red);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loading-stats {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+  
+  /* Error message mejorado */
+  .error-message {
+    text-align: center;
+    padding: var(--space-3xl);
+    background: var(--color-paper);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    color: var(--color-text-secondary);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .error-icon {
+    font-size: 4rem;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .retry-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    background: var(--color-revolutionary-red);
+    color: white;
+    border: none;
+    padding: var(--space-md) var(--space-xl);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: var(--space-lg);
+    transition: all 0.2s ease;
+  }
+  
+  .retry-btn:hover {
+    background: var(--color-revolutionary-red-dark);
+    transform: translateY(-1px);
+  }
+  
+  /* Estados de transición */
+  .dictionary-content {
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .skeleton-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .lang-switcher {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .performance-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+
+<script define:vars={{ lang, fileName, availableLangs }}>
+document.addEventListener('DOMContentLoaded', async function() {
+  const container = document.querySelector('.dynamic-dictionary-container');
+  const skeleton = document.getElementById('dictionary-skeleton');
+  const content = document.getElementById('dictionary-content');
+  const loading = document.getElementById('loading-indicator');
+  const error = document.getElementById('error-message');
+  
+  let dictionaryData = null;
+  let filteredWords = null;
+  
+  async function loadDictionaryData() {
+    try {
+      console.log(`🚀 Cargando diccionario dinámico para: ${availableLangs[lang]}`);
+      
+      // Mostrar loading después de 800ms si no ha cargado
+      const loadingTimeout = setTimeout(() => {
+        skeleton.style.display = 'none';
+        loading.style.display = 'flex';
+      }, 800);
+      
+      const startTime = performance.now();
+      
+      // Cargar TODAS las palabras usando sistema de chunks optimizado
+      const { chunkedDictionary } = await import('../../utils/dictionary-chunks.js');
+      const result = await chunkedDictionary.getAllWords(language);
+      
+      dictionaryData = {
+        meta: {
+          language: availableLangs[language],
+          wordCount: result.meta.totalWords,
+          chunksLoaded: result.meta.chunksLoaded,
+          lastUpdated: result.meta.generated,
+          optimized: true
+        },
+        index: {
+          popular: Object.entries(result.words)
+            .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
+            .slice(0, 50)
+            .map(([word]) => word),
+          recent: Object.entries(result.words)
+            .sort((a, b) => Math.max(...(b[1].lessons || [0])) - Math.max(...(a[1].lessons || [0])))
+            .slice(0, 100)
+            .map(([word]) => word),
+          letters: generateAlphabetIndex(result.words)
+        },
+        words: result.words
+      };
+      
+      // Función auxiliar para índice alfabético
+      function generateAlphabetIndex(words) {
+        const letters = {};
+        Object.keys(words).forEach(word => {
+          const firstChar = word.charAt(0).toUpperCase();
+          if (!letters[firstChar]) {
+            letters[firstChar] = [];
+          }
+          letters[firstChar].push(word);
+        });
+        return letters;
+      }
+      
+      console.log(`✅ Loaded ${result.meta.totalWords} words from ${result.meta.chunksLoaded} chunks`);
+      const loadTime = performance.now() - startTime;
+      
+      clearTimeout(loadingTimeout);
+      
+      console.log(`✅ Diccionario cargado en ${loadTime.toFixed(2)}ms: ${dictionaryData.meta.wordCount} palabras`);
+      
+      // Preparar palabras filtradas
+      filteredWords = Object.entries(dictionaryData.words);
+      
+      // Renderizar contenido
+      await renderDictionary();
+      
+      // Transición suave
+      skeleton.style.display = 'none';
+      loading.style.display = 'none';
+      error.style.display = 'none';
+      content.style.display = 'block';
+      
+    } catch (err) {
+      console.error('❌ Error cargando diccionario:', err);
+      
+      skeleton.style.display = 'none';
+      loading.style.display = 'none';
+      content.style.display = 'none';
+      error.style.display = 'block';
+    }
+  }
+  
+  async function renderDictionary() {
+    if (!dictionaryData) return;
+    
+    content.innerHTML = `
+      <div class="dictionary-stats">
+        <div class="stat-item">
+          <strong>${dictionaryData.meta.wordCount}</strong>
+          <span>palabras totales</span>
+        </div>
+        <div class="stat-item">
+          <strong>${dictionaryData.index.popular.length}</strong>
+          <span>populares</span>
+        </div>
+        <div class="stat-item">
+          <strong>${Object.keys(dictionaryData.index.letters).length}</strong>
+          <span>letras</span>
+        </div>
+      </div>
+      
+      <div class="search-section">
+        <div class="search-box">
+          <input type="text" id="word-search" placeholder="Buscar en ${availableLangs[lang]}..." />
+          <div class="search-info">
+            <span id="result-count">${filteredWords.length} palabras</span>
+          </div>
+        </div>
+        
+        <div class="filter-tabs">
+          <button class="filter-tab active" onclick="showAllWords()">Todas</button>
+          <button class="filter-tab" onclick="showPopularWords()">Populares</button>
+          <button class="filter-tab" onclick="showRecentWords()">Recientes</button>
+        </div>
+        
+        <div class="alphabet-filter">
+          ${Object.keys(dictionaryData.index.letters).sort().map(letter => 
+            `<button class="letter-btn" onclick="filterByLetter('${letter}')" title="${dictionaryData.index.letters[letter].length} palabras">${letter}</button>`
+          ).join('')}
+          <button class="letter-btn clear-btn" onclick="clearFilter()">Todas</button>
+        </div>
+      </div>
+      
+      <div class="dictionary-grid" id="dictionary-grid">
+        ${renderWordCards(filteredWords)}
+      </div>
+    `;
+    
+    // CSS dinámico para esta página
+    if (!document.getElementById('dynamic-dictionary-styles')) {
+      const styles = document.createElement('style');
+      styles.id = 'dynamic-dictionary-styles';
+      styles.textContent = \`
+        .dictionary-stats {
+          display: flex;
+          justify-content: center;
+          gap: var(--space-xl);
+          margin-bottom: var(--space-2xl);
+          flex-wrap: wrap;
+        }
+        
+        .stat-item {
+          text-align: center;
+          background: var(--color-paper);
+          padding: var(--space-lg);
+          border-radius: var(--radius-lg);
+          border: 1px solid var(--color-border);
+          box-shadow: var(--shadow-sm);
+          min-width: 120px;
+        }
+        
+        .stat-item strong {
+          display: block;
+          font-size: 1.8rem;
+          color: var(--color-revolutionary-red);
+          margin-bottom: var(--space-xs);
+        }
+        
+        .stat-item span {
+          font-size: 0.9rem;
+          color: var(--color-text-secondary);
+        }
+        
+        .search-section {
+          margin-bottom: var(--space-2xl);
+        }
+        
+        .search-box {
+          max-width: 600px;
+          margin: 0 auto var(--space-lg);
+          position: relative;
+        }
+        
+        .search-box input {
+          width: 100%;
+          padding: var(--space-lg);
+          border: 2px solid var(--color-border);
+          border-radius: var(--radius-lg);
+          font-size: 1.1rem;
+          font-family: var(--font-primary);
+          transition: all 0.2s ease;
+        }
+        
+        .search-box input:focus {
+          outline: none;
+          border-color: var(--color-revolutionary-red);
+          box-shadow: 0 0 0 3px var(--color-revolutionary-red-light);
+        }
+        
+        .search-info {
+          text-align: center;
+          margin-top: var(--space-sm);
+          color: var(--color-text-muted);
+          font-size: 0.9rem;
+        }
+        
+        .filter-tabs {
+          display: flex;
+          justify-content: center;
+          gap: var(--space-sm);
+          margin-bottom: var(--space-lg);
+        }
+        
+        .filter-tab {
+          background: var(--color-paper);
+          border: 1px solid var(--color-border);
+          padding: var(--space-md) var(--space-lg);
+          border-radius: var(--radius-md);
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-weight: 500;
+        }
+        
+        .filter-tab:hover, .filter-tab.active {
+          background: var(--color-revolutionary-red);
+          color: white;
+          border-color: var(--color-revolutionary-red);
+        }
+        
+        .alphabet-filter {
+          display: flex;
+          justify-content: center;
+          gap: var(--space-sm);
+          flex-wrap: wrap;
+        }
+        
+        .letter-btn {
+          background: var(--color-paper);
+          border: 1px solid var(--color-border);
+          width: 35px;
+          height: 35px;
+          border-radius: var(--radius-md);
+          cursor: pointer;
+          font-weight: 600;
+          transition: all 0.2s ease;
+          font-size: 0.9rem;
+        }
+        
+        .letter-btn:hover, .letter-btn.active {
+          background: var(--color-socialist-gold);
+          color: var(--color-charcoal);
+          border-color: var(--color-socialist-gold);
+          transform: translateY(-1px);
+        }
+        
+        .clear-btn {
+          background: var(--color-border-light);
+          width: auto;
+          padding: 0 var(--space-md);
+        }
+        
+        .dictionary-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: var(--space-lg);
+        }
+        
+        .word-card {
+          background: var(--color-paper);
+          padding: var(--space-lg);
+          border-radius: var(--radius-lg);
+          border: 1px solid var(--color-border);
+          box-shadow: var(--shadow-sm);
+          transition: all 0.3s ease;
+        }
+        
+        .word-card:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--color-socialist-gold-light);
+        }
+        
+        .word-card.hidden {
+          display: none;
+        }
+        
+        .word-title {
+          font-size: 1.3rem;
+          font-weight: 700;
+          color: var(--color-revolutionary-red);
+          margin-bottom: var(--space-md);
+          word-break: break-word;
+        }
+        
+        .word-meta {
+          color: var(--color-text-secondary);
+          font-size: 0.9rem;
+          margin-bottom: var(--space-sm);
+        }
+        
+        .frequency {
+          background: var(--color-socialist-gold-light);
+          color: var(--color-socialist-gold-dark);
+          padding: var(--space-xs) var(--space-sm);
+          border-radius: var(--radius-sm);
+          font-weight: 500;
+        }
+        
+        .lessons {
+          display: block;
+          margin-top: var(--space-sm);
+          color: var(--color-text-muted);
+        }
+        
+        @media (max-width: 768px) {
+          .dictionary-stats {
+            gap: var(--space-md);
+          }
+          
+          .stat-item {
+            min-width: 100px;
+            padding: var(--space-md);
+          }
+          
+          .filter-tabs {
+            flex-wrap: wrap;
+          }
+          
+          .dictionary-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      \`;
+      document.head.appendChild(styles);
+    }
+    
+    // Configurar funcionalidad de búsqueda
+    setupSearch();
+  }
+  
+  function renderWordCards(words) {
+    return words.map(([word, data]) => \`
+      <div class="word-card" data-word="\${word.toLowerCase()}">
+        <h3 class="word-title">\${word}</h3>
+        <div class="word-meta">
+          <span class="frequency">Aparece \${data.frequency} vez\${data.frequency !== 1 ? 'es' : ''}</span>
+          <span class="lessons">Lecciones: \${data.lessons.join(', ')}</span>
+        </div>
+      </div>
+    \`).join('');
+  }
+  
+  function setupSearch() {
+    const searchInput = document.getElementById('word-search');
+    const resultCount = document.getElementById('result-count');
+    
+    searchInput?.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      const wordCards = document.querySelectorAll('.word-card');
+      let visibleCount = 0;
+      
+      wordCards.forEach(card => {
+        const word = card.dataset.word;
+        const cardText = card.textContent.toLowerCase();
+        const visible = query === '' || word.includes(query) || cardText.includes(query);
+        
+        if (visible) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+      
+      if (resultCount) {
+        resultCount.textContent = \`\${visibleCount} palabra\${visibleCount !== 1 ? 's' : ''}\`;
+      }
+    });
+  }
+  
+  // Funciones globales para filtros
+  window.showAllWords = function() {
+    filteredWords = Object.entries(dictionaryData.words);
+    updateWordGrid();
+    updateActiveTab(0);
+  };
+  
+  window.showPopularWords = function() {
+    filteredWords = dictionaryData.index.popular.map(word => [word, dictionaryData.words[word]]);
+    updateWordGrid();
+    updateActiveTab(1);
+  };
+  
+  window.showRecentWords = function() {
+    filteredWords = dictionaryData.index.recent.map(word => [word, dictionaryData.words[word]]);
+    updateWordGrid();
+    updateActiveTab(2);
+  };
+  
+  window.filterByLetter = function(letter) {
+    const letterWords = dictionaryData.index.letters[letter] || [];
+    filteredWords = letterWords.map(word => [word, dictionaryData.words[word]]);
+    updateWordGrid();
+    
+    // Actualizar botones de letras
+    document.querySelectorAll('.letter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === letter);
+    });
+  };
+  
+  window.clearFilter = function() {
+    showAllWords();
+    document.querySelectorAll('.letter-btn').forEach(btn => btn.classList.remove('active'));
+  };
+  
+  function updateWordGrid() {
+    const grid = document.getElementById('dictionary-grid');
+    const resultCount = document.getElementById('result-count');
+    
+    if (grid) {
+      grid.innerHTML = renderWordCards(filteredWords);
+      setupSearch();
+    }
+    
+    if (resultCount) {
+      resultCount.textContent = \`\${filteredWords.length} palabra\${filteredWords.length !== 1 ? 's' : ''}\`;
+    }
+  }
+  
+  function updateActiveTab(index) {
+    document.querySelectorAll('.filter-tab').forEach((tab, i) => {
+      tab.classList.toggle('active', i === index);
+    });
+  }
+  
+  // Función global para reintentar carga
+  window.retryLoad = loadDictionaryData;
+  
+  // Iniciar carga
+  loadDictionaryData();
+});
+</script>
+</Layout>

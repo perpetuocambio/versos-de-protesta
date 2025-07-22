@@ -1,0 +1,109 @@
+name: PR Dictionary Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/content/blog/dia-*.md'
+      - 'src/content/blog/día-*.md'
+
+jobs:
+  validate-lesson:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Validate new lessons
+      run: |
+        echo "🔍 Validating new lesson files..."
+        
+        # Get changed lesson files
+        CHANGED_LESSONS=$(git diff --name-only origin/main...HEAD | grep -E 'src/content/blog/d[ií]a-.*\.md' || true)
+        
+        if [ -z "$CHANGED_LESSONS" ]; then
+          echo "ℹ️ No lesson files to validate"
+          exit 0
+        fi
+        
+        echo "📝 Found lesson files to validate:"
+        echo "$CHANGED_LESSONS"
+        
+        # Validate each lesson file
+        for file in $CHANGED_LESSONS; do
+          echo "🔎 Validating $file..."
+          
+          # Check file exists
+          if [ ! -f "$file" ]; then
+            echo "❌ File $file not found"
+            exit 1
+          fi
+          
+          # Check frontmatter
+          if ! grep -q "^day:" "$file"; then
+            echo "❌ Missing 'day:' in frontmatter of $file"
+            exit 1
+          fi
+          
+          # Check for vocabulary tables
+          if ! grep -q "| Español |" "$file"; then
+            echo "⚠️ No vocabulary tables found in $file"
+          else
+            echo "✅ Vocabulary tables found in $file"
+          fi
+          
+          echo "✅ $file passed validation"
+        done
+        
+    - name: Test dictionary build
+      run: |
+        echo "🧪 Testing dictionary build with new lessons..."
+        npm run update-content
+        
+        # Check if dictionary files were generated
+        if [ -f src/data/dictionary-stats.json ]; then
+          TOTAL_WORDS=$(cat src/data/dictionary-stats.json | jq -r '.totalUniqueWords')
+          TOTAL_LESSONS=$(cat src/data/dictionary-stats.json | jq -r '.byLesson | length')
+          
+          echo "## 📊 Dictionary Build Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total words:** $TOTAL_WORDS" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total lessons:** $TOTAL_LESSONS" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Dictionary build test passed!" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ Dictionary stats file not generated"
+          exit 1
+        fi
+        
+    - name: Generate preview report
+      run: |
+        echo "## 📋 PR Dictionary Preview" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Show what lessons were added/modified
+        CHANGED_LESSONS=$(git diff --name-only origin/main...HEAD | grep -E 'src/content/blog/d[ií]a-.*\.md' || true)
+        
+        if [ -n "$CHANGED_LESSONS" ]; then
+          echo "### 📝 Modified Lessons:" >> $GITHUB_STEP_SUMMARY
+          for file in $CHANGED_LESSONS; do
+            if [ -f "$file" ]; then
+              DAY=$(grep "^day:" "$file" | head -1 | cut -d':' -f2 | tr -d ' ')
+              TITLE=$(grep "^title:" "$file" | head -1 | cut -d':' -f2- | tr -d '"' | sed 's/^ *//')
+              echo "- **Día $DAY:** $TITLE" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🔄 Dictionary will be automatically updated when this PR is merged!" >> $GITHUB_STEP_SUMMARY
