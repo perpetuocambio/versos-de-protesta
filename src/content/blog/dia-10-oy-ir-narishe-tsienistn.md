@@ -8,7 +8,7 @@ day: 10
 originalSong:
   title: "Oy, Ir Narishe Tsienistn"
   artist: "Canción tradicional del Bund / Interpretada por Daniel Kahn & Psoy Korolenko"
-  year: 1897-1920
+  year: 1897
   language: "yi"
   genre: "protest"
 grammarTopics: 
