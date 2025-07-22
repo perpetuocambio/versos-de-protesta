@@ -19,7 +19,8 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 
 // Importar índice de datos internos
-const dictionaryIndex = await import('../../data/internal/v1/dictionary/index.json');
+const dictionaryIndexResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/index.json`);
+const dictionaryIndex = await dictionaryIndexResponse.json();
 
 const availableLangs = {
   'es': 'Español',
@@ -39,7 +40,7 @@ const languageMap = {
 
 // Usar nuevos endpoints de API
 const fileName = `${lang}.json`;
-const languageInfo = dictionaryIndex.default.languages.find(l => l.code === lang);
+const languageInfo = dictionaryIndex.languages.find(l => l.code === lang);
 const estimatedWords = languageInfo ? languageInfo.wordCount : 250;
 
 // Breadcrumb items

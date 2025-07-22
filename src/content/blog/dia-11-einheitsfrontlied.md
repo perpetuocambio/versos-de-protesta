@@ -1,5 +1,5 @@
 ---
-title: "DÍA 11: EINHEITSFRONTLIED"
+title: "EINHEITSFRONTLIED"
 description: "Análisis multilingüe del Einheitsfrontlied de Brecht-Eisler con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del antifascismo alemán"
 pubDate: 2024-01-11
 contentType: "song-analysis"

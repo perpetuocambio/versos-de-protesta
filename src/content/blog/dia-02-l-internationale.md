@@ -1,5 +1,5 @@
 ---
-title: "DÍA 2: L'Internationale"
+title: "L'Internationale"
 description: "Nacida en las cenizas de la Comuna de París (1871), la canción que unió a los trabajadores del mundo entero"
 pubDate: 2024-01-17
 contentType: "song-analysis"
