@@ -50,7 +50,7 @@ const songsByYear = songs.reduce((acc, song) => {
     <div class="decade-markers">
       {Array.from({ length: Math.ceil(timeSpan / 10) + 1 }, (_, i) => {
         const year = Math.floor(minYear / 10) * 10 + (i * 10);
-        if (year <= maxYear + 10) {
+        if (!(year > maxYear + 10)) {
           const position = ((year - minYear) / timeSpan) * 100;
           return (
             <div 

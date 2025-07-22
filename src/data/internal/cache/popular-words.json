@@ -44,15 +44,7 @@
       "frequency": 8
     },
     {
-      "word": "Anarquismo",
-      "frequency": 6
-    },
-    {
-      "word": "Antifascismo",
-      "frequency": 6
-    },
-    {
-      "word": "Bund",
+      "word": "Orden",
       "frequency": 6
     },
     {
@@ -60,11 +52,7 @@
       "frequency": 6
     },
     {
-      "word": "Frente Popular",
-      "frequency": 6
-    },
-    {
-      "word": "Orden",
+      "word": "Resistencia",
       "frequency": 6
     },
     {
@@ -72,7 +60,19 @@
       "frequency": 6
     },
     {
-      "word": "Resistencia",
+      "word": "Anarquismo",
+      "frequency": 6
+    },
+    {
+      "word": "Bund",
+      "frequency": 6
+    },
+    {
+      "word": "Antifascismo",
+      "frequency": 6
+    },
+    {
+      "word": "Frente Popular",
       "frequency": 6
     },
     {
@@ -80,11 +80,11 @@
       "frequency": 5
     },
     {
-      "word": "Primera Internacional",
+      "word": "Revolución Cultural",
       "frequency": 5
     },
     {
-      "word": "Revolución Cultural",
+      "word": "Primera Internacional",
       "frequency": 5
     },
     {
@@ -96,6 +96,14 @@
       "frequency": 5
     },
     {
+      "word": "Unidad Popular",
+      "frequency": 4
+    },
+    {
+      "word": "Vía chilena",
+      "frequency": 4
+    },
+    {
       "word": "Años de plomo",
       "frequency": 4
     },
@@ -104,23 +112,15 @@
       "frequency": 4
     },
     {
+      "word": "Movimiento estudiantil",
+      "frequency": 4
+    },
+    {
       "word": "Exilio",
       "frequency": 4
     },
     {
-      "word": "fascismo",
-      "frequency": 4
-    },
-    {
-      "word": "Guardia Roja",
-      "frequency": 4
-    },
-    {
       "word": "Liberación",
-      "frequency": 4
-    },
-    {
-      "word": "Movimiento estudiantil",
       "frequency": 4
     },
     {
@@ -132,23 +132,7 @@
       "frequency": 4
     },
     {
-      "word": "Reich",
-      "frequency": 4
-    },
-    {
-      "word": "Revolución Industrial",
-      "frequency": 4
-    },
-    {
-      "word": "Solidaridad obrera",
-      "frequency": 4
-    },
-    {
-      "word": "Unidad Popular",
-      "frequency": 4
-    },
-    {
-      "word": "Vía chilena",
+      "word": "Guardia Roja",
       "frequency": 4
     },
     {
@@ -160,7 +144,23 @@
       "frequency": 4
     },
     {
-      "word": "2.900 horas",
+      "word": "fascismo",
+      "frequency": 4
+    },
+    {
+      "word": "Revolución Industrial",
+      "frequency": 4
+    },
+    {
+      "word": "Reich",
+      "frequency": 4
+    },
+    {
+      "word": "Solidaridad obrera",
+      "frequency": 4
+    },
+    {
+      "word": "Art+N + V + N + Prep+N",
       "frequency": 4
     },
     {
@@ -168,11 +168,19 @@
       "frequency": 4
     },
     {
-      "word": "3.000.000 resistentes",
+      "word": "SVO + pasiva",
+      "frequency": 4
+    },
+    {
+      "word": "2.900 horas",
       "frequency": 4
     },
     {
       "word": "45 universidades",
+      "frequency": 4
+    },
+    {
+      "word": "3.000.000 resistentes",
       "frequency": 4
     },
     {
@@ -184,19 +192,11 @@
       "frequency": 4
     },
     {
-      "word": "Art+N + V + N + Prep+N",
-      "frequency": 4
-    },
-    {
       "word": "desde",
       "frequency": 4
     },
     {
       "word": "Segunda Guerra Mundial",
-      "frequency": 4
-    },
-    {
-      "word": "SVO + pasiva",
       "frequency": 4
     },
     {
@@ -212,5 +212,5 @@
       "frequency": 3
     }
   ],
-  "generated": "2025-07-22T21:32:19.251Z"
+  "generated": "2025-07-22T21:59:40.944Z"
 }
