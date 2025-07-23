@@ -1,7 +1,11 @@
 /**
  * Cliente optimizado para diccionario con chunks
  * Escalable a 100+ lecciones con carga bajo demanda
+ * Compatible server-side (Node.js) y client-side (Browser)
  */
+
+import fs from 'fs/promises';
+import path from 'path';
 
 class ChunkedDictionary {
   constructor() {
@@ -9,6 +13,15 @@ class ChunkedDictionary {
     this.indexCache = new Map();
     this.cacheTimeout = 10 * 60 * 1000; // 10 minutos
     this.basePath = '../data/internal/v1/dictionary';
+    
+    // Detectar entorno de ejecución
+    this.isServerSide = typeof window === 'undefined';
+    
+    if (this.isServerSide) {
+      // Ruta absoluta para server-side
+      const __dirname = path.dirname(new URL(import.meta.url).pathname);
+      this.serverBasePath = path.resolve(__dirname, '../../public/data/internal/v1/dictionary');
+    }
   }
 
   /**
@@ -24,9 +37,19 @@ class ChunkedDictionary {
 
     try {
       console.log('📋 Loading chunks manifest...');
-      const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
-      if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest');
-      const manifestData = await manifestResponse.json();
+      let manifestData;
+      
+      if (this.isServerSide) {
+        // Server-side: usar fs
+        const manifestPath = path.join(this.serverBasePath, 'chunks-manifest.json');
+        const manifestContent = await fs.readFile(manifestPath, 'utf-8');
+        manifestData = JSON.parse(manifestContent);
+      } else {
+        // Client-side: usar fetch
+        const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
+        if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest');
+        manifestData = await manifestResponse.json();
+      }
 
       this.indexCache.set('manifest', {
         data: manifestData,
@@ -69,13 +92,23 @@ class ChunkedDictionary {
       const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11');
       
       console.log(`📦 Loading chunk for ${langCode}: ${chunkFile}`);
-      const startTime = performance.now();
+      const startTime = this.isServerSide ? Date.now() : performance.now();
       
-      const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
-      if (!chunkResponse.ok) throw new Error(`No se pudo cargar ${chunkFile}`);
+      let chunkData;
       
-      const chunkData = await chunkResponse.json();
-      const loadTime = performance.now() - startTime;
+      if (this.isServerSide) {
+        // Server-side: usar fs
+        const chunkPath = path.join(this.serverBasePath, 'chunks', chunkFile);
+        const chunkContent = await fs.readFile(chunkPath, 'utf-8');
+        chunkData = JSON.parse(chunkContent);
+      } else {
+        // Client-side: usar fetch
+        const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
+        if (!chunkResponse.ok) throw new Error(`No se pudo cargar ${chunkFile}`);
+        chunkData = await chunkResponse.json();
+      }
+      
+      const loadTime = (this.isServerSide ? Date.now() : performance.now()) - startTime;
 
       this.chunkCache.set(cacheKey, {
         data: chunkData,

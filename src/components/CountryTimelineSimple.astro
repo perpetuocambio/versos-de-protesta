@@ -100,14 +100,18 @@ countries.forEach(country => {
 
 // Pre-generar los años para evitar problemas con fragmentos
 const yearMarkers = [];
-for (let i = 0; i <= Math.ceil(timeSpan / 20); i++) {
-  const year = Math.floor(minYear / 20) * 20 + (i * 20);
-  if (year <= maxYear + 20) {
+const yearInterval = timeSpan > 100 ? 20 : timeSpan > 50 ? 10 : 5; // Intervalos adaptativos
+const startYear = Math.floor(minYear / yearInterval) * yearInterval;
+
+for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval) {
+  if (year >= minYear - yearInterval) {
     const position = ((year - minYear) / timeSpan) * 100;
-    yearMarkers.push({
-      year,
-      position: Math.max(0, Math.min(100, position))
-    });
+    if (position >= -5 && position <= 105) { // Permitir marcadores ligeramente fuera del rango
+      yearMarkers.push({
+        year,
+        position: Math.max(0, Math.min(100, position))
+      });
+    }
   }
 }
 ---

@@ -409,7 +409,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       const startTime = performance.now();
       
-      // Cargar TODAS las palabras usando sistema de chunks optimizado
+      // Cargar TODAS las palabras usando sistema de chunks optimizado (server-side)
       const { chunkedDictionary } = await import('../../utils/dictionary-chunks.js');
       const result = await chunkedDictionary.getAllWords(lang);
       
