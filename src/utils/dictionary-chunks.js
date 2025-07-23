@@ -18,9 +18,26 @@ class ChunkedDictionary {
     this.isServerSide = typeof window === 'undefined';
     
     if (this.isServerSide) {
-      // Ruta absoluta para server-side
+      // Ruta absoluta para server-side - detectar si estamos en build o dev
       const __dirname = path.dirname(new URL(import.meta.url).pathname);
-      this.serverBasePath = path.resolve(__dirname, '../../public/data/internal/v1/dictionary');
+      const possiblePaths = [
+        // Durante build de Astro
+        path.resolve('./public/data/internal/v1/dictionary'),
+        // Durante desarrollo
+        path.resolve(__dirname, '../../public/data/internal/v1/dictionary'),
+        // Path relativo como fallback
+        path.resolve('public/data/internal/v1/dictionary')
+      ];
+      
+      // Usar el primer path que exista
+      this.serverBasePath = possiblePaths.find(p => {
+        try {
+          const fs = require('fs');
+          return fs.existsSync(p);
+        } catch {
+          return false;
+        }
+      }) || possiblePaths[0];
     }
   }
 
@@ -88,8 +105,8 @@ class ChunkedDictionary {
         throw new Error(`Language ${langCode} not found in manifest`);
       }
 
-      // Generar nombre del archivo (asumiendo patrón lessons-0-11)
-      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11');
+      // Generar nombre del archivo (asumiendo patrón lessons-0-11.json)
+      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11.json');
       
       console.log(`📦 Loading chunk for ${langCode}: ${chunkFile}`);
       const startTime = this.isServerSide ? Date.now() : performance.now();

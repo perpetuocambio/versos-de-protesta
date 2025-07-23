@@ -28,6 +28,30 @@ const dictionaryManifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
 
 const languageInfo = dictionaryManifest.languages.find(l => l.code === lang);
 
+// Función auxiliar para índice alfabético
+function generateAlphabetIndex(words) {
+  const letters = {};
+  Object.keys(words).forEach(word => {
+    const firstChar = word.charAt(0).toUpperCase();
+    if (!letters[firstChar]) {
+      letters[firstChar] = [];
+    }
+    letters[firstChar].push(word);
+  });
+  return letters;
+}
+
+const availableLangs = {
+  'es': 'Español',
+  'en': 'English', 
+  'de': 'Deutsch',
+  'pt': 'Português',
+  'ru': 'Русский',
+  'ru-rom': 'Русский Rom.',
+  'zh': '中文',
+  'zh-pinyin': '中文 Pinyin'
+};
+
 // Pre-cargar datos del diccionario en server-side
 let dictionaryData = null;
 try {
@@ -56,31 +80,6 @@ try {
 } catch (error) {
   console.error('Error pre-cargando diccionario:', error);
 }
-
-// Función auxiliar para índice alfabético
-function generateAlphabetIndex(words) {
-  const letters = {};
-  Object.keys(words).forEach(word => {
-    const firstChar = word.charAt(0).toUpperCase();
-    if (!letters[firstChar]) {
-      letters[firstChar] = [];
-    }
-    letters[firstChar].push(word);
-  });
-  return letters;
-}
-
-const availableLangs = {
-  'es': 'Español',
-  'en': 'English', 
-  'de': 'Deutsch',
-  'pt': 'Português',
-  'ru': 'Русский',
-  'ru-rom': 'Русский Rom.',
-  'zh': '中文',
-  'zh-pinyin': '中文 Pinyin'
-};
-
 
 // Obtener información estimada del manifest
 const estimatedWords = languageInfo ? languageInfo.totalWords : 250;

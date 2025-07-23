@@ -138,23 +138,30 @@ import.meta.env.BASE_URL;
       
       /* Layout mejorado */
       .container {
-        max-width: 1600px;
-        width: 85%;
+        max-width: 1400px;
+        width: 92%;
         margin: 0 auto;
         padding: 0 var(--space-xl);
       }
       
-      @media (max-width: 1024px) {
+      @media (max-width: 1200px) {
         .container {
-          width: 90%;
+          width: 94%;
           padding: 0 var(--space-lg);
         }
       }
       
       @media (max-width: 768px) {
         .container {
-          width: 95%;
+          width: 96%;
           padding: 0 var(--space-md);
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .container {
+          width: 98%;
+          padding: 0 var(--space-sm);
         }
       }
       

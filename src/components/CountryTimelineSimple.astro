@@ -141,8 +141,8 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
       ))}
     </div>
 
-    <!-- Eje Y: Países -->
-    <div class="country-axis">
+    <!-- Eje Y: Labels de países -->
+    <div class="countries-labels">
       {countries.map((country, index) => (
         <div 
           class="country-row" 
@@ -151,9 +151,21 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
           <div 
             class="country-label" 
             style={`background-color: ${countryColors[country] || '#6B7280'}`}
+            title={country}
           >
             {country}
           </div>
+        </div>
+      ))}
+    </div>
+    
+    <!-- Eje Y: Países con datos -->
+    <div class="country-axis">
+      {countries.map((country, index) => (
+        <div 
+          class="country-row" 
+          style={`top: ${(index + 1) * (300 / (countries.length + 1))}px`}
+        >
           <div class="country-line"></div>
           
           <!-- Canciones de este país -->
@@ -265,8 +277,16 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
   .country-axis {
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 100px;
     right: 20px;
+    bottom: 60px;
+  }
+  
+  .countries-labels {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 90px;
     bottom: 60px;
   }
 
@@ -279,23 +299,25 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
 
   .country-label {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     color: white;
-    padding: var(--space-xs) var(--space-md);
+    padding: var(--space-xs) var(--space-sm);
     border-radius: var(--radius-md);
     font-weight: 600;
-    font-size: 0.9rem;
-    min-width: 90px;
+    font-size: 0.85rem;
+    width: 85px;
     text-align: center;
     white-space: nowrap;
     z-index: 5;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .country-line {
     position: absolute;
-    left: 100px;
+    left: 0;
     right: 0;
     top: 50%;
     height: 1px;
