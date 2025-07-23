@@ -1,24 +1,37 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
-import NavigationCard from '../components/NavigationCard.astro';
+import CountryTimelineSimple from '../components/CountryTimelineSimple.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
-const recentPosts = allPosts
-  .sort((a, b) => (a.data.day || 999) - (b.data.day || 999))
-  .slice(0, 3);
 
-const totalLessons = allPosts.filter(post => post.data.day !== undefined).length;
-const songLessons = allPosts.filter(post => post.data.originalSong).length;
+// Extraer canciones con año y origen
+const songs = allPosts
+  .filter(post => post.data.originalSong)
+  .map(post => ({
+    title: post.data.originalSong.title,
+    artist: post.data.originalSong.artist,
+    year: post.data.originalSong.year,
+    slug: post.slug,
+    genre: post.data.originalSong.genre || 'protest',
+    description: post.data.description,
+    day: post.data.day,
+    origin: post.data.originalSong.origin || 'Desconocido'
+  }))
+  .sort((a, b) => a.year - b.year);
+
+const minYear = Math.min(...songs.map(s => s.year));
+const maxYear = Math.max(...songs.map(s => s.year));
+const timeSpan = maxYear - minYear;
 ---
 
-<Layout title="Versos de Protesta - Aprende idiomas con himnos revolucionarios">
+<Layout title="Versos de Protesta - Historia Musical de la Resistencia">
   <!-- Hero Section -->
   <section style="
     text-align: center; 
-    margin-bottom: var(--space-3xl);
-    padding: var(--space-3xl) 0;
+    margin-bottom: var(--space-2xl);
+    padding: var(--space-2xl) 0;
     background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
     border-radius: var(--radius-xl);
     border: 1px solid var(--color-border-light);
@@ -28,186 +41,119 @@ const songLessons = allPosts.filter(post => post.data.originalSong).length;
       align-items: center;
       justify-content: center;
       gap: var(--space-lg);
-      margin-bottom: var(--space-xl);
+      margin-bottom: var(--space-lg);
     ">
-      <Icon name="flag" size={48} class="text-revolutionary" />
+      <Icon name="flag" size={40} class="text-revolutionary" />
       <h1 style="margin: 0; background: linear-gradient(135deg, var(--color-revolutionary-red), var(--color-socialist-gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-        Versos de Protesta
+        Historia Musical de la Resistencia
       </h1>
-      <Icon name="fist" size={48} class="text-socialist" />
+      <Icon name="music" size={40} class="text-socialist" />
     </div>
     
-    <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto var(--space-xl) auto; line-height: 1.7;">
-      Aprende 5 idiomas a través de los himnos que cambiaron el mundo. Desde "A las Barricadas" hasta "L'Internationale", cada canción obrera es una ventana a la historia, la gramática y el alma de los pueblos.
+    <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto var(--space-lg) auto; line-height: 1.6; color: #6b7280;">
+      Navega por las canciones revolucionarias desde <strong>{minYear}</strong> hasta <strong>{maxYear}</strong>. 
+      Cada himno es una ventana a la historia, la gramática y el alma de los pueblos.
     </p>
     
-    <!-- Stats -->
+    <!-- Quick Stats -->
     <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: var(--space-lg);
-      max-width: 600px;
-      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      gap: var(--space-xl);
+      margin-top: var(--space-lg);
+      flex-wrap: wrap;
     ">
-      <div style="
-        background: var(--color-paper);
-        padding: var(--space-lg);
-        border-radius: var(--radius-lg);
-        border: 1px solid var(--color-border);
-        box-shadow: var(--shadow-sm);
-      ">
-        <div style="font-size: 2rem; font-weight: 800; color: var(--color-revolutionary-red); margin-bottom: var(--space-xs);">
-          {totalLessons}
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-revolutionary-red);">
+          {songs.length}
         </div>
-        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
-          Lecciones Completas
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Himnos Revolucionarios
         </div>
       </div>
       
-      <div style="
-        background: var(--color-paper);
-        padding: var(--space-lg);
-        border-radius: var(--radius-lg);
-        border: 1px solid var(--color-border);
-        box-shadow: var(--shadow-sm);
-      ">
-        <div style="font-size: 2rem; font-weight: 800; color: var(--color-socialist-gold); margin-bottom: var(--space-xs);">
-          {songLessons}
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-socialist-gold);">
+          {timeSpan}
         </div>
-        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
-          Himnos Analizados
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Años de Historia
         </div>
       </div>
       
-      <div style="
-        background: var(--color-paper);
-        padding: var(--space-lg);
-        border-radius: var(--radius-lg);
-        border: 1px solid var(--color-border);
-        box-shadow: var(--shadow-sm);
-      ">
-        <div style="font-size: 2rem; font-weight: 800; color: var(--color-charcoal); margin-bottom: var(--space-xs);">
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; font-weight: 800; color: var(--color-charcoal);">
           5
         </div>
-        <div style="font-size: 0.9rem; color: var(--color-text-secondary); font-weight: 500;">
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
           Idiomas Paralelos
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Navigation Cards -->
-  <section style="margin-bottom: var(--space-3xl);">
-    <h2 style="
-      text-align: center;
-      margin-bottom: var(--space-2xl);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: var(--space-md);
-    ">
-      <Icon name="compass" size={32} class="text-revolutionary" />
-      Explora el Contenido
+  <!-- Timeline interactivo geográfico -->
+  <CountryTimelineSimple songs={songs} />
+
+  <!-- Grid de canciones como respaldo -->
+  <div style="margin-top: 4rem;">
+    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #1f2937; text-align: center; display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
+      <Icon name="book" size={32} />
+      Catálogo Completo
     </h2>
     
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: var(--space-xl);
-    ">
-      <NavigationCard
-        title="Todas las Lecciones"
-        description="Curso completo de idiomas a través de himnos revolucionarios. Gramática comparativa, pronunciación y contexto histórico."
-        href={`${import.meta.env.BASE_URL}blog/`}
-        icon="book-open"
-        variant="primary"
-      />
-      
-      <NavigationCard
-        title="Historia Musical"
-        description="Timeline interactivo de canciones de protesta desde 1871 hasta hoy. Descubre la cronología de la resistencia."
-        href={`${import.meta.env.BASE_URL}canciones/`}
-        icon="music"
-        variant="secondary"
-      />
-      
-      <NavigationCard
-        title="Por Idiomas"
-        description="Contenido organizado por idioma: Español, English, Deutsch, Português, Русский, 中文 y más."
-        href={`${import.meta.env.BASE_URL}idiomas/`}
-        icon="globe"
-        variant="tertiary"
-      />
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem;">
+      {songs.map((song, index) => {
+        const colors = ['#ef4444', '#f97316', '#eab308', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6'];
+        const color = colors[index % colors.length];
+        
+        return (
+          <div style={`
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 4px solid ${color};
+            transition: transform 0.2s, box-shadow 0.2s;
+          `} onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'">
+            
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <span style={`
+                background: ${color};
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 9999px;
+                font-weight: 600;
+                font-size: 0.9rem;
+              `}>{song.year}</span>
+              <span style="
+                background: #f0f9ff;
+                color: #0369a1;
+                padding: 0.25rem 0.75rem;
+                border-radius: 9999px;
+                font-size: 0.8rem;
+                text-transform: capitalize;
+              ">{song.genre}</span>
+            </div>
+            
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.2rem; color: #1f2937;">
+              <a href={`${import.meta.env.BASE_URL}blog/${song.slug}/`} style="color: #2563eb; text-decoration: none;">
+                "{song.title}"
+              </a>
+            </h3>
+            
+            <p style="margin: 0 0 0.75rem 0; color: #6b7280; font-size: 0.9rem; font-style: italic;">
+              {song.artist}
+            </p>
+            
+            <p style="margin: 0; color: #9ca3af; font-size: 0.85rem; line-height: 1.4;">
+              {song.description.slice(0, 120)}...
+            </p>
+          </div>
+        );
+      })}
     </div>
-  </section>
-
-  <!-- Recent Lessons Preview -->
-  {recentPosts.length > 0 && (
-    <section style="margin-bottom: var(--space-3xl);">
-      <h2 style="
-        margin-bottom: var(--space-xl);
-        display: flex;
-        align-items: center;
-        gap: var(--space-md);
-      ">
-        <Icon name="clock" size={28} class="text-socialist" />
-        Últimas Lecciones
-      </h2>
-      
-      <div style="display: grid; gap: var(--space-lg);">
-        {recentPosts.map((post) => (
-          <article class="card" style="
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            gap: var(--space-lg);
-            align-items: center;
-          ">
-            <div style="
-              background: var(--color-revolutionary-red);
-              color: white;
-              padding: var(--space-md);
-              border-radius: var(--radius-md);
-              font-weight: 700;
-              text-align: center;
-              min-width: 60px;
-            ">
-              {post.data.day !== undefined ? `Día ${post.data.day}` : 'Nueva'}
-            </div>
-            
-            <div>
-              <h3 style="margin: 0 0 var(--space-xs) 0;">
-                <a 
-                  href={`${import.meta.env.BASE_URL}blog/${post.slug}/`} 
-                  style="color: var(--color-revolutionary-red); text-decoration: none; font-size: 1.1rem;"
-                  onmouseover="this.style.color='var(--color-revolutionary-red-dark)'"
-                  onmouseout="this.style.color='var(--color-revolutionary-red)'"
-                >
-                  {post.data.title}
-                </a>
-              </h3>
-              <p style="margin: 0; font-size: 0.95rem; line-height: 1.5;">
-                {post.data.description}
-              </p>
-            </div>
-            
-            <div style="color: var(--color-text-muted);">
-              <Icon name="arrow-right" size={20} />
-            </div>
-          </article>
-        ))}
-      </div>
-      
-      <div style="text-align: center; margin-top: var(--space-xl);">
-        <a 
-          href={`${import.meta.env.BASE_URL}blog/`}
-          class="btn btn-primary"
-        >
-          <Icon name="book-open" size={20} />
-          Ver Todas las Lecciones
-        </a>
-      </div>
-    </section>
-  )}
+  </div>
 
   <!-- Call to Action -->
   <section style="
@@ -216,6 +162,7 @@ const songLessons = allPosts.filter(post => post.data.originalSong).length;
     padding: var(--space-3xl);
     border-radius: var(--radius-xl);
     border: 1px solid var(--color-border);
+    margin-top: 4rem;
   ">
     <h2 style="margin-bottom: var(--space-lg); color: var(--color-charcoal);">
       ¿Preparado para el Aprendizaje Revolucionario?
@@ -234,17 +181,96 @@ const songLessons = allPosts.filter(post => post.data.originalSong).length;
         href={`${import.meta.env.BASE_URL}blog/`}
         class="btn btn-primary"
       >
-        <Icon name="flag" size={20} />
-        Comenzar el Curso
+        <Icon name="book-open" size={20} />
+        Ver Todas las Lecciones
       </a>
       
       <a 
-        href={`${import.meta.env.BASE_URL}canciones/`}
+        href={`${import.meta.env.BASE_URL}diccionario/`}
         class="btn btn-secondary"
       >
-        <Icon name="music" size={20} />
-        Explorar Himnos
+        <Icon name="book" size={20} />
+        Explorar Diccionario
       </a>
     </div>
   </section>
 </Layout>
+
+<style>
+  .song-point:hover {
+    width: 20px !important;
+    height: 20px !important;
+    box-shadow: 0 0 0 4px currentColor, 0 6px 20px rgba(0,0,0,0.3) !important;
+  }
+</style>
+
+<script>
+  // Interactividad del timeline
+  document.addEventListener('DOMContentLoaded', function() {
+    const songPoints = document.querySelectorAll('.song-point');
+    const songInfo = document.getElementById('song-info');
+    
+    songPoints.forEach(point => {
+      point.addEventListener('click', function() {
+        const title = this.dataset.title;
+        const year = this.dataset.year;
+        const artist = this.dataset.artist;
+        const slug = this.dataset.slug;
+        
+        // Remover selección previa
+        songPoints.forEach(p => p.style.transform = 'translate(-50%, -50%) scale(1)');
+        
+        // Destacar punto seleccionado
+        this.style.transform = 'translate(-50%, -50%) scale(1.3)';
+        
+        // Actualizar panel de información
+        songInfo.innerHTML = `
+          <div style="text-align: center;">
+            <div style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.5rem 1.5rem; border-radius: 9999px; font-weight: 700; font-size: 1.1rem; margin-bottom: 1.5rem;">
+              ${year}
+            </div>
+            <h3 style="font-size: 1.8rem; margin: 0 0 0.5rem 0; color: #1f2937; font-weight: 700;">
+              "${title}"
+            </h3>
+            <p style="color: #6b7280; font-size: 1.1rem; font-style: italic; margin: 0 0 2rem 0;">
+              ${artist}
+            </p>
+            <a 
+              href="${import.meta.env.BASE_URL}blog/${slug}/" 
+              style="
+                display: inline-block;
+                background: linear-gradient(135deg, #2563eb, #1d4ed8);
+                color: white;
+                padding: 0.75rem 2rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 600;
+                transition: transform 0.2s;
+              "
+              onmouseover="this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.transform='translateY(0)'"
+            >
+              📖 Ver análisis completo
+            </a>
+          </div>
+        `;
+        
+        // Scroll suave al panel
+        songInfo.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      
+      // Hover effects
+      point.addEventListener('mouseenter', function() {
+        if (this.style.transform.indexOf('scale(1.3)') === -1) {
+          this.style.transform = 'translate(-50%, -50%) scale(1.15)';
+        }
+      });
+      
+      point.addEventListener('mouseleave', function() {
+        if (this.style.transform.indexOf('scale(1.3)') === -1) {
+          this.style.transform = 'translate(-50%, -50%) scale(1)';
+        }
+      });
+    });
+  });
+</script>

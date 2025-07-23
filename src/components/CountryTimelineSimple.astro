@@ -97,6 +97,19 @@ const countryColors: Record<string, string> = {};
 countries.forEach(country => {
   countryColors[country] = generateCountryColor(country);
 });
+
+// Pre-generar los años para evitar problemas con fragmentos
+const yearMarkers = [];
+for (let i = 0; i <= Math.ceil(timeSpan / 20); i++) {
+  const year = Math.floor(minYear / 20) * 20 + (i * 20);
+  if (year <= maxYear + 20) {
+    const position = ((year - minYear) / timeSpan) * 100;
+    yearMarkers.push({
+      year,
+      position: Math.max(0, Math.min(100, position))
+    });
+  }
+}
 ---
 
 <div class="country-timeline-container">
@@ -113,21 +126,15 @@ countries.forEach(country => {
   <div class="timeline-wrapper">
     <!-- Eje X: Años -->
     <div class="year-axis">
-      {Array.from({ length: Math.ceil(timeSpan / 20) + 1 }, (_, i) => {
-        const year = Math.floor(minYear / 20) * 20 + (i * 20);
-        if (year <= maxYear + 20) {
-          const position = ((year - minYear) / timeSpan) * 100;
-          return (
-            <div 
-              class="year-marker" 
-              style={`left: ${Math.max(0, Math.min(100, position))}%`}
-            >
-              <div class="year-line"></div>
-              <div class="year-label">{year}</div>
-            </div>
-          );
-        }
-      }).filter(Boolean)}
+      {yearMarkers.map(marker => (
+        <div 
+          class="year-marker" 
+          style={`left: ${marker.position}%`}
+        >
+          <div class="year-line"></div>
+          <div class="year-label">{marker.year}</div>
+        </div>
+      ))}
     </div>
 
     <!-- Eje Y: Países -->
