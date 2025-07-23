@@ -12,33 +12,32 @@ class ChunkedDictionary {
   }
 
   /**
-   * Cargar índice de idioma (ligero, contiene mapeo lección->chunk)
+   * Cargar manifest de chunks
    */
-  async loadLanguageIndex(langCode) {
-    const cacheKey = `index-${langCode}`;
-    
-    if (this.indexCache.has(cacheKey)) {
-      const cached = this.indexCache.get(cacheKey);
+  async loadManifest() {
+    if (this.indexCache.has('manifest')) {
+      const cached = this.indexCache.get('manifest');
       if (Date.now() - cached.timestamp < this.cacheTimeout) {
         return cached.data;
       }
     }
 
     try {
-      console.log(`📋 Loading index for ${langCode}...`);
-      const indexModule = await import(`${this.basePath}/languages/${langCode}-index.json`);
-      const indexData = indexModule.default;
+      console.log('📋 Loading chunks manifest...');
+      const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
+      if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest');
+      const manifestData = await manifestResponse.json();
 
-      this.indexCache.set(cacheKey, {
-        data: indexData,
+      this.indexCache.set('manifest', {
+        data: manifestData,
         timestamp: Date.now()
       });
 
-      console.log(`✅ Index loaded: ${indexData.meta.totalChunks} chunks available`);
-      return indexData;
+      console.log(`✅ Manifest loaded: ${manifestData.meta.totalLanguages} languages`);
+      return manifestData;
 
     } catch (error) {
-      console.error(`❌ Error loading index for ${langCode}:`, error);
+      console.error('❌ Error loading manifest:', error);
       throw error;
     }
   }
@@ -46,32 +45,36 @@ class ChunkedDictionary {
   /**
    * Cargar chunk específico
    */
-  async loadChunk(langCode, chunkNumber) {
-    const cacheKey = `chunk-${langCode}-${chunkNumber}`;
+  async loadChunk(langCode) {
+    const cacheKey = `chunk-${langCode}`;
     
     if (this.chunkCache.has(cacheKey)) {
       const cached = this.chunkCache.get(cacheKey);
       if (Date.now() - cached.timestamp < this.cacheTimeout) {
-        console.log(`📦 Cache hit: chunk ${chunkNumber} for ${langCode}`);
+        console.log(`📦 Cache hit: chunk for ${langCode}`);
         return cached.data;
       }
     }
 
     try {
-      // Primero obtener info del chunk desde el índice
-      const index = await this.loadLanguageIndex(langCode);
-      const chunkInfo = index.chunks.find(c => c.number === chunkNumber);
+      // Obtener info del manifest
+      const manifest = await this.loadManifest();
+      const langManifest = manifest.languages.find(lang => lang.code === langCode);
       
-      if (!chunkInfo) {
-        throw new Error(`Chunk ${chunkNumber} not found for ${langCode}`);
+      if (!langManifest) {
+        throw new Error(`Language ${langCode} not found in manifest`);
       }
 
-      console.log(`📦 Loading chunk ${chunkNumber} for ${langCode} (${chunkInfo.sizeKB}KB)...`);
+      // Generar nombre del archivo (asumiendo patrón lessons-0-11)
+      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11');
+      
+      console.log(`📦 Loading chunk for ${langCode}: ${chunkFile}`);
       const startTime = performance.now();
       
-      const chunkModule = await import(`${this.basePath}/chunks/${chunkInfo.file}`);
-      const chunkData = chunkModule.default;
+      const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
+      if (!chunkResponse.ok) throw new Error(`No se pudo cargar ${chunkFile}`);
       
+      const chunkData = await chunkResponse.json();
       const loadTime = performance.now() - startTime;
 
       this.chunkCache.set(cacheKey, {
@@ -84,7 +87,7 @@ class ChunkedDictionary {
       return chunkData;
 
     } catch (error) {
-      console.error(`❌ Error loading chunk ${chunkNumber} for ${langCode}:`, error);
+      console.error(`❌ Error loading chunk for ${langCode}:`, error);
       throw error;
     }
   }
@@ -94,52 +97,33 @@ class ChunkedDictionary {
    */
   async getWordsForLessons(langCode, lessons) {
     try {
-      const index = await this.loadLanguageIndex(langCode);
-      const requiredChunks = new Set();
+      console.log(`🔍 Getting words for lessons [${lessons.join(',')}] in ${langCode}`);
       
-      // Determinar qué chunks necesitamos
-      lessons.forEach(lesson => {
-        const chunkNumber = index.index.lessonToChunk[lesson];
-        if (chunkNumber !== undefined) {
-          requiredChunks.add(chunkNumber);
+      const chunkData = await this.loadChunk(langCode);
+      
+      // Filtrar palabras por lecciones específicas
+      const filteredWords = {};
+      Object.entries(chunkData.words).forEach(([word, data]) => {
+        const relevantLessons = data.lessons.filter(lesson => lessons.includes(lesson));
+        if (relevantLessons.length > 0) {
+          filteredWords[word] = {
+            ...data,
+            lessons: relevantLessons
+          };
         }
-      });
-
-      console.log(`🔍 Need chunks [${Array.from(requiredChunks).join(',')}] for lessons [${lessons.join(',')}]`);
-
-      // Cargar chunks en paralelo
-      const chunkPromises = Array.from(requiredChunks).map(chunkNum => 
-        this.loadChunk(langCode, chunkNum)
-      );
-      
-      const chunks = await Promise.all(chunkPromises);
-      
-      // Combinar palabras de todos los chunks filtradas por lecciones
-      const combinedWords = {};
-      chunks.forEach(chunk => {
-        Object.entries(chunk.words).forEach(([word, data]) => {
-          // Solo incluir si la palabra está en las lecciones solicitadas
-          const relevantLessons = data.lessons.filter(lesson => lessons.includes(lesson));
-          if (relevantLessons.length > 0) {
-            combinedWords[word] = {
-              ...data,
-              lessons: relevantLessons
-            };
-          }
-        });
       });
 
       const stats = {
         requestedLessons: lessons,
-        chunksLoaded: requiredChunks.size,
-        totalWords: Object.keys(combinedWords).length,
-        avgWordsPerLesson: Math.round(Object.keys(combinedWords).length / lessons.length)
+        chunksLoaded: 1,
+        totalWords: Object.keys(filteredWords).length,
+        avgWordsPerLesson: Math.round(Object.keys(filteredWords).length / lessons.length)
       };
 
-      console.log(`📊 Combined: ${stats.totalWords} words from ${stats.chunksLoaded} chunks`);
+      console.log(`📊 Filtered: ${stats.totalWords} words from ${lessons.length} lessons`);
 
       return {
-        words: combinedWords,
+        words: filteredWords,
         meta: {
           language: langCode,
           ...stats,
@@ -154,50 +138,21 @@ class ChunkedDictionary {
   }
 
   /**
-   * Obtener todas las palabras de un idioma (carga todos los chunks)
+   * Obtener todas las palabras de un idioma
    */
   async getAllWords(langCode) {
     try {
-      const index = await this.loadLanguageIndex(langCode);
-      const allChunkNumbers = index.chunks.map(c => c.number);
+      console.log(`🔄 Loading all words for ${langCode}...`);
       
-      console.log(`🔄 Loading all ${allChunkNumbers.length} chunks for ${langCode}...`);
+      const chunkData = await this.loadChunk(langCode);
       
-      const chunkPromises = allChunkNumbers.map(chunkNum => 
-        this.loadChunk(langCode, chunkNum)
-      );
-      
-      const chunks = await Promise.all(chunkPromises);
-      
-      // Combinar todas las palabras
-      const allWords = {};
-      chunks.forEach(chunk => {
-        Object.entries(chunk.words).forEach(([word, data]) => {
-          if (!allWords[word]) {
-            allWords[word] = { ...data };
-          } else {
-            // Merge lessons de múltiples chunks
-            const combinedLessons = [...new Set([
-              ...allWords[word].lessons,
-              ...data.lessons
-            ])].sort((a, b) => a - b);
-            
-            allWords[word] = {
-              ...allWords[word],
-              lessons: combinedLessons,
-              frequency: combinedLessons.length
-            };
-          }
-        });
-      });
-
       return {
-        words: allWords,
+        words: chunkData.words,
         meta: {
           language: langCode,
-          totalWords: Object.keys(allWords).length,
-          chunksLoaded: chunks.length,
-          generated: new Date().toISOString()
+          totalWords: Object.keys(chunkData.words).length,
+          chunksLoaded: 1,
+          generated: chunkData.meta.generated
         }
       };
 
@@ -208,64 +163,24 @@ class ChunkedDictionary {
   }
 
   /**
-   * Buscar palabras por término (búsqueda optimizada)
+   * Buscar palabras por término
    */
   async searchWords(langCode, searchTerm, limit = 50) {
     try {
-      // Primero buscar en palabras populares (disponibles en el índice)
-      const index = await this.loadLanguageIndex(langCode);
-      const popularMatches = index.index.popularWords
-        .filter(item => item.word.toLowerCase().includes(searchTerm.toLowerCase()))
-        .slice(0, Math.min(limit, 20));
-
-      if (popularMatches.length >= limit) {
-        // Si tenemos suficientes resultados populares, devolver solo esos
-        return {
-          words: popularMatches.reduce((acc, item) => {
-            acc[item.word] = {
-              frequency: item.frequency,
-              chunkNumbers: item.chunkNumbers,
-              isPopular: true
-            };
-            return acc;
-          }, {}),
-          meta: {
-            searchTerm,
-            totalMatches: popularMatches.length,
-            source: 'popular-index-only',
-            fast: true
-          }
-        };
-      }
-
-      // Si necesitamos más resultados, cargar chunks específicos
-      const chunksToSearch = [...new Set(popularMatches.flatMap(item => item.chunkNumbers))];
+      console.log(`🔍 Searching for "${searchTerm}" in ${langCode}`);
       
-      if (chunksToSearch.length === 0) {
-        // Si no hay chunks específicos, usar chunk 0 por defecto
-        chunksToSearch.push(0);
-      }
-
-      console.log(`🔍 Searching in chunks [${chunksToSearch.join(',')}] for "${searchTerm}"`);
-
-      const chunkPromises = chunksToSearch.slice(0, 3).map(chunkNum => // Máximo 3 chunks
-        this.loadChunk(langCode, chunkNum)
-      );
+      const chunkData = await this.loadChunk(langCode);
       
-      const chunks = await Promise.all(chunkPromises);
-      
-      // Buscar en todos los chunks cargados
-      const allMatches = {};
-      chunks.forEach(chunk => {
-        Object.entries(chunk.words).forEach(([word, data]) => {
-          if (word.toLowerCase().includes(searchTerm.toLowerCase())) {
-            allMatches[word] = data;
-          }
-        });
+      // Buscar en todas las palabras
+      const matches = {};
+      Object.entries(chunkData.words).forEach(([word, data]) => {
+        if (word.toLowerCase().includes(searchTerm.toLowerCase())) {
+          matches[word] = data;
+        }
       });
 
       // Ordenar por frecuencia y limitar
-      const sortedMatches = Object.entries(allMatches)
+      const sortedMatches = Object.entries(matches)
         .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
         .slice(0, limit)
         .reduce((acc, [word, data]) => {
@@ -278,7 +193,7 @@ class ChunkedDictionary {
         meta: {
           searchTerm,
           totalMatches: Object.keys(sortedMatches).length,
-          chunksSearched: chunksToSearch.length,
+          chunksSearched: 1,
           source: 'chunk-search'
         }
       };
@@ -316,13 +231,13 @@ class ChunkedDictionary {
   }
 
   /**
-   * Precargar chunks para lecciones específicas
+   * Precargar chunk para un idioma
    */
-  async preloadForLessons(langCode, lessons) {
-    console.log(`⚡ Preloading chunks for lessons [${lessons.join(',')}] in ${langCode}...`);
+  async preloadForLanguage(langCode) {
+    console.log(`⚡ Preloading chunk for ${langCode}...`);
     
     try {
-      await this.getWordsForLessons(langCode, lessons);
+      await this.loadChunk(langCode);
       console.log('✅ Preload completed');
     } catch (error) {
       console.warn('⚠️ Preload failed:', error.message);

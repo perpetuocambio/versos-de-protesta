@@ -181,7 +181,15 @@ document.addEventListener('DOMContentLoaded', async function() {
       const query = e.target.value.toLowerCase().trim();
       wordCards.forEach(card => {
         const word = card.dataset.word;
-        card.style.display = query === '' || word.includes(query) ? 'block' : 'none';
+        const cardText = card.textContent.toLowerCase();
+        const visible = query === '' || word.includes(query) || cardText.includes(query);
+        
+        if (visible) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
       });
     });
   }

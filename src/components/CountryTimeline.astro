@@ -1,0 +1,511 @@
+---
+import Icon from './Icon.astro';
+
+export interface Props {
+  songs: Array<{
+    title: string;
+    artist: string;
+    year: number;
+    slug: string;
+    genre?: string;
+    origin?: string;
+    day?: number;
+  }>;
+}
+
+const { songs } = Astro.props;
+
+if (!songs || songs.length === 0) {
+  console.warn('CountryTimeline: No songs data provided');
+}
+
+// Función para extraer país
+function getCountryFromOrigin(origin: string | undefined): string {
+  if (!origin) return 'Desconocido';
+  
+  if (origin.includes('Francia')) return 'Francia';
+  if (origin.includes('China')) return 'China';
+  if (origin.includes('España')) return 'España';
+  if (origin.includes('URSS') || origin.includes('Unión Soviética') || origin.includes('Rusia')) return 'URSS/Rusia';
+  if (origin.includes('Estados Unidos') || origin.includes('EE.UU.')) return 'Estados Unidos';
+  if (origin.includes('Chile')) return 'Chile';
+  if (origin.includes('Argentina')) return 'Argentina';
+  if (origin.includes('Alemania')) return 'Alemania';
+  if (origin.includes('Italia')) return 'Italia';
+  if (origin.includes('Internacional')) return 'Internacional';
+  
+  return origin.split(/[,\(\)]/)[0].trim() || 'Desconocido';
+}
+
+// Extraer países únicos de las canciones
+const countries = [...new Set(songs.map(song => getCountryFromOrigin(song.origin)))].sort();
+
+// Agrupar canciones por país
+const songsByCountry: Record<string, typeof songs> = {};
+songs.forEach(song => {
+  const country = getCountryFromOrigin(song.origin);
+  if (!songsByCountry[country]) songsByCountry[country] = [];
+  songsByCountry[country].push(song);
+});
+
+const minYear = songs.length > 0 ? Math.min(...songs.map(s => s.year)) : 1850;
+const maxYear = songs.length > 0 ? Math.max(...songs.map(s => s.year)) : 2024;
+const timeSpan = maxYear - minYear;
+
+// Colores por país
+const countryColors: Record<string, string> = {
+  'Francia': '#0055A4',
+  'China': '#DE2910', 
+  'España': '#C60B1E',
+  'URSS/Rusia': '#DA020E',
+  'Estados Unidos': '#B22234',
+  'Chile': '#0039A6',
+  'Argentina': '#74ACDF',
+  'Alemania': '#000000',
+  'Italia': '#009246',
+  'Internacional': '#FF6B00',
+  'Desconocido': '#6B7280'
+};
+---
+
+<div class="country-timeline-container">
+  <div class="timeline-header">
+    <h3>
+      <Icon name="globe" size={24} />
+      Timeline Geográfico: {minYear} - {maxYear}
+    </h3>
+    <div class="timeline-stats">
+      {songs.length} canciones • {countries.length} países • {timeSpan} años de historia
+    </div>
+  </div>
+
+  <div class="timeline-wrapper">
+    <!-- Eje X: Años -->
+    <div class="year-axis">
+      {Array.from({ length: Math.ceil(timeSpan / 10) + 1 }, (_, i) => {
+        const year = Math.floor(minYear / 10) * 10 + (i * 10);
+        if (year <= maxYear + 10) {
+          const position = ((year - minYear) / timeSpan) * 100;
+          return (
+            <div 
+              class="year-marker" 
+              style={`left: ${position}%`}
+            >
+              <div class="year-line"></div>
+              <div class="year-label">{year}</div>
+            </div>
+          );
+        }
+        return null;
+      }).filter(Boolean)}
+    </div>
+
+    <!-- Eje Y: Países -->
+    <div class="country-axis">
+      {countries.map((country, index) => (
+        <div 
+          class="country-row" 
+          style={`top: ${(index + 1) * (400 / (countries.length + 1))}px`}
+        >
+          <div 
+            class="country-label"
+            style={`background-color: ${countryColors[country] || '#6B7280'}`}
+          >
+            {country}
+          </div>
+          
+          <!-- Línea horizontal del país -->
+          <div class="country-line"></div>
+          
+          <!-- Canciones de este país -->
+          {songsByCountry[country]?.map((song) => {
+            const position = ((song.year - minYear) / timeSpan) * 100;
+            const color = countryColors[country] || '#6B7280';
+            
+            return (
+              <div 
+                class="song-point"
+                style={`left: ${position}%; background-color: ${color}; border-color: ${color};`}
+                data-title={song.title}
+                data-artist={song.artist}
+                data-year={song.year}
+                data-slug={song.slug}
+                data-country={country}
+                data-origin={song.origin}
+              >
+                <div class="song-tooltip">
+                  <strong>"{song.title}"</strong><br/>
+                  {song.artist} ({song.year})<br/>
+                  <em>{country}</em>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Panel de información -->
+  <div class="song-info" id="song-info">
+    <div class="info-placeholder">
+      <Icon name="music" size={48} />
+      <p>Haz clic en un punto del timeline para ver información de la canción</p>
+      <div class="legend">
+        <h4>Leyenda de países:</h4>
+        <div class="legend-grid">
+          {countries.map(country => (
+            <div class="legend-item">
+              <div 
+                class="legend-color"
+                style={`background-color: ${countryColors[country] || '#6B7280'}`}
+              ></div>
+              <span>{country}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .country-timeline-container {
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    margin: var(--space-2xl) 0;
+    border: 1px solid var(--color-border-light);
+  }
+
+  .timeline-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .timeline-header h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-sm);
+    color: var(--color-revolutionary-red);
+  }
+
+  .timeline-stats {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .timeline-wrapper {
+    position: relative;
+    height: 500px;
+    margin: var(--space-2xl) 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    overflow: hidden;
+  }
+
+  /* Eje X: Años */
+  .year-axis {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    right: 20px;
+    height: 60px;
+  }
+
+  .year-marker {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  .year-line {
+    width: 2px;
+    height: 20px;
+    background: var(--color-border);
+    margin: 0 auto;
+  }
+
+  .year-label {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+  }
+
+  /* Eje Y: Países */
+  .country-axis {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 20px;
+    bottom: 60px;
+  }
+
+  .country-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+  }
+
+  .country-label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 90px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+
+  .country-line {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: var(--color-border-light);
+    transform: translateY(-50%);
+  }
+
+  /* Puntos de canciones */
+  .song-point {
+    position: absolute;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transform: translate(-50%, -50%);
+  }
+
+  .song-point:hover {
+    width: 18px;
+    height: 18px;
+    z-index: 20;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+
+  .song-point.active {
+    width: 20px !important;
+    height: 20px !important;
+    z-index: 30;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.8), 0 6px 20px rgba(0,0,0,0.4) !important;
+  }
+
+  .song-tooltip {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-charcoal);
+    color: white;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 100;
+    max-width: 200px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .song-point:hover .song-tooltip {
+    opacity: 1;
+  }
+
+  /* Panel de información */
+  .song-info {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border);
+    margin-top: var(--space-2xl);
+    min-height: 200px;
+    transition: all 0.3s ease;
+  }
+
+  .info-placeholder {
+    text-align: center;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .legend {
+    margin-top: var(--space-xl);
+  }
+
+  .legend h4 {
+    margin-bottom: var(--space-md);
+    color: var(--color-text-primary);
+  }
+
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: var(--space-sm);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.8rem;
+  }
+
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .timeline-wrapper {
+      height: 400px;
+      padding: var(--space-md);
+    }
+
+    .country-label {
+      font-size: 0.7rem;
+      min-width: 70px;
+      padding: var(--space-xs);
+    }
+
+    .country-line {
+      left: 80px;
+    }
+
+    .year-axis {
+      left: 80px;
+    }
+
+    .year-label {
+      font-size: 0.7rem;
+    }
+
+    .song-point {
+      width: 12px;
+      height: 12px;
+    }
+
+    .song-point:hover {
+      width: 16px;
+      height: 16px;
+    }
+
+    .legend-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
+</style>
+
+<script define:vars={{ songs, minYear, maxYear, timeSpan }}>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('CountryTimeline iniciado con', songs?.length || 0, 'canciones');
+  
+  const songPoints = document.querySelectorAll('.song-point');
+  const songInfo = document.getElementById('song-info');
+  
+  if (!songInfo) {
+    console.error('Elemento song-info no encontrado');
+    return;
+  }
+
+  songPoints.forEach(point => {
+    point.addEventListener('click', function() {
+      const title = this.dataset.title;
+      const artist = this.dataset.artist;
+      const year = this.dataset.year;
+      const slug = this.dataset.slug;
+      const country = this.dataset.country;
+      const origin = this.dataset.origin;
+      
+      // Remover estado activo de otros puntos
+      songPoints.forEach(p => p.classList.remove('active'));
+      
+      // Activar punto actual
+      this.classList.add('active');
+      
+      // Actualizar información
+      songInfo.innerHTML = `
+        <div style="text-align: center;">
+          <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+            <div style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1.5rem; border-radius: 9999px; font-weight: 700; font-size: 1.2rem;">
+              ${year}
+            </div>
+            <div style="display: inline-block; background: ${this.style.backgroundColor}; color: white; padding: 0.75rem 1.5rem; border-radius: 9999px; font-weight: 600; font-size: 1rem;">
+              ${country}
+            </div>
+          </div>
+          
+          <h3 style="font-size: 2rem; margin: 0 0 0.75rem 0; color: #1f2937; font-weight: 700;">
+            "${title}"
+          </h3>
+          
+          <p style="color: #6b7280; font-size: 1.2rem; font-style: italic; margin: 0 0 1rem 0;">
+            ${artist}
+          </p>
+          
+          <p style="color: #9ca3af; font-size: 0.9rem; margin: 0 0 2rem 0;">
+            Origen: ${origin || country}
+          </p>
+          
+          <a 
+            href="${import.meta.env.BASE_URL}blog/${slug}/" 
+            style="
+              display: inline-flex;
+              align-items: center;
+              gap: 0.5rem;
+              background: linear-gradient(135deg, #2563eb, #1d4ed8);
+              color: white;
+              padding: 1rem 2rem;
+              border-radius: 8px;
+              text-decoration: none;
+              font-weight: 600;
+              font-size: 1.1rem;
+              transition: transform 0.2s;
+            "
+            onmouseover="this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.transform='translateY(0)'"
+          >
+            📖 Ver análisis completo
+          </a>
+        </div>
+      `;
+      
+      // Scroll suave al panel
+      songInfo.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  });
+});
+</script>

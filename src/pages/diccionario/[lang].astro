@@ -19,8 +19,13 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 
 // Importar índice de datos internos
-const dictionaryIndexResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/index.json`);
-const dictionaryIndex = await dictionaryIndexResponse.json();
+import { readFileSync } from 'fs';
+import path from 'path';
+
+const manifestPath = path.resolve('./public/data/internal/v1/dictionary/chunks-manifest.json');
+const dictionaryManifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
+
+const languageInfo = dictionaryManifest.languages.find(l => l.code === lang);
 
 const availableLangs = {
   'es': 'Español',
@@ -33,15 +38,9 @@ const availableLangs = {
   'zh-pinyin': '中文 Pinyin'
 };
 
-const languageMap = {
-  'ru-rom': 'russian-rom.json',
-  'zh-pinyin': 'chinese-pinyin.json'
-};
 
-// Usar nuevos endpoints de API
-const fileName = `${lang}.json`;
-const languageInfo = dictionaryIndex.languages.find(l => l.code === lang);
-const estimatedWords = languageInfo ? languageInfo.wordCount : 250;
+// Obtener información estimada del manifest
+const estimatedWords = languageInfo ? languageInfo.totalWords : 250;
 
 // Breadcrumb items
 const breadcrumbItems = [
@@ -91,7 +90,6 @@ const breadcrumbItems = [
   <!-- Contenedor del diccionario dinámico -->
   <div class="dynamic-dictionary-container" 
        data-language={lang} 
-       data-file={fileName}
        data-estimated-words={estimatedWords}>
     
     <!-- Skeleton loader inicial -->
@@ -334,11 +332,6 @@ const breadcrumbItems = [
     margin: 0 auto;
   }
   
-  .error-icon {
-    font-size: 4rem;
-    margin-bottom: var(--space-lg);
-  }
-  
   .retry-btn {
     display: inline-flex;
     align-items: center;
@@ -393,7 +386,7 @@ const breadcrumbItems = [
   }
 </style>
 
-<script define:vars={{ lang, fileName, availableLangs }}>
+<script define:vars={{ lang, availableLangs }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary-container');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -418,11 +411,11 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       // Cargar TODAS las palabras usando sistema de chunks optimizado
       const { chunkedDictionary } = await import('../../utils/dictionary-chunks.js');
-      const result = await chunkedDictionary.getAllWords(language);
+      const result = await chunkedDictionary.getAllWords(lang);
       
       dictionaryData = {
         meta: {
-          language: availableLangs[language],
+          language: availableLangs[lang],
           wordCount: result.meta.totalWords,
           chunksLoaded: result.meta.chunksLoaded,
           lastUpdated: result.meta.generated,
@@ -534,7 +527,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (!document.getElementById('dynamic-dictionary-styles')) {
       const styles = document.createElement('style');
       styles.id = 'dynamic-dictionary-styles';
-      styles.textContent = \`
+      styles.textContent = `
         .dictionary-stats {
           display: flex;
           justify-content: center;
@@ -724,7 +717,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             grid-template-columns: 1fr;
           }
         }
-      \`;
+      `;
       document.head.appendChild(styles);
     }
     
@@ -733,15 +726,15 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
   
   function renderWordCards(words) {
-    return words.map(([word, data]) => \`
-      <div class="word-card" data-word="\${word.toLowerCase()}">
-        <h3 class="word-title">\${word}</h3>
+    return words.map(([word, data]) => `
+      <div class="word-card" data-word="${word.toLowerCase()}">
+        <h3 class="word-title">${word}</h3>
         <div class="word-meta">
-          <span class="frequency">Aparece \${data.frequency} vez\${data.frequency !== 1 ? 'es' : ''}</span>
-          <span class="lessons">Lecciones: \${data.lessons.join(', ')}</span>
+          <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
+          <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
         </div>
       </div>
-    \`).join('');
+    `).join('');
   }
   
   function setupSearch() {
@@ -767,7 +760,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       });
       
       if (resultCount) {
-        resultCount.textContent = \`\${visibleCount} palabra\${visibleCount !== 1 ? 's' : ''}\`;
+        resultCount.textContent = `${visibleCount} palabra${visibleCount !== 1 ? 's' : ''}`;
       }
     });
   }
@@ -817,7 +810,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
     
     if (resultCount) {
-      resultCount.textContent = \`\${filteredWords.length} palabra\${filteredWords.length !== 1 ? 's' : ''}\`;
+      resultCount.textContent = `${filteredWords.length} palabra${filteredWords.length !== 1 ? 's' : ''}`;
     }
   }
   
@@ -834,4 +827,3 @@ document.addEventListener('DOMContentLoaded', async function() {
   loadDictionaryData();
 });
 </script>
-</Layout>

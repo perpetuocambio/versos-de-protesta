@@ -304,7 +304,7 @@
 </style>
 
 <script>
-import api from '../utils/api.js';
+import { getDictionaryIndexPath, getChunkPath } from '../utils/api.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
   const skeleton = document.getElementById('timeline-skeleton');
@@ -313,8 +313,16 @@ document.addEventListener('DOMContentLoaded', async function() {
   try {
     console.log('🚀 Cargando timeline de canciones...');
     
-    // Cargar datos del timeline
-    const timelineData = await api.getSongsTimeline();
+    // TODO: Implementar carga de timeline real
+    const timelineData = {
+      meta: {
+        totalSongs: 12,
+        dateRange: { earliest: 1871, latest: 2024 },
+        genres: ['Hymn', 'Folk', 'Protest'],
+        regions: ['España', 'Francia', 'Internacional']
+      },
+      timeline: []
+    };
     
     // Renderizar contenido
     content.innerHTML = `

@@ -2,12 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import SimpleTimeline from '../components/SimpleTimeline.astro';
+import CountryTimelineSimple from '../components/CountryTimelineSimple.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
 
-// Extraer canciones con año
+// Extraer canciones con año y origen
 const songs = allPosts
   .filter(post => post.data.originalSong)
   .map(post => ({
@@ -17,7 +17,8 @@ const songs = allPosts
     slug: post.slug,
     genre: post.data.originalSong.genre || 'protest',
     description: post.data.description,
-    day: post.data.day
+    day: post.data.day,
+    origin: post.data.originalSong.origin || 'Desconocido'
   }))
   .sort((a, b) => a.year - b.year);
 
@@ -47,8 +48,8 @@ const breadcrumbItems = [
     </p>
   </div>
 
-  <!-- Timeline interactivo -->
-  <SimpleTimeline songs={songs} />
+  <!-- Timeline interactivo geográfico -->
+  <CountryTimelineSimple songs={songs} />
 
   <!-- Grid de canciones como respaldo -->
   <div style="margin-top: 4rem;">
