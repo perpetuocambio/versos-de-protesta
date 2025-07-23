@@ -18,14 +18,57 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-// Importar índice de datos internos
+// Importar índice de datos internos y cargar datos del diccionario
 import { readFileSync } from 'fs';
 import path from 'path';
+import { chunkedDictionary } from '../../utils/dictionary-chunks.js';
 
 const manifestPath = path.resolve('./public/data/internal/v1/dictionary/chunks-manifest.json');
 const dictionaryManifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
 
 const languageInfo = dictionaryManifest.languages.find(l => l.code === lang);
+
+// Pre-cargar datos del diccionario en server-side
+let dictionaryData = null;
+try {
+  const result = await chunkedDictionary.getAllWords(lang);
+  dictionaryData = {
+    meta: {
+      language: availableLangs[lang],
+      wordCount: result.meta.totalWords,
+      chunksLoaded: result.meta.chunksLoaded,
+      lastUpdated: result.meta.generated,
+      optimized: true
+    },
+    index: {
+      popular: Object.entries(result.words)
+        .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
+        .slice(0, 50)
+        .map(([word]) => word),
+      recent: Object.entries(result.words)
+        .sort((a, b) => Math.max(...(b[1].lessons || [0])) - Math.max(...(a[1].lessons || [0])))
+        .slice(0, 100)
+        .map(([word]) => word),
+      letters: generateAlphabetIndex(result.words)
+    },
+    words: result.words
+  };
+} catch (error) {
+  console.error('Error pre-cargando diccionario:', error);
+}
+
+// Función auxiliar para índice alfabético
+function generateAlphabetIndex(words) {
+  const letters = {};
+  Object.keys(words).forEach(word => {
+    const firstChar = word.charAt(0).toUpperCase();
+    if (!letters[firstChar]) {
+      letters[firstChar] = [];
+    }
+    letters[firstChar].push(word);
+  });
+  return letters;
+}
 
 const availableLangs = {
   'es': 'Español',
@@ -386,7 +429,7 @@ const breadcrumbItems = [
   }
 </style>
 
-<script define:vars={{ lang, availableLangs }}>
+<script define:vars={{ lang, availableLangs, dictionaryData }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary-container');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -401,64 +444,17 @@ document.addEventListener('DOMContentLoaded', async function() {
     try {
       console.log(`🚀 Cargando diccionario dinámico para: ${availableLangs[lang]}`);
       
-      // Mostrar loading después de 800ms si no ha cargado
-      const loadingTimeout = setTimeout(() => {
-        skeleton.style.display = 'none';
-        loading.style.display = 'flex';
-      }, 800);
-      
-      const startTime = performance.now();
-      
-      // Cargar TODAS las palabras usando sistema de chunks optimizado (server-side)
-      const { chunkedDictionary } = await import('../../utils/dictionary-chunks.js');
-      const result = await chunkedDictionary.getAllWords(lang);
-      
-      dictionaryData = {
-        meta: {
-          language: availableLangs[lang],
-          wordCount: result.meta.totalWords,
-          chunksLoaded: result.meta.chunksLoaded,
-          lastUpdated: result.meta.generated,
-          optimized: true
-        },
-        index: {
-          popular: Object.entries(result.words)
-            .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
-            .slice(0, 50)
-            .map(([word]) => word),
-          recent: Object.entries(result.words)
-            .sort((a, b) => Math.max(...(b[1].lessons || [0])) - Math.max(...(a[1].lessons || [0])))
-            .slice(0, 100)
-            .map(([word]) => word),
-          letters: generateAlphabetIndex(result.words)
-        },
-        words: result.words
-      };
-      
-      // Función auxiliar para índice alfabético
-      function generateAlphabetIndex(words) {
-        const letters = {};
-        Object.keys(words).forEach(word => {
-          const firstChar = word.charAt(0).toUpperCase();
-          if (!letters[firstChar]) {
-            letters[firstChar] = [];
-          }
-          letters[firstChar].push(word);
-        });
-        return letters;
+      // Usar datos pre-cargados desde server-side
+      if (!dictionaryData) {
+        throw new Error('No hay datos de diccionario disponibles');
       }
       
-      console.log(`✅ Loaded ${result.meta.totalWords} words from ${result.meta.chunksLoaded} chunks`);
-      const loadTime = performance.now() - startTime;
-      
-      clearTimeout(loadingTimeout);
-      
-      console.log(`✅ Diccionario cargado en ${loadTime.toFixed(2)}ms: ${dictionaryData.meta.wordCount} palabras`);
+      console.log(`✅ Diccionario cargado desde server-side: ${dictionaryData.meta.wordCount} palabras`);
       
       // Preparar palabras filtradas
       filteredWords = Object.entries(dictionaryData.words);
       
-      // Renderizar contenido
+      // Renderizar contenido inmediatamente
       await renderDictionary();
       
       // Transición suave

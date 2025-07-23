@@ -226,8 +226,8 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
     margin: var(--space-2xl) 0;
     background: rgba(255, 255, 255, 0.8);
     border-radius: var(--radius-lg);
-    padding: var(--space-lg);
-    overflow: hidden;
+    padding: var(--space-lg) var(--space-3xl) var(--space-lg) var(--space-lg);
+    overflow: visible;
   }
 
   .year-axis {
@@ -339,6 +339,34 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
     opacity: 0;
     transition: opacity 0.2s ease;
     z-index: 100;
+    /* Prevent tooltip clipping on edges */
+    min-width: max-content;
+  }
+  
+  .song-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--color-charcoal);
+  }
+  
+  /* Adjust tooltip position for edge points */
+  .song-point[style*="left: 0%"] .song-tooltip,
+  .song-point[style*="left: 1%"] .song-tooltip,
+  .song-point[style*="left: 2%"] .song-tooltip {
+    left: 0;
+    transform: none;
+  }
+  
+  .song-point[style*="left: 98%"] .song-tooltip,
+  .song-point[style*="left: 99%"] .song-tooltip,
+  .song-point[style*="left: 100%"] .song-tooltip {
+    right: 0;
+    left: auto;
+    transform: none;
   }
 
   .song-point:hover .song-tooltip {
