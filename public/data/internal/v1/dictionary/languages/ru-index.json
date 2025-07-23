@@ -9,12 +9,12 @@
   "meta": {
     "language": "русский",
     "code": "ru",
-    "wordCount": 238,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "wordCount": 89,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 348
+    "estimatedLoadTimeMs": 124
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 238,
-      "sizeKB": 174,
+      "wordCount": 89,
+      "sizeKB": 62,
       "path": "/internal/v1/dictionary/chunks/ru-lessons-0-11.json"
     }
   ],
@@ -33,7 +33,6 @@
     "lessonToChunk": {
       "0": 0,
       "1": 0,
-      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -47,20 +46,55 @@
     "popularWords": [
       {
         "word": "народ",
-        "frequency": 3,
+        "frequency": 4,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "освобождение",
-        "frequency": 3,
+        "frequency": 4,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "единство",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "диверсия",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "знамя",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "оккупация",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "партизаны",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "подпольный",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -74,28 +108,14 @@
         ]
       },
       {
-        "word": "сопротивление",
+        "word": "рабочий",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "тысяча восемьсот семьдесят первый",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "тысяча девятьсот семнадцатый",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "тысяча девятьсот семьдесят",
+        "word": "свобода",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -109,203 +129,7 @@
         ]
       },
       {
-        "word": "desde",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "para",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1,5 milhões",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.000.000 combatentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.200 publicações",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "10.000 intelectuais",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 сентября",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 de setembro de 1973",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "15.000 sabotagens",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2.900 horas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20 milhões jovens",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200.000 pessoas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259 empresas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000 pontes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000.000 resistentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 combatentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 membros",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "380.000 combatentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4.402 propriedades",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "400.000 combatentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45 universidades",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "50.000 comunistas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500.000 pessoas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "70% na Catalunha",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800 milhões ouvintes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800.000 combatentes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "анархизм",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Анархистская социальная революция",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -319,28 +143,35 @@
         ]
       },
       {
-        "word": "Бегство в США",
+        "word": "боль",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "блокада Ленинграда",
+        "word": "бороться",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Бунд и Сионистский конгресс",
+        "word": "борьба",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Внутреннее разделение Бунда",
+        "word": "бури",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "власть",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -354,21 +185,7 @@
         ]
       },
       {
-        "word": "Возвращение в ГДР",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "война",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Вооружённый ответ Бунда",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -390,6 +207,188 @@
       },
       {
         "word": "всеобщая забастовка",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "галеон",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "гибнуть",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "глупый",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "движение",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "диаспора",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "единый",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ждут",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "заря",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "защищать",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "знамёна",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "зовёт",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Капитуляция Японии",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "колышут",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "коммунистическая партия",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "маршировать",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Массовые забастовки",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "мобилизация",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "моряки",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "надежда",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Национализация",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "небеса",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Нехватка товаров",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "объединять",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Операция Барбаросса",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Ось Рим-Берлин",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Первый Интернационал",
         "frequency": 1,
         "chunkNumbers": [
           0

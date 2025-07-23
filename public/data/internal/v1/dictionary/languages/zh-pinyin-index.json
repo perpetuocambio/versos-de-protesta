@@ -9,12 +9,12 @@
   "meta": {
     "language": "中文 pinyin",
     "code": "zh-pinyin",
-    "wordCount": 238,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "wordCount": 86,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 332
+    "estimatedLoadTimeMs": 122
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 238,
-      "sizeKB": 166,
+      "wordCount": 86,
+      "sizeKB": 61,
       "path": "/internal/v1/dictionary/chunks/zh-pinyin-lessons-0-11.json"
     }
   ],
@@ -33,7 +33,6 @@
     "lessonToChunk": {
       "0": 0,
       "1": 0,
-      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -46,28 +45,35 @@
     },
     "popularWords": [
       {
+        "word": "tuánjié",
+        "frequency": 5,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "jiěfàng",
-        "frequency": 3,
+        "frequency": 4,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "rénmín",
+        "frequency": 4,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "qízhì",
         "frequency": 3,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "tuánjié",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "dǐkàng",
+        "word": "dìxià de",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -81,7 +87,14 @@
         ]
       },
       {
-        "word": "qízhì",
+        "word": "gōngrén",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pòhuài",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -95,203 +108,28 @@
         ]
       },
       {
-        "word": "yī bā qī yī nián",
+        "word": "yóujīduì",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "yī jiǔ qī líng nián",
+        "word": "zhànlǐng",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "yījiǔyīqī nián",
+        "word": "zìyóu",
         "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "100万游击队",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1200种地下刊物",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1897年崩得成立了",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1929年危机",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1973年9月11日",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1万5千次破坏",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1万知识分子",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20万人",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259家企业",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2900小时",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3000座桥梁",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300万抵抗者",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30万党员",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30万战士",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "38万战士",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "40万战士",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4402个庄园",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45所大学",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "5万共产主义者",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "80万游击队",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "9 yuè 11 rì",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Adj + Art + Sust + Adv + Neg + Fut + Part + Pas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "año + mes + día",
-        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Bābāluósà xíngdòng",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bāsàiluónà gémìng",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bèi HUAC pòhài",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -305,34 +143,6 @@
         ]
       },
       {
-        "word": "Bēngdé chéngyuán dàguīmó cānyù",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bēngdé de wǔzhuāng huíyìng",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bēngdé nèibù fēnliè",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bēngdé yǔ yóutài fùguó zhǔyì dàhuì",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "Bólín-Luómǎ zhóuxīn",
         "frequency": 1,
         "chunkNumbers": [
@@ -340,21 +150,7 @@
         ]
       },
       {
-        "word": "Cǎiyòng wéi zhànzhēng zànměishī",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Causal + sujeto + verbo",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Chángdāo zhī yè",
+        "word": "chàng",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -382,7 +178,7 @@
         ]
       },
       {
-        "word": "dì yī kē rénzào wèixīng",
+        "word": "děngdài",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -390,6 +186,209 @@
       },
       {
         "word": "dì-yī guójì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dōngfāng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dōngxiàn zhànchǎng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dòngyuán",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dòuzhēng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Fǎn fǎxīsī zuòpǐn",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "fǎnkàng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "fēngbào",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "gǎngkǒu",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "gémìng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "gēqǔ",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "gòngchǎndǎng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "guóyǒuhuà",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "hànwèi",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "hēisè de",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "huànxiǎng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "jiùxīng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "kàngyì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "líhūn gōngtóu",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "límíng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "méng jūn shènglì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mièwáng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "qiángdào jūnduì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "qiánxiàn",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "qièqiè sīyǔ",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "quánlì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Rìběn tóuxiáng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "sànjū",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "shènglì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "sǐwáng",
         "frequency": 1,
         "chunkNumbers": [
           0

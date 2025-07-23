@@ -9,12 +9,12 @@
   "meta": {
     "language": "português",
     "code": "pt",
-    "wordCount": 240,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "wordCount": 89,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 332
+    "estimatedLoadTimeMs": 100
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 228,
-      "sizeKB": 166,
+      "wordCount": 70,
+      "sizeKB": 50,
       "path": "/internal/v1/dictionary/chunks/pt-lessons-0-11.json"
     }
   ],
@@ -33,7 +33,6 @@
     "lessonToChunk": {
       "0": 0,
       "1": 0,
-      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -47,34 +46,48 @@
     "popularWords": [
       {
         "word": "libertação",
-        "frequency": 3,
+        "frequency": 4,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "povo",
+        "frequency": 4,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "unidade",
         "frequency": 3,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "mil novecentos e dezassete",
+        "word": "bandeira",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "mil novecentos e setenta",
+        "word": "liberdade",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "mil oitocentos e setenta e um",
+        "word": "ocupação",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "partidários",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -88,218 +101,15 @@
         ]
       },
       {
-        "word": "resistência",
+        "word": "sabotagem",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "unidade",
+        "word": "trabalhador",
         "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1949",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1,5 Millionen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.000.000 Kämpfer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.200 Publikationen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "10.000 Intellektuelle",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 de setembro",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11. September 1973",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "15.000 Sabotageakte",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1897 wurde der Bund gegründet",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2.900 Stunden",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20 Millionen Jugendliche",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200.000 Menschen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259 Unternehmen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000 Brücken",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000.000 Widerstand",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 Kämpfer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 Mitglieder",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "380.000 Kämpfer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4.402 Güter",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "400.000 Kämpfer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45 Universitäten",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "50.000 Kommunisten",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500.000 Menschen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "70% in Katalonien",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "70er Jahre in Italien",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800 Millionen Hörer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800.000 Kämpfer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Abolitionistische Spirituals (1850), IWW-Lieder (Joe Hill), Protest-Folk",
-        "frequency": 1,
         "chunkNumbers": [
           0
         ]
@@ -312,28 +122,7 @@
         ]
       },
       {
-        "word": "Achthundertzweiundsiebzig Tage",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Achtzehnter März achtzehnhunderteinundsiebzig",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Adoção como hino guerra",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Am siebzehnten Juli neunzehnhundertsechsunddreißig begann der Bürgerkrieg",
+        "word": "agitam",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -354,42 +143,252 @@
         ]
       },
       {
-        "word": "April",
+        "word": "ares",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Art + Part + Sust + Adv + Fut.Pas",
+        "word": "bandeiras",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Artículo + sustantivo + número ordinal",
+        "word": "canção",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "auf",
+        "word": "chama",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "auf + die + Anarchisten",
+        "word": "Composição antifascista",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Auf, die Anarchisten!",
+        "word": "contestação",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Desabastecimento",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dor",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Eixo Roma-Berlim",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "embora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "erhebe dich, Land",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "esperança",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "euer/eure",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "fantasiar",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "für + Akkusativ",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "galeão",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "greve geral",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Greves massivas",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Hanns Eisler",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "horda saqueadora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "in",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Jüdische Diaspora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "justiça",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "KPD Deutschland",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "luta",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "lutar",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "luz soviética",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "marinheiros",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ministro da guerra",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mobilização",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "morte",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "movimento",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Nacionalização",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "neunzehntes Jahrhundert",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Operação Barbarossa",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "opressão",
         "frequency": 1,
         "chunkNumbers": [
           0

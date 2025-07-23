@@ -11,7 +11,7 @@ originalSong:
   year: 1942
   language: "ru"
   genre: "resistance"
-  origin: "Francia (autora rusa)"
+  origin: "Francia"
 grammarTopics: 
   - "Casos rusos"
   - "Aspectos verbales"
@@ -966,6 +966,26 @@ Práctica tonal:
 **"Yóujīduì Zhī Gē" Yǔ Ōuzhōu Fǎn Fǎxīsī Dǐkàng Yùndòng**
 
 "Yóujīduì Zhī Gē" chuàngzuò yú 1942 nián, zuòzhě shì Ānnà Mǎlì, yī wèi zài Dì'èrcì Shìjiè Dàzhàn qíjiān liúwáng Fǎguó de É'luósī gēshǒu jiān zuòqǔjiā. Mǎlì běnmíng Ānnà Sīmǐ'ěrnuòwǎ, 1917 nián chūshēng yú Shèngbǐdébǎo, zài 1930 niándài yíjū Fǎguó fāzhǎn yīnyuè shìyè. 1940 nián Nàcuì zhànlǐng Fǎguó hòu, Mǎlì jiārù le Fǎguó dǐkàng yùndòng, kāishǐ chuàngzuò hòulái chéngwéi fǎn fǎxīsī dòuzhēng zànměishī de gēqǔ. Zhè shǒu É yǔ yuánchuàng gēqǔ biǎodá le qǐlái fǎnkàng fǎxīsī zhànlǐng de pǔbiàn hàozhào, zhè yī xìnxī zài Ōuzhōu dǐkàng zhànshì zhōng chǎnshēng le shēnkè gòngmíng. Hòulái, Āimǎnuòāi'ěr Dásīdìāi Délāwéizhèlǐ hé Mòlǐsī Délǔwēng gǎibiān le zhè shǒu xuánlǜ, chuàngzuò le Fǎyǔ gēcí "Yóujīduìyuán Zhī Gē", chéngwéi Fǎguó dǐkàng yùndòng de guānfāng zànměishī. Mǎlì de zuòpǐn chāoyuè le guójiā hé yǔyán jièxiàn, xiàngzhēng zhe fǎn fǎxīsī dòuzhēng zhōng de guójì tuánjié, chéngwéi 20 shìjì lìshǐ shang zuì jù yǐngxiǎnglì de dǐkàng gēqǔ zhī yī.
+
+---
+
+## VOCABULARIO
+
+### TÉRMINOS CLAVE
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **partisanos** | partisans | Partisanen | partidários | партизаны | partizany | 游击队 | yóujīduì |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdenie | 解放 | jiěfàng |
+
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng |
+| **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài |
+| **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de |
 
 ---
 

@@ -5,7 +5,7 @@
     "isPublic": false
   },
   "meta": {
-    "totalWords": 1358,
+    "totalWords": 1397,
     "topWords": 50,
     "minFrequency": 2,
     "maxFrequency": 16
@@ -17,14 +17,26 @@
     },
     {
       "word": "Ejemplo",
-      "frequency": 12
+      "frequency": 11
     },
     {
       "word": "Expresión",
       "frequency": 6
     },
     {
+      "word": "人民",
+      "frequency": 5
+    },
+    {
+      "word": "解放",
+      "frequency": 5
+    },
+    {
       "word": "Anna Smirnova",
+      "frequency": 5
+    },
+    {
+      "word": "团结",
       "frequency": 5
     },
     {
@@ -32,15 +44,15 @@
       "frequency": 4
     },
     {
-      "word": "人民",
-      "frequency": 4
-    },
-    {
-      "word": "解放",
+      "word": "people",
       "frequency": 4
     },
     {
       "word": "SVO + pasiva",
+      "frequency": 4
+    },
+    {
+      "word": "liberation",
       "frequency": 4
     },
     {
@@ -60,11 +72,51 @@
       "frequency": 4
     },
     {
+      "word": "Volk",
+      "frequency": 4
+    },
+    {
+      "word": "Befreiung",
+      "frequency": 4
+    },
+    {
+      "word": "povo",
+      "frequency": 4
+    },
+    {
+      "word": "libertação",
+      "frequency": 4
+    },
+    {
+      "word": "народ",
+      "frequency": 4
+    },
+    {
+      "word": "освобождение",
+      "frequency": 4
+    },
+    {
+      "word": "pueblo",
+      "frequency": 3
+    },
+    {
+      "word": "unidad",
+      "frequency": 3
+    },
+    {
+      "word": "liberación",
+      "frequency": 3
+    },
+    {
+      "word": "resistencia",
+      "frequency": 3
+    },
+    {
       "word": "para",
       "frequency": 3
     },
     {
-      "word": "3.000",
+      "word": "unity",
       "frequency": 3
     },
     {
@@ -76,11 +128,7 @@
       "frequency": 3
     },
     {
-      "word": "people",
-      "frequency": 3
-    },
-    {
-      "word": "liberation",
+      "word": "resistance",
       "frequency": 3
     },
     {
@@ -92,47 +140,47 @@
       "frequency": 3
     },
     {
-      "word": "Volk",
+      "word": "Einheit",
       "frequency": 3
     },
     {
-      "word": "Befreiung",
+      "word": "Widerstand",
       "frequency": 3
     },
     {
-      "word": "povo",
+      "word": "unidade",
       "frequency": 3
     },
     {
-      "word": "libertação",
+      "word": "resistência",
       "frequency": 3
     },
     {
-      "word": "народ",
+      "word": "единство",
       "frequency": 3
     },
     {
-      "word": "освобождение",
+      "word": "сопротивление",
       "frequency": 3
     },
     {
-      "word": "团结",
+      "word": "旗帜",
       "frequency": 3
     },
     {
-      "word": "Duración",
+      "word": "抵抗",
+      "frequency": 3
+    },
+    {
+      "word": "bandera",
       "frequency": 2
     },
     {
-      "word": "mil novecientos diecisiete",
+      "word": "libertad",
       "frequency": 2
     },
     {
-      "word": "mil ochocientos setenta y uno",
-      "frequency": 2
-    },
-    {
-      "word": "Víctimas",
+      "word": "trabajador",
       "frequency": 2
     },
     {
@@ -140,11 +188,7 @@
       "frequency": 2
     },
     {
-      "word": "pueblo",
-      "frequency": 2
-    },
-    {
-      "word": "unidad",
+      "word": "clandestino",
       "frequency": 2
     },
     {
@@ -152,65 +196,21 @@
       "frequency": 2
     },
     {
-      "word": "liberación",
-      "frequency": 2
-    },
-    {
       "word": "Nacimiento",
       "frequency": 2
     },
     {
-      "word": "resistencia",
+      "word": "ocupación",
       "frequency": 2
     },
     {
-      "word": "Desde",
+      "word": "partisanos",
       "frequency": 2
     },
     {
-      "word": "Revolución Cultural",
-      "frequency": 2
-    },
-    {
-      "word": "fascismo",
-      "frequency": 2
-    },
-    {
-      "word": "proletario",
-      "frequency": 2
-    },
-    {
-      "word": "cantamos",
-      "frequency": 2
-    },
-    {
-      "word": "eighteen seventy-one",
-      "frequency": 2
-    },
-    {
-      "word": "nineteen seventeen",
-      "frequency": 2
-    },
-    {
-      "word": "259 empresas",
-      "frequency": 2
-    },
-    {
-      "word": "nineteen seventy",
-      "frequency": 2
-    },
-    {
-      "word": "unity",
-      "frequency": 2
-    },
-    {
-      "word": "2.900 horas",
-      "frequency": 2
-    },
-    {
-      "word": "45 universidades",
+      "word": "sabotaje",
       "frequency": 2
     }
   ],
-  "generated": "2025-07-23T18:02:28.801Z"
+  "generated": "2025-07-23T18:18:14.235Z"
 }

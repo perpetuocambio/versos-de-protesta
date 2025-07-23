@@ -9,12 +9,12 @@
   "meta": {
     "language": "español",
     "code": "es",
-    "wordCount": 203,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "wordCount": 90,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 330
+    "estimatedLoadTimeMs": 124
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 203,
-      "sizeKB": 165,
+      "wordCount": 90,
+      "sizeKB": 62,
       "path": "/internal/v1/dictionary/chunks/es-lessons-0-11.json"
     }
   ],
@@ -33,7 +33,6 @@
     "lessonToChunk": {
       "0": 0,
       "1": 0,
-      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -46,49 +45,42 @@
     },
     "popularWords": [
       {
-        "word": "Estructura",
-        "frequency": 16,
+        "word": "liberación",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pueblo",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "unidad",
+        "frequency": 3,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "bandera",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "clandestino",
+        "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Ejemplo",
-        "frequency": 11,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Expresión",
-        "frequency": 6,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Orden",
-        "frequency": 4,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Desde",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Duración",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Exilio",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -102,35 +94,21 @@
         ]
       },
       {
-        "word": "liberación",
+        "word": "libertad",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "mil novecientos diecisiete",
+        "word": "ocupación",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "mil novecientos setenta",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "mil ochocientos setenta y uno",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Nacimiento",
+        "word": "partisanos",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -144,141 +122,15 @@
         ]
       },
       {
-        "word": "pueblo",
+        "word": "sabotaje",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "resistencia",
+        "word": "trabajador",
         "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Revolución Cultural",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "unidad",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Víctimas",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1897",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 de septiembre",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "12 horas laborales",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "27 millones",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "274 células",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "280 teatros prohibidos",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30.000 militantes",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "37% votos nazis",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "5 idiomas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 millones",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 millones parados",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 pesetas semanales",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "600,000",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "872 días",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Abril",
-        "frequency": 1,
         "chunkNumbers": [
           0
         ]
@@ -291,7 +143,14 @@
         ]
       },
       {
-        "word": "Adopción como himno guerra",
+        "word": "agitan",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "aires",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -312,34 +171,6 @@
         ]
       },
       {
-        "word": "Antes de",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Arrestos 1933",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Ascenso nazi",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "asedio Leningrado",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "aufmarsch",
         "frequency": 1,
         "chunkNumbers": [
@@ -347,14 +178,7 @@
         ]
       },
       {
-        "word": "Bajo",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "bandera",
+        "word": "aunque",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -368,14 +192,14 @@
         ]
       },
       {
-        "word": "Bund",
+        "word": "canción",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Bund y Congreso Sionista",
+        "word": "cantar",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -389,7 +213,182 @@
         ]
       },
       {
-        "word": "clandestino",
+        "word": "Composición antifascista",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "contestación",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "defender",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Desabastecimiento",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "diáspora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Diáspora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dolor",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Eje Roma-Berlín",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "En/En el",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "esperanza",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "espere",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Expresión",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "fantasear",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "frente",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "frente oriental",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "galeón",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "geflüster",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "guerra",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "huelga general",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Huelgas masivas",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "justicia",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "kriegsminister",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "llama",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "lucha",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "luchar",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "marchar",
         "frequency": 1,
         "chunkNumbers": [
           0

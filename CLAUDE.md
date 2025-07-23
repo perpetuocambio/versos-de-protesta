@@ -141,18 +141,20 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **[palabra1]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
-| **[palabra2]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **[palabra1]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| **[palabra2]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **[palabra histórica]** | [EN + IPA] | [DE + IPA] | [PT + IPA] | [RU + IPA] | [RU rom] | [ZH + IPA] | [ZH pinyin] |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **[palabra histórica]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
 
 ### NÚMEROS HISTÓRICOS
 

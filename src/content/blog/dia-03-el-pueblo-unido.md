@@ -580,22 +580,24 @@ yǔ gōngrén bìngjiān zuòzhàn
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **pueblo** | people [ˈpiːpəl] | Volk [fɔlk] | povo [ˈpovu] | народ [nɐˈrot] | narod | 人民 [ʐənmín] | rénmín |
-| **unido** | united [juˈnaɪtɪd] | vereint [fɛɐˈʔaɪnt] | unido [uˈnidu] | единый [ɪˈdʲinɨj] | edinyy | 团结的 [tʰwánʨjě tə] | tuánjié de |
-| **vencido** | defeated [dɪˈfiːtɪd] | besiegt [bəˈziːkt] | vencido [vẽˈsidu] | побеждённый [pəbʲɪˈʐdʲonɨj] | pobezhdyonnyy | 被战胜的 [pèi ʈʂànʂə̌ŋ tə] | bèi zhànshèng de |
-| **triunfar** | triumph [ˈtraɪʌmf] | siegen [ˈziːɡən] | triunfar [tɾiũˈfaɾ] | победить [pəbʲɪˈdʲitʲ] | pobedit' | 胜利 [ʂə̌ŋlì] | shènglì |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín |
+| **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de |
+| **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de |
+| **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **banderas** | banners [ˈbænəz] | Fahnen [ˈfaːnən] | bandeiras [bãˈdejɾɐs] | знамёна [ˈznamʲənə] | znamyona | 旗帜 [qítʂɨ] | qízhì |
-| **unidad** | unity [ˈjuːnɪti] | Einheit [ˈʔaɪnhaɪt] | unidade [uniˈdadʒi] | единство [ɪˈdʲinstvə] | edinstvo | 团结 [tʰwánʨjě] | tuánjié |
-| **amanecer** | dawn [dɔːn] | Morgendämmerung [ˈmɔʁɡn̩dɛmərʊŋ] | amanhecer [amɐɲeˈseɾ] | заря [zɐˈrʲa] | zarya | 黎明 [límíŋ] | límíng |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì |
+| **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié |
+| **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng |
 
 ### NÚMEROS HISTÓRICOS
 

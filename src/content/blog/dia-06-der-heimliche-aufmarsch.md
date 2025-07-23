@@ -11,7 +11,7 @@ originalSong:
   year: 1929
   language: "de"
   genre: "antifascist-anthem"
-  origin: "Alemania, República de Weimar"
+  origin: "Alemania"
 grammarTopics: 
   - "Adjetivos posesivos alemanes"
   - "Concordancia adjetival básica"
@@ -469,24 +469,24 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-### **VOCABULARIO FUNDAMENTAL DE RESISTENCIA**
+### TÉRMINOS CLAVE
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **aufmarsch** | mobilization [ˌmoʊbəlaɪˈzeɪʃən] | Aufmarsch [ˈaʊfmarʃ] | mobilização [mobilizɐˈsɐ̃w̃] | мобилизация [məbʲɪlʲɪˈzatsɨjə] | mobilizatsiya | 动员 [tòŋ²jyɛn⁵⁵] | dòngyuán |
-| **heimlich** | secret [ˈsiːkrət] | heimlich [ˈhaɪmlɪç] | secreto [seˈkɾetu] | тайный [ˈtaɪnɨɪ] | taynyy | 秘密的 [mi⁵¹mi⁵¹tə] | mìmì de |
-| **geflüster** | whisper [ˈwɪspər] | Geflüster [ɡəˈflYstər] | sussurro [suˈsuru] | шёпот [ˈʂopət] | shyopot | 窃窃私语 [tɕjɛ⁵¹tɕjɛ⁵¹sɨ⁵⁵jy²¹⁴] | qièqiè sīyǔ |
-| **räuberheer** | robber horde [ˈrɑbər hɔrd] | Räuberheer [ˈrɔɪbərheːr] | horda saqueadora [ˈɔɾdɐ sɐkeɐˈdoɾɐ] | разбойничья орда [rəzˈboɪnʲɪtʂjə ɐrˈda] | razboynichjya orda | 强盗军队 [tɕjaŋ²¹⁴tao²¹⁴tɕyn⁵⁵twei⁵¹] | qiángdào jūnduì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **aufmarsch** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán |
+| **heimlich** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de |
+| **geflüster** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ |
+| **räuberheer** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì |
 
-### **VOCABULARIO ESPECÍFICO HANNS EISLER**
+### TÉRMINOS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **kriegsminister** | war minister [wɔr ˈmɪnɪstər] | Kriegsminister [ˈkʁiːksˌmɪnɪstər] | ministro da guerra [miˈnistɾu dɐ ˈɡɛʁɐ] | военный министр [vɐˈjenɨɪ mʲɪˈnʲistr] | voyennyy ministr | 战争部长 [ʈʂan⁵¹tʂəŋ⁵⁵pu⁵¹ʈʂaŋ²¹⁴] | zhànzhēng bùzhǎng |
-| **sowjetlicht** | Soviet light [ˈsoʊviət laɪt] | Sowjetlicht [zoˈvjetlɪçt] | luz soviética [lus soviˈɛtikɐ] | советский свет [sɐˈvʲetskʲɪɪ svʲet] | sovetskiy svet | 苏维埃之光 [su⁵⁵wei²¹⁴ai²¹⁴ʈʂɨ⁵⁵kwaŋ⁵⁵] | Sūwéi'āi zhī guāng |
-| **weltrepublik** | world republic [wərld rɪˈpʌblɪk] | Weltrepublik [ˈveltreˌpuˌblɪk] | república mundial [ʁeˈpublikɐ mũˈdiaw] | мировая республика [mʲɪrɐˈvajə rʲɪˈspublʲɪkə] | mirovaya respublika | 世界共和国 [ʂɨ⁵¹tɕjɛ⁵¹kʊŋ⁵¹xɤ²¹⁴kuɔ²¹⁴] | shìjiè gònghéguó |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **kriegsminister** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng |
+| **sowjetlicht** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng |
+| **weltrepublik** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó |
 
 ---
 

@@ -617,22 +617,24 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **galeón** | galleon [ˈɡæliən] | Galeone [ɡaˈle͜oːnə] | galeão [ɡaˈljɐ̃w̃] | галеон [ɡɐˈlʲeəon] | galeon | 大帆船 [tà fānʈʂʰwán] | dà fānchuán |
-| **libertad** | freedom [ˈfriːdəm] | Freiheit [ˈfʁaɪhaɪt] | liberdade [libɛɾˈdadʒi] | свобода [svɐˈbodə] | svoboda | 自由 [tsɨ̀jóu] | zìyóu |
-| **marineros** | sailors [ˈseɪləz] | Seeleute [ˈzeːləlɔɪ̯tə] | marinheiros [maɾiˈɲejɾus] | моряки [mɐˈrʲakʲi] | moryaki | 船员 [ʈʂʰwányɥǎn] | chuányuán |
-| **puerto** | port [pɔːt] | Hafen [ˈhaːfən] | porto [ˈpoɾtu] | порт [port] | port | 港口 [kǎŋkǒu] | gǎngkǒu |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu |
+| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán |
+| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **contestación** | protest [ˈproʊtest] | Protest [proˈtest] | contestação [kõtɛʃtaˈsɐ̃w̃] | протест [prɐˈtʲest] | protest | 抗议 [kʰàŋì] | kàngyì |
-| **movimiento** | movement [ˈmuːvmənt] | Bewegung [bəˈveːɡʊŋ] | movimento [moviˈmẽtu] | движение [dvʲɪˈʐenʲɪje] | dvizhenie | 运动 [ỳntòŋ] | yùndòng |
-| **esperanza** | hope [hoʊp] | Hoffnung [ˈhɔfnʊŋ] | esperança [ʃpɨˈɾɐ̃sɐ] | надежда [nɐˈdʲeʐdə] | nadezhda | 希望 [ɕīwàŋ] | xīwàng |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì |
+| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng |
 
 ### NÚMEROS HISTÓRICOS
 

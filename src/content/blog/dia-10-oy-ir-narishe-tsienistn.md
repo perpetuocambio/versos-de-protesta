@@ -237,23 +237,25 @@ Méiyǒu jiùshú, gòu le!
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **necio** | foolish [ˈfuːlɪʃ] | töricht [ˈtøːrɪçt] | tolo [ˈtolu] | глупый [ˈɡlupɨj] | glupyy | 愚蠢 [y˥˧ tʂʰwən˧˥] | yúchǔn |
-| **fantasear** | fantasize [ˈfæntəsaɪz] | phantasieren [fantaˈziːrən] | fantasiar [fɐ̃taziˈaɾ] | фантазировать [fəntəzʲɪˈrovətʲ] | fantazirovat' | 幻想 [xwan˥˩ ɕjaŋ˧˥] | huànxiǎng |
-| **perecer** | perish [ˈpɛrɪʃ] | verderben [fɛɐ̯ˈdɛrbən] | perecer [peɾeˈseɾ] | гибнуть [ˈɡʲibnʊtʲ] | gibnut' | 灭亡 [mjɛ˥˩ waŋ˧˥] | mièwáng |
-| **bandera** | flag [flæɡ] | Fahne [ˈfaːnə] | bandeira [bɐ̃ˈdejɾɐ] | знамя [ˈznamʲə] | znamya | 旗帜 [tʂʰi˧˥ tʂɨ˥˩] | qízhì |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **necio** | foolish | töricht | tolo | глупый | glupyy | 愚蠢 | yúchǔn |
+| **fantasear** | fantasize | phantasieren | fantasiar | фантазировать | fantazirovat' | 幻想 | huànxiǎng |
+| **perecer** | perish | verderben | perecer | гибнуть | gibnut' | 灭亡 | mièwáng |
+| **bandera** | flag | Fahne | bandeira | знамя | znamya | 旗帜 | qízhì |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **Bund** | Bund [bʊnd] | Bund [bʊnt] | Bund [bũd] | Бунд [bund] | Bund | 崩得 [pəŋ˧˥ tɤ˧˩˧] | Bēngdé |
-| **diáspora** | diaspora [daɪˈæspərə] | Diaspora [ˌdiaˈspoːra] | diáspora [diˈaspoɾɐ] | диаспора [dʲɪˈasporə] | diaspora | 散居 [san˥˩ ty˧˥] | sànjū |
-| **pogrom** | pogrom [pəˈɡrɒm] | Pogrom [poˈɡroːm] | pogrom [poˈɡrõ] | погром [pɐˈɡrom] | pogrom | 大屠杀 [ta˥˩ tʰu˧˥ ʂa˧˥] | dàtúshā |
-| **proletario** | proletarian [ˌproʊləˈtɛriən] | Proletarier [proleˈtaːʁiər] | proletário [pɾoleˈtaɾiu] | пролетарий [prəlʲɪˈtarʲɪj] | proletariy | 无产者 [u˧˥ tʂan˧˩ tʂɤ˧˩˧] | wúchǎnzhě |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **Bund** | Bund | Bund | Bund | Бунд | Bund | 崩得 | Bēngdé |
+| **diáspora** | diaspora | Diaspora | diáspora | диаспора | diaspora | 散居 | sànjū |
+| **pogrom** | pogrom | Pogrom | pogrom | погром | pogrom | 大屠杀 | dàtúshā |
+| **proletario** | proletarian | Proletarier | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě |
 
 ### NÚMEROS HISTÓRICOS
 

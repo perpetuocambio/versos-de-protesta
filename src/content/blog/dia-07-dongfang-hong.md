@@ -11,7 +11,7 @@ originalSong:
   year: 1944
   language: "zh"
   genre: "revolutionary-anthem"
-  origin: "China, provincia de Shaanxi"
+  origin: "China"
 grammarTopics: 
   - "Preposiciones básicas de lugar"
   - "Preposiciones de tiempo" 
@@ -388,25 +388,25 @@ on velikiy spasitel' naroda.
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-### **VOCABULARIO FUNDAMENTAL DE REVOLUCIÓN CHINA**
+### TÉRMINOS CLAVE
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **东方** | east [ist] | Osten [ˈɔstən] | oriente [oˈɾjẽtɨ] | восток [ˈvostək] | vostok | 东方 [tʊŋ⁵⁵faŋ⁵⁵] | dōngfāng |
-| **红** | red [ɹɛd] | rot [ʁoːt] | vermelho [vɨɾˈmɐʎu] | красный [ˈkrasnɨj] | krasnyy | 红 [xʊŋ³⁵] | hóng |
-| **太阳** | sun [sʌn] | Sonne [ˈzɔnə] | sol [ˈsɔl] | солнце [ˈsont͡sə] | solntse | 太阳 [tʰaɪ̯⁵¹jaŋ³⁵] | tàiyáng |
-| **人民** | people [ˈpipəl] | Volk [fɔlk] | povo [ˈpovu] | народ [nɐˈrot] | narod | 人民 [ʐən³⁵mɪn³⁵] | rénmín |
-| **救星** | savior [ˈseɪvjər] | Retter [ˈʁɛtər] | salvador [salvɐˈdoɾ] | спаситель [spɐˈsʲitʲəl] | spasitel' | 救星 [tɕjoʊ̯⁵¹ɕɪŋ⁵⁵] | jiùxīng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **东方** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng |
+| **红** | red | rot | vermelho | красный | krasnyy | 红 | hóng |
+| **太阳** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng |
+| **人民** | people | Volk | povo | народ | narod | 人民 | rénmín |
+| **救星** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng |
 
-### **VOCABULARIO POLÍTICO ESPECÍFICO**
+### TÉRMINOS POLÍTICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **主席** | chairman [ˈtʃɛrmən] | Vorsitzender [ˈfoːɐ̯zɪtsəndər] | presidente [pɾɨziˈdẽtɨ] | председатель [prʲɪtsɨˈdatʲəl] | predsedatel' | 主席 [ʈʂu²¹⁴ɕi⁵⁵] | zhǔxí |
-| **共产党** | communist party [ˈkɑmjənɪst ˈpɑrti] | Kommunistische Partei [kɔmuˈnɪstɪʃə paʁˈtaɪ] | partido comunista [pɐɾˈtidu komuˈniʃtɐ] | коммунистическая партия [kəmʊˈnʲistʲɪtʂɪskəjə ˈpartʲɪjə] | kommunisticheskaya partiya | 共产党 [kʊŋ⁵¹ʈʂʰan²¹⁴taŋ²¹⁴] | gòngchǎndǎng |
-| **解放** | liberation [ˌlɪbəˈreɪʃən] | Befreiung [bəˈfʁaɪʊŋ] | libertação [libɨɾtɐˈsɐ̃w̃] | освобождение [əsvəbɐˈʐdenʲɪje] | osvobozhdeniye | 解放 [tɕjɛ²¹⁴faŋ⁵¹] | jiěfàng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **主席** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí |
+| **共产党** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng |
+| **解放** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng |
 
 ---
 

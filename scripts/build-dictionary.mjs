@@ -35,23 +35,30 @@ async function extractVocabularyFromMarkdown(filePath) {
       /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
     ];
 
-    // TABLAS A EXCLUIR COMPLETAMENTE (metadata, no vocabulario)
     const excludedTablePatterns = [
       // Tablas con información conceptual/regional - versión más flexible
-      /\|\s*Región\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Concepto\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Elemento\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Año\s*\|\s*Evento\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Fecha\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Periodo\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Estructura\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Orden\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*País\s*\|.*?\|\s*Español\s*\|/gi,
-      /\|\s*Tradición\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Región\s*\|/i,
+      /\|\s*Concepto\s*\|/i,
+      /\|\s*Elemento\s*\|/i,
+      /\|\s*Año\s*\|/i,
+      /\|\s*Fecha\s*\|/i,
+      /\|\s*Periodo\s*\|/i,
+      /\|\s*Estructura\s*\|/i,
+      /\|\s*Orden\s*\|/i,
+      /\|\s*País\s*\|/i,
+      /\|\s*Tradición\s*\|/i,
+      /\|\s*Característica\s*\|/i,
       // Patrones adicionales para detectar tablas metadata
-      /TRADICIONES\s+MUSICALES\s+OBRERAS/gi,
-      /CARACTERÍSTICAS\s+MUSICALES/gi,
-      /EXPRESAR.*?EN\s+\d+\s+IDIOMAS/gi
+      /TRADICIONES\s+MUSICALES\s+OBRERAS/i,
+      /CARACTERÍSTICAS\s+MUSICALES/i,
+      /EXPRESAR.*?EN\s+\d+\s+IDIOMAS/i,
+      /SISTEMAS\s+GRAMATICALES/i,
+      /SISTEMAS\s+PRONOMINALES/i,
+      /SISTEMAS\s+VERBALES/i,
+      /ELEMENTOS\s+GRAMATICALES/i,
+      /COMPARACIÓN\s+BÁSICA/i,
+      /GÉNEROS\s+MUSICALES/i,
+      /SINTAXIS\s+COMPARATIVA/i
     ];
     
     // Intentar con cada regex hasta encontrar coincidencias
@@ -131,17 +138,21 @@ async function extractVocabularyFromMarkdown(filePath) {
           const nonVocabPatterns = [
             /^\d{4}-\d{4}$/, // Rangos de años: 1840-1945
             /^\d{4}-presente$/, // Fechas hasta presente: 1840-presente
-            /^Art\+N.*Prep\+N$/, // Estructuras gramaticales: Art+N + V + N + Prep+N
-            /^SVO$/, // Órdenes sintácticos: SVO
-            /^[A-Z]{2,}$/, // Abreviaciones: SVO, SOV, etc.
-            /^\d+ª\s+(sing|plur)$/, // Formas gramaticales: 3ª sing, 2ª pl
-            /^(Periodo|Tradición|Función|Región|Estructura|Orden)\s+/i, // Conceptos descriptivos
-            /^(himnos|canciones|resistencia|protestas)\s+/i, // Descripciones históricas generales
+            /^(Art|Sust|Part|Adv|Fut|Prep|N|V)($|\s|\+)/, // Estructuras gramaticales
+            /^SVO$|^SOV$/, // Órdenes sintácticos
+            /^[A-Z]{2,}$/, // Abreviaciones
+            /^\d+ª\s+(sing|plur|pers)/, // Formas gramaticales
+            /^(Periodo|Tradición|Función|Región|Estructura|Orden|Concepto|Elemento|País|Año|Evento|Fecha)/i, // Conceptos descriptivos
+            /^(himnos|canciones|resistencia|protestas|fados|coplas|spirituals)/i, // Descripciones históricas
             /,\s*(himnos|canciones|resistencia|protestas)/i, // Listas descriptivas
-            /^(Presente|Pretérito|Imperfecto|Futuro|Pasado|Perfecto)$/i, // Tiempos verbales
-            /^(yo|tú|él|ella|nosotros|vosotros|ellos|ellas)$/i, // Pronombres de conjugación
-            /^(I|you|he|she|we|they)\s+(sing|sang|will)/i, // Conjugaciones inglesas
-            /^(ich|du|er|sie|wir|ihr)\s+(singe|singst|singt)/i // Conjugaciones alemanas
+            /^(Presente|Pretérito|Imperfecto|Futuro|Pasado|Perfecto|Condicional|Subjuntivo)/i, // Tiempos verbales
+            /^(yo|tú|él|ella|nosotros|vosotros|ellos|ellas|I|you|he|she|we|they|ich|du|er|sie|wir|ihr)/i, // Pronombres
+            /\(.+\)/, // Contenido entre paréntesis
+            /\d{4}/, // Años
+            /\d+%/, // Porcentajes
+            /\d+\.\d+/, // Números con decimales
+            /\s(y|e|o|u|a|en|de|el|la|los|las|con|por|para|sin|sobre|tras)\s/i, // Palabras conectoras comunes
+            /\w+\s+\w+\s+\w+/ // Más de dos palabras
           ];
           
           return nonVocabPatterns.some(pattern => pattern.test(text.trim()));
@@ -254,9 +265,10 @@ async function extractVocabularyFromMarkdown(filePath) {
           // Verificar que no sea contenido no-vocabulario
           const isValidVocabulary = !isNonVocabularyContent(entry.es) &&
                                    !isNonVocabularyContent(entry.en) &&
-                                   entry.es.length > 0 && 
-                                   entry.en.length > 0 &&
-                                   entry.es !== entry.en; // Evitar traducciones idénticas
+                                   entry.es.length > 1 && 
+                                   entry.en.length > 1 &&
+                                   !/\d/.test(entry.es) && !/\d/.test(entry.en) &&
+                                   entry.es.toLowerCase() !== entry.en.toLowerCase(); // Evitar traducciones idénticas
           
           if (isValidVocabulary) {
             vocabulary.push(entry);

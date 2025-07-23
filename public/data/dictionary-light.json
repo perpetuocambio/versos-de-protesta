@@ -1,131 +1,131 @@
 {
   "meta": {
-    "totalWords": 203,
-    "totalEntries": 251,
+    "totalWords": 90,
+    "totalEntries": 106,
     "totalLanguages": 8,
-    "totalLessons": 12,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "totalLessons": 11,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
     "es": {
-      "count": 203,
+      "count": 90,
       "sample": [
-        "1897",
-        "11 de septiembre",
-        "12 horas laborales",
-        "27 millones",
-        "274 células",
-        "280 teatros prohibidos",
-        "30.000 militantes",
-        "37% votos nazis",
-        "5 idiomas",
-        "6 millones"
+        "acción directa",
+        "agitan",
+        "aires",
+        "amanecer",
+        "anarquismo",
+        "aufmarsch",
+        "aunque",
+        "bandera",
+        "banderas",
+        "canción"
       ]
     },
     "en": {
-      "count": 237,
+      "count": 89,
       "sample": [
-        "¡En pie, los anarquistas!",
-        "(Él) necesita comida",
-        "1,5 millones",
-        "1.000.000 combatientes",
-        "1.200 publicaciones",
-        "10.000 intelectuales",
-        "11 de septiembre de 1973",
-        "15.000 sabotajes",
-        "2.900 horas",
-        "20 millones jóvenes"
+        "Allied victory",
+        "anarchism",
+        "Anna Smirnova",
+        "Antifascist composition",
+        "banners",
+        "Black",
+        "calls",
+        "chairman",
+        "communist party",
+        "dawn"
       ]
     },
     "de": {
-      "count": 241,
+      "count": 90,
       "sample": [
-        "1,000,000 fighters",
-        "1,200 publications",
-        "1.5 million",
-        "10,000 intellectuals",
-        "11. September",
-        "15,000 sabotages",
-        "1929 Crisis",
-        "2,900 hours",
-        "20 million youth",
-        "200,000 people"
+        "Achse Rom-Berlin",
+        "Alliierter Sieg",
+        "Anarchismus",
+        "Anna Smirnova",
+        "Antifaschistische Komposition",
+        "Arbeiter",
+        "arise, country",
+        "auch wenn",
+        "Aufmarsch",
+        "Befreiung"
       ]
     },
     "pt": {
-      "count": 240,
+      "count": 89,
       "sample": [
-        "1949",
-        "1,5 Millionen",
-        "1.000.000 Kämpfer",
-        "1.200 Publikationen",
-        "10.000 Intellektuelle",
-        "11 de setembro",
-        "11. September 1973",
-        "15.000 Sabotageakte",
-        "1897 wurde der Bund gegründet",
-        "2.900 Stunden"
+        "ação direta",
+        "agitam",
+        "amanhecer",
+        "anarquismo",
+        "Anna Smirnova",
+        "ares",
+        "bandeira",
+        "bandeiras",
+        "canção",
+        "cantar"
       ]
     },
     "ru": {
-      "count": 238,
+      "count": 89,
       "sample": [
-        "1,5 milhões",
-        "1.000.000 combatentes",
-        "1.200 publicações",
-        "10.000 intelectuais",
-        "11 сентября",
-        "11 de setembro de 1973",
-        "15.000 sabotagens",
-        "2.900 horas",
-        "20 milhões jovens",
-        "200.000 pessoas"
+        "анархизм",
+        "Антифашистская композиция",
+        "боль",
+        "бороться",
+        "борьба",
+        "бури",
+        "власть",
+        "военный министр",
+        "война",
+        "восток"
       ]
     },
     "ruRom": {
-      "count": 244,
+      "count": 96,
       "sample": [
-        "1.000.000 партизан",
-        "1.200 изданий",
-        "10.000 интеллектуалов",
-        "11 sentyabrya",
-        "11 сентября 1973 года",
-        "15.000 диверсий",
-        "2.900 часов",
-        "20 миллионов молодёжи",
-        "200.000 человек",
-        "259 предприятий"
+        "anarkhizm",
+        "Antifashistskaya kompozitsiya",
+        "bol'",
+        "bor'bá",
+        "borót'sya",
+        "búri",
+        "Chyórnye",
+        "diaspora",
+        "diversiya",
+        "dvizhenie"
       ]
     },
     "zh": {
-      "count": 237,
+      "count": 86,
       "sample": [
-        "1.000.000 partizan",
-        "1.200 izdaniy",
-        "10.000 intellektualov",
-        "11 sentyabrya 1973 goda",
-        "15.000 diversiy",
-        "2.900 chasov",
-        "20 millionov molodyozhi",
-        "200.000 chelovek",
-        "259 predpriyatiy",
-        "3.000 mostov"
+        "巴巴罗萨行动",
+        "柏林-罗马轴心",
+        "被战胜的",
+        "唱",
+        "船员",
+        "大罢工",
+        "大帆船",
+        "地下的",
+        "等待",
+        "第一国际"
       ]
     },
     "zhPinyin": {
-      "count": 238,
+      "count": 86,
       "sample": [
-        "100万游击队",
-        "1200种地下刊物",
-        "1897年崩得成立了",
-        "1929年危机",
-        "1973年9月11日",
-        "1万5千次破坏",
-        "1万知识分子",
-        "20万人",
-        "259家企业",
-        "2900小时"
+        "Bābāluósà xíngdòng",
+        "bèi zhànshèng de",
+        "Bólín-Luómǎ zhóuxīn",
+        "chàng",
+        "chuányuán",
+        "dà bàgōng",
+        "dà fānchuán",
+        "děngdài",
+        "dì-yī guójì",
+        "dìxià de"
       ]
     }
   },

@@ -9,12 +9,12 @@
   "meta": {
     "language": "русский романизированный",
     "code": "ru-rom",
-    "wordCount": 244,
-    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "wordCount": 96,
+    "lastUpdated": "2025-07-23T18:18:14.157Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 350
+    "estimatedLoadTimeMs": 126
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 244,
-      "sizeKB": 175,
+      "wordCount": 96,
+      "sizeKB": 63,
       "path": "/internal/v1/dictionary/chunks/ru-rom-lessons-0-11.json"
     }
   ],
@@ -33,7 +33,6 @@
     "lessonToChunk": {
       "0": 0,
       "1": 0,
-      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -53,7 +52,28 @@
         ]
       },
       {
+        "word": "diversiya",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "fashizm",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "okkupatsiya",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "osvobozhdenie",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -67,204 +87,22 @@
         ]
       },
       {
+        "word": "partizany",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "podpol'nyy",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "proletariy",
         "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "tysyacha devyat'sot sem'desyat",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "до",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.000.000 партизан",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.200 изданий",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "10.000 интеллектуалов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 sentyabrya",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "11 сентября 1973 года",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "15.000 диверсий",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2.900 часов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20 миллионов молодёжи",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200.000 человек",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259 предприятий",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000 мостов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000.000 партизан",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 бойцов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 членов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "380.000 бойцов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4.402 поместья",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "400.000 бойцов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45 университетов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "50.000 коммунистов",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500.000 человек",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "70-е годы в Италии",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "70% в Каталонии",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800 миллионов слушателей",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800.000 партизан",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Adj + Sust + Adv + Neg + Fut.Pas",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Anarkhiskaya sotsial'naya revolyutsiya",
-        "frequency": 1,
         "chunkNumbers": [
           0
         ]
@@ -284,21 +122,35 @@
         ]
       },
       {
-        "word": "Begstvo v SSHA",
+        "word": "bol'",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "blokada Leningrada",
+        "word": "bor'bá",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Bund i Sionistskiy kongress",
+        "word": "borót'sya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "búri",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Chyórnye",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -312,13 +164,6 @@
         ]
       },
       {
-        "word": "diversiya",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "dvizhenie",
         "frequency": 1,
         "chunkNumbers": [
@@ -326,14 +171,14 @@
         ]
       },
       {
-        "word": "Dzhuzeppe Fanelli pribyvayet v Ispaniyu",
+        "word": "edinstvo",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "edinstvo",
+        "word": "edínstvo",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -389,7 +234,161 @@
         ]
       },
       {
+        "word": "khot'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "kolýshut",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "kommunisticheskaya partiya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "marshirovat'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Massovye zabastovki",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mobilizatsiya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "moryaki",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "nadezhda",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "naród",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Natsionalizatsiya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "nebésa",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Nekhvatka tovarov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ob\"edinyát'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Operatsiya Barbarossa",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Os' Rim-Berlin",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Pervyy Internatsional",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pésnya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pet'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Pobeda na vyborakh",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Pobeda soyuznikov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pobedit'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pobezhdyonnyy",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "port",
         "frequency": 1,
         "chunkNumbers": [
           0

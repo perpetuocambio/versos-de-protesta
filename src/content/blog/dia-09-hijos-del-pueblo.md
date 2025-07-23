@@ -299,21 +299,23 @@ bùrú wèi lǐxiǎng ér sǐ.
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **anarquismo** | anarchism [ˈænəkɪzəm] | Anarchismus [aˈnaʁçɪsmʊs] | anarquismo [anaʁˈkizmu] | анархизм [ɐˈnarxʲɪzm] | anarkhizm | 无政府主义 [wú.ʈ͡ʂə̀ŋ.fǔ ʈ͡ʂú.jì] | wúzhèngfǔ zhǔyì |
-| **opresión** | oppression [əˈprɛʃən] | Unterdrückung [ˈʊntɐdrʏkʊŋ] | opressão [opɾeˈsɐ̃w] | угнетение [ʊɡnʲɪˈtenʲɪje] | ugneteniye | 压迫 [jā.pò] | yāpò |
-| **solidaridad** | solidarity [ˌsɒlɪˈdærɪti] | Solidarität [zolidaʁiˈtɛːt] | solidariedade [solidɐɾiˈdadʒi] | солидарность [səlʲɪˈdarnəsʲtʲ] | solidarnost' | 团结 [tuán.jié] | tuánjié |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì |
+| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **Primera Internacional** | First International [fɜːst ˌɪntəˈnæʃənəl] | Erste Internationale [ˈeːrstə ɪntɐnat͡sjoˈnaːlə] | Primeira Internacional [pɾiˈmejɾɐ ĩteɾnɐsioˈnaw] | Первый Интернационал [ˈpʲervɨj ɪntʲɪrnət͡sɨɐˈnal] | Pervyy Internatsional | 第一国际 [tì.jī kuó.tì] | dì-yī guójì |
-| **acción directa** | direct action [dɪˈrɛkt ˈækʃən] | direkte Aktion [diˈrɛktə akˈt͡sjoːn] | ação direta [aˈsɐ̃w diˈɾetɐ] | прямое действие [ˈprʲaməje ˈdʲejstvʲɪje] | pryamoye deystviye | 直接行动 [ʈ͡ʂí.tiē xíŋ.tòŋ] | zhíjiē xíngdòng |
-| **huelga general** | general strike [ˈdʒɛnərəl straɪk] | Generalstreik [ɡeneˈraːlʃtraɪk] | greve geral [ˈɡɾevi ʒeˈɾaw] | всеобщая забастовка [fsʲɪˈobʂːəjə zəbɐˈstofkə] | vseobshchaya zabastovka | 总罢工 [tsǔŋ.pà.kūŋ] | zǒng bàgōng |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì |
+| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng |
+| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng |
 
 ### NÚMEROS HISTÓRICOS
 

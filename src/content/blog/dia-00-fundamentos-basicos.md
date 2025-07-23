@@ -428,33 +428,33 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ---
 
-### 🎵 VOCABULARIO MUSICAL OBRERO - BASE TEMÁTICA
+## VOCABULARIO
 
-#### CONCEPTOS FUNDAMENTALES EN 5 IDIOMAS
+### CONCEPTOS FUNDAMENTALES
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | 中文 Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **trabajador** | worker [ˈwɜːrkɚ] | Arbeiter [ˈaɐ̯baɪtɐ] | trabalhador [tɾɐbɐʎɐˈdoɾ] | рабочий [rɐˈbotʂɪj] | rabóchiy | 工人 [kʊŋ˥ ʐən˧˥] | gōngrén |
-| **lucha** | struggle [ˈstrʌɡəl] | Kampf [kampf] | luta [ˈlutɐ] | борьба [bɐˈrʲbə] | bor'bá | 斗争 [toʊ̯˥˩ tʂəŋ˥] | dòuzhēng |
-| **revolución** | revolution [ˌrɛvəˈluːʃən] | Revolution [ʁevolʊˈt͡sjoːn] | revolução [ʁɨvuluˈsɐ̃w̃] | революция [rʲɪvɐˈlʲut͡sɨjə] | revolyútsiya | 革命 [kɤ˧˥ miŋ˥˩] | gémìng |
-| **libertad** | freedom [ˈfriːdəm] | Freiheit [ˈfraɪhaɪt] | liberdade [libɨɾˈdadɨ] | свобода [svɐˈbodə] | svobóda | 自由 [tsz̩˥˩ joʊ̯˧˥] | zìyóu |
-| **justicia** | justice [ˈdʒʌstɪs] | Gerechtigkeit [ɡəˈrɛçtɪçkaɪt] | justiça [ʒuʃˈtisɐ] | справедливость [sprɐˈvʲedlʲɪvəstʲ] | spravedlívost' | 正义 [tʂəŋ˥˩ i˥˩] | zhèngyì |
-| **pueblo** | people [ˈpiːpəl] | Volk [fɔlk] | povo [ˈpovu] | народ [nɐˈrot] | naród | 人民 [ʐən˧˥ min˧˥] | rénmín |
-| **poder** | power [ˈpaʊɚ] | Macht [maxt] | poder [puˈdeɾ] | власть [vlastʲ] | vlast' | 权力 [tɕʰyɛn˧˥ li˥˩] | quánlì |
-| **unidad** | unity [ˈjuːnɪti] | Einheit [ˈaɪnhaɪt] | unidade [uniˈdadɨ] | единство [jɪˈdʲinstvə] | edínstvo | 团结 [tʰwan˧˥ tɕjɛ˧˥] | tuánjié |
-| **canción** | song [sɔŋ] | Lied [liːt] | canção [kɐ̃ˈsɐ̃w̃] | песня [ˈpʲesnʲə] | pésnya | 歌曲 [kɤ˥ tɕʰy˥] | gēqǔ |
-| **bandera** | flag [flæɡ] | Fahne [ˈfaːnə] | bandeira [bɐ̃ˈdejɾɐ] | знамя [ˈznamʲə] | známya | 旗帜 [tɕʰi˧˥ tʂz̩˥˩] | qízhì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+|---|---|---|---|---|---|---|---|
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén |
+| **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng |
+| **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì |
+| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín |
+| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì |
+| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié |
+| **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ |
+| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì |
 
-#### VERBOS DE ACCIÓN REVOLUCIONARIA
+### VERBOS DE ACCIÓN REVOLUCIONARIA
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | 中文 Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **luchar** | fight [faɪt] | kämpfen [ˈkɛmpfən] | lutar [luˈtaɾ] | бороться [bɐˈrotsə] | borót'sya | 战斗 [tʂan˥˩ toʊ̯˥˩] | zhàndòu |
-| **resistir** | resist [rɪˈzɪst] | widerstehen [ˈviːdɐʃteːən] | resistir [ʁɨziʃˈtiɾ] | сопротивляться [səprɐˈtʲivlʲətsə] | soprotivlyát'sya | 反抗 [fan˨˩˦ kʰaŋ˥˩] | fǎnkàng |
-| **defender** | defend [dɪˈfɛnd] | verteidigen [fɛɐ̯ˈtaɪdɪɡən] | defender [dɨfẽˈdeɾ] | защищать [zɐˈɕːɪɕːətʲ] | zashchishchát' | 捍卫 [xan˥˩ wej˥˩] | hànwèi |
-| **unir** | unite [juˈnaɪt] | vereinen [fɛɐ̯ˈaɪnən] | unir [uˈniɾ] | объединять [əbʲɪdʲɪˈnʲatʲ] | ob"edinyát' | 团结 [tʰwan˧˥ tɕjɛ˧˥] | tuánjié |
-| **cantar** | sing [sɪŋ] | singen [ˈzɪŋən] | cantar [kɐ̃ˈtaɾ] | петь [pʲetʲ] | pet' | 唱 [tʂʰaŋ˥˩] | chàng |
-| **marchar** | march [mɑːrtʃ] | marschieren [marˈʃiːrən] | marchar [mɐɾˈʃaɾ] | маршировать [mərˈʂɨrəvətʲ] | marshirovat' | 行进 [ɕiŋ˧˥ tɕin˥˩] | xíngjìn |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+|---|---|---|---|---|---|---|---|
+| **luchar** | fight | kämpfen | lutar | бороться | borót'sya | 战斗 | zhàndòu |
+| **resistir** | resist | widerstehen | resistir | сопротивляться | soprotivlyát'sya | 反抗 | fǎnkàng |
+| **defender** | defend | verteidigen | defender | защищать | zashchishchát' | 捍卫 | hànwèi |
+| **unir** | unite | vereinen | unir | объединять | ob"edinyát' | 团结 | tuánjié |
+| **cantar** | sing | singen | cantar | петь | pet' | 唱 | chàng |
+| **marchar** | march | marschieren | marchar | маршировать | marshirovat' | 行进 | xíngjìn |
 
 ---
 

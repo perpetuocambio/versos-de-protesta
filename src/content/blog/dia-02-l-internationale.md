@@ -11,7 +11,7 @@ originalSong:
   year: 1888
   language: "fr"
   genre: "anthem"
-  origin: "Francia (letra 1871, música 1888)"
+  origin: "Francia"
 grammarTopics: 
   - "Futuro francés vs otros idiomas"
   - "Imperativos plurales"
@@ -829,17 +829,17 @@ Estribillo:| C     | G     | Am    | Dm    |
 | **España** | La Internacional | Versión Guerra Civil | Influencia latinoamericana |
 | **Alemania** | Die Internationale | Resistencia antifascista | Tradición obrera alemana |
 
-### **VOCABULARIO POLÍTICO SOCIALISTA**
+## VOCABULARIO
 
-#### **Términos Fundamentales en 5 IDIOMAS**
+### TÉRMINOS POLÍTICOS
 
-| Concepto | Español | English | Deutsch | Português | Русский | 中文 |
-|----------|---------|-----|-----|-----|------|-----|
-| **Proletariado** | proletariado | proletariat | Proletariat | proletariado | пролетариат | 无产阶级 |
-| **Revolución** | revolución | revolution | Revolution | revolução | революция | 革命 |
-| **Socialismo** | socialismo | socialism | Sozialismus | socialismo | социализм | 社会主义 |
-| **Clase obrera** | clase obrera | working class | Arbeiterklasse | classe operária | рабочий класс | 工人阶级 |
-| **Solidaridad** | solidaridad | solidarity | Solidarität | solidariedade | солидарность | 团结 |
+| Español | English | Deutsch | Português | Русский | 中文 |
+|---|---|---|---|---|---|
+| proletariado | proletariat | Proletariat | proletariado | пролетариат | 无产阶级 |
+| revolución | revolution | Revolution | revolução | революция | 革命 |
+| socialismo | socialism | Sozialismus | socialismo | социализм | 社会主义 |
+| clase obrera | working class | Arbeiterklasse | classe operária | рабочий класс | 工人阶级 |
+| solidaridad | solidarity | Solidarität | solidariedade | солидарность | 团结 |
 
 ---
 

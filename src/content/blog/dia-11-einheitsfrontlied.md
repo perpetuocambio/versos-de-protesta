@@ -264,23 +264,25 @@ Bùyào wàngjì!
 
 ---
 
-## 📈 VOCABULARIO ANTIFASCISTA MULTILINGÜE
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **frente** | front [frʌnt] | Front [fʁɔnt] | frente [ˈfrẽtʃi] | фронт [front] | front | 前线 [tɕʰjɛn˥˩ ɕjɛn˥˩] | qiánxiàn |
-| **unidad** | unity [ˈjuːnɪti] | Einheit [ˈaɪnhaɪt] | unidade [uniˈdadɨ] | единство [jɪˈdʲinstə] | yedinstvo | 团结 [tʰwɑn˥˩ tɕjɛ˥˩] | tuánjié |
-| **trabajador** | worker [ˈwɜːrkər] | Arbeiter [ˈaʁbaɪtɐ] | trabalhador [tɾɐbɐʎɐˈdoɾ] | рабочий [rɐˈbotʂɪj] | rabochiy | 工人 [kʊŋ˥˥ ʐən˥˩] | gōngrén |
-| **liberación** | liberation [ˌlɪbəˈreɪʃən] | Befreiung [bəˈfʁaɪʊŋ] | libertação [libɨɾtɐˈsɐ̃w] | освобождение [əsvɐbɐˈʐdʲenʲɪjə] | osvobozhdeniye | 解放 [tɕjɛ˨˩˦ fɑŋ˥˩] | jiěfàng |
-| **pueblo** | people [ˈpiːpəl] | Volk [fɔlk] | povo [ˈpovu] | народ [nɐˈrot] | narod | 人民 [ʐən˥˩ min˥˩] | rénmín |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **frente** | front | Front | frente | фронт | front | 前线 | qiánxiàn |
+| **unidad** | unity | Einheit | unidade | единство | yedinstvo | 团结 | tuánjié |
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **fascismo** | fascism [ˈfæʃɪzəm] | Faschismus [faˈʃɪsmʊs] | fascismo [fɐʃˈsiʒmu] | фашизм [fɐˈʂizm] | fashizm | 法西斯主义 [fɑ˨˩˦ ɕi˥˥ sɨ˥˥ tʂu˨˩˦ i˥˩] | fǎxīsī zhǔyì |
-| **Reich** | Reich [raɪk] | Reich [ʁaɪç] | Reich [ʁajʃ] | рейх [rɛjx] | reykh | 帝国 [ti˥˩ kwɔ˥˩] | dìguó |
-| **proletario** | proletarian [ˌproʊlɪˈtɛriən] | Prolet [pʁoˈleːt] | proletário [pɾulɨˈtaɾju] | пролетарий [prəlʲɪˈtarʲɪj] | proletariy | 无产者 [u˥˩ tʂʰɑn˨˩˦ tʂɤ˨˩˦] | wúchǎnzhě |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì |
+| **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó |
+| **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě |
 
 ### NÚMEROS HISTÓRICOS
 

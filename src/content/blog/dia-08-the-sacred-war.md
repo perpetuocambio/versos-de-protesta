@@ -372,21 +372,23 @@ wǒmen yào dǎzào jiāngù de guāncái!
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
+## VOCABULARIO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **guerra** | war [wɔː] | Krieg [kʁiːk] | guerra [ˈɡɛʁɐ] | война [vɐjˈna] | voyna | 战争 [ʈ͡ʂàn.ʈ͡ʂə́ŋ] | zhànzhēng |
-| **fascismo** | fascism [ˈfæʃɪzm] | Faschismus [faˈʃɪsmʊs] | fascismo [faʃˈʃizmu] | фашизм [fɐˈʂɨzm] | fashizm | 法西斯主义 [fǎ.xī.sī.ʈ͡ʂú.jì] | fǎxīsī zhǔyì |
-| **resistencia** | resistance [rɪˈzɪstəns] | Widerstand [ˈviːdɐʃtant] | resistência [ʁezisˈtẽsiɐ] | сопротивление [səprətɪvˈlʲenʲɪje] | soprotivleniye | 抵抗 [tí.kàŋ] | dǐkàng |
+### TÉRMINOS CLAVE
 
-### VOCABULARIO HISTÓRICO ESPECÍFICO
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng |
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
-|---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
-| **Operación Barbarroja** | Operation Barbarossa [ˌɒpəˈreɪʃən bɑːbəˈrɒsə] | Unternehmen Barbarossa [ˌʔʊntɐˈneːmən baʁbaˈʁɔsa] | Operação Barbarossa [opeɾaˈsɐ̃w baʁbaˈʁɔsɐ] | Операция Барбаросса [ɐpʲɪˈrat͡sɨjə bərˈbaroəsə] | Operatsiya Barbarossa | 巴巴罗萨行动 [pā.pā.luó.sà xíŋ.dòŋ] | Bābāluósà xíngdòng |
-| **asedio Leningrado** | Siege of Leningrad [siːdʒ əv ˈlɛnɪnɡræd] | Belagerung Leningrads [bəˈlaːɡərʊŋ ˈleːnɪnɡrads] | cerco de Leningrado [ˈseʁku dʒi leninˈɡɾadu] | блокада Ленинграда [bləˈkadə lʲɪnʲɪnˈɡradə] | blokada Leningrada | 列宁格勒围城 [liè.níŋ.gé.lè wéi.ʈ͡ʂə́ŋ] | Lièníngélè wéichéng |
-| **frente oriental** | Eastern Front [ˈiːstən frʌnt] | Ostfront [ˈoːstfʁɔnt] | frente oriental [ˈfɾẽtʃi oɾiẽˈtaw] | Восточный фронт [vɐˈstot͡ʂnɨj front] | Vostochnyy front | 东线战场 [túŋ.xiàn ʈ͡ʂàn.ʈ͡ʂáŋ] | dōngxiàn zhànchǎng |
+### TÉRMINOS HISTÓRICOS
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **Operación Barbarroja** | Operation Barbarossa | Unternehmen Barbarossa | Operação Barbarossa | Операция Барбаросса | Operatsiya Barbarossa | 巴巴罗萨行动 | Bābāluósà xíngdòng |
+| **asedio Leningrado** | Siege of Leningrad | Belagerung Leningrads | cerco de Leningrado | блокада Ленинграда | blokada Leningrada | 列宁格勒围城 | Lièníngélè wéichéng |
+| **frente oriental** | Eastern Front | Ostfront | frente oriental | Восточный фронт | Vostochnyy front | 东线战场 | dōngxiàn zhànchǎng |
 
 ### NÚMEROS HISTÓRICOS
 
