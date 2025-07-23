@@ -96,7 +96,7 @@ const baseURL = import.meta.env.BASE_URL;
   .close-button:hover, .close-button:focus { color: var(--color-text-primary); }
 </style>
 
-<script define:vars={{ lang, availableLangs, baseURL }}>
+<script define:vars={{ lang, availableLangs, baseUrl }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary');
   const skeleton = document.getElementById('dictionary-skeleton');

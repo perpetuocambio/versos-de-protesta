@@ -32,6 +32,10 @@ const breadcrumbItems = [
 
 // estimatedWords se cargará dinámicamente en el cliente, aquí solo un placeholder si es necesario
 const estimatedWords = 100; // Valor por defecto, el componente JS lo actualizará
+
+// Variables para controlar la disponibilidad y errores del diccionario
+const dictionaryAvailable = true;
+const dictionaryError = null;
 ---
 ---
 
@@ -107,22 +111,20 @@ const estimatedWords = 100; // Valor por defecto, el componente JS lo actualizar
     <!-- Indicador de carga -->
     <div class="loading-indicator" id="loading-indicator" style="display: none;">
       <div class="spinner"></div>
-      <p>Cargando vocabulario de {availableLangs[lang]}...</p>
-      <div class="loading-stats">
-        <span>Palabras estimadas: {estimatedWords}</span>
-      </div>
+      <p>Cargando diccionario...</p>
+      <p class="loading-stats">Optimizando la experiencia para ti.</p>
     </div>
     
-    <!-- Error handler -->
+    <!-- Mensaje de error -->
     <div class="error-message" id="error-message" style="display: none;">
-      <div class="error-icon">⚠️</div>
-      <h3>Error cargando diccionario</h3>
-      <p>No se pudo cargar el vocabulario de {availableLangs[lang]}.</p>
-      <button onclick="retryLoad()" class="retry-btn">
-        <Icon name="refresh-cw" size={16} />
+      <h3>¡Oops! Algo salió mal.</h3>
+      <p>No se pudo cargar el vocabulario. Por favor, inténtalo de nuevo más tarde.</p>
+      <button class="retry-btn" onclick="retryLoad()">
+        <Icon name="refresh" size={20} />
         Reintentar
       </button>
     </div>
+    
   </div>
 </Layout>
 
@@ -371,7 +373,7 @@ const estimatedWords = 100; // Valor por defecto, el componente JS lo actualizar
   }
 </style>
 
-<script define:vars={{ lang, availableLangs, dictionaryAvailable, dictionaryError, baseUrl }}>
+<script define:vars={{ lang, availableLangs, dictionaryAvailable, dictionaryError, baseUrl: import.meta.env.BASE_URL }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary-container');
   const skeleton = document.getElementById('dictionary-skeleton');
