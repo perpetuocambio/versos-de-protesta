@@ -172,18 +172,19 @@ async function buildDictionary() {
     zhPinyin: new Map()
   };
 
-  // Procesar entradas y agrupar por palabra
+  // Procesar entradas y agrupar por palabra - SOLO en su idioma correspondiente
   for (const entry of allVocabulary) {
     const languages = ['es', 'en', 'de', 'pt', 'ru', 'ruRom', 'zh', 'zhPinyin'];
     
     for (const lang of languages) {
       const word = entry[lang];
-      if (word && word.length > 0) {
+      if (word && word.length > 0 && word !== '-' && word !== '—' && word !== '...') {
+        // Solo agregar la palabra al diccionario de su idioma correspondiente
         if (!dictionary[lang].has(word)) {
           dictionary[lang].set(word, []);
         }
         dictionary[lang].get(word).push({
-          translations: entry,
+          translations: entry, // Mantener todas las traducciones disponibles
           source: entry.source,
           day: entry.day,
           filePath: entry.filePath
