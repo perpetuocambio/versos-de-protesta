@@ -1,66 +1,25 @@
 /**
- * Cliente optimizado para diccionario con chunks
+ * Cliente optimizado para diccionario con chunks (Client-side only)
  * Escalable a 100+ lecciones con carga bajo demanda
- * Compatible server-side (Node.js) y client-side (Browser)
+ * Utiliza fetch para cargar datos JSON
  */
-
-import fs from 'fs/promises';
-import path from 'path';
 
 class ChunkedDictionary {
   constructor() {
     this.chunkCache = new Map();
     this.indexCache = new Map();
     this.cacheTimeout = 10 * 60 * 1000; // 10 minutos
-    this.basePath = '../data/internal/v1/dictionary';
-    
-    // Detectar entorno de ejecución
-    this.isServerSide = typeof window === 'undefined';
-    
-    if (this.isServerSide) {
-      // Ruta absoluta para server-side - detectar si estamos en build o dev
-      const __dirname = path.dirname(new URL(import.meta.url).pathname);
-      const possiblePaths = [
-        // Durante build de Astro
-        path.resolve('./public/data/internal/v1/dictionary'),
-        // Durante desarrollo
-        path.resolve(__dirname, '../../public/data/internal/v1/dictionary'),
-        // Path relativo como fallback
-        path.resolve('public/data/internal/v1/dictionary'),
-        // Para cuando estamos en subdirectorios
-        path.resolve(__dirname, '../../../public/data/internal/v1/dictionary')
-      ];
-      
-      console.log('🔍 Buscando dictionary path entre:', possiblePaths);
-      
-      // Usar el primer path que exista
-      this.serverBasePath = possiblePaths.find(p => {
-        try {
-          const fs = require('fs');
-          const exists = fs.existsSync(p);
-          console.log(`  ${exists ? '✅' : '❌'} ${p}`);
-          return exists;
-        } catch (e) {
-          console.log(`  ❌ ${p} (error: ${e.message})`);
-          return false;
-        }
-      });
-      
-      if (!this.serverBasePath) {
-        console.error('❌ No se encontró ningún path válido para dictionary');
-        this.serverBasePath = possiblePaths[0]; // fallback
-      } else {
-        console.log(`✅ Dictionary path seleccionado: ${this.serverBasePath}`);
-      }
-    }
+    this.basePath = `${import.meta.env.BASE_URL}data/internal/v1/dictionary`;
   }
 
   /**
    * Cargar manifest de chunks
    */
   async loadManifest() {
-    if (this.indexCache.has('manifest')) {
-      const cached = this.indexCache.get('manifest');
+    const cacheKey = 'manifest';
+    
+    if (this.indexCache.has(cacheKey)) {
+      const cached = this.indexCache.get(cacheKey);
       if (Date.now() - cached.timestamp < this.cacheTimeout) {
         return cached.data;
       }
@@ -68,21 +27,11 @@ class ChunkedDictionary {
 
     try {
       console.log('📋 Loading chunks manifest...');
-      let manifestData;
-      
-      if (this.isServerSide) {
-        // Server-side: usar fs
-        const manifestPath = path.join(this.serverBasePath, 'chunks-manifest.json');
-        const manifestContent = await fs.readFile(manifestPath, 'utf-8');
-        manifestData = JSON.parse(manifestContent);
-      } else {
-        // Client-side: usar fetch
-        const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
-        if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest');
-        manifestData = await manifestResponse.json();
-      }
+      const manifestResponse = await fetch(`${this.basePath}/chunks-manifest.json`);
+      if (!manifestResponse.ok) throw new Error(`No se pudo cargar el manifest: ${manifestResponse.statusText}`);
+      const manifestData = await manifestResponse.json();
 
-      this.indexCache.set('manifest', {
+      this.indexCache.set(cacheKey, {
         data: manifestData,
         timestamp: Date.now()
       });
@@ -111,7 +60,6 @@ class ChunkedDictionary {
     }
 
     try {
-      // Obtener info del manifest
       const manifest = await this.loadManifest();
       const langManifest = manifest.languages.find(lang => lang.code === langCode);
       
@@ -119,27 +67,16 @@ class ChunkedDictionary {
         throw new Error(`Language ${langCode} not found in manifest`);
       }
 
-      // Generar nombre del archivo (asumiendo patrón lessons-0-11.json)
       const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11.json');
       
       console.log(`📦 Loading chunk for ${langCode}: ${chunkFile}`);
-      const startTime = this.isServerSide ? Date.now() : performance.now();
+      const startTime = performance.now();
       
-      let chunkData;
+      const chunkResponse = await fetch(`${this.basePath}/chunks/${chunkFile}`);
+      if (!chunkResponse.ok) throw new Error(`No se pudo cargar ${chunkFile}: ${chunkResponse.statusText}`);
+      const chunkData = await chunkResponse.json();
       
-      if (this.isServerSide) {
-        // Server-side: usar fs
-        const chunkPath = path.join(this.serverBasePath, 'chunks', chunkFile);
-        const chunkContent = await fs.readFile(chunkPath, 'utf-8');
-        chunkData = JSON.parse(chunkContent);
-      } else {
-        // Client-side: usar fetch
-        const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
-        if (!chunkResponse.ok) throw new Error(`No se pudo cargar ${chunkFile}`);
-        chunkData = await chunkResponse.json();
-      }
-      
-      const loadTime = (this.isServerSide ? Date.now() : performance.now()) - startTime;
+      const loadTime = performance.now() - startTime;
 
       this.chunkCache.set(cacheKey, {
         data: chunkData,
@@ -165,7 +102,6 @@ class ChunkedDictionary {
       
       const chunkData = await this.loadChunk(langCode);
       
-      // Filtrar palabras por lecciones específicas
       const filteredWords = {};
       Object.entries(chunkData.words).forEach(([word, data]) => {
         const relevantLessons = data.lessons.filter(lesson => lessons.includes(lesson));
@@ -235,7 +171,6 @@ class ChunkedDictionary {
       
       const chunkData = await this.loadChunk(langCode);
       
-      // Buscar en todas las palabras
       const matches = {};
       Object.entries(chunkData.words).forEach(([word, data]) => {
         if (word.toLowerCase().includes(searchTerm.toLowerCase())) {
@@ -243,7 +178,6 @@ class ChunkedDictionary {
         }
       });
 
-      // Ordenar por frecuencia y limitar
       const sortedMatches = Object.entries(matches)
         .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
         .slice(0, limit)

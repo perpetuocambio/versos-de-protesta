@@ -1,98 +1,38 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Icon from '../../components/Icon.astro';
+import DynamicDictionary from '../../components/DynamicDictionary.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import Icon from '../../components/Icon.astro';
 
-export function getStaticPaths() {
-  return [
-    {params: {lang: 'es'}},
-    {params: {lang: 'en'}},
-    {params: {lang: 'de'}},
-    {params: {lang: 'pt'}},
-    {params: {lang: 'ru'}},
-    {params: {lang: 'ru-rom'}},
-    {params: {lang: 'zh'}},
-    {params: {lang: 'zh-pinyin'}}
-  ];
+export async function getStaticPaths() {
+  const languages = ['es', 'en', 'de', 'pt', 'ru', 'ru-rom', 'zh', 'zh-pinyin'];
+  return languages.map(lang => ({
+    params: { lang }
+  }));
 }
 
 const { lang } = Astro.params;
 
-// Importar índice de datos internos y cargar datos del diccionario
-import { readFileSync } from 'fs';
-import path from 'path';
-import { chunkedDictionary } from '../../utils/dictionary-chunks.js';
-
-const manifestPath = path.resolve('./public/data/internal/v1/dictionary/chunks-manifest.json');
-const dictionaryManifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
-
-const languageInfo = dictionaryManifest.languages.find(l => l.code === lang);
-
-// Función auxiliar para índice alfabético
-function generateAlphabetIndex(words) {
-  const letters = {};
-  Object.keys(words).forEach(word => {
-    const firstChar = word.charAt(0).toUpperCase();
-    if (!letters[firstChar]) {
-      letters[firstChar] = [];
-    }
-    letters[firstChar].push(word);
-  });
-  return letters;
-}
-
 const availableLangs = {
-  'es': 'Español',
-  'en': 'English', 
-  'de': 'Deutsch',
-  'pt': 'Português',
-  'ru': 'Русский',
-  'ru-rom': 'Русский Rom.',
-  'zh': '中文',
-  'zh-pinyin': '中文 Pinyin'
+  es: 'Español',
+  en: 'English',
+  de: 'Deutsch',
+  pt: 'Português',
+  ru: 'Русский',
+  'ru-rom': 'Русский (Rom.)',
+  zh: '中文',
+  'zh-pinyin': '中文 (Pinyin)',
 };
 
-// En lugar de pre-cargar todo, solo verificamos que el diccionario existe
-let dictionaryAvailable = false;
-let dictionaryError = null;
-
-try {
-  console.log(`🔍 Verificando disponibilidad de diccionario para: ${lang}`);
-  
-  // Solo verificar que el manifest existe
-  const manifest = await chunkedDictionary.loadManifest();
-  const langInfo = manifest.languages.find(l => l.code === lang);
-  
-  if (langInfo) {
-    dictionaryAvailable = true;
-    console.log(`✅ Diccionario disponible para ${lang}: ${langInfo.totalWords} palabras`);
-  } else {
-    throw new Error(`Idioma ${lang} no encontrado en manifest`);
-  }
-  
-} catch (error) {
-  console.error(`❌ Error verificando diccionario para ${lang}:`, error);
-  dictionaryError = error.message;
-}
-
-console.log('📦 Estado de disponibilidad:', {
-  lang,
-  dictionaryAvailable,
-  dictionaryError
-});
-
-// Obtener información estimada del manifest
-const estimatedWords = languageInfo ? languageInfo.totalWords : 250;
-
-// Base URL para el cliente (se pasa al script)
-const baseUrl = import.meta.env.BASE_URL;
-
-// Breadcrumb items
 const breadcrumbItems = [
-  { label: 'Inicio', href: import.meta.env.BASE_URL, icon: 'home' },
-  { label: 'Diccionario', href: `${import.meta.env.BASE_URL}diccionario/`, icon: 'book' },
-  { label: availableLangs[lang], icon: 'globe' }
+  { href: `${import.meta.env.BASE_URL}`, label: 'Inicio' },
+  { href: `${import.meta.env.BASE_URL}diccionario/`, label: 'Diccionario' },
+  { label: availableLangs[lang] },
 ];
+
+// estimatedWords se cargará dinámicamente en el cliente, aquí solo un placeholder si es necesario
+const estimatedWords = 100; // Valor por defecto, el componente JS lo actualizará
+---
 ---
 
 <Layout title={`Diccionario - ${availableLangs[lang]}`}>

@@ -96,7 +96,7 @@ const baseURL = import.meta.env.BASE_URL;
   .close-button:hover, .close-button:focus { color: var(--color-text-primary); }
 </style>
 
-<script define:vars={{ language, baseURL }}>
+<script define:vars={{ lang, availableLangs, baseURL }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -112,12 +112,13 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   async function loadDictionaryData() {
     try {
-      console.log(`Cargando chunks para idioma: ${language}`);
+      console.log(` Cargando diccionario dinámico para: ${availableLangs[lang]} (${lang})`);
       
+      // Mostrar loading después de 300ms si no ha cargado
       const loadingTimeout = setTimeout(() => {
         skeleton.style.display = 'none';
-        loading.style.display = 'block';
-      }, 500);
+        loading.style.display = 'flex';
+      }, 300);
 
       const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
       if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest de chunks');
