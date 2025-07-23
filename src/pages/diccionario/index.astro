@@ -4,8 +4,9 @@ import Icon from '../../components/Icon.astro';
 import NavigationCard from '../../components/NavigationCard.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 
-// Importar estadísticas
-const stats = await fetch(`${import.meta.env.BASE_URL}data/dictionary-stats.json`).then(res => res.json());
+// Importar estadísticas del archivo local
+import statsData from '../../../public/data/dictionary-stats.json';
+const stats = { default: statsData };
 
 const languageInfo = [
   {
