@@ -5,6 +5,7 @@ export interface Props {
 }
 
 const { language, initialWords = 20 } = Astro.props;
+const baseURL = import.meta.env.BASE_URL;
 ---
 
 <div class="dynamic-dictionary" data-language={language}>
@@ -74,16 +75,38 @@ const { language, initialWords = 20 } = Astro.props;
   .dictionary-content { animation: slideIn 0.5s ease-out; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
   @media (max-width: 768px) { .skeleton-grid { grid-template-columns: 1fr; } .skeleton-title { width: 250px; } }
+
+  .modal {
+    position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%;
+    overflow: auto; background-color: rgba(0,0,0,0.6);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-content {
+    background-color: var(--color-background);
+    margin: auto; padding: var(--space-2xl);
+    border: 1px solid var(--color-border);
+    width: 80%; max-width: 700px; border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+  }
+  .close-button {
+    color: var(--color-text-secondary); float: right; font-size: 2rem; font-weight: bold;
+    cursor: pointer;
+  }
+  .close-button:hover, .close-button:focus { color: var(--color-text-primary); }
 </style>
 
-<script define:vars={{ language }}>
+<script define:vars={{ language, baseURL }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary');
   const skeleton = document.getElementById('dictionary-skeleton');
-  const content = document.getElementById('dictionary-content');
+  const contentEl = document.getElementById('dictionary-content');
   const loading = document.getElementById('loading-indicator');
   const error = document.getElementById('error-message');
-  
+  const modal = document.getElementById('word-modal');
+  const modalBody = document.getElementById('modal-body');
+  const closeModalBtn = document.querySelector('.close-button');
+
   let dictionaryData = null;
   let allWords = [];
 
@@ -96,18 +119,15 @@ document.addEventListener('DOMContentLoaded', async function() {
         loading.style.display = 'block';
       }, 500);
 
-      // 1. Cargar el manifest de chunks
       const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
       if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest de chunks');
       const manifest = await manifestResponse.json();
 
-      // 2. Encontrar el chunk para el idioma actual
       const langManifest = manifest.languages.find(lang => lang.code === language);
       if (!langManifest) throw new Error(`No se encontró manifest para el idioma ${language}`);
-      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', '0-11'); // Asumiendo un solo chunk por ahora
+      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', '0-11');
       if (!chunkFile) throw new Error(`No se encontró chunk para el idioma ${language}`);
 
-      // 3. Cargar el archivo del chunk
       const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
       if (!chunkResponse.ok) throw new Error(`No se pudo cargar el archivo de chunk ${chunkFile}`);
       
@@ -118,94 +138,143 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       console.log(`Diccionario cargado: ${allWords.length} palabras`);
       
-      await renderDictionary();
+      renderDictionary();
       
       skeleton.style.display = 'none';
       loading.style.display = 'none';
       error.style.display = 'none';
-      content.style.display = 'block';
+      contentEl.style.display = 'block';
       
     } catch (err) {
       console.error('Error cargando diccionario:', err);
       skeleton.style.display = 'none';
       loading.style.display = 'none';
-      content.style.display = 'none';
+      contentEl.style.display = 'none';
       error.style.display = 'block';
     }
   }
   
-  async function renderDictionary() {
+  function renderDictionary() {
     if (!dictionaryData) return;
     
     const letters = [...new Set(allWords.map(([word]) => word[0].toUpperCase()))].sort();
 
-    content.innerHTML = `
+    contentEl.innerHTML = `
       <div class="dictionary-header">
-        <h2>Vocabulario de ${dictionaryData.meta.languageName} - ${allWords.length} palabras</h2>
-        <div class="quick-stats">
-          <span>Lecciones: ${dictionaryData.meta.lessons.join(', ')}</span>
-          <span>Chunk: ${dictionaryData.meta.chunkId}</span>
-        </div>
+        <h2>Vocabulario de ${language}</h2>
+        <p>${allWords.length} palabras encontradas</p>
       </div>
-      
       <div class="search-section">
         <input type="text" id="word-search" placeholder="Buscar palabras..." />
-        <div class="alphabet-filter">
+        <div class="alphabet-filter" id="alphabet-filter">
+          <button class="letter-btn active" data-letter="all">Todos</button>
           ${letters.map(letter => 
-            `<button class="letter-btn" onclick="filterByLetter('${letter}')">${letter}</button>`
+            `<button class="letter-btn" data-letter="${letter}">${letter}</button>`
           ).join('')}
         </div>
       </div>
-      
       <div class="dictionary-grid" id="dictionary-grid">
-        ${allWords.map(([word, data]) => `
-          <div class="word-card" data-word="${word.toLowerCase()}" data-letter="${word[0].toUpperCase()}">
-            <h3 class="word-title">${word}</h3>
-            <div class="word-meta">
-              <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
-              <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
+        ${allWords.map(([word, data]) => {
+          const details = JSON.stringify(data).replace(/'/g, '&apos;');
+          return `
+            <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}">
+              <h3 class="word-title">${word}</h3>
+              <div class="word-meta">
+                <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
+                <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
+              </div>
             </div>
-          </div>
-        `).join('')}
+          `;
+        }).join('')}
       </div>
     `;
-    
-    setupSearch();
   }
-  
-  function setupSearch() {
+
+  function setupEventListeners() {
     const searchInput = document.getElementById('word-search');
-    const wordCards = document.querySelectorAll('.word-card');
-    
+    const dictionaryGrid = document.getElementById('dictionary-grid');
+    const alphabetFilter = document.getElementById('alphabet-filter');
+
     searchInput?.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
-      wordCards.forEach(card => {
-        const word = card.dataset.word;
-        const cardText = card.textContent.toLowerCase();
-        const visible = query === '' || word.includes(query) || cardText.includes(query);
-        
-        if (visible) {
-          card.classList.remove('hidden');
-          visibleCount++;
-        } else {
-          card.classList.add('hidden');
-        }
+      document.querySelectorAll('.word-card').forEach(card => {
+        const word = card.dataset.wordRaw.toLowerCase();
+        card.style.display = word.includes(query) ? '' : 'none';
       });
+      alphabetFilter.querySelector('.active')?.classList.remove('active');
+    });
+
+    alphabetFilter?.addEventListener('click', (e) => {
+        if (e.target.tagName !== 'BUTTON') return;
+        const letter = e.target.dataset.letter;
+
+        alphabetFilter.querySelector('.active')?.classList.remove('active');
+        e.target.classList.add('active');
+
+        document.querySelectorAll('.word-card').forEach(card => {
+            if (letter === 'all' || card.dataset.letter === letter) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        searchInput.value = '';
+    });
+
+    dictionaryGrid?.addEventListener('click', (e) => {
+      const card = e.target.closest('.word-card');
+      if (card) {
+        const details = JSON.parse(card.dataset.wordDetails.replace(/&apos;/g, "'"));
+        showWordDetails(card.dataset.wordRaw, details);
+      }
     });
   }
-  
-  window.filterByLetter = function(letter) {
-    const wordCards = document.querySelectorAll('.word-card');
-    wordCards.forEach(card => {
-      card.style.display = card.dataset.letter === letter ? 'block' : 'none';
+
+  function showWordDetails(word, data) {
+    let detailsHtml = `<h2>${word}</h2>`;
+
+    data.entries.forEach((entry, index) => {
+        detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
+        detailsHtml += `<p><strong>Significado ${index + 1}:</strong> ${entry.meaning}</p>`;
+        
+        const translations = entry.allTranslations || entry.translations;
+        if (translations) {
+            detailsHtml += '<h4>Traducciones:</h4><ul>';
+            const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom', 'zh', 'zhPinyin'];
+            langOrder.forEach(lang => {
+                if (translations[lang]) {
+                    detailsHtml += `<li><strong>${lang}:</strong> ${translations[lang]}</li>`;
+                }
+            });
+            detailsHtml += '</ul>';
+        }
+
+        detailsHtml += `<p><a href="${baseURL}blog/${entry.source}/" class="post-link">Ver en la lección del día ${entry.day}</a></p>`;
+        detailsHtml += `</div>`;
     });
-    document.querySelectorAll('.letter-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.textContent === letter);
-    });
-  };
+
+    modalBody.innerHTML = detailsHtml;
+    modal.style.display = 'flex';
+  }
+
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+
+  closeModalBtn?.addEventListener('click', closeModal);
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+
+  async function init() {
+    await loadDictionaryData();
+    setupEventListeners();
+  }
+
+  window.retryLoad = init;
   
-  window.retryLoad = loadDictionaryData;
-  
-  loadDictionaryData();
+  init();
 });
 </script>
