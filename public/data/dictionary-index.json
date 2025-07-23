@@ -1,134 +1,134 @@
 {
   "meta": {
-    "totalWords": 239,
-    "totalEntries": 383,
+    "totalWords": 203,
+    "totalEntries": 251,
     "totalLanguages": 8,
     "totalLessons": 12,
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
     "es": {
       "name": "español",
       "code": "es",
-      "file": "spanish.json"
+      "file": "es.json"
     },
     "en": {
       "name": "english",
       "code": "en",
-      "file": "english.json"
+      "file": "en.json"
     },
     "de": {
       "name": "deutsch",
       "code": "de",
-      "file": "german.json"
+      "file": "de.json"
     },
     "pt": {
       "name": "português",
       "code": "pt",
-      "file": "portuguese.json"
+      "file": "pt.json"
     },
     "ru": {
       "name": "русский",
       "code": "ru",
-      "file": "russian.json"
+      "file": "ru.json"
     },
     "ruRom": {
       "name": "русский романизированный",
       "code": "ru-rom",
-      "file": "russian-rom.json"
+      "file": "ru-rom.json"
     },
     "zh": {
       "name": "中文",
       "code": "zh",
-      "file": "chinese.json"
+      "file": "zh.json"
     },
     "zhPinyin": {
       "name": "中文 pinyin",
       "code": "zh-pinyin",
-      "file": "chinese-pinyin.json"
+      "file": "zh-pinyin.json"
     }
   },
   "partitions": {
     "es": {
-      "words": 239,
-      "fileSize": 203413,
-      "filePath": "spanish.json"
+      "words": 203,
+      "fileSize": 174168,
+      "filePath": "es.json"
     },
     "en": {
-      "words": 292,
-      "fileSize": 213426,
-      "filePath": "english.json"
+      "words": 237,
+      "fileSize": 184232,
+      "filePath": "en.json"
     },
     "de": {
-      "words": 295,
-      "fileSize": 214023,
-      "filePath": "german.json"
+      "words": 241,
+      "fileSize": 184095,
+      "filePath": "de.json"
     },
     "pt": {
-      "words": 295,
-      "fileSize": 214569,
-      "filePath": "portuguese.json"
+      "words": 240,
+      "fileSize": 178123,
+      "filePath": "pt.json"
     },
     "ru": {
-      "words": 293,
-      "fileSize": 214469,
-      "filePath": "russian.json"
+      "words": 238,
+      "fileSize": 185853,
+      "filePath": "ru.json"
     },
     "ruRom": {
-      "words": 297,
-      "fileSize": 215153,
-      "filePath": "russian-rom.json"
+      "words": 244,
+      "fileSize": 187858,
+      "filePath": "ru-rom.json"
     },
     "zh": {
-      "words": 292,
-      "fileSize": 214158,
-      "filePath": "chinese.json"
+      "words": 237,
+      "fileSize": 176807,
+      "filePath": "zh.json"
     },
     "zhPinyin": {
-      "words": 295,
-      "fileSize": 209462,
-      "filePath": "chinese-pinyin.json"
+      "words": 238,
+      "fileSize": 175614,
+      "filePath": "zh-pinyin.json"
     }
   },
   "stats": {
-    "totalEntries": 383,
-    "totalUniqueWords": 239,
+    "totalEntries": 251,
+    "totalUniqueWords": 203,
     "byLanguage": {
-      "es": 239,
-      "en": 292,
-      "de": 295,
-      "pt": 295,
-      "ru": 293,
-      "ruRom": 297,
-      "zh": 292,
-      "zhPinyin": 295
+      "es": 203,
+      "en": 237,
+      "de": 241,
+      "pt": 240,
+      "ru": 238,
+      "ruRom": 244,
+      "zh": 237,
+      "zhPinyin": 238
     },
     "byLesson": {
-      "Día 0": 26,
+      "Día 0": 3,
       "Día 1": 10,
       "Día 2": 10,
-      "Día 3": 31,
-      "Día 4": 31,
-      "Día 5": 46,
-      "Día 6": 44,
-      "Día 7": 61,
-      "Día 8": 30,
-      "Día 9": 30,
-      "Día 10": 31,
-      "Día 11": 33
+      "Día 3": 22,
+      "Día 4": 17,
+      "Día 5": 23,
+      "Día 6": 30,
+      "Día 7": 47,
+      "Día 8": 23,
+      "Día 9": 21,
+      "Día 10": 23,
+      "Día 11": 22
     },
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "build-dictionary.mjs v1.0"
   },
   "routes": {
-    "es": "./lang/spanish.json",
-    "en": "./lang/english.json",
-    "de": "./lang/german.json",
-    "pt": "./lang/portuguese.json",
-    "ru": "./lang/russian.json",
-    "ru-rom": "./lang/russian-rom.json",
-    "zh": "./lang/chinese.json",
-    "zh-pinyin": "./lang/chinese-pinyin.json"
+    "es": "./lang/es.json",
+    "en": "./lang/en.json",
+    "de": "./lang/de.json",
+    "pt": "./lang/pt.json",
+    "ru": "./lang/ru.json",
+    "ru-rom": "./lang/ru-rom.json",
+    "zh": "./lang/zh.json",
+    "zh-pinyin": "./lang/zh-pinyin.json"
   }
 }

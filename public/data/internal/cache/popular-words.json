@@ -5,134 +5,30 @@
     "isPublic": false
   },
   "meta": {
-    "totalWords": 1569,
+    "totalWords": 1358,
     "topWords": 50,
-    "minFrequency": 3,
-    "maxFrequency": 19
+    "minFrequency": 2,
+    "maxFrequency": 16
   },
   "words": [
     {
       "word": "Estructura",
-      "frequency": 19
+      "frequency": 16
     },
     {
       "word": "Ejemplo",
-      "frequency": 14
-    },
-    {
-      "word": "Salvador Allende",
-      "frequency": 10
-    },
-    {
-      "word": "Anna Smirnova",
-      "frequency": 10
-    },
-    {
-      "word": "Mao Zedong",
-      "frequency": 8
-    },
-    {
-      "word": "Hanns Eisler",
-      "frequency": 8
-    },
-    {
-      "word": "Hollywood, 1933-1948",
-      "frequency": 8
-    },
-    {
-      "word": "Leipzig, 1898",
-      "frequency": 8
-    },
-    {
-      "word": "Orden",
-      "frequency": 6
+      "frequency": 12
     },
     {
       "word": "Expresión",
       "frequency": 6
     },
     {
-      "word": "Resistencia",
-      "frequency": 6
-    },
-    {
-      "word": "República de Weimar",
-      "frequency": 6
-    },
-    {
-      "word": "Anarquismo",
-      "frequency": 6
-    },
-    {
-      "word": "Bund",
-      "frequency": 6
-    },
-    {
-      "word": "Antifascismo",
-      "frequency": 6
-    },
-    {
-      "word": "Frente Popular",
-      "frequency": 6
-    },
-    {
-      "word": "Nacimiento",
+      "word": "Anna Smirnova",
       "frequency": 5
     },
     {
-      "word": "Revolución Cultural",
-      "frequency": 5
-    },
-    {
-      "word": "Primera Internacional",
-      "frequency": 5
-    },
-    {
-      "word": "SVO",
-      "frequency": 5
-    },
-    {
-      "word": "Befreiung",
-      "frequency": 5
-    },
-    {
-      "word": "Unidad Popular",
-      "frequency": 4
-    },
-    {
-      "word": "Vía chilena",
-      "frequency": 4
-    },
-    {
-      "word": "Años de plomo",
-      "frequency": 4
-    },
-    {
-      "word": "Contestación",
-      "frequency": 4
-    },
-    {
-      "word": "Movimiento estudiantil",
-      "frequency": 4
-    },
-    {
-      "word": "Exilio",
-      "frequency": 4
-    },
-    {
-      "word": "Liberación",
-      "frequency": 4
-    },
-    {
-      "word": "Ocupación nazi",
-      "frequency": 4
-    },
-    {
-      "word": "Partisanos",
-      "frequency": 4
-    },
-    {
-      "word": "Guardia Roja",
+      "word": "Orden",
       "frequency": 4
     },
     {
@@ -144,51 +40,19 @@
       "frequency": 4
     },
     {
-      "word": "fascismo",
-      "frequency": 4
-    },
-    {
-      "word": "Revolución Industrial",
-      "frequency": 4
-    },
-    {
-      "word": "Reich",
-      "frequency": 4
-    },
-    {
-      "word": "Solidaridad obrera",
-      "frequency": 4
-    },
-    {
-      "word": "Art+N + V + N + Prep+N",
-      "frequency": 4
-    },
-    {
-      "word": "259 empresas",
-      "frequency": 4
-    },
-    {
       "word": "SVO + pasiva",
       "frequency": 4
     },
     {
-      "word": "2.900 horas",
+      "word": "Hanns Eisler",
       "frequency": 4
     },
     {
-      "word": "45 universidades",
+      "word": "Hollywood, 1933-1948",
       "frequency": 4
     },
     {
-      "word": "3.000.000 resistentes",
-      "frequency": 4
-    },
-    {
-      "word": "50.000 comunistas",
-      "frequency": 4
-    },
-    {
-      "word": "8 óperas modelo",
+      "word": "Leipzig, 1898",
       "frequency": 4
     },
     {
@@ -196,21 +60,157 @@
       "frequency": 4
     },
     {
-      "word": "Segunda Guerra Mundial",
-      "frequency": 4
-    },
-    {
-      "word": "Widerstand",
-      "frequency": 4
-    },
-    {
-      "word": "1917",
+      "word": "para",
       "frequency": 3
     },
     {
-      "word": "1936",
+      "word": "3.000",
       "frequency": 3
+    },
+    {
+      "word": "Art + Sust + Part + Adv + Fut.Pas",
+      "frequency": 3
+    },
+    {
+      "word": "día + de + mes + de + año",
+      "frequency": 3
+    },
+    {
+      "word": "people",
+      "frequency": 3
+    },
+    {
+      "word": "liberation",
+      "frequency": 3
+    },
+    {
+      "word": "Verbo + infinitivo + prep + lugar",
+      "frequency": 3
+    },
+    {
+      "word": "SVO estándar",
+      "frequency": 3
+    },
+    {
+      "word": "Volk",
+      "frequency": 3
+    },
+    {
+      "word": "Befreiung",
+      "frequency": 3
+    },
+    {
+      "word": "povo",
+      "frequency": 3
+    },
+    {
+      "word": "libertação",
+      "frequency": 3
+    },
+    {
+      "word": "народ",
+      "frequency": 3
+    },
+    {
+      "word": "освобождение",
+      "frequency": 3
+    },
+    {
+      "word": "团结",
+      "frequency": 3
+    },
+    {
+      "word": "Duración",
+      "frequency": 2
+    },
+    {
+      "word": "mil novecientos diecisiete",
+      "frequency": 2
+    },
+    {
+      "word": "mil ochocientos setenta y uno",
+      "frequency": 2
+    },
+    {
+      "word": "Víctimas",
+      "frequency": 2
+    },
+    {
+      "word": "mil novecientos setenta",
+      "frequency": 2
+    },
+    {
+      "word": "pueblo",
+      "frequency": 2
+    },
+    {
+      "word": "unidad",
+      "frequency": 2
+    },
+    {
+      "word": "Exilio",
+      "frequency": 2
+    },
+    {
+      "word": "liberación",
+      "frequency": 2
+    },
+    {
+      "word": "Nacimiento",
+      "frequency": 2
+    },
+    {
+      "word": "resistencia",
+      "frequency": 2
+    },
+    {
+      "word": "Desde",
+      "frequency": 2
+    },
+    {
+      "word": "Revolución Cultural",
+      "frequency": 2
+    },
+    {
+      "word": "fascismo",
+      "frequency": 2
+    },
+    {
+      "word": "proletario",
+      "frequency": 2
+    },
+    {
+      "word": "cantamos",
+      "frequency": 2
+    },
+    {
+      "word": "eighteen seventy-one",
+      "frequency": 2
+    },
+    {
+      "word": "nineteen seventeen",
+      "frequency": 2
+    },
+    {
+      "word": "259 empresas",
+      "frequency": 2
+    },
+    {
+      "word": "nineteen seventy",
+      "frequency": 2
+    },
+    {
+      "word": "unity",
+      "frequency": 2
+    },
+    {
+      "word": "2.900 horas",
+      "frequency": 2
+    },
+    {
+      "word": "45 universidades",
+      "frequency": 2
     }
   ],
-  "generated": "2025-07-23T17:15:19.184Z"
+  "generated": "2025-07-23T18:02:28.801Z"
 }

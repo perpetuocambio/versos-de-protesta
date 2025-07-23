@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm install && node scripts/build-dictionary.mjs && node scripts/chunk-dictionary-for-scale.mjs && node scripts/migrate-to-internal-structure.mjs && npx astro build",
+    "build": "npm install && node scripts/build-dictionary.mjs && node scripts/partition-dictionary.mjs && node scripts/chunk-dictionary-for-scale.mjs && node scripts/migrate-to-internal-structure.mjs && npx astro build",
     "preview": "astro preview",
     "astro": "astro",
     "build-dictionary": "node scripts/build-dictionary.mjs",

@@ -26,18 +26,32 @@ class ChunkedDictionary {
         // Durante desarrollo
         path.resolve(__dirname, '../../public/data/internal/v1/dictionary'),
         // Path relativo como fallback
-        path.resolve('public/data/internal/v1/dictionary')
+        path.resolve('public/data/internal/v1/dictionary'),
+        // Para cuando estamos en subdirectorios
+        path.resolve(__dirname, '../../../public/data/internal/v1/dictionary')
       ];
+      
+      console.log('🔍 Buscando dictionary path entre:', possiblePaths);
       
       // Usar el primer path que exista
       this.serverBasePath = possiblePaths.find(p => {
         try {
           const fs = require('fs');
-          return fs.existsSync(p);
-        } catch {
+          const exists = fs.existsSync(p);
+          console.log(`  ${exists ? '✅' : '❌'} ${p}`);
+          return exists;
+        } catch (e) {
+          console.log(`  ❌ ${p} (error: ${e.message})`);
           return false;
         }
-      }) || possiblePaths[0];
+      });
+      
+      if (!this.serverBasePath) {
+        console.error('❌ No se encontró ningún path válido para dictionary');
+        this.serverBasePath = possiblePaths[0]; // fallback
+      } else {
+        console.log(`✅ Dictionary path seleccionado: ${this.serverBasePath}`);
+      }
     }
   }
 

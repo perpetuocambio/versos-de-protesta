@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "totalWords": 203,
+    "totalEntries": 251,
+    "totalLanguages": 8,
+    "totalLessons": 12,
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
+    "generatedBy": "partition-dictionary.mjs v1.0"
+  },
+  "languages": {
+    "es": {
+      "count": 203,
+      "sample": [
+        "1897",
+        "11 de septiembre",
+        "12 horas laborales",
+        "27 millones",
+        "274 células",
+        "280 teatros prohibidos",
+        "30.000 militantes",
+        "37% votos nazis",
+        "5 idiomas",
+        "6 millones"
+      ]
+    },
+    "en": {
+      "count": 237,
+      "sample": [
+        "¡En pie, los anarquistas!",
+        "(Él) necesita comida",
+        "1,5 millones",
+        "1.000.000 combatientes",
+        "1.200 publicaciones",
+        "10.000 intelectuales",
+        "11 de septiembre de 1973",
+        "15.000 sabotajes",
+        "2.900 horas",
+        "20 millones jóvenes"
+      ]
+    },
+    "de": {
+      "count": 241,
+      "sample": [
+        "1,000,000 fighters",
+        "1,200 publications",
+        "1.5 million",
+        "10,000 intellectuals",
+        "11. September",
+        "15,000 sabotages",
+        "1929 Crisis",
+        "2,900 hours",
+        "20 million youth",
+        "200,000 people"
+      ]
+    },
+    "pt": {
+      "count": 240,
+      "sample": [
+        "1949",
+        "1,5 Millionen",
+        "1.000.000 Kämpfer",
+        "1.200 Publikationen",
+        "10.000 Intellektuelle",
+        "11 de setembro",
+        "11. September 1973",
+        "15.000 Sabotageakte",
+        "1897 wurde der Bund gegründet",
+        "2.900 Stunden"
+      ]
+    },
+    "ru": {
+      "count": 238,
+      "sample": [
+        "1,5 milhões",
+        "1.000.000 combatentes",
+        "1.200 publicações",
+        "10.000 intelectuais",
+        "11 сентября",
+        "11 de setembro de 1973",
+        "15.000 sabotagens",
+        "2.900 horas",
+        "20 milhões jovens",
+        "200.000 pessoas"
+      ]
+    },
+    "ruRom": {
+      "count": 244,
+      "sample": [
+        "1.000.000 партизан",
+        "1.200 изданий",
+        "10.000 интеллектуалов",
+        "11 sentyabrya",
+        "11 сентября 1973 года",
+        "15.000 диверсий",
+        "2.900 часов",
+        "20 миллионов молодёжи",
+        "200.000 человек",
+        "259 предприятий"
+      ]
+    },
+    "zh": {
+      "count": 237,
+      "sample": [
+        "1.000.000 partizan",
+        "1.200 izdaniy",
+        "10.000 intellektualov",
+        "11 sentyabrya 1973 goda",
+        "15.000 diversiy",
+        "2.900 chasov",
+        "20 millionov molodyozhi",
+        "200.000 chelovek",
+        "259 predpriyatiy",
+        "3.000 mostov"
+      ]
+    },
+    "zhPinyin": {
+      "count": 238,
+      "sample": [
+        "100万游击队",
+        "1200种地下刊物",
+        "1897年崩得成立了",
+        "1929年危机",
+        "1973年9月11日",
+        "1万5千次破坏",
+        "1万知识分子",
+        "20万人",
+        "259家企业",
+        "2900小时"
+      ]
+    }
+  },
+  "loadFrom": "./dictionary-index.json"
+}

@@ -26,24 +26,81 @@ async function extractVocabularyFromMarkdown(filePath) {
 
     const vocabulary = [];
     
-    // Regex mejorada para encontrar tablas de vocabulario multilingües
-    // Busca diferentes formatos de tabla con al menos 6 idiomas
+    // SOLO procesar tablas de vocabulario legítimas
     const tableRegexes = [
-      // Formato con IPA: | Español | English [IPA] | Deutsch [IPA] |...
+      // Formato con IPA: | Español | English [IPA] | ... (8 columnas exactas)
       /\|\s*Español\s*\|\s*English\s*\[IPA\]\s*\|\s*Deutsch\s*\[IPA\]\s*\|\s*Português\s*\[IPA\]\s*\|\s*Русский\s*\[IPA\]\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\[IPA\]\s*\|\s*Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
       
-      // Formato simple: | Español | English | Deutsch |...
-      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*(?:\w+\s*\|)?\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
-      
-      // Formato con conceptos: | Concepto | Español | English |...
-      /\|\s*Concepto\s*\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
+      // Formato simple con exactamente 8 columnas de idiomas
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
+    ];
+
+    // TABLAS A EXCLUIR COMPLETAMENTE (metadata, no vocabulario)
+    const excludedTablePatterns = [
+      // Tablas con información conceptual/regional - versión más flexible
+      /\|\s*Región\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Concepto\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Elemento\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Año\s*\|\s*Evento\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Fecha\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Periodo\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Estructura\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Orden\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*País\s*\|.*?\|\s*Español\s*\|/gi,
+      /\|\s*Tradición\s*\|.*?\|\s*Español\s*\|/gi,
+      // Patrones adicionales para detectar tablas metadata
+      /TRADICIONES\s+MUSICALES\s+OBRERAS/gi,
+      /CARACTERÍSTICAS\s+MUSICALES/gi,
+      /EXPRESAR.*?EN\s+\d+\s+IDIOMAS/gi
     ];
     
     // Intentar con cada regex hasta encontrar coincidencias
     let allMatches = [];
     for (const regex of tableRegexes) {
       const matches = [...content.matchAll(regex)];
-      allMatches.push(...matches);
+      // Filtrar matches verificando el contexto completo
+      const validMatches = matches.filter(match => {
+        const fullMatch = match[0];
+        const matchIndex = match.index;
+        
+        // Extraer contexto anterior (300 caracteres) para buscar headers problemáticos
+        const contextBefore = content.substring(Math.max(0, matchIndex - 300), matchIndex);
+        
+        // Verificar si está precedido por headers problemáticos
+        const hasProblematicHeader = [
+          /\|\s*Región\s*\|/i,
+          /\|\s*Concepto\s*\|/i, 
+          /\|\s*Elemento\s*\|/i,
+          /\|\s*Año\s*\|\s*Evento\s*\|/i,
+          /TRADICIONES.*MUSICALES/i,
+          /CARACTERÍSTICAS.*MUSICALES/i,
+          /CONJUGACIÓN.*COMPLETA/i,
+          /CONJUGAÇÃO.*COMPLETA/i,
+          /VERBO.*CONJUGAR/i
+        ].some(pattern => pattern.test(contextBefore));
+        
+        // Verificar si el contenido de la tabla contiene formas conjugadas
+        const hasConjugationContent = fullMatch.includes('cantáis') || 
+                                    fullMatch.includes('cantamos') || 
+                                    fullMatch.includes('cantan') ||
+                                    fullMatch.includes('1ª sing') ||
+                                    fullMatch.includes('2ª pl') ||
+                                    fullMatch.includes('3ª pl');
+        
+        // También verificar el contenido de la tabla
+        const hasProblematicContent = excludedTablePatterns.some(excludePattern => 
+          excludePattern.test(fullMatch)
+        );
+        
+        const isExcluded = hasProblematicHeader || hasProblematicContent || hasConjugationContent;
+        
+        if (isExcluded) {
+          console.log(`   🚫 Tabla excluida - header/contexto problemático: ${fullMatch.split('\n')[0]}`);
+        }
+        
+        return !isExcluded;
+      });
+      allMatches.push(...validMatches);
     }
     
     for (const tableMatch of allMatches) {
@@ -69,28 +126,85 @@ async function extractVocabularyFromMarkdown(filePath) {
             .trim();
         };
 
+        // Función para detectar contenido no-vocabulario
+        const isNonVocabularyContent = (text) => {
+          const nonVocabPatterns = [
+            /^\d{4}-\d{4}$/, // Rangos de años: 1840-1945
+            /^\d{4}-presente$/, // Fechas hasta presente: 1840-presente
+            /^Art\+N.*Prep\+N$/, // Estructuras gramaticales: Art+N + V + N + Prep+N
+            /^SVO$/, // Órdenes sintácticos: SVO
+            /^[A-Z]{2,}$/, // Abreviaciones: SVO, SOV, etc.
+            /^\d+ª\s+(sing|plur)$/, // Formas gramaticales: 3ª sing, 2ª pl
+            /^(Periodo|Tradición|Función|Región|Estructura|Orden)\s+/i, // Conceptos descriptivos
+            /^(himnos|canciones|resistencia|protestas)\s+/i, // Descripciones históricas generales
+            /,\s*(himnos|canciones|resistencia|protestas)/i, // Listas descriptivas
+            /^(Presente|Pretérito|Imperfecto|Futuro|Pasado|Perfecto)$/i, // Tiempos verbales
+            /^(yo|tú|él|ella|nosotros|vosotros|ellos|ellas)$/i, // Pronombres de conjugación
+            /^(I|you|he|she|we|they)\s+(sing|sang|will)/i, // Conjugaciones inglesas
+            /^(ich|du|er|sie|wir|ihr)\s+(singe|singst|singt)/i // Conjugaciones alemanas
+          ];
+          
+          return nonVocabPatterns.some(pattern => pattern.test(text.trim()));
+        };
+
         // Manejar diferentes formatos de tabla
         let entry = null;
         
         if (cells.length >= 9 && cells[0].toLowerCase() !== 'concepto') {
-          // Formato con IPA o formato simple con 8+ columnas
-          entry = {
-            es: cleanCell(cells[0]),
-            en: cleanCell(cells[1]), 
-            de: cleanCell(cells[2]),
-            pt: cleanCell(cells[3]),
-            ru: cleanCell(cells[4]),
-            ruRom: cleanCell(cells[5]),
-            zh: cleanCell(cells[6]),
-            zhPinyin: cleanCell(cells[7]),
-            source: fileName,
-            day: day,
-            filePath: filePath
-          };
-        } else if (cells.length >= 9 && cells[0].toLowerCase() === 'concepto') {
-          // Formato con concepto (omitir primera columna)
-          entry = {
-            es: cleanCell(cells[1]),
+          // Detectar tabla con formato "Año | Evento | Idiomas..." (10 columnas)
+          const hasEventColumn = cells.length >= 10;
+          
+          if (hasEventColumn) {
+            // Formato: | Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+            entry = {
+              es: cleanCell(cells[2]), // Saltar año y evento
+              en: cleanCell(cells[3]), 
+              de: cleanCell(cells[4]),
+              pt: cleanCell(cells[5]),
+              ru: cleanCell(cells[6]),
+              ruRom: cleanCell(cells[7]),
+              zh: cleanCell(cells[8]),
+              zhPinyin: cleanCell(cells[9]),
+              source: fileName,
+              day: day,
+              filePath: filePath,
+              originalKey: cleanCell(cells[0]), // Mantener la clave original (año)
+              context: cleanCell(cells[1]) // Mantener el contexto (evento)
+            };
+          } else {
+            // Formato simple: | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+            entry = {
+              es: cleanCell(cells[0]),
+              en: cleanCell(cells[1]), 
+              de: cleanCell(cells[2]),
+              pt: cleanCell(cells[3]),
+              ru: cleanCell(cells[4]),
+              ruRom: cleanCell(cells[5]),
+              zh: cleanCell(cells[6]),
+              zhPinyin: cleanCell(cells[7]),
+              source: fileName,
+              day: day,
+              filePath: filePath
+            };
+          }
+        } else if (cells.length >= 9) {
+          // Detectar si primera columna es descriptiva (concepto/categoría)
+          const firstCell = cleanCell(cells[0]).toLowerCase();
+          const isDescriptiveFirstColumn = 
+            firstCell.includes('concepto') || 
+            firstCell.includes('tradición') || 
+            firstCell.includes('periodo') || 
+            firstCell.includes('función') || 
+            firstCell.includes('región') ||
+            firstCell.includes('social') ||
+            firstCell.includes('clave') ||
+            cells[0].includes('**') || // Si está en bold, probablemente es descriptivo
+            /^\*\*.*\*\*$/.test(cells[0].trim()); // Detectar formato **texto**
+          
+          if (isDescriptiveFirstColumn) {
+            // Formato: | Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+            entry = {
+              es: cleanCell(cells[1]),
             en: cleanCell(cells[2]), 
             de: cleanCell(cells[3]),
             pt: cleanCell(cells[4]),
@@ -102,6 +216,22 @@ async function extractVocabularyFromMarkdown(filePath) {
             day: day,
             filePath: filePath
           };
+          } else {
+            // No es descriptivo, usar formato directo con 9 columnas
+            entry = {
+              es: cleanCell(cells[0]),
+              en: cleanCell(cells[1]), 
+              de: cleanCell(cells[2]),
+              pt: cleanCell(cells[3]),
+              ru: cleanCell(cells[4]),
+              ruRom: cleanCell(cells[5]),
+              zh: cleanCell(cells[6]),
+              zhPinyin: cleanCell(cells[7]),
+              source: fileName,
+              day: day,
+              filePath: filePath
+            };
+          }
         } else if (cells.length >= 8) {
           // Formato simple de 8 columnas
           entry = {
@@ -119,9 +249,20 @@ async function extractVocabularyFromMarkdown(filePath) {
           };
         }
 
-        // Validar y agregar entrada
+        // Validar y agregar entrada SOLO si es vocabulario real
         if (entry && entry.es && entry.en && entry.de && entry.pt && entry.ru) {
-          vocabulary.push(entry);
+          // Verificar que no sea contenido no-vocabulario
+          const isValidVocabulary = !isNonVocabularyContent(entry.es) &&
+                                   !isNonVocabularyContent(entry.en) &&
+                                   entry.es.length > 0 && 
+                                   entry.en.length > 0 &&
+                                   entry.es !== entry.en; // Evitar traducciones idénticas
+          
+          if (isValidVocabulary) {
+            vocabulary.push(entry);
+          } else {
+            console.log(`   ⚠️ Contenido excluido (no es vocabulario): "${entry.es}" -> "${entry.en}"`);
+          }
         }
       }
     }

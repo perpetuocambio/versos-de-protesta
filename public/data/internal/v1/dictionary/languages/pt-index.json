@@ -9,12 +9,12 @@
   "meta": {
     "language": "português",
     "code": "pt",
-    "wordCount": 295,
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "wordCount": 240,
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 400
+    "estimatedLoadTimeMs": 332
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 295,
-      "sizeKB": 200,
+      "wordCount": 228,
+      "sizeKB": 166,
       "path": "/internal/v1/dictionary/chunks/pt-lessons-0-11.json"
     }
   ],
@@ -60,337 +60,337 @@
         ]
       },
       {
-        "word": "1.000.000 Kämpfer",
+        "word": "mil novecentos e dezassete",
         "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mil novecentos e setenta",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mil oitocentos e setenta e um",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "proletário",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "resistência",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "unidade",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1949",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1,5 Millionen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1.000.000 Kämpfer",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "1.200 Publikationen",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "10.000 Intellektuelle",
-        "frequency": 2,
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "11 de setembro",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "11. September 1973",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "15.000 Sabotageakte",
-        "frequency": 2,
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1897 wurde der Bund gegründet",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "2.900 Stunden",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "20 Millionen Jugendliche",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "200.000 Menschen",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200+ Kompositionen",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "259 Unternehmen",
-        "frequency": 2,
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "3.000",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "3.000 Brücken",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "3.000.000 Widerstand",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "300.000 Kämpfer",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "300.000 Mitglieder",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "380.000 Kämpfer",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "4.402 Güter",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "400.000 Kämpfer",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "45 Universitäten",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "50.000 Kommunisten",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "500.000 Menschen",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "500+ Kompositionen",
-        "frequency": 2,
+        "word": "70% in Katalonien",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "8 Musteropern",
-        "frequency": 2,
+        "word": "70er Jahre in Italien",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "800 Millionen Hörer",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "800.000 Kämpfer",
-        "frequency": 2,
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Abolitionistische Spirituals (1850), IWW-Lieder (Joe Hill), Protest-Folk",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ação direta",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Achthundertzweiundsiebzig Tage",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Anarchismus",
-        "frequency": 2,
+        "word": "Achtzehnter März achtzehnhunderteinundsiebzig",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Adoção como hino guerra",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Am siebzehnten Juli neunzehnhundertsechsunddreißig begann der Bürgerkrieg",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "amanhecer",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Anna Smirnova",
-        "frequency": 2,
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Antifaschismus",
-        "frequency": 2,
+        "word": "April",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Arbeitersolidarität",
-        "frequency": 2,
+        "word": "Art + Part + Sust + Adv + Fut.Pas",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Aufstieg des Nazismus",
-        "frequency": 2,
+        "word": "Artículo + sustantivo + número ordinal",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Befreiung",
-        "frequency": 2,
+        "word": "auf",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Bleijaren",
-        "frequency": 2,
+        "word": "auf + die + Anarchisten",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Chilenischer Weg",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Chinesische Kulturrevolution",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Dreißigtausend Militante",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "eighteen seventy-one",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Einheitsfront",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Erste Internationale",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "fascismo",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Fünf Hauptsprachen",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Großer Sprung nach vorn, 1958",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Hanns Eisler",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Hollywood, 1933-1948",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Industrielle Revolution",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Jüdische Diaspora",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Jüdischer Arbeiterbund",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "KPD Deutschland",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Kulturrevolution, 1966",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Leipzig, 1898",
-        "frequency": 2,
+        "word": "Auf, die Anarchisten!",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]

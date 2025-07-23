@@ -52,37 +52,40 @@ const availableLangs = {
   'zh-pinyin': '中文 Pinyin'
 };
 
-// Pre-cargar datos del diccionario en server-side
-let dictionaryData = null;
+// En lugar de pre-cargar todo, solo verificamos que el diccionario existe
+let dictionaryAvailable = false;
+let dictionaryError = null;
+
 try {
-  const result = await chunkedDictionary.getAllWords(lang);
-  dictionaryData = {
-    meta: {
-      language: availableLangs[lang],
-      wordCount: result.meta.totalWords,
-      chunksLoaded: result.meta.chunksLoaded,
-      lastUpdated: result.meta.generated,
-      optimized: true
-    },
-    index: {
-      popular: Object.entries(result.words)
-        .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
-        .slice(0, 50)
-        .map(([word]) => word),
-      recent: Object.entries(result.words)
-        .sort((a, b) => Math.max(...(b[1].lessons || [0])) - Math.max(...(a[1].lessons || [0])))
-        .slice(0, 100)
-        .map(([word]) => word),
-      letters: generateAlphabetIndex(result.words)
-    },
-    words: result.words
-  };
+  console.log(`🔍 Verificando disponibilidad de diccionario para: ${lang}`);
+  
+  // Solo verificar que el manifest existe
+  const manifest = await chunkedDictionary.loadManifest();
+  const langInfo = manifest.languages.find(l => l.code === lang);
+  
+  if (langInfo) {
+    dictionaryAvailable = true;
+    console.log(`✅ Diccionario disponible para ${lang}: ${langInfo.totalWords} palabras`);
+  } else {
+    throw new Error(`Idioma ${lang} no encontrado en manifest`);
+  }
+  
 } catch (error) {
-  console.error('Error pre-cargando diccionario:', error);
+  console.error(`❌ Error verificando diccionario para ${lang}:`, error);
+  dictionaryError = error.message;
 }
+
+console.log('📦 Estado de disponibilidad:', {
+  lang,
+  dictionaryAvailable,
+  dictionaryError
+});
 
 // Obtener información estimada del manifest
 const estimatedWords = languageInfo ? languageInfo.totalWords : 250;
+
+// Base URL para el cliente (se pasa al script)
+const baseUrl = import.meta.env.BASE_URL;
 
 // Breadcrumb items
 const breadcrumbItems = [
@@ -428,7 +431,7 @@ const breadcrumbItems = [
   }
 </style>
 
-<script define:vars={{ lang, availableLangs, dictionaryData }}>
+<script define:vars={{ lang, availableLangs, dictionaryAvailable, dictionaryError, baseUrl }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary-container');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -436,24 +439,94 @@ document.addEventListener('DOMContentLoaded', async function() {
   const loading = document.getElementById('loading-indicator');
   const error = document.getElementById('error-message');
   
+  // dictionaryData se carga dinámicamente via fetch
   let dictionaryData = null;
   let filteredWords = null;
   
   async function loadDictionaryData() {
     try {
-      console.log(`🚀 Cargando diccionario dinámico para: ${availableLangs[lang]}`);
+      console.log(`🚀 Cargando diccionario dinámico para: ${availableLangs[lang]} (${lang})`);
       
-      // Usar datos pre-cargados desde server-side
-      if (!dictionaryData) {
-        throw new Error('No hay datos de diccionario disponibles');
+      // Verificar disponibilidad
+      if (dictionaryError) {
+        console.error(`🚨 Error del servidor: ${dictionaryError}`);
+        throw new Error(`Error del servidor: ${dictionaryError}`);
       }
       
-      console.log(`✅ Diccionario cargado desde server-side: ${dictionaryData.meta.wordCount} palabras`);
+      if (!dictionaryAvailable) {
+        throw new Error('Diccionario no disponible en el servidor');
+      }
+      
+      // Mostrar loading después de 300ms si no ha cargado
+      const loadingTimeout = setTimeout(() => {
+        skeleton.style.display = 'none';
+        loading.style.display = 'flex';
+      }, 300);
+      
+      const startTime = performance.now();
+      
+      // Cargar datos directamente desde chunks usando fetch
+      // baseUrl se pasa desde el servidor para evitar import.meta
+      
+      console.log('🔍 Cargando manifest...');
+      const manifestResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks-manifest.json`);
+      if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest');
+      const manifest = await manifestResponse.json();
+      
+      const langInfo = manifest.languages.find(l => l.code === lang);
+      if (!langInfo) throw new Error(`Idioma ${lang} no encontrado`);
+      
+      console.log('🔍 Cargando chunk...');
+      const chunkFile = `${lang}-lessons-0-11.json`;
+      const chunkResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks/${chunkFile}`);
+      if (!chunkResponse.ok) throw new Error(`No se pudo cargar chunk: ${chunkFile}`);
+      const chunkData = await chunkResponse.json();
+      
+      // Procesar datos
+      dictionaryData = {
+        meta: {
+          language: availableLangs[lang],
+          wordCount: Object.keys(chunkData.words).length,
+          chunksLoaded: 1,
+          lastUpdated: chunkData.meta.generated,
+          optimized: true
+        },
+        index: {
+          popular: Object.entries(chunkData.words)
+            .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0))
+            .slice(0, 50)
+            .map(([word]) => word),
+          recent: Object.entries(chunkData.words)
+            .sort((a, b) => Math.max(...(b[1].lessons || [0])) - Math.max(...(a[1].lessons || [0])))
+            .slice(0, 100)
+            .map(([word]) => word),
+          letters: generateAlphabetIndex(chunkData.words)
+        },
+        words: chunkData.words
+      };
+      
+      // Función auxiliar para índice alfabético
+      function generateAlphabetIndex(words) {
+        const letters = {};
+        Object.keys(words).forEach(word => {
+          const firstChar = word.charAt(0).toUpperCase();
+          if (!letters[firstChar]) {
+            letters[firstChar] = [];
+          }
+          letters[firstChar].push(word);
+        });
+        return letters;
+      }
+      
+      const loadTime = performance.now() - startTime;
+      clearTimeout(loadingTimeout);
+      
+      console.log(`✅ Diccionario cargado en ${loadTime.toFixed(2)}ms: ${dictionaryData.meta.wordCount} palabras`);
       
       // Preparar palabras filtradas
       filteredWords = Object.entries(dictionaryData.words);
       
-      // Renderizar contenido inmediatamente
+      // Renderizar contenido
       await renderDictionary();
       
       // Transición suave
@@ -464,6 +537,27 @@ document.addEventListener('DOMContentLoaded', async function() {
       
     } catch (err) {
       console.error('❌ Error cargando diccionario:', err);
+      console.error('🔍 Estado de variables:', {
+        lang,
+        dictionaryAvailable,
+        dictionaryError,
+        availableLangs: availableLangs[lang]
+      });
+      
+      // Actualizar mensaje de error
+      const errorElement = document.getElementById('error-message');
+      if (errorElement) {
+        const errorDetails = errorElement.querySelector('p');
+        if (errorDetails) {
+          errorDetails.innerHTML = `
+            No se pudo cargar el vocabulario de ${availableLangs[lang]}.<br/>
+            <small style="color: #9CA3AF; margin-top: 8px; display: block;">
+              Error técnico: ${err.message}<br/>
+              Idioma: ${lang}
+            </small>
+          `;
+        }
+      }
       
       skeleton.style.display = 'none';
       loading.style.display = 'none';
@@ -674,6 +768,28 @@ document.addEventListener('DOMContentLoaded', async function() {
           word-break: break-word;
         }
         
+        .word-meaning {
+          margin-bottom: var(--space-md);
+          padding: var(--space-sm);
+          background: var(--color-border-light);
+          border-radius: var(--radius-sm);
+          border-left: 3px solid var(--color-revolutionary-red);
+        }
+        
+        .meaning-label {
+          font-weight: 600;
+          color: var(--color-text-primary);
+          font-size: 0.85rem;
+          display: block;
+          margin-bottom: var(--space-xs);
+        }
+        
+        .meaning-text {
+          color: var(--color-text-secondary);
+          font-style: italic;
+          font-size: 0.95rem;
+        }
+        
         .word-meta {
           color: var(--color-text-secondary);
           font-size: 0.9rem;
@@ -724,6 +840,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     return words.map(([word, data]) => `
       <div class="word-card" data-word="${word.toLowerCase()}">
         <h3 class="word-title">${word}</h3>
+        <div class="word-meaning">
+          <span class="meaning-label">Significado:</span>
+          <span class="meaning-text">${data.meaning || data.originalWord || word}</span>
+        </div>
         <div class="word-meta">
           <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
           <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>

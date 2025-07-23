@@ -7,9 +7,9 @@
   },
   "meta": {
     "totalLanguages": 8,
-    "totalWords": 239,
-    "totalEntries": 383,
-    "lastUpdated": "2025-07-23T17:15:19.171Z",
+    "totalWords": 203,
+    "totalEntries": 251,
+    "lastUpdated": "2025-07-23T18:02:28.789Z",
     "description": "Diccionario interno multilingüe de himnos obreros"
   },
   "languages": [
@@ -17,7 +17,7 @@
       "code": "es",
       "name": "Español",
       "nativeName": "Español",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "es.json",
       "flag": "🇪🇸"
     },
@@ -25,7 +25,7 @@
       "code": "en",
       "name": "English",
       "nativeName": "English",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "en.json",
       "flag": "🇬🇧"
     },
@@ -33,7 +33,7 @@
       "code": "de",
       "name": "Deutsch",
       "nativeName": "Deutsch",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "de.json",
       "flag": "🇩🇪"
     },
@@ -41,7 +41,7 @@
       "code": "pt",
       "name": "Português",
       "nativeName": "Português",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "pt.json",
       "flag": "🇵🇹"
     },
@@ -49,7 +49,7 @@
       "code": "ru",
       "name": "Русский",
       "nativeName": "Русский",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "ru.json",
       "flag": "🇷🇺"
     },
@@ -57,7 +57,7 @@
       "code": "ru-rom",
       "name": "Русский Rom.",
       "nativeName": "Russky Romanized",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "ru-rom.json",
       "flag": "🇷🇺"
     },
@@ -65,7 +65,7 @@
       "code": "zh",
       "name": "中文",
       "nativeName": "中文",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "zh.json",
       "flag": "🇨🇳"
     },
@@ -73,7 +73,7 @@
       "code": "zh-pinyin",
       "name": "中文 Pinyin",
       "nativeName": "Zhōngwén Pinyin",
-      "wordCount": 239,
+      "wordCount": 203,
       "file": "zh-pinyin.json",
       "flag": "🇨🇳"
     }

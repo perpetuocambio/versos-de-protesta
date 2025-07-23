@@ -9,12 +9,12 @@
   "meta": {
     "language": "中文 pinyin",
     "code": "zh-pinyin",
-    "wordCount": 295,
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "wordCount": 238,
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 396
+    "estimatedLoadTimeMs": 332
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 295,
-      "sizeKB": 198,
+      "wordCount": 238,
+      "sizeKB": 166,
       "path": "/internal/v1/dictionary/chunks/zh-pinyin-lessons-0-11.json"
     }
   ],
@@ -67,146 +67,6 @@
         ]
       },
       {
-        "word": "100万游击队",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1200种地下刊物",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1929年危机",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1万5千次破坏",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1万知识分子",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200多首歌曲",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20万人",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259家企业",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2900小时",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3000座桥梁",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300万抵抗者",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30万党员",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30万战士",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "38万战士",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "40万战士",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4402个庄园",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45所大学",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500多首歌曲",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "5万共产主义者",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "80万游击队",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "dǐkàng",
         "frequency": 2,
         "chunkNumbers": [
@@ -235,6 +95,13 @@
         ]
       },
       {
+        "word": "yī bā qī yī nián",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "yī jiǔ qī líng nián",
         "frequency": 2,
         "chunkNumbers": [
@@ -242,155 +109,288 @@
         ]
       },
       {
-        "word": "三万名激进分子",
+        "word": "yījiǔyīqī nián",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "两千万青年",
-        "frequency": 2,
+        "word": "100万游击队",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "中华人民共和国，1949年",
-        "frequency": 2,
+        "word": "1200种地下刊物",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "二千七百万",
-        "frequency": 2,
+        "word": "1897年崩得成立了",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "二百七十四个小组",
-        "frequency": 2,
+        "word": "1929年危机",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "二百八十个剧院",
-        "frequency": 2,
+        "word": "1973年9月11日",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "五十万知识分子",
-        "frequency": 2,
+        "word": "1万5千次破坏",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "五种主要语言",
-        "frequency": 2,
+        "word": "1万知识分子",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "人民团结",
-        "frequency": 2,
+        "word": "20万人",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "人民阵线",
-        "frequency": 2,
+        "word": "259家企业",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "从8%降至3%",
-        "frequency": 2,
+        "word": "2900小时",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "八个样板戏",
-        "frequency": 2,
+        "word": "3000座桥梁",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "八亿听众",
-        "frequency": 2,
+        "word": "300万抵抗者",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "八百七十二天",
-        "frequency": 2,
+        "word": "30万党员",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "六十万成员",
-        "frequency": 2,
+        "word": "30万战士",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "六百万失业者",
-        "frequency": 2,
+        "word": "38万战士",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "六百万犹太人",
-        "frequency": 2,
+        "word": "40万战士",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "勋伯格学生",
-        "frequency": 2,
+        "word": "4402个庄园",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "十二小时工作",
-        "frequency": 2,
+        "word": "45所大学",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "反法西斯主义",
-        "frequency": 2,
+        "word": "5万共产主义者",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "圣彼得堡，1917年",
-        "frequency": 2,
+        "word": "80万游击队",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "大跃进，1958年",
-        "frequency": 2,
+        "word": "9 yuè 11 rì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Adj + Art + Sust + Adv + Neg + Fut + Part + Pas",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "año + mes + día",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bābāluósà xíngdòng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bāsàiluónà gémìng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bèi HUAC pòhài",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "bèi zhànshèng de",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bēngdé chéngyuán dàguīmó cānyù",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bēngdé de wǔzhuāng huíyìng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bēngdé nèibù fēnliè",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bēngdé yǔ yóutài fùguó zhǔyì dàhuì",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bólín-Luómǎ zhóuxīn",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Cǎiyòng wéi zhànzhēng zànměishī",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Causal + sujeto + verbo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Chángdāo zhī yè",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "chuányuán",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dà bàgōng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dà fānchuán",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dì yī kē rénzào wèixīng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "dì-yī guójì",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]

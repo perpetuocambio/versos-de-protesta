@@ -12,8 +12,8 @@ async function partitionDictionary() {
   console.log('🔄 Particionando diccionario para optimizar rendimiento...');
   
   try {
-    const dictionaryPath = path.join(projectRoot, 'src', 'data', 'dictionary.json');
-    const statsPath = path.join(projectRoot, 'src', 'data', 'dictionary-stats.json');
+    const dictionaryPath = path.join(projectRoot, 'public', 'data', 'dictionary.json');
+    const statsPath = path.join(projectRoot, 'public', 'data', 'dictionary-stats.json');
     
     // Leer diccionario completo
     const dictionaryContent = await fs.readFile(dictionaryPath, 'utf-8');
@@ -23,19 +23,19 @@ async function partitionDictionary() {
     const stats = JSON.parse(statsContent);
     
     // Crear directorio para diccionarios por idioma
-    const langDir = path.join(projectRoot, 'src', 'data', 'lang');
+    const langDir = path.join(projectRoot, 'public', 'data', 'internal', 'v1', 'dictionary', 'languages');
     await fs.mkdir(langDir, { recursive: true });
     
     // Información de idiomas
     const languages = {
-      es: { name: 'español', code: 'es', file: 'spanish.json' },
-      en: { name: 'english', code: 'en', file: 'english.json' },
-      de: { name: 'deutsch', code: 'de', file: 'german.json' },
-      pt: { name: 'português', code: 'pt', file: 'portuguese.json' },
-      ru: { name: 'русский', code: 'ru', file: 'russian.json' },
-      ruRom: { name: 'русский романизированный', code: 'ru-rom', file: 'russian-rom.json' },
-      zh: { name: '中文', code: 'zh', file: 'chinese.json' },
-      zhPinyin: { name: '中文 pinyin', code: 'zh-pinyin', file: 'chinese-pinyin.json' }
+      es: { name: 'español', code: 'es', file: 'es.json' },
+      en: { name: 'english', code: 'en', file: 'en.json' },
+      de: { name: 'deutsch', code: 'de', file: 'de.json' },
+      pt: { name: 'português', code: 'pt', file: 'pt.json' },
+      ru: { name: 'русский', code: 'ru', file: 'ru.json' },
+      ruRom: { name: 'русский романизированный', code: 'ru-rom', file: 'ru-rom.json' },
+      zh: { name: '中文', code: 'zh', file: 'zh.json' },
+      zhPinyin: { name: '中文 pinyin', code: 'zh-pinyin', file: 'zh-pinyin.json' }
     };
     
     // Partir diccionario por idiomas
@@ -63,8 +63,46 @@ async function partitionDictionary() {
         words: {}
       };
       
-      // Procesar palabras y crear índices
-      const sortedWords = Object.entries(langData).sort(([a], [b]) => {
+      // Procesar palabras y extraer solo el idioma específico
+      const processedWords = {};
+      
+      Object.entries(langData).forEach(([word, entries]) => {
+        // Usar la traducción del idioma específico como clave
+        const translatedWord = entries[0]?.translations[langKey] || word;
+        
+        // Solo skip si la traducción es igual al español (no hay traducción real)
+        if (langKey !== 'es' && entries[0]?.translations[langKey] === entries[0]?.translations.es) {
+          return; // Skip esta palabra si no tiene traducción específica del idioma
+        }
+        
+        // Transformar cada entrada para extraer solo la información del idioma específico
+        const transformedEntries = entries.map(entry => {
+          const currentLangTranslation = entry.translations[langKey];
+          
+          return {
+            word: currentLangTranslation || word, // Usar traducción del idioma actual o palabra original
+            meaning: entry.translations.es || word, // Significado base siempre en español
+            source: entry.source,
+            day: entry.day,
+            filePath: entry.filePath,
+            // Mantener contexto de otras traducciones para referencia
+            originalWord: word,
+            allTranslations: entry.translations
+          };
+        });
+        
+        processedWords[translatedWord] = {
+          entries: transformedEntries,
+          frequency: entries.length,
+          lessons: entries.map(e => e.day).sort((a, b) => a - b),
+          firstAppearance: Math.min(...entries.map(e => e.day || 0)),
+          originalWord: word, // Palabra original (clave en diccionario base)
+          meaning: entries[0]?.translations?.es || word // Significado base siempre en español
+        };
+      });
+      
+      // Ordenar palabras
+      const sortedWords = Object.entries(processedWords).sort(([a], [b]) => {
         if (langKey === 'zh' || langKey === 'ru') {
           return a.localeCompare(b, langKey);
         }
@@ -72,7 +110,7 @@ async function partitionDictionary() {
       });
       
       // Índice por letras
-      sortedWords.forEach(([word, entries]) => {
+      sortedWords.forEach(([word, data]) => {
         const firstChar = word.charAt(0).toUpperCase();
         if (!optimizedLangData.index.letters[firstChar]) {
           optimizedLangData.index.letters[firstChar] = [];
@@ -80,26 +118,21 @@ async function partitionDictionary() {
         optimizedLangData.index.letters[firstChar].push(word);
         
         // Agregar palabra con información completa
-        optimizedLangData.words[word] = {
-          entries: entries,
-          frequency: entries.length, // Cuántas lecciones contienen esta palabra
-          lessons: entries.map(e => e.day).sort((a, b) => a - b),
-          firstAppearance: Math.min(...entries.map(e => e.day || 0))
-        };
+        optimizedLangData.words[word] = data;
       });
       
       // Palabras populares (aparecen en múltiples lecciones)
       optimizedLangData.index.popular = sortedWords
-        .filter(([_, entries]) => entries.length > 1)
-        .sort((a, b) => b[1].length - a[1].length)
+        .filter(([_, data]) => data.frequency > 1)
+        .sort((a, b) => b[1].frequency - a[1].frequency)
         .slice(0, 50)
         .map(([word]) => word);
         
       // Palabras recientes (de lecciones más altas)
       optimizedLangData.index.recent = sortedWords
-        .map(([word, entries]) => ({
+        .map(([word, data]) => ({
           word,
-          maxDay: Math.max(...entries.map(e => e.day || 0))
+          maxDay: Math.max(...data.lessons)
         }))
         .sort((a, b) => b.maxDay - a.maxDay)
         .slice(0, 100)
@@ -145,7 +178,7 @@ async function partitionDictionary() {
     };
     
     await fs.writeFile(
-      path.join(projectRoot, 'src', 'data', 'dictionary-index.json'),
+      path.join(projectRoot, 'public', 'data', 'dictionary-index.json'),
       JSON.stringify(generalIndex, null, 2),
       'utf-8'
     );
@@ -166,7 +199,7 @@ async function partitionDictionary() {
     };
     
     await fs.writeFile(
-      path.join(projectRoot, 'src', 'data', 'dictionary-light.json'),
+      path.join(projectRoot, 'public', 'data', 'dictionary-light.json'),
       JSON.stringify(lightDictionary, null, 2),
       'utf-8'
     );

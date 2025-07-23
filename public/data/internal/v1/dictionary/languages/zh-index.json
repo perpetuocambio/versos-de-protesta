@@ -9,12 +9,12 @@
   "meta": {
     "language": "中文",
     "code": "zh",
-    "wordCount": 292,
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "wordCount": 237,
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 400
+    "estimatedLoadTimeMs": 332
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 292,
-      "sizeKB": 200,
+      "wordCount": 231,
+      "sizeKB": 166,
       "path": "/internal/v1/dictionary/chunks/zh-lessons-0-11.json"
     }
   ],
@@ -67,167 +67,6 @@
         ]
       },
       {
-        "word": "1.000.000 partizan",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1.200 izdaniy",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "10.000 intellektualov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "15.000 diversiy",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "2.900 chasov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "20 millionov molodyozhi",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200.000 chelovek",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "200+ pesen",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "259 predpriyatiy",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000 mostov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "3.000.000 partizan",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 boytsov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "300.000 chlenov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "380.000 boytsov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "4.402 pomest'ya",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "400.000 boytsov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "45 universitetov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "50.000 kommunistov",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500.000 chelovek",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "500+ pesen",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "8 obraztsovykh oper",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800 millionov slushatelev",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "800.000 partizan",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "抵抗",
         "frequency": 2,
         "chunkNumbers": [
@@ -256,6 +95,13 @@
         ]
       },
       {
+        "word": "一八七一年",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "一九七零年",
         "frequency": 2,
         "chunkNumbers": [
@@ -263,35 +109,7 @@
         ]
       },
       {
-        "word": "Anarkhizm",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Anna Smirnova",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Antifashizm",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bol'shoy skachok, 1958",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Chiliyskiy put'",
+        "word": "一九一七年",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -305,92 +123,274 @@
         ]
       },
       {
-        "word": "Dvadtsat' sem' millionov",
-        "frequency": 2,
+        "word": "1.000.000 partizan",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Dvenadtsat' rabochikh chasov",
-        "frequency": 2,
+        "word": "1.200 izdaniy",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Dvesti sem'desyat chetyre yacheyki",
-        "frequency": 2,
+        "word": "10.000 intellektualov",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Dvesti vosem'desyat teatrov",
-        "frequency": 2,
+        "word": "11 sentyabrya 1973 goda",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Gollivud, 1933-1948",
-        "frequency": 2,
+        "word": "15.000 diversiy",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Khanns Aysler",
-        "frequency": 2,
+        "word": "2.900 chasov",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Kitayskaya Narodnaya Respublika, 1949",
-        "frequency": 2,
+        "word": "20 millionov molodyozhi",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "KPG (Germaniya)",
-        "frequency": 2,
+        "word": "200.000 chelovek",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Krasnaya gvardiya",
-        "frequency": 2,
+        "word": "259 predpriyatiy",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Krasnaya knizhechka Mao",
-        "frequency": 2,
+        "word": "3.000 mostov",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Krizis 1929 goda",
-        "frequency": 2,
+        "word": "3.000.000 partizan",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Kul'turnaya revolyutsiya v Kitaye",
-        "frequency": 2,
+        "word": "300.000 boytsov",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Kul'turnaya revolyutsiya, 1966",
-        "frequency": 2,
+        "word": "300.000 chlenov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "380.000 boytsov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "4.402 pomest'ya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "400.000 boytsov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "45 universitetov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "50.000 kommunistov",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "500.000 chelovek",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "70-e gody v Italii",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "70% v Katalonii",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "800 millionov slushatelev",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "800.000 partizan",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "9月11日",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "巴巴罗萨行动",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "巴塞罗那革命",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "柏林-罗马轴心",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "被战胜的",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "被HUAC迫害",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "崩得成员大规模参与",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "崩得的武装回应",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "崩得内部分裂",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "崩得与犹太复国主义大会",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "采用为战争赞美诗",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "船员",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "大罢工",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "大帆船",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "地下的",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "抵抗之歌",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]

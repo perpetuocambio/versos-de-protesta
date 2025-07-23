@@ -9,12 +9,12 @@
   "meta": {
     "language": "español",
     "code": "es",
-    "wordCount": 239,
-    "lastUpdated": "2025-07-22T21:14:39.812Z",
+    "wordCount": 203,
+    "lastUpdated": "2025-07-23T18:02:22.509Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 386
+    "estimatedLoadTimeMs": 330
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 239,
-      "sizeKB": 193,
+      "wordCount": 203,
+      "sizeKB": 165,
       "path": "/internal/v1/dictionary/chunks/es-lessons-0-11.json"
     }
   ],
@@ -47,14 +47,14 @@
     "popularWords": [
       {
         "word": "Estructura",
-        "frequency": 19,
+        "frequency": 16,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Ejemplo",
-        "frequency": 14,
+        "frequency": 11,
         "chunkNumbers": [
           0
         ]
@@ -68,286 +68,13 @@
       },
       {
         "word": "Orden",
-        "frequency": 6,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Exilio",
         "frequency": 4,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Nacimiento",
-        "frequency": 4,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Resistencia",
-        "frequency": 4,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Revolución Cultural",
-        "frequency": 4,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1917",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1936",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Bund",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Primera Internacional",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1871",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1897",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1933",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1944",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1968",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "1970",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "12 horas laborales",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "27 millones",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "274 células",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "280 teatros prohibidos",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "30.000 militantes",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "37% votos nazis",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "5 idiomas",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 millones",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 millones parados",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "6 pesetas semanales",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "600,000",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "872 días",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Anarquismo",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Antifascismo",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Años de plomo",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Arrestos 1933",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Ascenso nazi",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Canciones de resistencia",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Canciones prohibidas",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Canciones revolucionarias",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Contestación",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Crisis económica",
-        "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
         "word": "Desde",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Desempleo reducido",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Diáspora",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Difusión musical",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -361,7 +88,7 @@
         ]
       },
       {
-        "word": "Exilio forzado",
+        "word": "Exilio",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -375,22 +102,295 @@
         ]
       },
       {
-        "word": "Formación",
+        "word": "liberación",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Francia - FFI",
+        "word": "mil novecientos diecisiete",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Frente Popular",
+        "word": "mil novecientos setenta",
         "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "mil ochocientos setenta y uno",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Nacimiento",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "proletario",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "pueblo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "resistencia",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Revolución Cultural",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "unidad",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Víctimas",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "1897",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "11 de septiembre",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "12 horas laborales",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "27 millones",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "274 células",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "280 teatros prohibidos",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "30.000 militantes",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "37% votos nazis",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "5 idiomas",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "6 millones",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "6 millones parados",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "6 pesetas semanales",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "600,000",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "872 días",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Abril",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "acción directa",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Adopción como himno guerra",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "amanecer",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "anarquismo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Antes de",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Arrestos 1933",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Ascenso nazi",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "asedio Leningrado",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "aufmarsch",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bajo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "bandera",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "banderas",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bund",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Bund y Congreso Sionista",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Capitulación japonesa",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "clandestino",
+        "frequency": 1,
         "chunkNumbers": [
           0
         ]
