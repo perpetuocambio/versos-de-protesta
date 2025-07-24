@@ -11,6 +11,7 @@ originalSong:
   year: 1897
   language: "yi"
   genre: "protest"
+  origin: "Imperio Ruso (comunidades judías)"
 grammarTopics: 
   - "Casos rusos/alemanes básicos"
   - "Nominativo, acusativo, dativo"

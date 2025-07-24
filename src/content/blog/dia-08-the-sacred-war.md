@@ -11,6 +11,7 @@ originalSong:
   year: 1941
   language: "ru"
   genre: "hymn"
+  origin: "Unión Soviética"
 grammarTopics: 
   - "pretérito compuesto"
   - "participios pasados irregulares"
