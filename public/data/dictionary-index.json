@@ -1,10 +1,10 @@
 {
   "meta": {
-    "totalWords": 90,
-    "totalEntries": 106,
+    "totalWords": 49,
+    "totalEntries": 56,
     "totalLanguages": 8,
-    "totalLessons": 11,
-    "lastUpdated": "2025-07-23T18:18:14.157Z",
+    "totalLessons": 10,
+    "lastUpdated": "2025-07-24T16:13:26.107Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
@@ -51,73 +51,72 @@
   },
   "partitions": {
     "es": {
-      "words": 90,
-      "fileSize": 65754,
+      "words": 49,
+      "fileSize": 32414,
       "filePath": "es.json"
     },
     "en": {
-      "words": 89,
-      "fileSize": 65540,
+      "words": 49,
+      "fileSize": 32006,
       "filePath": "en.json"
     },
     "de": {
-      "words": 90,
-      "fileSize": 66186,
+      "words": 50,
+      "fileSize": 32931,
       "filePath": "de.json"
     },
     "pt": {
-      "words": 89,
-      "fileSize": 53648,
+      "words": 49,
+      "fileSize": 32386,
       "filePath": "pt.json"
     },
     "ru": {
-      "words": 89,
-      "fileSize": 66198,
+      "words": 49,
+      "fileSize": 32360,
       "filePath": "ru.json"
     },
     "ruRom": {
-      "words": 96,
-      "fileSize": 67796,
+      "words": 50,
+      "fileSize": 33184,
       "filePath": "ru-rom.json"
     },
     "zh": {
-      "words": 86,
-      "fileSize": 59975,
+      "words": 47,
+      "fileSize": 30293,
       "filePath": "zh.json"
     },
     "zhPinyin": {
-      "words": 86,
-      "fileSize": 64764,
+      "words": 47,
+      "fileSize": 31987,
       "filePath": "zh-pinyin.json"
     }
   },
   "stats": {
-    "totalEntries": 106,
-    "totalUniqueWords": 90,
+    "totalEntries": 56,
+    "totalUniqueWords": 49,
     "byLanguage": {
-      "es": 90,
-      "en": 89,
-      "de": 90,
-      "pt": 89,
-      "ru": 89,
-      "ruRom": 96,
-      "zh": 86,
-      "zhPinyin": 86
+      "es": 49,
+      "en": 49,
+      "de": 50,
+      "pt": 49,
+      "ru": 49,
+      "ruRom": 50,
+      "zh": 47,
+      "zhPinyin": 47
     },
     "byLesson": {
-      "Día 0": 17,
-      "Día 1": 9,
-      "Día 3": 11,
-      "Día 4": 10,
-      "Día 5": 12,
-      "Día 6": 10,
-      "Día 7": 8,
-      "Día 8": 6,
-      "Día 9": 7,
-      "Día 10": 8,
-      "Día 11": 8
+      "Día 0": 3,
+      "Día 1": 4,
+      "Día 3": 9,
+      "Día 4": 8,
+      "Día 5": 7,
+      "Día 6": 5,
+      "Día 8": 3,
+      "Día 9": 5,
+      "Día 10": 6,
+      "Día 11": 6
     },
-    "lastUpdated": "2025-07-23T18:18:14.157Z",
+    "lastUpdated": "2025-07-24T16:13:26.107Z",
     "generatedBy": "build-dictionary.mjs v1.0"
   },
   "routes": {

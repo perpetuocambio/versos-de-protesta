@@ -9,12 +9,12 @@
   "meta": {
     "language": "русский романизированный",
     "code": "ru-rom",
-    "wordCount": 96,
-    "lastUpdated": "2025-07-23T18:18:14.157Z",
+    "wordCount": 50,
+    "lastUpdated": "2025-07-24T16:13:26.107Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 126
+    "estimatedLoadTimeMs": 62
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 11
       },
-      "wordCount": 96,
-      "sizeKB": 63,
+      "wordCount": 50,
+      "sizeKB": 31,
       "path": "/internal/v1/dictionary/chunks/ru-rom-lessons-0-11.json"
     }
   ],
@@ -37,7 +37,6 @@
       "4": 0,
       "5": 0,
       "6": 0,
-      "7": 0,
       "8": 0,
       "9": 0,
       "10": 0,
@@ -45,77 +44,7 @@
     },
     "popularWords": [
       {
-        "word": "narod",
-        "frequency": 3,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "diversiya",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "fashizm",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "okkupatsiya",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "osvobozhdenie",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "osvobozhdeniye",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "partizany",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "podpol'nyy",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "proletariy",
-        "frequency": 2,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "anarkhizm",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Antifashistskaya kompozitsiya",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -129,35 +58,14 @@
         ]
       },
       {
-        "word": "bor'bá",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "borót'sya",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "búri",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Chyórnye",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "diaspora",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "diversiya",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -178,13 +86,6 @@
         ]
       },
       {
-        "word": "edínstvo",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "edinyy",
         "frequency": 1,
         "chunkNumbers": [
@@ -193,6 +94,13 @@
       },
       {
         "word": "fantazirovat'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "fashizm",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -227,28 +135,7 @@
         ]
       },
       {
-        "word": "Kapitulyatsiya Yaponii",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
         "word": "khot'",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "kolýshut",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "kommunisticheskaya partiya",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -269,7 +156,7 @@
         ]
       },
       {
-        "word": "mobilizatsiya",
+        "word": "mirovaya respublika",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -283,28 +170,7 @@
         ]
       },
       {
-        "word": "nadezhda",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "naród",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Natsionalizatsiya",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "nebésa",
+        "word": "narod",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -318,21 +184,7 @@
         ]
       },
       {
-        "word": "ob\"edinyát'",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Operatsiya Barbarossa",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Os' Rim-Berlin",
+        "word": "partizany",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -340,13 +192,6 @@
       },
       {
         "word": "Pervyy Internatsional",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "pésnya",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -388,7 +233,161 @@
         ]
       },
       {
+        "word": "podpol'nyy",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "port",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "proletariy",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "rabochiy",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "razboynichjya orda",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Referendum o razvode",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "shyopot",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "smert'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "solidarnost'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "sovetskiy svet",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Studencheskie volneniya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "svoboda",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "taynyy",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ugneteniye",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "vlast'",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Vostochnyy front",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "voyna",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "vseobshchaya zabastovka",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "yedinstvo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "zarya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "zhdut",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "znamya",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "znamyona",
         "frequency": 1,
         "chunkNumbers": [
           0

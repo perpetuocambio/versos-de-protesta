@@ -8,6 +8,38 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
+// Función para determinar si una palabra pertenece a un idioma específico
+function isWordInLanguage(word, lang) {
+  switch (lang) {
+    case 'es':
+      // Español: caracteres latinos, acentos españoles, ñ
+      return /^[a-záéíóúüñ\s\-']+$/i.test(word);
+    case 'en': 
+      // Inglés: solo caracteres latinos básicos
+      return /^[a-z\s\-']+$/i.test(word);
+    case 'de':
+      // Alemán: caracteres latinos + umlauts (ä, ö, ü, ß)
+      return /^[a-zäöüß\s\-']+$/i.test(word);
+    case 'pt':
+      // Portugués: caracteres latinos + acentos portugueses
+      return /^[a-záàâãéêíóôõú\s\-']+$/i.test(word);
+    case 'ru':
+      // Ruso: solo caracteres cirílicos
+      return /^[а-яё\s\-']+$/i.test(word);
+    case 'ruRom':
+      // Ruso romanizado: caracteres latinos básicos
+      return /^[a-z\s\-']+$/i.test(word);
+    case 'zh':
+      // Chino: solo caracteres hanzi (CJK)
+      return /^[\u4e00-\u9fff\s]+$/.test(word);
+    case 'zhPinyin':
+      // Pinyin: caracteres latinos + tonos
+      return /^[a-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ\s\-']+$/i.test(word);
+    default:
+      return true;
+  }
+}
+
 async function extractVocabularyFromMarkdown(filePath) {
   try {
     const content = await fs.readFile(filePath, 'utf-8');
@@ -270,10 +302,24 @@ async function extractVocabularyFromMarkdown(filePath) {
                                    !/\d/.test(entry.es) && !/\d/.test(entry.en) &&
                                    entry.es.toLowerCase() !== entry.en.toLowerCase(); // Evitar traducciones idénticas
           
-          if (isValidVocabulary) {
+          // VALIDACIÓN ADICIONAL: Verificar que cada traducción pertenezca a su idioma correcto
+          const languageValidation = isWordInLanguage(entry.es, 'es') &&
+                                    isWordInLanguage(entry.en, 'en') &&
+                                    isWordInLanguage(entry.de, 'de') &&
+                                    isWordInLanguage(entry.pt, 'pt') &&
+                                    isWordInLanguage(entry.ru, 'ru') &&
+                                    (entry.ruRom ? isWordInLanguage(entry.ruRom, 'ruRom') : true) &&
+                                    (entry.zh ? isWordInLanguage(entry.zh, 'zh') : true) &&
+                                    (entry.zhPinyin ? isWordInLanguage(entry.zhPinyin, 'zhPinyin') : true);
+          
+          if (isValidVocabulary && languageValidation) {
             vocabulary.push(entry);
           } else {
-            console.log(`   ⚠️ Contenido excluido (no es vocabulario): "${entry.es}" -> "${entry.en}"`);
+            if (!languageValidation) {
+              console.log(`   ⚠️ Entrada excluida (idiomas mezclados): es:"${entry.es}" en:"${entry.en}" de:"${entry.de}" pt:"${entry.pt}" ru:"${entry.ru}"`);
+            } else {
+              console.log(`   ⚠️ Contenido excluido (no es vocabulario): "${entry.es}" -> "${entry.en}"`);
+            }
           }
         }
       }
@@ -329,19 +375,66 @@ async function buildDictionary() {
   for (const entry of allVocabulary) {
     const languages = ['es', 'en', 'de', 'pt', 'ru', 'ruRom', 'zh', 'zhPinyin'];
     
+    // CREAR ENTRADA BASE PARA DEDUPLICACIÓN
+    const entryKey = JSON.stringify({
+      es: entry.es,
+      en: entry.en, 
+      de: entry.de,
+      pt: entry.pt,
+      ru: entry.ru,
+      ruRom: entry.ruRom,
+      zh: entry.zh,
+      zhPinyin: entry.zhPinyin
+    });
+    
     for (const lang of languages) {
       const word = entry[lang];
       if (word && word.length > 0 && word !== '-' && word !== '—' && word !== '...') {
-        // Solo agregar la palabra al diccionario de su idioma correspondiente
+        
+        // FILTRO CRÍTICO: Verificar que la palabra sea del idioma correcto
+        const isCorrectLanguage = isWordInLanguage(word, lang);
+        if (!isCorrectLanguage) {
+          console.log(`   ⚠️ Palabra "${word}" no pertenece al idioma ${lang}, omitiendo`);
+          continue; 
+        }
+        
         if (!dictionary[lang].has(word)) {
           dictionary[lang].set(word, []);
         }
-        dictionary[lang].get(word).push({
-          translations: entry, // Mantener todas las traducciones disponibles
-          source: entry.source,
-          day: entry.day,
-          filePath: entry.filePath
-        });
+        
+        // Verificar duplicados por significado base (español) en lugar de todas las traducciones
+        const existingEntries = dictionary[lang].get(word);
+        let baseMeaning = entry.es; // Usar español como significado base
+        
+        // VALIDACIÓN CRÍTICA: Verificar que el significado base sea realmente español
+        if (!isWordInLanguage(baseMeaning, 'es')) {
+          console.log(`   ⚠️ PROBLEMA: Significado base "${baseMeaning}" no es español válido, omitiendo entrada`);
+          continue;
+        }
+        
+        const existingEntry = existingEntries.find(existing => 
+          existing.translations.es === baseMeaning
+        );
+        
+        if (existingEntry) {
+          // Si ya existe una entrada con el mismo significado, solo añadir la lección
+          if (!existingEntry.lessons) {
+            existingEntry.lessons = [existingEntry.day];
+          }
+          if (!existingEntry.lessons.includes(entry.day)) {
+            existingEntry.lessons.push(entry.day);
+            console.log(`   🔄 Consolidando "${word}" (${baseMeaning}) - añadiendo día ${entry.day}`);
+          }
+        } else {
+          // Nueva entrada con significado diferente
+          dictionary[lang].get(word).push({
+            translations: entry, // Mantener todas las traducciones disponibles
+            source: entry.source,
+            day: entry.day,
+            lessons: [entry.day], // Inicializar array de lecciones
+            filePath: entry.filePath
+          });
+        }
       }
     }
   }

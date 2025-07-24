@@ -67,13 +67,8 @@ async function partitionDictionary() {
       const processedWords = {};
       
       Object.entries(langData).forEach(([word, entries]) => {
-        // Usar la traducción del idioma específico como clave
+        // El filtrado ya se hizo en build-dictionary.mjs, aquí solo procesamos
         const translatedWord = entries[0]?.translations[langKey] || word;
-        
-        // Solo skip si la traducción es igual al español (no hay traducción real)
-        if (langKey !== 'es' && entries[0]?.translations[langKey] === entries[0]?.translations.es) {
-          return; // Skip esta palabra si no tiene traducción específica del idioma
-        }
         
         // Transformar cada entrada para extraer solo la información del idioma específico
         const transformedEntries = entries.map(entry => {
@@ -84,16 +79,20 @@ async function partitionDictionary() {
             meaning: entry.translations.es || word, // Significado base siempre en español
             source: entry.source,
             day: entry.day,
+            lessons: entry.lessons || [entry.day], // Usar lecciones consolidadas si existen
             filePath: entry.filePath,
             // Mantener contexto de otras traducciones para referencia
             originalWord: word,
             allTranslations: entry.translations
           };
         });
+
+        // Las entradas ya vienen consolidadas desde build-dictionary.mjs
+        const uniqueEntries = transformedEntries;
         
         processedWords[translatedWord] = {
-          entries: transformedEntries,
-          frequency: entries.length,
+          entries: uniqueEntries,
+          frequency: uniqueEntries.length,
           lessons: entries.map(e => e.day).sort((a, b) => a - b),
           firstAppearance: Math.min(...entries.map(e => e.day || 0)),
           originalWord: word, // Palabra original (clave en diccionario base)

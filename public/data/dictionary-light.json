@@ -1,108 +1,106 @@
 {
   "meta": {
-    "totalWords": 90,
-    "totalEntries": 106,
+    "totalWords": 49,
+    "totalEntries": 56,
     "totalLanguages": 8,
-    "totalLessons": 11,
-    "lastUpdated": "2025-07-23T18:18:14.157Z",
+    "totalLessons": 10,
+    "lastUpdated": "2025-07-24T16:13:26.107Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
     "es": {
-      "count": 90,
+      "count": 49,
       "sample": [
-        "acción directa",
-        "agitan",
-        "aires",
         "amanecer",
         "anarquismo",
-        "aufmarsch",
         "aunque",
         "bandera",
         "banderas",
-        "canción"
+        "cantar",
+        "clandestino",
+        "Desabastecimiento",
+        "diáspora",
+        "dolor"
       ]
     },
     "en": {
-      "count": 89,
+      "count": 49,
       "sample": [
         "Allied victory",
         "anarchism",
-        "Anna Smirnova",
-        "Antifascist composition",
         "banners",
-        "Black",
-        "calls",
-        "chairman",
-        "communist party",
-        "dawn"
+        "dawn",
+        "death",
+        "defeated",
+        "diaspora",
+        "Divorce referendum",
+        "Eastern Front",
+        "Electoral victory"
       ]
     },
     "de": {
-      "count": 90,
+      "count": 50,
       "sample": [
-        "Achse Rom-Berlin",
         "Alliierter Sieg",
         "Anarchismus",
-        "Anna Smirnova",
-        "Antifaschistische Komposition",
         "Arbeiter",
-        "arise, country",
         "auch wenn",
-        "Aufmarsch",
-        "Befreiung"
+        "besiegt",
+        "Bewegung",
+        "Diaspora",
+        "Einheit",
+        "Erste Internationale",
+        "erwarten"
       ]
     },
     "pt": {
-      "count": 89,
+      "count": 49,
       "sample": [
-        "ação direta",
-        "agitam",
         "amanhecer",
         "anarquismo",
-        "Anna Smirnova",
-        "ares",
         "bandeira",
         "bandeiras",
-        "canção",
-        "cantar"
+        "cantar",
+        "clandestino",
+        "Desabastecimento",
+        "diáspora",
+        "dor",
+        "embora"
       ]
     },
     "ru": {
-      "count": 89,
+      "count": 49,
       "sample": [
         "анархизм",
-        "Антифашистская композиция",
         "боль",
-        "бороться",
-        "борьба",
-        "бури",
         "власть",
-        "военный министр",
         "война",
-        "восток"
+        "Восточный фронт",
+        "всеобщая забастовка",
+        "галеон",
+        "гибнуть",
+        "глупый",
+        "движение"
       ]
     },
     "ruRom": {
-      "count": 96,
+      "count": 50,
       "sample": [
         "anarkhizm",
-        "Antifashistskaya kompozitsiya",
         "bol'",
-        "bor'bá",
-        "borót'sya",
-        "búri",
-        "Chyórnye",
         "diaspora",
         "diversiya",
-        "dvizhenie"
+        "dvizhenie",
+        "edinstvo",
+        "edinyy",
+        "fantazirovat'",
+        "fashizm",
+        "front"
       ]
     },
     "zh": {
-      "count": 86,
+      "count": 47,
       "sample": [
-        "巴巴罗萨行动",
-        "柏林-罗马轴心",
         "被战胜的",
         "唱",
         "船员",
@@ -110,22 +108,24 @@
         "大帆船",
         "地下的",
         "等待",
-        "第一国际"
+        "第一国际",
+        "东线战场",
+        "法西斯主义"
       ]
     },
     "zhPinyin": {
-      "count": 86,
+      "count": 47,
       "sample": [
-        "Bābāluósà xíngdòng",
         "bèi zhànshèng de",
-        "Bólín-Luómǎ zhóuxīn",
         "chàng",
         "chuányuán",
         "dà bàgōng",
         "dà fānchuán",
         "děngdài",
         "dì-yī guójì",
-        "dìxià de"
+        "dìxià de",
+        "dōngxiàn zhànchǎng",
+        "fǎxīsī zhǔyì"
       ]
     }
   },

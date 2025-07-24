@@ -14,7 +14,6 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
@@ -23,410 +22,12 @@
     "isPublic": false
   },
   "meta": {
-    "wordCount": 90,
-    "lessonsCount": 11,
-    "avgWordsPerLesson": 8,
-    "generated": "2025-07-23T18:18:14.260Z"
+    "wordCount": 50,
+    "lessonsCount": 10,
+    "avgWordsPerLesson": 5,
+    "generated": "2025-07-24T16:13:38.948Z"
   },
   "words": {
-    "Arbeiter": {
-      "entries": [
-        {
-          "word": "Arbeiter",
-          "meaning": "trabajador",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Arbeiter",
-          "allTranslations": {
-            "es": "trabajador",
-            "en": "worker",
-            "de": "Arbeiter",
-            "pt": "trabalhador",
-            "ru": "рабочий",
-            "ruRom": "rabóchiy",
-            "zh": "工人",
-            "zhPinyin": "gōngrén",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        },
-        {
-          "word": "Arbeiter",
-          "meaning": "trabajador",
-          "source": "dia-11-einheitsfrontlied",
-          "day": 11,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Arbeiter",
-          "allTranslations": {
-            "es": "trabajador",
-            "en": "worker",
-            "de": "Arbeiter",
-            "pt": "trabalhador",
-            "ru": "рабочий",
-            "ruRom": "rabochiy",
-            "zh": "工人",
-            "zhPinyin": "gōngrén",
-            "source": "dia-11-einheitsfrontlied",
-            "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        0,
-        11
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Arbeiter",
-      "meaning": "trabajador"
-    },
-    "Einheit": {
-      "entries": [
-        {
-          "word": "Einheit",
-          "meaning": "unidad",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Einheit",
-          "allTranslations": {
-            "es": "unidad",
-            "en": "unity",
-            "de": "Einheit",
-            "pt": "unidade",
-            "ru": "единство",
-            "ruRom": "edínstvo",
-            "zh": "团结",
-            "zhPinyin": "tuánjié",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        },
-        {
-          "word": "Einheit",
-          "meaning": "unidad",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "Einheit",
-          "allTranslations": {
-            "es": "unidad",
-            "en": "unity",
-            "de": "Einheit",
-            "pt": "unidade",
-            "ru": "единство",
-            "ruRom": "edinstvo",
-            "zh": "团结",
-            "zhPinyin": "tuánjié",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
-          }
-        },
-        {
-          "word": "Einheit",
-          "meaning": "unidad",
-          "source": "dia-11-einheitsfrontlied",
-          "day": 11,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Einheit",
-          "allTranslations": {
-            "es": "unidad",
-            "en": "unity",
-            "de": "Einheit",
-            "pt": "unidade",
-            "ru": "единство",
-            "ruRom": "yedinstvo",
-            "zh": "团结",
-            "zhPinyin": "tuánjié",
-            "source": "dia-11-einheitsfrontlied",
-            "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
-          }
-        }
-      ],
-      "frequency": 3,
-      "lessons": [
-        0,
-        3,
-        11
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Einheit",
-      "meaning": "unidad"
-    },
-    "Fahne": {
-      "entries": [
-        {
-          "word": "Fahne",
-          "meaning": "bandera",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Fahne",
-          "allTranslations": {
-            "es": "bandera",
-            "en": "flag",
-            "de": "Fahne",
-            "pt": "bandeira",
-            "ru": "знамя",
-            "ruRom": "známya",
-            "zh": "旗帜",
-            "zhPinyin": "qízhì",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        },
-        {
-          "word": "Fahne",
-          "meaning": "bandera",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
-          "originalWord": "Fahne",
-          "allTranslations": {
-            "es": "bandera",
-            "en": "flag",
-            "de": "Fahne",
-            "pt": "bandeira",
-            "ru": "знамя",
-            "ruRom": "znamya",
-            "zh": "旗帜",
-            "zhPinyin": "qízhì",
-            "source": "dia-10-oy-ir-narishe-tsienistn",
-            "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        0,
-        10
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Fahne",
-      "meaning": "bandera"
-    },
-    "for": {
-      "entries": [
-        {
-          "word": "for",
-          "meaning": "Preposición",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "for",
-          "allTranslations": {
-            "es": "Preposición",
-            "en": "para",
-            "de": "for",
-            "pt": "für + Akkusativ",
-            "ru": "para",
-            "ruRom": "за + Akkusativ",
-            "zh": "za + Akkusativ",
-            "zhPinyin": "为了",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "for",
-      "meaning": "Preposición"
-    },
-    "Freiheit": {
-      "entries": [
-        {
-          "word": "Freiheit",
-          "meaning": "libertad",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Freiheit",
-          "allTranslations": {
-            "es": "libertad",
-            "en": "freedom",
-            "de": "Freiheit",
-            "pt": "liberdade",
-            "ru": "свобода",
-            "ruRom": "svobóda",
-            "zh": "自由",
-            "zhPinyin": "zìyóu",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        },
-        {
-          "word": "Freiheit",
-          "meaning": "libertad",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "Freiheit",
-          "allTranslations": {
-            "es": "libertad",
-            "en": "freedom",
-            "de": "Freiheit",
-            "pt": "liberdade",
-            "ru": "свобода",
-            "ruRom": "svoboda",
-            "zh": "自由",
-            "zhPinyin": "zìyóu",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        0,
-        4
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Freiheit",
-      "meaning": "libertad"
-    },
-    "Gerechtigkeit": {
-      "entries": [
-        {
-          "word": "Gerechtigkeit",
-          "meaning": "justicia",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Gerechtigkeit",
-          "allTranslations": {
-            "es": "justicia",
-            "en": "justice",
-            "de": "Gerechtigkeit",
-            "pt": "justiça",
-            "ru": "справедливость",
-            "ruRom": "spravedlívost'",
-            "zh": "正义",
-            "zhPinyin": "zhèngyì",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Gerechtigkeit",
-      "meaning": "justicia"
-    },
-    "Kampf": {
-      "entries": [
-        {
-          "word": "Kampf",
-          "meaning": "lucha",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Kampf",
-          "allTranslations": {
-            "es": "lucha",
-            "en": "struggle",
-            "de": "Kampf",
-            "pt": "luta",
-            "ru": "борьба",
-            "ruRom": "bor'bá",
-            "zh": "斗争",
-            "zhPinyin": "dòuzhēng",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Kampf",
-      "meaning": "lucha"
-    },
-    "kämpfen": {
-      "entries": [
-        {
-          "word": "kämpfen",
-          "meaning": "luchar",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "kämpfen",
-          "allTranslations": {
-            "es": "luchar",
-            "en": "fight",
-            "de": "kämpfen",
-            "pt": "lutar",
-            "ru": "бороться",
-            "ruRom": "borót'sya",
-            "zh": "战斗",
-            "zhPinyin": "zhàndòu",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "kämpfen",
-      "meaning": "luchar"
-    },
-    "Lied": {
-      "entries": [
-        {
-          "word": "Lied",
-          "meaning": "canción",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Lied",
-          "allTranslations": {
-            "es": "canción",
-            "en": "song",
-            "de": "Lied",
-            "pt": "canção",
-            "ru": "песня",
-            "ruRom": "pésnya",
-            "zh": "歌曲",
-            "zhPinyin": "gēqǔ",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Lied",
-      "meaning": "canción"
-    },
     "Macht": {
       "entries": [
         {
@@ -434,6 +35,9 @@
           "meaning": "poder",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
+          "lessons": [
+            0
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "Macht",
           "allTranslations": {
@@ -466,6 +70,9 @@
           "meaning": "marchar",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
+          "lessons": [
+            0
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "marschieren",
           "allTranslations": {
@@ -491,38 +98,6 @@
       "originalWord": "marschieren",
       "meaning": "marchar"
     },
-    "Revolution": {
-      "entries": [
-        {
-          "word": "Revolution",
-          "meaning": "revolución",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Revolution",
-          "allTranslations": {
-            "es": "revolución",
-            "en": "revolution",
-            "de": "Revolution",
-            "pt": "revolução",
-            "ru": "революция",
-            "ruRom": "revolyútsiya",
-            "zh": "革命",
-            "zhPinyin": "gémìng",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Revolution",
-      "meaning": "revolución"
-    },
     "singen": {
       "entries": [
         {
@@ -530,6 +105,9 @@
           "meaning": "cantar",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
+          "lessons": [
+            0
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "singen",
           "allTranslations": {
@@ -555,200 +133,6 @@
       "originalWord": "singen",
       "meaning": "cantar"
     },
-    "vereinen": {
-      "entries": [
-        {
-          "word": "vereinen",
-          "meaning": "unir",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "vereinen",
-          "allTranslations": {
-            "es": "unir",
-            "en": "unite",
-            "de": "vereinen",
-            "pt": "unir",
-            "ru": "объединять",
-            "ruRom": "ob\"edinyát'",
-            "zh": "团结",
-            "zhPinyin": "tuánjié",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "vereinen",
-      "meaning": "unir"
-    },
-    "verteidigen": {
-      "entries": [
-        {
-          "word": "verteidigen",
-          "meaning": "defender",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "verteidigen",
-          "allTranslations": {
-            "es": "defender",
-            "en": "defend",
-            "de": "verteidigen",
-            "pt": "defender",
-            "ru": "защищать",
-            "ruRom": "zashchishchát'",
-            "zh": "捍卫",
-            "zhPinyin": "hànwèi",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "verteidigen",
-      "meaning": "defender"
-    },
-    "Volk": {
-      "entries": [
-        {
-          "word": "Volk",
-          "meaning": "pueblo",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "Volk",
-          "allTranslations": {
-            "es": "pueblo",
-            "en": "people",
-            "de": "Volk",
-            "pt": "povo",
-            "ru": "народ",
-            "ruRom": "naród",
-            "zh": "人民",
-            "zhPinyin": "rénmín",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        },
-        {
-          "word": "Volk",
-          "meaning": "pueblo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "Volk",
-          "allTranslations": {
-            "es": "pueblo",
-            "en": "people",
-            "de": "Volk",
-            "pt": "povo",
-            "ru": "народ",
-            "ruRom": "narod",
-            "zh": "人民",
-            "zhPinyin": "rénmín",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
-          }
-        },
-        {
-          "word": "Volk",
-          "meaning": "人民",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Volk",
-          "allTranslations": {
-            "es": "人民",
-            "en": "people",
-            "de": "Volk",
-            "pt": "povo",
-            "ru": "народ",
-            "ruRom": "narod",
-            "zh": "人民",
-            "zhPinyin": "rénmín",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        },
-        {
-          "word": "Volk",
-          "meaning": "pueblo",
-          "source": "dia-11-einheitsfrontlied",
-          "day": 11,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Volk",
-          "allTranslations": {
-            "es": "pueblo",
-            "en": "people",
-            "de": "Volk",
-            "pt": "povo",
-            "ru": "народ",
-            "ruRom": "narod",
-            "zh": "人民",
-            "zhPinyin": "rénmín",
-            "source": "dia-11-einheitsfrontlied",
-            "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
-          }
-        }
-      ],
-      "frequency": 4,
-      "lessons": [
-        0,
-        3,
-        7,
-        11
-      ],
-      "firstAppearance": 0,
-      "originalWord": "Volk",
-      "meaning": "pueblo"
-    },
-    "widerstehen": {
-      "entries": [
-        {
-          "word": "widerstehen",
-          "meaning": "resistir",
-          "source": "dia-00-fundamentos-basicos",
-          "day": 0,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
-          "originalWord": "widerstehen",
-          "allTranslations": {
-            "es": "resistir",
-            "en": "resist",
-            "de": "widerstehen",
-            "pt": "resistir",
-            "ru": "сопротивляться",
-            "ruRom": "soprotivlyát'sya",
-            "zh": "反抗",
-            "zhPinyin": "fǎnkàng",
-            "source": "dia-00-fundamentos-basicos",
-            "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "widerstehen",
-      "meaning": "resistir"
-    },
     "auch wenn": {
       "entries": [
         {
@@ -756,6 +140,9 @@
           "meaning": "aunque",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
+          "lessons": [
+            1
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "auch wenn",
           "allTranslations": {
@@ -788,6 +175,9 @@
           "meaning": "espere",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
+          "lessons": [
+            1
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "erwarten",
           "allTranslations": {
@@ -813,70 +203,6 @@
       "originalWord": "erwarten",
       "meaning": "espere"
     },
-    "Lüfte": {
-      "entries": [
-        {
-          "word": "Lüfte",
-          "meaning": "aires",
-          "source": "dia-01-a-las-barricadas",
-          "day": 1,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
-          "originalWord": "Lüfte",
-          "allTranslations": {
-            "es": "aires",
-            "en": "skies",
-            "de": "Lüfte",
-            "pt": "ares",
-            "ru": "небеса",
-            "ruRom": "nebésa",
-            "zh": "天空",
-            "zhPinyin": "tiānkōng",
-            "source": "dia-01-a-las-barricadas",
-            "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        1
-      ],
-      "firstAppearance": 1,
-      "originalWord": "Lüfte",
-      "meaning": "aires"
-    },
-    "ruft": {
-      "entries": [
-        {
-          "word": "ruft",
-          "meaning": "llama",
-          "source": "dia-01-a-las-barricadas",
-          "day": 1,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
-          "originalWord": "ruft",
-          "allTranslations": {
-            "es": "llama",
-            "en": "calls",
-            "de": "ruft",
-            "pt": "chama",
-            "ru": "зовёт",
-            "ruRom": "zovyót",
-            "zh": "召唤",
-            "zhPinyin": "zhàohuàn",
-            "source": "dia-01-a-las-barricadas",
-            "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        1
-      ],
-      "firstAppearance": 1,
-      "originalWord": "ruft",
-      "meaning": "llama"
-    },
     "Schmerz": {
       "entries": [
         {
@@ -884,6 +210,9 @@
           "meaning": "dolor",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
+          "lessons": [
+            1
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "Schmerz",
           "allTranslations": {
@@ -909,102 +238,6 @@
       "originalWord": "Schmerz",
       "meaning": "dolor"
     },
-    "schütteln": {
-      "entries": [
-        {
-          "word": "schütteln",
-          "meaning": "agitan",
-          "source": "dia-01-a-las-barricadas",
-          "day": 1,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
-          "originalWord": "schütteln",
-          "allTranslations": {
-            "es": "agitan",
-            "en": "shake",
-            "de": "schütteln",
-            "pt": "agitam",
-            "ru": "колышут",
-            "ruRom": "kolýshut",
-            "zh": "摇撼",
-            "zhPinyin": "yáohàn",
-            "source": "dia-01-a-las-barricadas",
-            "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        1
-      ],
-      "firstAppearance": 1,
-      "originalWord": "schütteln",
-      "meaning": "agitan"
-    },
-    "Schwarze": {
-      "entries": [
-        {
-          "word": "Schwarze",
-          "meaning": "Negras",
-          "source": "dia-01-a-las-barricadas",
-          "day": 1,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
-          "originalWord": "Schwarze",
-          "allTranslations": {
-            "es": "Negras",
-            "en": "Black",
-            "de": "Schwarze",
-            "pt": "Negras",
-            "ru": "Чёрные",
-            "ruRom": "Chyórnye",
-            "zh": "黑色的",
-            "zhPinyin": "hēisè de",
-            "source": "dia-01-a-las-barricadas",
-            "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        1
-      ],
-      "firstAppearance": 1,
-      "originalWord": "Schwarze",
-      "meaning": "Negras"
-    },
-    "Stürme": {
-      "entries": [
-        {
-          "word": "Stürme",
-          "meaning": "tormentas",
-          "source": "dia-01-a-las-barricadas",
-          "day": 1,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
-          "originalWord": "Stürme",
-          "allTranslations": {
-            "es": "tormentas",
-            "en": "storms",
-            "de": "Stürme",
-            "pt": "tempestades",
-            "ru": "бури",
-            "ruRom": "búri",
-            "zh": "风暴",
-            "zhPinyin": "fēngbào",
-            "source": "dia-01-a-las-barricadas",
-            "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        1
-      ],
-      "firstAppearance": 1,
-      "originalWord": "Stürme",
-      "meaning": "tormentas"
-    },
     "Tod": {
       "entries": [
         {
@@ -1012,6 +245,9 @@
           "meaning": "muerte",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
+          "lessons": [
+            1
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "Tod",
           "allTranslations": {
@@ -1044,6 +280,9 @@
           "meaning": "vencido",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "besiegt",
           "allTranslations": {
@@ -1069,6 +308,42 @@
       "originalWord": "besiegt",
       "meaning": "vencido"
     },
+    "Einheit": {
+      "entries": [
+        {
+          "word": "Einheit",
+          "meaning": "unidad",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3,
+            11
+          ],
+          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "Einheit",
+          "allTranslations": {
+            "es": "unidad",
+            "en": "unity",
+            "de": "Einheit",
+            "pt": "unidade",
+            "ru": "единство",
+            "ruRom": "edinstvo",
+            "zh": "团结",
+            "zhPinyin": "tuánjié",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "Einheit",
+      "meaning": "unidad"
+    },
     "Fahnen": {
       "entries": [
         {
@@ -1076,6 +351,9 @@
           "meaning": "banderas",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Fahnen",
           "allTranslations": {
@@ -1108,6 +386,9 @@
           "meaning": "amanecer",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Morgendämmerung",
           "allTranslations": {
@@ -1140,6 +421,9 @@
           "meaning": "triunfar",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "siegen",
           "allTranslations": {
@@ -1172,6 +456,9 @@
           "meaning": "unido",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "vereint",
           "allTranslations": {
@@ -1204,6 +491,9 @@
           "meaning": "Desabastecimiento",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Versorgungskrise",
           "allTranslations": {
@@ -1231,29 +521,31 @@
       "originalWord": "Versorgungskrise",
       "meaning": "Desabastecimiento"
     },
-    "Verstaatlichung": {
+    "Volk": {
       "entries": [
         {
-          "word": "Verstaatlichung",
-          "meaning": "Nacionalización",
+          "word": "Volk",
+          "meaning": "pueblo",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3,
+            11
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "Verstaatlichung",
+          "originalWord": "Volk",
           "allTranslations": {
-            "es": "Nacionalización",
-            "en": "Nationalization",
-            "de": "Verstaatlichung",
-            "pt": "Nacionalização",
-            "ru": "Национализация",
-            "ruRom": "Natsionalizatsiya",
-            "zh": "国有化",
-            "zhPinyin": "guóyǒuhuà",
+            "es": "pueblo",
+            "en": "people",
+            "de": "Volk",
+            "pt": "povo",
+            "ru": "народ",
+            "ruRom": "narod",
+            "zh": "人民",
+            "zhPinyin": "rénmín",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
-            "originalKey": "1971",
-            "context": "Nacionalización del cobre"
+            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -1262,8 +554,8 @@
         3
       ],
       "firstAppearance": 3,
-      "originalWord": "Verstaatlichung",
-      "meaning": "Nacionalización"
+      "originalWord": "Volk",
+      "meaning": "pueblo"
     },
     "Wahlsieg": {
       "entries": [
@@ -1272,6 +564,9 @@
           "meaning": "Triunfo electoral",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
+          "lessons": [
+            3
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Wahlsieg",
           "allTranslations": {
@@ -1299,38 +594,6 @@
       "originalWord": "Wahlsieg",
       "meaning": "Triunfo electoral"
     },
-    "will never be defeated": {
-      "entries": [
-        {
-          "word": "will never be defeated",
-          "meaning": "Ejemplo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "will never be defeated",
-          "allTranslations": {
-            "es": "Ejemplo",
-            "en": "jamás será vencido",
-            "de": "will never be defeated",
-            "pt": "wird niemals besiegt",
-            "ru": "jamais será vencido",
-            "ruRom": "никогда не будет побеждён",
-            "zh": "nikogda ne budet pobezhdyon",
-            "zhPinyin": "永远不会被战胜",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        3
-      ],
-      "firstAppearance": 3,
-      "originalWord": "will never be defeated",
-      "meaning": "Ejemplo"
-    },
     "Bewegung": {
       "entries": [
         {
@@ -1338,6 +601,9 @@
           "meaning": "movimiento",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Bewegung",
           "allTranslations": {
@@ -1363,6 +629,41 @@
       "originalWord": "Bewegung",
       "meaning": "movimiento"
     },
+    "Freiheit": {
+      "entries": [
+        {
+          "word": "Freiheit",
+          "meaning": "libertad",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "Freiheit",
+          "allTranslations": {
+            "es": "libertad",
+            "en": "freedom",
+            "de": "Freiheit",
+            "pt": "liberdade",
+            "ru": "свобода",
+            "ruRom": "svoboda",
+            "zh": "自由",
+            "zhPinyin": "zìyóu",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "originalWord": "Freiheit",
+      "meaning": "libertad"
+    },
     "Galeone": {
       "entries": [
         {
@@ -1370,6 +671,9 @@
           "meaning": "galeón",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Galeone",
           "allTranslations": {
@@ -1402,6 +706,9 @@
           "meaning": "puerto",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Hafen",
           "allTranslations": {
@@ -1427,38 +734,6 @@
       "originalWord": "Hafen",
       "meaning": "puerto"
     },
-    "Hoffnung": {
-      "entries": [
-        {
-          "word": "Hoffnung",
-          "meaning": "esperanza",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "Hoffnung",
-          "allTranslations": {
-            "es": "esperanza",
-            "en": "hope",
-            "de": "Hoffnung",
-            "pt": "esperança",
-            "ru": "надежда",
-            "ruRom": "nadezhda",
-            "zh": "希望",
-            "zhPinyin": "xīwàng",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        4
-      ],
-      "firstAppearance": 4,
-      "originalWord": "Hoffnung",
-      "meaning": "esperanza"
-    },
     "Massenstreiks": {
       "entries": [
         {
@@ -1466,6 +741,9 @@
           "meaning": "Huelgas masivas",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Massenstreiks",
           "allTranslations": {
@@ -1493,38 +771,6 @@
       "originalWord": "Massenstreiks",
       "meaning": "Huelgas masivas"
     },
-    "Protest": {
-      "entries": [
-        {
-          "word": "Protest",
-          "meaning": "contestación",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "Protest",
-          "allTranslations": {
-            "es": "contestación",
-            "en": "protest",
-            "de": "Protest",
-            "pt": "contestação",
-            "ru": "протест",
-            "ruRom": "protest",
-            "zh": "抗议",
-            "zhPinyin": "kàngyì",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        4
-      ],
-      "firstAppearance": 4,
-      "originalWord": "Protest",
-      "meaning": "contestación"
-    },
     "Scheidungsreferendum": {
       "entries": [
         {
@@ -1532,6 +778,9 @@
           "meaning": "Referéndum divorcio",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Scheidungsreferendum",
           "allTranslations": {
@@ -1566,6 +815,9 @@
           "meaning": "marineros",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Seeleute",
           "allTranslations": {
@@ -1598,6 +850,9 @@
           "meaning": "Revueltas estudiantiles",
           "source": "dia-04-il-galeone",
           "day": 4,
+          "lessons": [
+            4
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Studentenrevolten",
           "allTranslations": {
@@ -1632,6 +887,9 @@
           "meaning": "Victoria aliada",
           "source": "dia-05-pesn-partizan",
           "day": 5,
+          "lessons": [
+            5
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "Alliierter Sieg",
           "allTranslations": {
@@ -1659,24 +917,27 @@
       "originalWord": "Alliierter Sieg",
       "meaning": "Victoria aliada"
     },
-    "Anna Smirnova": {
+    "Partisanen": {
       "entries": [
         {
-          "word": "Anna Smirnova",
-          "meaning": "Nombre real",
+          "word": "Partisanen",
+          "meaning": "partisanos",
           "source": "dia-05-pesn-partizan",
           "day": 5,
+          "lessons": [
+            5
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Anna Smirnova",
+          "originalWord": "Partisanen",
           "allTranslations": {
-            "es": "Nombre real",
-            "en": "Anna Smirnova",
-            "de": "Anna Smirnova",
-            "pt": "Anna Smirnova",
-            "ru": "Anna Smirnova",
-            "ruRom": "Анна Смирнова",
-            "zh": "Anna Smirnova",
-            "zhPinyin": "安娜·斯米尔诺娃",
+            "es": "partisanos",
+            "en": "partisans",
+            "de": "Partisanen",
+            "pt": "partidários",
+            "ru": "партизаны",
+            "ruRom": "partizany",
+            "zh": "游击队",
+            "zhPinyin": "yóujīduì",
             "source": "dia-05-pesn-partizan",
             "day": 5,
             "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
@@ -1685,212 +946,6 @@
       ],
       "frequency": 1,
       "lessons": [
-        5
-      ],
-      "firstAppearance": 5,
-      "originalWord": "Anna Smirnova",
-      "meaning": "Nombre real"
-    },
-    "Befreiung": {
-      "entries": [
-        {
-          "word": "Befreiung",
-          "meaning": "liberación",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Befreiung",
-          "allTranslations": {
-            "es": "liberación",
-            "en": "liberation",
-            "de": "Befreiung",
-            "pt": "libertação",
-            "ru": "освобождение",
-            "ruRom": "osvobozhdenie",
-            "zh": "解放",
-            "zhPinyin": "jiěfàng",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Befreiung",
-          "meaning": "liberación",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Befreiung",
-          "allTranslations": {
-            "es": "liberación",
-            "en": "liberation",
-            "de": "Befreiung",
-            "pt": "libertação",
-            "ru": "освобождение",
-            "ruRom": "osvobozhdenie",
-            "zh": "解放",
-            "zhPinyin": "jiěfàng",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Befreiung",
-          "meaning": "解放",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Befreiung",
-          "allTranslations": {
-            "es": "解放",
-            "en": "liberation",
-            "de": "Befreiung",
-            "pt": "libertação",
-            "ru": "освобождение",
-            "ruRom": "osvobozhdeniye",
-            "zh": "解放",
-            "zhPinyin": "jiěfàng",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        },
-        {
-          "word": "Befreiung",
-          "meaning": "liberación",
-          "source": "dia-11-einheitsfrontlied",
-          "day": 11,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Befreiung",
-          "allTranslations": {
-            "es": "liberación",
-            "en": "liberation",
-            "de": "Befreiung",
-            "pt": "libertação",
-            "ru": "освобождение",
-            "ruRom": "osvobozhdeniye",
-            "zh": "解放",
-            "zhPinyin": "jiěfàng",
-            "source": "dia-11-einheitsfrontlied",
-            "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
-          }
-        }
-      ],
-      "frequency": 4,
-      "lessons": [
-        5,
-        5,
-        7,
-        11
-      ],
-      "firstAppearance": 5,
-      "originalWord": "Befreiung",
-      "meaning": "liberación"
-    },
-    "Besatzung": {
-      "entries": [
-        {
-          "word": "Besatzung",
-          "meaning": "ocupación",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Besatzung",
-          "allTranslations": {
-            "es": "ocupación",
-            "en": "occupation",
-            "de": "Besatzung",
-            "pt": "ocupação",
-            "ru": "оккупация",
-            "ruRom": "okkupatsiya",
-            "zh": "占领",
-            "zhPinyin": "zhànlǐng",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Besatzung",
-          "meaning": "ocupación",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Besatzung",
-          "allTranslations": {
-            "es": "ocupación",
-            "en": "occupation",
-            "de": "Besatzung",
-            "pt": "ocupação",
-            "ru": "оккупация",
-            "ruRom": "okkupatsiya",
-            "zh": "占领",
-            "zhPinyin": "zhànlǐng",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        5,
-        5
-      ],
-      "firstAppearance": 5,
-      "originalWord": "Besatzung",
-      "meaning": "ocupación"
-    },
-    "Partisanen": {
-      "entries": [
-        {
-          "word": "Partisanen",
-          "meaning": "partisanos",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Partisanen",
-          "allTranslations": {
-            "es": "partisanos",
-            "en": "partisans",
-            "de": "Partisanen",
-            "pt": "partidários",
-            "ru": "партизаны",
-            "ruRom": "partizany",
-            "zh": "游击队",
-            "zhPinyin": "yóujīduì",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Partisanen",
-          "meaning": "partisanos",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Partisanen",
-          "allTranslations": {
-            "es": "partisanos",
-            "en": "partisans",
-            "de": "Partisanen",
-            "pt": "partidários",
-            "ru": "партизаны",
-            "ruRom": "partizany",
-            "zh": "游击队",
-            "zhPinyin": "yóujīduì",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        5,
         5
       ],
       "firstAppearance": 5,
@@ -1904,27 +959,9 @@
           "meaning": "sabotaje",
           "source": "dia-05-pesn-partizan",
           "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Sabotage",
-          "allTranslations": {
-            "es": "sabotaje",
-            "en": "sabotage",
-            "de": "Sabotage",
-            "pt": "sabotagem",
-            "ru": "диверсия",
-            "ruRom": "diversiya",
-            "zh": "破坏",
-            "zhPinyin": "pòhuài",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Sabotage",
-          "meaning": "sabotaje",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
+          "lessons": [
+            5
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "Sabotage",
           "allTranslations": {
@@ -1942,9 +979,8 @@
           }
         }
       ],
-      "frequency": 2,
+      "frequency": 1,
       "lessons": [
-        5,
         5
       ],
       "firstAppearance": 5,
@@ -1958,27 +994,9 @@
           "meaning": "clandestino",
           "source": "dia-05-pesn-partizan",
           "day": 5,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "Untergrund",
-          "allTranslations": {
-            "es": "clandestino",
-            "en": "underground",
-            "de": "Untergrund",
-            "pt": "clandestino",
-            "ru": "подпольный",
-            "ruRom": "podpol'nyy",
-            "zh": "地下的",
-            "zhPinyin": "dìxià de",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
-          }
-        },
-        {
-          "word": "Untergrund",
-          "meaning": "clandestino",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
+          "lessons": [
+            5
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "Untergrund",
           "allTranslations": {
@@ -1996,92 +1014,28 @@
           }
         }
       ],
-      "frequency": 2,
+      "frequency": 1,
       "lessons": [
-        5,
         5
       ],
       "firstAppearance": 5,
       "originalWord": "Untergrund",
       "meaning": "clandestino"
     },
-    "Antifaschistische Komposition": {
-      "entries": [
-        {
-          "word": "Antifaschistische Komposition",
-          "meaning": "Composición antifascista",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "Antifaschistische Komposition",
-          "allTranslations": {
-            "es": "Composición antifascista",
-            "en": "Antifascist composition",
-            "de": "Antifaschistische Komposition",
-            "pt": "Composição antifascista",
-            "ru": "Антифашистская композиция",
-            "ruRom": "Antifashistskaya kompozitsiya",
-            "zh": "反法西斯作品",
-            "zhPinyin": "Fǎn fǎxīsī zuòpǐn",
-            "source": "dia-06-der-heimliche-aufmarsch",
-            "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-            "originalKey": "1929",
-            "context": "Der Heimliche Aufmarsch"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        6
-      ],
-      "firstAppearance": 6,
-      "originalWord": "Antifaschistische Komposition",
-      "meaning": "Composición antifascista"
-    },
-    "Aufmarsch": {
-      "entries": [
-        {
-          "word": "Aufmarsch",
-          "meaning": "aufmarsch",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "Aufmarsch",
-          "allTranslations": {
-            "es": "aufmarsch",
-            "en": "mobilization",
-            "de": "Aufmarsch",
-            "pt": "mobilização",
-            "ru": "мобилизация",
-            "ruRom": "mobilizatsiya",
-            "zh": "动员",
-            "zhPinyin": "dòngyuán",
-            "source": "dia-06-der-heimliche-aufmarsch",
-            "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        6
-      ],
-      "firstAppearance": 6,
-      "originalWord": "Aufmarsch",
-      "meaning": "aufmarsch"
-    },
     "Geflüster": {
       "entries": [
         {
           "word": "Geflüster",
-          "meaning": "geflüster",
+          "meaning": "susurro",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
+          "lessons": [
+            6
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "Geflüster",
           "allTranslations": {
-            "es": "geflüster",
+            "es": "susurro",
             "en": "whisper",
             "de": "Geflüster",
             "pt": "sussurro",
@@ -2101,26 +1055,29 @@
       ],
       "firstAppearance": 6,
       "originalWord": "Geflüster",
-      "meaning": "geflüster"
+      "meaning": "susurro"
     },
-    "German KPD": {
+    "heimlich": {
       "entries": [
         {
-          "word": "German KPD",
-          "meaning": "Partido Comunista",
+          "word": "heimlich",
+          "meaning": "secreto",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
+          "lessons": [
+            6
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "German KPD",
+          "originalWord": "heimlich",
           "allTranslations": {
-            "es": "Partido Comunista",
-            "en": "KPD alemán",
-            "de": "German KPD",
-            "pt": "KPD Deutschland",
-            "ru": "KPD alemão",
-            "ruRom": "КПГ (Германия)",
-            "zh": "KPG (Germaniya)",
-            "zhPinyin": "德国共产党",
+            "es": "secreto",
+            "en": "secret",
+            "de": "heimlich",
+            "pt": "secreto",
+            "ru": "тайный",
+            "ruRom": "taynyy",
+            "zh": "秘密的",
+            "zhPinyin": "mìmì de",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -2132,116 +1089,23 @@
         6
       ],
       "firstAppearance": 6,
-      "originalWord": "German KPD",
-      "meaning": "Partido Comunista"
-    },
-    "Hanns Eisler": {
-      "entries": [
-        {
-          "word": "Hanns Eisler",
-          "meaning": "Nombre completo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "Hanns Eisler",
-          "allTranslations": {
-            "es": "Nombre completo",
-            "en": "Hanns Eisler",
-            "de": "Hanns Eisler",
-            "pt": "Hanns Eisler",
-            "ru": "Hanns Eisler",
-            "ruRom": "Ханнс Айслер",
-            "zh": "Khanns Aysler",
-            "zhPinyin": "汉斯·艾斯勒",
-            "source": "dia-06-der-heimliche-aufmarsch",
-            "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        6
-      ],
-      "firstAppearance": 6,
-      "originalWord": "Hanns Eisler",
-      "meaning": "Nombre completo"
-    },
-    "Kriegsminister": {
-      "entries": [
-        {
-          "word": "Kriegsminister",
-          "meaning": "kriegsminister",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "Kriegsminister",
-          "allTranslations": {
-            "es": "kriegsminister",
-            "en": "war minister",
-            "de": "Kriegsminister",
-            "pt": "ministro da guerra",
-            "ru": "военный министр",
-            "ruRom": "voyennyy ministr",
-            "zh": "战争部长",
-            "zhPinyin": "zhànzhēng bùzhǎng",
-            "source": "dia-06-der-heimliche-aufmarsch",
-            "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        6
-      ],
-      "firstAppearance": 6,
-      "originalWord": "Kriegsminister",
-      "meaning": "kriegsminister"
-    },
-    "our": {
-      "entries": [
-        {
-          "word": "our",
-          "meaning": "Nuestro",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "our",
-          "allTranslations": {
-            "es": "Nuestro",
-            "en": "nuestro/nuestra",
-            "de": "our",
-            "pt": "unser/unsere",
-            "ru": "nosso/nossa",
-            "ruRom": "наш/наша/наше",
-            "zh": "nash/nasha/nashe",
-            "zhPinyin": "我们的",
-            "source": "dia-06-der-heimliche-aufmarsch",
-            "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        6
-      ],
-      "firstAppearance": 6,
-      "originalWord": "our",
-      "meaning": "Nuestro"
+      "originalWord": "heimlich",
+      "meaning": "secreto"
     },
     "Räuberheer": {
       "entries": [
         {
           "word": "Räuberheer",
-          "meaning": "räuberheer",
+          "meaning": "horda saqueadora",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
+          "lessons": [
+            6
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "Räuberheer",
           "allTranslations": {
-            "es": "räuberheer",
+            "es": "horda saqueadora",
             "en": "robber horde",
             "de": "Räuberheer",
             "pt": "horda saqueadora",
@@ -2261,19 +1125,22 @@
       ],
       "firstAppearance": 6,
       "originalWord": "Räuberheer",
-      "meaning": "räuberheer"
+      "meaning": "horda saqueadora"
     },
     "Sowjetlicht": {
       "entries": [
         {
           "word": "Sowjetlicht",
-          "meaning": "sowjetlicht",
+          "meaning": "luz soviética",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
+          "lessons": [
+            6
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "Sowjetlicht",
           "allTranslations": {
-            "es": "sowjetlicht",
+            "es": "luz soviética",
             "en": "Soviet light",
             "de": "Sowjetlicht",
             "pt": "luz soviética",
@@ -2293,26 +1160,29 @@
       ],
       "firstAppearance": 6,
       "originalWord": "Sowjetlicht",
-      "meaning": "sowjetlicht"
+      "meaning": "luz soviética"
     },
-    "your (plural)": {
+    "Weltrepublik": {
       "entries": [
         {
-          "word": "your (plural)",
-          "meaning": "Vuestro",
+          "word": "Weltrepublik",
+          "meaning": "república mundial",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
+          "lessons": [
+            6
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
-          "originalWord": "your (plural)",
+          "originalWord": "Weltrepublik",
           "allTranslations": {
-            "es": "Vuestro",
-            "en": "vuestro/vuestra",
-            "de": "your (plural)",
-            "pt": "euer/eure",
-            "ru": "vosso/vossa",
-            "ruRom": "ваш/ваша/ваше",
-            "zh": "vash/vasha/vashe",
-            "zhPinyin": "你们的",
+            "es": "república mundial",
+            "en": "world republic",
+            "de": "Weltrepublik",
+            "pt": "república mundial",
+            "ru": "мировая республика",
+            "ruRom": "mirovaya respublika",
+            "zh": "世界共和国",
+            "zhPinyin": "shìjiè gònghéguó",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -2324,232 +1194,8 @@
         6
       ],
       "firstAppearance": 6,
-      "originalWord": "your (plural)",
-      "meaning": "Vuestro"
-    },
-    "in": {
-      "entries": [
-        {
-          "word": "in",
-          "meaning": "En/En el",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "in",
-          "allTranslations": {
-            "es": "En/En el",
-            "en": "en",
-            "de": "in",
-            "pt": "in",
-            "ru": "em",
-            "ruRom": "в",
-            "zh": "v",
-            "zhPinyin": "在",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "in",
-      "meaning": "En/En el"
-    },
-    "Kommunistische Partei": {
-      "entries": [
-        {
-          "word": "Kommunistische Partei",
-          "meaning": "共产党",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Kommunistische Partei",
-          "allTranslations": {
-            "es": "共产党",
-            "en": "communist party",
-            "de": "Kommunistische Partei",
-            "pt": "partido comunista",
-            "ru": "коммунистическая партия",
-            "ruRom": "kommunisticheskaya partiya",
-            "zh": "共产党",
-            "zhPinyin": "gòngchǎndǎng",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "Kommunistische Partei",
-      "meaning": "共产党"
-    },
-    "Osten": {
-      "entries": [
-        {
-          "word": "Osten",
-          "meaning": "东方",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Osten",
-          "allTranslations": {
-            "es": "东方",
-            "en": "east",
-            "de": "Osten",
-            "pt": "oriente",
-            "ru": "восток",
-            "ruRom": "vostok",
-            "zh": "东方",
-            "zhPinyin": "dōngfāng",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "Osten",
-      "meaning": "东方"
-    },
-    "Retter": {
-      "entries": [
-        {
-          "word": "Retter",
-          "meaning": "救星",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Retter",
-          "allTranslations": {
-            "es": "救星",
-            "en": "savior",
-            "de": "Retter",
-            "pt": "salvador",
-            "ru": "спаситель",
-            "ruRom": "spasitel'",
-            "zh": "救星",
-            "zhPinyin": "jiùxīng",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "Retter",
-      "meaning": "救星"
-    },
-    "Sonne": {
-      "entries": [
-        {
-          "word": "Sonne",
-          "meaning": "太阳",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Sonne",
-          "allTranslations": {
-            "es": "太阳",
-            "en": "sun",
-            "de": "Sonne",
-            "pt": "sol",
-            "ru": "солнце",
-            "ruRom": "solntse",
-            "zh": "太阳",
-            "zhPinyin": "tàiyáng",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "Sonne",
-      "meaning": "太阳"
-    },
-    "Vorsitzender": {
-      "entries": [
-        {
-          "word": "Vorsitzender",
-          "meaning": "主席",
-          "source": "dia-07-dongfang-hong",
-          "day": 7,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md",
-          "originalWord": "Vorsitzender",
-          "allTranslations": {
-            "es": "主席",
-            "en": "chairman",
-            "de": "Vorsitzender",
-            "pt": "presidente",
-            "ru": "председатель",
-            "ruRom": "predsedatel'",
-            "zh": "主席",
-            "zhPinyin": "zhǔxí",
-            "source": "dia-07-dongfang-hong",
-            "day": 7,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-07-dongfang-hong.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        7
-      ],
-      "firstAppearance": 7,
-      "originalWord": "Vorsitzender",
-      "meaning": "主席"
-    },
-    "arise, country": {
-      "entries": [
-        {
-          "word": "arise, country",
-          "meaning": "Ejemplo",
-          "source": "dia-08-the-sacred-war",
-          "day": 8,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
-          "originalWord": "arise, country",
-          "allTranslations": {
-            "es": "Ejemplo",
-            "en": "levántate, país",
-            "de": "arise, country",
-            "pt": "erhebe dich, Land",
-            "ru": "levanta-te, país",
-            "ruRom": "вставай, страна",
-            "zh": "vstavay, strana",
-            "zhPinyin": "起来，国家",
-            "source": "dia-08-the-sacred-war",
-            "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        8
-      ],
-      "firstAppearance": 8,
-      "originalWord": "arise, country",
-      "meaning": "Ejemplo"
+      "originalWord": "Weltrepublik",
+      "meaning": "república mundial"
     },
     "Faschismus": {
       "entries": [
@@ -2558,6 +1204,10 @@
           "meaning": "fascismo",
           "source": "dia-08-the-sacred-war",
           "day": 8,
+          "lessons": [
+            8,
+            11
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "Faschismus",
           "allTranslations": {
@@ -2573,62 +1223,6 @@
             "day": 8,
             "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
           }
-        },
-        {
-          "word": "Faschismus",
-          "meaning": "fascismo",
-          "source": "dia-11-einheitsfrontlied",
-          "day": 11,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Faschismus",
-          "allTranslations": {
-            "es": "fascismo",
-            "en": "fascism",
-            "de": "Faschismus",
-            "pt": "fascismo",
-            "ru": "фашизм",
-            "ruRom": "fashizm",
-            "zh": "法西斯主义",
-            "zhPinyin": "fǎxīsī zhǔyì",
-            "source": "dia-11-einheitsfrontlied",
-            "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
-          }
-        }
-      ],
-      "frequency": 2,
-      "lessons": [
-        8,
-        11
-      ],
-      "firstAppearance": 8,
-      "originalWord": "Faschismus",
-      "meaning": "fascismo"
-    },
-    "Japanische Kapitulation": {
-      "entries": [
-        {
-          "word": "Japanische Kapitulation",
-          "meaning": "Capitulación japonesa",
-          "source": "dia-08-the-sacred-war",
-          "day": 8,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
-          "originalWord": "Japanische Kapitulation",
-          "allTranslations": {
-            "es": "Capitulación japonesa",
-            "en": "Japanese surrender",
-            "de": "Japanische Kapitulation",
-            "pt": "Rendição japonesa",
-            "ru": "Капитуляция Японии",
-            "ruRom": "Kapitulyatsiya Yaponii",
-            "zh": "日本投降",
-            "zhPinyin": "Rìběn tóuxiáng",
-            "source": "dia-08-the-sacred-war",
-            "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
-            "originalKey": "2 septiembre 1945",
-            "context": "Fin guerra"
-          }
         }
       ],
       "frequency": 1,
@@ -2636,8 +1230,8 @@
         8
       ],
       "firstAppearance": 8,
-      "originalWord": "Japanische Kapitulation",
-      "meaning": "Capitulación japonesa"
+      "originalWord": "Faschismus",
+      "meaning": "fascismo"
     },
     "Krieg": {
       "entries": [
@@ -2646,6 +1240,9 @@
           "meaning": "guerra",
           "source": "dia-08-the-sacred-war",
           "day": 8,
+          "lessons": [
+            8
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "Krieg",
           "allTranslations": {
@@ -2678,6 +1275,9 @@
           "meaning": "frente oriental",
           "source": "dia-08-the-sacred-war",
           "day": 8,
+          "lessons": [
+            8
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "Ostfront",
           "allTranslations": {
@@ -2703,38 +1303,6 @@
       "originalWord": "Ostfront",
       "meaning": "frente oriental"
     },
-    "Unternehmen Barbarossa": {
-      "entries": [
-        {
-          "word": "Unternehmen Barbarossa",
-          "meaning": "Operación Barbarroja",
-          "source": "dia-08-the-sacred-war",
-          "day": 8,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
-          "originalWord": "Unternehmen Barbarossa",
-          "allTranslations": {
-            "es": "Operación Barbarroja",
-            "en": "Operation Barbarossa",
-            "de": "Unternehmen Barbarossa",
-            "pt": "Operação Barbarossa",
-            "ru": "Операция Барбаросса",
-            "ruRom": "Operatsiya Barbarossa",
-            "zh": "巴巴罗萨行动",
-            "zhPinyin": "Bābāluósà xíngdòng",
-            "source": "dia-08-the-sacred-war",
-            "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        8
-      ],
-      "firstAppearance": 8,
-      "originalWord": "Unternehmen Barbarossa",
-      "meaning": "Operación Barbarroja"
-    },
     "Anarchismus": {
       "entries": [
         {
@@ -2742,6 +1310,9 @@
           "meaning": "anarquismo",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
+          "lessons": [
+            9
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "Anarchismus",
           "allTranslations": {
@@ -2767,38 +1338,6 @@
       "originalWord": "Anarchismus",
       "meaning": "anarquismo"
     },
-    "direkte Aktion": {
-      "entries": [
-        {
-          "word": "direkte Aktion",
-          "meaning": "acción directa",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
-          "originalWord": "direkte Aktion",
-          "allTranslations": {
-            "es": "acción directa",
-            "en": "direct action",
-            "de": "direkte Aktion",
-            "pt": "ação direta",
-            "ru": "прямое действие",
-            "ruRom": "pryamoye deystviye",
-            "zh": "直接行动",
-            "zhPinyin": "zhíjiē xíngdòng",
-            "source": "dia-09-hijos-del-pueblo",
-            "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        9
-      ],
-      "firstAppearance": 9,
-      "originalWord": "direkte Aktion",
-      "meaning": "acción directa"
-    },
     "Erste Internationale": {
       "entries": [
         {
@@ -2806,6 +1345,9 @@
           "meaning": "Primera Internacional",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
+          "lessons": [
+            9
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "Erste Internationale",
           "allTranslations": {
@@ -2838,6 +1380,9 @@
           "meaning": "huelga general",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
+          "lessons": [
+            9
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "Generalstreik",
           "allTranslations": {
@@ -2863,38 +1408,6 @@
       "originalWord": "Generalstreik",
       "meaning": "huelga general"
     },
-    "nineteenth century": {
-      "entries": [
-        {
-          "word": "nineteenth century",
-          "meaning": "Expresión",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
-          "originalWord": "nineteenth century",
-          "allTranslations": {
-            "es": "Expresión",
-            "en": "siglo diecinueve",
-            "de": "nineteenth century",
-            "pt": "neunzehntes Jahrhundert",
-            "ru": "século dezanove",
-            "ruRom": "девятнадцатый век",
-            "zh": "devyatnadtsatyy vek",
-            "zhPinyin": "十九世纪",
-            "source": "dia-09-hijos-del-pueblo",
-            "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        9
-      ],
-      "firstAppearance": 9,
-      "originalWord": "nineteenth century",
-      "meaning": "Expresión"
-    },
     "Solidarität": {
       "entries": [
         {
@@ -2902,6 +1415,9 @@
           "meaning": "solidaridad",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
+          "lessons": [
+            9
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "Solidarität",
           "allTranslations": {
@@ -2934,6 +1450,9 @@
           "meaning": "opresión",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
+          "lessons": [
+            9
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "Unterdrückung",
           "allTranslations": {
@@ -2966,6 +1485,9 @@
           "meaning": "diáspora",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "Diaspora",
           "allTranslations": {
@@ -2991,24 +1513,27 @@
       "originalWord": "Diaspora",
       "meaning": "diáspora"
     },
-    "Jewish Diaspora": {
+    "Fahne": {
       "entries": [
         {
-          "word": "Jewish Diaspora",
-          "meaning": "Diáspora",
+          "word": "Fahne",
+          "meaning": "bandera",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
-          "originalWord": "Jewish Diaspora",
+          "originalWord": "Fahne",
           "allTranslations": {
-            "es": "Diáspora",
-            "en": "Diáspora judía",
-            "de": "Jewish Diaspora",
-            "pt": "Jüdische Diaspora",
-            "ru": "Diáspora judaica",
-            "ruRom": "Еврейская диаспора",
-            "zh": "Yevreyskaya diaspora",
-            "zhPinyin": "犹太散居",
+            "es": "bandera",
+            "en": "flag",
+            "de": "Fahne",
+            "pt": "bandeira",
+            "ru": "знамя",
+            "ruRom": "znamya",
+            "zh": "旗帜",
+            "zhPinyin": "qízhì",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -3020,8 +1545,8 @@
         10
       ],
       "firstAppearance": 10,
-      "originalWord": "Jewish Diaspora",
-      "meaning": "Diáspora"
+      "originalWord": "Fahne",
+      "meaning": "bandera"
     },
     "phantasieren": {
       "entries": [
@@ -3030,6 +1555,9 @@
           "meaning": "fantasear",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "phantasieren",
           "allTranslations": {
@@ -3062,6 +1590,9 @@
           "meaning": "proletario",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "Proletarier",
           "allTranslations": {
@@ -3094,6 +1625,9 @@
           "meaning": "necio",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "töricht",
           "allTranslations": {
@@ -3126,6 +1660,9 @@
           "meaning": "perecer",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
+          "lessons": [
+            10
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "verderben",
           "allTranslations": {
@@ -3151,61 +1688,30 @@
       "originalWord": "verderben",
       "meaning": "perecer"
     },
-    "Zionist movement": {
+    "Arbeiter": {
       "entries": [
         {
-          "word": "Zionist movement",
-          "meaning": "Sionismo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
-          "originalWord": "Zionist movement",
-          "allTranslations": {
-            "es": "Sionismo",
-            "en": "Movimiento sionista",
-            "de": "Zionist movement",
-            "pt": "Zionistische Bewegung",
-            "ru": "Movimento sionista",
-            "ruRom": "Сионистское движение",
-            "zh": "Sionistskoye dvizheniye",
-            "zhPinyin": "犹太复国主义",
-            "source": "dia-10-oy-ir-narishe-tsienistn",
-            "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
-          }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        10
-      ],
-      "firstAppearance": 10,
-      "originalWord": "Zionist movement",
-      "meaning": "Sionismo"
-    },
-    "Achse Rom-Berlin": {
-      "entries": [
-        {
-          "word": "Achse Rom-Berlin",
-          "meaning": "Eje Roma-Berlín",
+          "word": "Arbeiter",
+          "meaning": "trabajador",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
+          "lessons": [
+            11
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "Achse Rom-Berlin",
+          "originalWord": "Arbeiter",
           "allTranslations": {
-            "es": "Eje Roma-Berlín",
-            "en": "Rome-Berlin Axis",
-            "de": "Achse Rom-Berlin",
-            "pt": "Eixo Roma-Berlim",
-            "ru": "Ось Рим-Берлин",
-            "ruRom": "Os' Rim-Berlin",
-            "zh": "柏林-罗马轴心",
-            "zhPinyin": "Bólín-Luómǎ zhóuxīn",
+            "es": "trabajador",
+            "en": "worker",
+            "de": "Arbeiter",
+            "pt": "trabalhador",
+            "ru": "рабочий",
+            "ruRom": "rabochiy",
+            "zh": "工人",
+            "zhPinyin": "gōngrén",
             "source": "dia-11-einheitsfrontlied",
             "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
-            "originalKey": "1936",
-            "context": "Eje Roma-Berlín"
+            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
           }
         }
       ],
@@ -3214,8 +1720,8 @@
         11
       ],
       "firstAppearance": 11,
-      "originalWord": "Achse Rom-Berlin",
-      "meaning": "Eje Roma-Berlín"
+      "originalWord": "Arbeiter",
+      "meaning": "trabajador"
     },
     "Front": {
       "entries": [
@@ -3224,6 +1730,9 @@
           "meaning": "frente",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
+          "lessons": [
+            11
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
           "originalWord": "Front",
           "allTranslations": {
@@ -3256,6 +1765,9 @@
           "meaning": "proletario",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
+          "lessons": [
+            11
+          ],
           "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
           "originalWord": "Prolet",
           "allTranslations": {

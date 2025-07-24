@@ -17,8 +17,8 @@ grammarTopics:
   - "Concordancia adjetival básica"
   - "Posición adjetival por idioma"
 vocabulary: 
-  - "aufmarsch"
-  - "heimlich"
+  - "movilización"
+  - "secreto"
   - "krieg"
 culturalContext: "Himno antifascista alemán que anticipó la guerra contra la URSS durante la República de Weimar"
 difficultyLevel: "intermediate"
@@ -475,18 +475,18 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---|---|---|---|---|---|---|---|
-| **aufmarsch** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán |
-| **heimlich** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de |
-| **geflüster** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ |
-| **räuberheer** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì |
+| **movilización** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán |
+| **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de |
+| **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ |
+| **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---|---|---|---|---|---|---|---|
-| **kriegsminister** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng |
-| **sowjetlicht** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng |
-| **weltrepublik** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó |
+| **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng |
+| **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng |
+| **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó |
 
 ---
 

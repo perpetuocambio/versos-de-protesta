@@ -589,7 +589,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}">
               <h3 class="word-title">${word}</h3>
               <div class="word-meta">
-                <span class="frequency">Aparece ${data.frequency} vez${data.frequency !== 1 ? 'es' : ''}</span>
+                <span class="meaning">${language === 'es' ? `Primera aparición: Día ${data.firstAppearance}` : `Significado: ${data.meaning}`}</span>
                 <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
               </div>
             </div>
@@ -660,7 +660,18 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsHtml += '</ul>';
         }
 
-        detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${entry.day}</a></p>`;
+        // Mostrar todas las lecciones donde aparece la palabra
+        const lessons = entry.lessons || [entry.day];
+        if (lessons.length === 1) {
+            detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${lessons[0]}</a></p>`;
+        } else {
+            detailsHtml += `<p><strong>Aparece en las lecciones:</strong> `;
+            lessons.forEach((day, idx) => {
+                if (idx > 0) detailsHtml += ', ';
+                detailsHtml += `<a href="${baseUrl}blog/dia-${day.toString().padStart(2, '0')}/" class="post-link">Día ${day}</a>`;
+            });
+            detailsHtml += `</p>`;
+        }
         detailsHtml += `</div>`;
     });
 
