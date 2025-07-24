@@ -33,67 +33,65 @@ tags: ["chile", "allende", "música", "revolución", "gramática-comparativa"]
 **"El Pueblo Unido Jamás Será Vencido" - Sergio Ortega/Quilapayún (1973)**
 
 ```
-El pueblo unido, jamás será vencido
 El pueblo unido jamás será vencido
 
 De pie, cantar
-Que vamos a triunfar
+que vamos a triunfar.
 Avanzan ya
-Banderas de unidad
+banderas de unidad.
 Y tú vendrás
-Marchando junto a mí
-Y así verás
-Tu canto y tu bandera florecer
+marchando junto a mí
+y así verás
+tu canto y tu bandera florecer.
 La luz
-De un rojo amanecer
-Anuncia ya
-La vida que vendrá
+de un rojo amanecer
+anuncia ya
+la vida que vendrá.
 
 De pie, luchar
-El pueblo va a triunfar
+el pueblo va a triunfar.
 Será mejor
-La vida que vendrá
-A conquistar
-Nuestra felicidad
+la vida que vendrá
+a conquistar
+nuestra felicidad.
 Y en un clamor
-Mil voces de combate se alzarán
+mil voces de combate se alzarán.
 Dirán
-Canción de libertad
+canción de libertad.
 Con decisión
-La patria vencerá
+la patria vencerá.
 
 Y ahora el pueblo
-Que se alza en la lucha
-Con voz de gigante
-Gritando: ¡adelante!
-El pueblo unido, jamás será vencido
-El pueblo unido jamás será vencido
+que se alza en la lucha
+con voz de gigante
+gritando: ¡adelante!
+El pueblo unido jamás será vencido.
 
 La patria está
-Forjando la unidad
+forjando la unidad.
 De norte a sur
-Se movilizará
+se movilizará.
 Desde el salar
-Ardiente y mineral
-Al bosque austral
-Unidos en la lucha y el trabajo
-Irán
-La patria cubrirán
+ardiente y mineral,
+al bosque austral,
+unidos en la lucha y el trabajo,
+irán,
+la patria cubrirán.
 Su paso ya
-Anuncia el porvenir
+anuncia el porvenir.
 
 De pie, cantar
-El pueblo va a triunfar
+el pueblo va a triunfar.
 Millones ya
-Imponen la verdad
-De acero son
-Ardiente batallón
+imponen la verdad.
+De acero son,
+ardiente batallón.
 Sus manos van
-Llevando la justicia y la razón
-Mujer
-Con fuego y con valor
-Ya estás aquí
-Junto al trabajador
+llevando la justicia y la razón.
+Mujer,
+con fuego y con valor,
+ya estás aquí
+junto al trabajador.
 ```
 
 ---
@@ -883,7 +881,7 @@ Práctica tonal:
 
 ### 🎤 La Canción: "El Pueblo Unido Jamás Será Vencido"
 
-*   **es:** [El Pueblo Unido Jamás Será Vencido](https://es.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
+*   **es:** [El Pueblo Unido Jamás Será Vencido](https://es.wikipedia.org/wiki/El_pueblo_unido_jam%C3%A1s_ser%C3%A1_vencido)
 *   **en:** [El Pueblo Unido Jamás Será Vencido](https://en.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
 *   **de:** [El Pueblo Unido Jamás Será Vencido](https://de.wikipedia.org/wiki/El_pueblo_unido)
 *   **pt:** [El Pueblo Unido Jamás Será Vencido](https://pt.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)

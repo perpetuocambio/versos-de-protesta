@@ -33,57 +33,25 @@ tags: ["resistencia", "segunda-guerra-mundial", "francia", "rusia", "antifascism
 **"Le Chant des Partisans" - Anna Marly (1943)**
 
 ```
-Ami, entends-tu
-Le vol noir des corbeaux
-Sur nos plaines?
-Ami, entends-tu
-Les cris sourds du pays
-Qu'on enchaîne?
-Ohé! partisans,
-Ouvriers et paysans,
-C'est l'alarme!
-Ce soir l'ennemi
-Connaîtra le prix du sang
-Et les larmes!
+Ami, entends-tu le vol noir des corbeaux sur nos plaines ?
+Ami, entends-tu les cris sourds du pays qu'on enchaîne ?
+Ohé ! partisans, ouvriers et paysans, c'est l'alarme !
+Ce soir l'ennemi connaîtra le prix du sang et des larmes.
 
-Montez de la mine,
-Descendez des collines,
-Camarades!
-Sortez de la paille
-Les fusils, la mitraille,
-Les grenades...
-Ohé! les tueurs,
-A la balle et au couteau,
-Tuez vite!
-Ohé! saboteur,
-Attention à ton fardeau:
-Dynamite!
+Montez de la mine, descendez des collines, camarades !
+Sortez de la paille les fusils, la mitraille, les grenades…
+Ohé ! les tueurs, à la balle et au couteau, tuez vite !
+Ohé ! saboteur, attention à ton fardeau : dynamite !
 
-C'est nous qui brisons
-Les barreaux des prisons
-Pour nos frères,
-La haine à nos trousses
-Et la faim qui nous pousse,
-La misère...
-Il y a des pays
-Ou les gens au creux de lits
-Font des rêves;
-Ici, nous, vois-tu,
-Nous on marche et nous on tue,
-Nous on crève.
+C'est nous qui brisons les barreaux des prisons pour nos frères,
+La haine à nos trousses et la faim qui nous pousse, la misère…
+Il y a des pays où les gens au creux du lit font des rêves
+Ici, nous, vois-tu, nous on marche et nous on tue, nous on crève…
 
-Ici chacun sait
-Ce qu'il veut, ce qui'il fait
-Quand il passe...
-Ami, si tu tombes
-Un ami sort de l'ombre
-A ta place.
-Demain du sang noir
-Sechera au grand soleil
-Sur les routes.
-Sifflez, compagnons,
-Dans la nuit la Liberté
-Nous écoute...
+Ici chacun sait ce qu'il veut, ce qu'il fait quand il passe.
+Ami, si tu tombes un ami sort de l'ombre à ta place.
+Demain du sang noir séchera au grand soleil sur les routes.
+Sifflez, compagnons, dans la nuit la Liberté nous écoute…
 
 ```
 

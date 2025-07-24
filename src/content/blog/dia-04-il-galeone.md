@@ -49,10 +49,10 @@ fra fetide carene
 siam magri smunti schiavi
 stretti in ferro catene.
 
-Nessun nocchiero ardito, 
-sfida dei venti l'ira? 
-Pur sulla nave muda, 
-l'etere ognun sospira! *
+Nessun nocchiero ardito,
+sfida dei venti l'ira?
+Pur sulla nave muta,
+l'etere ognun sospira!
 
 Sorge sul mar la luna
 ruotan le stelle in cielo
@@ -71,7 +71,7 @@ sul biancheggiar del mare.
 
 Remiam finché la nave
 si schianti sui frangenti
-alte bandier rossonere
+alte bandiere rossonere
 fra il sibilar dei venti!
 
 E sia pietosa coltrice
@@ -79,22 +79,22 @@ l'onda spumosa e ria
 ma sorga un dì sui martiri
 il sol dell'anarchia.
 
-Su schiavi allarmi allarmi!
+Su schiavi all'armi, all'armi!
 L'onda gorgoglia e sale
 tuoni baleni e fulmini
 sul galeon fatale.
 
-Su schiavi allarmi allarmi!
+Su schiavi all'armi, all'armi!
 Pugnam col braccio forte!
-Giuriam giuriam giustizia!
+Giuriam, giuriam giustizia!
 O libertà o morte!
 
-Falci del messidoro, 
-spighe ondeggianti al vento! 
-Voi siate i nostri labari, 
-nell'epico cimento! *
+Falci del messidoro,
+spighe ondeggianti al vento!
+Voi siate i nostri labari,
+nell'epico cimento!
 
-Giuriam giuriam giustizia!
+Giuriam, giuriam giustizia!
 O libertà o morte!
 ```
 
