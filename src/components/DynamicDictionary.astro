@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
       </style>
       <div class="dictionary-header">
-        <h2>Vocabulario de ${language}</h2>
+        <h2>Vocabulario de ${availableLangs[language] || language}</h2>
         <p>${allWords.length} palabras encontradas</p>
       </div>
       <div class="search-section">

@@ -35,7 +35,7 @@ function getCountryFromOrigin(origin: string | undefined): string {
   
   // Si contiene palabras específicas, usar versiones cortas
   if (mainPart.toLowerCase().includes('estados unidos')) return 'EE.UU.';
-  if (mainPart.toLowerCase().includes('unión soviética') || mainPart.toLowerCase().includes('urss')) return 'URSS';
+  if (mainPart.toLowerCase().includes('unión soviética') || mainPart.toLowerCase().includes('urss') || mainPart.toLowerCase().includes('imperio ruso')) return 'URSS';
   if (mainPart.toLowerCase().includes('reino unido')) return 'Reino Unido';
   
   // Para cualquier otro caso, usar el texto tal como viene (capitalizado)
