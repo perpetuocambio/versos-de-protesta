@@ -1,0 +1,25 @@
+{
+  "type": "composer",
+  "fullName": "Himno Anarquista / Adaptación de Emilio Arrieta",
+  "nationality": "Unknown",
+  "biography": {
+    "es": "Información biográfica de Himno Anarquista / Adaptación de Emilio Arrieta pendiente de investigación.",
+    "en": "Biographical information for Himno Anarquista / Adaptación de Emilio Arrieta pending research.",
+    "de": "Biografische Informationen zu Himno Anarquista / Adaptación de Emilio Arrieta stehen noch aus."
+  },
+  "works": [
+    "Hijos del pueblo"
+  ],
+  "needsResearch": true,
+  "sources": [
+    "Song attribution only"
+  ],
+  "relatedSongs": [
+    {
+      "title": "Hijos del pueblo",
+      "year": 1885,
+      "day": 9
+    }
+  ],
+  "connections": []
+}

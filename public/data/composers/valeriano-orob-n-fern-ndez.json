@@ -1,0 +1,25 @@
+{
+  "type": "composer",
+  "fullName": "Valeriano Orobón Fernández",
+  "nationality": "Unknown",
+  "biography": {
+    "es": "Información biográfica de Valeriano Orobón Fernández pendiente de investigación.",
+    "en": "Biographical information for Valeriano Orobón Fernández pending research.",
+    "de": "Biografische Informationen zu Valeriano Orobón Fernández stehen noch aus."
+  },
+  "works": [
+    "A las Barricadas"
+  ],
+  "needsResearch": true,
+  "sources": [
+    "Song attribution only"
+  ],
+  "relatedSongs": [
+    {
+      "title": "A las Barricadas",
+      "year": 1933,
+      "day": 1
+    }
+  ],
+  "connections": []
+}

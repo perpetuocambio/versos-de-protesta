@@ -1,0 +1,25 @@
+{
+  "type": "composer",
+  "fullName": "Анна Смирнова Марли",
+  "nationality": "Unknown",
+  "biography": {
+    "es": "Información biográfica de Анна Смирнова Марли pendiente de investigación.",
+    "en": "Biographical information for Анна Смирнова Марли pending research.",
+    "de": "Biografische Informationen zu Анна Смирнова Марли stehen noch aus."
+  },
+  "works": [
+    "Песнь Партизан"
+  ],
+  "needsResearch": true,
+  "sources": [
+    "Song attribution only"
+  ],
+  "relatedSongs": [
+    {
+      "title": "Песнь Партизан",
+      "year": 1942,
+      "day": 5
+    }
+  ],
+  "connections": []
+}

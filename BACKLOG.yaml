@@ -1,0 +1,283 @@
+# VERSOS DE PROTESTA - BACKLOG DE CARACTERÍSTICAS AVANZADAS
+# ==============================================================
+
+project:
+  name: "Versos de Protesta - Enhanced Features"
+  version: "2.0.0"
+  description: "Características avanzadas para enriquecer la experiencia educativa multilingüe"
+
+architecture:
+  new_directories:
+    - "/src/pages/herramientas/"     # Páginas principales de herramientas
+    - "/src/pages/compositores/"     # Biografías de compositores  
+    - "/src/pages/gramatica/"        # Visualizadores gramaticales
+    - "/src/pages/pronunciacion/"    # Guías IPA con audio
+    - "/src/components/advanced/"    # Componentes avanzados
+    - "/public/data/chinese/"        # Trazos, radicales, etimología local
+    - "/public/data/composers/"      # Biografías y contexto histórico
+    - "/public/data/grammar/"        # Datos para visualizador gramatical
+    - "/public/data/pronunciation/"  # Archivos IPA y metadatos de audio
+
+data_generation:
+  chinese_strokes:
+    source: "MDBG Chinese Dictionary (mdbg.net)"
+    attribution: "Stroke order animations © MDBG Chinese Dictionary"
+    license: "Used with attribution for educational purposes"
+    script: "/scripts/download-chinese-strokes.mjs"
+    
+  radical_analysis:
+    source: "Unicode Radical Database + Manual curation"
+    script: "/scripts/generate-radical-data.mjs"
+    
+  etymology_data:
+    source: "Historical character evolution + Academic sources"
+    script: "/scripts/generate-etymology-data.mjs"
+
+features:
+  # ========================================
+  # FASE 1: SISTEMA CHINO LOCAL (4-6 DÍAS)
+  # ========================================
+  chinese_local_system:
+    priority: "CRÍTICA"
+    estimated_time: "4-6 días"
+    components:
+      - stroke_downloader:
+          file: "/scripts/download-chinese-strokes.mjs"
+          description: "Descarga trazos de MDBG con atribución"
+          output: "/public/data/chinese/strokes/"
+          status: "pending"
+          
+      - radical_analyzer:
+          file: "/src/components/advanced/RadicalAnalyzer.astro"
+          description: "Análisis de radicales con explicaciones"
+          dependencies: ["/public/data/chinese/radicals.json"]
+          status: "pending"
+          
+      - etymology_viewer:
+          file: "/src/components/advanced/EtymologyViewer.astro" 
+          description: "Evolución histórica de caracteres"
+          dependencies: ["/public/data/chinese/etymology.json"]
+          status: "pending"
+          
+      - enhanced_chinese_modal:
+          file: "/src/components/advanced/EnhancedChineseModal.astro"
+          description: "Modal mejorado con radicales + etimología + trazos locales"
+          replaces: "Funcionalidad actual en DynamicDictionary.astro"
+          status: "pending"
+
+  # ========================================  
+  # FASE 2: COMPOSITORES Y CONTEXTO (3-4 DÍAS)
+  # ========================================
+  composers_system:
+    priority: "ALTA"
+    estimated_time: "3-4 días" 
+    components:
+      - composer_pages:
+          directory: "/src/pages/compositores/"
+          description: "Páginas individuales por compositor"
+          structure: "[composer-slug].astro"
+          status: "pending"
+          
+      - composer_data:
+          file: "/public/data/composers/index.json"
+          description: "Base de datos de compositores Y ARTISTAS con biografías"
+          includes: ["biografía", "contexto_histórico", "obras_destacadas", "cronología", "intérpretes_destacados"]
+          note: "Distinguir entre compositor original e intérpretes históricos importantes"
+          status: "pending"
+          
+      - revolutionary_context:
+          file: "/src/components/advanced/RevolutionaryContext.astro"
+          description: "Contexto histórico expandido con imágenes"
+          features: ["timeline_eventos", "galería_histórica", "mapas_geográficos"]
+          status: "pending"
+
+  # ========================================
+  # FASE 3: HERRAMIENTAS IPA + AUDIO (3-4 DÍAS)  
+  # ========================================
+  pronunciation_system:
+    priority: "ALTA"
+    estimated_time: "3-4 días"
+    components:
+      - ipa_generator:
+          file: "/scripts/generate-ipa-data.mjs"
+          description: "Genera datos IPA para palabras del diccionario"
+          output: "/public/data/pronunciation/ipa-guide.json"
+          status: "pending"
+          
+      - pronunciation_guide:
+          file: "/src/pages/pronunciacion/[lang].astro"
+          description: "Guías IPA interactivas por idioma"
+          features: ["ejemplos_sonoros", "comparación_fonética", "problemas_hispanohablantes"]
+          status: "pending"
+          
+      - ipa_visualizer:
+          file: "/src/components/advanced/IPAVisualizer.astro"
+          description: "Visualizador IPA con diagramas articulatorios"
+          status: "pending"
+
+  # ========================================
+  # FASE 4: VISUALIZADOR GRAMATICAL (5-7 DÍAS)
+  # ========================================  
+  grammar_visualizer:
+    priority: "MEDIA-ALTA"
+    estimated_time: "5-7 días"
+    components:
+      - syntax_trees:
+          file: "/src/components/advanced/SyntaxTreeVisualizer.astro"
+          description: "Árboles sintácticos interactivos SVG"
+          technologies: ["SVG", "D3.js_lite", "JavaScript_vanilla"]
+          status: "pending"
+          
+      - case_visualizer:
+          file: "/src/components/advanced/CaseSystemVisualizer.astro" 
+          description: "Visualizador de casos alemán/ruso"
+          features: ["tablas_interactivas", "ejemplos_contextuales", "ejercicios_implícitos"]
+          status: "pending"
+          
+      - comparative_grammar:
+          file: "/src/pages/gramatica/comparativa.astro"
+          description: "Comparación gramatical lado a lado"
+          features: ["5_idiomas_paralelos", "highlighting_diferencias", "análisis_tipológico"]
+          status: "pending"
+          
+      - grammar_data:
+          directory: "/public/data/grammar/"
+          files: ["syntax-patterns.json", "case-systems.json", "comparative-structures.json"]
+          description: "Datos estructurados para visualizador"
+          status: "pending"
+
+scripts_to_create:
+  # Generación de datos chinos
+  - "/scripts/download-chinese-strokes.mjs":
+      description: "Descarga trazos de MDBG con atribución legal"
+      output: "/public/data/chinese/strokes/"
+      
+  - "/scripts/generate-radical-data.mjs":
+      description: "Genera base de datos de radicales"
+      output: "/public/data/chinese/radicals.json"
+      
+  - "/scripts/generate-etymology-data.mjs":
+      description: "Datos de etimología de caracteres" 
+      output: "/public/data/chinese/etymology.json"
+      
+  # Datos de compositores e intérpretes
+  - "/scripts/generate-composer-data.mjs":
+      description: "Base de datos de compositores Y artistas intérpretes revolucionarios"
+      includes: ["compositores_originales", "intérpretes_históricos", "versiones_destacadas"]
+      output: "/public/data/composers/"
+      
+  # Datos de pronunciación
+  - "/scripts/generate-ipa-data.mjs":
+      description: "Genera datos IPA para diccionario existente"
+      input: "/public/data/internal/v1/dictionary/"
+      output: "/public/data/pronunciation/"
+      
+  # Datos gramaticales  
+  - "/scripts/generate-grammar-data.mjs":
+      description: "Extrae patrones gramaticales de lecciones"
+      input: "/src/content/blog/"
+      output: "/public/data/grammar/"
+
+navigation_structure:
+  main_nav:
+    - "Inicio": "/"
+    - "Blog": "/blog/"
+    - "Diccionario": "/diccionario/"
+    - "Herramientas": "/herramientas/"
+    - "Compositores": "/compositores/"
+    - "Gramática": "/gramatica/"
+    - "Pronunciación": "/pronunciacion/"
+    
+  herramientas_subnav:
+    - "Análisis Chino": "/herramientas/chino/"
+    - "Visualizador Gramatical": "/herramientas/gramatica/"
+    - "Guías IPA": "/herramientas/pronunciacion/"
+    - "Contexto Histórico": "/herramientas/historia/"
+
+development_phases:
+  fase_1:
+    name: "Sistema Chino Local"
+    duration: "1-2 semanas"
+    goal: "Trazos, radicales y etimología sin APIs externas"
+    deliverables:
+      - "Descarga masiva de trazos MDBG"
+      - "Base de datos de radicales local"
+      - "Modal chino mejorado"
+      - "Sistema de atribución de fuentes"
+      
+  fase_2:
+    name: "Compositores y Contexto"
+    duration: "1 semana"
+    goal: "Biografías y contexto histórico rico"
+    deliverables:
+      - "Páginas de compositores individuales"
+      - "Contexto revolucionario expandido"
+      - "Galería histórica por canción"
+      
+  fase_3:
+    name: "Herramientas IPA"
+    duration: "1 semana"  
+    goal: "Pronunciación visual sin audio externo"
+    deliverables:
+      - "Guías IPA interactivas"
+      - "Visualizador articulatorio"
+      - "Comparación fonética entre idiomas"
+      
+  fase_4:
+    name: "Visualizador Gramatical"
+    duration: "2 semanas"
+    goal: "Análisis sintáctico visual avanzado"
+    deliverables:
+      - "Árboles sintácticos SVG"
+      - "Visualizador de casos"
+      - "Gramática comparativa"
+
+legal_considerations:
+  chinese_strokes:
+    source: "MDBG Chinese Dictionary"
+    attribution: "Required in footer and component headers"
+    license_type: "Educational use with attribution"
+    
+  composer_data:
+    sources: ["Wikipedia Commons", "Public Domain sources", "Academic papers"]
+    images: "Only public domain or Creative Commons"
+    
+  ipa_data:
+    source: "Generated from linguistic databases"
+    no_copyright_issues: "Phonetic transcription is factual data"
+
+next_immediate_actions:
+  1. "Crear estructura de directorios nueva"
+  2. "Script de descarga de trazos chinos con atribución"
+  3. "Primer prototipo de modal chino mejorado"
+  4. "Base de datos de compositores (manual inicial)"
+  5. "Guía IPA para un idioma piloto"
+
+success_metrics:
+  chinese_system:
+    - "100% trazos disponibles localmente"
+    - "Análisis de radicales para caracteres del diccionario"
+    - "Tiempo de carga < 2 segundos"
+    
+  composer_system:
+    - "Biografía completa para compositores de 12 canciones"
+    - "Contexto histórico expandido"
+    - "Galería visual por período"
+    
+  grammar_system:
+    - "Visualización para 5 idiomas paralelos"
+    - "Interactividad sin lag"
+    - "Pedagogía visual clara"
+
+maintenance:
+  chinese_data:
+    update_frequency: "Trimestral"
+    maintenance_script: "/scripts/update-chinese-data.mjs"
+    
+  composer_data:
+    update_frequency: "Mensual" 
+    add_new_composers: "Según nuevas canciones"
+    
+  grammar_data:
+    update_frequency: "Con cada nueva lección"
+    auto_extraction: "Desde frontmatter de lessons"

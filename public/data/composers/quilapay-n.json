@@ -1,0 +1,51 @@
+{
+  "type": "performer",
+  "fullName": "Quilapayún",
+  "foundedYear": 1965,
+  "nationality": "Chilean",
+  "biography": {
+    "es": "Grupo chileno de Nueva Canción, intérpretes emblemáticos de 'El pueblo unido'. Exiliados tras el golpe de Pinochet, difundieron la canción protesta latinoamericana por Europa.",
+    "en": "Chilean Nueva Canción group, emblematic performers of 'El pueblo unido'. Exiled after Pinochet's coup, they spread Latin American protest songs throughout Europe.",
+    "de": "Chilenische Nueva Canción-Gruppe, emblematische Interpreten von 'El pueblo unido'. Nach Pinochets Putsch im Exil, verbreiteten sie lateinamerikanische Protestlieder in Europa."
+  },
+  "notableVersions": [
+    "El pueblo unido jamás será vencido",
+    "Venceremos",
+    "La muralla"
+  ],
+  "politicalContext": {
+    "es": "Nueva Canción Chilena, Unidad Popular, exilio europeo durante dictadura",
+    "en": "Chilean Nueva Canción, Popular Unity, European exile during dictatorship",
+    "de": "Chilenische Nueva Canción, Unidad Popular, europäisches Exil während der Diktatur"
+  },
+  "members": [
+    "Eduardo Carrasco",
+    "Willy Oddó",
+    "Carlos Quezada",
+    "Hernán Gómez"
+  ],
+  "sources": [
+    "Fundación Nueva Canción Chilena",
+    "Archivo DIBAM",
+    "Centre Culturel Chilien Paris"
+  ],
+  "relatedSongs": [
+    {
+      "title": "El Pueblo Unido Jamás Será Vencido",
+      "year": 1973,
+      "day": 3
+    }
+  ],
+  "connections": [
+    {
+      "artist1": "Quilapayún",
+      "artist2": "Sergio Ortega",
+      "relationship": "interpreter_composer",
+      "description": {
+        "es": "Quilapayún popularizó mundialmente las composiciones de Ortega",
+        "en": "Quilapayún globally popularized Ortega's compositions",
+        "de": "Quilapayún popularisierte Ortegas Kompositionen weltweit"
+      }
+    }
+  ]
+}

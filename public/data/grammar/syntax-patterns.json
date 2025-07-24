@@ -1,0 +1,1182 @@
+{
+  "metadata": {
+    "generated": "2025-07-24T19:37:49.718Z",
+    "version": "1.0.0",
+    "languages": [
+      "es",
+      "en",
+      "de",
+      "pt",
+      "ru"
+    ],
+    "description": "Patrones sintácticos para visualizador de árboles"
+  },
+  "patterns": {
+    "declarative": {
+      "es": {
+        "pattern": "SVO",
+        "example": "El pueblo canta",
+        "structure": [
+          "Det",
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Det",
+              "value": "El",
+              "position": 0,
+              "language": "es"
+            },
+            {
+              "type": "N",
+              "value": "pueblo",
+              "position": 1,
+              "language": "es"
+            },
+            {
+              "type": "V",
+              "value": "canta",
+              "position": 2,
+              "language": "es"
+            }
+          ]
+        }
+      },
+      "en": {
+        "pattern": "SVO",
+        "example": "The people sing",
+        "structure": [
+          "Det",
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Det",
+              "value": "The",
+              "position": 0,
+              "language": "en"
+            },
+            {
+              "type": "N",
+              "value": "people",
+              "position": 1,
+              "language": "en"
+            },
+            {
+              "type": "V",
+              "value": "sing",
+              "position": 2,
+              "language": "en"
+            }
+          ]
+        }
+      },
+      "de": {
+        "pattern": "SVO/SOV",
+        "example": "Das Volk singt",
+        "structure": [
+          "Det",
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Det",
+              "value": "Das",
+              "position": 0,
+              "language": "de"
+            },
+            {
+              "type": "N",
+              "value": "Volk",
+              "position": 1,
+              "language": "de"
+            },
+            {
+              "type": "V",
+              "value": "singt",
+              "position": 2,
+              "language": "de"
+            }
+          ]
+        }
+      },
+      "pt": {
+        "pattern": "SVO",
+        "example": "O povo canta",
+        "structure": [
+          "Det",
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Det",
+              "value": "O",
+              "position": 0,
+              "language": "pt"
+            },
+            {
+              "type": "N",
+              "value": "povo",
+              "position": 1,
+              "language": "pt"
+            },
+            {
+              "type": "V",
+              "value": "canta",
+              "position": 2,
+              "language": "pt"
+            }
+          ]
+        }
+      },
+      "ru": {
+        "pattern": "SVO(flexible)",
+        "example": "Народ поёт",
+        "structure": [
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "N",
+              "value": "Народ",
+              "position": 0,
+              "language": "ru"
+            },
+            {
+              "type": "V",
+              "value": "поёт",
+              "position": 1,
+              "language": "ru"
+            }
+          ]
+        }
+      }
+    },
+    "interrogative": {
+      "es": {
+        "pattern": "QVO/VSO",
+        "example": "¿Qué canta el pueblo?",
+        "structure": [
+          "Q",
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Q",
+              "value": "¿Qué",
+              "position": 0,
+              "language": "es"
+            },
+            {
+              "type": "V",
+              "value": "canta",
+              "position": 1,
+              "language": "es"
+            },
+            {
+              "type": "Det",
+              "value": "el",
+              "position": 2,
+              "language": "es"
+            },
+            {
+              "type": "N",
+              "value": "pueblo?",
+              "position": 3,
+              "language": "es"
+            }
+          ]
+        }
+      },
+      "en": {
+        "pattern": "QVS",
+        "example": "What does the people sing?",
+        "structure": [
+          "Q",
+          "Aux",
+          "Det",
+          "N",
+          "V"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Q",
+              "value": "What",
+              "position": 0,
+              "language": "en"
+            },
+            {
+              "type": "Aux",
+              "value": "does",
+              "position": 1,
+              "language": "en"
+            },
+            {
+              "type": "Det",
+              "value": "the",
+              "position": 2,
+              "language": "en"
+            },
+            {
+              "type": "N",
+              "value": "people",
+              "position": 3,
+              "language": "en"
+            },
+            {
+              "type": "V",
+              "value": "sing?",
+              "position": 4,
+              "language": "en"
+            }
+          ]
+        }
+      },
+      "de": {
+        "pattern": "QVS",
+        "example": "Was singt das Volk?",
+        "structure": [
+          "Q",
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Q",
+              "value": "Was",
+              "position": 0,
+              "language": "de"
+            },
+            {
+              "type": "V",
+              "value": "singt",
+              "position": 1,
+              "language": "de"
+            },
+            {
+              "type": "Det",
+              "value": "das",
+              "position": 2,
+              "language": "de"
+            },
+            {
+              "type": "N",
+              "value": "Volk?",
+              "position": 3,
+              "language": "de"
+            }
+          ]
+        }
+      },
+      "pt": {
+        "pattern": "QVO",
+        "example": "O que canta o povo?",
+        "structure": [
+          "Q",
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Q",
+              "value": "O",
+              "position": 0,
+              "language": "pt"
+            },
+            {
+              "type": "V",
+              "value": "que",
+              "position": 1,
+              "language": "pt"
+            },
+            {
+              "type": "Det",
+              "value": "canta",
+              "position": 2,
+              "language": "pt"
+            },
+            {
+              "type": "N",
+              "value": "o",
+              "position": 3,
+              "language": "pt"
+            }
+          ]
+        }
+      },
+      "ru": {
+        "pattern": "QVO",
+        "example": "Что поёт народ?",
+        "structure": [
+          "Q",
+          "V",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "Q",
+              "value": "Что",
+              "position": 0,
+              "language": "ru"
+            },
+            {
+              "type": "V",
+              "value": "поёт",
+              "position": 1,
+              "language": "ru"
+            },
+            {
+              "type": "N",
+              "value": "народ?",
+              "position": 2,
+              "language": "ru"
+            }
+          ]
+        }
+      }
+    },
+    "imperative": {
+      "es": {
+        "pattern": "V(+Obj)",
+        "example": "¡Canta la Internacional!",
+        "structure": [
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "V",
+              "value": "¡Canta",
+              "position": 0,
+              "language": "es"
+            },
+            {
+              "type": "Det",
+              "value": "la",
+              "position": 1,
+              "language": "es"
+            },
+            {
+              "type": "N",
+              "value": "Internacional!",
+              "position": 2,
+              "language": "es"
+            }
+          ]
+        }
+      },
+      "en": {
+        "pattern": "V(+Obj)",
+        "example": "Sing the International!",
+        "structure": [
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "V",
+              "value": "Sing",
+              "position": 0,
+              "language": "en"
+            },
+            {
+              "type": "Det",
+              "value": "the",
+              "position": 1,
+              "language": "en"
+            },
+            {
+              "type": "N",
+              "value": "International!",
+              "position": 2,
+              "language": "en"
+            }
+          ]
+        }
+      },
+      "de": {
+        "pattern": "V(+Obj)",
+        "example": "Sing die Internationale!",
+        "structure": [
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "V",
+              "value": "Sing",
+              "position": 0,
+              "language": "de"
+            },
+            {
+              "type": "Det",
+              "value": "die",
+              "position": 1,
+              "language": "de"
+            },
+            {
+              "type": "N",
+              "value": "Internationale!",
+              "position": 2,
+              "language": "de"
+            }
+          ]
+        }
+      },
+      "pt": {
+        "pattern": "V(+Obj)",
+        "example": "Canta a Internacional!",
+        "structure": [
+          "V",
+          "Det",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "V",
+              "value": "Canta",
+              "position": 0,
+              "language": "pt"
+            },
+            {
+              "type": "Det",
+              "value": "a",
+              "position": 1,
+              "language": "pt"
+            },
+            {
+              "type": "N",
+              "value": "Internacional!",
+              "position": 2,
+              "language": "pt"
+            }
+          ]
+        }
+      },
+      "ru": {
+        "pattern": "V(+Obj)",
+        "example": "Пой Интернационал!",
+        "structure": [
+          "V",
+          "N"
+        ],
+        "syntaxTree": {
+          "type": "S",
+          "children": [
+            {
+              "type": "V",
+              "value": "Пой",
+              "position": 0,
+              "language": "ru"
+            },
+            {
+              "type": "N",
+              "value": "Интернационал!",
+              "position": 1,
+              "language": "ru"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "examples": {
+    "L'Internationale": {
+      "es": {
+        "sentence": "El pueblo unido jamás será vencido",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "es",
+          "children": [
+            {
+              "type": "Det",
+              "value": "El",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "pueblo",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "unido",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "jamás",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "será",
+              "position": 4
+            },
+            {
+              "type": "V",
+              "value": "vencido",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "en": {
+        "sentence": "The united people will never be defeated",
+        "analysis": {
+          "wordCount": 7,
+          "complexity": "complex",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "en",
+          "children": [
+            {
+              "type": "Det",
+              "value": "The",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "united",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "people",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "will",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "never",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "be",
+              "position": 5
+            },
+            {
+              "type": "N",
+              "value": "defeated",
+              "position": 6
+            }
+          ]
+        }
+      },
+      "de": {
+        "sentence": "Das vereinte Volk wird niemals besiegt werden",
+        "analysis": {
+          "wordCount": 7,
+          "complexity": "complex",
+          "features": [
+            "future_tense"
+          ]
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "de",
+          "children": [
+            {
+              "type": "Det",
+              "value": "Das",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "vereinte",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "Volk",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "wird",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "niemals",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "besiegt",
+              "position": 5
+            },
+            {
+              "type": "N",
+              "value": "werden",
+              "position": 6
+            }
+          ]
+        }
+      },
+      "pt": {
+        "sentence": "O povo unido jamais será vencido",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "pt",
+          "children": [
+            {
+              "type": "Det",
+              "value": "O",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "povo",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "unido",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "jamais",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "será",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "vencido",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "ru": {
+        "sentence": "Объединённый народ никогда не будет побеждён",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": [
+            "cyrillic_script",
+            "negation"
+          ]
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "ru",
+          "children": [
+            {
+              "type": "N",
+              "value": "Объединённый",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "народ",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "никогда",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "не",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "будет",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "побеждён",
+              "position": 5
+            }
+          ]
+        }
+      }
+    },
+    "A las Barricadas": {
+      "es": {
+        "sentence": "A las barricadas, a las barricadas",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "es",
+          "children": [
+            {
+              "type": "Prep",
+              "value": "A",
+              "position": 0
+            },
+            {
+              "type": "Det",
+              "value": "las",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "barricadas",
+              "position": 2
+            },
+            {
+              "type": "Prep",
+              "value": "a",
+              "position": 3
+            },
+            {
+              "type": "Det",
+              "value": "las",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "barricadas",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "en": {
+        "sentence": "To the barricades, to the barricades",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "en",
+          "children": [
+            {
+              "type": "Prep",
+              "value": "To",
+              "position": 0
+            },
+            {
+              "type": "Det",
+              "value": "the",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "barricades",
+              "position": 2
+            },
+            {
+              "type": "Prep",
+              "value": "to",
+              "position": 3
+            },
+            {
+              "type": "Det",
+              "value": "the",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "barricades",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "de": {
+        "sentence": "Zu den Barrikaden, zu den Barrikaden",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "de",
+          "children": [
+            {
+              "type": "Prep",
+              "value": "Zu",
+              "position": 0
+            },
+            {
+              "type": "Det",
+              "value": "den",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "Barrikaden",
+              "position": 2
+            },
+            {
+              "type": "Prep",
+              "value": "zu",
+              "position": 3
+            },
+            {
+              "type": "Det",
+              "value": "den",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "Barrikaden",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "pt": {
+        "sentence": "Às barricadas, às barricadas",
+        "analysis": {
+          "wordCount": 4,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "pt",
+          "children": [
+            {
+              "type": "N",
+              "value": "Às",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "barricadas",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "às",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "barricadas",
+              "position": 3
+            }
+          ]
+        }
+      },
+      "ru": {
+        "sentence": "На баррикады, на баррикады",
+        "analysis": {
+          "wordCount": 4,
+          "complexity": "medium",
+          "features": [
+            "cyrillic_script"
+          ]
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "ru",
+          "children": [
+            {
+              "type": "Prep",
+              "value": "На",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "баррикады",
+              "position": 1
+            },
+            {
+              "type": "Prep",
+              "value": "на",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "баррикады",
+              "position": 3
+            }
+          ]
+        }
+      }
+    },
+    "Der heimliche Aufmarsch": {
+      "es": {
+        "sentence": "Los trabajadores del mundo se levantan",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "es",
+          "children": [
+            {
+              "type": "Det",
+              "value": "Los",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "trabajadores",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "del",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "mundo",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "se",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "levantan",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "en": {
+        "sentence": "The workers of the world are rising",
+        "analysis": {
+          "wordCount": 7,
+          "complexity": "complex",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "en",
+          "children": [
+            {
+              "type": "Det",
+              "value": "The",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "workers",
+              "position": 1
+            },
+            {
+              "type": "Prep",
+              "value": "of",
+              "position": 2
+            },
+            {
+              "type": "Det",
+              "value": "the",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "world",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "are",
+              "position": 5
+            },
+            {
+              "type": "N",
+              "value": "rising",
+              "position": 6
+            }
+          ]
+        }
+      },
+      "de": {
+        "sentence": "Die Arbeiter der Welt erheben sich",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": [
+            "definite_articles"
+          ]
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "de",
+          "children": [
+            {
+              "type": "Det",
+              "value": "Die",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "Arbeiter",
+              "position": 1
+            },
+            {
+              "type": "Det",
+              "value": "der",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "Welt",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "erheben",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "sich",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "pt": {
+        "sentence": "Os trabalhadores do mundo se levantam",
+        "analysis": {
+          "wordCount": 6,
+          "complexity": "medium",
+          "features": []
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "pt",
+          "children": [
+            {
+              "type": "Det",
+              "value": "Os",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "trabalhadores",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "do",
+              "position": 2
+            },
+            {
+              "type": "N",
+              "value": "mundo",
+              "position": 3
+            },
+            {
+              "type": "N",
+              "value": "se",
+              "position": 4
+            },
+            {
+              "type": "N",
+              "value": "levantam",
+              "position": 5
+            }
+          ]
+        }
+      },
+      "ru": {
+        "sentence": "Рабочие мира поднимаются",
+        "analysis": {
+          "wordCount": 3,
+          "complexity": "simple",
+          "features": [
+            "cyrillic_script"
+          ]
+        },
+        "syntaxTree": {
+          "type": "S",
+          "language": "ru",
+          "children": [
+            {
+              "type": "N",
+              "value": "Рабочие",
+              "position": 0
+            },
+            {
+              "type": "N",
+              "value": "мира",
+              "position": 1
+            },
+            {
+              "type": "N",
+              "value": "поднимаются",
+              "position": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "composer",
+  "fullName": "Aleksandr Vasilyevich Alexandrov",
+  "birthYear": 1883,
+  "deathYear": 1946,
+  "nationality": "Russian-Soviet",
+  "biography": {
+    "es": "Compositor soviético, creador del himno de la URSS. Fundó el Coro del Ejército Rojo, llevando la música coral rusa a nivel mundial.",
+    "en": "Soviet composer, creator of the USSR anthem. Founded the Red Army Choir, bringing Russian choral music to a global level.",
+    "de": "Sowjetischer Komponist, Schöpfer der UdSSR-Hymne. Gründete den Chor der Roten Armee und brachte die russische Chormusik auf Weltebene."
+  },
+  "works": [
+    "Священная война",
+    "Гимн Советского Союза"
+  ],
+  "politicalContext": {
+    "es": "Revolución Rusa, Guerra Civil, Segunda Guerra Mundial, consolidación soviética",
+    "en": "Russian Revolution, Civil War, World War II, Soviet consolidation",
+    "de": "Russische Revolution, Bürgerkrieg, Zweiter Weltkrieg, sowjetische Konsolidierung"
+  },
+  "sources": [
+    "Российская государственная библиотека",
+    "Центральный музей Вооруженных Сил",
+    "Архив Минобороны РФ"
+  ],
+  "relatedSongs": [
+    {
+      "title": "Священная война",
+      "year": 1941,
+      "day": 8
+    }
+  ],
+  "connections": []
+}

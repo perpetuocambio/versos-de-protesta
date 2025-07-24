@@ -579,6 +579,96 @@ document.addEventListener('DOMContentLoaded', async function() {
           font-family: 'SimSun', '宋体', serif !important;
           line-height: 1.2 !important;
         }
+        .stroke-attribution {
+          margin-top: 0.75rem !important;
+          text-align: center !important;
+          color: #6c757d !important;
+          font-size: 0.75rem !important;
+        }
+        .stroke-attribution a {
+          color: #0066cc !important;
+          text-decoration: none !important;
+        }
+        .stroke-attribution a:hover {
+          text-decoration: underline !important;
+        }
+        .radical-analysis-section {
+          margin-top: 1.5rem !important;
+          padding-top: 1rem !important;
+          border-top: 2px solid #e9ecef !important;
+        }
+        .radical-analysis-section h4 {
+          color: #007bff !important;
+          margin-bottom: 1rem !important;
+          font-size: 1.1rem !important;
+        }
+        .radical-analyzer-container {
+          background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
+          border-radius: 8px !important;
+          padding: 1rem !important;
+          margin: 0.75rem 0 !important;
+          border: 1px solid #dee2e6 !important;
+        }
+        .radical-loading-mini {
+          display: flex !important;
+          align-items: center !important;
+          gap: 0.5rem !important;
+          color: #6c757d !important;
+          font-size: 0.9rem !important;
+        }
+        .loading-mini {
+          width: 16px !important;
+          height: 16px !important;
+          border: 2px solid #e9ecef !important;
+          border-top: 2px solid #007bff !important;
+          border-radius: 50% !important;
+          animation: spin-mini 1s linear infinite !important;
+        }
+        @keyframes spin-mini {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        .radical-content {
+          background: white !important;
+          border-radius: 6px !important;
+          padding: 0.75rem !important;
+          border: 1px solid #dee2e6 !important;
+        }
+        .radical-header {
+          text-align: center !important;
+          margin-bottom: 1rem !important;
+          padding-bottom: 0.5rem !important;
+          border-bottom: 1px solid #e9ecef !important;
+        }
+        .radical-display {
+          font-size: 1.5rem !important;
+          font-family: 'SimSun', '宋体', serif !important;
+          color: #007bff !important;
+          margin: 0.25rem 0 !important;
+        }
+        .radical-meaning {
+          color: #6c757d !important;
+          font-style: italic !important;
+          font-size: 0.85rem !important;
+        }
+        .radical-category {
+          display: inline-block !important;
+          background: #007bff !important;
+          color: white !important;
+          padding: 0.2rem 0.4rem !important;
+          border-radius: 3px !important;
+          font-size: 0.7rem !important;
+          margin-top: 0.25rem !important;
+        }
+        .revolutionary-badge {
+          display: inline-block !important;
+          background: #dc3545 !important;
+          color: white !important;
+          padding: 0.2rem 0.4rem !important;
+          border-radius: 3px !important;
+          font-size: 0.7rem !important;
+          margin-left: 0.5rem !important;
+        }
         
         /* Responsive para móviles */
         @media (max-width: 768px) {
@@ -733,7 +823,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
   }
 
-  // Función para convertir caracteres chinos a códigos Unicode decimales para MDBG
+  // Función para convertir caracteres chinos a códigos Unicode decimales - ARCHIVOS LOCALES
   function getChineseStrokeGifs(chineseText) {
     if (!chineseText || typeof chineseText !== 'string') return [];
     
@@ -745,7 +835,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         const unicodeDecimal = char.codePointAt(0);
         gifs.push({
           char: char,
-          url: `https://www.mdbg.net/chinese/rsc/img/stroke_anim/${unicodeDecimal}.gif`
+          url: `${baseUrl}data/chinese/strokes/${unicodeDecimal}.gif`,
+          attribution: "MDBG Chinese Dictionary (mdbg.net)"
         });
       }
     }
@@ -790,10 +881,28 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsHtml += `</div>`;
           });
           detailsHtml += `</div>`;
-          // Mostrar los caracteres en grande en lugar del texto descriptivo
+          // Mostrar los caracteres en grande
           detailsHtml += `<div class="chinese-large-display">`;
           detailsHtml += `<div class="chinese-large-text">${chineseText}</div>`;
           detailsHtml += `</div>`;
+          // Atribución para trazos
+          detailsHtml += `<div class="stroke-attribution">`;
+          detailsHtml += `<small>Orden de trazos © <a href="https://www.mdbg.net/" target="_blank" rel="noopener">MDBG Chinese Dictionary</a></small>`;
+          detailsHtml += `</div>`;
+          
+          // Análisis de radicales para cada caracter
+          detailsHtml += `<div class="radical-analysis-section">`;
+          detailsHtml += `<h4>🔍 Análisis de Radicales</h4>`;
+          strokeGifs.forEach((gif, idx) => {
+            detailsHtml += `<div class="radical-analyzer-container" data-character="${gif.char}">`;
+            detailsHtml += `  <div class="radical-loading-mini">`;
+            detailsHtml += `    <div class="loading-mini"></div>`;
+            detailsHtml += `    <span>Analizando ${gif.char}...</span>`;
+            detailsHtml += `  </div>`;
+            detailsHtml += `</div>`;
+          });
+          detailsHtml += `</div>`;
+          
           detailsHtml += `</div>`;
         }
       }
@@ -831,6 +940,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     modalBody.innerHTML = detailsHtml;
+    
+    // Cargar análisis de radicales para caracteres chinos
+    loadRadicalAnalysis();
+    
     const currentModal = document.getElementById('word-modal');
     if (currentModal) {
       console.log('Setting modal display to flex');
@@ -877,6 +990,94 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
       });
     }
+  }
+  
+  // Función para cargar análisis de radicales
+  async function loadRadicalAnalysis() {
+    const containers = document.querySelectorAll('.radical-analyzer-container');
+    if (containers.length === 0) return;
+    
+    try {
+      console.log('🔍 Cargando datos de radicales...');
+      const response = await fetch(`${baseUrl}data/chinese/radicals.json`);
+      if (!response.ok) {
+        console.warn('No se pudieron cargar los datos de radicales');
+        return;
+      }
+      
+      const radicalData = await response.json();
+      
+      containers.forEach(async (container) => {
+        const character = container.dataset.character;
+        const characterAnalysis = radicalData.characters[character];
+        
+        const loadingEl = container.querySelector('.radical-loading-mini');
+        
+        if (characterAnalysis) {
+          const analysisHTML = generateRadicalHTML(characterAnalysis);
+          container.innerHTML = analysisHTML;
+          console.log(`✅ Radical análisis cargado para: ${character}`);
+        } else {
+          loadingEl.innerHTML = `<span style="color: #6c757d;">📝 Análisis de ${character} en desarrollo</span>`;
+        }
+      });
+      
+    } catch (error) {
+      console.error('Error cargando análisis de radicales:', error);
+      containers.forEach(container => {
+        container.innerHTML = '<span style="color: #dc3545;">⚠️ Error cargando análisis</span>';
+      });
+    }
+  }
+  
+  function generateRadicalHTML(analysis) {
+    const isRevolutionary = analysis.revolutionaryRelevance;
+    
+    let html = `
+      <div class="radical-content">
+        <div class="radical-header">
+          <div class="radical-display">${analysis.character}</div>
+          ${isRevolutionary ? '<span class="revolutionary-badge">🚩 Revolucionario</span>' : ''}
+        </div>
+    `;
+    
+    // Información del radical
+    if (analysis.radicalData && analysis.radicalData.meaning) {
+      html += `
+        <div style="margin-bottom: 0.5rem;">
+          <strong>Radical:</strong> <span class="radical-display" style="font-size: 1.2rem;">${analysis.radical}</span>
+        </div>
+        <div class="radical-meaning">
+          ${analysis.radicalData.meaning.es}
+        </div>
+      `;
+      
+      if (analysis.radicalData.category) {
+        html += `<div class="radical-category">${analysis.radicalData.category}</div>`;
+      }
+    } else {
+      html += `
+        <div style="margin-bottom: 0.5rem;">
+          <strong>Radical:</strong> <span class="radical-display" style="font-size: 1.2rem;">${analysis.radical}</span>
+        </div>
+        <div class="radical-meaning">Análisis en desarrollo</div>
+      `;
+    }
+    
+    // Etimología breve si está disponible
+    if (analysis.etymology && analysis.etymology.es) {
+      const shortEtymology = analysis.etymology.es.length > 80 
+        ? analysis.etymology.es.substring(0, 80) + '...' 
+        : analysis.etymology.es;
+      html += `
+        <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #6c757d; font-style: italic;">
+          💡 ${shortEtymology}
+        </div>
+      `;
+    }
+    
+    html += `</div>`;
+    return html;
   }
 
   window.retryLoad = init;

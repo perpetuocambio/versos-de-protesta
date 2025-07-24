@@ -1,0 +1,348 @@
+---
+/**
+ * COMPONENTE DE ANÁLISIS DE RADICALES CHINOS
+ * ==========================================
+ * 
+ * Muestra análisis detallado de radicales, componentes y etimología
+ * para caracteres chinos del diccionario de forma interactiva.
+ */
+
+export interface Props {
+  character: string;
+  baseUrl: string;
+}
+
+const { character, baseUrl } = Astro.props;
+---
+
+<div class="radical-analyzer" data-character={character}>
+  <!-- El análisis se carga dinámicamente vía JavaScript -->
+  <div class="radical-loading">
+    <div class="loading-spinner"></div>
+    <p>Analizando radicales...</p>
+  </div>
+  
+  <div class="radical-content" style="display: none;">
+    <!-- Contenido se insertará aquí -->
+  </div>
+  
+  <div class="radical-error" style="display: none;">
+    <div class="error-icon">⚠️</div>
+    <p>No se pudo cargar el análisis de radicales</p>
+  </div>
+</div>
+
+<style>
+  .radical-analyzer {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 2px solid #dee2e6;
+    position: relative;
+  }
+
+  .radical-loading {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+  }
+
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e9ecef;
+    border-top: 3px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .radical-error {
+    text-align: center;
+    padding: 2rem;
+    color: #dc3545;
+  }
+
+  .error-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Estilos para el contenido del análisis */
+  .radical-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #007bff;
+  }
+
+  .radical-header h3 {
+    margin: 0 0 0.5rem 0;
+    color: #007bff;
+    font-size: 1.4rem;
+  }
+
+  .character-display {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #2c3e50;
+    font-family: 'SimSun', '宋体', serif;
+    margin: 0.5rem 0;
+  }
+
+  .radical-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .radical-info {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+  }
+
+  .radical-info h4 {
+    margin: 0 0 0.75rem 0;
+    color: #495057;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 0.5rem;
+  }
+
+  .radical-display {
+    font-size: 2rem;
+    font-family: 'SimSun', '宋体', serif;
+    color: #007bff;
+    margin: 0.5rem 0;
+  }
+
+  .radical-meaning {
+    color: #6c757d;
+    font-style: italic;
+    margin: 0.25rem 0;
+  }
+
+  .radical-category {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .etymology-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    border-left: 4px solid #28a745;
+  }
+
+  .etymology-section h4 {
+    margin: 0 0 0.75rem 0;
+    color: #28a745;
+    font-size: 1.1rem;
+  }
+
+  .etymology-text {
+    color: #495057;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+
+  .component-info {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 6px;
+  }
+
+  .component-info strong {
+    color: #856404;
+  }
+
+  .revolutionary-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .strokes-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .radical-main {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .character-display {
+      font-size: 2.5rem;
+    }
+    
+    .radical-display {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+
+<script define:vars={{ character, baseUrl }}>
+document.addEventListener('DOMContentLoaded', function() {
+  const analyzer = document.querySelector(`[data-character="${character}"]`);
+  if (!analyzer) return;
+  
+  const loadingEl = analyzer.querySelector('.radical-loading');
+  const contentEl = analyzer.querySelector('.radical-content');
+  const errorEl = analyzer.querySelector('.radical-error');
+  
+  async function loadRadicalAnalysis() {
+    try {
+      console.log(`🔍 Cargando análisis de radicales para: ${character}`);
+      
+      // Cargar datos de radicales
+      const response = await fetch(`${baseUrl}data/chinese/radicals.json`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      
+      const radicalData = await response.json();
+      const characterAnalysis = radicalData.characters[character];
+      
+      if (!characterAnalysis) {
+        throw new Error(`No se encontró análisis para el caracter: ${character}`);
+      }
+      
+      // Generar HTML del análisis
+      const analysisHTML = generateAnalysisHTML(characterAnalysis, radicalData);
+      
+      // Mostrar contenido
+      loadingEl.style.display = 'none';
+      contentEl.innerHTML = analysisHTML;
+      contentEl.style.display = 'block';
+      
+      console.log(`✅ Análisis de radicales cargado para: ${character}`);
+      
+    } catch (error) {
+      console.error(`❌ Error cargando análisis de radicales:`, error);
+      loadingEl.style.display = 'none';
+      errorEl.style.display = 'block';
+    }
+  }
+  
+  function generateAnalysisHTML(analysis, data) {
+    const isRevolutionary = analysis.revolutionaryRelevance;
+    
+    let html = `
+      ${isRevolutionary ? '<div class="revolutionary-badge">🚩</div>' : ''}
+      
+      <div class="radical-header">
+        <h3>📚 Análisis de Radicales</h3>
+        <div class="character-display">${analysis.character}</div>
+        <div class="strokes-info">
+          <span>Unicode: ${analysis.unicode}</span>
+          ${isRevolutionary ? '<span style="color: #dc3545; font-weight: 600;">• Relevancia Revolucionaria</span>' : ''}
+        </div>
+      </div>
+      
+      <div class="radical-main">
+        <div class="radical-info">
+          <h4>🏗️ Radical Principal</h4>
+          <div class="radical-display">${analysis.radical}</div>
+    `;
+    
+    // Información del radical
+    if (analysis.radicalData && analysis.radicalData.meaning) {
+      html += `
+        <div class="radical-meaning">
+          Significado: ${analysis.radicalData.meaning.es}
+        </div>
+      `;
+      
+      if (analysis.radicalData.strokes) {
+        html += `<div class="strokes-info">Trazos: ${analysis.radicalData.strokes}</div>`;
+      }
+      
+      if (analysis.radicalData.category) {
+        html += `<div class="radical-category">${analysis.radicalData.category}</div>`;
+      }
+    } else {
+      html += `<div class="radical-meaning">Análisis en desarrollo</div>`;
+    }
+    
+    html += `</div>`;
+    
+    // Información de componentes si existe
+    if (analysis.component) {
+      html += `
+        <div class="radical-info">
+          <h4>🧩 Componente</h4>
+          <div class="radical-display">${analysis.component}</div>
+          <div class="component-info">
+            <strong>Posición:</strong> ${analysis.position}<br>
+            <strong>Tipo:</strong> ${analysis.radicalType}
+          </div>
+        </div>
+      `;
+    } else {
+      html += `
+        <div class="radical-info">
+          <h4>📋 Información</h4>
+          <div class="component-info">
+            <strong>Tipo de análisis:</strong> ${analysis.radicalType}<br>
+            <strong>Categoría:</strong> ${analysis.category}
+          </div>
+        </div>
+      `;
+    }
+    
+    html += `</div>`;
+    
+    // Etimología si está disponible
+    if (analysis.etymology) {
+      const etymology = analysis.etymology.es || analysis.etymology.en || 'Etimología en desarrollo';
+      html += `
+        <div class="etymology-section">
+          <h4>📜 Etimología</h4>
+          <div class="etymology-text">${etymology}</div>
+        </div>
+      `;
+    }
+    
+    return html;
+  }
+  
+  // Cargar análisis inmediatamente
+  loadRadicalAnalysis();
+});
+</script>

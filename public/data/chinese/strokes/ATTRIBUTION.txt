@@ -1,0 +1,16 @@
+STROKE ORDER ANIMATIONS ATTRIBUTION
+=====================================
+
+Source: MDBG Chinese Dictionary
+URL: https://www.mdbg.net/
+License: Educational use with attribution
+
+Required Attribution Text:
+"Stroke order animations © MDBG Chinese Dictionary (mdbg.net)"
+
+Downloaded: 2025-07-24T19:15:29.930Z
+Total files: 105
+Purpose: Educational use in Versos de Protesta language learning platform
+
+This attribution file must be preserved and referenced in any implementation
+using these stroke order animations.

@@ -1,0 +1,25 @@
+{
+  "type": "composer",
+  "fullName": "Canción tradicional del Bund / Interpretada por Daniel Kahn & Psoy Korolenko",
+  "nationality": "Unknown",
+  "biography": {
+    "es": "Información biográfica de Canción tradicional del Bund / Interpretada por Daniel Kahn & Psoy Korolenko pendiente de investigación.",
+    "en": "Biographical information for Canción tradicional del Bund / Interpretada por Daniel Kahn & Psoy Korolenko pending research.",
+    "de": "Biografische Informationen zu Canción tradicional del Bund / Interpretada por Daniel Kahn & Psoy Korolenko stehen noch aus."
+  },
+  "works": [
+    "Oy, Ir Narishe Tsienistn"
+  ],
+  "needsResearch": true,
+  "sources": [
+    "Song attribution only"
+  ],
+  "relatedSongs": [
+    {
+      "title": "Oy, Ir Narishe Tsienistn",
+      "year": 1897,
+      "day": 10
+    }
+  ],
+  "connections": []
+}
