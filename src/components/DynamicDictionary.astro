@@ -2,10 +2,11 @@
 export interface Props {
   language: string;
   initialWords?: number;
+  availableLangs: Record<string, string>;
+  baseUrl: string;
 }
 
-const { language, initialWords = 20 } = Astro.props;
-const baseURL = import.meta.env.BASE_URL;
+const { language, initialWords = 20, availableLangs, baseUrl } = Astro.props;
 ---
 
 <div class="dynamic-dictionary" data-language={language}>
@@ -46,10 +47,18 @@ const baseURL = import.meta.env.BASE_URL;
     <h3>Error cargando diccionario</h3>
     <p>No se pudo cargar el vocabulario. <button onclick="retryLoad()">Reintentar</button></p>
   </div>
+
+  <!-- Modal para detalles de la palabra -->
+  <div id="word-modal" class="modal" style="display: none !important;">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
 </div>
 
-<style>
-  /* Estilos (sin cambios) */
+<style is:global>
+  /* Estilos base */
   .dynamic-dictionary { width: 100%; position: relative; }
   .dictionary-skeleton { animation: fadeIn 0.5s ease-in-out; }
   .skeleton-header { text-align: center; margin-bottom: var(--space-2xl); }
@@ -94,9 +103,182 @@ const baseURL = import.meta.env.BASE_URL;
     cursor: pointer;
   }
   .close-button:hover, .close-button:focus { color: var(--color-text-primary); }
+
+  /* Estilos para el contenido dinámico del diccionario */
+  .dictionary-header { 
+    text-align: center; 
+    margin-bottom: var(--space-2xl); 
+    padding-bottom: var(--space-lg);
+    border-bottom: 2px solid var(--color-revolutionary-red-light);
+  }
+  .dictionary-header h2 { 
+    color: var(--color-revolutionary-red); 
+    margin-bottom: var(--space-md); 
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+  .dictionary-header p { 
+    color: var(--color-text-secondary); 
+    font-size: 1.1rem; 
+    font-weight: 500;
+  }
+
+  .search-section { 
+    margin-bottom: var(--space-2xl); 
+  }
+  #word-search { 
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto var(--space-lg); 
+    display: block;
+    padding: var(--space-md) var(--space-lg); 
+    border: 2px solid var(--color-border); 
+    border-radius: var(--radius-lg); 
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    transition: all 0.2s ease;
+    background: var(--color-paper);
+  }
+  #word-search:focus { 
+    outline: none; 
+    border-color: var(--color-revolutionary-red); 
+    box-shadow: 0 0 0 3px var(--color-revolutionary-red-light);
+  }
+
+  .alphabet-filter { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: var(--space-sm); 
+    margin-bottom: var(--space-lg);
+  }
+  .letter-btn { 
+    background: var(--color-paper); 
+    border: 2px solid var(--color-border); 
+    color: var(--color-text-secondary); 
+    padding: var(--space-sm) var(--space-md); 
+    border-radius: var(--radius-md); 
+    cursor: pointer; 
+    font-weight: 500;
+    font-family: var(--font-primary);
+    transition: all 0.2s ease;
+    min-width: 45px;
+  }
+  .letter-btn:hover { 
+    background: var(--color-revolutionary-red-light); 
+    border-color: var(--color-revolutionary-red); 
+    color: var(--color-revolutionary-red-dark);
+    transform: translateY(-1px);
+  }
+  .letter-btn.active { 
+    background: var(--color-revolutionary-red); 
+    border-color: var(--color-revolutionary-red); 
+    color: white; 
+    font-weight: 600;
+  }
+
+  .dictionary-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+    gap: var(--space-lg); 
+  }
+  .word-card { 
+    background: var(--color-paper); 
+    border: 1px solid var(--color-border); 
+    border-radius: var(--radius-lg); 
+    padding: var(--space-xl); 
+    cursor: pointer; 
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sm);
+  }
+  .word-card:hover { 
+    transform: translateY(-2px); 
+    box-shadow: var(--shadow-lg); 
+    border-color: var(--color-revolutionary-red-light);
+  }
+  .word-title { 
+    color: var(--color-revolutionary-red); 
+    margin-bottom: var(--space-md); 
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .word-meta { 
+    display: flex; 
+    flex-direction: column; 
+    gap: var(--space-sm); 
+  }
+  .word-meta span { 
+    font-size: 0.9rem; 
+    color: var(--color-text-secondary); 
+  }
+  .frequency { 
+    color: var(--color-socialist-gold-dark); 
+    font-weight: 600;
+  }
+  .lessons {
+    color: var(--color-text-muted);
+  }
+
+  /* Estilos para el modal */
+  .modal-entry {
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .modal-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .modal-entry h4 {
+    color: var(--color-revolutionary-red);
+    margin: var(--space-md) 0 var(--space-sm) 0;
+    font-size: 1.1rem;
+  }
+  .modal-entry ul {
+    margin: 0;
+    padding-left: var(--space-lg);
+  }
+  .modal-entry li {
+    margin-bottom: var(--space-xs);
+    color: var(--color-text-secondary);
+  }
+  .post-link {
+    color: var(--color-revolutionary-red);
+    text-decoration: none;
+    font-weight: 500;
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-revolutionary-red-light);
+    border-radius: var(--radius-md);
+    display: inline-block;
+    margin-top: var(--space-sm);
+    transition: all 0.2s ease;
+  }
+  .post-link:hover {
+    background: var(--color-revolutionary-red);
+    color: white;
+    transform: translateY(-1px);
+  }
+
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .dictionary-grid { 
+      grid-template-columns: 1fr; 
+    }
+    .alphabet-filter {
+      gap: var(--space-xs);
+    }
+    .letter-btn {
+      min-width: 40px;
+      padding: var(--space-xs) var(--space-sm);
+      font-size: 0.9rem;
+    }
+    #word-search {
+      margin: 0 0 var(--space-lg) 0;
+    }
+  }
 </style>
 
-<script define:vars={{ lang, availableLangs, baseUrl }}>
+<script define:vars={{ language, availableLangs, baseUrl }}>
 document.addEventListener('DOMContentLoaded', async function() {
   const container = document.querySelector('.dynamic-dictionary');
   const skeleton = document.getElementById('dictionary-skeleton');
@@ -112,7 +294,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   async function loadDictionaryData() {
     try {
-      console.log(` Cargando diccionario dinámico para: ${availableLangs[lang]} (${lang})`);
+      console.log(` Cargando diccionario dinámico para: ${availableLangs[language]} (${language})`);
       
       // Mostrar loading después de 300ms si no ha cargado
       const loadingTimeout = setTimeout(() => {
@@ -120,16 +302,16 @@ document.addEventListener('DOMContentLoaded', async function() {
         loading.style.display = 'flex';
       }, 300);
 
-      const manifestResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks-manifest.json`);
+      const manifestResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks-manifest.json`);
       if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest de chunks');
       const manifest = await manifestResponse.json();
 
       const langManifest = manifest.languages.find(lang => lang.code === language);
       if (!langManifest) throw new Error(`No se encontró manifest para el idioma ${language}`);
-      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', '0-11');
+      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11.json');
       if (!chunkFile) throw new Error(`No se encontró chunk para el idioma ${language}`);
 
-      const chunkResponse = await fetch(`${import.meta.env.BASE_URL}data/internal/v1/dictionary/chunks/${chunkFile}`);
+      const chunkResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks/${chunkFile}`);
       if (!chunkResponse.ok) throw new Error(`No se pudo cargar el archivo de chunk ${chunkFile}`);
       
       dictionaryData = await chunkResponse.json();
@@ -161,6 +343,232 @@ document.addEventListener('DOMContentLoaded', async function() {
     const letters = [...new Set(allWords.map(([word]) => word[0].toUpperCase()))].sort();
 
     contentEl.innerHTML = `
+      <style>
+        .dictionary-content .dictionary-header { 
+          text-align: center; 
+          margin-bottom: var(--space-2xl); 
+          padding-bottom: var(--space-lg);
+          border-bottom: 2px solid var(--color-revolutionary-red-light);
+        }
+        .dictionary-content .dictionary-header h2 { 
+          color: var(--color-revolutionary-red); 
+          margin-bottom: var(--space-md); 
+          font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+        .dictionary-content .dictionary-header p { 
+          color: var(--color-text-secondary); 
+          font-size: 1.1rem; 
+          font-weight: 500;
+        }
+        .dictionary-content .search-section { 
+          margin-bottom: var(--space-2xl); 
+        }
+        .dictionary-content #word-search { 
+          width: 100%; 
+          max-width: 500px; 
+          margin: 0 auto var(--space-lg); 
+          display: block;
+          padding: var(--space-md) var(--space-lg); 
+          border: 2px solid var(--color-border); 
+          border-radius: var(--radius-lg); 
+          font-size: 1rem;
+          font-family: var(--font-primary);
+          transition: all 0.2s ease;
+          background: var(--color-paper);
+        }
+        .dictionary-content #word-search:focus { 
+          outline: none; 
+          border-color: var(--color-revolutionary-red); 
+          box-shadow: 0 0 0 3px var(--color-revolutionary-red-light);
+        }
+        .dictionary-content .alphabet-filter { 
+          display: flex; 
+          flex-wrap: wrap; 
+          justify-content: center; 
+          gap: var(--space-sm); 
+          margin-bottom: var(--space-lg);
+        }
+        .dictionary-content .letter-btn { 
+          background: var(--color-paper); 
+          border: 2px solid var(--color-border); 
+          color: var(--color-text-secondary); 
+          padding: var(--space-sm) var(--space-md); 
+          border-radius: var(--radius-md); 
+          cursor: pointer; 
+          font-weight: 500;
+          font-family: var(--font-primary);
+          transition: all 0.2s ease;
+          min-width: 45px;
+        }
+        .dictionary-content .letter-btn:hover { 
+          background: var(--color-revolutionary-red-light); 
+          border-color: var(--color-revolutionary-red); 
+          color: var(--color-revolutionary-red-dark);
+          transform: translateY(-1px);
+        }
+        .dictionary-content .letter-btn.active { 
+          background: var(--color-revolutionary-red); 
+          border-color: var(--color-revolutionary-red); 
+          color: white; 
+          font-weight: 600;
+        }
+        .dictionary-content .dictionary-grid { 
+          display: grid; 
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+          gap: var(--space-lg); 
+        }
+        .dictionary-content .word-card { 
+          background: var(--color-paper); 
+          border: 1px solid var(--color-border); 
+          border-radius: var(--radius-lg); 
+          padding: var(--space-xl); 
+          cursor: pointer; 
+          transition: all 0.2s ease;
+          box-shadow: var(--shadow-sm);
+        }
+        .dictionary-content .word-card:hover { 
+          transform: translateY(-2px); 
+          box-shadow: var(--shadow-lg); 
+          border-color: var(--color-revolutionary-red-light);
+        }
+        .dictionary-content .word-title { 
+          color: var(--color-revolutionary-red); 
+          margin-bottom: var(--space-md); 
+          font-size: 1.4rem;
+          font-weight: 700;
+        }
+        .dictionary-content .word-meta { 
+          display: flex; 
+          flex-direction: column; 
+          gap: var(--space-sm); 
+        }
+        .dictionary-content .word-meta span { 
+          font-size: 0.9rem; 
+          color: var(--color-text-secondary); 
+        }
+        .dictionary-content .frequency { 
+          color: var(--color-socialist-gold-dark); 
+          font-weight: 600;
+        }
+        .dictionary-content .lessons {
+          color: var(--color-text-muted);
+        }
+        @media (max-width: 768px) {
+          .dictionary-content .dictionary-grid { 
+            grid-template-columns: 1fr; 
+          }
+          .dictionary-content .alphabet-filter {
+            gap: var(--space-xs);
+          }
+          .dictionary-content .letter-btn {
+            min-width: 40px;
+            padding: var(--space-xs) var(--space-sm);
+            font-size: 0.9rem;
+          }
+          .dictionary-content #word-search {
+            margin: 0 0 var(--space-lg) 0;
+          }
+        }
+        
+        /* Estilos para el modal */
+        .modal {
+          position: fixed !important;
+          z-index: 1000 !important;
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          height: 100% !important;
+          overflow: auto !important;
+          background-color: rgba(0,0,0,0.7) !important;
+          align-items: center !important;
+          justify-content: center !important;
+        }
+        .modal[style*="display: none"] {
+          display: none !important;
+        }
+        .modal[style*="display: flex"] {
+          display: flex !important;
+        }
+        .modal-content {
+          background-color: var(--color-paper) !important;
+          margin: auto !important;
+          padding: var(--space-2xl) !important;
+          border: 1px solid var(--color-border) !important;
+          width: 90% !important;
+          max-width: 700px !important;
+          border-radius: var(--radius-lg) !important;
+          box-shadow: var(--shadow-xl) !important;
+          position: relative !important;
+          max-height: 80vh !important;
+          overflow-y: auto !important;
+        }
+        .close-button {
+          color: var(--color-text-secondary) !important;
+          float: right !important;
+          font-size: 2rem !important;
+          font-weight: bold !important;
+          cursor: pointer !important;
+          line-height: 1 !important;
+          padding: var(--space-xs) !important;
+        }
+        .close-button:hover, .close-button:focus {
+          color: var(--color-revolutionary-red) !important;
+        }
+        .modal-entry {
+          margin-bottom: var(--space-lg) !important;
+          padding-bottom: var(--space-lg) !important;
+          border-bottom: 1px solid var(--color-border) !important;
+        }
+        .modal-entry:last-child {
+          border-bottom: none !important;
+          margin-bottom: 0 !important;
+          padding-bottom: 0 !important;
+        }
+        .modal-entry h4 {
+          color: var(--color-revolutionary-red) !important;
+          margin: var(--space-md) 0 var(--space-sm) 0 !important;
+          font-size: 1.1rem !important;
+        }
+        .modal-entry ul {
+          margin: 0 !important;
+          padding-left: var(--space-lg) !important;
+        }
+        .modal-entry li {
+          margin-bottom: var(--space-xs) !important;
+          color: var(--color-text-secondary) !important;
+        }
+        .post-link {
+          color: var(--color-revolutionary-red) !important;
+          text-decoration: none !important;
+          font-weight: 500 !important;
+          padding: var(--space-sm) var(--space-md) !important;
+          border: 1px solid var(--color-revolutionary-red-light) !important;
+          border-radius: var(--radius-md) !important;
+          display: inline-block !important;
+          margin-top: var(--space-sm) !important;
+          transition: all 0.2s ease !important;
+        }
+        .post-link:hover {
+          background: var(--color-revolutionary-red) !important;
+          color: white !important;
+          transform: translateY(-1px) !important;
+        }
+        #modal-body h2 {
+          color: var(--color-revolutionary-red) !important;
+          margin-bottom: var(--space-lg) !important;
+          font-size: 1.8rem !important;
+          font-weight: 700 !important;
+        }
+        #modal-body p {
+          color: var(--color-text-primary) !important;
+          line-height: 1.6 !important;
+          margin-bottom: var(--space-md) !important;
+        }
+        #modal-body strong {
+          color: var(--color-text-primary) !important;
+          font-weight: 600 !important;
+        }
+      </style>
       <div class="dictionary-header">
         <h2>Vocabulario de ${language}</h2>
         <p>${allWords.length} palabras encontradas</p>
@@ -225,6 +633,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     dictionaryGrid?.addEventListener('click', (e) => {
       const card = e.target.closest('.word-card');
       if (card) {
+        console.log('Word card clicked:', card.dataset.wordRaw);
         const details = JSON.parse(card.dataset.wordDetails.replace(/&apos;/g, "'"));
         showWordDetails(card.dataset.wordRaw, details);
       }
@@ -232,6 +641,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
 
   function showWordDetails(word, data) {
+    console.log('showWordDetails called for:', word, data);
     let detailsHtml = `<h2>${word}</h2>`;
 
     data.entries.forEach((entry, index) => {
@@ -250,28 +660,57 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsHtml += '</ul>';
         }
 
-        detailsHtml += `<p><a href="${baseURL}blog/${entry.source}/" class="post-link">Ver en la lección del día ${entry.day}</a></p>`;
+        detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${entry.day}</a></p>`;
         detailsHtml += `</div>`;
     });
 
     modalBody.innerHTML = detailsHtml;
-    modal.style.display = 'flex';
+    const currentModal = document.getElementById('word-modal');
+    if (currentModal) {
+      console.log('Setting modal display to flex');
+      currentModal.style.setProperty('display', 'flex', 'important');
+    } else {
+      console.error('Modal element not found!');
+    }
   }
 
   function closeModal() {
-    modal.style.display = 'none';
+    const currentModal = document.getElementById('word-modal');
+    if (currentModal) {
+      currentModal.style.setProperty('display', 'none', 'important');
+    }
   }
 
-  closeModalBtn?.addEventListener('click', closeModal);
-  modal?.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      closeModal();
-    }
-  });
-
   async function init() {
+    // Asegurarse de que el modal esté oculto al inicio
+    const currentModal = document.getElementById('word-modal');
+    if (currentModal) {
+      currentModal.style.setProperty('display', 'none', 'important');
+    }
+    
     await loadDictionaryData();
     setupEventListeners();
+    
+    // Configurar event listeners del modal después de cargar el contenido
+    setupModalListeners();
+  }
+
+  function setupModalListeners() {
+    // Limpiar listeners previos
+    const newCloseBtn = document.querySelector('.close-button');
+    const newModal = document.getElementById('word-modal');
+    
+    if (newCloseBtn) {
+      newCloseBtn.addEventListener('click', closeModal);
+    }
+    
+    if (newModal) {
+      newModal.addEventListener('click', (e) => {
+        if (e.target === newModal) {
+          closeModal();
+        }
+      });
+    }
   }
 
   window.retryLoad = init;
