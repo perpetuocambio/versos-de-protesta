@@ -555,10 +555,29 @@ document.addEventListener('DOMContentLoaded', async function() {
           border-color: var(--color-revolutionary-red) !important;
         }
         .stroke-gif div {
-          font-size: 0.9rem !important;
+          font-size: 1.2rem !important;
           color: #495057 !important;
           margin-top: 0.5rem !important;
           font-weight: 600 !important;
+          font-family: 'SimSun', '宋体', serif !important;
+        }
+        
+        /* Estilos para la sección de caracteres grandes */
+        .chinese-large-display {
+          text-align: center !important;
+          margin-top: 1rem !important;
+          padding: 0.75rem !important;
+          background: white !important;
+          border-radius: 6px !important;
+          border: 1px solid #e9ecef !important;
+        }
+        .chinese-large-text {
+          font-size: 2.5rem !important;
+          font-weight: 300 !important;
+          color: #2c3e50 !important;
+          letter-spacing: 0.5rem !important;
+          font-family: 'SimSun', '宋体', serif !important;
+          line-height: 1.2 !important;
         }
         
         /* Responsive para móviles */
@@ -570,6 +589,10 @@ document.addEventListener('DOMContentLoaded', async function() {
           .stroke-gifs {
             gap: 0.5rem !important;
           }
+          .chinese-large-text {
+            font-size: 2rem !important;
+            letter-spacing: 0.3rem !important;
+          }
         }
         @media (max-width: 480px) {
           .stroke-gif img {
@@ -578,6 +601,10 @@ document.addEventListener('DOMContentLoaded', async function() {
           }
           .stroke-section {
             padding: 0.75rem !important;
+          }
+          .chinese-large-text {
+            font-size: 1.8rem !important;
+            letter-spacing: 0.2rem !important;
           }
         }
         .modal-entry {
@@ -763,7 +790,10 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsHtml += `</div>`;
           });
           detailsHtml += `</div>`;
-          detailsHtml += `<p style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 0.5rem; font-style: italic;">Los GIFs muestran el orden correcto de escritura de cada trazo</p>`;
+          // Mostrar los caracteres en grande en lugar del texto descriptivo
+          detailsHtml += `<div class="chinese-large-display">`;
+          detailsHtml += `<div class="chinese-large-text">${chineseText}</div>`;
+          detailsHtml += `</div>`;
           detailsHtml += `</div>`;
         }
       }
