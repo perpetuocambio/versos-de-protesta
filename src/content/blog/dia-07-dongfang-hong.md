@@ -658,3 +658,27 @@ Características distintivas:
 | **Camboya** | បូព៌ាចម្បងពណ៌ក្រហម | Khmer Rouge | Revolución camboyana | 1975 |
 
 ---
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "东方红 (Dōngfāng Hóng)"
+
+*   **zh:** [东方红 (歌曲)](https://zh.wikipedia.org/wiki/东方红_(歌曲))
+*   **en:** [The East Is Red (song)](https://en.wikipedia.org/wiki/The_East_Is_Red_(song))
+*   **es:** [El Oriente es rojo](https://es.wikipedia.org/wiki/El_Oriente_es_rojo)
+*   **de:** [Der Osten ist rot](https://de.wikipedia.org/wiki/Der_Osten_ist_rot)
+*   **pt:** [O Leste é Vermelho (canção)](https://pt.wikipedia.org/wiki/O_Leste_é_Vermelho_(canção))
+*   **ru:** [Алеет Восток](https://ru.wikipedia.org/wiki/Алеет_Восток)
+*   **fr:** [L'Orient est rouge](https://fr.wikipedia.org/wiki/L%27Orient_est_rouge)
+
+### 🏛️ Contexto Histórico: "Revolución Cultural China"
+
+*   **zh:** [文化大革命](https://zh.wikipedia.org/wiki/文化大革命)
+*   **en:** [Cultural Revolution](https://en.wikipedia.org/wiki/Cultural_Revolution)
+*   **es:** [Revolución Cultural](https://es.wikipedia.org/wiki/Revolución_Cultural)
+*   **de:** [Kulturrevolution](https://de.wikipedia.org/wiki/Kulturrevolution)
+*   **pt:** [Revolução Cultural Chinesa](https://pt.wikipedia.org/wiki/Revolução_Cultural_Chinesa)
+*   **ru:** [Культурная революция в Китае](https://ru.wikipedia.org/wiki/Культурная_революция_в_Китае)
+*   **fr:** [Révolution culturelle](https://fr.wikipedia.org/wiki/Révolution_culturelle)

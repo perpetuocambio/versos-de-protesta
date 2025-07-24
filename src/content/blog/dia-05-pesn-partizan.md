@@ -1144,3 +1144,25 @@ Ruso:             [druk | ˈslɨ.ʂɨʂ lʲi]  (yambo + dáctilo)
 - Savenko, Svetlana. *Russian Musical Emigration*. Yale University Press, 2006.
 
 ---
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Le Chant des Partisans"
+
+*   **fr:** [Le Chant des Partisans](https://fr.wikipedia.org/wiki/Le_Chant_des_partisans)
+*   **es:** [El canto de los partisanos](https://es.wikipedia.org/wiki/Le_Chant_des_partisans)
+*   **en:** [Le Chant des Partisans](https://en.wikipedia.org/wiki/Le_Chant_des_Partisans)
+*   **de:** [Le Chant des Partisans](https://de.wikipedia.org/wiki/Le_Chant_des_Partisans)
+*   **ru:** [Песня партизан](https://ru.wikipedia.org/wiki/Песня_партизан)
+
+### 🏛️ Contexto Histórico: "Resistencia francesa"
+
+*   **fr:** [Résistance intérieure française](https://fr.wikipedia.org/wiki/Résistance_intérieure_française)
+*   **es:** [Resistencia francesa](https://es.wikipedia.org/wiki/Resistencia_francesa)
+*   **en:** [French Resistance](https://en.wikipedia.org/wiki/French_Resistance)
+*   **de:** [Résistance](https://de.wikipedia.org/wiki/Résistance)
+*   **pt:** [Resistência Francesa](https://pt.wikipedia.org/wiki/Resistência_Francesa)
+*   **ru:** [Движение Сопротивления (Франция)](https://ru.wikipedia.org/wiki/Движение_Сопротивления_(Франция))
+*   **zh:** [法国抵抗运动](https://zh.wikipedia.org/wiki/法国抵抗运动)

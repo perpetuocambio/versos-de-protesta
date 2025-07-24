@@ -118,3 +118,25 @@ por el triunfo de la Confederación.
 - "Songs of Struggle and Protest" - Smithsonian Folkways
 
 ---
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "A las Barricadas"
+
+*   **es:** [A las barricadas](https://es.wikipedia.org/wiki/A_las_barricadas)
+*   **en:** [A las barricadas](https://en.wikipedia.org/wiki/A_las_barricadas)
+*   **de:** [A las barricadas](https://de.wikipedia.org/wiki/A_las_barricadas)
+*   **pt:** [A las barricadas](https://pt.wikipedia.org/wiki/%C2%A1A_Las_Barricadas!)
+*   **ru:** [Вперёд, на баррикады!](https://ru.wikipedia.org/wiki/A_las_barricadas)
+*   **zh:** [到街垒去](https://zh.wikipedia.org/wiki/到街垒去)
+
+### 🏛️ Contexto Histórico: "Anarquismo"
+
+*   **es:** [Anarquismo](https://es.wikipedia.org/wiki/Anarquismo)
+*   **en:** [Anarchism](https://en.wikipedia.org/wiki/Anarchism)
+*   **de:** [Anarchismus](https://de.wikipedia.org/wiki/Anarchismus)
+*   **pt:** [Anarquismo](https://pt.wikipedia.org/wiki/Anarquismo)
+*   **ru:** [Анархизм](https://ru.wikipedia.org/wiki/Анархизм)
+*   **zh:** [无政府主义](https://zh.wikipedia.org/wiki/无政府主义)

@@ -965,3 +965,17 @@ Grupos consonánticos:
 **"Il Galeone" Yǔ Yìdàlì Xuéshēng Kàngyì Yùndòng**
 
 Pàolā Nǐkēlāqí de "Il Galeone" chuàngzuò yú 1970 nián, shì 60 niándài mò 70 niándài chū Yìdàlì xuéshēng kàngyì yùndòng zuì jù dàibiǎoxìng de gēqǔ zhī yī. Zhè shǒu gē róngrù le zài suǒwèi "qiānsè niándài" qíjiān gǎibiàn Yìdàlì de kàngyì yùndòng zhōng, dāngshí xuéshēng hé gōngrén liánhé qǐlái xiānqǐ dòngyuán làngcháo, shēnkè zhìyí chuántǒng shèhuì jiégòu. Zài hǎishang hángxíng de dà fānchuán yǐnyù xiàngzhēng zhe duì zìyóu de dòuzhēng, zài zhè zhǒng bèijǐng xià, xīn yīdài jùjué cóng fǎxīsī zhǔyì jìchéng de wēiquán zhǔyì, xúnqiú mínzhǔ biǎodá de kōngjiān. Yìdàlì xuéshēng yùndòng shǐyú 1968 nián de dàxué zhànlǐng, qí tèdiǎn shì zhèngzhì jījìn zhǔyì hé xúnqiú jìdìng zīběn zhǔyì zhìdù de tìdài fāng'àn. Zhè shǒu gē fǎnyìng le jítǐ xīwàng de jīngshén, zìyóu chéngwéi "dà fānchuán"——rénmín yùndòng de xiàngzhēng——cóng gǎngkǒu dào gǎngkǒu, cóng chéngshì dào chéngshì chéngzài de gòngtóng cáifù, tuánjié suǒyǒu yǔ yāpò dòuzhēng de rén. Duì "chuányuánmen" de hūhuàn dàibiǎo zhe zhàohuàn mínzhòng cānyù zhè chǎng tōngwǎng gèng gōngzhèng wèilái de hángxíng.
+
+---
+
+## 📚 Para Saber Más
+
+### 🏛️ Contexto Histórico: "Años de Plomo (Italia)"
+
+*   **it:** [Anni di piombo](https://it.wikipedia.org/wiki/Anni_di_piombo)
+*   **es:** [Años de plomo (Italia)](https://es.wikipedia.org/wiki/Años_de_plomo_(Italia))
+*   **en:** [Years of Lead (Italy)](https://en.wikipedia.org/wiki/Years_of_Lead_(Italy))
+*   **de:** [Bleierne Jahre (Italien)](https://de.wikipedia.org/wiki/Bleierne_Jahre_(Italien))
+*   **pt:** [Anos de chumbo (Itália)](https://pt.wikipedia.org/wiki/Anos_de_chumbo_(Itália))
+*   **ru:** [Свинцовые семидесятые в Италии](https://ru.wikipedia.org/wiki/Свинцовые_семидесятые_в_Италии)
+*   **zh:** [铅色年代](https://zh.wikipedia.org/wiki/铅色年代)

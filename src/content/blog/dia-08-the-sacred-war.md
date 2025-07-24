@@ -707,3 +707,26 @@ tuèi⁵¹kʰàŋ⁵¹ ɡāi⁰ tsu³³ʈ͡ʂoù⁵¹de⁰ pu⁵¹luò⁵¹
 **"Shénshèng zhànzhēng" yǔ wèiguó zhànzhēng**
 
 "Shénshèng zhànzhēng" chéngwéi dì-èr-cì shìjiè dàzhàn qījiān sūlián dǐkàng yùndòng de fēi guānfāng guógē. Yóu yàlìshāndà·yàlìshāndéluòfū zuòqǔ, wǎxīlǐ·lièbiéjiéfū-kùmǎqí zuòcí, zhè shǒu gē yú yījiǔsìyī nián liùyuè èrshísì rì shǒucí tōngguò mòsīkē diàntái bōchū, jǐn zài bābāluósà xíngdòng kāishǐ liǎng tiān hòu. Nàcuì rùqīn yú liùyuè èrshí'èr rì kāishǐ, sānbǎi bāshí wàn déjūn shìbīng kuàyuè sūlián biānjìng, xíngchéng jūnshì shǐ shàng zuì kuānkuò de zhànxiàn. Zhè shǒu gē biǎodále sūlián rénmín bǎowèi zǔguó, duìkàng tāmen suǒ rènwéi de juéduì xié'è lìliàng de juéxīn. Zài lièníngélè wéichéng de bābǎi qīshí'èr tiān zhōng, chāoguò yībǎi wàn píngmín sǐwáng, "Shénshèng zhànzhēng" chéngwéi dǐkàng de xiàngzhēng. Sūlián rénmín chēng zhī wéi wèiguó zhànzhēng de zhè chǎng zhànzhēng, duóqùle dàyuē èrqiān qībǎi wàn sūlián gōngmín de shēngmìng, shì dì-èr-cì shìjiè dàzhàn zhōng rènhé guójiā de zuìdà rényuán sǔnshī.
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Священная война"
+
+*   **ru:** [Священная война (песня)](https://ru.wikipedia.org/wiki/Священная_война_(песня))
+*   **en:** [The Sacred War](https://en.wikipedia.org/wiki/The_Sacred_War)
+*   **es:** [La Guerra Sagrada](https://es.wikipedia.org/wiki/La_Guerra_Sagrada)
+*   **de:** [Der Heilige Krieg (Lied)](https://de.wikipedia.org/wiki/Der_Heilige_Krieg_(Lied))
+*   **pt:** [A Guerra Sagrada](https://pt.wikipedia.org/wiki/A_Guerra_Sagrada)
+*   **zh:** [神圣的战争](https://zh.wikipedia.org/wiki/神圣的战争)
+
+### 🏛️ Contexto Histórico: "Gran Guerra Patria"
+
+*   **ru:** [Великая Отечественная война](https://ru.wikipedia.org/wiki/Великая_Отечественная_война)
+*   **en:** [Eastern Front (World War II)](https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II))
+*   **es:** [Frente Oriental (Segunda Guerra Mundial)](https://es.wikipedia.org/wiki/Frente_Oriental_(Segunda_Guerra_Mundial))
+*   **de:** [Deutsch-Sowjetischer Krieg](https://de.wikipedia.org/wiki/Deutsch-Sowjetischer_Krieg)
+*   **pt:** [Frente Oriental (Segunda Guerra Mundial)](https://pt.wikipedia.org/wiki/Frente_Oriental_(Segunda_Guerra_Mundial))
+*   **zh:** [苏德战争](https://zh.wikipedia.org/wiki/苏德战争)
+

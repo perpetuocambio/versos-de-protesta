@@ -708,3 +708,26 @@ Características distintivas:
 | **Reino Unido** | "The Secret March" | Workers Music Association | Frente Popular | 1936 |
 
 ---
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Der heimliche Aufmarsch"
+
+*   **de:** [Der heimliche Aufmarsch](https://de.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
+*   **en:** [Der heimliche Aufmarsch](https://en.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
+*   **fr:** [Der heimliche Aufmarsch](https://fr.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
+*   **pt:** [Der heimliche Aufmarsch](https://pt.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
+*   **ru:** [Тревожный_марш](https://ru.wikipedia.org/wiki/Тревожный_марш)
+*   **zh:** [秘密集结](https://zh.wikipedia.org/wiki/秘密集结)
+
+### 🏛️ Contexto Histórico: "República de Weimar"
+
+*   **de:** [Weimarer Republik](https://de.wikipedia.org/wiki/Weimarer_Republik)
+*   **es:** [República de Weimar](https://es.wikipedia.org/wiki/República_de_Weimar)
+*   **en:** [Weimar Republic](https://en.wikipedia.org/wiki/Weimar_Republic)
+*   **fr:** [République de Weimar](https://fr.wikipedia.org/wiki/République_de_Weimar)
+*   **pt:** [República de Weimar](https://pt.wikipedia.org/wiki/República_de_Weimar)
+*   **ru:** [Веймарская республика](https://ru.wikipedia.org/wiki/Веймарская_республика)
+*   **zh:** [魏玛共和国](https://zh.wikipedia.org/wiki/魏玛共和国)

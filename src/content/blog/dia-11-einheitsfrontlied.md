@@ -572,3 +572,25 @@ Pesnya yedinogo fronta, sochinennaya Bertol'tom Brekhtom na muzyku Gansa Eyslera
 **"Tǒngyī zhànxiàn zhī gē" yǔ 1934 nián de Déguó fǎn fǎxīsī zhǔyì**
 
 Tǒngyī zhànxiàn zhī gē, yóu Bèituō'ěrtè Bùláixītè zuòcí, Hànsī Àisīlēi zuòqǔ yú 1934 nián, dàibiǎole zài Nàcuì zhǔyì shì bùkě dǎng de tuījìn miànqián, tǒngyī Déguó zuǒyì zuì juéwàng ér gāoshàng de chángshì zhī yī. Zhè shǒu gē chuàngzuò yú Xītèlēi shàngtái jǐn yī nián hòu, dāngshí suǒyǒu zuǒyì zhèngdǎng dōu yǐ bèi jìnzhǐ, tā tǐxiànle zǔjiàn néng gòu duìkàng fǎxīsī zhǔyì de rénmín zhènxiàn de zuìhòu xīwàng. Zhè bù zuòpǐn chǎnshēng yú Déguó zhèngzhì liúwáng de bèijǐng xià, dāngshí gòngchǎn zhǔyì hé shèhuì mínzhǔ zhǔyì de zhīshì fènzǐ hé huódòng jiā bèipò zài Fǎguó hé Sūlián děng guójiā xúnqiú bìhù. Bùláixītè hé Àisīlēi, liǎng rén dōu shì liúwáng zhě, chuàngzuò zhè bù zuòpǐn zuòwéi duì guójì gōngrén tuánjié de jǐnjí hūyù, yìshí dào Ōuzhōu mínzhǔ dǐkàng de shíjiān zhèngzài hàojìn.
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Einheitsfrontlied"
+
+*   **de:** [Einheitsfrontlied](https://de.wikipedia.org/wiki/Einheitsfrontlied)
+*   **es:** [Canción del Frente Unido](https://es.wikipedia.org/wiki/Canción_del_Frente_Unido)
+*   **en:** [Einheitsfrontlied](https://en.wikipedia.org/wiki/Einheitsfrontlied)
+*   **pt:** [Einheitsfrontlied](https://pt.wikipedia.org/wiki/Einheitsfrontlied)
+*   **ru:** [Песня Единого фронта](https://ru.wikipedia.org/wiki/Песня_Единого_фронта)
+*   **zh:** [统一战线之歌](https://zh.wikipedia.org/wiki/统一战线之歌)
+
+### 🏛️ Contexto Histórico: "Frente Popular"
+
+*   **de:** [Volksfront](https://de.wikipedia.org/wiki/Volksfront)
+*   **es:** [Frente Popular](https://es.wikipedia.org/wiki/Frente_Popular)
+*   **en:** [Popular front](https://en.wikipedia.org/wiki/Popular_front)
+*   **pt:** [Frente Popular](https://pt.wikipedia.org/wiki/Frente_Popular)
+*   **ru:** [Народный фронт](https://ru.wikipedia.org/wiki/Народный_фронт)
+*   **zh:** [人民阵线](https://zh.wikipedia.org/wiki/人民阵线)

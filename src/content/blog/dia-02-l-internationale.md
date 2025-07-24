@@ -866,3 +866,27 @@ Estribillo:| C     | G     | Am    | Dm    |
 - "Soviet Musical Culture and Socialist Realism" - Boris Schwarz
 
 ---
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "L'Internationale"
+
+*   **fr:** [L'Internationale](https://fr.wikipedia.org/wiki/L%27Internationale)
+*   **es:** [La Internacional](https://es.wikipedia.org/wiki/La_Internacional)
+*   **en:** [The Internationale](https://en.wikipedia.org/wiki/The_Internationale)
+*   **de:** [Die Internationale](https://de.wikipedia.org/wiki/Die_Internationale)
+*   **pt:** [A Internacional](https://pt.wikipedia.org/wiki/A_Internacional)
+*   **ru:** [Интернационал (гимн)](https://ru.wikipedia.org/wiki/Интернационал_(гимн))
+*   **zh:** [国际歌](https://zh.wikipedia.org/wiki/国际歌)
+
+### 🏛️ Contexto Histórico: "Comuna de París"
+
+*   **fr:** [Commune de Paris](https://fr.wikipedia.org/wiki/Commune_de_Paris)
+*   **es:** [Comuna de París](https://es.wikipedia.org/wiki/Comuna_de_París)
+*   **en:** [Paris Commune](https://en.wikipedia.org/wiki/Paris_Commune)
+*   **de:** [Pariser Kommune](https://de.wikipedia.org/wiki/Pariser_Kommune)
+*   **pt:** [Comuna de Paris](https://pt.wikipedia.org/wiki/Comuna_de_Paris)
+*   **ru:** [Парижская коммуна](https://ru.wikipedia.org/wiki/Парижская_коммуна)
+*   **zh:** [巴黎公社](https://zh.wikipedia.org/wiki/巴黎公社)

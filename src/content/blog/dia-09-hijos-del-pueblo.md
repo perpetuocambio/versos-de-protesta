@@ -643,3 +643,26 @@ nǐŋ²¹sɨ³³ jě²¹⁴ pù⁰ tsuǒ⁵¹ nú³⁵lì⁵¹
 **"Rénmín zhī zǐ" yǔ Xībānyá wúzhèngfǔ zhǔyì**
 
 "Rénmín zhī zǐ" dànshēng yú yībābāwǔ nián, zuòwéi Xībānyá wúzhèngfǔ zhǔyì yùndòng de zànměishī, gǎibiānle Āimǐlǐ'ào·Āliètǎ de sà'ěrsūāilā xuánlǜ. Zhè shǒu gē chūxiàn zài Yībōlìyà wúzhèngfǔ zhǔyì de xíngchéng qí, gāi shíqí shǐyú yībābāqī nián, dāngshí Bākùníng de shǐzhě Zhūsàipèi·Fǎnèilì dǐdá Mǎdélǐ chuánbò wúzhèngfǔ jítǐ zhǔyì sīxiǎng. Nàshí, Xībānyá gōngrén miànlín měitiān shí'èr dào shísì xiǎoshí de gōngzuò shíjiān, měi zhōu zhǐnéng huòdé liù bǐsàitǎ de wēibó gōngzī. Dì-yī guójì zài jīliè gōngyèhuà hé gōngrén jiējí yìshí rìyì zēngzhǎng de shíkè láidàole Xībānyá. Dào yībābāwǔ nián, Xībānyá wúzhèngfǔ zhǔyì yùndòng yǐjīng yōngyǒu dàyuē sān wàn míng jījìn fènzǐ, tāmen zǔzhī zài dǐkàng shèhuì hé zìyóu zhǔyì wénjiào xiéhuì zhōng. Zhè shǒu zànměishī de gēcí fǎnyìngle wúzhèngfǔ zhǔyì nìngsǐ yě bù qūfú de zhéxué, zhè yī yuánzé zài yījiǔsānliù-yījiǔsānjiǔ nián nèizhàn qījiān dédào wéichí, dāngshí wúzhèngfǔ zhǔyì zhě zhǔdǎole Ōuzhōu lìshǐ shàng zuì shēnkè de shèhuì gémìng zhī yī.
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Hijos del pueblo"
+
+*   **es:** [Hijos del pueblo](https://es.wikipedia.org/wiki/Hijos_del_pueblo)
+*   **en:** [Hijos del Pueblo](https://en.wikipedia.org/wiki/Hijos_del_Pueblo)
+*   **de:** [Hijos del Pueblo](https://de.wikipedia.org/wiki/Hijos_del_Pueblo)
+*   **pt:** [Hijos del Pueblo](https://pt.wikipedia.org/wiki/Hijos_del_Pueblo)
+*   **ru:** [Hijos del Pueblo](https://ru.wikipedia.org/wiki/Hijos_del_Pueblo)
+*   **zh:** [人民之子](https://zh.wikipedia.org/wiki/人民之子)
+
+### 🏛️ Contexto Histórico: "Anarquismo en España"
+
+*   **es:** [Anarquismo en España](https://es.wikipedia.org/wiki/Anarquismo_en_España)
+*   **en:** [Anarchism in Spain](https://en.wikipedia.org/wiki/Anarchism_in_Spain)
+*   **de:** [Anarchismus in Spanien](https://de.wikipedia.org/wiki/Anarchismus_in_Spanien)
+*   **pt:** [Anarquismo na Espanha](https://pt.wikipedia.org/wiki/Anarquismo_na_Espanha)
+*   **ru:** [Анархизм в Испании](https://ru.wikipedia.org/wiki/Анархизм_в_Испании)
+*   **zh:** [西班牙无政府主义](https://zh.wikipedia.org/wiki/西班牙无政府主义)
+

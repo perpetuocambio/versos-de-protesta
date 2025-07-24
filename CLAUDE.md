@@ -278,6 +278,31 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ---
 
+## 📚 Para Saber Más
+
+Añadir al final de cada lección una sección con enlaces a Wikipedia para la canción y el contexto histórico principal.
+**Regla fundamental:** Todos los enlaces deben ser verificados mediante una búsqueda para asegurar que son correctos y apuntan a la página deseada. No se deben inventar URLs.
+
+```markdown
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "[Título de la Canción]"
+
+*   **es:** [Título en español](https://es.wikipedia.org/wiki/...)
+*   **en:** [Título en inglés](https://en.wikipedia.org/wiki/...)
+*   ... (y así para los demás idiomas)
+
+### 🏛️ Contexto Histórico: "[Término del Contexto]"
+
+*   **es:** [Término en español](https://es.wikipedia.org/wiki/...)
+*   **en:** [Término en inglés](https://en.wikipedia.org/wiki/...)
+*   ... (y así para los demás idiomas)
+```
+
+---
+
 ## 🌍 CONTEXTO HISTÓRICO EN 5 IDIOMAS
 
 ### ESPAÑOL

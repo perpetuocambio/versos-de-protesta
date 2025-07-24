@@ -876,3 +876,25 @@ Práctica tonal:
 **"Tuánjié de Rénmín Yǒngyuǎn Bù Huì Bèi Zhànshèng" Yǔ Zhìlì Rénmín Tuánjié Zhèngfǔ**
 
 "Tuánjié de Rénmín Yǒngyuǎn Bù Huì Bèi Zhànshèng" yóu Sài'ěrxīōu Ào'ěrtèjiā yú 1973 nián chuàngzuò, zuòwéi Sà'ěrwǎduō Āliándé de jìngxuǎn anthem, chéngwéi Zhìlì Rénmín Tuánjié zhèngfǔ de yīnyuè xiàngzhēng. Zhè shǒu gē dànshēng yú 1970 nián dào 1973 nián jiān Zhìlì jīnglì shēnkè shèhuì biàngé de bèijǐng xià, dāngshí Āliándé zhèngfǔ zhèngzài shíshī guóyǒuhuà, tǔdì gǎigé hé cáifù zài fēnpèi de jìhuà, shìtú jiànshè yītiáo tōngxiàng shèhuì zhǔyì de mínzhǔ dàolù. Zhè shǒu zànměishī biǎodá le Zhìlì rénmín de xìnxīn, jí gōngrén jiējí de tuánjié zài rènhé bǎoshǒu shìlì de dàotuì qǐtú miànqián dōu shì bùkě zhànshèng de. Tuīguǎng zhè bù zuòpǐn de Xīn Gē Yùndòng yuèduì Jīlāpāyún, chénggōng chuàngzuò le yī shǒu chāoyuè guójiè, chéngwéi guójì dǐkàng anthem de xuánlǜ. 1973 nián 9 yuè 11 rì de bēijù, jūnshì zhèngbiàn tuīfān le Āliándé bìng jiànlì le Pínuòqiètè dúcái zhèngquán, máodùn de jiāng zhè shǒu shènglì zhī gē zhuǎnhuà wéi shùbǎi wàn yǔ wēiquán zhìdù zuò dòuzhēng de Lādīng Měizhōu rén de dǐkàng hé xīwàng zhī gē.
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "El Pueblo Unido Jamás Será Vencido"
+
+*   **es:** [El Pueblo Unido Jamás Será Vencido](https://es.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
+*   **en:** [El Pueblo Unido Jamás Será Vencido](https://en.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
+*   **de:** [El Pueblo Unido Jamás Será Vencido](https://de.wikipedia.org/wiki/El_pueblo_unido)
+*   **pt:** [El Pueblo Unido Jamás Será Vencido](https://pt.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
+*   **ru:** [El pueblo unido jamás será vencido](https://ru.wikipedia.org/wiki/El_pueblo_unido_jamás_será_vencido)
+*   **zh:** [團結的人民永不被擊潰](https://zh.wikipedia.org/wiki/團結的人民永不被擊潰)
+
+### 🏛️ Contexto Histórico: "Unidad Popular (Chile)"
+
+*   **es:** [Unidad Popular](https://es.wikipedia.org/wiki/Unidad_Popular_(Chile))
+*   **en:** [Popular Unity](https://en.wikipedia.org/wiki/Popular_Unity_(Chile))
+*   **de:** [Unidad Popular](https://de.wikipedia.org/wiki/Unidad_Popular)
+*   **pt:** [Unidade Popular](https://pt.wikipedia.org/wiki/Unidade_Popular_(Chile))
+*   **ru:** [Народное единство](https://ru.wikipedia.org/wiki/Народное_единство_(Чили))
+*   **zh:** [人民团结政府](https://zh.wikipedia.org/wiki/人民团结_(智利))

@@ -628,3 +628,20 @@ Eta idishskaya pesnya predstavlyayet ideologiyu Bunda, Yevreyskoy rabochey feder
 **"Āi, nǐmen zhèxiē yúchǔn de yóutài fùguó zhǔyì zhě" yǔ yóutài shèhuì zhǔyì Bēngdé (1897-1920)**
 
 Zhè shǒu yìdìxùyǔ gēqǔ dàibiǎo le Bēngdé de yìshí xíngtài, jí 1897 nián zài Éluósī dìguó chénglì de yóutài gōngrén liánméng, yǔ Xī'àoduō Hècí'ěr de dì yī jiè yóutài fùguó zhǔyì dàhuì tóngnián chénglì. Bēngdé tuīguǎng "cǐdì zhǔyì" gàiniàn, zhǔzhāng yóutàirén yīnggāi zài tāmen jūzhù de guójiā wèi zìjǐ de quánlì ér dòuzhēng, ér bùshì yímín dào Bālèsītǎn. Zhè shǒu gē zhíjiē pīpíng yóutài fùguó zhǔyì zhě duì Yēlùsālěng de "huànxiǎng", ér yóutài gōngrén zài Dōng'ōu miànlín dàtúshā, láogōng bōxuē hé fǎn yóu zhǔyì. Bēngdé zǔzhī le 274 gè xiǎozǔ, yōngyǒu 60 duō wàn chéngyuán, chéngwéi lìshǐ shàng zuìdà de yóutài zhèngzhì dǎngpài, tuīdòng guójì shèhuì zhǔyì, shìsú yìdìxùyǔ wénhuà hé wǔzhuāng zìwèi fǎnduì dàtúshā. Zhè shǒu gē zhōng fǎnyìng de yóutài fùguó zhǔyì (xībóláiyǔ, Bālèsītǎn, mínzú zhǔyì) yǔ Bēngdé zhǔyì (yìdìxùyǔ, sànjū, shèhuì zhǔyì) zhījiān de yìshí xíngtài jǐnzhāng guānxì, dìngyì le 20 shìjì dàbùfèn yóutài zhèngzhì biànlùn, zhídào dàtúshā hé Yǐsèliè jiànguó chèdǐ gǎibiàn le quánqiú yóutàirén géjú.
+
+---
+
+## 📚 Para Saber Más
+
+### 🎤 La Canción: "Oy, Ir Narishe Tsienistn"
+
+*   **en:** [Oy, Ir Narishe Tsienistn](https://en.wikipedia.org/wiki/Oy,_Ir_Narishe_Tsienistn)
+
+### 🏛️ Contexto Histórico: "Bundismo"
+
+*   **en:** [General Jewish Labour Bund](https://en.wikipedia.org/wiki/General_Jewish_Labour_Bund)
+*   **es:** [Bundismo](https://es.wikipedia.org/wiki/Bundismo)
+*   **de:** [Allgemeiner Jüdischer Arbeiterbund](https://de.wikipedia.org/wiki/Allgemeiner_Jüdischer_Arbeiterbund)
+*   **pt:** [Bund](https://pt.wikipedia.org/wiki/Bund)
+*   **ru:** [Бунд](https://ru.wikipedia.org/wiki/Бунд)
+*   **zh:** [崩得](https://zh.wikipedia.org/wiki/崩得)
