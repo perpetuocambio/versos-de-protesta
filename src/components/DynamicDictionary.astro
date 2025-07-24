@@ -514,6 +514,72 @@ document.addEventListener('DOMContentLoaded', async function() {
         .close-button:hover, .close-button:focus {
           color: var(--color-revolutionary-red) !important;
         }
+        
+        /* Estilos para la sección de trazos chinos */
+        .stroke-section {
+          margin-bottom: 1.5rem !important;
+          padding: 1rem !important;
+          background: #f8f9fa !important;
+          border-radius: 8px !important;
+          border: 1px solid #e9ecef !important;
+        }
+        .stroke-section h4 {
+          margin-bottom: 1rem !important;
+          color: var(--color-revolutionary-red) !important;
+          font-size: 1.2rem !important;
+          text-align: center !important;
+        }
+        .stroke-gifs {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          gap: 0.75rem !important;
+          justify-content: center !important;
+        }
+        .stroke-gif {
+          text-align: center !important;
+          transition: transform 0.2s ease !important;
+        }
+        .stroke-gif:hover {
+          transform: scale(1.05) !important;
+        }
+        .stroke-gif img {
+          width: 100px !important;
+          height: 100px !important;
+          border: 2px solid #ddd !important;
+          border-radius: 6px !important;
+          background: white !important;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+          transition: border-color 0.2s ease !important;
+        }
+        .stroke-gif img:hover {
+          border-color: var(--color-revolutionary-red) !important;
+        }
+        .stroke-gif div {
+          font-size: 0.9rem !important;
+          color: #495057 !important;
+          margin-top: 0.5rem !important;
+          font-weight: 600 !important;
+        }
+        
+        /* Responsive para móviles */
+        @media (max-width: 768px) {
+          .stroke-gif img {
+            width: 80px !important;
+            height: 80px !important;
+          }
+          .stroke-gifs {
+            gap: 0.5rem !important;
+          }
+        }
+        @media (max-width: 480px) {
+          .stroke-gif img {
+            width: 70px !important;
+            height: 70px !important;
+          }
+          .stroke-section {
+            padding: 0.75rem !important;
+          }
+        }
         .modal-entry {
           margin-bottom: var(--space-lg) !important;
           padding-bottom: var(--space-lg) !important;
@@ -640,9 +706,68 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
   }
 
+  // Función para convertir caracteres chinos a códigos Unicode decimales para MDBG
+  function getChineseStrokeGifs(chineseText) {
+    if (!chineseText || typeof chineseText !== 'string') return [];
+    
+    const gifs = [];
+    for (let i = 0; i < chineseText.length; i++) {
+      const char = chineseText[i];
+      // Verificar que sea un carácter chino (CJK)
+      if (/[\u4e00-\u9fff]/.test(char)) {
+        const unicodeDecimal = char.codePointAt(0);
+        gifs.push({
+          char: char,
+          url: `https://www.mdbg.net/chinese/rsc/img/stroke_anim/${unicodeDecimal}.gif`
+        });
+      }
+    }
+    return gifs;
+  }
+
   function showWordDetails(word, data) {
-    console.log('showWordDetails called for:', word, data);
     let detailsHtml = `<h2>${word}</h2>`;
+
+    // Agregar trazos de caracteres chinos si aplica
+    const containsChinese = /[\u4e00-\u9fff]/.test(word) || 
+                           (data.entries[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh));
+    
+    if (language === 'zh' || language === 'zh-pinyin' || containsChinese) {
+      let chineseText = '';
+      
+      if (language === 'zh') {
+        chineseText = word;
+      } else if (language === 'zh-pinyin') {
+        chineseText = data.entries[0]?.allTranslations?.zh || data.entries[0]?.translations?.zh || '';
+      } else if (containsChinese && /[\u4e00-\u9fff]/.test(word)) {
+        chineseText = word;
+      } else if (containsChinese && data.entries[0]?.allTranslations?.zh) {
+        chineseText = data.entries[0].allTranslations.zh;
+      }
+      
+      if (chineseText && typeof chineseText === 'string') {
+        const strokeGifs = getChineseStrokeGifs(chineseText);
+        
+        if (strokeGifs.length > 0) {
+          detailsHtml += `<div class="stroke-section">`;
+          detailsHtml += `<h4>✍️ Orden de trazos (${strokeGifs.length} carácter${strokeGifs.length > 1 ? 'es' : ''}):</h4>`;
+          detailsHtml += `<div class="stroke-gifs">`;
+          strokeGifs.forEach((gif, idx) => {
+            detailsHtml += `<div class="stroke-gif">`;
+            // Añadir numeración para múltiples caracteres
+            if (strokeGifs.length > 1) {
+              detailsHtml += `<div style="font-size: 0.7rem; color: #999; margin-bottom: 0.25rem;">${idx + 1}</div>`;
+            }
+            detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
+            detailsHtml += `<div>${gif.char}</div>`;
+            detailsHtml += `</div>`;
+          });
+          detailsHtml += `</div>`;
+          detailsHtml += `<p style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 0.5rem; font-style: italic;">Los GIFs muestran el orden correcto de escritura de cada trazo</p>`;
+          detailsHtml += `</div>`;
+        }
+      }
+    }
 
     data.entries.forEach((entry, index) => {
         detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
