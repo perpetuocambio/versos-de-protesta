@@ -667,7 +667,7 @@ Características distintivas:
 
 *   **zh:** [东方红 (歌曲)](https://zh.wikipedia.org/wiki/东方红_(歌曲))
 *   **en:** [The East Is Red (song)](https://en.wikipedia.org/wiki/The_East_Is_Red_(song))
-*   **es:** [El Oriente es rojo](https://es.wikipedia.org/wiki/El_Oriente_es_rojo)
+*   **es:** [El Oriente es rojo](https://es.wikipedia.org/wiki/El_oriente_es_rojo)
 *   **de:** [Der Osten ist rot](https://de.wikipedia.org/wiki/Der_Osten_ist_rot)
 *   **pt:** [O Leste é Vermelho (canção)](https://pt.wikipedia.org/wiki/O_Leste_é_Vermelho_(canção))
 *   **ru:** [Алеет Восток](https://ru.wikipedia.org/wiki/Алеет_Восток)

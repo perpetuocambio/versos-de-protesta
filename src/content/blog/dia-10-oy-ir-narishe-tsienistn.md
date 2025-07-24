@@ -633,15 +633,11 @@ Zhè shǒu yìdìxùyǔ gēqǔ dàibiǎo le Bēngdé de yìshí xíngtài, jí 1
 
 ## 📚 Para Saber Más
 
-### 🎤 La Canción: "Oy, Ir Narishe Tsienistn"
-
-*   **en:** [Oy, Ir Narishe Tsienistn](https://en.wikipedia.org/wiki/Oy,_Ir_Narishe_Tsienistn)
-
 ### 🏛️ Contexto Histórico: "Bundismo"
 
 *   **en:** [General Jewish Labour Bund](https://en.wikipedia.org/wiki/General_Jewish_Labour_Bund)
 *   **es:** [Bundismo](https://es.wikipedia.org/wiki/Bundismo)
 *   **de:** [Allgemeiner Jüdischer Arbeiterbund](https://de.wikipedia.org/wiki/Allgemeiner_Jüdischer_Arbeiterbund)
-*   **pt:** [Bund](https://pt.wikipedia.org/wiki/Bund)
+*   **pt:** [Bund](https://pt.wikipedia.org/wiki/Uni%C3%A3o_Judaica_Trabalhista_da_Litu%C3%A2nia,_Pol%C3%B3nia_e_R%C3%BAssia)
 *   **ru:** [Бунд](https://ru.wikipedia.org/wiki/Бунд)
 *   **zh:** [崩得](https://zh.wikipedia.org/wiki/崩得)

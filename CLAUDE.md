@@ -56,6 +56,8 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 [Estrofas completas de la canción original]
 ```
 
+**Nota:** Para la redacción de la canción original y su contexto, así como para la obtención de la letra, se deben utilizar enlaces de Wikipedia. Estos enlaces se recopilarán y se incluirán en la sección "Para Saber Más".
+
 ---
 
 ## 📊 CONTEXTO HISTÓRICO MULTILINGÜE

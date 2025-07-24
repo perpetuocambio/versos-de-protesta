@@ -717,7 +717,7 @@ tuèi⁵¹kʰàŋ⁵¹ ɡāi⁰ tsu³³ʈ͡ʂoù⁵¹de⁰ pu⁵¹luò⁵¹
 *   **ru:** [Священная война (песня)](https://ru.wikipedia.org/wiki/Священная_война_(песня))
 *   **en:** [The Sacred War](https://en.wikipedia.org/wiki/The_Sacred_War)
 *   **es:** [La Guerra Sagrada](https://es.wikipedia.org/wiki/La_Guerra_Sagrada)
-*   **de:** [Der Heilige Krieg (Lied)](https://de.wikipedia.org/wiki/Der_Heilige_Krieg_(Lied))
+*   **de:** [Der Heilige Krieg (Lied)](https://de.wikipedia.org/wiki/Der_heilige_Krieg)
 *   **pt:** [A Guerra Sagrada](https://pt.wikipedia.org/wiki/A_Guerra_Sagrada)
 *   **zh:** [神圣的战争](https://zh.wikipedia.org/wiki/神圣的战争)
 
