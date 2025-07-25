@@ -473,20 +473,20 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **movilización** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán |
-| **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de |
-| **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ |
-| **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **movilización** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán | sustantivo |
+| **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de | adjetivo |
+| **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ | sustantivo |
+| **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng |
-| **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng |
-| **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng | sustantivo |
+| **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng | sustantivo |
+| **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó | sustantivo |
 
 ---
 

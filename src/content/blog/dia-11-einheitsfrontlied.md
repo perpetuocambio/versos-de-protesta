@@ -269,21 +269,21 @@ Bùyào wàngjì!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **frente** | front | Front | frente | фронт | front | 前线 | qiánxiàn |
-| **unidad** | unity | Einheit | unidade | единство | yedinstvo | 团结 | tuánjié |
-| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén |
-| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **frente** | front | Front | frente | фронт | front | 前线 | qiánxiàn | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | yedinstvo | 团结 | tuánjié | sustantivo |
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén | sustantivo |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì |
-| **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó |
-| **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
+| **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó | sustantivo |
+| **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

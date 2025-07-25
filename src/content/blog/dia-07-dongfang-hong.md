@@ -392,21 +392,21 @@ on velikiy spasitel' naroda.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **东方** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng |
-| **红** | red | rot | vermelho | красный | krasnyy | 红 | hóng |
-| **太阳** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng |
-| **人民** | people | Volk | povo | народ | narod | 人民 | rénmín |
-| **救星** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **东方** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng | sustantivo |
+| **红** | red | rot | vermelho | красный | krasnyy | 红 | hóng | adjetivo |
+| **太阳** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng | sustantivo |
+| **人民** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **救星** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng | sustantivo |
 
 ### TÉRMINOS POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **主席** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí |
-| **共产党** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng |
-| **解放** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **主席** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí | sustantivo |
+| **共产党** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng | sustantivo |
+| **解放** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
 
 ---
 
