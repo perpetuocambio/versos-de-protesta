@@ -150,7 +150,7 @@
           "lessons": [
             5
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "Allied victory",
           "allTranslations": {
             "es": "Victoria aliada",
@@ -163,7 +163,7 @@
             "zhPinyin": "méng jūn shènglì",
             "source": "dia-05-pesn-partizan",
             "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md",
             "originalKey": "1944",
             "context": "Liberación de París"
           }
@@ -187,7 +187,7 @@
           "lessons": [
             9
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "anarchism",
           "allTranslations": {
             "es": "anarquismo",
@@ -200,7 +200,7 @@
             "zhPinyin": "wúzhèngfǔ zhǔyì",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
           }
         }
       ],
@@ -222,7 +222,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "banners",
           "allTranslations": {
             "es": "banderas",
@@ -235,7 +235,7 @@
             "zhPinyin": "qízhì",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -257,7 +257,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "dawn",
           "allTranslations": {
             "es": "amanecer",
@@ -270,7 +270,7 @@
             "zhPinyin": "límíng",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -292,7 +292,7 @@
           "lessons": [
             1
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "death",
           "allTranslations": {
             "es": "muerte",
@@ -305,7 +305,7 @@
             "zhPinyin": "sǐwáng",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
           }
         }
       ],
@@ -327,7 +327,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "defeated",
           "allTranslations": {
             "es": "vencido",
@@ -340,7 +340,7 @@
             "zhPinyin": "bèi zhànshèng de",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -362,7 +362,7 @@
           "lessons": [
             10
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "diaspora",
           "allTranslations": {
             "es": "diáspora",
@@ -375,7 +375,7 @@
             "zhPinyin": "sànjū",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -397,7 +397,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Divorce referendum",
           "allTranslations": {
             "es": "Referéndum divorcio",
@@ -410,7 +410,7 @@
             "zhPinyin": "líhūn gōngtóu",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+            "filePath": "src/content/blog/dia-04-il-galeone.md",
             "originalKey": "1974",
             "context": "Divorcio legal"
           }
@@ -434,7 +434,7 @@
           "lessons": [
             8
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
+          "filePath": "src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "Eastern Front",
           "allTranslations": {
             "es": "frente oriental",
@@ -447,7 +447,7 @@
             "zhPinyin": "dōngxiàn zhànchǎng",
             "source": "dia-08-the-sacred-war",
             "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
+            "filePath": "src/content/blog/dia-08-the-sacred-war.md"
           }
         }
       ],
@@ -469,7 +469,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Electoral victory",
           "allTranslations": {
             "es": "Triunfo electoral",
@@ -482,7 +482,7 @@
             "zhPinyin": "xuǎnjǔ shènglì",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
             "originalKey": "1970",
             "context": "Elección de Allende"
           }
@@ -506,7 +506,7 @@
           "lessons": [
             1
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "face",
           "allTranslations": {
             "es": "espere",
@@ -519,7 +519,7 @@
             "zhPinyin": "děngdài",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
           }
         }
       ],
@@ -541,7 +541,7 @@
           "lessons": [
             10
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "fantasize",
           "allTranslations": {
             "es": "fantasear",
@@ -554,7 +554,7 @@
             "zhPinyin": "huànxiǎng",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -577,7 +577,7 @@
             8,
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
+          "filePath": "src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "fascism",
           "allTranslations": {
             "es": "fascismo",
@@ -590,7 +590,7 @@
             "zhPinyin": "fǎxīsī zhǔyì",
             "source": "dia-08-the-sacred-war",
             "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
+            "filePath": "src/content/blog/dia-08-the-sacred-war.md"
           }
         }
       ],
@@ -612,7 +612,7 @@
           "lessons": [
             9
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "First International",
           "allTranslations": {
             "es": "Primera Internacional",
@@ -625,7 +625,7 @@
             "zhPinyin": "dì-yī guójì",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
           }
         }
       ],
@@ -647,7 +647,7 @@
           "lessons": [
             10
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "flag",
           "allTranslations": {
             "es": "bandera",
@@ -660,7 +660,7 @@
             "zhPinyin": "qízhì",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -682,7 +682,7 @@
           "lessons": [
             10
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "foolish",
           "allTranslations": {
             "es": "necio",
@@ -695,7 +695,7 @@
             "zhPinyin": "yúchǔn",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -717,7 +717,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "freedom",
           "allTranslations": {
             "es": "libertad",
@@ -730,7 +730,7 @@
             "zhPinyin": "zìyóu",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
           }
         }
       ],
@@ -752,7 +752,7 @@
           "lessons": [
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
+          "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
           "originalWord": "front",
           "allTranslations": {
             "es": "frente",
@@ -765,7 +765,7 @@
             "zhPinyin": "qiánxiàn",
             "source": "dia-11-einheitsfrontlied",
             "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
+            "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
           }
         }
       ],
@@ -787,7 +787,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "galleon",
           "allTranslations": {
             "es": "galeón",
@@ -800,7 +800,7 @@
             "zhPinyin": "dà fānchuán",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
           }
         }
       ],
@@ -822,7 +822,7 @@
           "lessons": [
             9
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "general strike",
           "allTranslations": {
             "es": "huelga general",
@@ -835,7 +835,7 @@
             "zhPinyin": "zǒng bàgōng",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
           }
         }
       ],
@@ -857,7 +857,7 @@
           "lessons": [
             0
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "march",
           "allTranslations": {
             "es": "marchar",
@@ -870,7 +870,7 @@
             "zhPinyin": "xíngjìn",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         }
       ],
@@ -892,7 +892,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Mass strikes",
           "allTranslations": {
             "es": "Huelgas masivas",
@@ -905,7 +905,7 @@
             "zhPinyin": "dà bàgōng",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+            "filePath": "src/content/blog/dia-04-il-galeone.md",
             "originalKey": "1969",
             "context": "Otoño caliente"
           }
@@ -929,7 +929,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "movement",
           "allTranslations": {
             "es": "movimiento",
@@ -942,7 +942,7 @@
             "zhPinyin": "yùndòng",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
           }
         }
       ],
@@ -964,7 +964,7 @@
           "lessons": [
             9
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "oppression",
           "allTranslations": {
             "es": "opresión",
@@ -977,7 +977,7 @@
             "zhPinyin": "yāpò",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
           }
         }
       ],
@@ -999,7 +999,7 @@
           "lessons": [
             1
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "pain",
           "allTranslations": {
             "es": "dolor",
@@ -1012,7 +1012,7 @@
             "zhPinyin": "tòngkǔ",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
           }
         }
       ],
@@ -1034,7 +1034,7 @@
           "lessons": [
             5
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "partisans",
           "allTranslations": {
             "es": "partisanos",
@@ -1047,7 +1047,7 @@
             "zhPinyin": "yóujīduì",
             "source": "dia-05-pesn-partizan",
             "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
           }
         }
       ],
@@ -1070,7 +1070,7 @@
             3,
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "people",
           "allTranslations": {
             "es": "pueblo",
@@ -1083,7 +1083,7 @@
             "zhPinyin": "rénmín",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -1105,7 +1105,7 @@
           "lessons": [
             10
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "perish",
           "allTranslations": {
             "es": "perecer",
@@ -1118,7 +1118,7 @@
             "zhPinyin": "mièwáng",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -1140,7 +1140,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "port",
           "allTranslations": {
             "es": "puerto",
@@ -1153,7 +1153,7 @@
             "zhPinyin": "gǎngkǒu",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
           }
         }
       ],
@@ -1175,7 +1175,7 @@
           "lessons": [
             0
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "power",
           "allTranslations": {
             "es": "poder",
@@ -1188,7 +1188,7 @@
             "zhPinyin": "quánlì",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         }
       ],
@@ -1211,7 +1211,7 @@
             10,
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
           "originalWord": "proletarian",
           "allTranslations": {
             "es": "proletario",
@@ -1224,7 +1224,7 @@
             "zhPinyin": "wúchǎnzhě",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
@@ -1246,7 +1246,7 @@
           "lessons": [
             6
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "robber horde",
           "allTranslations": {
             "es": "horda saqueadora",
@@ -1259,7 +1259,7 @@
             "zhPinyin": "qiángdào jūnduì",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
           }
         }
       ],
@@ -1281,7 +1281,7 @@
           "lessons": [
             5
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "sabotage",
           "allTranslations": {
             "es": "sabotaje",
@@ -1294,7 +1294,7 @@
             "zhPinyin": "pòhuài",
             "source": "dia-05-pesn-partizan",
             "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
           }
         }
       ],
@@ -1316,7 +1316,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "sailors",
           "allTranslations": {
             "es": "marineros",
@@ -1329,7 +1329,7 @@
             "zhPinyin": "chuányuán",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md"
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
           }
         }
       ],
@@ -1351,7 +1351,7 @@
           "lessons": [
             6
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "secret",
           "allTranslations": {
             "es": "secreto",
@@ -1364,7 +1364,7 @@
             "zhPinyin": "mìmì de",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
           }
         }
       ],
@@ -1386,7 +1386,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "Shortages",
           "allTranslations": {
             "es": "Desabastecimiento",
@@ -1399,7 +1399,7 @@
             "zhPinyin": "wùzī duǎnquē",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
             "originalKey": "1972",
             "context": "Crisis económica"
           }
@@ -1423,7 +1423,7 @@
           "lessons": [
             0
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "sing",
           "allTranslations": {
             "es": "cantar",
@@ -1436,7 +1436,7 @@
             "zhPinyin": "chàng",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-00-fundamentos-basicos.md"
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         }
       ],
@@ -1458,7 +1458,7 @@
           "lessons": [
             9
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
           "originalWord": "solidarity",
           "allTranslations": {
             "es": "solidaridad",
@@ -1471,7 +1471,7 @@
             "zhPinyin": "tuánjié",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-09-hijos-del-pueblo.md"
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
           }
         }
       ],
@@ -1493,7 +1493,7 @@
           "lessons": [
             6
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "Soviet light",
           "allTranslations": {
             "es": "luz soviética",
@@ -1506,7 +1506,7 @@
             "zhPinyin": "Sūwéi'āi zhī guāng",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
           }
         }
       ],
@@ -1528,7 +1528,7 @@
           "lessons": [
             4
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
           "originalWord": "Student revolts",
           "allTranslations": {
             "es": "Revueltas estudiantiles",
@@ -1541,7 +1541,7 @@
             "zhPinyin": "xuéshēng qǐyì",
             "source": "dia-04-il-galeone",
             "day": 4,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-04-il-galeone.md",
+            "filePath": "src/content/blog/dia-04-il-galeone.md",
             "originalKey": "1968",
             "context": "Mayo del 68"
           }
@@ -1565,7 +1565,7 @@
           "lessons": [
             1
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md",
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "though",
           "allTranslations": {
             "es": "aunque",
@@ -1578,7 +1578,7 @@
             "zhPinyin": "suīrán",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-01-a-las-barricadas.md"
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
           }
         }
       ],
@@ -1600,7 +1600,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "triumph",
           "allTranslations": {
             "es": "triunfar",
@@ -1613,7 +1613,7 @@
             "zhPinyin": "shènglì",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -1635,7 +1635,7 @@
           "lessons": [
             5
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md",
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "underground",
           "allTranslations": {
             "es": "clandestino",
@@ -1648,7 +1648,7 @@
             "zhPinyin": "dìxià de",
             "source": "dia-05-pesn-partizan",
             "day": 5,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-05-pesn-partizan.md"
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
           }
         }
       ],
@@ -1670,7 +1670,7 @@
           "lessons": [
             3
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "united",
           "allTranslations": {
             "es": "unido",
@@ -1683,7 +1683,7 @@
             "zhPinyin": "tuánjié de",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -1706,7 +1706,7 @@
             3,
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
           "originalWord": "unity",
           "allTranslations": {
             "es": "unidad",
@@ -1719,7 +1719,7 @@
             "zhPinyin": "tuánjié",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-03-el-pueblo-unido.md"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
@@ -1741,7 +1741,7 @@
           "lessons": [
             8
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md",
+          "filePath": "src/content/blog/dia-08-the-sacred-war.md",
           "originalWord": "war",
           "allTranslations": {
             "es": "guerra",
@@ -1754,7 +1754,7 @@
             "zhPinyin": "zhànzhēng",
             "source": "dia-08-the-sacred-war",
             "day": 8,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-08-the-sacred-war.md"
+            "filePath": "src/content/blog/dia-08-the-sacred-war.md"
           }
         }
       ],
@@ -1776,7 +1776,7 @@
           "lessons": [
             6
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "whisper",
           "allTranslations": {
             "es": "susurro",
@@ -1789,7 +1789,7 @@
             "zhPinyin": "qièqiè sīyǔ",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
           }
         }
       ],
@@ -1811,7 +1811,7 @@
           "lessons": [
             11
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md",
+          "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
           "originalWord": "worker",
           "allTranslations": {
             "es": "trabajador",
@@ -1824,7 +1824,7 @@
             "zhPinyin": "gōngrén",
             "source": "dia-11-einheitsfrontlied",
             "day": 11,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-11-einheitsfrontlied.md"
+            "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
           }
         }
       ],
@@ -1846,7 +1846,7 @@
           "lessons": [
             6
           ],
-          "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
           "originalWord": "world republic",
           "allTranslations": {
             "es": "república mundial",
@@ -1859,7 +1859,7 @@
             "zhPinyin": "shìjiè gònghéguó",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
-            "filePath": "/src/versos-de-protesta/src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
           }
         }
       ],

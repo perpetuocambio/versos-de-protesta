@@ -213,7 +213,7 @@ async function extractVocabularyFromMarkdown(filePath) {
             grammaticalCategory: cleanCell(cells[8]),
             source: fileName,
             day: day,
-            filePath: filePath
+            filePath: path.relative(projectRoot, filePath)
           };
         } else if (cells.length >= 10 && cells[0].match(/^\d{4}$/)) {
             // Formato: | Año | Evento | Español | ...
@@ -229,7 +229,7 @@ async function extractVocabularyFromMarkdown(filePath) {
               grammaticalCategory: 'término histórico',
               source: fileName,
               day: day,
-              filePath: filePath,
+              filePath: path.relative(projectRoot, filePath),
               originalKey: cleanCell(cells[0]),
               context: cleanCell(cells[1])
             };
@@ -247,7 +247,7 @@ async function extractVocabularyFromMarkdown(filePath) {
             grammaticalCategory: 'sustantivo', // por defecto
             source: fileName,
             day: day,
-            filePath: filePath
+            filePath: path.relative(projectRoot, filePath)
           };
         }
 
