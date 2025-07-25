@@ -846,6 +846,48 @@ document.addEventListener('DOMContentLoaded', async function() {
   function showWordDetails(word, data) {
     let detailsHtml = `<h2>${word}</h2>`;
 
+    data.entries.forEach((entry, index) => {
+        const translations = entry.allTranslations || entry.translations;
+        const category = translations.grammaticalCategory || 'N/A';
+
+        detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
+        detailsHtml += `<p><strong>Significado ${index + 1}:</strong> ${entry.meaning}</p>`;
+        detailsHtml += `<p style="font-style: italic; color: var(--color-text-secondary); margin-bottom: var(--space-md);">Categoría: ${category}</p>`;
+
+        if (translations) {
+            detailsHtml += '<h4>Traducciones:</h4><ul>';
+            // Mostrar el significado primero, luego los elementos lingüísticos
+            const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom'];
+            langOrder.forEach(lang => {
+                if (translations[lang]) {
+                    detailsHtml += `<li><strong>${lang}:</strong> ${translations[lang]}</li>`;
+                }
+            });
+            // Chino: mostrar hanzi primero, luego pinyin
+            if (translations.zh) {
+                detailsHtml += `<li><strong>zh (hanzi):</strong> ${translations.zh}</li>`;
+            }
+            if (translations.zhPinyin) {
+                detailsHtml += `<li><strong>zh (pinyin):</strong> ${translations.zhPinyin}</li>`;
+            }
+            detailsHtml += '</ul>';
+        }
+
+        // Mostrar todas las lecciones donde aparece la palabra
+        const lessons = entry.lessons || [entry.day];
+        if (lessons.length === 1) {
+            detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${lessons[0]}</a></p>`;
+        } else {
+            detailsHtml += `<p><strong>Aparece en las lecciones:</strong> `;
+            lessons.forEach((day, idx) => {
+                if (idx > 0) detailsHtml += ', ';
+                detailsHtml += `<a href="${baseUrl}blog/dia-${day.toString().padStart(2, '0')}/" class="post-link">Día ${day}</a>`;
+            });
+            detailsHtml += `</p>`;
+        }
+        detailsHtml += `</div>`;
+    });
+
     // Agregar trazos de caracteres chinos si aplica
     const containsChinese = /[\u4e00-\u9fff]/.test(word) || 
                            (data.entries[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh));
@@ -908,44 +950,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     }
 
-    data.entries.forEach((entry, index) => {
-        detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
-        detailsHtml += `<p><strong>Significado ${index + 1}:</strong> ${entry.meaning}</p>`;
-        
-        const translations = entry.allTranslations || entry.translations;
-        if (translations) {
-            detailsHtml += '<h4>Traducciones:</h4><ul>';
-            // Mostrar el significado primero, luego los elementos lingüísticos
-            const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom'];
-            langOrder.forEach(lang => {
-                if (translations[lang]) {
-                    detailsHtml += `<li><strong>${lang}:</strong> ${translations[lang]}</li>`;
-                }
-            });
-            // Chino: mostrar hanzi primero, luego pinyin
-            if (translations.zh) {
-                detailsHtml += `<li><strong>zh (hanzi):</strong> ${translations.zh}</li>`;
-            }
-            if (translations.zhPinyin) {
-                detailsHtml += `<li><strong>zh (pinyin):</strong> ${translations.zhPinyin}</li>`;
-            }
-            detailsHtml += '</ul>';
-        }
 
-        // Mostrar todas las lecciones donde aparece la palabra
-        const lessons = entry.lessons || [entry.day];
-        if (lessons.length === 1) {
-            detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${lessons[0]}</a></p>`;
-        } else {
-            detailsHtml += `<p><strong>Aparece en las lecciones:</strong> `;
-            lessons.forEach((day, idx) => {
-                if (idx > 0) detailsHtml += ', ';
-                detailsHtml += `<a href="${baseUrl}blog/dia-${day.toString().padStart(2, '0')}/" class="post-link">Día ${day}</a>`;
-            });
-            detailsHtml += `</p>`;
-        }
-        detailsHtml += `</div>`;
-    });
 
     modalBody.innerHTML = detailsHtml;
     
