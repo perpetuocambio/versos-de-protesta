@@ -925,29 +925,29 @@ Práctica tonal:
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **partisanos** | partisans | Partisanen | partidários | партизаны | partizany | 游击队 | yóujīduì |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng |
-| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdenie | 解放 | jiěfàng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **partisanos** | partisans | Partisanen | partidários | партизаны | partizany | 游击队 | yóujīduì | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | sustantivo |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdenie | 解放 | jiěfàng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng |
-| **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài |
-| **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng | sustantivo |
+| **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài | sustantivo |
+| **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de | adjetivo |
 
 ### TÉRMINOS DE GUERRA Y COMBATE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **combatientes** | fighters | Kämpfer | combatentes | бойцы | boytsy | 战士 | zhànshì |
-| **enemigo** | enemy | Feind | inimigo | враг | vrag | 敌人 | dírén |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu |
-| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó |
-| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **combatientes** | fighters | Kämpfer | combatentes | бойцы | boytsy | 战士 | zhànshì | sustantivo |
+| **enemigo** | enemy | Feind | inimigo | враг | vrag | 敌人 | dírén | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
+| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
 
 ---
 

@@ -304,19 +304,19 @@ bùrú wèi lǐxiǎng ér sǐ.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì |
-| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò |
-| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì | sustantivo |
+| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | sustantivo |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì |
-| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng |
-| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì | sustantivo |
+| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | sustantivo |
+| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

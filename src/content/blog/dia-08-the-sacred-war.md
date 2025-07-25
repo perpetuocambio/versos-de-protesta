@@ -377,19 +377,19 @@ wǒmen yào dǎzào jiāngù de guāncái!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng |
-| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | sustantivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **Operación Barbarroja** | Operation Barbarossa | Unternehmen Barbarossa | Operação Barbarossa | Операция Барбаросса | Operatsiya Barbarossa | 巴巴罗萨行动 | Bābāluósà xíngdòng |
-| **asedio Leningrado** | Siege of Leningrad | Belagerung Leningrads | cerco de Leningrado | блокада Ленинграда | blokada Leningrada | 列宁格勒围城 | Lièníngélè wéichéng |
-| **frente oriental** | Eastern Front | Ostfront | frente oriental | Восточный фронт | Vostochnyy front | 东线战场 | dōngxiàn zhànchǎng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **Operación Barbarroja** | Operation Barbarossa | Unternehmen Barbarossa | Operação Barbarossa | Операция Барбаросса | Operatsiya Barbarossa | 巴巴罗萨行动 | Bābāluósà xíngdòng | sustantivo |
+| **asedio Leningrado** | Siege of Leningrad | Belagerung Leningrads | cerco de Leningrado | блокада Ленинграда | blokada Leningrada | 列宁格勒围城 | Lièníngélè wéichéng | sustantivo |
+| **frente oriental** | Eastern Front | Ostfront | frente oriental | Восточный фронт | Vostochnyy front | 东线战场 | dōngxiàn zhànchǎng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

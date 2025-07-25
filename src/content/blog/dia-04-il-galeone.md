@@ -621,20 +621,20 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu |
-| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán |
-| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
+| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | sustantivo |
+| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì |
-| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng |
-| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | sustantivo |
+| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | sustantivo |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

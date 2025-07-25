@@ -582,20 +582,20 @@ yǔ gōngrén bìngjiān zuòzhàn
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín |
-| **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de |
-| **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de |
-| **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de | adjetivo |
+| **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de | adjetivo |
+| **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì | verbo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì |
-| **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié |
-| **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié | sustantivo |
+| **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 
