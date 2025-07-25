@@ -70,7 +70,7 @@ Pasado ←――――――――――[AHORA]――――――――――→
 | Persona | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|---------|---------|---------|-----------|---------|-------------|-----|--------|
 | **1ª sing.** | yo estudio | I study | ich lerne | eu estudo | я изучаю | ya izuchayu | 我学习 | wǒ xuéxí |
-| **2ª sing.** | tú estudias | you study | du lernst | tu estudas | ты изучаешь | ty izuchaesh' | 你学习 | nǐ xuéxí |
+| **2ª sing.** | tú estudias | you study | du lernst | tu estudas | ты изучаешь | ty izuchayesh' | 你学习 | nǐ xuéxí |
 | **3ª sing.** | él/ella estudia | he/she studies | er/sie lernt | ele/ela estuda | он/она изучает | on/ona izuchaet | 他/她学习 | tā xuéxí |
 | **1ª plur.** | nosotros estudiamos | we study | wir lernen | nós estudamos | мы изучаем | my izuchaem | 我们学习 | wǒmen xuéxí |
 | **2ª plur.** | vosotros estudiáis | you study | ihr lernt | vós estudais | вы изучаете | vy izuchaete | 你们学习 | nǐmen xuéxí |
@@ -159,7 +159,7 @@ Pasado ←――――――――――[AHORA]――――――――――→
 ### ❌ **Español → Deutsch**  
 - **Error**: *Yo estudio* → "Yo studiere" ✗
 - **Correcto**: "Ich lerne" ✓  
-- **Problema**: Orden sujeto-verbo + verbo en 2ª posición
+- **Problema**: Transferir pronombre español + conjugación incorrecta
 
 ### ❌ **Español → Português**
 - **Error**: *Estudio portugués* → "Estudo português" (pronunciación española) ✗
@@ -196,7 +196,7 @@ Pasado ←――――――――――[AHORA]――――――――――→
 
 | Idioma | Forma | IPA | Notas |
 |--------|-------|-----|-------|
-| **Español** | estudio | [esˈtu.ð jo] | Acento en 'tu' |
+| **Español** | estudio | [esˈtu.ðjo] | Acento en 'tu', fricativa dental |
 | **English** | study | [ˈstʌ.di] | Acento inicial |  
 | **Deutsch** | lerne | [ˈlɛʁ.nə] | 'r' vibrante/fricativa |
 | **Português** | estudo | [isˈtu.du] | Vocal inicial cerrada |
@@ -205,7 +205,7 @@ Pasado ←――――――――――[AHORA]――――――――――→
 
 ## 💡 Estrategias de Aprendizaje Comparativo
 
-1. **Usar el mismo verbo base** en los 5 idiomas para ver diferencias estructurales
+1. **Usar el mismo verbo base** en los 6 idiomas para ver diferencias estructurales
 2. **Memorizar paradigmas** como unidades (no forma por forma)
 3. **Practicar transferencia positiva** ES↔PT, detectar transferencia negativa  
 4. **Entender compensaciones** - qué hace cada idioma cuando no tiene X estructura

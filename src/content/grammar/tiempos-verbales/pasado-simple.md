@@ -101,7 +101,7 @@ Pasado ←――――[X]――――――――[AHORA]――――――――
 - **Orden V2**: auxiliar en 2ª posición, participio al final
 
 #### **Português - Hermano Romance con Diferencias**
-- **Terminaciones similares**: -ei/-aste/-ou/-amos/-astes/-aram
+- **Terminaciones específicas**: -ei/-aste/-ou/-amos/-astes/-aram
 - **Fonética diferente**: /ei/ vs /é/, nasalización característica
 - **Uso más frecuente** que español para pasado definido
 
