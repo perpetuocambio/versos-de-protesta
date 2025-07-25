@@ -1,0 +1,57 @@
+# Tiempos Verbales - Estructura Planificada (COMPARATIVA 5 IDIOMAS)
+
+## 📝 Contenido a Desarrollar:
+
+### Tiempos Simples Comparativos
+- `presente-simple-comparativo.md` - Acciones habituales: ES/EN/DE/PT/RU vs sistema chino sin conjugación
+- `pasado-simple-comparativo.md` - Pretérito español, Simple Past inglés, Perfekt alemán, Pretérito Perfeito português, прошедшее время ruso vs chino con 了
+- `futuro-simple-comparativo.md` - Will inglés, werden alemán, futuro español/português vs ruso sin futuro morfológico vs chino con 会/要
+
+### Tiempos Continuos/Progresivos Comparativos
+- `presente-continuo-comparativo.md` - Estar+gerundio vs be+ing vs presente alemán vs estar a+infinitivo vs русский presente vs chino 在+verbo
+- `pasado-continuo-comparativo.md` - Estaba+gerundio vs was+ing vs war+participio vs estava+gerundio vs русский imperfectivo vs chino contextual
+- `futuro-continuo-comparativo.md` - Estrategias paralelas: will be+ing, werden+sein, estaré+gerundio, vs sistemas sin futuro continuo
+
+### Tiempos Perfectos Comparativos
+- `presente-perfecto-comparativo.md` - He+participio vs have+participio vs haben/sein+participio vs tenho+participio vs совершенный вид vs chino 已经
+- `pasado-perfecto-comparativo.md` - Había+participio vs had+participio vs hatte+participio vs tinha+participio vs ruso perfectivo pasado vs chino 已经...了
+- `futuro-perfecto-comparativo.md` - Habré vs will have vs werde+haben vs terei vs ruso perfectivo futuro vs chino con marcadores temporales
+
+### Modos Verbales Comparativos
+- `condicional-comparativo.md` - Condicional español vs would inglés vs würde alemán vs condicional português vs бы ruso vs chino 会/要 condicional
+- `subjuntivo-presente-comparativo.md` - Subjuntivo romance vs subjunctive inglés limitado vs Konjunktiv alemán vs ausencia ruso/chino con estrategias compensatorias
+- `subjuntivo-pasado-comparativo.md` - Imperfecto subjuntivo romance vs Konjunktiv II alemán vs construcciones equivalentes otros idiomas
+- `imperativo-comparativo.md` - Imperativo directo vs let's inglés vs Imperativ alemán vs imperativo português vs повелительное наклонение ruso vs chino sin morfología imperativa
+
+### Formas No Conjugadas Comparativas
+- `infinitivos-comparativo.md` - Infinitivo romance vs to-infinitive inglés vs zu-Infinitiv alemán vs инфинитив ruso vs chino sin infinitivo
+- `gerundios-participios-comparativo.md` - Gerundio romance vs -ing forms inglés vs Partizip alemán vs деепричастие ruso vs construcciones chinas equivalentes
+
+### Aspectos y Peculiaridades por Sistema
+- `aspectos-eslavos-vs-otros.md` - Sistema aspectual ruso perfectivo/imperfectivo vs aspectos lexicales en otros idiomas
+- `verbos-movimiento-comparativo.md` - Идти/ехать ruso vs go/come inglés vs gehen/fahren alemán vs ir/vir romance vs 去/来 chino
+- `verbos-separables-vs-phrasal.md` - Trennbare Verben alemán vs phrasal verbs inglés vs ausencia en romance/eslavo/chino
+- `construcciones-seriales-vs-perífrasis.md` - Construcciones seriales chinas vs perífrasis verbales romance vs construcciones equivalentes
+
+## 🎯 Enfoque OBLIGATORIO por Artículo:
+- **Tabla comparativa 5 idiomas** - mismo concepto, diferentes realizaciones
+- **Fórmula gramatical** para cada idioma donde aplique
+- **Timeline visual** del concepto temporal
+- **Ejemplos PARALELOS** - misma situación en los 5 idiomas
+- **Sistema de compensación** - cómo expresan el concepto los idiomas que no lo tienen morfológicamente
+- **Dificultades para hispanohablantes** - transferencias positivas/negativas
+- **IPA + Pinyin** para pronunciación correcta
+
+## 🔄 Metodología Comparativa:
+1. **Partir del concepto semántico** universal (ej: "acción en progreso")
+2. **Mostrar realizaciones** morfológicas, sintácticas, lexicales en cada idioma
+3. **Identificar equivalencias** funcionales no obvias
+4. **Señalar sistemas únicos** que no existen en otros idiomas
+5. **Proveer estrategias** de traducción y comprensión
+
+## ⚠️ Errores Frecuentes de Transferencia:
+- **Español → Inglés**: *He estado comiendo* ≠ "I have been eating" siempre
+- **Español → Alemán**: Perfekt ≠ presente perfecto español exactamente  
+- **Español → Portugués**: Colocação pronominal diferente
+- **Español → Ruso**: Aspectos no equivalen a tiempos romance
+- **Español → Chino**: No hay conjugación, solo marcadores aspectuales/temporales

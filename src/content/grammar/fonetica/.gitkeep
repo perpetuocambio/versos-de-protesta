@@ -1,0 +1,50 @@
+# Fonética - Estructura Planificada
+
+## 📝 Contenido a Desarrollar:
+
+### Sistemas Vocálicos
+- `vocales-sistemas.md` - Inventarios vocálicos: 5 vs 12+ vocales
+- `vocales-nasales.md` - Nasalización en portugués, francés
+
+### Consonantes Problemáticas
+- `consonantes-dificiles.md` - Sonidos que no existen en español
+- `consonantes-aspiradas.md` - Aspiración en alemán, chino
+- `consonantes-palatalizadas.md` - Palatalización rusa (ь)
+
+### Suprasegmentales
+- `acentuacion-tonica.md` - Acento tónico: fijo vs libre vs melódico
+- `entonacion-melodica.md` - Patrones melódicos: afirmación, pregunta
+- `tonos-chino.md` - Los 4 tonos del mandarín: nivel, ascendente, descendente-ascendente, descendente
+
+### Procesos Fonológicos
+- `asimilacion-elisiones.md` - Cambios en habla conectada
+- `enlace-entre-palabras.md` - Liaison inglés, Bindung alemán, ligação português vs separación ruso/chino
+- `sandhi-externo.md` - Cambios entre palabras (todos los idiomas)
+- `reduccion-vocales.md` - Schwa, vocales átonas debilitadas
+
+### Sistemas de Escritura vs Pronunciación
+- `ortografia-pronunciation-english.md` - Through, though, rough - irregularidades
+- `ortografia-pronunciation-aleman.md` - Reglas regulares vs excepciones
+- `ortografia-pronunciation-ruso.md` - Akanye, reducción vocálica sistemática
+- `pinyin-vs-caracteres.md` - Relación sonido-escritura en chino
+- `acentos-graficos-romance.md` - Cuándo escribir tildes/acentos
+
+## 🎯 Enfoque por Artículo:
+- **IPA obligatorio** - transcripción fonética internacional
+- **Diagramas articulatorios** - posición lengua/labios
+- **Audio conceptual** - descripción de cómo producir sonidos
+- **Minimal pairs** - pares mínimos para contrastes
+- **Errores típicos** hispanohablantes → idioma X
+- **Ejercicios de discriminación** auditiva (descriptos, no ejecutables)
+
+## 🎵 Conexión Musical:
+- Usar **fragmentos de canciones** del blog para ejemplificar
+- **Ritmo y métrica** - cómo afecta la pronunciación
+- **Rima y asonancia** - patrones sonoros
+- **Registro informal** en canciones vs formal en gramática
+
+## 🌟 Metodología Visual:
+- **Espectrogramas simplificados** (descritos)
+- **Mapas articulatorios** de la boca
+- **Escalas tonales** para chino
+- **Curvas de entonación** para patrones melódicos

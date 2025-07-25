@@ -1,0 +1,83 @@
+# Preposiciones - Estructura Planificada (COMPARATIVA 5 IDIOMAS)
+
+## 📝 Contenido a Desarrollar:
+
+### Preposiciones Espaciales Comparativas
+- `ubicacion-estatica-comparativa.md` - En/in/in/em/в vs 在 - estar ubicado sin movimiento
+- `movimiento-direccional-comparativo.md` - A/to/nach/para/в vs 到 - movimiento hacia destino  
+- `movimiento-origen-comparativo.md` - De/from/von/de/из vs 从 - punto de partida
+- `movimiento-trayectoria-comparativo.md` - Por/through/durch/por/через vs 通过 - paso a través
+
+### Preposiciones Temporales Comparativas
+- `tiempo-punto-comparativo.md` - A las 3/at 3/um 3/às 3/в 3 часа vs 三点 - momento específico
+- `tiempo-duracion-comparativa.md` - Durante/for/während/durante/в течение vs expresiones chinas temporales
+- `tiempo-limite-comparativo.md` - Hasta/until/bis/até/до vs 到...为止 - límite temporal
+- `tiempo-desde-comparativo.md` - Desde/since/seit/desde/с vs 从...开始 - punto de inicio
+
+### Preposiciones Abstractas Comparativas
+- `causa-razon-comparativa.md` - Por/because of/wegen/por causa de/из-за vs 因为 - expresar causa
+- `finalidad-proposito-comparativa.md` - Para/for/für/para/для vs 为了 - expresar propósito
+- `modo-instrumento-comparativa.md` - Con/with/mit/com/с vs 用 - medio o instrumento
+- `compañia-asociacion-comparativa.md` - Con/with/mit/com/с vs 和...一起 - acompañamiento
+
+### Casos y Preposiciones (Alemán/Ruso vs Otros)
+- `preposiciones-acusativo-comparativa.md` - Durch/für/ohne alemán vs equivalentes analíticos otros idiomas
+- `preposiciones-dativo-comparativa.md` - Mit/nach/aus alemán vs estructuras preposicionales otros idiomas
+- `preposiciones-casos-ruso-comparativa.md` - В/на + casos vs preposiciones simples otros idiomas
+- `preposiciones-dobles-aleman-comparativa.md` - An/auf/in + acusativo/dativo vs sistemas más simples
+
+### Sistemas Específicos por Idioma
+- `phrasal-verbs-vs-preposiciones.md` - Look for inglés vs buscar español vs suchen nach alemán vs procurar português vs искать русов vs 找 chino
+- `preposiciones-complejas-comparativa.md` - En cuanto a vs with regard to vs was...betrifft vs no que diz respeito vs что касается vs 关于
+- `contracciones-preposicionales-comparativa.md` - Del/al español vs no/na português vs zur/zum alemán vs ausencia otros
+
+## 🎯 Enfoque OBLIGATORIO por Artículo:
+- **Mapeo semántico 5 idiomas** - mismo concepto espacial/temporal/abstracto
+- **Casos que rigen** (alemán/ruso) vs estructuras analíticas
+- **Construcciones idiomáticas** - preposiciones no predecibles
+- **False friends** - misma preposición, diferentes usos
+- **Omisión vs obligatoriedad** - cuándo se puede omitir
+- **Ejemplos PARALELOS** - misma situación espacial/temporal
+
+## 🗺️ Mapas Semánticos Ejemplo:
+
+### Concepto: "Estar ubicado en lugar cerrado"
+| Idioma | Preposición | Ejemplo | Casos/Restricciones |
+|--------|-------------|---------|-------------------|
+| **Español** | en | En la casa | + lugar cerrado |
+| **English** | in | In the house | + lugar cerrado |
+| **Deutsch** | in | Im Haus | + dativo estático |
+| **Português** | em | Na casa | + contracción oblig. |
+| **Русский** | в | В доме | + preposicional |
+| **中文** | 在 | 在家里 | + sufijo locativo |
+
+### Concepto: "Movimiento hacia lugar cerrado"  
+| Idioma | Preposición | Ejemplo | Casos/Restricciones |
+|--------|-------------|---------|-------------------|
+| **Español** | a | Voy a casa | + movimiento |
+| **English** | to | Go to the house | + movimiento |
+| **Deutsch** | in | Ins Haus | + acusativo direccional |
+| **Português** | para | Vou para casa | + movimiento |
+| **Русский** | в | Иду в дом | + acusativo |
+| **中文** | 到 | 到家 | + complemento direccional |
+
+## ⚠️ Errores Frecuentes de Transferencia:
+- **Español → Inglés**: *Depende de* ≠ "depends of" ✗ → "depends on" ✓
+- **Español → Alemán**: *En la mesa* ≠ "in dem Tisch" → "auf dem Tisch" ✓
+- **Español → Portugués**: *En casa* ≠ "em casa" → "em casa" ✓ (pero pronunciación diferente)  
+- **Español → Ruso**: *En Moscú* ≠ "в Москва" → "в Москве" ✓ (caso preposicional)
+- **Español → Chino**: *En Beijing* ≠ "在北京里" → "在北京" ✓ (sin marcador locativo ciudad)
+
+## 🔄 Estrategias de Compensación:
+- **Sistemas sin casos**: usan orden de palabras y preposiciones múltiples
+- **Sistemas con casos**: una preposición + caso = varios significados  
+- **Chino**: direccionales + verbos seriales compensan preposiciones complejas
+- **Inglés**: phrasal verbs compensan verbos + preposición alemanes/rusos
+- **Romance**: perífrasis preposicionales para conceptos no lexicalizados
+
+## 📍 Dimensiones Tipológicas:
+1. **Inventario**: 5-10 preposiciones básicas vs 50+ preposiciones complejas
+2. **Polisemia**: una preposición = muchos significados vs especialización
+3. **Sintaxis**: pre-posición vs post-posición vs circum-posición  
+4. **Morfología**: rige casos vs no rige casos
+5. **Productividad**: se crean nuevas vs inventario cerrado

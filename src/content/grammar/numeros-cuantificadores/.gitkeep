@@ -1,0 +1,78 @@
+# Números y Cuantificadores - Estructura Planificada
+
+## 📝 Contenido a Desarrollar:
+
+### Números Cardinales
+- `numeros-0-100.md` - Sistema básico, pronunciación, escritura
+- `numeros-grandes.md` - Miles, millones, billions vs milliards
+- `numeros-decimales.md` - 3,14 vs 3.14, coma vs punto decimal
+- `numeros-fechas.md` - 15 de marzo vs March 15th vs 15. März
+
+### Números Ordinales
+- `ordinales-formacion.md` - Primero/first/erste/primeiro/первый/第一
+- `ordinales-abreviacion.md` - 1º/1st/1./1º/1-й/第1
+- `ordinales-concordancia.md` - Género y número en ordinales
+
+### Números y Casos Gramaticales
+- `numeros-casos-aleman.md` - Ein/zwei/drei + declinaciones
+- `numeros-casos-ruso.md` - 2-4 genitivo singular, 5+ genitivo plural
+- `numeros-colectivos-ruso.md` - Двое, трое, четверо vs два, три, четыре
+
+### Clasificadores y Medidas (Sistema Chino)
+- `clasificadores-basicos.md` - 个/本/张/条/只/匹 - formas básicas
+- `clasificadores-especializados.md` - 头牛/架飞机/辆车 - específicos
+- `medidas-tiempo-chino.md` - 三天/两个小时/一年 - expresiones temporales
+- `numeros-aproximados-chino.md` - 三四个/十来个 - aproximación
+
+### Cuantificadores Indefinidos
+- `cuantificadores-cantidad.md` - Mucho/poco, много/мало, viel/wenig
+- `cuantificadores-universales.md` - Todo/all/alle/tudo/все/所有
+- `cuantificadores-existenciales.md` - Algo/some/etwas/algo/что-то/一些
+- `cuantificadores-negativos.md` - Nada/nothing/nichts/nada/ничего/什么都不
+
+### Sistemas de Medida
+- `medidas-peso-volumen.md` - Kilogramo/pound/Pfund/quilo/килограмм/公斤
+- `medidas-distancia.md` - Metro/meter/Meter/metro/метр/米
+- `medidas-tiempo.md` - Hora/hour/Stunde/hora/час/小时
+- `monedas-precios.md` - €/$3/3€/3 долара - variación por cultura
+
+## 🎯 Enfoque por Artículo:
+- **Pronunciación completa** - IPA para todos los números
+- **Escritura vs oralidad** - diferencias en expresión
+- **Concordancia gramatical** - qué elementos concuerdan
+- **Matemáticas básicas** - suma, resta, multiplicación, división
+- **Fracciones y porcentajes** - 1/2, 50%, medio
+- **Ordinales vs cardinales** - cuándo usar cada uno
+
+## 🔢 Particularidades por Idioma:
+
+### 🇩🇪 Alemán - Complejidades
+- **Números compuestos**: einundzwanzig (21), not zwanzigeins
+- **Declinación**: ein/eine/einen según caso y género
+- **Separación**: 1.000.000 vs 1,000,000
+
+### 🇷🇺 Ruso - Sistema de Casos
+- **2-4**: genitivo singular (2 стола, 3 стола)
+- **5+**: genitivo plural (5 столов, 100 столов)
+- **Colectivos**: двое детей vs два ребёнка
+
+### 🇨🇳 Chino - Clasificadores Obligatorios
+- **NUNCA**: 三书 ❌
+- **SIEMPRE**: 三本书 ✅ (3 + clasificador + sustantivo)
+- **Clasificadores específicos** por tipo de objeto
+
+### 🇵🇹 Portugués - Diferencias con Español
+- **Um milhão** vs **un millón**
+- **Vírgula decimal**: 3,14 (igual que español)
+- **Concordancia**: milhão vs milhões
+
+### 🇬🇧 Inglés - Peculiaridades
+- **Billion**: 10⁹ (US) vs 10¹² (UK tradicionalmente)
+- **Fecha**: Month/Day vs Day/Month
+- **Punto decimal**: 3.14 (no coma)
+
+## 💡 Aspectos Culturales:
+- **Supersticiones**: 13, 4 (四/死 chino), 666
+- **Fechas importantes**: formatos culturales
+- **Precios**: $3 vs 3€ vs 3₽ - posición de símbolo
+- **Aproximación**: "around 100" vs "más o menos 100"

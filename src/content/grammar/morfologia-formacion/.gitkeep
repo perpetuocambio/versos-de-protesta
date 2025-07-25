@@ -1,0 +1,90 @@
+# Morfología y Formación de Palabras - Estructura Planificada
+
+## 📝 Contenido a Desarrollar:
+
+### Sufijos Derivacionales
+- `sufijos-adverbiales.md` - -mente/-ly/-lich/-ment/-но (claramente/clearly)
+- `sufijos-adjetivales.md` - -oso/-ful/-ig/-oso/-ый (hermoso/beautiful) 
+- `sufijos-nominales.md` - -ción/-tion/-ung/-ção/-ость (educación/education)
+- `sufijos-verbales.md` - -izar/-ize/-ieren/-izar/-овать (modernizar/modernize)
+
+### Prefijos Productivos
+- `prefijos-negacion.md` - In-/un-/un-/in-/не- (imposible/impossible)
+- `prefijos-repeticion.md` - Re-/re-/wieder-/re-/пере- (repetir/repeat)
+- `prefijos-oposicion.md` - Anti-/anti-/gegen-/anti-/против- (anticomunista)
+- `prefijos-intensidad.md` - Super-/over-/über-/super-/сверх- (superhombre)
+
+### Composición Nominal
+- `composicion-alemana.md` - Hausschlüssel, Kindergarten - sistema productivo
+- `composicion-china.md` - 电脑 (diànnǎo) "cerebro eléctrico" = computadora
+- `composicion-inglesa.md` - Blackboard, smartphone - menos productiva que alemán
+- `composicion-otros.md` - Compuestos en español/portugués/ruso (limitados)
+
+### Formación Verbal
+- `verbos-parasintéticos.md` - A-terr-izar, en-carcél-ar (español específico)
+- `verbos-separables-aleman.md` - Aufstehen, mitkommen - única del alemán
+- `verbos-aspectuales-ruso.md` - Делать/сделать - perfectivo/imperfectivo
+- `verbos-seriales-chino.md` - 我去买书 "yo ir comprar libro" - construcción serial
+
+### Cambios Fonológicos
+- `alternancias-vocálicas.md` - Foot/feet, Mann/Männer, пишу/пишешь
+- `mutaciones-consonanticas.md` - Knife/knives, Haus/Häuser
+- `sandhi-chino.md` - Cambios tonales en composición: 不 bù → bú
+- `palatalizacion-rusa.md` - К → Ч: рука → ручка
+
+### Préstamos y Extranjerismos
+- `anglicismos.md` - Computer, marketing, cool - adaptación por idioma
+- `galicismos.md` - Hotel, amateur, chic - préstamos históricos franceses
+- `germanismos.md` - Kindergarten, schadenfreude - préstamos alemanes
+- `latinismos.md` - Per se, ad hoc, curriculum - latín académico universal
+
+## 🎯 Enfoque por Artículo:
+- **Productividad** - qué tan activo es cada proceso
+- **Restricciones** - qué palabras pueden formarse y cuáles no
+- **Significado composicional** - si se puede predecir el significado
+- **Etimología** - origen histórico de morfemas
+- **Variación dialectal** - diferencias regionales
+- **Neologismos** - palabras nuevas usando estos procesos
+
+## 🔬 Análisis Morfológico Sistemático:
+
+### Por Cada Proceso:
+1. **Fórmula**: [base] + [morfema] → [resultado]
+2. **Ejemplos paralelos**: mismo concepto en 5 idiomas
+3. **Restricciones**: qué bases admite, qué no
+4. **Cambios fonológicos**: qué transformaciones ocurren
+5. **Significado**: qué aporta semánticamente
+6. **Productividad**: qué tan común es usarlo para crear palabras nuevas
+
+### Tabla Comparativa Ejemplo:
+| Concepto | Español | English | Deutsch | Português | Русский | 中文 |
+|----------|---------|---------|---------|-----------|---------|------|
+| "Sin X" | in-útil | un-useful | un-nützlich | in-útil | не-нужный | 无用 |
+| "Hacer X" | modern-izar | modern-ize | modern-isieren | modern-izar | модерн-изировать | 现代化 |
+
+## 🌟 Casos Únicos por Idioma:
+
+### 🇩🇪 Alemán - Rey de la Composición
+- **Ilimitado**: Donaudampfschifffahrtsgesellschaftskapitän
+- **Transparente**: significado predecible desde componentes
+- **Género**: el último elemento determina género del compuesto
+
+### 🇷🇺 Ruso - Flexión Extrema  
+- **Aspectos**: cada verbo tiene "pareja" perfectiva/imperfectiva
+- **Diminutivos**: cadenas recursivas: дом → домик → домишко
+- **Casos**: todos los morfemas se declinan
+
+### 🇨🇳 Chino - Monosílabos Compositivos
+- **Transparencia**: 电话 = "electricidad" + "habla" = teléfono
+- **Reduplicación**: 看看 kànkan "echar un vistazo"
+- **Orden fijo**: modificador + núcleo siempre
+
+### 🇵🇹 Portugués - Especialidades
+- **Aumentativos/diminutivos**: casarão/casinha más productivos que español
+- **Nasalización**: morfológica, no solo fonética
+- **Verbos**: conjugaciones más complejas que español
+
+### 🇬🇧 Inglés - Conversión
+- **Zero derivation**: email (noun) → to email (verb)
+- **Backformation**: television → televise, burglar → burgle
+- **Blending**: smoke + fog = smog, breakfast + lunch = brunch

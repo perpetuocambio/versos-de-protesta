@@ -1,0 +1,420 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import { getCollection } from 'astro:content';
+
+// Obtener todos los artículos de gramática
+const grammarEntries = await getCollection('grammar');
+
+// Agrupar por categoría
+const categorizedGrammar = grammarEntries.reduce((acc, entry) => {
+  const category = entry.data.category;
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(entry);
+  return acc;
+}, {});
+
+// Configuración de categorías
+const categoryConfig = {
+  'tiempos-verbales': {
+    name: 'Tiempos Verbales',
+    icon: 'clock',
+    color: 'var(--color-revolutionary-red)',
+    description: 'Sistema completo de tiempos verbales en 6 idiomas paralelos'
+  },
+  'pronombres': {
+    name: 'Pronombres',
+    icon: 'user',
+    color: 'var(--color-socialist-gold)',
+    description: 'Sistema pronominal completo y usos específicos'
+  },
+  'casos-gramaticales': {
+    name: 'Casos Gramaticales',
+    icon: 'layers',
+    color: 'var(--color-charcoal)',
+    description: 'Sistemas de casos en alemán y ruso principalmente'
+  },
+  'adjetivos': {
+    name: 'Adjetivos',
+    icon: 'palette',
+    color: '#22c55e',
+    description: 'Concordancia, comparación y posición'
+  },
+  'adverbios': {
+    name: 'Adverbios',
+    icon: 'zap',
+    color: '#8b5cf6',
+    description: 'Modificadores de verbos, adjetivos y otros adverbios'
+  },
+  'sintaxis': {
+    name: 'Sintaxis',
+    icon: 'git-branch',
+    color: '#f97316',
+    description: 'Estructura y orden de las oraciones'
+  },
+  'fonetica': {
+    name: 'Fonética',
+    icon: 'volume',
+    color: '#06b6d4',
+    description: 'Pronunciación y sonidos específicos'
+  }
+};
+
+// Estadísticas
+const totalArticles = grammarEntries.length;
+const categories = Object.keys(categoryConfig).length;
+
+// Colores de dificultad
+const difficultyColors = {
+  beginner: '#22c55e',
+  intermediate: '#f59e0b', 
+  advanced: '#ef4444'
+};
+
+const difficultyLabels = {
+  beginner: 'Principiante',
+  intermediate: 'Intermedio',
+  advanced: 'Avanzado'
+};
+---
+
+<Layout 
+  title="Gramática Comparativa - 6 Idiomas Paralelos" 
+  description="Sistema completo de gramática comparativa: español, inglés, alemán, portugués, ruso y chino. Tiempos verbales, casos, sintaxis y más."
+>
+  <!-- Hero Section -->
+  <section style="
+    text-align: center; 
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-3xl) 0;
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+  ">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-lg);
+      margin-bottom: var(--space-lg);
+    ">
+      <Icon name="book" size={40} class="text-revolutionary" />
+      <h1 style="margin: 0; background: linear-gradient(135deg, var(--color-revolutionary-red), var(--color-socialist-gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+        Gramática Comparativa
+      </h1>
+      <Icon name="layers" size={40} class="text-socialist" />
+    </div>
+    
+    <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto var(--space-lg) auto; line-height: 1.6; color: #6b7280;">
+      Sistema completo de gramática comparativa en <strong>6 idiomas paralelos</strong>. 
+      Cada concepto explicado de forma visual y sistemática usando contenido markdown.
+    </p>
+    
+    <!-- Quick Stats -->
+    <div style="
+      display: flex;
+      justify-content: center;
+      gap: var(--space-xl);
+      margin-top: var(--space-xl);
+      flex-wrap: wrap;
+    ">
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-revolutionary-red);">
+          {totalArticles}
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Artículos Disponibles
+        </div>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-socialist-gold);">
+          {categories}
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Categorías Principales
+        </div>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-charcoal);">
+          6
+        </div>
+        <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Idiomas Paralelos
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introducción metodológica -->
+  <section style="
+    background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-3xl);
+    border: 1px solid var(--color-border);
+  ">
+    <h2 style="text-align: center; margin-bottom: var(--space-xl); color: var(--color-charcoal);">
+      <Icon name="target" size={28} style="vertical-align: middle; margin-right: var(--space-sm);" />
+      Metodología Comparativa
+    </h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg);">
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: var(--space-sm);">📊</div>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Tablas Paralelas</h3>
+        <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Cada concepto mostrado lado a lado en los 6 idiomas con ejemplos consistentes
+        </p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: var(--space-sm);">🎯</div>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Fórmulas Claras</h3>
+        <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Estructuras gramaticales expresadas como fórmulas matemáticas simples
+        </p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: var(--space-sm);">🔊</div>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">IPA + Tonos</h3>
+        <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Transcripción fonética internacional y marcación tonal para chino
+        </p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: var(--space-sm);">⏱️</div>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Líneas Temporales</h3>
+        <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
+          Representación visual de los tiempos verbales y aspectos temporales
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grid de categorías -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: var(--space-xl); margin-bottom: var(--space-3xl);">
+    {Object.entries(categoryConfig).map(([categoryKey, categoryData]) => {
+      const articles = categorizedGrammar[categoryKey] || [];
+      
+      return (
+        <div class="category-card" style={`border-left: 4px solid ${categoryData.color}`}>
+          <div class="category-header">
+            <div style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+              <div style={`
+                background: ${categoryData.color}20;
+                border: 1px solid ${categoryData.color}40;
+                border-radius: 50%;
+                width: 48px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              `}>
+                <Icon name={categoryData.icon} size={24} style={`color: ${categoryData.color}`} />
+              </div>
+              <div>
+                <h3 style={`margin: 0; color: ${categoryData.color}; font-size: 1.4rem;`}>
+                  {categoryData.name}
+                </h3>
+                <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-secondary);">
+                  {categoryData.description}
+                </p>
+              </div>
+            </div>
+            
+            <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-lg);">
+              <span style={`
+                background: ${categoryData.color}20;
+                color: ${categoryData.color};
+                padding: var(--space-xs) var(--space-sm);
+                border-radius: 9999px;
+                font-size: 0.8rem;
+                font-weight: 600;
+              `}>
+                {articles.length} artículos
+              </span>
+            </div>
+          </div>
+          
+          <div class="articles-list">
+            {articles.length > 0 ? (
+              articles.map((article) => (
+                <div class="article-item">
+                  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-xs);">
+                    <h4 style="margin: 0; font-size: 1rem;">
+                      <a 
+                        href={`${import.meta.env.BASE_URL}gramatica/${article.slug}/`}
+                        style="color: var(--color-charcoal); text-decoration: none;"
+                      >
+                        {article.data.title}
+                      </a>
+                    </h4>
+                    <span style={`
+                      background: ${difficultyColors[article.data.difficultyLevel]}20;
+                      color: ${difficultyColors[article.data.difficultyLevel]};
+                      padding: 2px 8px;
+                      border-radius: 12px;
+                      font-size: 0.7rem;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      flex-shrink: 0;
+                      margin-left: var(--space-sm);
+                    `}>
+                      {difficultyLabels[article.data.difficultyLevel]}
+                    </span>
+                  </div>
+                  <p style="margin: 0; font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.4;">
+                    {article.data.description}
+                  </p>
+                  {article.data.estimatedTime && (
+                    <div style="margin-top: var(--space-xs); display: flex; align-items: center; gap: var(--space-xs);">
+                      <Icon name="clock" size={14} style="color: var(--color-text-muted);" />
+                      <span style="font-size: 0.75rem; color: var(--color-text-muted);">
+                        {article.data.estimatedTime}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              ))
+            ) : (
+              <p style="color: var(--color-text-muted); font-style: italic; text-align: center; padding: var(--space-lg);">
+                Artículos en desarrollo...
+              </p>
+            )}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- Call to Action -->
+  <section style="
+    text-align: center;
+    background: linear-gradient(135deg, var(--color-charcoal), var(--color-charcoal-light));
+    color: white;
+    padding: var(--space-3xl);
+    border-radius: var(--radius-xl);
+    margin-top: var(--space-3xl);
+  ">
+    <h2 style="margin-bottom: var(--space-lg); color: white;">
+      ¿Listo para Dominar la Gramática Comparativa?
+    </h2>
+    <p style="margin-bottom: var(--space-xl); max-width: 600px; margin-left: auto; margin-right: auto; color: #e5e7eb;">
+      Comienza con los conceptos básicos y avanza sistemáticamente. Cada artículo incluye ejemplos prácticos y comparaciones directas en markdown.
+    </p>
+    
+    <div style="
+      display: flex;
+      gap: var(--space-lg);
+      justify-content: center;
+      flex-wrap: wrap;
+    ">
+      {grammarEntries.length > 0 ? (
+        <a 
+          href={`${import.meta.env.BASE_URL}gramatica/${grammarEntries[0].slug}/`}
+          style="
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background: var(--color-revolutionary-red);
+            color: white;
+            padding: var(--space-lg) var(--space-xl);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+          "
+        >
+          <Icon name="play" size={20} />
+          Comenzar con {grammarEntries[0].data.title}
+        </a>
+      ) : (
+        <span style="
+          display: inline-flex;
+          align-items: center;
+          gap: var(--space-sm);
+          background: var(--color-text-muted);
+          color: white;
+          padding: var(--space-lg) var(--space-xl);
+          border-radius: var(--radius-md);
+          font-weight: 600;
+        ">
+          <Icon name="clock" size={20} />
+          Artículos en desarrollo
+        </span>
+      )}
+      
+      <a 
+        href={`${import.meta.env.BASE_URL}blog/`}
+        style="
+          display: inline-flex;
+          align-items: center;
+          gap: var(--space-sm);
+          background: transparent;
+          color: white;
+          border: 2px solid white;
+          padding: var(--space-lg) var(--space-xl);
+          border-radius: var(--radius-md);
+          text-decoration: none;
+          font-weight: 600;
+          transition: all 0.2s ease;
+        "
+      >
+        <Icon name="music" size={20} />
+        Ver Lecciones Musicales
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .category-card {
+    background: var(--color-paper);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+  }
+
+  .category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .article-item {
+    padding: var(--space-md);
+    background: var(--color-paper-warm);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-light);
+    transition: all 0.2s ease;
+  }
+
+  .article-item:hover {
+    background: white;
+    border-color: var(--color-border);
+    transform: translateX(4px);
+  }
+
+  .article-item h4 a:hover {
+    color: var(--color-revolutionary-red) !important;
+  }
+
+  @media (max-width: 768px) {
+    .category-card {
+      margin-bottom: var(--space-lg);
+    }
+  }
+</style>

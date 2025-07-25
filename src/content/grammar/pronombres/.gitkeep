@@ -1,0 +1,63 @@
+# Pronombres - Estructura Planificada (COMPARATIVA 5 IDIOMAS)
+
+## 📝 Contenido a Desarrollar:
+
+### Pronombres Personales Comparativos
+- `pronombres-sujeto-comparativo.md` - Yo/I/ich/eu/я vs 我 + obligatoriedad vs opcionalidad por idioma
+- `pronombres-objeto-comparativo.md` - Me/me/mich/me/меня vs 我 + posición pre/post verbal por sistema
+- `pronombres-oblicuos-comparativo.md` - Conmigo/with me/mit mir/comigo/со мной vs chino con preposiciones
+
+### Sistemas de Casos Comparativos
+- `declinacion-pronominal-comparativa.md` - Casos alemanes/rusos vs preposiciones romance/inglés vs orden chino
+- `casos-pronombres-aleman-vs-ruso.md` - 4 casos alemanes vs 6 casos rusos vs estrategias compensatorias otros idiomas
+- `acusativo-dativo-comparativo.md` - Dir/ind object: lo/le español vs him/her inglés vs ihn/ihm alemán vs o/lhe português vs его/ему ruso vs 他/给他 chino
+
+### Pronombres Específicos Comparativos
+- `pronombres-posesivos-comparativo.md` - Mi/my/mein/meu/мой vs 我的 + concordancia vs invariabilidad
+- `pronombres-demostrativos-comparativo.md` - Este/this/dieser/este/этот vs 这 - sistemas 2-3 distancias
+- `pronombres-reflexivos-comparativo.md` - Se/myself/sich/se/себя vs 自己 - mismo referente, diferentes estrategias
+- `pronombres-interrogativos-comparativo.md` - Qué/what/was/que/что vs 什么 - palabras-qu universales con variaciones
+
+### Peculiaridades por Sistema
+- `cortesia-formal-comparativa.md` - Tú/usted vs you invariable vs du/Sie vs tu/você vs ты/Вы vs 你/您
+- `cliticos-vs-tónicos-comparativo.md` - Lo veo/see him/sehe ihn/vejo-o/вижу его vs sistemas sin clíticos
+- `omision-pronominal-comparativa.md` - Cuándo omitir: español sí, inglés no, alemán parcial, portugués sí, ruso sí, chino contextual
+- `pronombres-dobles-comparativo.md` - Se lo doy vs give it to him vs sistemas que no permiten acumulación
+
+### Funciones Específicas
+- `pronombres-impersonales-comparativo.md` - Se español vs one inglés vs man alemán vs se português vs ausencia ruso/chino
+- `pronombres-partitivos-comparativo.md` - Some/any inglés vs en francés [NO aplica] vs equivalentes otros idiomas
+- `pronombres-relativos-comparativo.md` - Que/who/der/que/который vs 的 - estrategias de relativización
+
+## 🎯 Enfoque OBLIGATORIO por Artículo:
+- **Tabla declensional comparativa** - casos donde apliquen vs estrategias compensatorias
+- **Distribución sintáctica** - posición en la oración por idioma
+- **Concordancia** - con qué elementos concuerdan en cada sistema
+- **Elisión/obligatoriedad** - cuándo aparecen/desaparecen
+- **Formas tónicas vs átonas** donde existan
+- **Ejemplos PARALELOS** - misma situación, diferentes pronombres
+
+## 🔄 Casos Sistemáticos por Comparar:
+
+### Tabla Ejemplo: "A él le doy el libro"
+| Idioma | Estructura | Posición Clítico | Caso Gramatical |
+|--------|------------|------------------|-----------------|
+| **Español** | A él le doy | Preverbal | Dativo analítico |
+| **English** | I give him | Post-verbal | Acusativo |
+| **Deutsch** | Ich gebe ihm | Post-verbal | Dativo morfológico |
+| **Português** | Dou-lhe / Lhe dou | Variable | Dativo clítico |
+| **Русский** | Я даю ему | Libre | Dativo morfológico |
+| **中文** | 我给他 | Pre-objeto | Con preposición |
+
+## ⚠️ Errores Frecuentes de Transferencia:
+- **Español → Inglés**: *A mí me gusta* ≠ "To me likes" ✗ → "I like" ✓
+- **Español → Alemán**: *Le doy* ≠ "Ihm gebe" ✗ → "Ich gebe ihm" ✓
+- **Español → Portugués**: *Se lo doy* ≠ "Se lho dou" (arcaico) → "Dou-lhe isso" ✓
+- **Español → Ruso**: *Se come* ≠ прямая traducción → impersonal construction
+- **Español → Chino**: *Lo veo* ≠ "我看他的" ✗ → "我看他" ✓
+
+## 🔍 Análisis Tipológico:
+- **Sistemas ricos** (alemán/ruso): muchas formas, muchas distinciones
+- **Sistemas medios** (español/portugués): algunas formas, algunas distinciones  
+- **Sistemas pobres** (inglés): pocas formas, pocas distinciones
+- **Sistemas alternativos** (chino): sin flexión, con estrategias sintácticas

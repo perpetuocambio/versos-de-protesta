@@ -1,0 +1,453 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+
+export async function getStaticPaths() {
+  const grammarEntries = await getCollection('grammar');
+  return grammarEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+// Colores por categoría
+const categoryColors = {
+  'tiempos-verbales': 'var(--color-revolutionary-red)',
+  'pronombres': 'var(--color-socialist-gold)', 
+  'casos-gramaticales': 'var(--color-charcoal)',
+  'adjetivos': '#22c55e',
+  'adverbios': '#8b5cf6',
+  'sintaxis': '#f97316',
+  'fonetica': '#06b6d4'
+};
+
+// Iconos por categoría
+const categoryIcons = {
+  'tiempos-verbales': 'clock',
+  'pronombres': 'user',
+  'casos-gramaticales': 'layers',
+  'adjetivos': 'palette',
+  'adverbios': 'zap',
+  'sintaxis': 'git-branch',
+  'fonetica': 'volume'
+};
+
+const categoryColor = categoryColors[entry.data.category] || 'var(--color-charcoal)';
+const categoryIcon = categoryIcons[entry.data.category] || 'book';
+
+// Badges de dificultad
+const difficultyColors = {
+  beginner: '#22c55e',
+  intermediate: '#f59e0b', 
+  advanced: '#ef4444'
+};
+
+const difficultyLabels = {
+  beginner: 'Principiante',
+  intermediate: 'Intermedio',
+  advanced: 'Avanzado'
+};
+---
+
+<Layout 
+  title={`${entry.data.title} - Gramática Comparativa`}
+  description={entry.data.description}
+>
+  <!-- Breadcrumb -->
+  <nav style="margin-bottom: var(--space-lg); font-size: 0.9rem;">
+    <a href={`${import.meta.env.BASE_URL}`} style="color: var(--color-text-muted); text-decoration: none;">
+      Inicio
+    </a>
+    <span style="margin: 0 var(--space-sm); color: var(--color-text-muted);">→</span>
+    <a href={`${import.meta.env.BASE_URL}gramatica/`} style="color: var(--color-text-muted); text-decoration: none;">
+      Gramática
+    </a>
+    <span style="margin: 0 var(--space-sm); color: var(--color-text-muted);">→</span>
+    <span style="color: var(--color-text-muted); text-transform: capitalize;">
+      {entry.data.category.replace('-', ' ')}
+    </span>
+    <span style="margin: 0 var(--space-sm); color: var(--color-text-muted);">→</span>
+    <span style={`color: ${categoryColor}; font-weight: 600;`}>
+      {entry.data.title}
+    </span>
+  </nav>
+
+  <!-- Header del artículo -->
+  <header style="
+    text-align: center; 
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-2xl);
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border-light);
+  ">
+    <!-- Título con icono -->
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-lg);
+    ">
+      <div style={`
+        background: ${categoryColor}20;
+        border: 1px solid ${categoryColor}40;
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      `}>
+        <Icon name={categoryIcon} size={28} style={`color: ${categoryColor}`} />
+      </div>
+      <h1 style={`margin: 0; color: ${categoryColor}; font-size: clamp(1.8rem, 5vw, 2.5rem);`}>
+        {entry.data.title}
+      </h1>
+    </div>
+    
+    <!-- Descripción -->
+    <p style="
+      font-size: 1.1rem; 
+      max-width: 700px; 
+      margin: 0 auto var(--space-lg) auto; 
+      line-height: 1.6; 
+      color: var(--color-text-secondary);
+    ">
+      {entry.data.description}
+    </p>
+    
+    <!-- Metadatos -->
+    <div style="
+      display: flex;
+      justify-content: center;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+      margin-top: var(--space-lg);
+    ">
+      <!-- Nivel de dificultad -->
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <Icon name="target" size={18} style="color: var(--color-text-muted);" />
+        <span style={`
+          background: ${difficultyColors[entry.data.difficultyLevel]}20;
+          color: ${difficultyColors[entry.data.difficultyLevel]};
+          padding: var(--space-xs) var(--space-sm);
+          border-radius: 9999px;
+          font-size: 0.85rem;
+          font-weight: 600;
+        `}>
+          {difficultyLabels[entry.data.difficultyLevel]}
+        </span>
+      </div>
+      
+      <!-- Tiempo estimado -->
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <Icon name="clock" size={18} style="color: var(--color-text-muted);" />
+        <span style="color: var(--color-text-secondary); font-size: 0.9rem;">
+          {entry.data.estimatedTime}
+        </span>
+      </div>
+      
+      <!-- Categoría -->
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <Icon name="folder" size={18} style="color: var(--color-text-muted);" />
+        <span style="
+          color: var(--color-text-secondary); 
+          font-size: 0.9rem;
+          text-transform: capitalize;
+        ">
+          {entry.data.category.replace('-', ' ')}
+        </span>
+      </div>
+    </div>
+
+    <!-- Fórmula principal si existe -->
+    {entry.data.mainFormula && (
+      <div style={`
+        margin-top: var(--space-xl);
+        padding: var(--space-md) var(--space-lg);
+        background: ${categoryColor}20;
+        border: 1px solid ${categoryColor}40;
+        border-radius: var(--radius-md);
+        display: inline-block;
+      `}>
+        <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: var(--space-xs); text-transform: uppercase; font-weight: 600;">
+          Fórmula Principal
+        </div>
+        <code style="
+          font-family: var(--font-mono);
+          font-size: 1rem;
+          font-weight: 600;
+          color: var(--color-charcoal);
+        ">
+          {entry.data.mainFormula}
+        </code>
+      </div>
+    )}
+    
+    <!-- Timeline visual si aplica -->
+    {entry.data.hasTimeline && (
+      <div style="
+        margin: var(--space-xl) auto 0 auto;
+        width: 320px;
+        height: 60px;
+        position: relative;
+        background: linear-gradient(135deg, var(--color-revolutionary-red-light), var(--color-socialist-gold-light));
+        border-radius: var(--radius-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="
+          position: absolute;
+          width: 80%;
+          height: 3px;
+          background: linear-gradient(to right, #ccc, var(--color-revolutionary-red), #ccc);
+          border-radius: 2px;
+        "></div>
+        <div style={`
+          position: absolute;
+          width: 28px;
+          height: 28px;
+          background: ${categoryColor};
+          border-radius: 50%;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          font-size: 0.7rem;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        `}>
+          NOW
+        </div>
+      </div>
+    )}
+  </header>
+
+  <!-- Contenido del artículo -->
+  <article style="
+    background: var(--color-paper);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border);
+    line-height: 1.7;
+  ">
+    <Content />
+  </article>
+
+  <!-- Información adicional -->
+  <aside style="
+    margin-top: var(--space-2xl);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+  ">
+    <!-- Conceptos cubiertos -->
+    {entry.data.grammarConcepts && entry.data.grammarConcepts.length > 0 && (
+      <div style="
+        background: var(--color-paper);
+        border-radius: var(--radius-lg);
+        padding: var(--space-xl);
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--color-border);
+      ">
+        <h3 style="margin: 0 0 var(--space-md) 0; display: flex; align-items: center; gap: var(--space-sm);">
+          <Icon name="check-circle" size={20} style={`color: ${categoryColor};`} />
+          Conceptos Cubiertos
+        </h3>
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm);">
+          {entry.data.grammarConcepts.map(concept => (
+            <span style={`
+              background: ${categoryColor}20;
+              color: ${categoryColor};
+              padding: var(--space-xs) var(--space-sm);
+              border-radius: 9999px;
+              font-size: 0.8rem;
+              font-weight: 500;
+            `}>
+              {concept}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Idiomas incluidos -->
+    <div style="
+      background: var(--color-paper);
+      border-radius: var(--radius-lg);
+      padding: var(--space-xl);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-border);
+    ">
+      <h3 style="margin: 0 0 var(--space-md) 0; display: flex; align-items: center; gap: var(--space-sm);">
+        <Icon name="globe" size={20} style="color: var(--color-socialist-gold);" />
+        Idiomas Incluidos
+      </h3>
+      <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm);">
+        {entry.data.languagesIncluded.map(lang => {
+          const flags = {
+            'es': '🇪🇸 Español',
+            'en': '🇬🇧 English', 
+            'de': '🇩🇪 Deutsch',
+            'pt': '🇵🇹 Português',
+            'ru': '🇷🇺 Русский',
+            'zh': '🇨🇳 中文'
+          };
+          return (
+            <span style="
+              background: var(--color-socialist-gold-light);
+              color: var(--color-charcoal);
+              padding: var(--space-xs) var(--space-sm);
+              border-radius: 9999px;
+              font-size: 0.8rem;
+              font-weight: 500;
+            ">
+              {flags[lang] || lang}
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  </aside>
+
+  <!-- Navegación a artículos relacionados -->
+  <section style="
+    background: linear-gradient(135deg, var(--color-paper-warm), var(--color-paper));
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    text-align: center;
+    margin-top: var(--space-3xl);
+    border: 1px solid var(--color-border);
+  ">
+    <h3 style="margin-bottom: var(--space-lg); color: var(--color-charcoal);">
+      Continúa Explorando
+    </h3>
+    
+    <div style="display: flex; gap: var(--space-lg); justify-content: center; flex-wrap: wrap;">
+      <a 
+        href={`${import.meta.env.BASE_URL}gramatica/`}
+        class="btn"
+        style={`background: ${categoryColor}; color: white;`}
+      >
+        <Icon name="grid" size={18} />
+        Ver Toda la Gramática
+      </a>
+      
+      <a 
+        href={`${import.meta.env.BASE_URL}blog/`}
+        class="btn btn-secondary"
+      >
+        <Icon name="music" size={18} />
+        Lecciones Musicales
+      </a>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  /* Estilos específicos para contenido de gramática */
+  article :global(h2) {
+    color: v-bind(categoryColor);
+    border-bottom: 2px solid v-bind(categoryColor + '40');
+    padding-bottom: var(--space-sm);
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  article :global(h3) {
+    color: var(--color-charcoal);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-md);
+  }
+
+  article :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-lg) 0;
+    font-size: 0.9rem;
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  article :global(th) {
+    background: v-bind(categoryColor + '20');
+    color: var(--color-charcoal);
+    font-weight: 600;
+    padding: var(--space-md);
+    text-align: left;
+    border-bottom: 2px solid v-bind(categoryColor + '40');
+  }
+
+  article :global(td) {
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-border-light);
+    vertical-align: top;
+  }
+
+  article :global(tbody tr:hover) {
+    background: var(--color-paper-warm);
+  }
+
+  article :global(blockquote) {
+    border-left: 4px solid v-bind(categoryColor);
+    background: v-bind(categoryColor + '10');
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-lg) 0;
+    border-radius: var(--radius-md);
+    font-style: italic;
+  }
+
+  article :global(code) {
+    background: var(--color-paper-warm);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    color: var(--color-charcoal);
+  }
+
+  article :global(pre) {
+    background: var(--color-charcoal);
+    color: var(--color-paper);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    overflow-x: auto;
+    margin: var(--space-lg) 0;
+  }
+
+  article :global(pre code) {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    header {
+      padding: var(--space-lg) !important;
+    }
+
+    article {
+      padding: var(--space-lg) !important;
+    }
+
+    article :global(table) {
+      font-size: 0.8rem;
+    }
+
+    article :global(th),
+    article :global(td) {
+      padding: var(--space-sm);
+    }
+  }
+</style>
