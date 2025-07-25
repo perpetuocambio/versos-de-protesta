@@ -74,7 +74,7 @@ por el triunfo de la Confederación.
 ### TÉRMINOS CLAVE
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Negras** | black | schwarze | negras | чёрные | chyórnye | 黑色的 | hēisè de | adjetivo |
 | **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | sustantivo |
 | **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn | verbo |

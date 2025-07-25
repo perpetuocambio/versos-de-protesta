@@ -829,7 +829,7 @@ Estribillo:| C     | G     | Am    | Dm    |
 ### TÉRMINOS POLÍTICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 | proletariado | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí | sustantivo |
 | revolución | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
 | socialismo | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì | sustantivo |
