@@ -22,43 +22,79 @@ const categoryConfig = {
     name: 'Tiempos Verbales',
     icon: 'clock',
     color: 'var(--color-revolutionary-red)',
-    description: 'Sistema completo de tiempos verbales en 6 idiomas paralelos'
+    description: 'Análisis comparativo de sistemas temporales en 5 idiomas'
   },
   'pronombres': {
     name: 'Pronombres',
     icon: 'user',
     color: 'var(--color-socialist-gold)',
-    description: 'Sistema pronominal completo y usos específicos'
+    description: 'Sistemas pronominales comparativos: casos, clíticos, cortesía'
   },
   'casos-gramaticales': {
     name: 'Casos Gramaticales',
     icon: 'layers',
     color: 'var(--color-charcoal)',
-    description: 'Sistemas de casos en alemán y ruso principalmente'
+    description: 'Sistemas de casos alemán/ruso vs estrategias compensatorias'
   },
   'adjetivos': {
     name: 'Adjetivos',
     icon: 'palette',
     color: '#22c55e',
-    description: 'Concordancia, comparación y posición'
+    description: 'Concordancia y posición comparativa en 5 sistemas'
   },
   'adverbios': {
     name: 'Adverbios',
     icon: 'zap',
     color: '#8b5cf6',
-    description: 'Modificadores de verbos, adjetivos y otros adverbios'
+    description: 'Modificadores y posición sintáctica comparativa'
   },
   'sintaxis': {
     name: 'Sintaxis',
     icon: 'git-branch',
     color: '#f97316',
-    description: 'Estructura y orden de las oraciones'
+    description: 'Órdenes de palabras y construcciones comparativas'
   },
   'fonetica': {
     name: 'Fonética',
     icon: 'volume',
     color: '#06b6d4',
-    description: 'Pronunciación y sonidos específicos'
+    description: 'Sistemas fonológicos y pronunciación comparativa'
+  },
+  'articulos-determinantes': {
+    name: 'Artículos y Determinantes',
+    icon: 'tag',
+    color: '#ef4444',
+    description: 'Sistemas de definitud: artículos alemanes, ausencia ruso/chino'
+  },
+  'preposiciones': {
+    name: 'Preposiciones',
+    icon: 'map-pin',
+    color: '#f59e0b',
+    description: 'Mapeo espacial/temporal comparativo y casos regidos'
+  },
+  'conjunciones-conectores': {
+    name: 'Conjunciones y Conectores',
+    icon: 'link',
+    color: '#22c55e',
+    description: 'Conexión oracional y efectos en orden verbal'
+  },
+  'numeros-cuantificadores': {
+    name: 'Números y Cuantificadores',
+    icon: 'hash',
+    color: '#8b5cf6',
+    description: 'Sistemas numéricos, clasificadores chinos, casos rusos'
+  },
+  'morfologia-formacion': {
+    name: 'Morfología y Formación',
+    icon: 'puzzle-piece',
+    color: '#f97316',
+    description: 'Formación de palabras: composición alemana, aspectos rusos'
+  },
+  'particulas-funcionales': {
+    name: 'Partículas Funcionales',
+    icon: 'sparkles',
+    color: '#06b6d4',
+    description: 'Partículas modales alemanas, rusas, chinas sin equivalente'
   }
 };
 
@@ -108,8 +144,8 @@ const difficultyLabels = {
     </div>
     
     <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto var(--space-lg) auto; line-height: 1.6; color: #6b7280;">
-      Sistema completo de gramática comparativa en <strong>6 idiomas paralelos</strong>. 
-      Cada concepto explicado de forma visual y sistemática usando contenido markdown.
+      Sistema completo de gramática <strong>comparativa sistemática</strong> en 5 idiomas: español, inglés, alemán, portugués, ruso y chino. 
+      Cada concepto analizado contrastivamente para entender diferencias y similitudes estructurales.
     </p>
     
     <!-- Quick Stats -->
@@ -140,10 +176,10 @@ const difficultyLabels = {
       
       <div style="text-align: center;">
         <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-charcoal);">
-          6
+          5
         </div>
         <div style="font-size: 0.9rem; color: var(--color-text-secondary);">
-          Idiomas Paralelos
+          Idiomas Comparados
         </div>
       </div>
     </div>
@@ -165,17 +201,17 @@ const difficultyLabels = {
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg);">
       <div style="text-align: center;">
         <div style="font-size: 2rem; margin-bottom: var(--space-sm);">📊</div>
-        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Tablas Paralelas</h3>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Análisis Contrastivo</h3>
         <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
-          Cada concepto mostrado lado a lado en los 6 idiomas con ejemplos consistentes
+          Mismo concepto gramatical analizado en 5 sistemas lingüísticos diferentes
         </p>
       </div>
       
       <div style="text-align: center;">
         <div style="font-size: 2rem; margin-bottom: var(--space-sm);">🎯</div>
-        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Fórmulas Claras</h3>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Transferencias de Error</h3>
         <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
-          Estructuras gramaticales expresadas como fórmulas matemáticas simples
+          Errores típicos desde español y estrategias de compensación por idioma
         </p>
       </div>
       
@@ -189,9 +225,9 @@ const difficultyLabels = {
       
       <div style="text-align: center;">
         <div style="font-size: 2rem; margin-bottom: var(--space-sm);">⏱️</div>
-        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Líneas Temporales</h3>
+        <h3 style="margin-bottom: var(--space-sm); color: var(--color-charcoal);">Sistemas Únicos</h3>
         <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
-          Representación visual de los tiempos verbales y aspectos temporales
+          Fenómenos que existen solo en algunos idiomas y sus equivalencias funcionales
         </p>
       </div>
     </div>
@@ -306,7 +342,7 @@ const difficultyLabels = {
       ¿Listo para Dominar la Gramática Comparativa?
     </h2>
     <p style="margin-bottom: var(--space-xl); max-width: 600px; margin-left: auto; margin-right: auto; color: #e5e7eb;">
-      Comienza con los conceptos básicos y avanza sistemáticamente. Cada artículo incluye ejemplos prácticos y comparaciones directas en markdown.
+      Explora cómo diferentes idiomas expresan los mismos conceptos. Análisis contrastivo sistemático para entender patrones universales y particularidades únicas.
     </p>
     
     <div style="
