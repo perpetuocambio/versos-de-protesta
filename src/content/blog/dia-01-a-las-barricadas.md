@@ -80,9 +80,10 @@ por el triunfo de la Confederación.
 | **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn |
 | **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng |
 | **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán |
-| **espere** | face | erwarten | espere | ждут | zhdut | 等待 | děngdài |
+| **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài |
 | **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ |
 | **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng |
+| **morir** | to die | sterben | morrer | умирать | umirat' | 死 | sǐ |
 | **llama** | calls | ruft | chama | зовёт | zovyót | 召唤 | zhàohuàn |
 | **deber** | duty | Pflicht | dever | долг | dolg | 职责 | zhízé |
 
