@@ -39,6 +39,92 @@ const categoryIcons = {
 const categoryColor = categoryColors[entry.data.category] || 'var(--color-charcoal)';
 const categoryIcon = categoryIcons[entry.data.category] || 'book';
 
+// Timeline dinámico según el tiempo verbal
+const getTimelineConfig = (title) => {
+  const timelineConfigs = {
+    // Tiempos Simples
+    'Presente Simple': { 
+      markers: [{ text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)' }],
+      line: 'solid' 
+    },
+    'Pasado Simple': { 
+      markers: [
+        { text: 'X', position: '25%', color: 'var(--color-charcoal)' },
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' }
+      ],
+      line: 'solid' 
+    },
+    'Futuro Simple': { 
+      markers: [
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' },
+        { text: '→', position: '75%', color: 'var(--color-socialist-gold)' }
+      ],
+      line: 'solid' 
+    },
+    
+    // Tiempos Continuos/Progresivos
+    'Presente Continuo': { 
+      markers: [{ text: '═══', position: '50%', color: 'var(--color-revolutionary-red)' }],
+      line: 'continuous' 
+    },
+    'Pasado Continuo': { 
+      markers: [
+        { text: '═══', position: '30%', color: 'var(--color-charcoal)' },
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' }
+      ],
+      line: 'continuous' 
+    },
+    'Futuro Continuo': { 
+      markers: [
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' },
+        { text: '═══', position: '70%', color: 'var(--color-socialist-gold)' }
+      ],
+      line: 'continuous' 
+    },
+    
+    // Tiempos Perfectos
+    'Presente Perfecto': { 
+      markers: [
+        { text: '✓', position: '35%', color: 'var(--color-charcoal)' },
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)' }
+      ],
+      line: 'dotted' 
+    },
+    'Pasado Perfecto': { 
+      markers: [
+        { text: '✓', position: '20%', color: 'var(--color-charcoal)' },
+        { text: 'X', position: '35%', color: 'var(--color-charcoal)' },
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' }
+      ],
+      line: 'dotted' 
+    },
+    'Futuro Perfecto': { 
+      markers: [
+        { text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)', opacity: '0.5' },
+        { text: '✓', position: '80%', color: 'var(--color-socialist-gold)' }
+      ],
+      line: 'dotted' 
+    }
+  };
+  
+  // Usar el primer marcador como fallback para compatibilidad
+  const config = timelineConfigs[title] || { 
+    markers: [{ text: 'NOW', position: '50%', color: 'var(--color-revolutionary-red)' }],
+    line: 'solid' 
+  };
+  
+  return {
+    text: config.markers[0].text,
+    position: config.markers[0].position,
+    color: config.markers[0].color,
+    opacity: config.markers[0].opacity || '1',
+    markers: config.markers,
+    line: config.line
+  };
+};
+
+const timelineConfig = getTimelineConfig(entry.data.title);
+
 // Badges de dificultad
 const difficultyColors = {
   beginner: '#22c55e',
@@ -203,28 +289,72 @@ const difficultyLabels = {
         justify-content: center;
         border: 1px solid var(--color-border);
       ">
-        <div style="
+        <!-- Línea temporal base -->
+        <div style={`
           position: absolute;
           width: 80%;
           height: 3px;
-          background: linear-gradient(to right, #ccc, var(--color-revolutionary-red), #ccc);
+          background: ${timelineConfig.line === 'continuous' ? 
+            'repeating-linear-gradient(to right, #ccc 0px, #ccc 4px, transparent 4px, transparent 8px)' :
+            timelineConfig.line === 'dotted' ?
+            'repeating-linear-gradient(to right, #ccc 0px, #ccc 2px, transparent 2px, transparent 6px)' :
+            'linear-gradient(to right, #ccc, var(--color-revolutionary-red), #ccc)'
+          };
           border-radius: 2px;
-        "></div>
-        <div style={`
+        `}></div>
+        
+        <!-- Marcadores múltiples -->
+        {timelineConfig.markers.map((marker, index) => (
+          <div style={`
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            background: ${marker.color};
+            opacity: ${marker.opacity || '1'};
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.65rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            left: ${marker.position};
+            transform: translateX(-50%);
+            z-index: ${10 + index};
+          `}>
+            {marker.text}
+          </div>
+        ))}
+        
+        <!-- Etiquetas explicativas -->
+        <div style="
           position: absolute;
-          width: 28px;
-          height: 28px;
-          background: ${categoryColor};
-          border-radius: 50%;
-          color: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-weight: 700;
+          bottom: -25px;
+          left: 10%;
           font-size: 0.7rem;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-        `}>
-          NOW
+          color: var(--color-text-muted);
+        ">
+          PASADO
+        </div>
+        <div style="
+          position: absolute;
+          bottom: -25px;
+          left: 45%;
+          font-size: 0.7rem;
+          color: var(--color-revolutionary-red);
+          font-weight: 600;
+        ">
+          AHORA
+        </div>
+        <div style="
+          position: absolute;
+          bottom: -25px;
+          right: 10%;
+          font-size: 0.7rem;
+          color: var(--color-text-muted);
+        ">
+          FUTURO
         </div>
       </div>
     )}
