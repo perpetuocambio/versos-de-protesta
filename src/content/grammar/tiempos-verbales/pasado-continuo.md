@@ -22,7 +22,7 @@ examples:
 tags: ["tiempo-verbal", "comparativo", "aspecto", "pasado", "progresivo"]
 ---
 
-# Pasado Continuo - Análisis Comparativo 5 Idiomas
+# Pasado Continuo - Análisis Comparativo 6 Idiomas
 
 ## 🎯 Concepto Universal vs Realizaciones Específicas
 
