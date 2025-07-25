@@ -8,6 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
+
 // Función para determinar si una palabra pertenece a un idioma específico
 function isWordInLanguage(word, lang) {
   switch (lang) {
@@ -64,7 +65,10 @@ async function extractVocabularyFromMarkdown(filePath) {
       /\|\s*Español\s*\|\s*English\s*\[IPA\]\s*\|\s*Deutsch\s*\[IPA\]\s*\|\s*Português\s*\[IPA\]\s*\|\s*Русский\s*\[IPA\]\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\[IPA\]\s*\|\s*Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
       
       // Formato simple con exactamente 8 columnas de idiomas
-      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
+      
+      // Formato con 9 columnas (incluyendo Categoría)
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*Categoría\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
     ];
 
     const excludedTablePatterns = [
@@ -275,8 +279,8 @@ async function extractVocabularyFromMarkdown(filePath) {
               filePath: filePath
             };
           }
-        } else if (cells.length >= 8) {
-          // Formato simple de 8 columnas
+        } else if (cells.length >= 9) {
+          // Formato con 9 columnas (incluyendo Categoría)
           entry = {
             es: cleanCell(cells[0]),
             en: cleanCell(cells[1]), 
@@ -286,6 +290,23 @@ async function extractVocabularyFromMarkdown(filePath) {
             ruRom: cleanCell(cells[5]),
             zh: cleanCell(cells[6]),
             zhPinyin: cleanCell(cells[7]),
+            grammaticalCategory: cleanCell(cells[8]),
+            source: fileName,
+            day: day,
+            filePath: filePath
+          };
+        } else if (cells.length >= 8) {
+          // Formato simple de 8 columnas (sin categoría)
+          entry = {
+            es: cleanCell(cells[0]),
+            en: cleanCell(cells[1]), 
+            de: cleanCell(cells[2]),
+            pt: cleanCell(cells[3]),
+            ru: cleanCell(cells[4]),
+            ruRom: cleanCell(cells[5]),
+            zh: cleanCell(cells[6]),
+            zhPinyin: cleanCell(cells[7]),
+            grammaticalCategory: 'sustantivo', // por defecto
             source: fileName,
             day: day,
             filePath: filePath

@@ -147,16 +147,16 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **[palabra1]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
-| **[palabra2]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **[palabra1]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] | [sustantivo/verbo/adjetivo] |
+| **[palabra2]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] | [sustantivo/verbo/adjetivo] |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **[palabra histórica]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **[palabra histórica]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] | [sustantivo/verbo/adjetivo] |
 
 ### NÚMEROS HISTÓRICOS
 
@@ -351,7 +351,9 @@ Añadir al final de cada lección una sección con enlaces a Wikipedia para la c
 ### ELEMENTOS OBLIGATORIOS EN CADA DOCUMENTACIÓN:
 
 #### 📊 TABLA VOCABULARIO COMPARATIVO OBLIGATORIA:
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+
+**Categorías gramaticales disponibles:** sustantivo, verbo, adjetivo, adverbio, preposición, conjunción, pronombre, artículo, interjección
 
 #### 🔧 TABLAS GRAMÁTICA EXHAUSTIVAS POR IDIOMA:
 - **Alemán**: Artículos + Casos + Declinaciones completas

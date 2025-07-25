@@ -828,13 +828,13 @@ Estribillo:| C     | G     | Am    | Dm    |
 
 ### TÉRMINOS POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|---|
-| proletariado | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí |
-| revolución | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng |
-| socialismo | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì |
-| clase obrera | working class | Arbeiterklasse | classe operária | рабочий класс | rabochiy klass | 工人阶级 | gōngrén jiējí |
-| solidaridad | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|---|
+| proletariado | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí | sustantivo |
+| revolución | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| socialismo | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì | sustantivo |
+| clase obrera | working class | Arbeiterklasse | classe operária | рабочий класс | rabochiy klass | 工人阶级 | gōngrén jiējí | sustantivo |
+| solidaridad | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | sustantivo |
 
 ---
 

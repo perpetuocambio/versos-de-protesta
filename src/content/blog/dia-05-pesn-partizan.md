@@ -673,22 +673,6 @@ língtīngzhe wǒmen……
 
 ---
 
-## 📈 VOCABULARIO HISTÓRICO-SOCIAL
-
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **partisanos** | partisans [ˈpɑːtɪzænz] | Partisanen [paʁtiˈzaːnən] | partidários [paɾtiˈdaɾjus] | партизаны [pərˈtʲizənɨ] | partizany | 游击队 [jóukítùi] | yóujīduì |
-| **resistencia** | resistance [rɪˈzɪstəns] | Widerstand [ˈviːdɐʃtant] | resistência [ʁezisˈtẽsjɐ] | сопротивление [səprətʲɪvˈlʲenʲɪje] | soprotivlenie | 抵抗 [títʰàŋ] | dǐkàng |
-| **liberación** | liberation [ˌlɪbəˈreɪʃən] | Befreiung [bəˈfʁaɪʊŋ] | libertação [libeɾtaˈsɐ̃w̃] | освобождение [əsvəbɐˈʐdenʲɪje] | osvobozhdenie | 解放 [tɕjě fàŋ] | jiěfàng |
-
-### VOCABULARIO HISTÓRICO ESPECÍFICO
-
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
-| **ocupación** | occupation [ˌɑːkjuˈpeɪʃən] | Besatzung [bəˈzatsʊŋ] | ocupação [okupaˈsɐ̃w̃] | оккупация [əkuˈpatsɨjə] | okkupatsiya | 占领 [ʈʂàn lǐŋ] | zhànlǐng |
-| **sabotaje** | sabotage [ˈsæbətɑːʒ] | Sabotage [zaboˈtaːʒə] | sabotagem [sabuˈtaʒẽj] | диверсия [dʲɪˈvʲersʲɪjə] | diversiya | 破坏 [pʰò huài] | pòhuài |
-| **clandestino** | underground [ˈʌndəɡraʊnd] | Untergrund [ˈʊntɐɡʁʊnt] | clandestino [klɐ̃desˈtinu] | подпольный [pətˈpolʲnɨj] | podpol'nyy | 地下的 [tì ɕjà tə] | dìxià de |
-
 ---
 
 ## 🔧 GRAMÁTICA TABULAR POR IDIOMA
@@ -954,6 +938,16 @@ Práctica tonal:
 | **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng |
 | **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài |
 | **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de |
+
+### TÉRMINOS DE GUERRA Y COMBATE
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---|---|---|---|---|---|---|---|
+| **combatientes** | fighters | Kämpfer | combatentes | бойцы | boytsy | 战士 | zhànshì |
+| **enemigo** | enemy | Feind | inimigo | враг | vrag | 敌人 | dírén |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu |
+| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng |
 
 ---
 

@@ -73,19 +73,19 @@ por el triunfo de la Confederación.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
-|---|---|---|---|---|---|---|---|
-| **Negras** | Black | Schwarze | Negras | Чёрные | Chyórnye | 黑色的 | hēisè de |
-| **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào |
-| **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn |
-| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng |
-| **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán |
-| **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài |
-| **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ |
-| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng |
-| **morir** | to die | sterben | morrer | умирать | umirat' | 死 | sǐ |
-| **llama** | calls | ruft | chama | зовёт | zovyót | 召唤 | zhàohuàn |
-| **deber** | duty | Pflicht | dever | долг | dolg | 职责 | zhízé |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|---|
+| **Negras** | black | schwarze | negras | чёрные | chyórnye | 黑色的 | hēisè de | adjetivo |
+| **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | sustantivo |
+| **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn | verbo |
+| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng | sustantivo |
+| **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán | conjunción |
+| **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài | verbo |
+| **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ | sustantivo |
+| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | sustantivo |
+| **morir** | to die | sterben | morrer | умирать | umirat' | 死 | sǐ | verbo |
+| **llama** | calls | ruft | chama | зовёт | zovyót | 召唤 | zhàohuàn | verbo |
+| **deber** | duty | Pflicht | dever | долг | dolg | 职责 | zhízé | sustantivo |
 
 ### TÉRMINOS ANARQUISTAS
 
