@@ -260,7 +260,7 @@ Méiyǒu jiùshú, gòu le!
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **1897** | eighteen ninety-seven [ˌeɪˈtiːn ˈnaɪnti ˈsɛvən] | achtzehnhundertsiebenundneunzig [ˈaxtseːnhʊndɐtˌziːbənʊntˈnɔʏntsɪç] | mil oitocentos e noventa e sete [ˈmiw ojtoˈsẽtuz i noˈvẽtɐ i ˈsɛtʃi] | тысяча восемьсот девяносто семь [ˈtɨsʲɪtʂə vɐˈsʲemʲsət dʲɪvʲɪˈnostə ˈsʲemʲ] | tysyacha vosem'sot devyanosto sem' | 一千八百九十七 [i˧˥ tʂʰjɛn˧˥ pa˧˥ paj˧˩ tɕjou˧˩ ʂɨ˧˥ tʂʰi˧˥] | yīqiān bābǎi jiǔshíqī |
 

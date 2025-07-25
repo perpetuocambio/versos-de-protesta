@@ -393,7 +393,7 @@ wǒmen yào dǎzào jiāngù de guāncái!
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **mil novecientos cuarenta y uno** | nineteen forty-one [ˌnaɪnˈtiːn ˈfɔːti wʌn] | neunzehnhunderteinundvierzig [ˈnɔʏnt͡seːnhʊndɐtˌʔaɪnʊntˈfɪʁt͡sɪç] | mil novecentos e quarenta e um [ˈmiw novɨˈsẽtus i kwaˈɾẽtɐ i ˈũ] | тысяча девятьсот сорок один [ˈtɨsʲɪt͡ʂə dʲɪˈvʲæt͡sət ˈsorək ɐˈdʲin] | tysyacha devyat'sot sorok odin | 一九四一年 [jī.jiǔ.sì.jī nián] | yījiǔsìyī nián |
 

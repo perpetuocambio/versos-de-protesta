@@ -287,7 +287,7 @@ Bùyào wàngjì!
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **mil novecientos treinta y cuatro** | nineteen thirty-four [ˌnaɪnˈtiːn ˈθɜːrti fɔːr] | neunzehnhundertvierunddreißig [ˈnɔʏnˌt͡seːnhʊndɐtˌfiːʁʊntˈdʁaɪsɪç] | mil novecentos e trinta e quatro [mil novɨˈsẽtus i ˈtɾĩtɐ i ˈkwatɾu] | тысяча девятьсот тридцать четыре [ˈtɨsʲɪt͡ʂə dʲɪˈvʲætsət ˈtrʲit͡sət ˈt͡ʂɨtɨrʲɪ] | tysyacha devyat'sot tridtsat' chetyre | 一九三四年 [i˥˥ t͡ɕjɔʊ˨˩˦ sɑn˥˥ sɨ˥˩ njɛn˥˩] | yījiǔsānsì nián |
 

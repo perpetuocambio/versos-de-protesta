@@ -320,7 +320,7 @@ bùrú wèi lǐxiǎng ér sǐ.
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----------|-----------|-----------|-----------|---------|-----------|-----------|
 | **mil ochocientos ochenta y cinco** | eighteen eighty-five [ˌeɪˈtiːn ˈeɪti faɪv] | achtzehnhundertfünfundachtzig [ˈaxtseːnhʊndɐtˌfʏnfʊntˈaxt͡sɪç] | mil oitocentos e oitenta e cinco [ˈmiw ojtɔˈsẽtus i ojˈtẽtɐ i ˈsĩku] | тысяча восемьсот восемьдесят пять [ˈtɨsʲɪt͡ʂə vɐˈsʲemʲsət vɐˈsʲemʲdʲɪsʲæt pʲætʲ] | tysyacha vosem'sot vosem'desyat pyat' | 一八八五年 [jī.pā.pā.wǔ nián] | yībābāwǔ nián |
 

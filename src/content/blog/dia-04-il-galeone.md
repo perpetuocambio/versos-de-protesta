@@ -638,7 +638,7 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 
 ### NÚMEROS HISTÓRICOS
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
 | **mil novecientos setenta** | nineteen seventy [ˌnaɪnˈtiːn ˈsevnti] | neunzehnhundertsiebzig [ˈnɔʏnʦeːnhʊndɐtˈziːbʦɪç] | mil novecentos e setenta [mil nɔvɨˈsẽtus i sɨˈtẽtɐ] | тысяча девятьсот семьдесят [ˈtɨsʲətʂə dʲɪˈvʲatsət ˈsʲemdʲɪsʲət] | tysyacha devyat'sot sem'desyat | 一九七零年 [i tɕjòu tɕʰí líŋ nián] | yī jiǔ qī líng nián |
 

@@ -9,7 +9,7 @@ originalSong:
   title: "Песнь Партизан"
   artist: "Анна Смирнова Марли"
   year: 1942
-  language: "ru"
+  language: "fr"
   genre: "resistance"
   origin: "Francia"
 grammarTopics: 
@@ -675,7 +675,7 @@ língtīngzhe wǒmen……
 
 ## 📈 VOCABULARIO HISTÓRICO-SOCIAL
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
 | **partisanos** | partisans [ˈpɑːtɪzænz] | Partisanen [paʁtiˈzaːnən] | partidários [paɾtiˈdaɾjus] | партизаны [pərˈtʲizənɨ] | partizany | 游击队 [jóukítùi] | yóujīduì |
 | **resistencia** | resistance [rɪˈzɪstəns] | Widerstand [ˈviːdɐʃtant] | resistência [ʁezisˈtẽsjɐ] | сопротивление [səprətʲɪvˈlʲenʲɪje] | soprotivlenie | 抵抗 [títʰàŋ] | dǐkàng |
@@ -683,7 +683,7 @@ língtīngzhe wǒmen……
 
 ### VOCABULARIO HISTÓRICO ESPECÍFICO
 
-| Español | English [IPA] | Deutsch [IPA] | Português [IPA] | Русский [IPA] | Русский Rom. | 中文 [IPA] | Pinyin |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|---------------|---------------|-----------------|---------------|--------------|------------|--------|
 | **ocupación** | occupation [ˌɑːkjuˈpeɪʃən] | Besatzung [bəˈzatsʊŋ] | ocupação [okupaˈsɐ̃w̃] | оккупация [əkuˈpatsɨjə] | okkupatsiya | 占领 [ʈʂàn lǐŋ] | zhànlǐng |
 | **sabotaje** | sabotage [ˈsæbətɑːʒ] | Sabotage [zaboˈtaːʒə] | sabotagem [sabuˈtaʒẽj] | диверсия [dʲɪˈvʲersʲɪjə] | diversiya | 破坏 [pʰò huài] | pòhuài |
