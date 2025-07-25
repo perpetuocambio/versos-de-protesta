@@ -37,9 +37,12 @@ El **pasado continuo** expresa **acciones que estaban en progreso en un momento 
 ## ⏰ Timeline Visual Universal
 
 ```
-Pasado ←――[====X====]――――[PRESENTE]――――→ Futuro
-         acción en progreso  punto referencia
-         (desarrollo continuo) (momento específico)
+Pasado ←――[====X====]――――[AHORA]――――→ Futuro
+         │    │    │           │
+      acción en progreso    punto actual
+      (desarrollo continuo)  (recordamos desde aquí)
+      (momento específico    
+       del pasado)
 ```
 
 **Mismo concepto aspectual retrospectivo**, morfología y sintaxis completamente divergentes.

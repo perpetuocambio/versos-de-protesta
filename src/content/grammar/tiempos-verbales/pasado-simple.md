@@ -37,9 +37,12 @@ El **pasado simple** expresa **acciones completadas en un momento específico de
 ## ⏰ Timeline Visual Universal
 
 ```
-Pasado ←――――[X]――――――――[PRESENTE]――――――――→ Futuro
-         acción completada     punto de referencia
-         (momento específico)
+Pasado ←――――[X]――――――――[AHORA]――――――――→ Futuro
+         │                     │
+      acción                punto actual
+     completada             de referencia
+    (ya terminada           (hablamos desde aquí)
+     en el pasado)
 ```
 
 **Mismo concepto temporal completivo**, estrategias morfológicas completamente diferentes.

@@ -37,10 +37,12 @@ El **presente continuo** expresa **acciones en progreso en el momento de habla o
 ## ⏰ Timeline Visual Universal
 
 ```
-Pasado ←――――――――[PRESENTE]――――――――→ Futuro
+Pasado ←――――――――[=AHORA=]――――――――→ Futuro
                 [========]
+                    │
             acción en progreso
          (desarrollo simultáneo al habla)
+         (está ocurriendo en este momento)
 ```
 
 **Mismo concepto aspectual progresivo**, morfología y sintaxis completamente divergentes.

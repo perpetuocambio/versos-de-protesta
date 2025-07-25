@@ -37,9 +37,11 @@ El **futuro simple** expresa **acciones que ocurrirán después del momento pres
 ## ⏰ Timeline Visual Universal
 
 ```
-Pasado ←――――――――[PRESENTE]――――――――[X]――――→ Futuro
-                punto actual    acción futura
-                               (intención/predicción)
+Pasado ←――――――――[AHORA]――――――――[X]――――→ Futuro
+                │              │
+            punto actual    acción futura
+            (hablamos      (intención/predicción
+            desde aquí)     por realizarse)
 ```
 
 **Mismo concepto temporal prospectivo**, estrategias gramaticales completamente divergentes.
