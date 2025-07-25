@@ -1,28 +1,29 @@
 {
-  "totalEntries": 56,
-  "totalUniqueWords": 49,
+  "totalEntries": 57,
+  "totalUniqueWords": 51,
   "byLanguage": {
-    "es": 49,
-    "en": 49,
-    "de": 50,
-    "pt": 49,
-    "ru": 49,
-    "ruRom": 50,
-    "zh": 47,
-    "zhPinyin": 47
+    "es": 51,
+    "en": 51,
+    "de": 52,
+    "pt": 51,
+    "ru": 51,
+    "ruRom": 52,
+    "zh": 49,
+    "zhPinyin": 49
   },
   "byLesson": {
     "Día 0": 3,
-    "Día 1": 4,
-    "Día 3": 9,
-    "Día 4": 8,
-    "Día 5": 7,
+    "Día 1": 5,
+    "Día 2": 4,
+    "Día 3": 7,
+    "Día 4": 5,
+    "Día 5": 8,
     "Día 6": 5,
     "Día 8": 3,
     "Día 9": 5,
     "Día 10": 6,
     "Día 11": 6
   },
-  "lastUpdated": "2025-07-24T16:13:26.107Z",
+  "lastUpdated": "2025-07-25T19:38:54.727Z",
   "generatedBy": "build-dictionary.mjs v1.0"
 }

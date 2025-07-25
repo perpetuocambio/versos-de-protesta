@@ -196,90 +196,10 @@ async function extractVocabularyFromMarkdown(filePath) {
 
         // Manejar diferentes formatos de tabla
         let entry = null;
-        
-        if (cells.length >= 9 && cells[0].toLowerCase() !== 'concepto') {
-          // Detectar tabla con formato "Año | Evento | Idiomas..." (10 columnas)
-          const hasEventColumn = cells.length >= 10;
-          
-          if (hasEventColumn) {
-            // Formato: | Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-            entry = {
-              es: cleanCell(cells[2]), // Saltar año y evento
-              en: cleanCell(cells[3]), 
-              de: cleanCell(cells[4]),
-              pt: cleanCell(cells[5]),
-              ru: cleanCell(cells[6]),
-              ruRom: cleanCell(cells[7]),
-              zh: cleanCell(cells[8]),
-              zhPinyin: cleanCell(cells[9]),
-              source: fileName,
-              day: day,
-              filePath: filePath,
-              originalKey: cleanCell(cells[0]), // Mantener la clave original (año)
-              context: cleanCell(cells[1]) // Mantener el contexto (evento)
-            };
-          } else {
-            // Formato simple: | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-            entry = {
-              es: cleanCell(cells[0]),
-              en: cleanCell(cells[1]), 
-              de: cleanCell(cells[2]),
-              pt: cleanCell(cells[3]),
-              ru: cleanCell(cells[4]),
-              ruRom: cleanCell(cells[5]),
-              zh: cleanCell(cells[6]),
-              zhPinyin: cleanCell(cells[7]),
-              source: fileName,
-              day: day,
-              filePath: filePath
-            };
-          }
-        } else if (cells.length >= 9) {
-          // Detectar si primera columna es descriptiva (concepto/categoría)
-          const firstCell = cleanCell(cells[0]).toLowerCase();
-          const isDescriptiveFirstColumn = 
-            firstCell.includes('concepto') || 
-            firstCell.includes('tradición') || 
-            firstCell.includes('periodo') || 
-            firstCell.includes('función') || 
-            firstCell.includes('región') ||
-            firstCell.includes('social') ||
-            firstCell.includes('clave') ||
-            cells[0].includes('**') || // Si está en bold, probablemente es descriptivo
-            /^\*\*.*\*\*$/.test(cells[0].trim()); // Detectar formato **texto**
-          
-          if (isDescriptiveFirstColumn) {
-            // Formato: | Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-            entry = {
-              es: cleanCell(cells[1]),
-            en: cleanCell(cells[2]), 
-            de: cleanCell(cells[3]),
-            pt: cleanCell(cells[4]),
-            ru: cleanCell(cells[5]),
-            ruRom: cleanCell(cells[6]),
-            zh: cleanCell(cells[7]),
-            zhPinyin: cleanCell(cells[8]),
-            source: fileName,
-            day: day,
-            filePath: filePath
-          };
-          } else {
-            // No es descriptivo, usar formato directo con 9 columnas
-            entry = {
-              es: cleanCell(cells[0]),
-              en: cleanCell(cells[1]), 
-              de: cleanCell(cells[2]),
-              pt: cleanCell(cells[3]),
-              ru: cleanCell(cells[4]),
-              ruRom: cleanCell(cells[5]),
-              zh: cleanCell(cells[6]),
-              zhPinyin: cleanCell(cells[7]),
-              source: fileName,
-              day: day,
-              filePath: filePath
-            };
-          }
-        } else if (cells.length >= 9) {
+        const header = tableMatch[0].split('\n')[0];
+        const hasCategoryColumn = /Categoría/i.test(header);
+
+        if (cells.length >= 9 && hasCategoryColumn) {
           // Formato con 9 columnas (incluyendo Categoría)
           entry = {
             es: cleanCell(cells[0]),
@@ -295,6 +215,24 @@ async function extractVocabularyFromMarkdown(filePath) {
             day: day,
             filePath: filePath
           };
+        } else if (cells.length >= 10 && cells[0].match(/^\d{4}$/)) {
+            // Formato: | Año | Evento | Español | ...
+            entry = {
+              es: cleanCell(cells[2]),
+              en: cleanCell(cells[3]), 
+              de: cleanCell(cells[4]),
+              pt: cleanCell(cells[5]),
+              ru: cleanCell(cells[6]),
+              ruRom: cleanCell(cells[7]),
+              zh: cleanCell(cells[8]),
+              zhPinyin: cleanCell(cells[9]),
+              grammaticalCategory: 'término histórico',
+              source: fileName,
+              day: day,
+              filePath: filePath,
+              originalKey: cleanCell(cells[0]),
+              context: cleanCell(cells[1])
+            };
         } else if (cells.length >= 8) {
           // Formato simple de 8 columnas (sin categoría)
           entry = {
