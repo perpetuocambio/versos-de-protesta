@@ -1,5 +1,5 @@
 ---
-title: "Presente Simple - Comparativo 5 Idiomas"
+title: "Presente Simple"
 description: "Acciones habituales en español/inglés/alemán/portugués/ruso vs sistema chino sin conjugación verbal"
 pubDate: 2024-01-15
 category: "tiempos-verbales"
@@ -36,9 +36,11 @@ El **presente simple** expresa **acciones habituales, estados permanentes y verd
 ## ⏰ Timeline Visual Universal
 
 ```
-Pasado ←――――――――――[PRESENTE]――――――――――→ Futuro
-                   X   X   X   X   X
-               (acciones repetidas habituales)
+Pasado ←――――――――――[AHORA]――――――――――→ Futuro
+                   ↓
+              |||||||||||||
+          (acciones habituales
+           que incluyen el presente)
 ```
 
 **Mismo concepto temporal**, diferentes estrategias morfológicas.
@@ -65,14 +67,14 @@ Pasado ←――――――――――[PRESENTE]――――――――――
 
 ### Tabla Comparativa Sistemática
 
-| Persona | Español | English | Deutsch | Português | Русский | 中文 |
-|---------|---------|---------|---------|-----------|---------|-----|
-| **1ª sing.** | yo estudio | I study | ich lerne | eu estudo | я изучаю | 我学习 |
-| **2ª sing.** | tú estudias | you study | du lernst | tu estudas | ты изучаешь | 你学习 |
-| **3ª sing.** | él/ella estudia | he/she studies | er/sie lernt | ele/ela estuda | он/она изучает | 他/她学习 |
-| **1ª plur.** | nosotros estudiamos | we study | wir lernen | nós estudamos | мы изучаем | 我们学习 |
-| **2ª plur.** | vosotros estudiáis | you study | ihr lernt | vós estudais | вы изучаете | 你们学习 |
-| **3ª plur.** | ellos estudian | they study | sie lernen | eles estudam | они изучают | 他们学习 |
+| Persona | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|---------|---------|---------|---------|-----------|---------|-------------|-----|--------|
+| **1ª sing.** | yo estudio | I study | ich lerne | eu estudo | я изучаю | ya izuchayu | 我学习 | wǒ xuéxí |
+| **2ª sing.** | tú estudias | you study | du lernst | tu estudas | ты изучаешь | ty izuchaesh' | 你学习 | nǐ xuéxí |
+| **3ª sing.** | él/ella estudia | he/she studies | er/sie lernt | ele/ela estuda | он/она изучает | on/ona izuchaet | 他/她学习 | tā xuéxí |
+| **1ª plur.** | nosotros estudiamos | we study | wir lernen | nós estudamos | мы изучаем | my izuchaem | 我们学习 | wǒmen xuéxí |
+| **2ª plur.** | vosotros estudiáis | you study | ihr lernt | vós estudais | вы изучаете | vy izuchaete | 你们学习 | nǐmen xuéxí |
+| **3ª plur.** | ellos estudian | they study | sie lernen | eles estudam | они изучают | oni izuchayut | 他们学习 | tāmen xuéxí |
 
 ### 🔍 Análisis de Patrones Morfológicos
 
@@ -112,40 +114,40 @@ Pasado ←――――――――――[PRESENTE]――――――――――
 
 > **Concepto**: *Actividades que se repiten regularmente*
 
-| Idioma | Estructura | Ejemplo | Marcadores Temporales |
-|--------|------------|---------|----------------------|
-| **Español** | Verbo conjugado + temporal | "Leo libros **todas las noches**" | todas las, cada, siempre |
-| **English** | Verb + frequency | "I read books **every night**" | every, always, usually |
-| **Deutsch** | Verb + temporal (posición) | "Ich lese **jeden Abend** Bücher" | jeden, immer, oft |
-| **Português** | Verbo + temporal | "Eu leio livros **todas as noites**" | todas as, cada, sempre |
-| **Русский** | Глагол imperfectivo + temporal | "Я читаю книги **каждый вечер**" | каждый, всегда, часто |
-| **中文** | 主语 + 时间 + 动词 | "我**每天晚上**看书" | 每天, 总是, 经常 |
+| Idioma | Estructura | Ejemplo | Marcadores Temporales | Русский Rom. | Pinyin |
+|--------|------------|---------|----------------------|-------------|--------|
+| **Español** | Verbo conjugado + temporal | "Leo libros **todas las noches**" | todas las, cada, siempre | — | — |
+| **English** | Verb + frequency | "I read books **every night**" | every, always, usually | — | — |
+| **Deutsch** | Verb + temporal (posición) | "Ich lese **jeden Abend** Bücher" | jeden, immer, oft | — | — |
+| **Português** | Verbo + temporal | "Eu leio livros **todas as noites**" | todas as, cada, sempre | — | — |
+| **Русский** | Глагол imperfectivo + temporal | "Я читаю книги **каждый вечер**" | каждый, всегда, часто | ya chitayu knigi kazhdyj vecher | — |
+| **中文** | 主语 + 时间 + 动词 | "我**每天晚上**看书" | 每天, 总是, 经常 | — | wǒ **měitiān wǎnshàng** kànshū |
 
 ### 2. 🏠 Estados Permanentes
 
 > **Concepto**: *Situaciones duraderas o estables*
 
-| Idioma | Estructura | Ejemplo | Verbo Estado |
-|--------|------------|---------|--------------|
-| **Español** | Ser/Estar + lugar | "**Vivo** en Madrid" | vivir, ser, tener |
-| **English** | Be/Live + place | "I **live** in Madrid" | live, be, have |
-| **Deutsch** | Wohnen/Sein + Ort | "Ich **wohne** in Madrid" | wohnen, sein, haben |
-| **Português** | Morar/Ser + lugar | "Eu **moro** em Madrid" | morar, ser, ter |
-| **Русский** | Жить/Быть + место | "Я **живу** в Мадриде" | жить, быть, иметь |
-| **中文** | 住在 + 地方 | "我**住在**马德里" | 住, 是, 有 |
+| Idioma | Estructura | Ejemplo | Verbo Estado | Русский Rom. | Pinyin |
+|--------|------------|---------|--------------|-------------|--------|
+| **Español** | Ser/Estar + lugar | "**Vivo** en Madrid" | vivir, ser, tener | — | — |
+| **English** | Be/Live + place | "I **live** in Madrid" | live, be, have | — | — |
+| **Deutsch** | Wohnen/Sein + Ort | "Ich **wohne** in Madrid" | wohnen, sein, haben | — | — |
+| **Português** | Morar/Ser + lugar | "Eu **moro** em Madrid" | morar, ser, ter | — | — |
+| **Русский** | Жить/Быть + место | "Я **живу** в Мадриде" | жить, быть, иметь | ya zhivu v Madride | — |
+| **中文** | 住在 + 地方 | "我**住在**马德里" | 住, 是, 有 | — | wǒ **zhùzài** mǎdélǐ |
 
 ### 3. 🌍 Verdades Universales  
 
 > **Concepto**: *Hechos científicos, leyes naturales*
 
-| Idioma | Estructura | Ejemplo | Contexto |
-|--------|------------|---------|----------|
-| **Español** | Sujeto + verbo científico | "El agua **hierve** a 100 grados" | Ley física |
-| **English** | Subject + scientific verb | "Water **boils** at 100 degrees" | Physical law |
-| **Deutsch** | Subjekt + wissensch. Verb | "Wasser **kocht** bei 100 Grad" | Naturgesetz |
-| **Português** | Sujeito + verbo científico | "A água **ferve** a 100 graus" | Lei física |
-| **Русский** | Подлежащее + научный глагол | "Вода **кипит** при 100 градусах" | Закон природы |
-| **中文** | 主语 + 科学动词 | "水在100度**沸腾**" | 自然规律 |
+| Idioma | Estructura | Ejemplo | Contexto | Русский Rom. | Pinyin |
+|--------|------------|---------|----------|-------------|--------|
+| **Español** | Sujeto + verbo científico | "El agua **hierve** a 100 grados" | Ley física | — | — |
+| **English** | Subject + scientific verb | "Water **boils** at 100 degrees" | Physical law | — | — |
+| **Deutsch** | Subjekt + wissensch. Verb | "Wasser **kocht** bei 100 Grad" | Naturgesetz | — | — |
+| **Português** | Sujeito + verbo científico | "A água **ferve** a 100 graus" | Lei física | — | — |
+| **Русский** | Подлежащее + научный глагол | "Вода **кипит** при 100 градусах" | Закон природы | voda kipit pri 100 gradusah | — |
+| **中文** | 主语 + 科学动词 | "水在100度**沸腾**" | 自然规律 | — | shuǐ zài 100 dù **fèiténg** |
 
 ## 🚨 Errores Frecuentes de Transferencia desde Español
 
@@ -211,4 +213,4 @@ Pasado ←――――――――――[PRESENTE]――――――――――
 
 ---
 
-*💡 **Siguiente paso recomendado**: [Pasado Simple Comparativo](pasado-simple-comparativo.md) - para ver cómo cada sistema expresa acciones completadas*
+*💡 **Siguiente paso recomendado**: [Pasado Simple](${import.meta.env.BASE_URL}gramatica/pasado-simple/) - para ver cómo cada sistema expresa acciones completadas*
