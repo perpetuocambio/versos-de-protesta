@@ -246,12 +246,52 @@ legal_considerations:
     source: "Generated from linguistic databases"
     no_copyright_issues: "Phonetic transcription is factual data"
 
+immediate_quality_improvements:
+  # CRÍTICAS - CALIDAD CONTENIDO EXISTENTE
+  content_quality_audit:
+    priority: "CRÍTICA"
+    estimated_time: "2-3 días"
+    components:
+      - research_sources_backfill:
+          description: "Añadir fuentes de investigación multilingües a Días 0-11"
+          pattern: "Aplicar metodología establecida en Día 12"
+          output: "Secciones '🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES' en todas las entradas"
+          status: "en_progreso"
+          
+      - wikipedia_links_verification:
+          description: "Verificar enlaces Wikipedia usando WebFetch metodología"
+          pattern: "Empezar desde idioma principal → identificar idiomas disponibles → verificar existencia"
+          output: "Enlaces verificados y corregidos en todas las entradas"
+          status: "en_progreso"
+          
+      - vocabulary_categories_completion:
+          description: "Añadir categorías gramaticales en todas las tablas de vocabulario"
+          pattern: "8 columnas obligatorias: ES|EN|DE|PT|RU|RU-Rom|ZH|ZH-Pinyin|Categoría"
+          output: "Tablas vocabulario completas según CLAUDE.md"
+          status: "en_progreso"
+          
+      - lyrics_accuracy_verification:
+          description: "Verificar letras de canciones contra fuentes Wikipedia"
+          pattern: "WebFetch a Wikipedia del idioma original → comparar → corregir"
+          output: "Letras verificadas y corregidas según fuentes oficiales"
+          status: "pendiente"
+          
+      - dictionary_discrepancies_fix:
+          description: "Corregir discrepancias en diccionario JSON - idiomas con palabras faltantes"
+          issue: "zh/zhPinyin: 64 palabras vs 67-68 en otros idiomas"
+          pattern: "Identificar palabras faltantes → completar → regenerar diccionario"
+          output: "Todos los idiomas con mismo número de palabras"
+          status: "pendiente"
+
 next_immediate_actions:
-  1. "Crear estructura de directorios nueva"
-  2. "Script de descarga de trazos chinos con atribución"
-  3. "Primer prototipo de modal chino mejorado"
-  4. "Base de datos de compositores (manual inicial)"
-  5. "Guía IPA para un idioma piloto"
+  # ORDEN DE PRIORIDAD ACTUALIZADO
+  1. "CRÍTICO: Completar mejoras calidad Días 0-11 (fuentes, enlaces, categorías, letras)"
+  2. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin)"
+  3. "ALTA: Crear estructura de directorios nueva"
+  4. "ALTA: Script de descarga de trazos chinos con atribución" 
+  5. "MEDIA: Primer prototipo de modal chino mejorado"
+  6. "MEDIA: Base de datos de compositores (manual inicial)"
+  7. "BAJA: Guía IPA para un idioma piloto"
 
 success_metrics:
   chinese_system:
