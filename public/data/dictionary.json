@@ -82,18 +82,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "anarquista": [
@@ -194,6 +198,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "aunque": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "bandera": [
       {
         "translations": {
@@ -266,6 +297,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "cantar": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "clandestino": [
       {
         "translations": {
@@ -301,6 +359,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -482,6 +543,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "dolor": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "enemigo": [
       {
         "translations": {
@@ -541,6 +629,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -600,6 +691,33 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "espere": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "eterna": [
@@ -786,6 +904,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -810,6 +931,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1002,6 +1126,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1106,6 +1233,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1154,6 +1284,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1189,6 +1322,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "marchar": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "marineros": [
@@ -1263,6 +1423,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "morir": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "movimiento": [
       {
         "translations": {
@@ -1298,17 +1485,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "mundo": [
@@ -1322,6 +1513,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1347,6 +1541,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1529,6 +1726,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "poder": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "Primera Internacional": [
       {
         "translations": {
@@ -1564,6 +1788,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1691,6 +1918,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1835,6 +2065,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1920,6 +2153,33 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "Sindicalismo": [
+      {
+        "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "socialismo": [
       {
         "translations": {
@@ -1931,6 +2191,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2004,6 +2267,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2396,18 +2662,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "anarchist": [
@@ -2508,6 +2778,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "await": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "banners": [
       {
         "translations": {
@@ -2543,6 +2840,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2567,6 +2867,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2735,6 +3038,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2783,17 +3089,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "defeated": [
@@ -3318,6 +3628,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3380,6 +3693,31 @@
       }
     ],
     "march": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
       {
         "translations": {
           "es": "marcha",
@@ -3534,6 +3872,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3593,6 +3934,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "pain": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "partisans": [
@@ -3721,6 +4089,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "power": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "proletarian": [
       {
         "translations": {
@@ -3757,6 +4152,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3805,6 +4203,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3853,6 +4254,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3986,6 +4390,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "sing": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "slave": [
       {
         "translations": {
@@ -4021,6 +4452,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4045,6 +4479,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4118,6 +4555,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4213,6 +4653,31 @@
     "syndicalism": [
       {
         "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "sindicalismo",
           "en": "syndicalism",
           "de": "Syndikalismus",
@@ -4232,6 +4697,33 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "though": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "to conquer": [
@@ -4258,6 +4750,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "to die": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "to fight": [
       {
         "translations": {
@@ -4269,6 +4788,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4708,6 +5230,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4732,6 +5257,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4806,18 +5334,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "Anarchist": [
@@ -4977,6 +5509,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4988,6 +5523,33 @@
           2
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
+      }
+    ],
+    "auch wenn": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "Befreier": [
@@ -5145,6 +5707,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -5277,6 +5842,33 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "erwarten": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "ewig": [
@@ -5776,6 +6368,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -5829,6 +6424,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -5925,6 +6523,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6060,6 +6661,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "Macht": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "Marsch": [
       {
         "translations": {
@@ -6082,6 +6710,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "marschieren": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "Morgendämmerung": [
@@ -6119,6 +6774,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6287,6 +6945,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6394,6 +7055,33 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "Schmerz": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "schreiben": [
@@ -6542,6 +7230,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "singen": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "Sklave": [
       {
         "translations": {
@@ -6577,6 +7292,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6626,6 +7344,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6676,6 +7397,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6724,6 +7448,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6737,7 +7464,59 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "sterben": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "Syndikalismus": [
+      {
+        "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
       {
         "translations": {
           "es": "sindicalismo",
@@ -6772,17 +7551,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "töricht": [
@@ -6917,6 +7700,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -6989,6 +7775,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -7091,6 +7880,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -7237,18 +8029,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "anarquista": [
@@ -7397,6 +8193,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "cantar": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "clandestino": [
       {
         "translations": {
@@ -7432,6 +8255,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -7637,6 +8463,60 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "dor": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "embora": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "escravo": [
       {
         "translations": {
@@ -7672,6 +8552,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -7733,6 +8616,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "espere": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "eterna": [
       {
         "translations": {
@@ -7768,6 +8678,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -7843,6 +8756,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8133,6 +9049,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8261,6 +9180,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8309,6 +9231,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8344,6 +9269,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "marchar": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "marinheiros": [
@@ -8418,6 +9370,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "morrer": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "morte": [
       {
         "translations": {
@@ -8429,17 +9408,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "movimento": [
@@ -8477,6 +9460,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8502,6 +9488,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8684,6 +9673,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "poder": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "porto": [
       {
         "translations": {
@@ -8773,6 +9789,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8846,6 +9865,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -8990,6 +10012,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -9054,6 +10079,31 @@
     "sindicalismo": [
       {
         "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "sindicalismo",
           "en": "syndicalism",
           "de": "Syndikalismus",
@@ -9086,6 +10136,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -9159,6 +10212,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -9575,18 +10631,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "анархист": [
@@ -9735,6 +10795,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "боль": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "борозды": [
       {
         "translations": {
@@ -9770,6 +10857,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -9882,6 +10972,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "власть": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "война": [
@@ -10017,6 +11134,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10113,6 +11233,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10295,6 +11418,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "ждёт": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "заря": [
       {
         "translations": {
@@ -10426,6 +11576,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10498,6 +11651,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10559,6 +11715,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "маршировать": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "мир": [
       {
         "translations": {
@@ -10570,6 +11753,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10697,6 +11883,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -10828,6 +12017,33 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "петь": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "писать": [
@@ -11105,6 +12321,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11129,6 +12348,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11276,6 +12498,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11300,6 +12525,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11348,6 +12576,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11464,6 +12695,31 @@
     "синдикализм": [
       {
         "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "sindicalismo",
           "en": "syndicalism",
           "de": "Syndikalismus",
@@ -11520,17 +12776,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "советский свет": [
@@ -11593,6 +12853,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11619,6 +12882,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -11800,6 +13066,33 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "умирать": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "фантазировать": [
       {
         "translations": {
@@ -11897,6 +13190,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "хоть": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "цепи": [
@@ -12007,18 +13327,22 @@
           "ru": "анархизм",
           "ruRom": "anarkhizm",
           "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           9
         ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "antifashist": [
@@ -12095,6 +13419,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "bol'": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "bor'ba": [
       {
         "translations": {
@@ -12135,6 +13486,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -12522,6 +13876,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -12583,6 +13940,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "khot'": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "khozyain": [
       {
         "translations": {
@@ -12618,6 +14002,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -12690,6 +14077,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -12751,6 +14141,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "marshirovat'": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "mir": [
       {
         "translations": {
@@ -12762,6 +14179,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -12865,6 +14285,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13020,6 +14443,33 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "pet'": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "pisat'": [
@@ -13297,6 +14747,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13321,6 +14774,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13419,6 +14875,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13492,6 +14951,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13540,6 +15002,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13629,6 +15094,31 @@
     "sindikalizm": [
       {
         "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "sindicalismo",
           "en": "syndicalism",
           "de": "Syndikalismus",
@@ -13685,17 +15175,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "soldaty": [
@@ -13734,6 +15228,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -13784,6 +15281,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -14040,6 +15540,33 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "umirat'": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "vechnaya": [
       {
         "translations": {
@@ -14086,6 +15613,33 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "vlast'": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "volna": [
@@ -14221,6 +15775,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -14304,6 +15861,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "zhdyot": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "znamya": [
@@ -14404,6 +15988,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "唱": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "船员": [
       {
         "translations": {
@@ -14498,6 +16109,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "等待": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "敌人": [
@@ -14713,6 +16351,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -14833,6 +16474,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -14847,6 +16491,31 @@
       }
     ],
     "工团主义": [
+      {
+        "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
       {
         "translations": {
           "es": "sindicalismo",
@@ -15073,6 +16742,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15265,6 +16937,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15385,6 +17060,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15525,6 +17203,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15608,6 +17289,33 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "权力": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "拳头": [
@@ -15723,6 +17431,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15771,6 +17482,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15892,6 +17606,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15941,6 +17658,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -15978,6 +17698,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "死": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "死亡": [
       {
         "translations": {
@@ -15989,17 +17736,21 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "苏维埃之光": [
@@ -16024,6 +17775,33 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "虽然": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "锁链": [
@@ -16123,6 +17901,31 @@
     "痛苦": [
       {
         "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "miseria",
           "en": "misery",
           "de": "Elend",
@@ -16179,6 +17982,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -16275,6 +18081,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -16316,6 +18125,32 @@
     "无政府主义": [
       {
         "translations": {
+          "es": "anarquismo",
+          "en": "anarchism",
+          "de": "Anarchismus",
+          "pt": "anarquismo",
+          "ru": "анархизм",
+          "ruRom": "anarkhizm",
+          "zh": "无政府主义",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1,
+          9
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "anarquía",
           "en": "anarchy",
           "de": "Anarchie",
@@ -16335,28 +18170,6 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
-      },
-      {
-        "translations": {
-          "es": "anarquismo",
-          "en": "anarchism",
-          "de": "Anarchismus",
-          "pt": "anarquismo",
-          "ru": "анархизм",
-          "ruRom": "anarkhizm",
-          "zh": "无政府主义",
-          "zhPinyin": "wúzhèngfǔ zhǔyì",
-          "grammaticalCategory": "sustantivo",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
-        },
-        "source": "dia-09-hijos-del-pueblo",
-        "day": 9,
-        "lessons": [
-          9
-        ],
-        "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
     "无政府主义者": [
@@ -16384,6 +18197,31 @@
       }
     ],
     "行进": [
+      {
+        "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
       {
         "translations": {
           "es": "marcha",
@@ -16418,6 +18256,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -16586,6 +18427,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -16799,6 +18643,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "chàng": [
+      {
+        "translations": {
+          "es": "cantar",
+          "en": "sing",
+          "de": "singen",
+          "pt": "cantar",
+          "ru": "петь",
+          "ruRom": "pet'",
+          "zh": "唱",
+          "zhPinyin": "chàng",
+          "zhStrokes": "11",
+          "zhRadical": "口 (boca)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "chuányuán": [
       {
         "translations": {
@@ -16845,6 +18716,33 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "děngdài": [
+      {
+        "translations": {
+          "es": "espere",
+          "en": "await",
+          "de": "erwarten",
+          "pt": "espere",
+          "ru": "ждёт",
+          "ruRom": "zhdyot",
+          "zh": "等待",
+          "zhPinyin": "děngdài",
+          "zhStrokes": "15",
+          "zhRadical": "竹 (bambú)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "dì-yī guójì": [
@@ -17108,6 +19006,9 @@
           "ruRom": "kipit",
           "zh": "沸腾",
           "zhPinyin": "fèiténg",
+          "zhStrokes": "16",
+          "zhRadical": "水 (agua)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -17276,6 +19177,9 @@
           "ruRom": "rabochiy klass",
           "zh": "工人阶级",
           "zhPinyin": "gōngrén jiējí",
+          "zhStrokes": "18",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -17314,6 +19218,31 @@
       }
     ],
     "gōngtuán zhǔyì": [
+      {
+        "translations": {
+          "es": "Sindicalismo",
+          "en": "syndicalism",
+          "de": "Syndikalismus",
+          "pt": "sindicalismo",
+          "ru": "синдикализм",
+          "ruRom": "sindikalizm",
+          "zh": "工团主义",
+          "zhPinyin": "gōngtuán zhǔyì",
+          "zhStrokes": "25",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
       {
         "translations": {
           "es": "sindicalismo",
@@ -17468,6 +19397,9 @@
           "ruRom": "golodnye",
           "zh": "饥饿的",
           "zhPinyin": "jī'è de",
+          "zhStrokes": "19",
+          "zhRadical": "食 (comida)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -17708,6 +19640,9 @@
           "ruRom": "razum",
           "zh": "理性",
           "zhPinyin": "lǐxìng",
+          "zhStrokes": "15",
+          "zhRadical": "王 (rey)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -17780,6 +19715,9 @@
           "ruRom": "raby",
           "zh": "奴隶",
           "zhPinyin": "núlì",
+          "zhStrokes": "8",
+          "zhRadical": "女 (mujer)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -17946,6 +19884,9 @@
           "ruRom": "vstavay",
           "zh": "起来",
           "zhPinyin": "qǐlái",
+          "zhStrokes": "10",
+          "zhRadical": "走 (caminar)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18003,6 +19944,33 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "quánlì": [
+      {
+        "translations": {
+          "es": "poder",
+          "en": "power",
+          "de": "Macht",
+          "pt": "poder",
+          "ru": "власть",
+          "ruRom": "vlast'",
+          "zh": "权力",
+          "zhPinyin": "quánlì",
+          "zhStrokes": "10",
+          "zhRadical": "木 (madera)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "quántou": [
@@ -18142,6 +20110,9 @@
           "ruRom": "sotsializm",
           "zh": "社会主义",
           "zhPinyin": "shèhuìzhǔyì",
+          "zhStrokes": "22",
+          "zhRadical": "社 (sociedad)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18214,6 +20185,9 @@
           "ruRom": "nichego",
           "zh": "什么都没有",
           "zhPinyin": "shénme dōu méiyǒu",
+          "zhStrokes": "25",
+          "zhRadical": "什 (qué)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "pronombre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18287,6 +20261,9 @@
           "ruRom": "mir",
           "zh": "世界",
           "zhPinyin": "shìjiè",
+          "zhStrokes": "9",
+          "zhRadical": "世 (generación)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18336,6 +20313,9 @@
           "ruRom": "proklyatye",
           "zh": "受诅咒的",
           "zhPinyin": "shòu zǔzhòu de",
+          "zhStrokes": "25",
+          "zhRadical": "示 (sagrado)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "adjetivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18373,6 +20353,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "sǐ": [
+      {
+        "translations": {
+          "es": "morir",
+          "en": "to die",
+          "de": "sterben",
+          "pt": "morrer",
+          "ru": "умирать",
+          "ruRom": "umirat'",
+          "zh": "死",
+          "zhPinyin": "sǐ",
+          "zhStrokes": "6",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "sǐwáng": [
       {
         "translations": {
@@ -18384,17 +20391,48 @@
           "ruRom": "smert'",
           "zh": "死亡",
           "zhPinyin": "sǐwáng",
+          "zhStrokes": "9",
+          "zhRadical": "歹 (mal)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
         "lessons": [
+          1,
           4
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "suīrán": [
+      {
+        "translations": {
+          "es": "aunque",
+          "en": "though",
+          "de": "auch wenn",
+          "pt": "embora",
+          "ru": "хоть",
+          "ruRom": "khot'",
+          "zh": "虽然",
+          "zhPinyin": "suīrán",
+          "zhStrokes": "17",
+          "zhRadical": "虫 (insecto)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "conjunción",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "suǒliàn": [
@@ -18470,6 +20508,31 @@
       }
     ],
     "tòngkǔ": [
+      {
+        "translations": {
+          "es": "dolor",
+          "en": "pain",
+          "de": "Schmerz",
+          "pt": "dor",
+          "ru": "боль",
+          "ruRom": "bol'",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "zhStrokes": "12",
+          "zhRadical": "疒 (enfermedad)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
       {
         "translations": {
           "es": "miseria",
@@ -18550,6 +20613,9 @@
           "ruRom": "solidarnost'",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "14",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18662,6 +20728,31 @@
     "wú zhèngfǔ zhǔyì": [
       {
         "translations": {
+          "es": "anarquismo",
+          "en": "anarchism",
+          "de": "Anarchismus",
+          "pt": "anarquismo",
+          "ru": "анархизм",
+          "ruRom": "anarkhizm",
+          "zh": "无政府主义",
+          "zhPinyin": "wú zhèngfǔ zhǔyì",
+          "zhStrokes": "24",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
           "es": "anarquía",
           "en": "anarchy",
           "de": "Anarchie",
@@ -18694,6 +20785,9 @@
           "ruRom": "proletariat",
           "zh": "无产阶级",
           "zhPinyin": "wúchǎnjiējí",
+          "zhStrokes": "20",
+          "zhRadical": "无 (sin)",
+          "zhStructure": "compuesto",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18783,6 +20877,31 @@
     "xíngjìn": [
       {
         "translations": {
+          "es": "marchar",
+          "en": "march",
+          "de": "marschieren",
+          "pt": "marchar",
+          "ru": "маршировать",
+          "ruRom": "marshirovat'",
+          "zh": "行进",
+          "zhPinyin": "xíngjìn",
+          "zhStrokes": "13",
+          "zhRadical": "行 (caminar)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
+      {
+        "translations": {
           "es": "marcha",
           "en": "march",
           "de": "Marsch",
@@ -18815,6 +20934,9 @@
           "ruRom": "krov'",
           "zh": "血液",
           "zhPinyin": "xuèyè",
+          "zhStrokes": "12",
+          "zhRadical": "血 (sangre)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -18983,6 +21105,9 @@
           "ruRom": "borot'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (arma)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
           "source": "dia-02-l-internationale",
           "day": 2,

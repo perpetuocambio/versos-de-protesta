@@ -1,17 +1,17 @@
 {
   "total": 105,
-  "successful": 105,
-  "cached": 0,
+  "successful": 0,
+  "cached": 105,
   "failed": 0,
   "errors": [],
-  "totalSize": 1638361,
-  "startTime": "2025-07-24T19:15:27.417Z",
+  "totalSize": 0,
+  "startTime": "2025-07-26T13:34:10.953Z",
   "attribution": {
     "source": "MDBG Chinese Dictionary",
     "url": "https://www.mdbg.net/",
     "license": "Educational use with attribution",
     "attribution_text": "Stroke order animations © MDBG Chinese Dictionary (mdbg.net)"
   },
-  "endTime": "2025-07-24T19:15:29.930Z",
-  "duration": 2513
+  "endTime": "2025-07-26T13:34:10.954Z",
+  "duration": 1
 }

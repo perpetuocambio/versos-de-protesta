@@ -138,10 +138,18 @@ async function extractVocabularyFromMarkdown(filePath) {
           excludePattern.test(fullMatch)
         );
         
-        const isExcluded = hasProblematicHeader || hasProblematicContent || hasConjugationContent;
+        // EXCEPCIÓN: Las tablas de vocabulario con columnas chinas son SIEMPRE válidas
+        const isChineseVocabularyTable = /Trazos\s*\|\s*Radical\s*\|\s*Estructura\s*\|\s*Categoría/.test(fullMatch);
+        const isStandardVocabularyTable = /TÉRMINOS\s+(CLAVE|POLÍTICOS|HISTÓRICOS)/i.test(contextBefore);
+        
+        const isLegitimateVocabulary = isChineseVocabularyTable || isStandardVocabularyTable;
+        
+        const isExcluded = !isLegitimateVocabulary && (hasProblematicHeader || hasProblematicContent || hasConjugationContent);
         
         if (isExcluded) {
           console.log(`   🚫 Tabla excluida - header/contexto problemático: ${fullMatch.split('\n')[0]}`);
+        } else if (isLegitimateVocabulary) {
+          console.log(`   ✅ Tabla vocabulario aceptada: ${fullMatch.split('\n')[0].substring(0, 100)}...`);
         }
         
         return !isExcluded;

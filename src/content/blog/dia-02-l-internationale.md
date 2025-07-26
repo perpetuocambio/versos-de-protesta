@@ -828,29 +828,29 @@ Estribillo:| C     | G     | Am    | Dm    |
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **levántate** | rise up | steh auf | levanta-te | вставай | vstavay | 起来 | qǐlái | verbo |
-| **hambrientos** | hungry | Hungrige | famintos | голодные | golodnye | 饥饿的 | jī'è de | adjetivo |
-| **malditos** | damned | Verdammte | malditos | проклятые | proklyatye | 受诅咒的 | shòu zǔzhòu de | adjetivo |
-| **esclavos** | slaves | Sklaven | escravos | рабы | raby | 奴隶 | núlì | sustantivo |
-| **sangre** | blood | Blut | sangue | кровь | krov' | 血液 | xuèyè | sustantivo |
-| **hierve** | boils | kocht | ferve | кипит | kipit | 沸腾 | fèiténg | verbo |
-| **razón** | reason | Vernunft | razão | разум | razum | 理性 | lǐxìng | sustantivo |
-| **luchar** | to fight | kämpfen | lutar | бороться | borot'sya | 战斗 | zhàndòu | verbo |
-| **mundo** | world | Welt | mundo | мир | mir | 世界 | shìjiè | sustantivo |
-| **pedazos** | pieces | Stücke | pedaços | куски | kuski | 碎片 | suìpiàn | sustantivo |
-| **nada** | nothing | nichts | nada | ничего | nichego | 什么都没有 | shénme dōu méiyǒu | pronombre |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **levántate** | rise up | steh auf | levanta-te | вставай | vstavay | 起来 | qǐlái | 10 | 走 (caminar) | arriba-abajo | verbo |
+| **hambrientos** | hungry | Hungrige | famintos | голодные | golodnye | 饥饿的 | jī'è de | 19 | 食 (comida) | izquierda-derecha | adjetivo |
+| **malditos** | damned | Verdammte | malditos | проклятые | proklyatye | 受诅咒的 | shòu zǔzhòu de | 25 | 示 (sagrado) | compuesto | adjetivo |
+| **esclavos** | slaves | Sklaven | escravos | рабы | raby | 奴隶 | núlì | 8 | 女 (mujer) | izquierda-derecha | sustantivo |
+| **sangre** | blood | Blut | sangue | кровь | krov' | 血液 | xuèyè | 12 | 血 (sangre) | independiente | sustantivo |
+| **hierve** | boils | kocht | ferve | кипит | kipit | 沸腾 | fèiténg | 16 | 水 (agua) | izquierda-derecha | verbo |
+| **razón** | reason | Vernunft | razão | разум | razum | 理性 | lǐxìng | 15 | 王 (rey) | izquierda-derecha | sustantivo |
+| **luchar** | to fight | kämpfen | lutar | бороться | borot'sya | 战斗 | zhàndòu | 16 | 戈 (arma) | izquierda-derecha | verbo |
+| **mundo** | world | Welt | mundo | мир | mir | 世界 | shìjiè | 9 | 世 (generación) | arriba-abajo | sustantivo |
+| **pedazos** | pieces | Stücke | pedaços | куски | kuski | 碎片 | suìpiàn | 13 | 石 (piedra) | izquierda-derecha | sustantivo |
+| **nada** | nothing | nichts | nada | ничего | nichego | 什么都没有 | shénme dōu méiyǒu | 25 | 什 (qué) | compuesto | pronombre |
 
 ### TÉRMINOS POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **proletariado** | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì | sustantivo |
-| **clase obrera** | working class | Arbeiterklasse | classe operária | рабочий класс | rabochiy klass | 工人阶级 | gōngrén jiējí | sustantivo |
-| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **proletariado** | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí | 20 | 无 (sin) | compuesto | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 17 | 革 (cambio) | izquierda-derecha | sustantivo |
+| **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì | 22 | 社 (sociedad) | compuesto | sustantivo |
+| **clase obrera** | working class | Arbeiterklasse | classe operária | рабочий класс | rabochiy klass | 工人阶级 | gōngrén jiējí | 18 | 工 (trabajo) | compuesto | sustantivo |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | 14 | 囗 (recinto) | arriba-abajo | sustantivo |
 
 ---
 
