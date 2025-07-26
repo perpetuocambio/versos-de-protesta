@@ -69,6 +69,289 @@ por el triunfo de la Confederación.
 por el triunfo de la Confederación. 
 ```
 
+---
+
+## 🔄 TRADUCCIONES/ADAPTACIONES A 5 IDIOMAS
+
+### English ENGLISH
+**"To the Barricades"**
+```
+Black storms stir the air
+Dark clouds prevent us from seeing.
+Although pain and death await us,
+duty calls us against the enemy.
+
+The most precious good is freedom
+it must be defended with faith and courage.
+
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+
+Black storms stir the air
+Dark clouds prevent us from seeing.
+Although pain and death await us,
+duty calls us against the enemy.
+
+The most precious good is freedom
+it must be defended with faith and courage.
+
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+Raise the revolutionary flag
+that leads us in pursuit of endless triumph.
+
+The working people, rise up, to battle,
+we must overthrow reaction.
+
+To the barricades! To the barricades!
+for the triumph of the Confederation.
+To the barricades! To the barricades!
+for the triumph of the Confederation.
+```
+
+### Deutsch DEUTSCH
+**"Zu den Barrikaden"**
+```
+Schwarze Stürme wühlen in der Luft
+Dunkle Wolken versperren uns die Sicht.
+Obwohl Schmerz und Tod uns erwarten,
+ruft uns die Pflicht gegen den Feind.
+
+Das kostbarste Gut ist die Freiheit,
+sie muss mit Glauben und Mut verteidigt werden.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Schwarze Stürme wühlen in der Luft
+Dunkle Wolken versperren uns die Sicht.
+Obwohl Schmerz und Tod uns erwarten,
+ruft uns die Pflicht gegen den Feind.
+
+Das kostbarste Gut ist die Freiheit,
+sie muss mit Glauben und Mut verteidigt werden.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Hisst die revolutionäre Flagge,
+die uns zum ewigen Triumph führt.
+
+Werktätige, erhebt euch zum Kampf,
+wir müssen die Reaktion stürzen.
+
+Auf die Barrikaden! Auf die Barrikaden!
+für den Triumph der Konföderation.
+Auf die Barrikaden! Auf die Barrikaden!
+für den Triumph der Konföderation.
+```
+
+### Português PORTUGUÊS
+**"Para as Barricadas"**
+```
+Tempestades negras agitam o ar
+Nuvens negras impedem-nos de ver.
+Embora a dor e a morte nos aguardem,
+o dever chama-nos contra o inimigo.
+
+O bem mais precioso é a liberdade
+deve ser defendida com fé e coragem.
+
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+
+Tempestades negras agitam o ar
+Nuvens negras impedem-nos de ver.
+Embora a dor e a morte nos aguardem,
+o dever chama-nos contra o inimigo.
+
+O bem mais precioso é a liberdade
+deve ser defendida com fé e coragem.
+
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+Levantem a bandeira revolucionária
+que nos leva em busca do triunfo sem fim.
+
+Trabalhadores, levantai-vos, para a batalha,
+devemos derrubar a reação.
+
+Às barricadas! Às barricadas!
+pelo triunfo da Confederação.
+Às barricadas! Às barricadas!
+pelo triunfo da Confederação.
+```
+
+### Русский РУССКИЙ
+**"На Баррикады"**
+```
+Черные бури колышут воздух.
+Темные тучи мешают нам видеть.
+Хотя нас ждут боль и смерть,
+долг зовет нас на борьбу с врагом.
+
+Самое драгоценное благо — свобода.
+Ее нужно защищать с верой и мужеством.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Черные бури колышут воздух.
+Темные тучи мешают нам видеть.
+Хотя нас ждут боль и смерть,
+долг зовет нас на борьбу с врагом.
+
+Самое драгоценное благо — свобода.
+Ее нужно защищать с верой и мужеством.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Поднимите революционный флаг.
+Что ведёт нас к вечной победе.
+
+Трудовой народ, вставайте на бой,
+мы должны свергнуть реакцию.
+
+На баррикады! На баррикады!
+За триумф Конфедерации.
+На баррикады! На баррикады!
+За торжество Конфедерации.
+```
+
+
+### РУССКИЙ ROM.
+
+```
+Chernyye buri kolyshut vozdukh.
+Temnyye tuchi meshayut nam videt'.
+Khotya nas zhdut bol' i smert',
+dolg zovet nas na bor'bu s vragom.
+
+Samoye dragotsennoye blago — svoboda.
+Yeye nuzhno zashchishchat' s veroy i muzhestvom.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Chernyye buri kolyshut vozdukh.
+Temnyye tuchi meshayut nam videt'.
+Khotya nas zhdut bol' i smert',
+dolg zovet nas na bor'bu s vragom.
+
+Samoye dragotsennoye blago — svoboda.
+Yeye nuzhno zashchishchat' s veroy i muzhestvom.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Podnimite revolyutsionnyy flag.
+Chto vedot nas k vechnoy pobede.
+
+Trudovoy narod, vstavayte na boy,
+my dolzhny svergnut' reaktsiyu.
+
+Na barrikady! Na barrikady!
+Za triumf Konfederatsii.
+Na barrikady! Na barrikady!
+Za torzhestvo Konfederatsii.
+```
+
+### 中文
+**"到街垒去"**
+```
+黑色风暴席卷而来
+乌云遮蔽了我们的视线。
+尽管痛苦和死亡在等待着我们，
+责任在召唤我们对抗敌人。
+
+最珍贵的财富是自由，
+我们必须用信念和勇气去捍卫它。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+黑色风暴席卷而来
+乌云遮蔽了我们的视线。
+尽管痛苦和死亡在等待着我们，
+责任在召唤我们对抗敌人。
+
+最珍贵的财富是自由，
+我们必须用信念和勇气去捍卫它。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+高举革命旗帜，
+引领我们追求无尽的胜利。
+
+劳动人民，起来战斗，
+我们必须推翻反动派。
+
+走向街垒！走向街垒！
+为了联邦的胜利。
+冲上路障！冲上路障！
+为了邦联的胜利。
+```
+
+### PINYIN
+**"Dào Jiēlěi Qù"**
+```
+Hēisè fēngbào xíjuǎn ér lái
+wūyún zhēbìle wǒmen de shìxiàn.
+Jǐnguǎn tòngkǔ hé sǐwáng zài děngdàizhuó wǒmen,
+zérèn zài zhàohuàn wǒmen duìkàng dírén.
+
+Zuì zhēnguì de cáifù shì zìyóu,
+wǒmen bìxū yòng xìnniàn hé yǒngqì qù hànwèi tā.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Hēisè fēngbào xíjuǎn ér lái
+wūyún zhēbìle wǒmen de shìxiàn.
+Jǐnguǎn tòngkǔ hé sǐwáng zài děngdàizhuó wǒmen,
+zérèn zài zhàohuàn wǒmen duìkàng dírén.
+
+Zuì zhēnguì de cáifù shì zìyóu,
+wǒmen bìxū yòng xìnniàn hé yǒngqì qù hànwèi tā.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Gāojǔ gémìng qízhì,
+yǐnlǐng wǒmen zhuīqiú wújìn de shènglì.
+
+Láodòng rénmín, qǐlái zhàndòu,
+wǒmen bìxū tuīfān fǎndòngpài.
+
+Zǒuxiàng jiēlěi! Zǒuxiàng jiēlěi!
+Wèile liánbāng de shènglì.
+Chōng shàng lùzhàng! Chōng shàng lùzhàng!
+Wèile bānglián de shènglì.
+```
+
+---
+
 ## VOCABULARIO
 
 ### TÉRMINOS CLAVE
