@@ -11,6 +11,7 @@ originalSong:
   year: 1936
   language: "es"
   genre: "hymn"
+  origin: "España"
 grammarTopics: 
   - "Verbos modales básicos"
   - "Expresiones de lugar y tiempo"
