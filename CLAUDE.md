@@ -283,25 +283,74 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 ## 📚 Para Saber Más
 
 Añadir al final de cada lección una sección con enlaces a Wikipedia para la canción y el contexto histórico principal.
-**Regla fundamental:** Todos los enlaces deben ser verificados mediante una búsqueda para asegurar que son correctos y apuntan a la página deseada. No se deben inventar URLs.
 
+### **ESTRATEGIA VERIFICACIÓN WIKIPEDIA OBLIGATORIA:**
+
+**PROBLEMA:** Wikipedia permite URLs que no existen realmente - muestran página de "crear artículo" pero Claude no puede distinguirlas.
+
+**ESTRATEGIA CORRECTA:**
+1. **Empezar desde idioma principal** (ej: si es canción española → Wikipedia española)
+2. **Usar WebFetch para identificar idiomas disponibles** - buscar sección "En otros idiomas" 
+3. **Navegar por idiomas disponibles** - usar los códigos de idioma identificados
+4. **Verificar URLs sistemáticamente** - probar cada código con WebFetch
+5. **Solo incluir idiomas confirmados** - que realmente tengan contenido
+
+**EJEMPLO ESTRATEGIA:**
+- Canción española → Buscar en `es.wikipedia.org/wiki/[tema]`
+- WebFetch identifica 33 idiomas disponibles para CNT
+- Construir URLs: `[código].wikipedia.org/wiki/[título]`
+- Verificar cada una con WebFetch
+
+**FORMATO CORRECTO:**
 ```markdown
----
-
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "[Título de la Canción]"
-
-*   **es:** [Título en español](https://es.wikipedia.org/wiki/...)
-*   **en:** [Título en inglés](https://en.wikipedia.org/wiki/...)
-*   ... (y así para los demás idiomas)
+*   **es:** [Título verificado](URL_VERIFICADA_CON_WEBFETCH)
+*   **en:** [Título verificado](URL_VERIFICADA_CON_WEBFETCH)
+[SOLO idiomas que WebFetch confirma que existen]
 
 ### 🏛️ Contexto Histórico: "[Término del Contexto]"
-
-*   **es:** [Término en español](https://es.wikipedia.org/wiki/...)
-*   **en:** [Término en inglés](https://en.wikipedia.org/wiki/...)
-*   ... (y así para los demás idiomas)
+*   **es:** [Término verificado](URL_VERIFICADA_CON_WEBFETCH)
+*   **en:** [Término verificado](URL_VERIFICADA_CON_WEBFETCH)
+[SOLO idiomas que WebFetch confirma que existen]
 ```
+
+**VERIFICACIÓN OBLIGATORIA ANTES DE PUBLICAR:**
+- [ ] Cada URL probada con WebFetch
+- [ ] URLs devuelven contenido real (no página de creación)
+- [ ] Solo idiomas confirmados incluidos
+- [ ] NO URLs inventadas o no verificadas
+
+### **FUENTES DE INVESTIGACIÓN OBLIGATORIAS:**
+
+**REGLA:** Toda información histórica debe incluir sus fuentes de investigación completas.
+
+**METODOLOGÍA:**
+1. **Documentar cada fuente usada** en la investigación
+2. **Incluir enlaces multiidioma** para organizaciones, eventos, conceptos clave
+3. **Organizar por subsecciones** temáticas (ej: CNT, FAI, AIT)
+4. **Fechas fundacionales** en títulos de subsección para contexto temporal
+
+**FORMATO FUENTES DE INVESTIGACIÓN:**
+```markdown
+### 🔴 [Tema]: Fuentes de Investigación
+
+#### [Organización] - [Nombre Completo] ([Año Fundación])
+
+* **es:** [Nombre español](URL_VERIFICADA)
+* **en:** [Nombre inglés](URL_VERIFICADA)
+* **de:** [Nombre alemán](URL_VERIFICADA)
+[...todos los idiomas disponibles verificados]
+
+#### [Otra Organización] - [Nombre Completo] ([Año])
+[...misma estructura]
+```
+
+**EJEMPLO APLICADO:**
+- CNT (1910), FAI (1927), AIT → Subsecciones separadas con fechas
+- Enlaces verificados en 8-9 idiomas cada una
+- Estructura cronológica para comprensión histórica
 
 ---
 

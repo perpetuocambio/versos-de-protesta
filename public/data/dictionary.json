@@ -24,6 +24,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "amo": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "anarquismo": [
       {
         "translations": {
@@ -46,6 +70,54 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "anarquista": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "arado": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "aunque": [
@@ -216,6 +288,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "compañero": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "diáspora": [
       {
         "translations": {
@@ -286,6 +382,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "escribir": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "espere": [
@@ -505,6 +625,54 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "jornalero": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "levantado": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "libertad": [
       {
         "translations": {
@@ -626,6 +794,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "miseria": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "morir": [
       {
         "translations": {
@@ -744,6 +936,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "páginas": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "partisanos": [
@@ -964,6 +1180,78 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "puño": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "regar": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "república": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "república mundial": [
       {
         "translations": {
@@ -1085,6 +1373,54 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "sudor": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "surcos": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "susurro": [
       {
         "translations": {
@@ -1109,6 +1445,30 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "tierra": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "trabajador": [
       {
         "translations": {
@@ -1131,6 +1491,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "trabajar": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "triunfar": [
@@ -1256,6 +1640,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "anarchist": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "await": [
       {
         "translations": {
@@ -1302,6 +1710,30 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "comrade": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "dawn": [
@@ -1472,6 +1904,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "farmhand": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "fascism": [
       {
         "translations": {
@@ -1543,6 +1999,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "fist": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "flag": [
@@ -1642,6 +2122,30 @@
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
       }
     ],
+    "furrows": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "galleon": [
       {
         "translations": {
@@ -1714,6 +2218,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "land": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "march": [
       {
         "translations": {
@@ -1736,6 +2264,54 @@
           0
         ],
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "master": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "misery": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "movement": [
@@ -1784,6 +2360,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "pages": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "pain": [
@@ -1883,6 +2483,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "plow": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "port": [
       {
         "translations": {
@@ -1978,6 +2602,54 @@
           2
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
+      }
+    ],
+    "raised": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "republic": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "robber horde": [
@@ -2197,6 +2869,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "sweat": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "though": [
       {
         "translations": {
@@ -2243,6 +2939,78 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "to water": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "to work": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "to write": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "triumph": [
@@ -2488,6 +3256,54 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "Anarchist": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "arbeiten": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Arbeiter": [
       {
         "translations": {
@@ -2584,6 +3400,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "bewässern": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Bewegung": [
       {
         "translations": {
@@ -2655,6 +3495,54 @@
           11
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "Elend": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "erhoben": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "Erste Internationale": [
@@ -2778,6 +3666,30 @@
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
       }
     ],
+    "Faust": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Feind": [
       {
         "translations": {
@@ -2849,6 +3761,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "Furchen": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "Galeone": [
@@ -2923,6 +3859,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "Genosse": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Hafen": [
       {
         "translations": {
@@ -2969,6 +3929,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "Herr": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "Kampf": [
@@ -3041,6 +4025,54 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "Land": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "Landarbeiter": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "Macht": [
@@ -3163,6 +4195,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "Pflug": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "phantasieren": [
       {
         "translations": {
@@ -3283,6 +4339,30 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "Republik": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Sabotage": [
       {
         "translations": {
@@ -3331,6 +4411,54 @@
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
+    "schreiben": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "Schweiß": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "Seeleute": [
       {
         "translations": {
@@ -3353,6 +4481,30 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "Seiten": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "siegen": [
@@ -3767,6 +4919,54 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "anarquista": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "arado": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "bandeira": [
       {
         "translations": {
@@ -3911,6 +5111,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "companheiro": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "diáspora": [
       {
         "translations": {
@@ -3981,6 +5205,30 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "escrever": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "espere": [
@@ -4224,6 +5472,54 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "jornaleiro": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "levantado": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "liberdade": [
       {
         "translations": {
@@ -4345,6 +5641,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "miséria": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "morrer": [
       {
         "translations": {
@@ -4441,6 +5761,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "páginas": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "partidários": [
       {
         "translations": {
@@ -4463,6 +5807,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "patrão": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "pátria": [
@@ -4659,6 +6027,78 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "punho": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "regar": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "república": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "república mundial": [
       {
         "translations": {
@@ -4780,6 +6220,54 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "sulcos": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "suor": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "sussurro": [
       {
         "translations": {
@@ -4802,6 +6290,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "terra": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "tolo": [
@@ -4850,6 +6362,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "trabalhar": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "triunfar": [
@@ -4975,6 +6511,54 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "анархист": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "батрак": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "бойцы": [
       {
         "translations": {
@@ -5021,6 +6605,30 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "борозды": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "борьба": [
@@ -5408,6 +7016,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "земля": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "знамёна": [
       {
         "translations": {
@@ -5454,6 +7086,30 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "кулак": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "маршировать": [
@@ -5553,6 +7209,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "нищета": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "партизаны": [
       {
         "translations": {
@@ -5625,6 +7305,54 @@
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
+    "писать": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "плуг": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "победить": [
       {
         "translations": {
@@ -5673,6 +7401,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "поднятый": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "подпольный": [
       {
         "translations": {
@@ -5697,6 +7449,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "поливать": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "порт": [
       {
         "translations": {
@@ -5719,6 +7495,30 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "пот": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "пролетариат": [
@@ -5768,6 +7568,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "работать": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "рабочий": [
@@ -5840,6 +7664,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "республика": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "родина": [
@@ -5988,6 +7836,30 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "страницы": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "тайный": [
       {
         "translations": {
@@ -6010,6 +7882,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "товарищ": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "угнетение": [
@@ -6133,6 +8029,30 @@
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
       }
     ],
+    "хозяин": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "хоть": [
       {
         "translations": {
@@ -6183,6 +8103,30 @@
     ]
   },
   "ruRom": {
+    "anarkhist": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "anarkhizm": [
       {
         "translations": {
@@ -6205,6 +8149,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "batrak": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "bol'": [
@@ -6253,6 +8221,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "borozdy": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "boytsy": [
@@ -6568,6 +8560,54 @@
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
+    "khozyain": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "kulak": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "marshirovat'": [
       {
         "translations": {
@@ -6665,6 +8705,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "nishcheta": [
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "partizany": [
       {
         "translations": {
@@ -6737,6 +8801,54 @@
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
+    "pisat'": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "plug": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "pobedit'": [
       {
         "translations": {
@@ -6785,6 +8897,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "podnyatyy": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "podpol'nyy": [
       {
         "translations": {
@@ -6809,6 +8945,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "polivat'": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "port": [
       {
         "translations": {
@@ -6831,6 +8991,30 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "pot": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "proletariat": [
@@ -6930,6 +9114,30 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "rabotat'": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "razboynichjya orda": [
       {
         "translations": {
@@ -6952,6 +9160,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "respublika": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "rodina": [
@@ -7099,6 +9331,30 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "stranitsy": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "svoboda": [
       {
         "translations": {
@@ -7146,6 +9402,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "tovarishch": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "ugneteniye": [
@@ -7364,6 +9644,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "zemlya": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "zhdyot": [
       {
         "translations": {
@@ -7556,6 +9860,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "地主": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "等待": [
@@ -7775,6 +10103,102 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "共和国": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "沟垄": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "雇农": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "汗水": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "幻想": [
       {
         "translations": {
@@ -7797,6 +10221,102 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "浇灌": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "举起的": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "劳作": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "犁": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "黎明": [
@@ -7869,6 +10389,30 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "篇章": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "破坏": [
@@ -8037,6 +10581,30 @@
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
+    "拳头": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "人民": [
       {
         "translations": {
@@ -8158,6 +10726,30 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "书写": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "死": [
       {
         "translations": {
@@ -8254,6 +10846,30 @@
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
+    "同志": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "痛苦": [
       {
         "translations": {
@@ -8276,6 +10892,52 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "土地": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "团结": [
@@ -8421,6 +11083,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "无政府主义者": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "行进": [
@@ -8858,6 +11544,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "dìzhǔ": [
+      {
+        "translations": {
+          "es": "amo",
+          "en": "master",
+          "de": "Herr",
+          "pt": "patrão",
+          "ru": "хозяин",
+          "ruRom": "khozyain",
+          "zh": "地主",
+          "zhPinyin": "dìzhǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "dōngxiàn zhànchǎng": [
       {
         "translations": {
@@ -8955,6 +11665,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "gònghéguó": [
+      {
+        "translations": {
+          "es": "república",
+          "en": "republic",
+          "de": "Republik",
+          "pt": "república",
+          "ru": "республика",
+          "ruRom": "respublika",
+          "zh": "共和国",
+          "zhPinyin": "gònghéguó",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "gōngrén": [
       {
         "translations": {
@@ -9003,6 +11737,78 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "gōulǒng": [
+      {
+        "translations": {
+          "es": "surcos",
+          "en": "furrows",
+          "de": "Furchen",
+          "pt": "sulcos",
+          "ru": "борозды",
+          "ruRom": "borozdy",
+          "zh": "沟垄",
+          "zhPinyin": "gōulǒng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "gùnóng": [
+      {
+        "translations": {
+          "es": "jornalero",
+          "en": "farmhand",
+          "de": "Landarbeiter",
+          "pt": "jornaleiro",
+          "ru": "батрак",
+          "ruRom": "batrak",
+          "zh": "雇农",
+          "zhPinyin": "gùnóng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "hànshuǐ": [
+      {
+        "translations": {
+          "es": "sudor",
+          "en": "sweat",
+          "de": "Schweiß",
+          "pt": "suor",
+          "ru": "пот",
+          "ruRom": "pot",
+          "zh": "汗水",
+          "zhPinyin": "hànshuǐ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "huànxiǎng": [
       {
         "translations": {
@@ -9025,6 +11831,102 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "jiāoguàn": [
+      {
+        "translations": {
+          "es": "regar",
+          "en": "to water",
+          "de": "bewässern",
+          "pt": "regar",
+          "ru": "поливать",
+          "ruRom": "polivat'",
+          "zh": "浇灌",
+          "zhPinyin": "jiāoguàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "jǔqǐ de": [
+      {
+        "translations": {
+          "es": "levantado",
+          "en": "raised",
+          "de": "erhoben",
+          "pt": "levantado",
+          "ru": "поднятый",
+          "ruRom": "podnyatyy",
+          "zh": "举起的",
+          "zhPinyin": "jǔqǐ de",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "láozuò": [
+      {
+        "translations": {
+          "es": "trabajar",
+          "en": "to work",
+          "de": "arbeiten",
+          "pt": "trabalhar",
+          "ru": "работать",
+          "ruRom": "rabotat'",
+          "zh": "劳作",
+          "zhPinyin": "láozuò",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "lí": [
+      {
+        "translations": {
+          "es": "arado",
+          "en": "plow",
+          "de": "Pflug",
+          "pt": "arado",
+          "ru": "плуг",
+          "ruRom": "plug",
+          "zh": "犁",
+          "zhPinyin": "lí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "límíng": [
@@ -9097,6 +11999,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "piānzhāng": [
+      {
+        "translations": {
+          "es": "páginas",
+          "en": "pages",
+          "de": "Seiten",
+          "pt": "páginas",
+          "ru": "страницы",
+          "ruRom": "stranitsy",
+          "zh": "篇章",
+          "zhPinyin": "piānzhāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "pòhuài": [
@@ -9265,6 +12191,30 @@
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
+    "quántou": [
+      {
+        "translations": {
+          "es": "puño",
+          "en": "fist",
+          "de": "Faust",
+          "pt": "punho",
+          "ru": "кулак",
+          "ruRom": "kulak",
+          "zh": "拳头",
+          "zhPinyin": "quántou",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "rénmín": [
       {
         "translations": {
@@ -9386,6 +12336,30 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "shūxiě": [
+      {
+        "translations": {
+          "es": "escribir",
+          "en": "to write",
+          "de": "schreiben",
+          "pt": "escrever",
+          "ru": "писать",
+          "ruRom": "pisat'",
+          "zh": "书写",
+          "zhPinyin": "shūxiě",
+          "grammaticalCategory": "verbo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "sǐ": [
       {
         "translations": {
@@ -9504,6 +12478,52 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      },
+      {
+        "translations": {
+          "es": "miseria",
+          "en": "misery",
+          "de": "Elend",
+          "pt": "miséria",
+          "ru": "нищета",
+          "ruRom": "nishcheta",
+          "zh": "痛苦",
+          "zhPinyin": "tòngkǔ",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "tóngzhì": [
+      {
+        "translations": {
+          "es": "compañero",
+          "en": "comrade",
+          "de": "Genosse",
+          "pt": "companheiro",
+          "ru": "товарищ",
+          "ruRom": "tovarishch",
+          "zh": "同志",
+          "zhPinyin": "tóngzhì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "tuánjié": [
@@ -9578,6 +12598,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "tǔdì": [
+      {
+        "translations": {
+          "es": "tierra",
+          "en": "land",
+          "de": "Land",
+          "pt": "terra",
+          "ru": "земля",
+          "ruRom": "zemlya",
+          "zh": "土地",
+          "zhPinyin": "tǔdì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
     "wúchǎnjiējí": [
       {
         "translations": {
@@ -9649,6 +12693,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "wúzhèngfǔzhǔyìzhě": [
+      {
+        "translations": {
+          "es": "anarquista",
+          "en": "anarchist",
+          "de": "Anarchist",
+          "pt": "anarquista",
+          "ru": "анархист",
+          "ruRom": "anarkhist",
+          "zh": "无政府主义者",
+          "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+        },
+        "source": "dia-12-en-la-plaza-de-mi-pueblo",
+        "day": 12,
+        "lessons": [
+          12
+        ],
+        "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
     "xíngjìn": [

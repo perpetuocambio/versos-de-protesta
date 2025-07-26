@@ -14,7 +14,7 @@
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 62
+    "estimatedLoadTimeMs": 58
   },
   "chunks": [
     {
@@ -25,7 +25,7 @@
         "end": 11
       },
       "wordCount": 50,
-      "sizeKB": 31,
+      "sizeKB": 29,
       "path": "/internal/v1/dictionary/chunks/de-lessons-0-11.json"
     }
   ],
