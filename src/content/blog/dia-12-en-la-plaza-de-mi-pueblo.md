@@ -1,5 +1,5 @@
 ---
-title: "DÍA 12: EN LA PLAZA DE MI PUEBLO"
+title: "EN LA PLAZA DE MI PUEBLO"
 description: "Himno anarquista de la Guerra Civil Española que presenta un diálogo entre trabajador y terrateniente sobre la explotación laboral y los derechos de los obreros"
 pubDate: 2024-01-12
 contentType: "song-analysis"

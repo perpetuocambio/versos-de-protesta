@@ -432,29 +432,29 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ### CONCEPTOS FUNDAMENTALES
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
-|---|---|---|---|---|---|---|---|
-| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén |
-| **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng |
-| **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì |
-| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín |
-| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì |
-| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié |
-| **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ |
-| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|---|
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì | sustantivo |
+| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín | sustantivo |
+| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié | sustantivo |
+| **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ | sustantivo |
+| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì | sustantivo |
 
 ### VERBOS DE ACCIÓN REVOLUCIONARIA
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
-|---|---|---|---|---|---|---|---|
-| **luchar** | fight | kämpfen | lutar | бороться | borót'sya | 战斗 | zhàndòu |
-| **resistir** | resist | widerstehen | resistir | сопротивляться | soprotivlyát'sya | 反抗 | fǎnkàng |
-| **defender** | defend | verteidigen | defender | защищать | zashchishchát' | 捍卫 | hànwèi |
-| **unir** | unite | vereinen | unir | объединять | ob"edinyát' | 团结 | tuánjié |
-| **cantar** | sing | singen | cantar | петь | pet' | 唱 | chàng |
-| **marchar** | march | marschieren | marchar | маршировать | marshirovat' | 行进 | xíngjìn |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|---|
+| **luchar** | fight | kämpfen | lutar | бороться | borót'sya | 战斗 | zhàndòu | verbo |
+| **resistir** | resist | widerstehen | resistir | сопротивляться | soprotivlyát'sya | 反抗 | fǎnkàng | verbo |
+| **defender** | defend | verteidigen | defender | защищать | zashchishchát' | 捍卫 | hànwèi | verbo |
+| **unir** | unite | vereinen | unir | объединять | ob"edinyát' | 团结 | tuánjié | verbo |
+| **cantar** | sing | singen | cantar | петь | pet' | 唱 | chàng | verbo |
+| **marchar** | march | marschieren | marchar | маршировать | marshirovat' | 行进 | xíngjìn | verbo |
 
 ---
 
@@ -518,196 +518,52 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ---
 
-## 📚 BACKLOG EXPANDIDO - MÚSICA OBRERA INTERNACIONAL
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
 
-### SESIONES PLANIFICADAS CON ENFOQUE OBRERO
+### **🏭 Movimiento Obrero**
+- **es:** [Movimiento obrero](https://es.wikipedia.org/wiki/Movimiento_obrero)
+- **en:** [Labour movement](https://en.wikipedia.org/wiki/Labour_movement)
+- **de:** [Arbeiterbewegung](https://de.wikipedia.org/wiki/Arbeiterbewegung)
+- **pt:** [Movimento operário](https://pt.wikipedia.org/wiki/Movimento_oper%C3%A1rio)
+- **fr:** [Mouvement ouvrier](https://fr.wikipedia.org/wiki/Mouvement_ouvrier)
+- **ru:** [Рабочее движение](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
 
-#### **SEMANA 1: HIMNOS DE RESISTENCIA**
-1. **A las Barricadas** (España) → 5 idiomas ✅
-2. **L'Internationale** (Francia) → Versiones en 5 idiomas ✅
-3. **Bella Ciao** (Italia) → Tienes: "canallas, bella ciao" y "Bella ciao - Gómez Naharro"
-4. **We Shall Overcome** (EE.UU.) → Tienes: "We Shall Overcome | Patriotic Songs"
-5. **Warszawianka** (Polonia) → Tienes: "Warszawianka - 1970's Polish People's Army" y "Warszawianka! The Song of Warsaw!"
+### **🤝 Sindicalismo**
+- **es:** [Sindicalismo](https://es.wikipedia.org/wiki/Sindicalismo)
+- **en:** [Trade unionism](https://en.wikipedia.org/wiki/Trade_unionism)
+- **de:** [Gewerkschaftsbewegung](https://de.wikipedia.org/wiki/Gewerkschaftsbewegung)
+- **pt:** [Sindicalismo](https://pt.wikipedia.org/wiki/Sindicalismo)
+- **fr:** [Syndicalisme](https://fr.wikipedia.org/wiki/Syndicalisme)
+- **ru:** [Синдикализм](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC)
 
-#### **SEMANA 2: HIMNOS SINDICALES NACIONALES** 
-1. **Hijos del Pueblo** (España) → Tienes: "Hijos del Pueblo - Himno Anarquista"
-2. **Bandiera Rossa** (Italia) → Tienes: "Commandantes: Bandiera Rossa"
-3. **¡Ay, Carmela!** (España) → Tienes: "Ay Carmela" y "¡Ay Carmela! / Viva la Quince Brigada"
-4. **Unidos Obreros** (China) → Tienes: "'Unidos Obreros, Campesinos y Soldados' - Canción Comunista China"
-5. **Himno del Octubre Rojo** (Ruso) → Tienes: "Himno del Octubre Rojo - Гимн Красный Октябрь"
+### **🎵 La Internacional (Himno Obrero)**
+- **es:** [La Internacional](https://es.wikipedia.org/wiki/La_Internacional)
+- **en:** [The Internationale](https://en.wikipedia.org/wiki/The_Internationale)
+- **de:** [Die Internationale](https://de.wikipedia.org/wiki/Die_Internationale)
+- **pt:** [A Internacional](https://pt.wikipedia.org/wiki/A_Internacional)
+- **fr:** [L'Internationale](https://fr.wikipedia.org/wiki/L%27Internationale)
+- **ru:** [Интернационал](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB)
 
-#### **SEMANA 3: BRIGADAS INTERNACIONALES Y RESISTENCIA**
-1. **Himno de las Brigadas Internacionales** → Tienes: "Himno De Las Brigadas Internacionales"
-2. **Batallón Thälmann** → Tienes: "Batallón Thälmann [Canción de las Brigadas Internacionale]"
-3. **Wir sind des Geyers schwarzer Haufen** (Alemán) → Tienes: "Wir sind des Geyers schwarzer Haufen - German Communist Revolutionary song"
-4. **Adelante, Brigada Internacional** → Tienes: "Adelante, Brigada Internacional - Pi de la Serra"
-5. **No a la Intervención** (El Salvador) → Tienes: "No a la Intervención - No to Intervention (Salvadoran Revolutionary Song)"
+### **🌍 Primera Internacional (AIT Histórica)**
+- **es:** [Asociación Internacional de Trabajadores](https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Internacional_de_Trabajadores_%281864%29)
+- **en:** [International Workingmen's Association](https://en.wikipedia.org/wiki/International_Workingmen%27s_Association)
+- **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_Arbeiter-Assoziation_%281864%29)
+- **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Internacional_dos_Trabalhadores_%281864%29)
+- **fr:** [Association internationale des travailleurs](https://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs_%281864%29)
+- **ru:** [Международное товарищество рабочих](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D1%85)
 
-#### **SEMANA 4: HIMNOS REVOLUCIONARIOS Y ZAPATISTAS**
-1. **Himno del Ejército Zapatista** → Tienes: "Himno del Ejército ZAPATISTA de Liberación Nacional E.Z.L.N." y "himno zapatista/ezln/"
-2. **Venceremos** (Chile) → Tienes: "\"Venceremos\", himno de campaña de Salvador Allende"
-3. **Himno Guerrillero** → Tienes: "Los muertos de cristo-Himno guerrillero"
-4. **Música de la Revolución Cultural** (China) → Tienes: "伟大的无产阶级文革的音乐! Music of the Great Proletariat Cultural Revolution!"
-5. **The Russian Revolution** → Tienes: "The Russian Revolution (Red Army Choir)" y "The Russian Revolution (Instrumental)"
+### **🔥 Revolución Industrial**
+- **es:** [Revolución Industrial](https://es.wikipedia.org/wiki/Revoluci%C3%B3n_Industrial)
+- **en:** [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution)
+- **de:** [Industrielle Revolution](https://de.wikipedia.org/wiki/Industrielle_Revolution)
+- **pt:** [Revolução Industrial](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Industrial)
+- **fr:** [Révolution industrielle](https://fr.wikipedia.org/wiki/R%C3%A9volution_industrielle)
+- **ru:** [Промышленная революция](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F)
 
-### CRITERIOS SELECCIÓN MUSICAL OBRERA
-
-#### **TEMÁTICAS PRIORITARIAS:**
-- **Solidaridad internacional**: Canciones traducidas múltiples idiomas
-- **Lucha de clases**: Vocabulario específico sindical/político
-- **Historia obrera**: Eventos históricos específicos
-- **Resistencia**: Contra fascismo, dictaduras, opresión
-- **Trabajo**: Condiciones laborales, dignidad obrera
-
-#### **CARACTERÍSTICAS MUSICALES:**
-- **Marchas**: Ritmo de manifestación, fácil memorización
-- **Coros colectivos**: Repetitivos, participativos
-- **Melodías simples**: Cantables por masas
-- **Letra directa**: Mensaje político claro
-- **Adaptabilidad**: Traducibles manteniendo sentido
-
-### RECURSOS ADICIONALES MÚSICA OBRERA
-
-#### **ARCHIVOS HISTÓRICOS:**
-- **Smithsonian Folkways**: Protest songs internacionales
-- **Archivo Sonoro CNT**: Música anarquista española
-- **Labour History Archives**: Canciones sindicales británicas
-- **Российский государственный архив**: Música soviética
-- **中国革命歌曲**: Archivo canciones revolucionarias chinas
-
-#### **ARTISTAS CLAVE POR TRADICIÓN:**
-- **Militantes hasta la muerte**: Víctor Jara, Joe Hill, Wolf Biermann  
-- **Colectivos coherentes**: Quilapayún, Oktoberklub, Inti-Illimani
-- **Compositores comprometidos**: Hanns Eisler, Sergio Ortega, Luigi Nono
-- **Intérpretes políticos**: Paul Robeson, Nueva Canción (colectivo)
-
----
-
-## 🎯 METODOLOGÍA ESPECÍFICA MÚSICA OBRERA
-
-### **ANÁLISIS CULTURAL OBLIGATORIO:**
-- **Contexto histórico**: ¿En qué situación se creó?
-- **Función social**: ¿Para qué manifestaciones/eventos?
-- **Evolución**: ¿Cómo se adaptó en otros países?
-- **Impacto**: ¿Influencia en movimientos posteriores?
-
-### **VOCABULARIO ESPECIALIZADO:**
-- **Términos sindicales**: strike, huelga, Streik, grève, забастовка, 罢工
-- **Conceptos políticos**: clase, exploitation, Ausbeutung, opressão, эксплуатация, 剥削
-- **Jerga obrera**: Específica por oficio y país
-- **Expresiones de lucha**: Consignas, lemas, gritos
-
-### **PRONUNCIACIÓN CORAL:**
-- **Ritmo de marcha**: Acentos fuertes para caminata
-- **Coros masivos**: Pronunciación clara para multitudes
-- **Consignas**: Ritmo pegadizo para memorización rápida
-
-### **GRAMÁTICA APLICADA:**
-- **Imperativos colectivos**: "¡Workers, unite!" vs "¡Obreros, uníos!"
-- **Subjuntivo esperanza**: "Que triunfe la justicia" vs "May justice triumph"
-- **Futuro promesa**: "Venceremos" vs "We shall overcome"
-
----
-
-## 🎸 METODOLOGÍA MUSICAL ESPECÍFICA
-
-### **ACORDES FUNDAMENTALES OBREROS**
-
-#### **PROGRESIÓN BÁSICA: Am - F - C - G** (Tonalidad Am - natural)
-```
-Am: Lucha, resistencia
-F:  Solidaridad 
-C:  Esperanza
-G:  Triunfo
-```
-
-#### **PROGRESIÓN ALTERNATIVA: C - G - Am - F** (Más accesible)
-- **Uso**: Canciones más melódicas, himnos solemnes
-- **Carácter**: Mayor = esperanzador, menor = melancólico/combativo
-
-### **PATRONES RÍTMICOS POR TRADICIÓN MUSICAL OBRERA**
-
-#### Español **PATRÓN ESPAÑOL** - Compás 4/4
-```
-Tiempo:  1  e  +  a  2  e  +  a  3  e  +  a  4  e  +  a
-Rasgueo: ↓     ↑     ↓  ↑  ↓     ↑     ↓  ↑
-Función: Ma-ni-fes-ta-ción, ma-ni-fes-ta-ción
-```
-
-#### English **PATRÓN ANGLÓFONO** - Folk tradicional
-```
-Tiempo:  1  +  2  +  3  +  4  +
-Rasgueo: ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑
-Función: Steady protest march rhythm
-```
-
-#### Deutsch **PATRÓN ALEMÁN** - Marcha disciplinada  
-```
-Tiempo:  1  2  3  4  1  2  3  4
-Rasgueo: ↓     ↓     ↓     ↓   
-Función: Military precision, Arbeitermarsch
-```
-
-#### Русский **PATRÓN RUSO** - Folk rápido
-```
-Tiempo:  1 e + a 2 e + a 3 e + a 4 e + a
-Rasgueo: ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑  ↓  ↑
-Función: Rapid alternating, Russian folk style
-```
-
-### **TEMPO PEDAGÓGICO POR IDIOMA**
-
-| Idioma | BPM Ideal | Razón Pedagógica | Tipo Musical |
-|--------|-----------|------------------|--------------|
-| **Español** | 120-140 BPM | Ritmo natural del habla española | Marcha/Copla |
-| **English Inglés** | 100-120 BPM | Permite clara articulación consonántica | Folk/Protest |
-| **Deutsch Alemán** | 80-100 BPM | Facilita pronunciación de consonantes complejas | Marcha/Lied |
-| **Português Português** | 110-130 BPM | Acomoda nasalizaciones y diptongos | Fado/March |
-| **Русский Ruso** | 90-110 BPM | Permite palatalizaciones claras | Folk/Himno |
-| **中文 Chino** | 80-100 BPM | Esencial para tonos lexicales precisos | Tradicional |
-
-### **ACENTOS LINGÜÍSTICOS vs ACENTOS MUSICALES**
-
-#### **ESPAÑOL - Coincidencia natural**
-```
-tra-ba-JA-dor    (3ª sílaba acentuada)
- 1  2  3   4     (3º tiempo fuerte)
- ↓     ↓         (acento musical coincide)
-```
-
-#### **English INGLÉS - Adaptación necesaria**
-```
-WOR-ker          (1ª sílaba acentuada)
- 1  2  3  4      (1º tiempo fuerte)
- ↓              (coincidencia natural)
-```
-
-#### **Deutsch ALEMÁN - Complejidad consonántica**
-```
-AR-bei-ter      (1ª sílaba acentuada)
- 1   2   3      (1º tiempo fuerte)
- ↓              (acentuar consonantes claramente)
-```
-
-#### **中文 CHINO - Tonos prioritarios**
-```
-gōng-rén        (1º tono alto, 2º tono ascendente)
-  ¯    /        (tonos lexicales)
-  ↓    ↑        (acentos musicales DEBEN seguir tonos)
-```
-- **No acelerar** - los tonos son más importantes que el ritmo
-
-### **PRONUNCIACIÓN CANTADA vs HABLADA**
-
-#### **DIFERENCIAS CRÍTICAS:**
-
-| Idioma | Hablado [IPA] | Cantado [IPA] | Cambio |
-|--------|---------------|---------------|---------|
-| **Español** | trabajador [tɾaβaχaˈðoɾ] | trabajador [trabahaˈdor] | Consonantes más claras |
-| **English** | worker [ˈwɜːrkɚ] | worker [ˈwɝːrkər] | R más marcada |
-| **Deutsch** | Arbeiter [ˈaɐ̯baɪtɐ] | Arbeiter [ˈarbeiter] | R consonántica |
-| **Português** | trabalhador [tɾabaʎaˈdoɾ] | trabalhador [trabaʎaˈdor] | Menos nasalización |
-| **Русский** | рабочий [rɐˈbotʂɪj] | рабочий [raˈbotʃij] | Vocales más abiertas |
-| **中文** | 工人 [kʊŋ˥ ʐən˧˥] | 工人 [kuŋ˥ ʐən˧˥] | Tonos MÁS marcados |
-
----
+### **📅 Día Internacional de los Trabajadores**
+- **es:** [Día Internacional de los Trabajadores](https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores)
+- **en:** [International Workers' Day](https://en.wikipedia.org/wiki/International_Workers%27_Day)
+- **de:** [Tag der Arbeit](https://de.wikipedia.org/wiki/Tag_der_Arbeit)
+- **pt:** [Dia do Trabalhador](https://pt.wikipedia.org/wiki/Dia_do_Trabalhador)
+- **fr:** [Fête du Travail](https://fr.wikipedia.org/wiki/F%C3%AAte_du_Travail)
+- **ru:** [День международной солидарности трудящихся](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D1%8C_%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D1%81%D0%BE%D0%BB%D0%B8%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%82%D1%80%D1%83%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F)

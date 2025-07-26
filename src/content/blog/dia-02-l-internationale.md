@@ -838,6 +838,58 @@ Estribillo:| C     | G     | Am    | Dm    |
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### **🎭 Eugène Pottier (Letrista)**
+- **fr:** [Eugène Pottier](https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Pottier)
+- **es:** [Eugène Pottier](https://es.wikipedia.org/wiki/Eug%C3%A8ne_Pottier)
+- **en:** [Eugène Pottier](https://en.wikipedia.org/wiki/Eug%C3%A8ne_Pottier)
+- **de:** [Eugène Pottier](https://de.wikipedia.org/wiki/Eug%C3%A8ne_Pottier)
+- **pt:** [Eugène Pottier](https://pt.wikipedia.org/wiki/Eug%C3%A8ne_Pottier)
+- **ru:** [Потье, Эжен](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D1%8C%D0%B5,_%D0%AD%D0%B6%D0%B5%D0%BD)
+
+### **🎵 Pierre Degeyter (Compositor)**
+- **fr:** [Pierre Degeyter](https://fr.wikipedia.org/wiki/Pierre_Degeyter)
+- **es:** [Pierre Degeyter](https://es.wikipedia.org/wiki/Pierre_Degeyter)
+- **en:** [Pierre De Geyter](https://en.wikipedia.org/wiki/Pierre_De_Geyter)
+- **de:** [Pierre Degeyter](https://de.wikipedia.org/wiki/Pierre_Degeyter)
+- **pt:** [Pierre Degeyter](https://pt.wikipedia.org/wiki/Pierre_Degeyter)
+- **ru:** [Дегейтер, Пьер](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%B3%D0%B5%D0%B9%D1%82%D0%B5%D1%80,_%D0%9F%D1%8C%D0%B5%D1%80)
+
+### **🏛️ Comuna de París (1871)**
+- **fr:** [Commune de Paris (1871)](https://fr.wikipedia.org/wiki/Commune_de_Paris_%281871%29)
+- **es:** [Comuna de París](https://es.wikipedia.org/wiki/Comuna_de_Par%C3%ADs)
+- **en:** [Paris Commune](https://en.wikipedia.org/wiki/Paris_Commune)
+- **de:** [Pariser Kommune](https://de.wikipedia.org/wiki/Pariser_Kommune)
+- **pt:** [Comuna de Paris](https://pt.wikipedia.org/wiki/Comuna_de_Paris)
+- **ru:** [Парижская коммуна](https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B0)
+
+### **🌍 Segunda Internacional**
+- **fr:** [Deuxième Internationale](https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_Internationale)
+- **es:** [Segunda Internacional](https://es.wikipedia.org/wiki/Segunda_Internacional)
+- **en:** [Second International](https://en.wikipedia.org/wiki/Second_International)
+- **de:** [Zweite Internationale](https://de.wikipedia.org/wiki/Zweite_Internationale)
+- **pt:** [Segunda Internacional](https://pt.wikipedia.org/wiki/Segunda_Internacional)
+- **ru:** [Второй интернационал](https://ru.wikipedia.org/wiki/%D0%92%D1%82%D0%BE%D1%80%D0%BE%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB)
+
+### **🚩 Socialismo**
+- **fr:** [Socialisme](https://fr.wikipedia.org/wiki/Socialisme)
+- **es:** [Socialismo](https://es.wikipedia.org/wiki/Socialismo)
+- **en:** [Socialism](https://en.wikipedia.org/wiki/Socialism)
+- **de:** [Sozialismus](https://de.wikipedia.org/wiki/Sozialismus)
+- **pt:** [Socialismo](https://pt.wikipedia.org/wiki/Socialismo)
+- **ru:** [Социализм](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC)
+
+### **🔴 Proletariado**
+- **fr:** [Prolétariat](https://fr.wikipedia.org/wiki/Prol%C3%A9tariat)
+- **es:** [Proletariado](https://es.wikipedia.org/wiki/Proletariado)
+- **en:** [Proletariat](https://en.wikipedia.org/wiki/Proletariat)
+- **de:** [Proletariat](https://de.wikipedia.org/wiki/Proletariat)
+- **pt:** [Proletariado](https://pt.wikipedia.org/wiki/Proletariado)
+- **ru:** [Пролетариат](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%80%D0%B8%D0%B0%D1%82)
+
+---
+
 ## 📚 RECURSOS ADICIONALES SOCIALISMO INTERNACIONAL
 
 ### **Archivos Históricos de L'Internationale**
