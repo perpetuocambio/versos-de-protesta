@@ -256,19 +256,26 @@ immediate_quality_improvements:
           description: "Añadir fuentes de investigación multilingües a Días 0-11"
           pattern: "Aplicar metodología establecida en Día 12"
           output: "Secciones '🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES' en todas las entradas"
-          status: "en_progreso"
+          status: "completado_hasta_dia_5"
+          completed: ["Día 0", "Día 1", "Día 2", "Día 3", "Día 4", "Día 5"]
+          pending: ["Día 6", "Día 7", "Día 8", "Día 9", "Día 10", "Día 11"]
           
       - wikipedia_links_verification:
           description: "Verificar enlaces Wikipedia usando WebFetch metodología"
           pattern: "Empezar desde idioma principal → identificar idiomas disponibles → verificar existencia"
           output: "Enlaces verificados y corregidos en todas las entradas"
-          status: "en_progreso"
+          status: "completado_hasta_dia_5"
+          completed: ["Día 0", "Día 1", "Día 2", "Día 3", "Día 4", "Día 5"]
+          pending: ["Día 6", "Día 7", "Día 8", "Día 9", "Día 10", "Día 11"]
           
       - vocabulary_categories_completion:
           description: "Añadir categorías gramaticales en todas las tablas de vocabulario"
           pattern: "8 columnas obligatorias: ES|EN|DE|PT|RU|RU-Rom|ZH|ZH-Pinyin|Categoría"
           output: "Tablas vocabulario completas según CLAUDE.md"
-          status: "en_progreso"
+          status: "completado_hasta_dia_5"
+          completed: ["Día 0", "Día 1", "Día 2", "Día 3", "Día 4", "Día 5"]
+          pending: ["Día 6", "Día 7", "Día 8", "Día 9", "Día 10", "Día 11"]
+          note: "Días 1-5 ya tenían categorías, se añadió columna Categoría al Día 0"
           
       - lyrics_accuracy_verification:
           description: "Verificar letras de canciones contra fuentes Wikipedia"
@@ -284,14 +291,16 @@ immediate_quality_improvements:
           status: "pendiente"
 
 next_immediate_actions:
-  # ORDEN DE PRIORIDAD ACTUALIZADO
-  1. "CRÍTICO: Completar mejoras calidad Días 0-11 (fuentes, enlaces, categorías, letras)"
-  2. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin)"
-  3. "ALTA: Crear estructura de directorios nueva"
-  4. "ALTA: Script de descarga de trazos chinos con atribución" 
-  5. "MEDIA: Primer prototipo de modal chino mejorado"
-  6. "MEDIA: Base de datos de compositores (manual inicial)"
-  7. "BAJA: Guía IPA para un idioma piloto"
+  # ORDEN DE PRIORIDAD ACTUALIZADO (26/07/2024)
+  1. "CRÍTICO: Completar mejoras calidad Días 6-11 (fuentes, enlaces, categorías, letras) - [DÍAS 0-5 COMPLETADOS]"
+  2. "CRÍTICO: Verificar y corregir letras de canciones contra Wikipedia en Días 0-11"
+  3. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin: 64 vs 67-68)"
+  4. "IMPORTANTE: Aplicar regla de origen geográfico - si canción no tiene origen específico, asumir país de uso histórico"
+  5. "ALTA: Crear estructura de directorios nueva"
+  6. "ALTA: Script de descarga de trazos chinos con atribución" 
+  7. "MEDIA: Primer prototipo de modal chino mejorado"
+  8. "MEDIA: Base de datos de compositores (manual inicial)"
+  9. "BAJA: Guía IPA para un idioma piloto"
 
 success_metrics:
   chinese_system:

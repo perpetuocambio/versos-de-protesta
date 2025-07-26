@@ -1109,6 +1109,202 @@ Ruso:             [druk | ˈslɨ.ʂɨʂ lʲi]  (yambo + dáctilo)
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### **🎵 Anna Marly - Compositora y Resistente**
+
+#### **ESPAÑOL**
+*   **Anna Marly**: [Anna Marly](https://es.wikipedia.org/wiki/Anna_Marly) - Compositora rusa-francesa del himno de la Resistencia
+*   **Biografía musical**: Cantautora de resistencia nacida en San Petersburgo (1917-2006)
+*   **Contexto histórico**: Emigración rusa y Resistencia francesa durante la Segunda Guerra Mundial
+
+#### **FRANÇAIS**
+*   **Anna Marly**: [Anna Marly](https://fr.wikipedia.org/wiki/Anna_Marly) - Compositrice du "Chant des Partisans"
+*   **Carrière artistique**: Chanteuse-compositrice née à Saint-Pétersbourg, naturalisée française
+*   **Résistance française**: Artiste engagée dans les Forces Françaises Libres à Londres
+
+#### **ENGLISH**
+*   **Anna Marly**: [Anna Marly](https://en.wikipedia.org/wiki/Anna_Marly) - Russian-French composer of resistance songs
+*   **Musical biography**: Singer-songwriter who composed the music for French Resistance anthem
+*   **World War II**: Artist who worked with Free French Forces in London during Nazi occupation
+
+#### **DEUTSCH**
+*   **Anna Marly**: [Anna Marly](https://de.wikipedia.org/wiki/Anna_Marly) - Russisch-französische Widerstandskomponistin
+*   **Musikalische Laufbahn**: Liedermacherin geboren in Sankt Petersburg, französische Staatsbürgerin
+*   **Französischer Widerstand**: Künstlerin der Forces Françaises Libres in London
+
+#### **PORTUGUÊS**
+*   **Anna Marly**: [Anna Marly](https://pt.wikipedia.org/wiki/Anna_Marly) - Compositora russa-francesa de canções de resistência
+*   **Biografia musical**: Cantora-compositora nascida em São Petersburgo, naturalizada francesa
+*   **Resistência francesa**: Artista engajada nas Forças Francesas Livres durante a ocupação nazista
+
+#### **РУССКИЙ**
+*   **Анна Марли**: [Анна Марли](https://ru.wikipedia.org/wiki/Анна_Марли) - Русско-французская композитор песен сопротивления
+*   **Музыкальная биография**: Певица-композитор, родившаяся в Санкт-Петербурге (1917-2006)
+*   **Французское сопротивление**: Художник Сил Свободной Франции в Лондоне во время войны
+
+### **🎤 Le Chant des Partisans - Himno de la Resistencia**
+
+#### **ESPAÑOL**
+*   **Le Chant des Partisans**: [Le Chant des partisans](https://es.wikipedia.org/wiki/Le_Chant_des_partisans) - Himno oficial de la Resistencia francesa
+*   **Historia de la canción**: Compuesta en 1941 por Anna Marly, letra francesa de Kessel y Druon (1943)
+*   **Significado histórico**: Símbolo de la lucha antifascista europea durante la Segunda Guerra Mundial
+
+#### **FRANÇAIS**
+*   **Le Chant des Partisans**: [Le Chant des partisans](https://fr.wikipedia.org/wiki/Le_Chant_des_partisans) - Hymne officiel de la Résistance française
+*   **Création musicale**: Musique composée par Anna Marly (1941), paroles de Kessel et Druon (1943)
+*   **Impact culturel**: Chanson emblématique de la lutte contre l'occupation nazie en Europe
+
+#### **ENGLISH**
+*   **Le Chant des Partisans**: [Le Chant des Partisans](https://en.wikipedia.org/wiki/Le_Chant_des_Partisans) - Official anthem of French Resistance
+*   **Song history**: Music composed by Anna Marly (1941), French lyrics by Kessel and Druon (1943)
+*   **Cultural significance**: Symbol of anti-fascist struggle in occupied Europe during WWII
+
+#### **DEUTSCH**
+*   **Le Chant des Partisans**: [Le Chant des partisans](https://de.wikipedia.org/wiki/Le_Chant_des_partisans) - Hymne des französischen Widerstands
+*   **Entstehungsgeschichte**: Musik von Anna Marly (1941), französischer Text von Kessel und Druon (1943)
+*   **Historische Bedeutung**: Symbol des antifaschistischen Kampfes im besetzten Europa
+
+#### **PORTUGUÊS**
+*   **Le Chant des Partisans**: [Le Chant des Partisans](https://pt.wikipedia.org/wiki/Le_Chant_des_Partisans) - Hino oficial da Resistência francesa
+*   **História da canção**: Música composta por Anna Marly (1941), letra francesa de Kessel e Druon (1943)
+*   **Importância cultural**: Símbolo da luta antifascista na Europa ocupada durante a Segunda Guerra
+
+#### **РУССКИЙ**
+*   **Песня партизан**: [Песня партизан](https://ru.wikipedia.org/wiki/Песня_партизан) - Официальный гимн французского Сопротивления
+*   **История создания**: Музыка Анны Марли (1941), французский текст Кесселя и Дрюона (1943)
+*   **Культурное значение**: Символ антифашистской борьбы в оккупированной Европе
+
+### **🏛️ Resistencia Europea Antifascista (1940-1945)**
+
+#### **ESPAÑOL**
+*   **Resistencia francesa**: [Resistencia francesa](https://es.wikipedia.org/wiki/Resistencia_francesa) - Movimiento de resistencia durante la ocupación nazi
+*   **Segunda Guerra Mundial**: [Segunda Guerra Mundial](https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial) - Conflicto global (1939-1945)
+*   **Ocupación alemana de Francia**: [Ocupación alemana de Francia](https://es.wikipedia.org/wiki/Ocupación_alemana_de_Francia) - Régimen de Vichy y resistencia
+
+#### **FRANÇAIS**
+*   **Résistance française**: [Résistance intérieure française](https://fr.wikipedia.org/wiki/Résistance_intérieure_française) - Mouvement de résistance pendant l'Occupation
+*   **Seconde Guerre mondiale**: [Seconde Guerre mondiale](https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale) - Conflit mondial (1939-1945)
+*   **France libre**: [France libre](https://fr.wikipedia.org/wiki/France_libre) - Mouvement de résistance dirigé par Charles de Gaulle
+
+#### **ENGLISH**
+*   **French Resistance**: [French Resistance](https://en.wikipedia.org/wiki/French_Resistance) - Resistance movement during Nazi occupation
+*   **World War II**: [World War II](https://en.wikipedia.org/wiki/World_War_II) - Global conflict (1939-1945)
+*   **Free France**: [Free France](https://en.wikipedia.org/wiki/Free_France) - Resistance movement led by Charles de Gaulle
+
+#### **DEUTSCH**
+*   **Französischer Widerstand**: [Résistance](https://de.wikipedia.org/wiki/Résistance) - Widerstandsbewegung während der Besatzung
+*   **Zweiter Weltkrieg**: [Zweiter Weltkrieg](https://de.wikipedia.org/wiki/Zweiter_Weltkrieg) - Globaler Konflikt (1939-1945)
+*   **Freies Frankreich**: [Freies Frankreich](https://de.wikipedia.org/wiki/Freies_Frankreich) - Widerstandsbewegung unter Charles de Gaulle
+
+#### **PORTUGUÊS**
+*   **Resistência francesa**: [Resistência Francesa](https://pt.wikipedia.org/wiki/Resistência_Francesa) - Movimento de resistência durante a ocupação nazista
+*   **Segunda Guerra Mundial**: [Segunda Guerra Mundial](https://pt.wikipedia.org/wiki/Segunda_Guerra_Mundial) - Conflito global (1939-1945)
+*   **França Livre**: [França Livre](https://pt.wikipedia.org/wiki/França_Livre) - Movimento de resistência liderado por Charles de Gaulle
+
+#### **РУССКИЙ**
+*   **Французское сопротивление**: [Движение Сопротивления (Франция)](https://ru.wikipedia.org/wiki/Движение_Сопротивления_(Франция)) - Движение сопротивления во время оккупации
+*   **Вторая мировая война**: [Вторая мировая война](https://ru.wikipedia.org/wiki/Вторая_мировая_война) - Глобальный конфликт (1939-1945)
+*   **Свободная Франция**: [Свободная Франция](https://ru.wikipedia.org/wiki/Свободная_Франция) - Движение сопротивления под руководством Шарля де Голля
+
+### **⚔️ Partisanos y Guerrilla Europea**
+
+#### **ESPAÑOL**
+*   **Partisanos**: [Partisano](https://es.wikipedia.org/wiki/Partisano) - Combatientes de resistencia en la Europa ocupada
+*   **Guerra de guerrillas**: [Guerra de guerrillas](https://es.wikipedia.org/wiki/Guerra_de_guerrillas) - Táctica militar de resistencia asimétrica
+*   **Sabotaje**: [Sabotaje](https://es.wikipedia.org/wiki/Sabotaje) - Táctica de destrucción de infraestructura enemiga
+
+#### **FRANÇAIS**
+*   **Partisans**: [Partisan](https://fr.wikipedia.org/wiki/Partisan) - Combattants de la résistance en Europe occupée
+*   **Guérilla**: [Guérilla](https://fr.wikipedia.org/wiki/Guérilla) - Tactique militaire de résistance asymétrique
+*   **Sabotage**: [Sabotage](https://fr.wikipedia.org/wiki/Sabotage) - Tactique de destruction des infrastructures ennemies
+
+#### **ENGLISH**
+*   **Partisans**: [Partisan (military)](https://en.wikipedia.org/wiki/Partisan_(military)) - Resistance fighters in occupied Europe
+*   **Guerrilla warfare**: [Guerrilla warfare](https://en.wikipedia.org/wiki/Guerrilla_warfare) - Asymmetric resistance military tactics
+*   **Sabotage**: [Sabotage](https://en.wikipedia.org/wiki/Sabotage) - Tactic of destroying enemy infrastructure
+
+#### **DEUTSCH**
+*   **Partisanen**: [Partisan](https://de.wikipedia.org/wiki/Partisan) - Widerstandskämpfer im besetzten Europa
+*   **Guerillakrieg**: [Guerillakrieg](https://de.wikipedia.org/wiki/Guerillakrieg) - Asymmetrische Widerstandstaktik
+*   **Sabotage**: [Sabotage](https://de.wikipedia.org/wiki/Sabotage) - Taktik der Zerstörung feindlicher Infrastruktur
+
+#### **PORTUGUÊS**
+*   **Partidários**: [Partidário](https://pt.wikipedia.org/wiki/Partidário) - Combatentes da resistência na Europa ocupada
+*   **Guerra de guerrilha**: [Guerra de guerrilha](https://pt.wikipedia.org/wiki/Guerra_de_guerrilha) - Táctica militar de resistência assimétrica
+*   **Sabotagem**: [Sabotagem](https://pt.wikipedia.org/wiki/Sabotagem) - Táctica de destruição de infraestrutura inimiga
+
+#### **РУССКИЙ**
+*   **Партизаны**: [Партизаны](https://ru.wikipedia.org/wiki/Партизаны) - Бойцы сопротивления в оккупированной Европе
+*   **Партизанская война**: [Партизанская война](https://ru.wikipedia.org/wiki/Партизанская_война) - Асимметричная военная тактика сопротивления
+*   **Диверсия**: [Диверсия](https://ru.wikipedia.org/wiki/Диверсия) - Тактика разрушения вражеской инфраструктуры
+
+### **🌍 Solidaridad Internacional Antifascista**
+
+#### **ESPAÑOL**
+*   **Brigadas Internacionales**: [Brigadas Internacionales](https://es.wikipedia.org/wiki/Brigadas_Internacionales) - Voluntarios internacionales en la Guerra Civil Española
+*   **Antifascismo**: [Antifascismo](https://es.wikipedia.org/wiki/Antifascismo) - Movimiento político contra el fascismo
+*   **Internacionalismo proletario**: [Internacionalismo proletario](https://es.wikipedia.org/wiki/Internacionalismo_proletario) - Solidaridad obrera internacional
+
+#### **FRANÇAIS**
+*   **Brigades internationales**: [Brigades internationales](https://fr.wikipedia.org/wiki/Brigades_internationales) - Volontaires internationaux en Guerre civile espagnole
+*   **Antifascisme**: [Antifascisme](https://fr.wikipedia.org/wiki/Antifascisme) - Mouvement politique contre le fascisme
+*   **Internationalisme prolétarien**: [Internationalisme prolétarien](https://fr.wikipedia.org/wiki/Internationalisme_prolétarien) - Solidarité ouvrière internationale
+
+#### **ENGLISH**
+*   **International Brigades**: [International Brigades](https://en.wikipedia.org/wiki/International_Brigades) - International volunteers in Spanish Civil War
+*   **Anti-fascism**: [Anti-fascism](https://en.wikipedia.org/wiki/Anti-fascism) - Political movement against fascism
+*   **Proletarian internationalism**: [Proletarian internationalism](https://en.wikipedia.org/wiki/Proletarian_internationalism) - International working-class solidarity
+
+#### **DEUTSCH**
+*   **Internationale Brigaden**: [Internationale Brigaden](https://de.wikipedia.org/wiki/Internationale_Brigaden) - Internationale Freiwillige im Spanischen Bürgerkrieg
+*   **Antifaschismus**: [Antifaschismus](https://de.wikipedia.org/wiki/Antifaschismus) - Politische Bewegung gegen den Faschismus
+*   **Proletarischer Internationalismus**: [Proletarischer Internationalismus](https://de.wikipedia.org/wiki/Proletarischer_Internationalismus) - Internationale Arbeitersolidarität
+
+#### **PORTUGUÊS**
+*   **Brigadas Internacionais**: [Brigadas Internacionais](https://pt.wikipedia.org/wiki/Brigadas_Internacionais) - Voluntários internacionais na Guerra Civil Espanhola
+*   **Antifascismo**: [Antifascismo](https://pt.wikipedia.org/wiki/Antifascismo) - Movimento político contra o fascismo
+*   **Internacionalismo proletário**: [Internacionalismo proletário](https://pt.wikipedia.org/wiki/Internacionalismo_proletário) - Solidariedade operária internacional
+
+#### **РУССКИЙ**
+*   **Интернациональные бригады**: [Интернациональные бригады](https://ru.wikipedia.org/wiki/Интернациональные_бригады) - Международные добровольцы в Гражданской войне в Испании
+*   **Антифашизм**: [Антифашизм](https://ru.wikipedia.org/wiki/Антифашизм) - Политическое движение против фашизма
+*   **Пролетарский интернационализм**: [Пролетарский интернационализм](https://ru.wikipedia.org/wiki/Пролетарский_интернационализм) - Международная рабочая солидарность
+
+### **🎼 Música de Protesta y Resistencia**
+
+#### **ESPAÑOL**
+*   **Música de protesta**: [Música de protesta](https://es.wikipedia.org/wiki/Música_de_protesta) - Género musical de denuncia social y política
+*   **Nueva Canción**: [Nueva Canción](https://es.wikipedia.org/wiki/Nueva_Canción) - Movimiento musical latinoamericano de compromiso social
+*   **Canción política**: [Canción política](https://es.wikipedia.org/wiki/Canción_política) - Música con contenido ideológico y social
+
+#### **FRANÇAIS**
+*   **Chanson engagée**: [Chanson engagée](https://fr.wikipedia.org/wiki/Chanson_engagée) - Genre musical de dénonciation sociale et politique
+*   **Chanson de résistance**: [Chanson de résistance](https://fr.wikipedia.org/wiki/Chanson_de_résistance) - Musique de la résistance française
+*   **Chanson révolutionnaire**: [Chanson révolutionnaire](https://fr.wikipedia.org/wiki/Chanson_révolutionnaire) - Musique à contenu révolutionnaire
+
+#### **ENGLISH**
+*   **Protest song**: [Protest song](https://en.wikipedia.org/wiki/Protest_song) - Musical genre of social and political denunciation
+*   **Revolutionary song**: [Revolutionary song](https://en.wikipedia.org/wiki/Revolutionary_song) - Music with revolutionary ideological content
+*   **Political music**: [Political music](https://en.wikipedia.org/wiki/Political_music) - Music with political and social themes
+
+#### **DEUTSCH**
+*   **Protestlied**: [Protestlied](https://de.wikipedia.org/wiki/Protestlied) - Musikalisches Genre sozialer und politischer Anklage
+*   **Politisches Lied**: [Politisches Lied](https://de.wikipedia.org/wiki/Politisches_Lied) - Musik mit politischen und sozialen Themen
+*   **Widerstandslied**: [Widerstandslied](https://de.wikipedia.org/wiki/Widerstandslied) - Musik des deutschen Widerstands
+
+#### **PORTUGUÊS**
+*   **Música de protesto**: [Música de protesto](https://pt.wikipedia.org/wiki/Música_de_protesto) - Género musical de denúncia social e política
+*   **Canção política**: [Canção política](https://pt.wikipedia.org/wiki/Canção_política) - Música com conteúdo ideológico e social
+*   **Música de intervenção**: [Música de intervenção](https://pt.wikipedia.org/wiki/Música_de_intervenção) - Música portuguesa de contestação social
+
+#### **РУССКИЙ**
+*   **Песня протеста**: [Песня протеста](https://ru.wikipedia.org/wiki/Песня_протеста) - Музыкальный жанр социального и политического протеста
+*   **Революционная песня**: [Революционная песня](https://ru.wikipedia.org/wiki/Революционная_песня) - Музыка с революционным идеологическим содержанием
+*   **Политическая музыка**: [Политическая музыка](https://ru.wikipedia.org/wiki/Политическая_музыка) - Музыка с политическими и социальными темами
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "Le Chant des Partisans"
@@ -1116,7 +1312,7 @@ Ruso:             [druk | ˈslɨ.ʂɨʂ lʲi]  (yambo + dáctilo)
 *   **fr:** [Le Chant des Partisans](https://fr.wikipedia.org/wiki/Le_Chant_des_partisans)
 *   **es:** [El canto de los partisanos](https://es.wikipedia.org/wiki/Le_Chant_des_partisans)
 *   **en:** [Le Chant des Partisans](https://en.wikipedia.org/wiki/Le_Chant_des_Partisans)
-*   **de:** [Le Chant des Partisans](https://de.wikipedia.org/wiki/Le_Chant_des_Partisans)
+*   **de:** [Le Chant des Partisans](https://de.wikipedia.org/wiki/Le_Chant_des_partisans)
 *   **ru:** [Песня партизан](https://ru.wikipedia.org/wiki/Песня_партизан)
 
 ### 🏛️ Contexto Histórico: "Resistencia francesa"

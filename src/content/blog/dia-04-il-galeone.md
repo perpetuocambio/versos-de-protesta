@@ -968,6 +968,53 @@ Pàolā Nǐkēlāqí de "Il Galeone" chuàngzuò yú 1970 nián, shì 60 niánd�
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### **🎸 Paola Nicolazzi (Artista)**
+- **it:** [Paola Nicolazzi](https://it.wikipedia.org/wiki/Paola_Nicolazzi)
+- **es:** [Paola Nicolazzi](https://es.wikipedia.org/wiki/Paola_Nicolazzi)
+- **en:** [Paola Nicolazzi](https://en.wikipedia.org/wiki/Paola_Nicolazzi)
+
+### **🔴 Anni di piombo (Años de Plomo)**
+- **it:** [Anni di piombo](https://it.wikipedia.org/wiki/Anni_di_piombo)
+- **es:** [Años de plomo (Italia)](https://es.wikipedia.org/wiki/A%C3%B1os_de_plomo_%28Italia%29)
+- **en:** [Years of Lead (Italy)](https://en.wikipedia.org/wiki/Years_of_Lead_%28Italy%29)
+- **de:** [Bleierne Jahre (Italien)](https://de.wikipedia.org/wiki/Bleierne_Jahre_%28Italien%29)
+- **pt:** [Anos de chumbo (Itália)](https://pt.wikipedia.org/wiki/Anos_de_chumbo_%28It%C3%A1lia%29)
+- **fr:** [Années de plomb (Italie)](https://fr.wikipedia.org/wiki/Ann%C3%A9es_de_plomb_%28Italie%29)
+
+### **📚 Movimento del '77 (Movimiento de 1977)**
+- **it:** [Movimento del '77](https://it.wikipedia.org/wiki/Movimento_del_%2777)
+- **es:** [Movimiento del 77](https://es.wikipedia.org/wiki/Movimiento_del_77)
+- **en:** [Movement of 1977](https://en.wikipedia.org/wiki/Movement_of_1977)
+- **de:** [Bewegung von 1977](https://de.wikipedia.org/wiki/Bewegung_von_1977)
+- **pt:** [Movimento de 1977](https://pt.wikipedia.org/wiki/Movimento_de_1977)
+
+### **✊ Movimento studentesco italiano**
+- **it:** [Movimento studentesco](https://it.wikipedia.org/wiki/Movimento_studentesco)
+- **es:** [Movimiento estudiantil de 1968](https://es.wikipedia.org/wiki/Movimiento_estudiantil_de_1968)
+- **en:** [Italian student movement](https://en.wikipedia.org/wiki/Italian_student_movement)
+- **de:** [Studentenbewegung](https://de.wikipedia.org/wiki/Studentenbewegung)
+- **pt:** [Movimento estudantil italiano](https://pt.wikipedia.org/wiki/Movimento_estudantil_italiano)
+- **fr:** [Mouvement étudiant italien](https://fr.wikipedia.org/wiki/Mouvement_%C3%A9tudiant_italien)
+
+### **🎵 Canzone italiana di protesta**
+- **it:** [Canzone di protesta](https://it.wikipedia.org/wiki/Canzone_di_protesta)
+- **es:** [Canción protesta italiana](https://es.wikipedia.org/wiki/Canci%C3%B3n_protesta_italiana)
+- **en:** [Italian protest song](https://en.wikipedia.org/wiki/Italian_protest_song)
+- **de:** [Italienisches Protestlied](https://de.wikipedia.org/wiki/Italienisches_Protestlied)
+- **pt:** [Canção de protesto italiana](https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o_de_protesto_italiana)
+
+### **🏭 Autunno caldo (Otoño Caliente 1969)**
+- **it:** [Autunno caldo](https://it.wikipedia.org/wiki/Autunno_caldo)
+- **es:** [Otoño caliente](https://es.wikipedia.org/wiki/Oto%C3%B1o_caliente)
+- **en:** [Hot Autumn](https://en.wikipedia.org/wiki/Hot_Autumn)
+- **de:** [Heißer Herbst](https://de.wikipedia.org/wiki/Hei%C3%9Fer_Herbst)
+- **pt:** [Outono quente](https://pt.wikipedia.org/wiki/Outono_quente)
+- **fr:** [Automne chaud](https://fr.wikipedia.org/wiki/Automne_chaud)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🏛️ Contexto Histórico: "Años de Plomo (Italia)"
