@@ -248,6 +248,48 @@ legal_considerations:
 
 immediate_quality_improvements:
   # CRÍTICAS - CALIDAD CONTENIDO EXISTENTE
+  
+  chinese_data_maintenance_automation:
+    priority: "CRÍTICA"
+    estimated_time: "2-3 días"
+    problem: "Las imágenes de trazos (MDBG) y análisis de radicales se quedan huérfanos cuando añadimos vocabulario nuevo"
+    current_situation:
+      - "Modal tiene imágenes trazos extraídas de MDBG guardadas local"
+      - "Modal tiene análisis de radicales implementado"
+      - "Tablas vocabulario ahora incluyen: Trazos | Radical | Estructura"
+      - "build-dictionary.mjs genera diccionario desde tablas vocabulario"
+      - "Sistema funciona manual pero NO se mantiene automático"
+    critical_issue: "Cada entrada nueva de blog añade vocabulario sin generar/actualizar datos chinos correspondientes"
+    solution_components:
+      - auto_chinese_data_sync:
+          file: "/scripts/sync-chinese-data.mjs"
+          description: "Hook post-diccionario que sincroniza datos chinos"
+          triggers: "Después de build-dictionary.mjs"
+          actions:
+            - "Detectar caracteres chinos nuevos en diccionario"
+            - "Descargar trazos faltantes de MDBG"
+            - "Generar análisis radicales faltantes"
+            - "Actualizar metadatos estructura caracteres"
+          output: "/public/data/chinese/ actualizado"
+          
+      - precommit_integration:
+          description: "Integrar sync-chinese-data.mjs en precommit hooks"
+          location: ".husky/pre-commit o equivalente"
+          sequence:
+            1. "build-dictionary.mjs (actual)"
+            2. "sync-chinese-data.mjs (NUEVO)"
+            3. "commit con datos actualizados"
+            
+      - chinese_data_validator:
+          file: "/scripts/validate-chinese-completeness.mjs"
+          description: "Validar que todos los caracteres tienen datos completos"
+          checks:
+            - "Cada zh del diccionario tiene imagen trazo"
+            - "Cada zh tiene análisis radical"
+            - "Cada zh tiene datos estructura"
+          output: "Reporte discrepancias + auto-fix"
+    status: "pendiente"
+    
   content_quality_audit:
     priority: "CRÍTICA"
     estimated_time: "2-3 días"
@@ -292,15 +334,16 @@ immediate_quality_improvements:
 
 next_immediate_actions:
   # ORDEN DE PRIORIDAD ACTUALIZADO (26/07/2025)
-  1. "CRÍTICO: Completar mejoras calidad Días 6-11 (fuentes, enlaces, categorías, letras) - [DÍAS 0-5 COMPLETADOS]"
-  2. "CRÍTICO: Verificar y corregir letras de canciones contra Wikipedia en Días 0-11"
-  3. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin: 64 vs 67-68)"
-  4. "IMPORTANTE: Aplicar regla de origen geográfico - si canción no tiene origen específico, asumir país de uso histórico"
-  5. "ALTA: Crear estructura de directorios nueva"
-  6. "ALTA: Script de descarga de trazos chinos con atribución" 
-  7. "MEDIA: Primer prototipo de modal chino mejorado"
-  8. "MEDIA: Base de datos de compositores (manual inicial)"
-  9. "BAJA: Guía IPA para un idioma piloto"
+  1. "CRÍTICO: Automatizar mantenimiento datos chinos - imágenes trazos y análisis radicales se quedan huérfanos con vocabulario nuevo"
+  2. "CRÍTICO: Completar mejoras calidad Días 6-11 (fuentes, enlaces, categorías, letras) - [DÍAS 0-5 COMPLETADOS]"
+  3. "CRÍTICO: Verificar y corregir letras de canciones contra Wikipedia en Días 0-11" 
+  4. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin: 64 vs 67-68)"
+  5. "IMPORTANTE: Aplicar regla de origen geográfico - si canción no tiene origen específico, asumir país de uso histórico"
+  6. "ALTA: Crear estructura de directorios nueva"
+  7. "ALTA: Script de descarga de trazos chinos con atribución" 
+  8. "MEDIA: Primer prototipo de modal chino mejorado"
+  9. "MEDIA: Base de datos de compositores (manual inicial)"
+  10. "BAJA: Guía IPA para un idioma piloto"
 
 success_metrics:
   chinese_system:

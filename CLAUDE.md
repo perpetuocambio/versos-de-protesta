@@ -580,11 +580,49 @@ Añadir al final de cada lección una sección con enlaces a Wikipedia para la c
 - Tablas exhaustivas por idioma
 - Aspectos (ruso) / Subjuntivos (romance)
 
-#### 🈳 CHINO - TRATAMIENTO ESPECIAL:
+#### 🈳 CHINO - TRATAMIENTO ESPECIAL OBLIGATORIO:
 - **Hanzi**: Caracteres tradicionales + simplificados
 - **Pinyin**: Romanización + números tonales OBLIGATORIA
-- **Trazos**: Orden de escritura 
+- **Trazos**: Número total de trazos + orden de escritura
+- **Radicales**: Radical principal + significado del radical
+- **Estructura**: Tipo de composición del carácter
 - **Clasificadores**: Para sustantivos de la canción
+
+#### 📊 TABLA VOCABULARIO CHINO EXPANDIDA OBLIGATORIA:
+
+**FORMATO PARA TÉRMINOS CHINOS:**
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---------|---------|---------|-----------|---------|-------------|------|--------|---------|---------|-------------|-----------|
+| **[término]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] | [número] | [radical + significado] | [tipo] | [categoría] |
+
+**CAMPOS OBLIGATORIOS ADICIONALES:**
+- **Trazos**: Número total (ej: "3", "12", "18")
+- **Radical**: Radical + significado (ej: "马 (caballo)", "竹 (bambú)")
+- **Estructura**: Tipo composición (ej: "independiente", "izquierda-derecha", "arriba-abajo")
+
+#### ⚠️ LIMITACIONES SCRIPT ACTUAL (build-dictionary.mjs):
+
+**FUNCIONALIDAD ACTUAL:**
+- ✅ Procesa tablas de vocabulario estándar (9-12 columnas)
+- ✅ Extrae términos en 8 idiomas/romanizaciones
+- ✅ Genera diccionario JSON por idioma
+- ✅ Valida idiomas por regex (español, inglés, alemán, etc.)
+
+**NO IMPLEMENTADO ACTUALMENTE:**
+- ❌ **Recopilación automática de GIFs de trazos** chinos
+- ❌ **Procesamiento de columnas Trazos/Radical/Estructura**
+- ❌ **Validación de información de radicales**
+- ❌ **Enlaces a recursos de escritura hanzi**
+
+**SOLUCIÓN TEMPORAL:**
+- Añadir manualmente información de trazos y radicales a las tablas
+- El script actual ignora las columnas extra pero mantiene funcionalidad básica
+- Futuras actualizaciones del script podrían integrar APIs de diccionarios chinos
+
+**RECURSOS EXTERNOS SUGERIDOS:**
+- **Pleco Dictionary API**: Para información de trazos y radicales
+- **Unicode Han Database**: Para estructura de caracteres
+- **HanziCraft**: Para GIFs de orden de trazos
 
 #### 🔤 METODOLOGÍA DE 5 IDIOMAS PARALELOS:
 

@@ -61,6 +61,9 @@ async function extractVocabularyFromMarkdown(filePath) {
     
     // SOLO procesar tablas de vocabulario legítimas
     const tableRegexes = [
+      // Formato EXTENDIDO con información china (12 columnas)
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*Pinyin\s*\|\s*Trazos\s*\|\s*Radical\s*\|\s*Estructura\s*\|\s*Categoría\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
+      
       // Formato PREFERIDO con 9 columnas (incluyendo Categoría)
       /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*Categoría\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
       
@@ -198,8 +201,28 @@ async function extractVocabularyFromMarkdown(filePath) {
         let entry = null;
         const header = tableMatch[0].split('\n')[0];
         const hasCategoryColumn = /Categoría/i.test(header);
+        const hasChineseColumns = /Trazos\s*\|\s*Radical\s*\|\s*Estructura/i.test(header);
 
-        if (cells.length >= 9 && hasCategoryColumn) {
+        if (cells.length >= 12 && hasChineseColumns && hasCategoryColumn) {
+          // Formato EXTENDIDO: | Español | English | ... | Pinyin | Trazos | Radical | Estructura | Categoría |
+          entry = {
+            es: cleanCell(cells[0]),
+            en: cleanCell(cells[1]), 
+            de: cleanCell(cells[2]),
+            pt: cleanCell(cells[3]),
+            ru: cleanCell(cells[4]),
+            ruRom: cleanCell(cells[5]),
+            zh: cleanCell(cells[6]),
+            zhPinyin: cleanCell(cells[7]),
+            zhStrokes: cleanCell(cells[8]),
+            zhRadical: cleanCell(cells[9]),
+            zhStructure: cleanCell(cells[10]),
+            grammaticalCategory: cleanCell(cells[11]),
+            source: fileName,
+            day: day,
+            filePath: path.relative(projectRoot, filePath)
+          };
+        } else if (cells.length >= 9 && hasCategoryColumn) {
           // Formato PREFERIDO: | Español | English | ... | Categoría |
           entry = {
             es: cleanCell(cells[0]),

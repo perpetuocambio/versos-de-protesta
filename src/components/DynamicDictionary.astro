@@ -863,12 +863,21 @@ document.addEventListener('DOMContentLoaded', async function() {
                     detailsHtml += `<li><strong>${lang}:</strong> ${translations[lang]}</li>`;
                 }
             });
-            // Chino: mostrar hanzi primero, luego pinyin
+            // Chino: mostrar hanzi primero, luego pinyin, y información adicional
             if (translations.zh) {
                 detailsHtml += `<li><strong>zh (hanzi):</strong> ${translations.zh}</li>`;
             }
             if (translations.zhPinyin) {
                 detailsHtml += `<li><strong>zh (pinyin):</strong> ${translations.zhPinyin}</li>`;
+            }
+            if (translations.zhStrokes) {
+                detailsHtml += `<li><strong>zh (trazos):</strong> ${translations.zhStrokes}</li>`;
+            }
+            if (translations.zhRadical) {
+                detailsHtml += `<li><strong>zh (radical):</strong> ${translations.zhRadical}</li>`;
+            }
+            if (translations.zhStructure) {
+                detailsHtml += `<li><strong>zh (estructura):</strong> ${translations.zhStructure}</li>`;
             }
             detailsHtml += '</ul>';
         }

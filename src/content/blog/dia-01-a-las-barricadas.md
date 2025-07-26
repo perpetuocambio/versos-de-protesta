@@ -356,29 +356,29 @@ Wèile bānglián de shènglì.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Negras** | black | schwarze | negras | чёрные | chyórnye | 黑色的 | hēisè de | adjetivo |
-| **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | sustantivo |
-| **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn | verbo |
-| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng | sustantivo |
-| **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán | conjunción |
-| **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài | verbo |
-| **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ | sustantivo |
-| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | sustantivo |
-| **morir** | to die | sterben | morrer | умирать | umirat' | 死 | sǐ | verbo |
-| **llama** | calls | ruft | chama | зовёт | zovyót | 召唤 | zhàohuàn | verbo |
-| **deber** | duty | Pflicht | dever | долг | dolg | 职责 | zhízé | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Negras** | black | schwarze | negras | чёрные | chyórnye | 黑色的 | hēisè de | 12 | 黑 (negro) | arriba-abajo | adjetivo |
+| **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | 13 | 风 (viento) | independiente | sustantivo |
+| **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn | 18 | 扌 (mano) | izquierda-derecha | verbo |
+| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng | 8 | 天 (cielo) | arriba-abajo | sustantivo |
+| **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán | 17 | 虫 (insecto) | izquierda-derecha | conjunción |
+| **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài | 15 | 竹 (bambú) | arriba-abajo | verbo |
+| **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ | 12 | 疒 (enfermedad) | arriba-abajo | sustantivo |
+| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | 9 | 歹 (mal) | izquierda-derecha | sustantivo |
+| **morir** | to die | sterben | morrer | умирать | umirat' | 死 | sǐ | 6 | 歹 (mal) | arriba-abajo | verbo |
+| **llama** | calls | ruft | chama | зовёт | zovyót | 召唤 | zhàohuàn | 10 | 召 (convocar) | arriba-abajo | verbo |
+| **deber** | duty | Pflicht | dever | долг | dolg | 职责 | zhízé | 16 | 耳 (oreja) | izquierda-derecha | sustantivo |
 
 ### TÉRMINOS ANARQUISTAS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wú zhèngfǔ zhǔyì | sustantivo |
-| **Autogestión** | autogestión | self-management | Selbstverwaltung | autogestão | самоуправление | samoupravléniye | 自治管理 | zìzhì guǎnlǐ | sustantivo |
-| **Federación** | federación | federation | Föderation | federação | федерация | federátsiya | 联邦 | liánbāng | sustantivo |
-| **Sindicalismo** | sindicalismo | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | sustantivo |
-| **Colectivización** | colectivización | collectivization | Kollektivierung | coletivização | коллективизация | kollektivizátsiya | 集体化 | jítǐ huà | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wú zhèngfǔ zhǔyì | 24 | 无 (sin) | compuesto | sustantivo |
+| **Autogestión** | self-management | Selbstverwaltung | autogestão | самоуправление | samoupravléniye | 自治管理 | zìzhì guǎnlǐ | 19 | 自 (uno mismo) | compuesto | sustantivo |
+| **Federación** | federation | Föderation | federação | федерация | federátsiya | 联邦 | liánbāng | 11 | 车 (vehículo) | izquierda-derecha | sustantivo |
+| **Sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | 25 | 工 (trabajo) | compuesto | sustantivo |
+| **Colectivización** | collectivization | Kollektivierung | coletivização | коллективизация | kollektivizátsiya | 集体化 | jítǐ huà | 15 | 隹 (ave) | izquierda-derecha | sustantivo |
 
 ---
 

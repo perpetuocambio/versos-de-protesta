@@ -2,7 +2,7 @@
 title: "LECCIÓN TEMÁTICA A: A GALOPAR - Resistencia Franquista y Équidos en Libertad"
 description: "Canción de resistencia durante el franquismo que evoca la libertad a través de la metáfora ecuestre, con análisis de ecosistemas de pastizales y conservación de équidos salvajes"
 pubDate: 2025-01-18
-contentType: "thematic-lesson"
+contentType: "lesson"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 lessonType: "eco-political"
 originalSong:
@@ -358,42 +358,42 @@ zhídào bǎ tāmen máizàng zài hǎi zhōng!
 
 ### TÉRMINOS ECUESTRES Y POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **galopar** | to gallop | galoppieren | galopar | скакать галопом | skakat' galopom | 疾驰 | jíchí | verbo |
-| **caballo** | horse | Pferd | cavalo | лошадь | loshad' | 马 | mǎ | sustantivo |
-| **cuatralbo** | four-white | weißbeinig | quatralvo | белоногий | belonogiy | 四蹄白 | sì tí bái | adjetivo |
-| **jinete** | rider | Reiter | ginete | всадник | vsadnik | 骑手 | qíshǒu | sustantivo |
-| **tierras** | lands | Länder | terras | земли | zemli | 土地 | tǔdì | sustantivo |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **enterrar** | to bury | begraben | enterrar | хоронить | khoronit' | 埋葬 | máizàng | verbo |
-| **dictadura** | dictatorship | Diktatur | ditadura | диктатура | diktatura | 独裁 | dúcái | sustantivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
-| **censura** | censorship | Zensur | censura | цензура | tsenzura | 审查 | shěnchá | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **galopar** | to gallop | galoppieren | galopar | скакать галопом | skakat' galopom | 疾驰 | jíchí | 10 | 疒 (enfermedad) | arriba-abajo | verbo |
+| **caballo** | horse | Pferd | cavalo | лошадь | loshad' | 马 | mǎ | 3 | 马 (caballo) | independiente | sustantivo |
+| **cuatralbo** | four-white | weißbeinig | quatralvo | белоногий | belonogiy | 四蹄白 | sì tí bái | 15 | 四 (cuatro) | compuesto | adjetivo |
+| **jinete** | rider | Reiter | ginete | всадник | vsadnik | 骑手 | qíshǒu | 15 | 马 (caballo) | izquierda-derecha | sustantivo |
+| **tierras** | lands | Länder | terras | земли | zemli | 土地 | tǔdì | 6 | 土 (tierra) | izquierda-derecha | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 5 | 人 (persona) | independiente | sustantivo |
+| **enterrar** | to bury | begraben | enterrar | хоронить | khoronit' | 埋葬 | máizàng | 13 | 土 (tierra) | izquierda-derecha | verbo |
+| **dictadura** | dictatorship | Diktatur | ditadura | диктатура | diktatura | 独裁 | dúcái | 16 | 犭 (animal) | izquierda-derecha | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | 11 | 扌 (mano) | izquierda-derecha | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 9 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **censura** | censorship | Zensur | censura | цензура | tsenzura | 审查 | shěnchá | 15 | 宀 (techo) | arriba-abajo | sustantivo |
 
 ### TÉRMINOS ECOLÓGICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **équidos** | equids | Equiden | equídeos | лошадиные | loshadinye | 马科动物 | mǎkē dòngwù | sustantivo |
-| **pastizal** | grassland | Grasland | pastagem | пастбище | pastbishche | 草地 | cǎodì | sustantivo |
-| **herbívoro** | herbivore | Pflanzenfresser | herbívoro | травоядное | travoyadnoe | 草食动物 | cǎoshí dòngwù | sustantivo |
-| **biodiversidad** | biodiversity | Biodiversität | biodiversidade | биоразнообразие | bioraznoobraziye | 生物多样性 | shēngwù duōyàngxìng | sustantivo |
-| **ecosistema** | ecosystem | Ökosystem | ecossistema | экосистема | ekosistema | 生态系统 | shēngtài xìtǒng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **équidos** | equids | Equiden | equídeos | лошадиные | loshadinye | 马科动物 | mǎkē dòngwù | 17 | 马 (caballo) | izquierda-derecha | sustantivo |
+| **pastizal** | grassland | Grasland | pastagem | пастбище | pastbishche | 草地 | cǎodì | 12 | 艹 (hierba) | arriba-abajo | sustantivo |
+| **herbívoro** | herbivore | Pflanzenfresser | herbívoro | травоядное | travoyadnoe | 草食动物 | cǎoshí dòngwù | 17 | 艹 (hierba) | izquierda-derecha | sustantivo |
+| **biodiversidad** | biodiversity | Biodiversität | biodiversidade | биоразнообразие | bioraznoobraziye | 生物多样性 | shēngwù duōyàngxìng | 19 | 生 (vida) | compuesto | sustantivo |
+| **ecosistema** | ecosystem | Ökosystem | ecossistema | экосистема | ekosistema | 生态系统 | shēngtài xìtǒng | 15 | 生 (vida) | compuesto | sustantivo |
 
 ### TÉRMINOS TAXONÓMICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **reino** | kingdom | Reich | reino | царство | tsarstvo | 界 | jiè | sustantivo |
-| **filo** | phylum | Stamm | filo | тип | tip | 门 | mén | sustantivo |
-| **clase** | class | Klasse | classe | класс | klass | 纲 | gāng | sustantivo |
-| **orden** | order | Ordnung | ordem | отряд | otryad | 目 | mù | sustantivo |
-| **familia** | family | Familie | família | семейство | semeystvo | 科 | kē | sustantivo |
-| **género** | genus | Gattung | gênero | род | rod | 属 | shǔ | sustantivo |
-| **especie** | species | Art | espécie | вид | vid | 种 | zhǒng | sustantivo |
-| **distribución** | distribution | Verbreitung | distribuição | распространение | rasprostranenie | 分布 | fēnbù | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **reino** | kingdom | Reich | reino | царство | tsarstvo | 界 | jiè | 9 | 田 (campo) | independiente | sustantivo |
+| **filo** | phylum | Stamm | filo | тип | tip | 门 | mén | 3 | 门 (puerta) | independiente | sustantivo |
+| **clase** | class | Klasse | classe | класс | klass | 纲 | gāng | 14 | 糸 (seda) | izquierda-derecha | sustantivo |
+| **orden** | order | Ordnung | ordem | отряд | otryad | 目 | mù | 5 | 目 (ojo) | independiente | sustantivo |
+| **familia** | family | Familie | família | семейство | semeystvo | 科 | kē | 9 | 禾 (cereal) | izquierda-derecha | sustantivo |
+| **género** | genus | Gattung | gênero | род | rod | 属 | shǔ | 12 | 尸 (cadáver) | arriba-abajo | sustantivo |
+| **especie** | species | Art | espécie | вид | vid | 种 | zhǒng | 9 | 禾 (cereal) | izquierda-derecha | sustantivo |
+| **distribución** | distribution | Verbreitung | distribuição | распространение | rasprostranenie | 分布 | fēnbù | 8 | 刀 (cuchillo) | arriba-abajo | sustantivo |
 
 ---
 

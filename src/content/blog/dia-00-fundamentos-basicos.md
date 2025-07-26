@@ -432,29 +432,29 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ### CONCEPTOS FUNDAMENTALES
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|---|
-| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén | sustantivo |
-| **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì | sustantivo |
-| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín | sustantivo |
-| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì | sustantivo |
-| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié | sustantivo |
-| **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ | sustantivo |
-| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng | 12 | 斗 (lucha) | independiente | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu | 9 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì | 14 | 羊 (oveja) | arriba-abajo | sustantivo |
+| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín | 5 | 人 (persona) | independiente | sustantivo |
+| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì | 10 | 木 (madera) | izquierda-derecha | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié | 18 | 囗 (recinto) | arriba-abajo | sustantivo |
+| **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ | 18 | 欠 (bostezar) | izquierda-derecha | sustantivo |
+| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì | 18 | 方 (cuadrado) | izquierda-derecha | sustantivo |
 
 ### VERBOS DE ACCIÓN REVOLUCIONARIA
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|---|
-| **luchar** | fight | kämpfen | lutar | бороться | borót'sya | 战斗 | zhàndòu | verbo |
-| **resistir** | resist | widerstehen | resistir | сопротивляться | soprotivlyát'sya | 反抗 | fǎnkàng | verbo |
-| **defender** | defend | verteidigen | defender | защищать | zashchishchát' | 捍卫 | hànwèi | verbo |
-| **unir** | unite | vereinen | unir | объединять | ob"edinyát' | 团结 | tuánjié | verbo |
-| **cantar** | sing | singen | cantar | петь | pet' | 唱 | chàng | verbo |
-| **marchar** | march | marschieren | marchar | маршировать | marshirovat' | 行进 | xíngjìn | verbo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **luchar** | fight | kämpfen | lutar | бороться | borót'sya | 战斗 | zhàndòu | 16 | 戈 (lanza) | izquierda-derecha | verbo |
+| **resistir** | resist | widerstehen | resistir | сопротивляться | soprotivlyát'sya | 反抗 | fǎnkàng | 11 | 反 (oponer) | izquierda-derecha | verbo |
+| **defender** | defend | verteidigen | defender | защищать | zashchishchát' | 捍卫 | hànwèi | 15 | 扌 (mano) | izquierda-derecha | verbo |
+| **unir** | unite | vereinen | unir | объединять | ob"edinyát' | 团结 | tuánjié | 18 | 囗 (recinto) | arriba-abajo | verbo |
+| **cantar** | sing | singen | cantar | петь | pet' | 唱 | chàng | 11 | 口 (boca) | izquierda-derecha | verbo |
+| **marchar** | march | marschieren | marchar | маршировать | marshirovat' | 行进 | xíngjìn | 13 | 行 (caminar) | izquierda-derecha | verbo |
 
 ---
 
