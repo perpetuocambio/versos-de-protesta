@@ -1,5 +1,5 @@
 ---
-title: "LECCIÓN TEMÁTICA A: A GALOPAR - Resistencia Franquista y Équidos en Libertad"
+title: "Especial 01 - A Galopar"
 description: "Canción de resistencia durante el franquismo que evoca la libertad a través de la metáfora ecuestre, con análisis de ecosistemas de pastizales y conservación de équidos salvajes"
 pubDate: 2025-01-18
 contentType: "lesson"
@@ -26,7 +26,7 @@ estimatedTime: "90-120 min"
 tags: ["resistencia", "franquismo", "écologia", "équidos", "libertad", "ecosistemas"]
 ---
 
-# LECCIÓN TEMÁTICA A: A GALOPAR - Resistencia Franquista y Équidos en Libertad
+# Especial 01 - A Galopar
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 
@@ -54,135 +54,7 @@ a galopar,
 hasta enterrarlos en el mar!
 ```
 
-## 🧬 CONTEXTO BIOLÓGICO/ECOLÓGICO
-
-### TAXONOMÍA MULTILINGÜE OBLIGATORIA
-
-#### **CLASIFICACIÓN TAXONÓMICA - ÉQUIDOS**
-
-| Nivel | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|-------|-----|-----|-----|-----|------|---------|------|-----------|
-| **Reino** | Animalia | Animalia | Animalia | Animalia | Животные | Zhivotnye | 动物界 | dòngwù jiè |
-| **Filo** | Chordata | Chordata | Chordata | Chordata | Хордовые | Khordovye | 脊索动物门 | jǐsuǒ dòngwù mén |
-| **Clase** | Mammalia | Mammalia | Säugetiere | Mammalia | Млекопитающие | Mlekopitayushchie | 哺乳纲 | bǔrǔ gāng |
-| **Orden** | Perissodactyla | Perissodactyla | Unpaarhufer | Perissodactyla | Непарнопалые | Neparnopalaḷye | 奇蹄目 | qítí mù |
-| **Familia** | Equidae | Equidae | Pferde | Equidae | Лошадиные | Loshadinye | 马科 | mǎkē |
-| **Género** | Equus | Equus | Equus | Equus | Лошадь | Loshad' | 马属 | mǎshǔ |
-| **Especie** | E. caballus | E. caballus | E. caballus | E. caballus | E. caballus | E. caballus | 家马 | jiāmǎ |
-
-#### **ESPECIES CLAVE EN 6 IDIOMAS**
-
-| Nombre Científico | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|-------------------|-----|-----|-----|-----|------|---------|------|-----------|
-| ***Equus caballus*** | caballo doméstico | domestic horse | Hauspferd | cavalo doméstico | домашняя лошадь | domashnyaya loshad' | 家马 | jiāmǎ |
-| ***Equus ferus przewalskii*** | caballo de Przewalski | Przewalski's horse | Przewalski-Pferd | cavalo de Przewalski | лошадь Пржевальского | loshad' Przheval'skogo | 普氏野马 | pǔshì yěmǎ |
-| ***Equus hemionus*** | asno salvaje asiático | Asian wild ass | Asiatischer Wildesel | asno selvagem asiático | кулан | kulan | 亚洲野驴 | yàzhōu yělǘ |
-| ***Equus grevyii*** | cebra de Grevy | Grevy's zebra | Grevy-Zebra | zebra de Grevy | зебра Греви | zebra Grevi | 格氏斑马 | géshì bānmǎ |
-| ***Equus quagga*** | cebra común | plains zebra | Steppenzebra | zebra das planícies | бурчеллова зебра | burchellova zebra | 平原斑马 | píngyuán bānmǎ |
-
-#### **DISTRIBUCIÓN GEOGRÁFICA**
-
-| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|--------|-----|-----|-----|-----|------|---------|------|-----------|
-| **Eurasia** | estepa euroasiática | Eurasian steppe | eurasische Steppe | estepe euro-asiática | евразийская степь | evraziyskaya step' | 欧亚草原 | ōuyà cǎoyuán |
-| **África Oriental** | sabana africana | African savanna | afrikanische Savanne | savana africana | африканская саванна | afrikanskaya savanna | 非洲萨瓦纳 | fēizhōu sàwǎnà |
-| **Asia Central** | desierto de Gobi | Gobi Desert | Wüste Gobi | deserto de Gobi | пустыня Гоби | pustynya Gobi | 戈壁沙漠 | gēbì shāmò |
-| **América del Norte** | grandes llanuras | Great Plains | Große Ebenen | grandes planícies | великие равнины | velikie ravniny | 大平原 | dàpíngyuán |
-| **Australia** | interior árido | arid interior | trockenes Inland | interior árido | засушливые внутренние районы | zasushlivye vnutrennie rayony | 干旱内陆 | gānhàn nèilù |
-
-### ÉQUIDOS SALVAJES Y ECOSISTEMAS PASTORILES EN 6 IDIOMAS
-
-#### ESPAÑOL
-Los équidos han sido fundamentales en la configuración de ecosistemas pastoriles durante milenios. El caballo doméstico (*Equus caballus*) evolucionó a partir de especies salvajes que habitaban las estepas y praderas de Eurasia.
-
-#### ENGLISH  
-Equids have been fundamental in shaping pastoral ecosystems for millennia. The domestic horse (*Equus caballus*) evolved from wild species that inhabited the steppes and grasslands of Eurasia.
-
-#### DEUTSCH
-Pferde waren jahrtausendelang grundlegend für die Gestaltung von Weideökosystemen. Das Hauspferd (*Equus caballus*) entwickelte sich aus wilden Arten, die die Steppen und Grasländer Eurasiens bewohnten.
-
-#### PORTUGUÊS
-Os equídeos têm sido fundamentais na configuração de ecossistemas pastorais durante milênios. O cavalo doméstico (*Equus caballus*) evoluiu a partir de espécies selvagens que habitavam as estepes e pastagens da Eurásia.
-
-#### РУССКИЙ
-Лошадиные были основополагающими в формировании пастбищных экосистем на протяжении тысячелетий. Домашняя лошадь (*Equus caballus*) эволюционировала от диких видов, которые населяли степи и луга Евразии.
-
-#### 中文
-马科动物在数千年来塑造牧场生态系统中起着基础作用。家马（*Equus caballus*）是从栖息在欧亚大陆草原和草地的野生物种进化而来的。
-
-#### **Especies de Équidos Amenazadas:**
-- **Caballo de Przewalski** (*Equus ferus przewalskii*): Único caballo verdaderamente salvaje sobreviviente
-- **Burro salvaje asiático** (*Equus hemionus*): Poblaciones fragmentadas en Asia Central
-- **Cebra de Grevy** (*Equus grevyii*): Solo ~2,500 individuos en Kenia y Etiopía
-
-#### **Función Ecológica de los Herbívoros Pastoreadores:**
-- **Dispersión de semillas**: Transporte de propagulos a largas distancias
-- **Mantenimiento de praderas**: Prevención de sucesión hacia bosque
-- **Creación de microhábitats**: Pisoteo genera heterogeneidad espacial
-- **Ciclo de nutrientes**: Redistribución de N, P, K a través del paisaje
-
-### CONSERVACIÓN Y AMENAZAS
-
-#### **Situación Actual Équidos Salvajes:**
-- **95% reducción** poblacional mustangs americanos (s. XIX-XX)
-- **Fragmentación hábitat**: Cercamiento tierras de pastoreo tradicional
-- **Competencia ganadera**: Conflicto con ganadería extensiva
-- **Hibridación**: Contaminación genética con caballos domésticos
-
-#### **Ecosistemas Pastoriles Mediterráneos:**
-- **Dehesas ibéricas**: Sistema agrosilvopastoril tradicional
-- **Biodiversidad**: >3,000 especies vegetales, 30+ especies aves rapaces
-- **Amenazas**: Intensificación agrícola, abandono rural
-- **Servicios ecosistémicos**: Carbono, regulación hídrica, paisaje cultural
-
----
-
-## 📊 CONTEXTO HISTÓRICO MULTILINGÜE
-
-### FECHAS Y NÚMEROS CLAVE EN 6 IDIOMAS
-
-#### **1969 - CENSURA FRANQUISTA Y NUEVA CANCIÓN**
-
-| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|----------|-----|-----|-----|-----|------|---------|------|-----------|
-| **Dictadura** | dictadura | dictatorship | Diktatur | ditadura | диктатура | diktatura | 独裁统治 | dúcái tǒngzhì |
-| **Censura** | censura | censorship | Zensur | censura | цензура | tsenzura | 审查制度 | shěnchá zhìdù |
-| **Resistencia** | resistencia | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng |
-
-#### **ECOSISTEMAS PASTORILES - ESTADÍSTICAS**
-
-| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|----------|-----|-----|-----|-----|------|---------|------|-----------|
-| **95% reducción** | noventa y cinco por ciento | ninety-five percent | fünfundneunzig Prozent | noventa e cinco por cento | девяносто пять процентов | devyanosto pyat' protsentov | 百分之九十五 | bǎi fēn zhī jiǔshí wǔ |
-| **3.000 especies** | tres mil especies | three thousand species | dreitausend Arten | três mil espécies | три тысячи видов | tri tysyachi vidov | 三千物种 | sānqiān wùzhǒng |
-| **30 rapaces** | treinta rapaces | thirty raptors | dreißig Greifvögel | trinta aves de rapina | тридцать хищных птиц | tridtsat' khishchnykh ptits | 三十种猛禽 | sānshí zhǒng měngqín |
-
-#### **LÍNEA TEMPORAL RESISTENCIA CULTURAL + CONSERVACIÓN**
-
-| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
-| **1939** | Inicio dictadura | Dictadura franquista | Franco dictatorship | Franco-Diktatur | Ditadura franquista | Диктатура Франко | Diktatura Franko | 佛朗哥独裁 | Fólǎnggē dúcái |
-| **1950s** | Despoblación rural | Éxodo rural masivo | Massive rural exodus | Massive Landflucht | Êxodo rural massivo | Массовый исход из деревни | Massovyy iskhod iz derevni | 大规模农村外流 | dàguīmó nóngcūn wàiliú |
-| **1969** | Canción prohibida | "A galopar" censurada | "A galopar" censored | "A galopar" zensiert | "A galopar" censurada | "A galopar" под цензурой | "A galopar" pod tsenzuroy | 《策马奔腾》被禁 | "Cèmǎ bēnténg" bèi jìn |
-| **1970s** | Crisis ecológica | Pérdida biodiversidad | Biodiversity loss | Biodiversitätsverlust | Perda de biodiversidade | Потеря биоразнообразия | Poterya bioraznoobraziya | 生物多样性丧失 | shēngwù duōyàngxìng sàngshī |
-
----
-
 ## 🔄 TRADUCCIONES/ADAPTACIONES A 6 IDIOMAS
-
-### ESPAÑOL
-**"A galopar" (ORIGINAL)**
-```
-Las tierras, las tierras, las tierras de España,
-las grandes, las solas, las tristes tierras.
-Galopa, caballo cuatralbo,
-jinete del pueblo,
-al sol y a la luna.
-
-¡A galopar,
-a galopar,
-hasta enterrarlos en el mar!
-```
 
 ### ENGLISH
 **"To Gallop"**
@@ -353,6 +225,121 @@ zhídào bǎ tāmen máizàng zài hǎi zhōng!
 ```
 
 ---
+
+## 🧬 CONTEXTO BIOLÓGICO/ECOLÓGICO
+
+### TAXONOMÍA MULTILINGÜE OBLIGATORIA
+
+#### **CLASIFICACIÓN TAXONÓMICA - ÉQUIDOS**
+
+| Nivel | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|-------|-----|-----|-----|-----|------|---------|------|-----------|
+| **Reino** | Animalia | Animalia | Animalia | Animalia | Животные | Zhivotnye | 动物界 | dòngwù jiè |
+| **Filo** | Chordata | Chordata | Chordata | Chordata | Хордовые | Khordovye | 脊索动物门 | jǐsuǒ dòngwù mén |
+| **Clase** | Mammalia | Mammalia | Säugetiere | Mammalia | Млекопитающие | Mlekopitayushchie | 哺乳纲 | bǔrǔ gāng |
+| **Orden** | Perissodactyla | Perissodactyla | Unpaarhufer | Perissodactyla | Непарнопалые | Neparnopalaḷye | 奇蹄目 | qítí mù |
+| **Familia** | Equidae | Equidae | Pferde | Equidae | Лошадиные | Loshadinye | 马科 | mǎkē |
+| **Género** | Equus | Equus | Equus | Equus | Лошадь | Loshad' | 马属 | mǎshǔ |
+| **Especie** | E. caballus | E. caballus | E. caballus | E. caballus | E. caballus | E. caballus | 家马 | jiāmǎ |
+
+#### **ESPECIES CLAVE EN 6 IDIOMAS**
+
+| Nombre Científico | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|-------------------|-----|-----|-----|-----|------|---------|------|-----------|
+| ***Equus caballus*** | caballo doméstico | domestic horse | Hauspferd | cavalo doméstico | домашняя лошадь | domashnyaya loshad' | 家马 | jiāmǎ |
+| ***Equus ferus przewalskii*** | caballo de Przewalski | Przewalski's horse | Przewalski-Pferd | cavalo de Przewalski | лошадь Пржевальского | loshad' Przheval'skogo | 普氏野马 | pǔshì yěmǎ |
+| ***Equus hemionus*** | asno salvaje asiático | Asian wild ass | Asiatischer Wildesel | asno selvagem asiático | кулан | kulan | 亚洲野驴 | yàzhōu yělǘ |
+| ***Equus grevyii*** | cebra de Grevy | Grevy's zebra | Grevy-Zebra | zebra de Grevy | зебра Греви | zebra Grevi | 格氏斑马 | géshì bānmǎ |
+| ***Equus quagga*** | cebra común | plains zebra | Steppenzebra | zebra das planícies | бурчеллова зебра | burchellova zebra | 平原斑马 | píngyuán bānmǎ |
+
+#### **DISTRIBUCIÓN GEOGRÁFICA**
+
+| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|--------|-----|-----|-----|-----|------|---------|------|-----------|
+| **Eurasia** | estepa euroasiática | Eurasian steppe | eurasische Steppe | estepe euro-asiática | евразийская степь | evraziyskaya step' | 欧亚草原 | ōuyà cǎoyuán |
+| **África Oriental** | sabana africana | African savanna | afrikanische Savanne | savana africana | африканская саванна | afrikanskaya savanna | 非洲萨瓦纳 | fēizhōu sàwǎnà |
+| **Asia Central** | desierto de Gobi | Gobi Desert | Wüste Gobi | deserto de Gobi | пустыня Гоби | pustynya Gobi | 戈壁沙漠 | gēbì shāmò |
+| **América del Norte** | grandes llanuras | Great Plains | Große Ebenen | grandes planícies | великие равнины | velikie ravniny | 大平原 | dàpíngyuán |
+| **Australia** | interior árido | arid interior | trockenes Inland | interior árido | засушливые внутренние районы | zasushlivye vnutrennie rayony | 干旱内陆 | gānhàn nèilù |
+
+### ÉQUIDOS SALVAJES Y ECOSISTEMAS PASTORILES EN 6 IDIOMAS
+
+#### ESPAÑOL
+Los équidos han sido fundamentales en la configuración de ecosistemas pastoriles durante milenios. El caballo doméstico (*Equus caballus*) evolucionó a partir de especies salvajes que habitaban las estepas y praderas de Eurasia.
+
+#### ENGLISH  
+Equids have been fundamental in shaping pastoral ecosystems for millennia. The domestic horse (*Equus caballus*) evolved from wild species that inhabited the steppes and grasslands of Eurasia.
+
+#### DEUTSCH
+Pferde waren jahrtausendelang grundlegend für die Gestaltung von Weideökosystemen. Das Hauspferd (*Equus caballus*) entwickelte sich aus wilden Arten, die die Steppen und Grasländer Eurasiens bewohnten.
+
+#### PORTUGUÊS
+Os equídeos têm sido fundamentais na configuração de ecossistemas pastorais durante milênios. O cavalo doméstico (*Equus caballus*) evoluiu a partir de espécies selvagens que habitavam as estepes e pastagens da Eurásia.
+
+#### РУССКИЙ
+Лошадиные были основополагающими в формировании пастбищных экосистем на протяжении тысячелетий. Домашняя лошадь (*Equus caballus*) эволюционировала от диких видов, которые населяли степи и луга Евразии.
+
+#### 中文
+马科动物在数千年来塑造牧场生态系统中起着基础作用。家马（*Equus caballus*）是从栖息在欧亚大陆草原和草地的野生物种进化而来的。
+
+#### **Especies de Équidos Amenazadas:**
+- **Caballo de Przewalski** (*Equus ferus przewalskii*): Único caballo verdaderamente salvaje sobreviviente
+- **Burro salvaje asiático** (*Equus hemionus*): Poblaciones fragmentadas en Asia Central
+- **Cebra de Grevy** (*Equus grevyii*): Solo ~2,500 individuos en Kenia y Etiopía
+
+#### **Función Ecológica de los Herbívoros Pastoreadores:**
+- **Dispersión de semillas**: Transporte de propagulos a largas distancias
+- **Mantenimiento de praderas**: Prevención de sucesión hacia bosque
+- **Creación de microhábitats**: Pisoteo genera heterogeneidad espacial
+- **Ciclo de nutrientes**: Redistribución de N, P, K a través del paisaje
+
+### CONSERVACIÓN Y AMENAZAS
+
+#### **Situación Actual Équidos Salvajes:**
+- **95% reducción** poblacional mustangs americanos (s. XIX-XX)
+- **Fragmentación hábitat**: Cercamiento tierras de pastoreo tradicional
+- **Competencia ganadera**: Conflicto con ganadería extensiva
+- **Hibridación**: Contaminación genética con caballos domésticos
+
+#### **Ecosistemas Pastoriles Mediterráneos:**
+- **Dehesas ibéricas**: Sistema agrosilvopastoril tradicional
+- **Biodiversidad**: >3,000 especies vegetales, 30+ especies aves rapaces
+- **Amenazas**: Intensificación agrícola, abandono rural
+- **Servicios ecosistémicos**: Carbono, regulación hídrica, paisaje cultural
+
+---
+
+## 📊 CONTEXTO HISTÓRICO MULTILINGÜE
+
+### FECHAS Y NÚMEROS CLAVE EN 6 IDIOMAS
+
+#### **1969 - CENSURA FRANQUISTA Y NUEVA CANCIÓN**
+
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|----------|-----|-----|-----|-----|------|---------|------|-----------|
+| **Dictadura** | dictadura | dictatorship | Diktatur | ditadura | диктатура | diktatura | 独裁统治 | dúcái tǒngzhì |
+| **Censura** | censura | censorship | Zensur | censura | цензура | tsenzura | 审查制度 | shěnchá zhìdù |
+| **Resistencia** | resistencia | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng |
+
+#### **ECOSISTEMAS PASTORILES - ESTADÍSTICAS**
+
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|----------|-----|-----|-----|-----|------|---------|------|-----------|
+| **95% reducción** | noventa y cinco por ciento | ninety-five percent | fünfundneunzig Prozent | noventa e cinco por cento | девяносто пять процентов | devyanosto pyat' protsentov | 百分之九十五 | bǎi fēn zhī jiǔshí wǔ |
+| **3.000 especies** | tres mil especies | three thousand species | dreitausend Arten | três mil espécies | три тысячи видов | tri tysyachi vidov | 三千物种 | sānqiān wùzhǒng |
+| **30 rapaces** | treinta rapaces | thirty raptors | dreißig Greifvögel | trinta aves de rapina | тридцать хищных птиц | tridtsat' khishchnykh ptits | 三十种猛禽 | sānshí zhǒng měngqín |
+
+#### **LÍNEA TEMPORAL RESISTENCIA CULTURAL + CONSERVACIÓN**
+
+| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
+| **1939** | Inicio dictadura | Dictadura franquista | Franco dictatorship | Franco-Diktatur | Ditadura franquista | Диктатура Франко | Diktatura Franko | 佛朗哥独裁 | Fólǎnggē dúcái |
+| **1950s** | Despoblación rural | Éxodo rural masivo | Massive rural exodus | Massive Landflucht | Êxodo rural massivo | Массовый исход из деревни | Massovyy iskhod iz derevni | 大规模农村外流 | dàguīmó nóngcūn wàiliú |
+| **1969** | Canción prohibida | "A galopar" censurada | "A galopar" censored | "A galopar" zensiert | "A galopar" censurada | "A galopar" под цензурой | "A galopar" pod tsenzuroy | 《策马奔腾》被禁 | "Cèmǎ bēnténg" bèi jìn |
+| **1970s** | Crisis ecológica | Pérdida biodiversidad | Biodiversity loss | Biodiversitätsverlust | Perda de biodiversidade | Потеря биоразнообразия | Poterya bioraznoobraziya | 生物多样性丧失 | shēngwù duōyàngxìng sàngshī |
+
+---
+
 
 ## VOCABULARIO
 

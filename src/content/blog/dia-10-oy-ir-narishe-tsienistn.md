@@ -242,29 +242,29 @@ Méiyǒu jiùshú, gòu le!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **necio** | foolish | töricht | tolo | глупый | glupyy | 愚蠢 | yúchǔn | adjetivo |
-| **fantasear** | fantasize | phantasieren | fantasiar | фантазировать | fantazirovat' | 幻想 | huànxiǎng | verbo |
-| **perecer** | perish | verderben | perecer | гибнуть | gibnut' | 灭亡 | mièwáng | verbo |
-| **bandera** | flag | Fahne | bandeira | знамя | znamya | 旗帜 | qízhì | sustantivo |
-| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | sustantivo |
-| **juventud** | youth | Jugend | juventude | молодежь | molodyozh | 青年 | qīngnián | sustantivo |
-| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **unión** | union | Verband | união | союз | soyuz | 联盟 | liánméng | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | sustantivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **necio** | foolish | töricht | tolo | глупый | glupyy | 愚蠢 | yúchǔn | 13 | 心 (corazón) | arriba-abajo | adjetivo |
+| **fantasear** | fantasize | phantasieren | fantasiar | фантазировать | fantazirovat' | 幻想 | huànxiǎng | 16 | 一 (uno) | compuesto | verbo |
+| **perecer** | perish | verderben | perecer | гибнуть | gibnut' | 灭亡 | mièwáng | 16 | 一 (uno) | compuesto | verbo |
+| **bandera** | flag | Fahne | bandeira | знамя | znamya | 旗帜 | qízhì | 14 | 方 (dirección) | izquierda-derecha | sustantivo |
+| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
+| **juventud** | youth | Jugend | juventude | молодежь | molodyozh | 青年 | qīngnián | 16 | 一 (uno) | compuesto | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
+| **unión** | union | Verband | união | союз | soyuz | 联盟 | liánméng | 16 | 一 (uno) | compuesto | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 16 | 一 (uno) | compuesto | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 16 | 一 (uno) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **Bund** | Bund | Bund | Bund | Бунд | Bund | 崩得 | Bēngdé | sustantivo |
-| **diáspora** | diaspora | Diaspora | diáspora | диаспора | diaspora | 散居 | sànjū | sustantivo |
-| **pogrom** | pogrom | Pogrom | pogrom | погром | pogrom | 大屠杀 | dàtúshā | sustantivo |
-| **proletario** | proletarian | Proletarier | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | sustantivo |
-| **antisemitismo** | antisemitism | Antisemitismus | antissemitismo | антисемитизм | antisemitizm | 反犹主义 | fǎn yóu zhǔyì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Bund** | Bund | Bund | Bund | Бунд | Bund | 崩得 | Bēngdé | 11 | 山 (montaña) | independiente | sustantivo |
+| **diáspora** | diaspora | Diaspora | diáspora | диаспора | diaspora | 散居 | sànjū | 16 | 一 (uno) | compuesto | sustantivo |
+| **pogrom** | pogrom | Pogrom | pogrom | погром | pogrom | 大屠杀 | dàtúshā | 20 | 一 (uno) | compuesto | sustantivo |
+| **proletario** | proletarian | Proletarier | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | 20 | 一 (uno) | compuesto | sustantivo |
+| **antisemitismo** | antisemitism | Antisemitismus | antissemitismo | антисемитизм | antisemitizm | 反犹主义 | fǎn yóu zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

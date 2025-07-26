@@ -392,29 +392,29 @@ on velikiy spasitel' naroda.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **oriente** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng | sustantivo |
-| **rojo** | red | rot | vermelho | красный | krasnyy | 红 | hóng | adjetivo |
-| **sol** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng | sustantivo |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **salvador** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng | sustantivo |
-| **surgir** | to rise | aufgehen | nascer | восходить | voskhodit' | 升起 | shēngqǐ | verbo |
-| **china** | China | China | China | Китай | Kitay | 中国 | zhōngguó | sustantivo |
-| **aparecer** | to appear | erscheinen | aparecer | появляться | poyavlyat'sya | 出现 | chūxiàn | verbo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **líder** | leader | Führer | líder | лидер | lider | 领袖 | lǐngxiù | sustantivo |
-| **grande** | great | groß | grande | великий | velikiy | 伟大 | wěidà | adjetivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **oriente** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng | 8 | 方 (dirección) | izquierda-derecha | sustantivo |
+| **rojo** | red | rot | vermelho | красный | krasnyy | 红 | hóng | 6 | 纟 (seda) | izquierda-derecha | adjetivo |
+| **sol** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng | 10 | 日 (sol) | arriba-abajo | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
+| **salvador** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng | 16 | 一 (uno) | compuesto | sustantivo |
+| **surgir** | to rise | aufgehen | nascer | восходить | voskhodit' | 升起 | shēngqǐ | 16 | 一 (uno) | compuesto | verbo |
+| **china** | China | China | China | Китай | Kitay | 中国 | zhōngguó | 8 | 口 (boca) | encierro | sustantivo |
+| **aparecer** | to appear | erscheinen | aparecer | появляться | poyavlyat'sya | 出现 | chūxiàn | 16 | 一 (uno) | compuesto | verbo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
+| **líder** | leader | Führer | líder | лидер | lider | 领袖 | lǐngxiù | 16 | 一 (uno) | compuesto | sustantivo |
+| **grande** | great | groß | grande | великий | velikiy | 伟大 | wěidà | 16 | 一 (uno) | compuesto | adjetivo |
 
 ### TÉRMINOS POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **presidente** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí | sustantivo |
-| **partido comunista** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng | sustantivo |
-| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuì zhǔyì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **presidente** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí | 6 | 主 (señor) | arriba-abajo | sustantivo |
+| **partido comunista** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng | 20 | 一 (uno) | compuesto | sustantivo |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | 13 | 手 (mano) | izquierda-derecha | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
+| **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuì zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
 
 ---
 

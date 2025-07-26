@@ -304,37 +304,37 @@ guānyú tòngkǔ hé hànshuǐ.
 
 ### TÉRMINOS CLAVE DE LA CANCIÓN
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **jornalero** | farmhand | Landarbeiter | jornaleiro | батрак | batrak | 雇农 | gùnóng | sustantivo |
-| **amo** | master | Herr | patrão | хозяин | khozyain | 地主 | dìzhǔ | sustantivo |
-| **puño** | fist | Faust | punho | кулак | kulak | 拳头 | quántou | sustantivo |
-| **levantado** | raised | erhoben | levantado | поднятый | podnyatyy | 举起的 | jǔqǐ de | adjetivo |
-| **tierra** | land | Land | terra | земля | zemlya | 土地 | tǔdì | sustantivo |
-| **sudor** | sweat | Schweiß | suor | пот | pot | 汗水 | hànshuǐ | sustantivo |
-| **arado** | plow | Pflug | arado | плуг | plug | 犁 | lí | sustantivo |
-| **surcos** | furrows | Furchen | sulcos | борозды | borozdy | 沟垄 | gōulǒng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **jornalero** | farmhand | Landarbeiter | jornaleiro | батрак | batrak | 雇农 | gùnóng | 12 | 雇 (emplear) | izquierda-derecha | sustantivo |
+| **amo** | master | Herr | patrão | хозяин | khozyain | 地主 | dìzhǔ | 8 | 土 (tierra) | arriba-abajo | sustantivo |
+| **puño** | fist | Faust | punho | кулак | kulak | 拳头 | quántou | 13 | 手 (mano) | arriba-abajo | sustantivo |
+| **levantado** | raised | erhoben | levantado | поднятый | podnyatyy | 举起的 | jǔqǐ de | 12 | 手 (mano) | arriba-abajo | adjetivo |
+| **tierra** | land | Land | terra | земля | zemlya | 土地 | tǔdì | 6 | 土 (tierra) | izquierda-derecha | sustantivo |
+| **sudor** | sweat | Schweiß | suor | пот | pot | 汗水 | hànshuǐ | 9 | 氵 (agua) | izquierda-derecha | sustantivo |
+| **arado** | plow | Pflug | arado | плуг | plug | 犁 | lí | 11 | 牛 (buey) | arriba-abajo | sustantivo |
+| **surcos** | furrows | Furchen | sulcos | борозды | borozdy | 沟垄 | gōulǒng | 10 | 氵 (agua) | izquierda-derecha | sustantivo |
 
 ### TÉRMINOS LABORALES Y POLÍTICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **compañero** | comrade | Genosse | companheiro | товарищ | tovarishch | 同志 | tóngzhì | sustantivo |
-| **trabajar** | to work | arbeiten | trabalhar | работать | rabotat' | 劳作 | láozuò | verbo |
-| **regar** | to water | bewässern | regar | поливать | polivat' | 浇灌 | jiāoguàn | verbo |
-| **escribir** | to write | schreiben | escrever | писать | pisat' | 书写 | shūxiě | verbo |
-| **miseria** | misery | Elend | miséria | нищета | nishcheta | 痛苦 | tòngkǔ | sustantivo |
-| **páginas** | pages | Seiten | páginas | страницы | stranitsy | 篇章 | piānzhāng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **compañero** | comrade | Genosse | companheiro | товарищ | tovarishch | 同志 | tóngzhì | 7 | 同 (mismo) | arriba-abajo | sustantivo |
+| **trabajar** | to work | arbeiten | trabalhar | работать | rabotat' | 劳作 | láozuò | 9 | 力 (fuerza) | izquierda-derecha | verbo |
+| **regar** | to water | bewässern | regar | поливать | polivat' | 浇灌 | jiāoguàn | 15 | 氵 (agua) | izquierda-derecha | verbo |
+| **escribir** | to write | schreiben | escrever | писать | pisat' | 书写 | shūxiě | 9 | 乚 (segundo) | arriba-abajo | verbo |
+| **miseria** | misery | Elend | miséria | нищета | nishcheta | 痛苦 | tòngkǔ | 17 | 痛 (dolor) | arriba-abajo | sustantivo |
+| **páginas** | pages | Seiten | páginas | страницы | stranitsy | 篇章 | piānzhāng | 20 | 竹 (bambú) | arriba-abajo | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **anarquista** | anarchist | Anarchist | anarquista | анархист | anarkhist | 无政府主义者 | wúzhèngfǔzhǔyìzhě | adjetivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **república** | republic | Republik | república | республика | respublika | 共和国 | gònghéguó | sustantivo |
-| **colectivización** | collectivization | Kollektivierung | coletivização | коллективизация | kollektivizatsiya | 集体化 | jítǐhuà | sustantivo |
-| **comuna** | commune | Kommune | comuna | коммуна | kommuna | 公社 | gōngshè | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **anarquista** | anarchist | Anarchist | anarquista | анархист | anarkhist | 无政府主义者 | wúzhèngfǔzhǔyìzhě | 23 | 政 (gobierno) | arriba-abajo | adjetivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 13 | 革 (cuero) | izquierda-derecha | sustantivo |
+| **república** | republic | Republik | república | республика | respublika | 共和国 | gònghéguó | 14 | 八 (ocho) | izquierda-derecha | sustantivo |
+| **colectivización** | collectivization | Kollektivierung | coletivização | коллективизация | kollektivizatsiya | 集体化 | jítǐhuà | 16 | 隹 (pájaro) | izquierda-derecha | sustantivo |
+| **comuna** | commune | Kommune | comuna | коммуна | kommuna | 公社 | gōngshè | 10 | 八 (ocho) | izquierda-derecha | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

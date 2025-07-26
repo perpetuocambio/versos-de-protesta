@@ -582,29 +582,29 @@ yǔ gōngrén bìngjiān zuòzhàn
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de | adjetivo |
-| **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de | adjetivo |
-| **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì | verbo |
-| **jamás** | never | niemals | jamais | никогда | nikogda | 永远不会 | yǒngyuǎn bù huì | adverbio |
-| **será** | will be | wird sein | será | будет | budet | 将是 | jiāng shì | verbo |
-| **marcha** | march | Marsch | marcha | марш | marsh | 行进 | xíngjìn | sustantivo |
-| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | sustantivo |
-| **eterna** | eternal | ewig | eterna | вечная | vechnaya | 永恒的 | yǒnghéng de | adjetivo |
-| **historia** | history | Geschichte | história | история | istoriya | 历史 | lìshǐ | sustantivo |
-| **vencer** | to conquer | besiegen | vencer | победить | pobedit' | 战胜 | zhànshèng | verbo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
+| **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de | 14 | 囗 (recinto) | izquierda-derecha | adjetivo |
+| **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de | 12 | 戈 (lanza) | izquierda-derecha | adjetivo |
+| **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì | 14 | 力 (fuerza) | izquierda-derecha | verbo |
+| **jamás** | never | niemals | jamais | никогда | nikogda | 永远不会 | yǒngyuǎn bù huì | 20 | 一 (uno) | compuesto | adverbio |
+| **será** | will be | wird sein | será | будет | budet | 将是 | jiāng shì | 16 | 一 (uno) | compuesto | verbo |
+| **marcha** | march | Marsch | marcha | марш | marsh | 行进 | xíngjìn | 16 | 一 (uno) | compuesto | sustantivo |
+| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | 16 | 一 (uno) | compuesto | sustantivo |
+| **eterna** | eternal | ewig | eterna | вечная | vechnaya | 永恒的 | yǒnghéng de | 20 | 一 (uno) | compuesto | adjetivo |
+| **historia** | history | Geschichte | história | история | istoriya | 历史 | lìshǐ | 16 | 一 (uno) | compuesto | sustantivo |
+| **vencer** | to conquer | besiegen | vencer | победить | pobedit' | 战胜 | zhànshèng | 12 | 戈 (lanza) | izquierda-derecha | verbo |
 
 ### TÉRMINOS HISTÓRICOS  
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì | sustantivo |
-| **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié | sustantivo |
-| **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng | sustantivo |
-| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
-| **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì | 14 | 方 (dirección) | izquierda-derecha | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié | 14 | 囗 (recinto) | izquierda-derecha | sustantivo |
+| **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng | 16 | 一 (uno) | compuesto | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
+| **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | 14 | 力 (fuerza) | izquierda-derecha | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

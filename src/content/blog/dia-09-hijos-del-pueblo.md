@@ -304,29 +304,29 @@ bùrú wèi lǐxiǎng ér sǐ.
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì | sustantivo |
-| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | sustantivo |
-| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | sustantivo |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | sustantivo |
-| **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | sustantivo |
-| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | sustantivo |
-| **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì | 18 | 无 (nada) | arriba-abajo | sustantivo |
+| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | 16 | 一 (uno) | compuesto | sustantivo |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | 14 | 囗 (recinto) | izquierda-derecha | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
+| **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | 20 | 一 (uno) | compuesto | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 16 | 一 (uno) | compuesto | sustantivo |
+| **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | 16 | 一 (uno) | compuesto | sustantivo |
+| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
+| **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | 16 | 一 (uno) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì | sustantivo |
-| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | sustantivo |
-| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | sustantivo |
-| **sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | sustantivo |
-| **federación** | federation | Föderation | federação | федерация | federatsiya | 联邦 | liánbāng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì | 16 | 囗 (recinto) | encierro | sustantivo |
+| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | 20 | 一 (uno) | compuesto | sustantivo |
+| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | 20 | 一 (uno) | compuesto | sustantivo |
+| **sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
+| **federación** | federation | Föderation | federação | федерация | federatsiya | 联邦 | liánbāng | 16 | 一 (uno) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

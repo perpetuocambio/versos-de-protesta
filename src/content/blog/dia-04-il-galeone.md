@@ -621,29 +621,29 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
-| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | sustantivo |
-| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | sustantivo |
-| **viento** | wind | Wind | vento | ветер | veter | 风 | fēng | sustantivo |
-| **oleada** | wave | Welle | onda | волна | volna | 波浪 | bōlàng | sustantivo |
-| **esclavo** | slave | Sklave | escravo | раб | rab | 奴隶 | núlì | sustantivo |
-| **cadenas** | chains | Ketten | correntes | цепи | tsepi | 锁链 | suǒliàn | sustantivo |
-| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
-| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán | 12 | 船 (barco) | izquierda-derecha | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | 16 | 一 (uno) | compuesto | sustantivo |
+| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | 16 | 一 (uno) | compuesto | sustantivo |
+| **viento** | wind | Wind | vento | ветер | veter | 风 | fēng | 8 | 一 (uno) | independiente | sustantivo |
+| **oleada** | wave | Welle | onda | волна | volna | 波浪 | bōlàng | 16 | 一 (uno) | compuesto | sustantivo |
+| **esclavo** | slave | Sklave | escravo | раб | rab | 奴隶 | núlì | 16 | 一 (uno) | compuesto | sustantivo |
+| **cadenas** | chains | Ketten | correntes | цепи | tsepi | 锁链 | suǒliàn | 16 | 一 (uno) | compuesto | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | 16 | 一 (uno) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | sustantivo |
-| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | sustantivo |
-| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **anarquía** | anarchy | Anarchie | anarquia | анархия | anarkhiya | 无政府主义 | wú zhèngfǔ zhǔyì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | 7 | 手 (mano) | izquierda-derecha | sustantivo |
+| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | 16 | 一 (uno) | compuesto | sustantivo |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | 16 | 一 (uno) | compuesto | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
+| **anarquía** | anarchy | Anarchie | anarquia | анархия | anarkhiya | 无政府主义 | wú zhèngfǔ zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

@@ -473,29 +473,29 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **movilización** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán | sustantivo |
-| **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de | adjetivo |
-| **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ | sustantivo |
-| **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì | sustantivo |
-| **mundo** | world | Welt | mundo | мир | mir | 世界 | shìjiè | sustantivo |
-| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén | sustantivo |
-| **escuchar** | to hear | hören | escutar | слышать | slyshat' | 听见 | tīngjiàn | verbo |
-| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | sustantivo |
-| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
-| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **movilización** | mobilization | Aufmarsch | mobilização | мобилизация | mobilizatsiya | 动员 | dòngyuán | 11 | 力 (fuerza) | izquierda-derecha | sustantivo |
+| **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de | 20 | 一 (uno) | compuesto | adjetivo |
+| **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ | 20 | 一 (uno) | compuesto | sustantivo |
+| **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì | 20 | 一 (uno) | compuesto | sustantivo |
+| **mundo** | world | Welt | mundo | мир | mir | 世界 | shìjiè | 16 | 一 (uno) | compuesto | sustantivo |
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
+| **escuchar** | to hear | hören | escutar | слышать | slyshat' | 听见 | tīngjiàn | 16 | 一 (uno) | compuesto | verbo |
+| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | 16 | 戈 (lanza) | izquierda-derecha | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|
-| **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng | sustantivo |
-| **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng | sustantivo |
-| **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó | sustantivo |
-| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | adjetivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抗战 | kàngzhàn | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng | 13 | 戈 (lanza) | izquierda-derecha | sustantivo |
+| **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng | 20 | 一 (uno) | compuesto | sustantivo |
+| **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó | 20 | 一 (uno) | compuesto | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | 20 | 一 (uno) | compuesto | adjetivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抗战 | kàngzhàn | 16 | 一 (uno) | compuesto | sustantivo |
 
 ---
 
