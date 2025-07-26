@@ -11,6 +11,7 @@ originalSong:
   year: 1969
   language: "es"
   genre: "nueva canción"
+  origin: "España"
 grammarTopics: 
   - "imperativo español"
   - "verbos de movimiento"
