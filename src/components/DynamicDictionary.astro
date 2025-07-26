@@ -823,6 +823,88 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
   }
 
+  // Base de datos de trazos para caracteres individuales comunes
+  const characterStrokes = {
+    // Radicales básicos
+    "人": 2, "口": 3, "土": 3, "工": 3, "大": 3, "小": 3, "山": 3, "川": 3,
+    "木": 4, "水": 4, "火": 4, "日": 4, "月": 4, "心": 4, "手": 4, "目": 5,
+    "田": 5, "白": 5, "石": 5, "立": 5, "示": 5, "禾": 5, "穴": 5, "竹": 6,
+    "米": 6, "糸": 6, "耳": 6, "肉": 6, "臣": 6, "自": 6, "至": 6, "舌": 6,
+    "虫": 6, "血": 6, "行": 6, "衣": 6, "見": 7, "言": 7, "谷": 7, "豆": 7,
+    "豕": 7, "走": 7, "足": 7, "身": 7, "車": 7, "辛": 7, "辰": 7, "酉": 7,
+    "釆": 7, "里": 7, "金": 8, "長": 8, "門": 8, "阜": 8, "隶": 8, "隹": 8,
+    "雨": 8, "青": 8, "非": 8, "面": 9, "革": 9, "韋": 9, "韭": 9, "音": 9,
+    "頁": 9, "風": 9, "飛": 9, "食": 9, "首": 9, "香": 9, "馬": 10, "骨": 10,
+    "高": 10, "髟": 10, "鬥": 10, "鬯": 10, "鬲": 10, "鬼": 10, "魚": 11,
+    "鳥": 11, "鹵": 11, "鹿": 11, "麻": 11, "黃": 12, "黍": 12, "黑": 12,
+    "黹": 12, "黽": 13, "鼎": 13, "鼓": 13, "鼠": 13, "鼻": 14, "齊": 14,
+    "齒": 15, "龍": 16, "龜": 16, "龠": 17,
+    
+    // Caracteres revolucionarios comunes
+    "反": 4, "抗": 7, "革": 9, "命": 8, "民": 5, "国": 8, "党": 10, "政": 9,
+    "权": 6, "斗": 4, "争": 6, "战": 9, "胜": 9, "利": 7, "力": 2, "农": 6,
+    "地": 6, "主": 5, "义": 3, "自": 6, "由": 5, "团": 6, "结": 9, "解": 13,
+    "放": 8, "联": 12, "盟": 13, "社": 7, "会": 6, "劳": 7, "作": 7, "起": 10,
+    "来": 7, "权": 6, "利": 7, "斗": 4, "争": 6, "战": 9, "胜": 9,
+    
+    // Números básicos
+    "一": 1, "二": 2, "三": 3, "四": 5, "五": 4, "六": 4, "七": 2, "八": 2,
+    "九": 2, "十": 2, "百": 6, "千": 3, "万": 3,
+    
+    // Otros caracteres comunes del vocabulario
+    "歌": 14, "曲": 6, "唱": 11, "旗": 14, "帜": 8, "红": 9, "黑": 12, "白": 5,
+    "青": 8, "黄": 11, "绿": 11, "紫": 12, "蓝": 13, "灰": 6, "棕": 12,
+    "东": 5, "西": 6, "南": 9, "北": 5, "上": 3, "下": 3, "左": 5, "右": 5,
+    "前": 9, "后": 6, "中": 4, "内": 4, "外": 5, "里": 7, "边": 5, "间": 7,
+    "年": 6, "月": 4, "日": 4, "时": 7, "分": 4, "秒": 9, "今": 4, "明": 8,
+    "昨": 9, "早": 6, "晚": 11, "夜": 8, "午": 4, "晨": 11, "夕": 3, "朝": 12
+  };
+
+  // Función para obtener pinyin de un carácter desde el diccionario
+  function getCharacterPinyin(character) {
+    if (!dictionaryData || !dictionaryData.words) return "";
+    
+    // Buscar en todas las palabras del diccionario
+    for (const [word, data] of Object.entries(dictionaryData.words)) {
+      if (data.entries) {
+        for (const entry of data.entries) {
+          if (entry.allTranslations?.zh?.includes(character)) {
+            const zhText = entry.allTranslations.zh;
+            const pinyinText = entry.allTranslations.zhPinyin;
+            
+            if (zhText && pinyinText) {
+              const charIndex = zhText.indexOf(character);
+              if (charIndex !== -1) {
+                // Intentar extraer el pinyin correspondiente
+                const pinyinParts = pinyinText.split(/\s+/);
+                if (pinyinParts[charIndex]) {
+                  return pinyinParts[charIndex];
+                }
+                // Si no se puede mapear exactamente, devolver el primer pinyin
+                return pinyinParts[0] || "";
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    // Pinyins básicos más comunes como fallback
+    const commonPinyin = {
+      "人": "rén", "民": "mín", "国": "guó", "工": "gōng", "党": "dǎng",
+      "革": "gé", "命": "mìng", "反": "fǎn", "抗": "kàng", "斗": "dòu",
+      "争": "zhēng", "战": "zhàn", "胜": "shèng", "利": "lì", "力": "lì",
+      "土": "tǔ", "地": "dì", "农": "nóng", "劳": "láo", "作": "zuò",
+      "自": "zì", "由": "yóu", "主": "zhǔ", "义": "yì", "社": "shè",
+      "会": "huì", "解": "jiě", "放": "fàng", "团": "tuán", "结": "jié",
+      "联": "lián", "盟": "méng", "起": "qǐ", "来": "lái", "权": "quán",
+      "一": "yī", "二": "èr", "三": "sān", "四": "sì", "五": "wǔ",
+      "六": "liù", "七": "qī", "八": "bā", "九": "jiǔ", "十": "shí"
+    };
+    
+    return commonPinyin[character] || "";
+  }
+
   // Función para convertir caracteres chinos a códigos Unicode decimales - ARCHIVOS LOCALES
   function getChineseStrokeGifs(chineseText) {
     if (!chineseText || typeof chineseText !== 'string') return [];
@@ -833,8 +915,10 @@ document.addEventListener('DOMContentLoaded', async function() {
       // Verificar que sea un carácter chino (CJK)
       if (/[\u4e00-\u9fff]/.test(char)) {
         const unicodeDecimal = char.codePointAt(0);
+        const pinyin = getCharacterPinyin(char);
         gifs.push({
           char: char,
+          pinyin: pinyin,
           url: `${baseUrl}data/chinese/strokes/${unicodeDecimal}.gif`,
           attribution: "MDBG Chinese Dictionary (mdbg.net)"
         });
@@ -928,7 +1012,7 @@ document.addEventListener('DOMContentLoaded', async function() {
               detailsHtml += `<div style="font-size: 0.7rem; color: #999; margin-bottom: 0.25rem;">${idx + 1}</div>`;
             }
             detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
-            detailsHtml += `<div>${gif.char}</div>`;
+            detailsHtml += `<div>${gif.pinyin || gif.char}</div>`;
             detailsHtml += `</div>`;
           });
           detailsHtml += `</div>`;
@@ -1014,44 +1098,140 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
   }
   
-  // Función para cargar análisis de radicales
-  async function loadRadicalAnalysis() {
+  // Función para generar análisis de radicales usando datos del diccionario
+  function loadRadicalAnalysis() {
     const containers = document.querySelectorAll('.radical-analyzer-container');
     if (containers.length === 0) return;
     
-    try {
-      console.log('🔍 Cargando datos de radicales...');
-      const response = await fetch(`${baseUrl}data/chinese/radicals.json`);
-      if (!response.ok) {
-        console.warn('No se pudieron cargar los datos de radicales');
-        return;
+    containers.forEach((container) => {
+      const character = container.dataset.character;
+      
+      // Buscar el carácter en los datos del diccionario cargado
+      let characterData = null;
+      if (dictionaryData && dictionaryData.words) {
+        // Buscar en todas las palabras del diccionario
+        for (const [word, data] of Object.entries(dictionaryData.words)) {
+          if (word.includes(character) || 
+              (data.entries && data.entries.some(entry => 
+                entry.allTranslations?.zh?.includes(character)))) {
+            
+            // Encontrar la entrada específica que contiene este carácter
+            const relevantEntry = data.entries.find(entry => 
+              entry.allTranslations?.zh?.includes(character) ||
+              entry.word === character
+            );
+            
+            if (relevantEntry && relevantEntry.allTranslations) {
+              // Usar los trazos del carácter individual, no de la palabra completa
+              const individualStrokes = characterStrokes[character] || "?";
+              
+              characterData = {
+                character: character,
+                radical: relevantEntry.allTranslations.zhRadical || "未知",
+                strokes: individualStrokes,
+                structure: relevantEntry.allTranslations.zhStructure || "desconocida",
+                translations: relevantEntry.allTranslations,
+                meaning: relevantEntry.meaning || "",
+                isRevolutionary: isRevolutionaryCharacter(character)
+              };
+              break;
+            }
+          }
+        }
       }
       
-      const radicalData = await response.json();
-      
-      containers.forEach(async (container) => {
-        const character = container.dataset.character;
-        const characterAnalysis = radicalData.characters[character];
-        
-        const loadingEl = container.querySelector('.radical-loading-mini');
-        
-        if (characterAnalysis) {
-          const analysisHTML = generateRadicalHTML(characterAnalysis);
-          container.innerHTML = analysisHTML;
-          console.log(`✅ Radical análisis cargado para: ${character}`);
-        } else {
-          loadingEl.innerHTML = `<span style="color: #6c757d;">📝 Análisis de ${character} en desarrollo</span>`;
-        }
-      });
-      
-    } catch (error) {
-      console.error('Error cargando análisis de radicales:', error);
-      containers.forEach(container => {
-        container.innerHTML = '<span style="color: #dc3545;">⚠️ Error cargando análisis</span>';
-      });
-    }
+      if (characterData) {
+        const analysisHTML = generateRadicalHTMLFromDictionary(characterData);
+        container.innerHTML = analysisHTML;
+        console.log(`✅ Radical análisis cargado para: ${character} - ${characterData.radical}`);
+      } else {
+        container.innerHTML = `<span style="color: #6c757d;">📝 Análisis de ${character} en desarrollo</span>`;
+        console.log(`ℹ️ No se encontró información de radical para: ${character}`);
+      }
+    });
   }
   
+  // Función para determinar si un carácter es revolucionario
+  function isRevolutionaryCharacter(character) {
+    const revolutionaryChars = [
+      "反", "抗", "革", "命", "民", "国", "党", "政", "权", "斗", "争", "战",
+      "胜", "利", "力", "工", "农", "土", "地", "人", "主", "义", "自", "由",
+      "团", "结", "解", "放", "联", "盟", "社", "会", "劳", "作", "起", "来"
+    ];
+    return revolutionaryChars.includes(character);
+  }
+
+  // Función para generar HTML de radical usando datos del diccionario
+  function generateRadicalHTMLFromDictionary(data) {
+    const isRevolutionary = data.isRevolutionary;
+    
+    // Extraer radical limpio (sin paréntesis)
+    let radicalChar = data.radical;
+    let radicalMeaning = "";
+    
+    const radicalMatch = data.radical.match(/^([^\s(]+)\s*\(([^)]+)\)/);
+    if (radicalMatch) {
+      radicalChar = radicalMatch[1];
+      radicalMeaning = radicalMatch[2];
+    }
+    
+    let html = `
+      <div class="radical-content">
+        <div class="radical-header">
+          <div class="radical-display">${data.character}</div>
+          ${isRevolutionary ? '<span class="revolutionary-badge">🚩 Revolucionario</span>' : ''}
+        </div>
+    `;
+    
+    // Información del radical
+    html += `
+      <div style="margin-bottom: 0.5rem;">
+        <strong>Radical:</strong> <span class="radical-display" style="font-size: 1.2rem;">${radicalChar}</span>
+      </div>
+      <div class="radical-meaning">
+        ${radicalMeaning || 'Significado no disponible'}
+      </div>
+    `;
+    
+    // Información adicional
+    if (data.strokes && data.strokes !== "?") {
+      html += `
+        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #666;">
+          📏 <strong>Trazos:</strong> ${data.strokes} <small style="color: #999;">(aproximado)</small>
+        </div>
+      `;
+    }
+    
+    if (data.structure && data.structure !== "desconocida") {
+      html += `
+        <div style="margin-top: 0.25rem; font-size: 0.85rem; color: #666;">
+          🏗️ <strong>Estructura:</strong> ${data.structure}
+        </div>
+      `;
+    }
+    
+    // Significado del carácter en español
+    if (data.meaning) {
+      html += `
+        <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #6c757d; font-style: italic;">
+          💡 ${data.meaning}
+        </div>
+      `;
+    }
+    
+    // Contexto revolucionario
+    if (isRevolutionary) {
+      html += `
+        <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #dc3545; font-weight: 500;">
+          🚩 Carácter clave en vocabulario revolucionario
+        </div>
+      `;
+    }
+    
+    html += `</div>`;
+    return html;
+  }
+
   function generateRadicalHTML(analysis) {
     const isRevolutionary = analysis.revolutionaryRelevance;
     
