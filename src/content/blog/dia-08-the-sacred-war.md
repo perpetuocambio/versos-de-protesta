@@ -382,6 +382,16 @@ wǒmen yào dǎzào jiāngù de guāncái!
 | **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | sustantivo |
 | **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
 | **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | sustantivo |
+| **sagrada** | sacred | heilig | sagrada | священная | svyashchennaya | 神圣的 | shénshèng de | adjetivo |
+| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
+| **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | sustantivo |
+| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | sustantivo |
+| **heroico** | heroic | heldenhaft | heroico | героический | geroyicheskiy | 英勇的 | yīngyǒng de | adjetivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
+| **invasión** | invasion | Invasion | invasão | вторжение | vtorzheniye | 入侵 | rùqīn | sustantivo |
+| **defensa** | defense | Verteidigung | defesa | оборона | oborona | 防御 | fángyù | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 

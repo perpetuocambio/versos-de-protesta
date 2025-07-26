@@ -479,6 +479,13 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 | **secreto** | secret | heimlich | secreto | тайный | taynyy | 秘密的 | mìmì de | adjetivo |
 | **susurro** | whisper | Geflüster | sussurro | шёпот | shyopot | 窃窃私语 | qièqiè sīyǔ | sustantivo |
 | **horda saqueadora** | robber horde | Räuberheer | horda saqueadora | разбойничья орда | razboynichjya orda | 强盗军队 | qiángdào jūnduì | sustantivo |
+| **mundo** | world | Welt | mundo | мир | mir | 世界 | shìjiè | sustantivo |
+| **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén | sustantivo |
+| **escuchar** | to hear | hören | escutar | слышать | slyshat' | 听见 | tīngjiàn | verbo |
+| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
@@ -487,6 +494,8 @@ jiāng juéqǐ shèhuì zhǔyì shìjiè gònghéguó!
 | **ministro de guerra** | war minister | Kriegsminister | ministro da guerra | военный министр | voyennyy ministr | 战争部长 | zhànzhēng bùzhǎng | sustantivo |
 | **luz soviética** | Soviet light | Sowjetlicht | luz soviética | советский свет | sovetskiy svet | 苏维埃之光 | Sūwéi'āi zhī guāng | sustantivo |
 | **república mundial** | world republic | Weltrepublik | república mundial | мировая республика | mirovaya respublika | 世界共和国 | shìjiè gònghéguó | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | adjetivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抗战 | kàngzhàn | sustantivo |
 
 ---
 

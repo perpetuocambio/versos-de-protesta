@@ -242,21 +242,29 @@ Méiyǒu jiùshú, gòu le!
 
 ### TÉRMINOS CLAVE
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **necio** | foolish | töricht | tolo | глупый | glupyy | 愚蠢 | yúchǔn |
-| **fantasear** | fantasize | phantasieren | fantasiar | фантазировать | fantazirovat' | 幻想 | huànxiǎng |
-| **perecer** | perish | verderben | perecer | гибнуть | gibnut' | 灭亡 | mièwáng |
-| **bandera** | flag | Fahne | bandeira | знамя | znamya | 旗帜 | qízhì |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **necio** | foolish | töricht | tolo | глупый | glupyy | 愚蠢 | yúchǔn | adjetivo |
+| **fantasear** | fantasize | phantasieren | fantasiar | фантазировать | fantazirovat' | 幻想 | huànxiǎng | verbo |
+| **perecer** | perish | verderben | perecer | гибнуть | gibnut' | 灭亡 | mièwáng | verbo |
+| **bandera** | flag | Fahne | bandeira | знамя | znamya | 旗帜 | qízhì | sustantivo |
+| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | sustantivo |
+| **juventud** | youth | Jugend | juventude | молодежь | molodyozh | 青年 | qīngnián | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **unión** | union | Verband | união | союз | soyuz | 联盟 | liánméng | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
-| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
-|---|---|---|---|---|---|---|---|
-| **Bund** | Bund | Bund | Bund | Бунд | Bund | 崩得 | Bēngdé |
-| **diáspora** | diaspora | Diaspora | diáspora | диаспора | diaspora | 散居 | sànjū |
-| **pogrom** | pogrom | Pogrom | pogrom | погром | pogrom | 大屠杀 | dàtúshā |
-| **proletario** | proletarian | Proletarier | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **Bund** | Bund | Bund | Bund | Бунд | Bund | 崩得 | Bēngdé | sustantivo |
+| **diáspora** | diaspora | Diaspora | diáspora | диаспора | diaspora | 散居 | sànjū | sustantivo |
+| **pogrom** | pogrom | Pogrom | pogrom | погром | pogrom | 大屠杀 | dàtúshā | sustantivo |
+| **proletario** | proletarian | Proletarier | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | sustantivo |
+| **antisemitismo** | antisemitism | Antisemitismus | antissemitismo | антисемитизм | antisemitizm | 反犹主义 | fǎn yóu zhǔyì | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

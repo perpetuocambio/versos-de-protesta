@@ -61,14 +61,14 @@ async function extractVocabularyFromMarkdown(filePath) {
     
     // SOLO procesar tablas de vocabulario legítimas
     const tableRegexes = [
+      // Formato PREFERIDO con 9 columnas (incluyendo Categoría)
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*Categoría\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
+      
       // Formato con IPA: | Español | English [IPA] | ... (8 columnas exactas)
       /\|\s*Español\s*\|\s*English\s*\[IPA\]\s*\|\s*Deutsch\s*\[IPA\]\s*\|\s*Português\s*\[IPA\]\s*\|\s*Русский\s*\[IPA\]\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\[IPA\]\s*\|\s*Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
       
       // Formato simple con exactamente 8 columnas de idiomas
-      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm,
-      
-      // Formato con 9 columnas (incluyendo Categoría)
-      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*Categoría\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
+      /\|\s*Español\s*\|\s*English\s*\|\s*Deutsch\s*\|\s*Português\s*\|\s*Русский\s*\|\s*Русский Rom\.?\s*\|\s*中文\s*\|\s*(?:中文\s*)?Pinyin\s*\|\s*\n\|[\s\S]*?\n((?:\|.*?\n)*)/gm
     ];
 
     const excludedTablePatterns = [
@@ -200,7 +200,7 @@ async function extractVocabularyFromMarkdown(filePath) {
         const hasCategoryColumn = /Categoría/i.test(header);
 
         if (cells.length >= 9 && hasCategoryColumn) {
-          // Formato con 9 columnas (incluyendo Categoría)
+          // Formato PREFERIDO: | Español | English | ... | Categoría |
           entry = {
             es: cleanCell(cells[0]),
             en: cleanCell(cells[1]), 

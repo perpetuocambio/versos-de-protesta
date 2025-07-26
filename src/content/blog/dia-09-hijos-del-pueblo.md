@@ -309,6 +309,14 @@ bùrú wèi lǐxiǎng ér sǐ.
 | **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì | sustantivo |
 | **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | sustantivo |
 | **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | sustantivo |
+| **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | sustantivo |
+| **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | sustantivo |
+| **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
@@ -317,6 +325,8 @@ bùrú wèi lǐxiǎng ér sǐ.
 | **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì | sustantivo |
 | **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | sustantivo |
 | **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | sustantivo |
+| **sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | sustantivo |
+| **federación** | federation | Föderation | federação | федерация | federatsiya | 联邦 | liánbāng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

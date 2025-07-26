@@ -334,6 +334,7 @@ guānyú tòngkǔ hé hànshuǐ.
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
 | **república** | republic | Republik | república | республика | respublika | 共和国 | gònghéguó | sustantivo |
 | **colectivización** | collectivization | Kollektivierung | coletivização | коллективизация | kollektivizatsiya | 集体化 | jítǐhuà | sustantivo |
+| **comuna** | commune | Kommune | comuna | коммуна | kommuna | 公社 | gōngshè | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

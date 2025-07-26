@@ -276,6 +276,12 @@ Bùyào wàngjì!
 | **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabochiy | 工人 | gōngrén | sustantivo |
 | **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
+| **alianza** | alliance | Bündnis | aliança | альянс | al'yans | 联盟 | liánméng | sustantivo |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结互助 | tuánjié hùzhù | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | sustantivo |
+| **comunista** | communist | Kommunist | comunista | коммунист | kommunist | 共产主义者 | gòngchǎn zhǔyì zhě | sustantivo |
+| **socialista** | socialist | Sozialist | socialista | социалист | sotsialist | 社会主义者 | shèhuì zhǔyì zhě | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
@@ -284,6 +290,8 @@ Bùyào wàngjì!
 | **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
 | **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó | sustantivo |
 | **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | adjetivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

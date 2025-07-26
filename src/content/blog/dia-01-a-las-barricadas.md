@@ -372,9 +372,9 @@ Wèile bānglián de shènglì.
 
 ### TÉRMINOS ANARQUISTAS
 
-| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
-|---|---|---|---|---|---|---|---|---|---|
-| **Anarquismo** | anarquismo | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wú zhèngfǔ zhǔyì | sustantivo |
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wú zhèngfǔ zhǔyì | sustantivo |
 | **Autogestión** | autogestión | self-management | Selbstverwaltung | autogestão | самоуправление | samoupravléniye | 自治管理 | zìzhì guǎnlǐ | sustantivo |
 | **Federación** | federación | federation | Föderation | federação | федерация | federátsiya | 联邦 | liánbāng | sustantivo |
 | **Sindicalismo** | sindicalismo | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | sustantivo |

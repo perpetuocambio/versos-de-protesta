@@ -399,8 +399,30 @@ Añadir al final de cada lección una sección con enlaces a Wikipedia para la c
 
 ### ELEMENTOS OBLIGATORIOS EN CADA DOCUMENTACIÓN:
 
-#### 📊 TABLA VOCABULARIO COMPARATIVO OBLIGATORIA:
+#### 📊 REGLAS CRÍTICAS VOCABULARIO - FORMATO EXACTO OBLIGATORIO:
+
+**🔥 FORMATO HEADER ÚNICO ACEPTADO:**
+```
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+```
+
+**❌ FORMATOS PROHIBIDOS QUE CAUSAN ERRORES:**
+- `| Concepto | Español | English |...` → ❌ Script ignora estas tablas
+- `| Elemento | Español | English |...` → ❌ Script ignora estas tablas  
+- `| Año | Evento | Español |...` → ⚠️ Solo para tablas NO-vocabulario
+- Headers sin columna "Categoría" → ❌ Scripts fallan al procesar
+
+**🎯 CANTIDAD OBLIGATORIA POR LECCIÓN:**
+- **MÍNIMO: 16 entradas totales** por día de vocabulario
+- **MÁXIMO: 20 entradas totales** para evitar sobrecarga
+- **DISTRIBUCIÓN SUGERIDA:** 11 TÉRMINOS CLAVE + 5 TÉRMINOS HISTÓRICOS = 16 total
+
+**📋 VERIFICACIÓN OBLIGATORIA ANTES DE PUBLICAR:**
+- [ ] Header exacto: `| Español | English | Deutsch |...`
+- [ ] Total 16 entradas mínimo en sección vocabulario
+- [ ] Columna "Categoría" presente en todas las tablas vocabulario
+- [ ] Categorías válidas: sustantivo, verbo, adjetivo, adverbio, preposición, conjunción, pronombre, artículo, interjección
+- [ ] NO usar `| Concepto |` o `| Elemento |` en tablas vocabulario
 
 **Categorías gramaticales disponibles:** sustantivo, verbo, adjetivo, adverbio, preposición, conjunción, pronombre, artículo, interjección
 

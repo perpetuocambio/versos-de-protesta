@@ -588,14 +588,23 @@ yǔ gōngrén bìngjiān zuòzhàn
 | **unido** | united | vereint | unido | единый | edinyy | 团结的 | tuánjié de | adjetivo |
 | **vencido** | defeated | besiegt | vencido | побеждённый | pobezhdyonnyy | 被战胜的 | bèi zhànshèng de | adjetivo |
 | **triunfar** | triumph | siegen | triunfar | победить | pobedit' | 胜利 | shènglì | verbo |
+| **jamás** | never | niemals | jamais | никогда | nikogda | 永远不会 | yǒngyuǎn bù huì | adverbio |
+| **será** | will be | wird sein | será | будет | budet | 将是 | jiāng shì | verbo |
+| **marcha** | march | Marsch | marcha | марш | marsh | 行进 | xíngjìn | sustantivo |
+| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | sustantivo |
+| **eterna** | eternal | ewig | eterna | вечная | vechnaya | 永恒的 | yǒnghéng de | adjetivo |
+| **historia** | history | Geschichte | história | история | istoriya | 历史 | lìshǐ | sustantivo |
+| **vencer** | to conquer | besiegen | vencer | победить | pobedit' | 战胜 | zhànshèng | verbo |
 
-### TÉRMINOS HISTÓRICOS
+### TÉRMINOS HISTÓRICOS  
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
 |---|---|---|---|---|---|---|---|---|
 | **banderas** | banners | Fahnen | bandeiras | знамёна | znamyona | 旗帜 | qízhì | sustantivo |
 | **unidad** | unity | Einheit | unidade | единство | edinstvo | 团结 | tuánjié | sustantivo |
 | **amanecer** | dawn | Morgendämmerung | amanhecer | заря | zarya | 黎明 | límíng | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
+| **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

@@ -627,6 +627,13 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
 | **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | sustantivo |
 | **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | sustantivo |
+| **viento** | wind | Wind | vento | ветер | veter | 风 | fēng | sustantivo |
+| **oleada** | wave | Welle | onda | волна | volna | 波浪 | bōlàng | sustantivo |
+| **esclavo** | slave | Sklave | escravo | раб | rab | 奴隶 | núlì | sustantivo |
+| **cadenas** | chains | Ketten | correntes | цепи | tsepi | 锁链 | suǒliàn | sustantivo |
+| **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | sustantivo |
+| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
@@ -635,6 +642,8 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 | **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | sustantivo |
 | **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | sustantivo |
 | **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| **anarquía** | anarchy | Anarchie | anarquia | анархия | anarkhiya | 无政府主义 | wú zhèngfǔ zhǔyì | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

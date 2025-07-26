@@ -930,6 +930,14 @@ Práctica tonal:
 | **partisanos** | partisans | Partisanen | partidários | партизаны | partizany | 游击队 | yóujīduì | sustantivo |
 | **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | sustantivo |
 | **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdenie | 解放 | jiěfàng | sustantivo |
+| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | sustantivo |
+| **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | sustantivo |
+| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | sustantivo |
+| **montañas** | mountains | Berge | montanhas | горы | gory | 山脉 | shānmài | sustantivo |
+| **libertadores** | liberators | Befreier | libertadores | освободители | osvoboditeli | 解放者 | jiěfàng zhě | sustantivo |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
@@ -938,6 +946,8 @@ Práctica tonal:
 | **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng | sustantivo |
 | **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài | sustantivo |
 | **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de | adjetivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | adjetivo |
 
 ### TÉRMINOS DE GUERRA Y COMBATE
 
