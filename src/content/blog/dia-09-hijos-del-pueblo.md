@@ -652,7 +652,6 @@ nǐŋ²¹sɨ³³ jě²¹⁴ pù⁰ tsuǒ⁵¹ nú³⁵lì⁵¹
 
 *   **es:** [Hijos del pueblo](https://es.wikipedia.org/wiki/Hijos_del_pueblo)
 *   **en:** [Hijos del Pueblo](https://en.wikipedia.org/wiki/Hijos_del_Pueblo)
-*   **pt:** [Hijos del Pueblo](https://pt.wikipedia.org/wiki/Hijos_del_Pueblo)
 *   **zh:** [人民之子](https://zh.wikipedia.org/wiki/人民之子)
 
 ### 🏛️ Contexto Histórico: "Anarquismo en España"

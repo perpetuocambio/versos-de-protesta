@@ -384,28 +384,23 @@ Wèile bānglián de shènglì.
 
 ## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
 
-### **🏴 CNT (Confederación Nacional del Trabajo)**
-- **es:** [CNT - Confederación Nacional del Trabajo](https://es.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-- **en:** [National Confederation of Labour (Spain)](https://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-- **de:** [Confederación Nacional del Trabajo](https://de.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-- **pt:** [Confederação Nacional do Trabalho](https://pt.wikipedia.org/wiki/Confedera%C3%A7%C3%A3o_Nacional_do_Trabalho)
-- **fr:** [Confédération nationale du travail (Espagne)](https://fr.wikipedia.org/wiki/Conf%C3%A9d%C3%A9ration_nationale_du_travail_%28Espagne%29)
-- **ru:** [Национальная конфедерация труда (Испания)](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D0%B0_%28%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F%29)
-
 ### **🏴 FAI (Federación Anarquista Ibérica)**
 - **es:** [Federación Anarquista Ibérica](https://es.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
 - **en:** [Iberian Anarchist Federation](https://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
 - **de:** [Federación Anarquista Ibérica](https://de.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
 - **pt:** [Federação Anarquista Ibérica](https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Anarquista_Ib%C3%A9rica)
 - **fr:** [Fédération anarchiste ibérique](https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_anarchiste_ib%C3%A9rique)
+- **ru:** [Федерация анархистов Иберии](https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B0%D0%BD%D0%B0%D1%80%D1%85%D0%B8%D1%81%D1%82%D0%BE%D0%B2_%D0%98%D0%B1%D0%B5%D1%80%D0%B8%D0%B8)
+- **zh:** [伊比利亚无政府主义联合会](https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%AF%94%E5%88%A9%E4%BA%9A%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89%E8%81%94%E5%90%88%E4%BC%9A)
 
 ### **🌍 AIT (Asociación Internacional de los Trabajadores)**
 - **es:** [Asociación Internacional de los Trabajadores](https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Internacional_de_los_Trabajadores)
-- **en:** [International Workers' Association](https://en.wikipedia.org/wiki/International_Workers%27_Association)
-- **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_Arbeiter-Assoziation)
+- **en:** [International Workingmen's Association](https://en.wikipedia.org/wiki/International_Workingmen%27s_Association)
+- **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_ArbeiterInnen-Assoziation)
 - **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Internacional_dos_Trabalhadores)
 - **fr:** [Association internationale des travailleurs](https://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs)
-- **ru:** [Международная ассоциация трудящихся](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%B0%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F)
+- **ru:** [Международная ассоциация трудящихся](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB)
+- **zh:** [第一国际](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E5%9B%BD%E9%99%85)
 
 ### **📚 Guerra Civil Española (1936-1939)**
 - **es:** [Guerra Civil Española](https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola)
@@ -414,17 +409,19 @@ Wèile bānglián de shènglì.
 - **pt:** [Guerra Civil Espanhola](https://pt.wikipedia.org/wiki/Guerra_Civil_Espanhola)
 - **fr:** [Guerre d'Espagne](https://fr.wikipedia.org/wiki/Guerre_d%27Espagne)
 - **ru:** [Гражданская война в Испании](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8)
+- **zh:** [西班牙内战](https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%86%85%E6%88%98)
+
 
 ### **⭐ Valeriano Orobón Fernández (Letrista)**
 - **es:** [Valeriano Orobón Fernández](https://es.wikipedia.org/wiki/Valeriano_Orob%C3%B3n_Fern%C3%A1ndez)
 - **en:** [Valeriano Orobón Fernández](https://en.wikipedia.org/wiki/Valeriano_Orob%C3%B3n_Fern%C3%A1ndez)
 
 ### **🎵 Varshavianka (Melodía Base)**
-- **es:** [Varshavianka](https://es.wikipedia.org/wiki/Varshavianka)
-- **en:** [Warszawianka (song)](https://en.wikipedia.org/wiki/Warszawianka_%28song%29)
+- **es:** [Varshavianka](https://es.wikipedia.org/wiki/La_varsoviana)
+- **en:** [Whirlwinds of Danger](https://en.wikipedia.org/wiki/Whirlwinds_of_Danger)
 - **de:** [Warschawjanka](https://de.wikipedia.org/wiki/Warschawjanka)
-- **pt:** [Varshavianka](https://pt.wikipedia.org/wiki/Varshavianka)
 - **ru:** [Варшавянка](https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B0)
+- **zh:** [華沙工人進行曲](https://zh.wikipedia.org/wiki/%E8%8F%AF%E6%B2%99%E5%B7%A5%E4%BA%BA%E9%80%B2%E8%A1%8C%E6%9B%B2)
 
 ---
 

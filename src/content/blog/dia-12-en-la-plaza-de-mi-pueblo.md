@@ -649,38 +649,12 @@ Gēqǔ "Zài wǒ chéngshì de guǎngchǎng" chǎnshēng yú Xībānyá nèizhà
 
 ### 🔴 Organizaciones Anarquistas: Fuentes de Investigación
 
-#### CNT - Confederación Nacional del Trabajo (1910)
+### **🏴 CNT (Confederación Nacional del Trabajo)**
+- **es:** [CNT - Confederación Nacional del Trabajo](https://es.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
+- **en:** [National Confederation of Labour (Spain)](https://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
+- **de:** [Confederación Nacional del Trabajo](https://de.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
+- **pt:** [Confederação Nacional do Trabalho](https://pt.wikipedia.org/wiki/Confedera%C3%A7%C3%A3o_Nacional_do_Trabalho)
+- **fr:** [Confédération nationale du travail (Espagne)](https://fr.wikipedia.org/wiki/Conf%C3%A9d%C3%A9ration_nationale_du_travail_%28Espagne%29)
+- **ru:** [Национальная конфедерация труда](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D0%B0)
+- **zh:** [伊全國勞工聯盟](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E5%8B%9E%E5%B7%A5%E8%81%AF%E7%9B%9F)
 
-* **es:** [Confederación Nacional del Trabajo](https://es.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-* **en:** [Confederación Nacional del Trabajo](https://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-* **de:** [Confederación Nacional del Trabajo](https://de.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-* **pt:** [Confederação Nacional do Trabalho](https://pt.wikipedia.org/wiki/Confedera%C3%A7%C3%A3o_Nacional_do_Trabalho)
-* **ru:** [Национальная конфедерация труда](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D0%B0)
-* **zh:** [全国劳工联盟](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9B%BD%E5%8A%B4%E5%B7%A5%E8%81%94%E7%9B%9F)
-* **fr:** [Confédération nationale du travail](https://fr.wikipedia.org/wiki/Conf%C3%A9d%C3%A9ration_nationale_du_travail_(Espagne))
-* **it:** [Confederazione Nazionale del Lavoro](https://it.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
-* **ca:** [Confederació Nacional del Treball](https://ca.wikipedia.org/wiki/Confederaci%C3%B3_Nacional_del_Treball)
-
-#### FAI - Federación Anarquista Ibérica (1927)
-
-* **es:** [Federación Anarquista Ibérica](https://es.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
-* **en:** [Iberian Anarchist Federation](https://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
-* **de:** [Iberische Anarchistische Föderation](https://de.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
-* **pt:** [Federação Anarquista Ibérica](https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Anarquista_Ib%C3%A9rica)
-* **ru:** [Иберийская анархистская федерация](https://ru.wikipedia.org/wiki/%D0%98%D0%B1%D0%B5%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BD%D0%B0%D1%80%D1%85%D0%B8%D1%81%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
-* **zh:** [伊比利亚无政府主义联盟](https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%AF%94%E5%88%A9%E4%BA%9A%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89%E8%81%94%E7%9B%9F)
-* **fr:** [Fédération anarchiste ibérique](https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_anarchiste_ib%C3%A9rique)
-* **it:** [Federazione Anarchica Iberica](https://it.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
-* **ca:** [Federació Anarquista Ibèrica](https://ca.wikipedia.org/wiki/Federaci%C3%B3_Anarquista_Ib%C3%A8rica)
-
-#### AIT - Asociación Internacional de los Trabajadores
-
-* **es:** [Asociación Internacional de los Trabajadores](https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Internacional_de_los_Trabajadores)
-* **en:** [International Workers' Association](https://en.wikipedia.org/wiki/International_Workers%27_Association)
-* **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_Arbeiter-Assoziation)
-* **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Internacional_dos_Trabalhadores)
-* **ru:** [Международная ассоциация трудящихся](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%B0%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F)
-* **zh:** [国际工人协会](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%B7%A5%E4%BA%BA%E5%8D%8F%E4%BC%9A)
-* **fr:** [Association internationale des travailleurs](https://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs_(1922))
-* **it:** [Associazione Internazionale dei Lavoratori](https://it.wikipedia.org/wiki/Associazione_Internazionale_dei_Lavoratori)
-* **ca:** [Associació Internacional dels Treballadors](https://ca.wikipedia.org/wiki/Associaci%C3%B3_Internacional_dels_Treballadors)
