@@ -9,42 +9,87 @@
   "meta": {
     "language": "中文",
     "code": "zh",
-    "wordCount": 47,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "wordCount": 115,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 54
+    "estimatedLoadTimeMs": 154
   },
   "chunks": [
     {
       "number": 0,
-      "file": "zh-lessons-0-11.json",
+      "file": "zh-lessons-0-12.json",
       "lessonsRange": {
         "start": 0,
-        "end": 11
+        "end": 12
       },
-      "wordCount": 47,
-      "sizeKB": 27,
-      "path": "/internal/v1/dictionary/chunks/zh-lessons-0-11.json"
+      "wordCount": 115,
+      "sizeKB": 77,
+      "path": "/internal/v1/dictionary/chunks/zh-lessons-0-12.json"
     }
   ],
   "index": {
     "lessonToChunk": {
       "0": 0,
       "1": 0,
+      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0,
+      "7": 0,
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 0
+      "11": 0,
+      "12": 0
     },
     "popularWords": [
       {
+        "word": "工人",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "工团主义",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "奴隶",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "旗帜",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "胜利",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "同志",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "痛苦",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -58,7 +103,28 @@
         ]
       },
       {
+        "word": "无政府主义",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "行进",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "被战胜的",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "波浪",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -72,14 +138,14 @@
         ]
       },
       {
-        "word": "船员",
+        "word": "出现",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "大罢工",
+        "word": "船员",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -100,7 +166,21 @@
         ]
       },
       {
+        "word": "地主",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "等待",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "敌人",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -114,7 +194,21 @@
         ]
       },
       {
+        "word": "东方",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "东线战场",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "斗争",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -128,6 +222,55 @@
         ]
       },
       {
+        "word": "反法西斯",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "反抗",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "反犹主义",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "防御",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "沸腾",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "风",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "风暴",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "港口",
         "frequency": 1,
         "chunkNumbers": [
@@ -135,7 +278,84 @@
         ]
       },
       {
-        "word": "工人",
+        "word": "工人阶级",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "公社",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "共产党",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "共产主义者",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "共和国",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "沟垄",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "雇农",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "孩子们",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "汗水",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "捍卫",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "黑色的",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "红",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -149,224 +369,28 @@
         ]
       },
       {
-        "word": "离婚公投",
+        "word": "饥饿的",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "黎明",
+        "word": "将是",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "盟军胜利",
+        "word": "浇灌",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "秘密的",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "灭亡",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "破坏",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "前线",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "强盗军队",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "窃窃私语",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "权力",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "人民",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "散居",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "胜利",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "世界共和国",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "死亡",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "苏维埃之光",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "虽然",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "痛苦",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "团结的",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "无产者",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "无政府主义",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "物资短缺",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "行进",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "选举胜利",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "学生起义",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "压迫",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "游击队",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "愚蠢",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "运动",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "战争",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "自由",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "总罢工",
+        "word": "解放者",
         "frequency": 1,
         "chunkNumbers": [
           0

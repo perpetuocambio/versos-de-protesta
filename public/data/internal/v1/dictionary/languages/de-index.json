@@ -9,42 +9,59 @@
   "meta": {
     "language": "deutsch",
     "code": "de",
-    "wordCount": 50,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "wordCount": 123,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 58
+    "estimatedLoadTimeMs": 162
   },
   "chunks": [
     {
       "number": 0,
-      "file": "de-lessons-0-11.json",
+      "file": "de-lessons-0-12.json",
       "lessonsRange": {
         "start": 0,
-        "end": 11
+        "end": 12
       },
-      "wordCount": 50,
-      "sizeKB": 29,
-      "path": "/internal/v1/dictionary/chunks/de-lessons-0-11.json"
+      "wordCount": 123,
+      "sizeKB": 81,
+      "path": "/internal/v1/dictionary/chunks/de-lessons-0-12.json"
     }
   ],
   "index": {
     "lessonToChunk": {
       "0": 0,
       "1": 0,
+      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0,
+      "7": 0,
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 0
+      "11": 0,
+      "12": 0
     },
     "popularWords": [
       {
-        "word": "Alliierter Sieg",
+        "word": "Arbeiter",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Syndikalismus",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Anarchie",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -58,7 +75,35 @@
         ]
       },
       {
-        "word": "Arbeiter",
+        "word": "Anarchist",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Antifaschist",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Antisemitismus",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "arbeiten",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Arbeiterklasse",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -72,6 +117,34 @@
         ]
       },
       {
+        "word": "aufgehen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Befreier",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Berge",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "besiegen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "besiegt",
         "frequency": 1,
         "chunkNumbers": [
@@ -79,7 +152,21 @@
         ]
       },
       {
+        "word": "bewässern",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "Bewegung",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Blut",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -100,6 +187,27 @@
         ]
       },
       {
+        "word": "Elend",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "erhoben",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "erscheinen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "Erste Internationale",
         "frequency": 1,
         "chunkNumbers": [
@@ -108,6 +216,13 @@
       },
       {
         "word": "erwarten",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ewig",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -135,6 +250,20 @@
         ]
       },
       {
+        "word": "Faust",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Feind",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "Freiheit",
         "frequency": 1,
         "chunkNumbers": [
@@ -143,6 +272,20 @@
       },
       {
         "word": "Front",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Führer",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Furchen",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -170,7 +313,42 @@
         ]
       },
       {
+        "word": "Genosse",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Genossen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "Geschichte",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "groß",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "Hafen",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "heilig",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -184,210 +362,35 @@
         ]
       },
       {
-        "word": "Krieg",
+        "word": "Herr",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Macht",
+        "word": "hören",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "marschieren",
+        "word": "Hungrige",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Massenstreiks",
+        "word": "Kampf",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Morgendämmerung",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Ostfront",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Partisanen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "phantasieren",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Prolet",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Proletarier",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Räuberheer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Sabotage",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Scheidungsreferendum",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Schmerz",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Seeleute",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "siegen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "singen",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Solidarität",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Sowjetlicht",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Studentenrevolten",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Tod",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "töricht",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Unterdrückung",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Untergrund",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "verderben",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "vereint",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Versorgungskrise",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Volk",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Wahlsieg",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Weltrepublik",
+        "word": "kämpfen",
         "frequency": 1,
         "chunkNumbers": [
           0

@@ -9,40 +9,57 @@
   "meta": {
     "language": "português",
     "code": "pt",
-    "wordCount": 49,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "wordCount": 123,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 56
+    "estimatedLoadTimeMs": 160
   },
   "chunks": [
     {
       "number": 0,
-      "file": "pt-lessons-0-11.json",
+      "file": "pt-lessons-0-12.json",
       "lessonsRange": {
         "start": 0,
-        "end": 11
+        "end": 12
       },
-      "wordCount": 49,
-      "sizeKB": 28,
-      "path": "/internal/v1/dictionary/chunks/pt-lessons-0-11.json"
+      "wordCount": 123,
+      "sizeKB": 80,
+      "path": "/internal/v1/dictionary/chunks/pt-lessons-0-12.json"
     }
   ],
   "index": {
     "lessonToChunk": {
       "0": 0,
       "1": 0,
+      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0,
+      "7": 0,
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 0
+      "11": 0,
+      "12": 0
     },
     "popularWords": [
+      {
+        "word": "sindicalismo",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "agitam",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
       {
         "word": "amanhecer",
         "frequency": 1,
@@ -51,7 +68,63 @@
         ]
       },
       {
+        "word": "anarquia",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "anarquismo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "anarquista",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "antifascista",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "antissemitismo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "aparecer",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "arado",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ares",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "autogestão",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -79,6 +152,13 @@
         ]
       },
       {
+        "word": "chama",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "clandestino",
         "frequency": 1,
         "chunkNumbers": [
@@ -86,7 +166,63 @@
         ]
       },
       {
-        "word": "Desabastecimento",
+        "word": "classe operária",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "combatentes",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "companheiro",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "companheiros",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "comuna",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "comunista",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "correntes",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "defender",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "defesa",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -114,7 +250,49 @@
         ]
       },
       {
+        "word": "escravo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "escravos",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "escrever",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "escutar",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "espere",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "eterna",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "famintos",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -129,6 +307,20 @@
       },
       {
         "word": "fascismo",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ferve",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "filhos",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -156,14 +348,14 @@
         ]
       },
       {
-        "word": "greve geral",
+        "word": "grande",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Greves massivas",
+        "word": "greve geral",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -177,6 +369,13 @@
         ]
       },
       {
+        "word": "história",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "horda saqueadora",
         "frequency": 1,
         "chunkNumbers": [
@@ -184,203 +383,14 @@
         ]
       },
       {
-        "word": "liberdade",
+        "word": "inimigo",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "luz soviética",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "marchar",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "marinheiros",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "morte",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "movimento",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "opressão",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "partidários",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "perecer",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "poder",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "porto",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "povo",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Primeira Internacional",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "proletário",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Referendo divórcio",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "república mundial",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Revoltas estudantis",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "sabotagem",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "secreto",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "solidariedade",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "sussurro",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "tolo",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "trabalhador",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "triunfar",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "unidade",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "unido",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "vencido",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Vitória aliada",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Vitória eleitoral",
+        "word": "jamais",
         "frequency": 1,
         "chunkNumbers": [
           0

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated": "2025-07-26T13:34:17.086Z",
+    "generated": "2025-07-26T17:50:33.119Z",
     "version": "1.0.0",
-    "totalCharacters": 105,
+    "totalCharacters": 202,
     "sources": [
       "Unicode Radical Database",
       "Manual curation",
@@ -566,6 +566,38 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "不": {
+      "character": "不",
+      "unicode": 19981,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "世": {
       "character": "世",
       "unicode": 19990,
@@ -697,6 +729,38 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "么": {
+      "character": "么",
+      "unicode": 20040,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "义": {
       "character": "义",
       "unicode": 20041,
@@ -763,9 +827,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "书": {
+      "character": "书",
+      "unicode": 20070,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "争": {
       "character": "争",
       "unicode": 20105,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "互": {
+      "character": "互",
+      "unicode": 20114,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -896,6 +1024,166 @@
       "category": "humano",
       "revolutionaryRelevance": true
     },
+    "什": {
+      "character": "什",
+      "unicode": 20160,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "们": {
+      "character": "们",
+      "unicode": 20204,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "会": {
+      "character": "会",
+      "unicode": 20250,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "伟": {
+      "character": "伟",
+      "unicode": 20255,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "作": {
+      "character": "作",
+      "unicode": 20316,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "光": {
       "character": "光",
       "unicode": 20809,
@@ -930,6 +1218,38 @@
       },
       "category": "naturaleza",
       "revolutionaryRelevance": true
+    },
+    "党": {
+      "character": "党",
+      "unicode": 20826,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
     },
     "公": {
       "character": "公",
@@ -997,6 +1317,70 @@
       "category": "político",
       "revolutionaryRelevance": true
     },
+    "兵": {
+      "character": "兵",
+      "unicode": 20853,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "写": {
+      "character": "写",
+      "unicode": 20889,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "军": {
       "character": "军",
       "unicode": 20891,
@@ -1031,6 +1415,70 @@
       },
       "category": "militar",
       "revolutionaryRelevance": true
+    },
+    "农": {
+      "character": "农",
+      "unicode": 20892,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "出": {
+      "character": "出",
+      "unicode": 20986,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
     },
     "击": {
       "character": "击",
@@ -1197,9 +1645,233 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "助": {
+      "character": "助",
+      "unicode": 21161,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "劳": {
+      "character": "劳",
+      "unicode": 21171,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "升": {
+      "character": "升",
+      "unicode": 21319,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "卫": {
+      "character": "卫",
+      "unicode": 21355,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "历": {
+      "character": "历",
+      "unicode": 21382,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "压": {
       "character": "压",
       "unicode": 21387,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "反": {
+      "character": "反",
+      "unicode": 21453,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "受": {
+      "character": "受",
+      "unicode": 21463,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1262,6 +1934,134 @@
         "zh-pinyin": "Bāohán bùshǒu \"口\" de hànzì (kǒu)."
       },
       "category": "cuerpo",
+      "revolutionaryRelevance": false
+    },
+    "召": {
+      "character": "召",
+      "unicode": 21484,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "史": {
+      "character": "史",
+      "unicode": 21490,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "同": {
+      "character": "同",
+      "unicode": 21516,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "听": {
+      "character": "听",
+      "unicode": 21548,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
       "revolutionaryRelevance": false
     },
     "员": {
@@ -1327,6 +2127,70 @@
       },
       "category": "unknown",
       "revolutionaryRelevance": true
+    },
+    "咒": {
+      "character": "咒",
+      "unicode": 21650,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "唤": {
+      "character": "唤",
+      "unicode": 21796,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
     },
     "唱": {
       "character": "唱",
@@ -1429,6 +2293,73 @@
       "category": "político",
       "revolutionaryRelevance": true
     },
+    "土": {
+      "character": "土",
+      "unicode": 22303,
+      "radical": "土",
+      "radicalType": "self",
+      "radicalData": {
+        "number": 32,
+        "strokes": 3,
+        "meaning": {
+          "es": "tierra",
+          "en": "earth",
+          "de": "Erde",
+          "pt": "terra",
+          "ru": "земля",
+          "ru-rom": "zemlya",
+          "zh": "土",
+          "zh-pinyin": "tǔ"
+        },
+        "category": "naturaleza"
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"土\" (tierra).",
+        "en": "Character containing the radical \"土\" (earth).",
+        "de": "Zeichen mit dem Radikal \"土\" (Erde).",
+        "pt": "Caractere contendo o radical \"土\" (terra).",
+        "ru": "Иероглиф содержащий радикал \"土\" (земля).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"土\" (zemlya).",
+        "zh": "包含部首\"土\"的汉字（土）。",
+        "zh-pinyin": "Bāohán bùshǒu \"土\" de hànzì (tǔ)."
+      },
+      "category": "naturaleza",
+      "revolutionaryRelevance": false
+    },
+    "圣": {
+      "character": "圣",
+      "unicode": 22307,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "地": {
       "character": "地",
       "unicode": 22320,
@@ -1525,9 +2456,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "垄": {
+      "character": "垄",
+      "unicode": 22404,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "埃": {
       "character": "埃",
       "unicode": 22467,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "士": {
+      "character": "士",
+      "unicode": 22763,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1592,9 +2587,9 @@
       "category": "tamaño",
       "revolutionaryRelevance": true
     },
-    "婚": {
-      "character": "婚",
-      "unicode": 23130,
+    "天": {
+      "character": "天",
+      "unicode": 22825,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1624,9 +2619,137 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "学": {
-      "character": "学",
-      "unicode": 23398,
+    "太": {
+      "character": "太",
+      "unicode": 22826,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "头": {
+      "character": "头",
+      "unicode": 22836,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "奴": {
+      "character": "奴",
+      "unicode": 22900,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "子": {
+      "character": "子",
+      "unicode": 23376,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "孩": {
+      "character": "孩",
+      "unicode": 23401,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1688,9 +2811,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "将": {
+      "character": "将",
+      "unicode": 23558,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "居": {
       "character": "居",
       "unicode": 23621,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "山": {
+      "character": "山",
+      "unicode": 23665,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1790,6 +2977,38 @@
     "帜": {
       "character": "帜",
       "unicode": 24092,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "席": {
+      "character": "席",
+      "unicode": 24109,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -1947,9 +3166,137 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "御": {
+      "character": "御",
+      "unicode": 24481,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "志": {
+      "character": "志",
+      "unicode": 24535,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "性": {
+      "character": "性",
+      "unicode": 24615,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "总": {
       "character": "总",
       "unicode": 24635,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "恒": {
+      "character": "恒",
+      "unicode": 24658,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2078,9 +3425,169 @@
       "category": "militar",
       "revolutionaryRelevance": true
     },
-    "投": {
-      "character": "投",
-      "unicode": 25237,
+    "抗": {
+      "character": "抗",
+      "unicode": 25239,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "拳": {
+      "character": "拳",
+      "unicode": 25331,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "捍": {
+      "character": "捍",
+      "unicode": 25421,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "摇": {
+      "character": "摇",
+      "unicode": 25671,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "撼": {
+      "character": "撼",
+      "unicode": 25788,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "放": {
+      "character": "放",
+      "unicode": 25918,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2142,6 +3649,70 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "敌": {
+      "character": "敌",
+      "unicode": 25932,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "救": {
+      "character": "救",
+      "unicode": 25937,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "散": {
       "character": "散",
       "unicode": 25955,
@@ -2174,9 +3745,75 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "斗": {
+      "character": "斗",
+      "unicode": 26007,
+      "radical": "斗",
+      "radicalType": "revolutionary_context",
+      "radicalData": {
+        "meaning": {
+          "es": "lucha/combate",
+          "en": "lucha/combate",
+          "de": "lucha/combate",
+          "pt": "lucha/combate",
+          "ru": "lucha/combate",
+          "ru-rom": "lucha/combate",
+          "zh": "lucha/combate",
+          "zh-pinyin": "lucha/combate"
+        },
+        "category": "militar",
+        "context": "revolutionary_vocabulary"
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"斗\" (lucha/combate).",
+        "en": "Character containing the radical \"斗\" (lucha/combate).",
+        "de": "Zeichen mit dem Radikal \"斗\" (lucha/combate).",
+        "pt": "Caractere contendo o radical \"斗\" (lucha/combate).",
+        "ru": "Иероглиф содержащий радикал \"斗\" (lucha/combate).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"斗\" (lucha/combate).",
+        "zh": "包含部首\"斗\"的汉字（lucha/combate）。",
+        "zh-pinyin": "Bāohán bùshǒu \"斗\" de hànzì (lucha/combate)."
+      },
+      "category": "militar",
+      "revolutionaryRelevance": true
+    },
     "斯": {
       "character": "斯",
       "unicode": 26031,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "方": {
+      "character": "方",
+      "unicode": 26041,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2302,9 +3939,169 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "星": {
+      "character": "星",
+      "unicode": 26143,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "是": {
+      "character": "是",
+      "unicode": 26159,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "暴": {
+      "character": "暴",
+      "unicode": 26292,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "有": {
+      "character": "有",
+      "unicode": 26377,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "权": {
       "character": "权",
       "unicode": 26435,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "来": {
+      "character": "来",
+      "unicode": 26469,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2401,9 +4198,364 @@
       "category": "político",
       "revolutionaryRelevance": true
     },
+    "水": {
+      "character": "水",
+      "unicode": 27700,
+      "radical": "水",
+      "radicalType": "self",
+      "radicalData": {
+        "number": 85,
+        "strokes": 4,
+        "meaning": {
+          "es": "agua",
+          "en": "water",
+          "de": "Wasser",
+          "pt": "água",
+          "ru": "вода",
+          "ru-rom": "voda",
+          "zh": "水",
+          "zh-pinyin": "shuǐ"
+        },
+        "category": "naturaleza"
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"水\" (agua).",
+        "en": "Character containing the radical \"水\" (water).",
+        "de": "Zeichen mit dem Radikal \"水\" (Wasser).",
+        "pt": "Caractere contendo o radical \"水\" (água).",
+        "ru": "Иероглиф содержащий радикал \"水\" (вода).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"水\" (voda).",
+        "zh": "包含部首\"水\"的汉字（水）。",
+        "zh-pinyin": "Bāohán bùshǒu \"水\" de hànzì (shuǐ)."
+      },
+      "category": "naturaleza",
+      "revolutionaryRelevance": false
+    },
+    "永": {
+      "character": "永",
+      "unicode": 27704,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "汗": {
+      "character": "汗",
+      "unicode": 27735,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "沟": {
+      "character": "沟",
+      "unicode": 27807,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "没": {
+      "character": "没",
+      "unicode": 27809,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "沸": {
+      "character": "沸",
+      "unicode": 27832,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "治": {
+      "character": "治",
+      "unicode": 27835,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "法": {
       "character": "法",
       "unicode": 27861,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "波": {
+      "character": "波",
+      "unicode": 27874,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "浇": {
+      "character": "浇",
+      "unicode": 27975,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "浪": {
+      "character": "浪",
+      "unicode": 28010,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "液": {
+      "character": "液",
+      "unicode": 28082,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2497,6 +4649,38 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "灌": {
+      "character": "灌",
+      "unicode": 28748,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "灭": {
       "character": "灭",
       "unicode": 28781,
@@ -2561,9 +4745,9 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "物": {
-      "character": "物",
-      "unicode": 29289,
+    "犁": {
+      "character": "犁",
+      "unicode": 29313,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2593,9 +4777,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "生": {
-      "character": "生",
-      "unicode": 29983,
+    "犹": {
+      "character": "犹",
+      "unicode": 29369,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "现": {
+      "character": "现",
+      "unicode": 29616,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "理": {
+      "character": "理",
+      "unicode": 29702,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2817,38 +5065,6 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "短": {
-      "character": "短",
-      "unicode": 30701,
-      "radical": "未知",
-      "radicalType": "unknown",
-      "radicalData": {
-        "meaning": {
-          "es": "Radical desconocido",
-          "en": "Unknown radical",
-          "de": "Unbekannter Radikal",
-          "pt": "Radical desconhecido",
-          "ru": "Неизвестный радикал",
-          "ru-rom": "Neizvestnyy radikal",
-          "zh": "未知部首",
-          "zh-pinyin": "wèi zhī bù shǒu"
-        }
-      },
-      "component": null,
-      "position": null,
-      "etymology": {
-        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
-        "en": "Character containing the radical \"未知\" (Unknown radical).",
-        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
-        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
-        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
-        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
-        "zh": "包含部首\"未知\"的汉字（未知部首）。",
-        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
-      },
-      "category": "unknown",
-      "revolutionaryRelevance": false
-    },
     "破": {
       "character": "破",
       "unicode": 30772,
@@ -2881,9 +5097,75 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "离": {
-      "character": "离",
-      "unicode": 31163,
+    "社": {
+      "character": "社",
+      "unicode": 31038,
+      "radical": "示",
+      "radicalType": "revolutionary_context",
+      "radicalData": {
+        "meaning": {
+          "es": "altar/espíritu",
+          "en": "altar/espíritu",
+          "de": "altar/espíritu",
+          "pt": "altar/espíritu",
+          "ru": "altar/espíritu",
+          "ru-rom": "altar/espíritu",
+          "zh": "altar/espíritu",
+          "zh-pinyin": "altar/espíritu"
+        },
+        "category": "social",
+        "context": "revolutionary_vocabulary"
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"示\" (altar/espíritu).",
+        "en": "Character containing the radical \"示\" (altar/espíritu).",
+        "de": "Zeichen mit dem Radikal \"示\" (altar/espíritu).",
+        "pt": "Caractere contendo o radical \"示\" (altar/espíritu).",
+        "ru": "Иероглиф содержащий радикал \"示\" (altar/espíritu).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"示\" (altar/espíritu).",
+        "zh": "包含部首\"示\"的汉字（altar/espíritu）。",
+        "zh-pinyin": "Bāohán bùshǒu \"示\" de hànzì (altar/espíritu)."
+      },
+      "category": "social",
+      "revolutionaryRelevance": true
+    },
+    "祖": {
+      "character": "祖",
+      "unicode": 31062,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "神": {
+      "character": "神",
+      "unicode": 31070,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -2977,9 +5259,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "空": {
+      "character": "空",
+      "unicode": 31354,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "窃": {
       "character": "窃",
       "unicode": 31363,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "章": {
+      "character": "章",
+      "unicode": 31456,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3044,6 +5390,137 @@
     "等": {
       "character": "等",
       "unicode": 31561,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "管": {
+      "character": "管",
+      "unicode": 31649,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "篇": {
+      "character": "篇",
+      "unicode": 31687,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "红": {
+      "character": "红",
+      "unicode": 32418,
+      "radical": "红",
+      "radicalType": "self",
+      "radicalData": {
+        "number": 0,
+        "strokes": 6,
+        "meaning": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ru-rom": "krasnyy",
+          "zh": "红",
+          "zh-pinyin": "hóng"
+        },
+        "category": "color"
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Combinación de \"hilo/seda\" (糸) y \"trabajo\" (工), originalmente refiriéndose a seda roja.",
+        "en": "Combination of \"thread/silk\" (糸) and \"work\" (工), originally referring to red silk.",
+        "de": "Kombination aus \"Faden/Seide\" (糸) und \"Arbeit\" (工), ursprünglich rote Seide.",
+        "pt": "Combinação de \"fio/seda\" (糸) e \"trabalho\" (工), originalmente referindo-se à seda vermelha.",
+        "ru": "Сочетание \"нить/шёлк\" (糸) и \"работа\" (工), изначально относившееся к красному шёлку.",
+        "ru-rom": "Sochetaniye \"nit/shyolk\" (糸) i \"rabota\" (工), iznachalno otnosivsheyesya k krasnomu shyolku.",
+        "zh": "形声字，糸表意，工表声，本指红色丝线。",
+        "zh-pinyin": "Xíngshēng zì, sī biǎoyì, gōng biǎo shēng, běn zhǐ hóngsè sīxiàn."
+      },
+      "category": "color",
+      "revolutionaryRelevance": true
+    },
+    "级": {
+      "character": "级",
+      "unicode": 32423,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3171,38 +5648,6 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "缺": {
-      "character": "缺",
-      "unicode": 32570,
-      "radical": "未知",
-      "radicalType": "unknown",
-      "radicalData": {
-        "meaning": {
-          "es": "Radical desconocido",
-          "en": "Unknown radical",
-          "de": "Unbekannter Radikal",
-          "pt": "Radical desconhecido",
-          "ru": "Неизвестный радикал",
-          "ru-rom": "Neizvestnyy radikal",
-          "zh": "未知部首",
-          "zh-pinyin": "wèi zhī bù shǒu"
-        }
-      },
-      "component": null,
-      "position": null,
-      "etymology": {
-        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
-        "en": "Character containing the radical \"未知\" (Unknown radical).",
-        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
-        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
-        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
-        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
-        "zh": "包含部首\"未知\"的汉字（未知部首）。",
-        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
-      },
-      "category": "unknown",
-      "revolutionaryRelevance": false
-    },
     "罢": {
       "character": "罢",
       "unicode": 32610,
@@ -3267,6 +5712,38 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "联": {
+      "character": "联",
+      "unicode": 32852,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "胜": {
       "character": "胜",
       "unicode": 32988,
@@ -3300,6 +5777,70 @@
       },
       "category": "resultado",
       "revolutionaryRelevance": true
+    },
+    "脉": {
+      "character": "脉",
+      "unicode": 33033,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "腾": {
+      "character": "腾",
+      "unicode": 33150,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
     },
     "自": {
       "character": "自",
@@ -3336,6 +5877,38 @@
     "船": {
       "character": "船",
       "unicode": 33337,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "色": {
+      "character": "色",
+      "unicode": 33394,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3493,9 +6066,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "血": {
+      "character": "血",
+      "unicode": 34880,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "行": {
       "character": "行",
       "unicode": 34892,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "袖": {
+      "character": "袖",
+      "unicode": 34966,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3589,9 +6226,9 @@
       "category": "unknown",
       "revolutionaryRelevance": true
     },
-    "语": {
-      "character": "语",
-      "unicode": 35821,
+    "见": {
+      "character": "见",
+      "unicode": 35265,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3621,9 +6258,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "资": {
-      "character": "资",
-      "unicode": 36164,
+    "解": {
+      "character": "解",
+      "unicode": 35299,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "诅": {
+      "character": "诅",
+      "unicode": 35781,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "语": {
+      "character": "语",
+      "unicode": 35821,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3749,6 +6450,38 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "远": {
+      "character": "远",
+      "unicode": 36828,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "迫": {
       "character": "迫",
       "unicode": 36843,
@@ -3781,9 +6514,73 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
-    "选": {
-      "character": "选",
-      "unicode": 36873,
+    "都": {
+      "character": "都",
+      "unicode": 37117,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "链": {
+      "character": "链",
+      "unicode": 38142,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "锁": {
+      "character": "锁",
+      "unicode": 38145,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3845,9 +6642,297 @@
       "category": "unknown",
       "revolutionaryRelevance": false
     },
+    "防": {
+      "character": "防",
+      "unicode": 38450,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "阳": {
+      "character": "阳",
+      "unicode": 38451,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "阶": {
+      "character": "阶",
+      "unicode": 38454,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
     "际": {
       "character": "际",
       "unicode": 38469,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "隶": {
+      "character": "隶",
+      "unicode": 38582,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "雇": {
+      "character": "雇",
+      "unicode": 38599,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "领": {
+      "character": "领",
+      "unicode": 39046,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "风": {
+      "character": "风",
+      "unicode": 39118,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "饥": {
+      "character": "饥",
+      "unicode": 39269,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
+    },
+    "饿": {
+      "character": "饿",
+      "unicode": 39295,
       "radical": "未知",
       "radicalType": "unknown",
       "radicalData": {
@@ -3908,6 +6993,38 @@
       },
       "category": "unknown",
       "revolutionaryRelevance": false
+    },
+    "黑": {
+      "character": "黑",
+      "unicode": 40657,
+      "radical": "未知",
+      "radicalType": "unknown",
+      "radicalData": {
+        "meaning": {
+          "es": "Radical desconocido",
+          "en": "Unknown radical",
+          "de": "Unbekannter Radikal",
+          "pt": "Radical desconhecido",
+          "ru": "Неизвестный радикал",
+          "ru-rom": "Neizvestnyy radikal",
+          "zh": "未知部首",
+          "zh-pinyin": "wèi zhī bù shǒu"
+        }
+      },
+      "component": null,
+      "position": null,
+      "etymology": {
+        "es": "Caracter que contiene el radical \"未知\" (Radical desconocido).",
+        "en": "Character containing the radical \"未知\" (Unknown radical).",
+        "de": "Zeichen mit dem Radikal \"未知\" (Unbekannter Radikal).",
+        "pt": "Caractere contendo o radical \"未知\" (Radical desconhecido).",
+        "ru": "Иероглиф содержащий радикал \"未知\" (Неизвестный радикал).",
+        "ru-rom": "Iyeroglif soderzhashchiy radikal \"未知\" (Neizvestnyy radikal).",
+        "zh": "包含部首\"未知\"的汉字（未知部首）。",
+        "zh-pinyin": "Bāohán bùshǒu \"未知\" de hànzì (wèi zhī bù shǒu)."
+      },
+      "category": "unknown",
+      "revolutionaryRelevance": false
     }
   },
   "categories": {
@@ -3917,17 +7034,21 @@
       "民"
     ],
     "social": [
-      "团"
+      "团",
+      "社"
     ],
     "económico": [
       "产"
     ],
     "militar": [
       "军",
-      "战"
+      "战",
+      "斗"
     ],
     "naturaleza": [
-      "光"
+      "光",
+      "土",
+      "水"
     ],
     "humano": [
       "人"
@@ -3940,7 +7061,9 @@
       "一"
     ],
     "forma": [],
-    "color": [],
+    "color": [
+      "红"
+    ],
     "cuerpo": [
       "口"
     ]

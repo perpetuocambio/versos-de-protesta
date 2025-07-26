@@ -2,10 +2,10 @@
 repos:
   - repo: local
     hooks:
-      # Hook principal: actualizar diccionario antes del commit
-      - id: update-dictionary
-        name: 🔄 Update Dictionary
-        entry: bash -c 'npm run update-content && git add public/data/'
+      # Hook principal: procesamiento completo del diccionario
+      - id: update-dictionary-complete
+        name: 🔄 Complete Dictionary Update
+        entry: bash -c 'npm run update-all && git add public/data/'
         language: system
         files: '^src/content/blog/d[ií]a-.*\.md$'
         pass_filenames: false
@@ -28,8 +28,6 @@ repos:
       - id: end-of-file-fixer
         exclude: '\.json$'
       - id: check-json
-        files: '^public/data/.*\.json
-      - id: check-added-large-files
-        args: ['--maxkb=1000']
+        files: '^public/data/.*\.json$'
       - id: check-added-large-files
         args: ['--maxkb=1000']

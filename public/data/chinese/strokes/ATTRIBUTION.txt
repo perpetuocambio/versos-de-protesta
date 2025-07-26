@@ -8,8 +8,8 @@ License: Educational use with attribution
 Required Attribution Text:
 "Stroke order animations © MDBG Chinese Dictionary (mdbg.net)"
 
-Downloaded: 2025-07-26T13:34:10.954Z
-Total files: 105
+Downloaded: 2025-07-26T17:50:28.298Z
+Total files: 201
 Purpose: Educational use in Versos de Protesta language learning platform
 
 This attribution file must be preserved and referenced in any implementation

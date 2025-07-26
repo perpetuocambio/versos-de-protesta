@@ -2,146 +2,281 @@
   "meta": {
     "language": "中文 pinyin",
     "code": "zh-pinyin",
-    "wordCount": 47,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "wordCount": 117,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "index": {
     "letters": {
       "B": [
-        "bèi zhànshèng de"
+        "bèi zhànshèng de",
+        "bōlàng"
       ],
       "C": [
         "chàng",
-        "chuányuán"
+        "chuányuán",
+        "chūxiàn"
       ],
       "D": [
-        "dà bàgōng",
         "dà fānchuán",
         "děngdài",
         "dì-yī guójì",
+        "dírén",
         "dìxià de",
-        "dōngxiàn zhànchǎng"
+        "dìzhǔ",
+        "dōngfāng",
+        "dōngxiàn zhànchǎng",
+        "dòuzhēng"
       ],
       "F": [
-        "fǎxīsī zhǔyì"
+        "fǎn fǎxīsī",
+        "fǎn yóu zhǔyì",
+        "fángyù",
+        "fǎnkàng",
+        "fǎxīsī zhǔyì",
+        "fèiténg",
+        "fēng",
+        "fēngbào"
       ],
       "G": [
         "gǎngkǒu",
-        "gōngrén"
+        "gòngchǎn zhǔyì zhě",
+        "gòngchǎndǎng",
+        "gònghéguó",
+        "gōngrén",
+        "gōngrén jiējí",
+        "gōngshè",
+        "gōngtuán zhǔyì",
+        "gōulǒng",
+        "gùnóng"
       ],
       "H": [
+        "háizi men",
+        "hànshuǐ",
+        "hànwèi",
+        "hēisè de",
+        "hóng",
         "huànxiǎng"
       ],
+      "J": [
+        "jī'è de",
+        "jiāng shì",
+        "jiāoguàn",
+        "jiěfàng zhě",
+        "jiùxīng",
+        "jǔqǐ de"
+      ],
       "L": [
-        "líhūn gōngtóu",
-        "límíng"
+        "láozuò",
+        "lí",
+        "liánméng",
+        "límíng",
+        "lǐngxiù",
+        "lìshǐ",
+        "lǐxìng"
       ],
       "M": [
-        "méng jūn shènglì",
         "mièwáng",
         "mìmì de"
       ],
+      "N": [
+        "núlì"
+      ],
       "P": [
+        "piānzhāng",
         "pòhuài"
       ],
       "Q": [
         "qiángdào jūnduì",
         "qiánxiàn",
         "qièqiè sīyǔ",
+        "qǐlái",
         "qízhì",
-        "quánlì"
+        "quánlì",
+        "quántou"
       ],
       "R": [
         "rénmín"
       ],
       "S": [
         "sànjū",
+        "shānmài",
+        "shèhuì zhǔyì",
+        "shèhuì zhǔyì zhě",
+        "shèhuìzhǔyì",
         "shènglì",
+        "shēngqǐ",
+        "shénme dōu méiyǒu",
+        "shénshèng de",
+        "shìbīng",
+        "shìjiè",
         "shìjiè gònghéguó",
+        "shòu zǔzhòu de",
+        "shūxiě",
+        "sǐ",
         "sǐwáng",
         "suīrán",
+        "suǒliàn",
         "Sūwéi'āi zhī guāng"
       ],
       "T": [
+        "tàiyáng",
+        "tiānkōng",
+        "tīngjiàn",
         "tòngkǔ",
+        "tóngzhì",
         "tuánjié",
-        "tuánjié de"
+        "tuánjié de",
+        "tuánjié hùzhù",
+        "tǔdì"
       ],
       "W": [
+        "wěidà",
+        "wú zhèngfǔ zhǔyì",
+        "wúchǎnjiējí",
         "wúchǎnzhě",
         "wúzhèngfǔ zhǔyì",
-        "wùzī duǎnquē"
+        "wúzhèngfǔzhǔyìzhě"
       ],
       "X": [
         "xíngjìn",
-        "xuǎnjǔ shènglì",
-        "xuéshēng qǐyì"
+        "xuèyè"
       ],
       "Y": [
+        "yáohàn",
         "yāpò",
+        "yǒnghéng de",
+        "yǒngyuǎn bù huì",
         "yóujīduì",
         "yúchǔn",
         "yùndòng"
       ],
       "Z": [
+        "zhàndòu",
+        "zhànshèng",
+        "zhànshì",
         "zhànzhēng",
+        "zhàohuàn",
+        "zhǔxí",
         "zìyóu",
-        "zǒng bàgōng"
+        "zìzhì guǎnlǐ",
+        "zǒng bàgōng",
+        "zǔguó"
       ]
     },
     "popular": [
+      "gōngrén",
+      "gōngtuán zhǔyì",
+      "núlì",
       "qízhì",
-      "tuánjié"
+      "shènglì",
+      "tòngkǔ",
+      "tóngzhì",
+      "tuánjié",
+      "wú zhèngfǔ zhǔyì",
+      "xíngjìn"
     ],
     "recent": [
-      "gōngrén",
+      "dìzhǔ",
+      "gònghéguó",
+      "gōngshè",
+      "gōulǒng",
+      "gùnóng",
+      "hànshuǐ",
+      "jiāoguàn",
+      "jǔqǐ de",
+      "láozuò",
+      "lí",
+      "piānzhāng",
+      "quántou",
+      "shūxiě",
+      "tòngkǔ",
+      "tóngzhì",
+      "tǔdì",
+      "wúzhèngfǔzhǔyìzhě",
+      "gòngchǎn zhǔyì zhě",
       "qiánxiàn",
+      "shèhuì zhǔyì zhě",
+      "tuánjié hùzhù",
+      "fǎn yóu zhǔyì",
       "huànxiǎng",
+      "liánméng",
       "mièwáng",
-      "qízhì",
       "sànjū",
       "wúchǎnzhě",
       "yúchǔn",
       "dì-yī guójì",
-      "tuánjié",
+      "gōngrén",
+      "gōngtuán zhǔyì",
+      "háizi men",
       "wúzhèngfǔ zhǔyì",
       "yāpò",
       "zǒng bàgōng",
       "dōngxiàn zhànchǎng",
-      "fǎxīsī zhǔyì",
-      "zhànzhēng",
+      "fángyù",
+      "shénshèng de",
+      "chūxiàn",
+      "dōngfāng",
+      "gòngchǎndǎng",
+      "hóng",
+      "jiùxīng",
+      "lǐngxiù",
+      "shèhuì zhǔyì",
+      "shēngqǐ",
+      "tàiyáng",
+      "wěidà",
+      "zhǔxí",
       "mìmì de",
       "qiángdào jūnduì",
       "qièqiè sīyǔ",
       "shìjiè gònghéguó",
       "Sūwéi'āi zhī guāng",
+      "tīngjiàn",
+      "dírén",
       "dìxià de",
-      "méng jūn shènglì",
+      "fǎn fǎxīsī",
+      "fǎxīsī zhǔyì",
+      "jiěfàng zhě",
       "pòhuài",
+      "shānmài",
+      "shìbīng",
       "yóujīduì",
+      "zhànshì",
+      "zhànzhēng",
+      "zǔguó",
+      "bōlàng",
       "chuányuán",
-      "dà bàgōng",
       "dà fānchuán",
+      "fēng",
       "gǎngkǒu",
-      "líhūn gōngtóu",
-      "xuéshēng qǐyì",
+      "núlì",
+      "suǒliàn",
+      "wú zhèngfǔ zhǔyì",
       "yùndòng",
-      "zìyóu",
       "bèi zhànshèng de",
+      "jiāng shì",
       "límíng",
-      "rénmín",
+      "lìshǐ",
+      "qízhì",
       "shènglì",
       "tuánjié de",
-      "wùzī duǎnquē",
-      "xuǎnjǔ shènglì",
-      "děngdài",
-      "sǐwáng",
-      "suīrán",
-      "tòngkǔ",
-      "chàng",
-      "quánlì",
-      "xíngjìn"
+      "xíngjìn",
+      "yǒnghéng de",
+      "yǒngyuǎn bù huì",
+      "zhànshèng",
+      "fèiténg",
+      "gōngrén jiējí",
+      "jī'è de",
+      "lǐxìng",
+      "qǐlái",
+      "shèhuìzhǔyì",
+      "shénme dōu méiyǒu",
+      "shìjiè",
+      "shòu zǔzhòu de",
+      "tuánjié",
+      "wúchǎnjiējí",
+      "xuèyè",
+      "děngdài"
     ]
   },
   "words": {
@@ -166,6 +301,10 @@
             "ruRom": "pobezhdyonnyy",
             "zh": "被战胜的",
             "zhPinyin": "bèi zhànshèng de",
+            "zhStrokes": "12",
+            "zhRadical": "戈 (lanza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "adjetivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
             "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
@@ -179,6 +318,45 @@
       "firstAppearance": 3,
       "originalWord": "bèi zhànshèng de",
       "meaning": "vencido"
+    },
+    "bōlàng": {
+      "entries": [
+        {
+          "word": "bōlàng",
+          "meaning": "oleada",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "bōlàng",
+          "allTranslations": {
+            "es": "oleada",
+            "en": "wave",
+            "de": "Welle",
+            "pt": "onda",
+            "ru": "волна",
+            "ruRom": "volna",
+            "zh": "波浪",
+            "zhPinyin": "bōlàng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "originalWord": "bōlàng",
+      "meaning": "oleada"
     },
     "chàng": {
       "entries": [
@@ -201,6 +379,10 @@
             "ruRom": "pet'",
             "zh": "唱",
             "zhPinyin": "chàng",
+            "zhStrokes": "11",
+            "zhRadical": "口 (boca)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
             "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
@@ -236,6 +418,10 @@
             "ruRom": "moryaki",
             "zh": "船员",
             "zhPinyin": "chuányuán",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-04-il-galeone",
             "day": 4,
             "filePath": "src/content/blog/dia-04-il-galeone.md"
@@ -250,42 +436,44 @@
       "originalWord": "chuányuán",
       "meaning": "marineros"
     },
-    "dà bàgōng": {
+    "chūxiàn": {
       "entries": [
         {
-          "word": "dà bàgōng",
-          "meaning": "Huelgas masivas",
-          "source": "dia-04-il-galeone",
-          "day": 4,
+          "word": "chūxiàn",
+          "meaning": "aparecer",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
           "lessons": [
-            4
+            7
           ],
-          "filePath": "src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "dà bàgōng",
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "chūxiàn",
           "allTranslations": {
-            "es": "Huelgas masivas",
-            "en": "Mass strikes",
-            "de": "Massenstreiks",
-            "pt": "Greves massivas",
-            "ru": "Массовые забастовки",
-            "ruRom": "Massovye zabastovki",
-            "zh": "大罢工",
-            "zhPinyin": "dà bàgōng",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "src/content/blog/dia-04-il-galeone.md",
-            "originalKey": "1969",
-            "context": "Otoño caliente"
+            "es": "aparecer",
+            "en": "to appear",
+            "de": "erscheinen",
+            "pt": "aparecer",
+            "ru": "появляться",
+            "ruRom": "poyavlyat'sya",
+            "zh": "出现",
+            "zhPinyin": "chūxiàn",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        4
+        7
       ],
-      "firstAppearance": 4,
-      "originalWord": "dà bàgōng",
-      "meaning": "Huelgas masivas"
+      "firstAppearance": 7,
+      "originalWord": "chūxiàn",
+      "meaning": "aparecer"
     },
     "dà fānchuán": {
       "entries": [
@@ -308,6 +496,10 @@
             "ruRom": "galeon",
             "zh": "大帆船",
             "zhPinyin": "dà fānchuán",
+            "zhStrokes": "12",
+            "zhRadical": "船 (barco)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-04-il-galeone",
             "day": 4,
             "filePath": "src/content/blog/dia-04-il-galeone.md"
@@ -336,13 +528,17 @@
           "originalWord": "děngdài",
           "allTranslations": {
             "es": "espere",
-            "en": "face",
+            "en": "await",
             "de": "erwarten",
             "pt": "espere",
-            "ru": "ждут",
-            "ruRom": "zhdut",
+            "ru": "ждёт",
+            "ruRom": "zhdyot",
             "zh": "等待",
             "zhPinyin": "děngdài",
+            "zhStrokes": "15",
+            "zhRadical": "竹 (bambú)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "verbo",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
             "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
@@ -378,6 +574,10 @@
             "ruRom": "Pervyy Internatsional",
             "zh": "第一国际",
             "zhPinyin": "dì-yī guójì",
+            "zhStrokes": "16",
+            "zhRadical": "囗 (recinto)",
+            "zhStructure": "encierro",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
             "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
@@ -391,6 +591,45 @@
       "firstAppearance": 9,
       "originalWord": "dì-yī guójì",
       "meaning": "Primera Internacional"
+    },
+    "dírén": {
+      "entries": [
+        {
+          "word": "dírén",
+          "meaning": "enemigo",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "dírén",
+          "allTranslations": {
+            "es": "enemigo",
+            "en": "enemy",
+            "de": "Feind",
+            "pt": "inimigo",
+            "ru": "враг",
+            "ruRom": "vrag",
+            "zh": "敌人",
+            "zhPinyin": "dírén",
+            "zhStrokes": "6",
+            "zhRadical": "攴 (golpear)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "dírén",
+      "meaning": "enemigo"
     },
     "dìxià de": {
       "entries": [
@@ -413,6 +652,10 @@
             "ruRom": "podpol'nyy",
             "zh": "地下的",
             "zhPinyin": "dìxià de",
+            "zhStrokes": "9",
+            "zhRadical": "土 (tierra)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "adjetivo",
             "source": "dia-05-pesn-partizan",
             "day": 5,
             "filePath": "src/content/blog/dia-05-pesn-partizan.md"
@@ -426,6 +669,84 @@
       "firstAppearance": 5,
       "originalWord": "dìxià de",
       "meaning": "clandestino"
+    },
+    "dìzhǔ": {
+      "entries": [
+        {
+          "word": "dìzhǔ",
+          "meaning": "amo",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "dìzhǔ",
+          "allTranslations": {
+            "es": "amo",
+            "en": "master",
+            "de": "Herr",
+            "pt": "patrão",
+            "ru": "хозяин",
+            "ruRom": "khozyain",
+            "zh": "地主",
+            "zhPinyin": "dìzhǔ",
+            "zhStrokes": "8",
+            "zhRadical": "土 (tierra)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "dìzhǔ",
+      "meaning": "amo"
+    },
+    "dōngfāng": {
+      "entries": [
+        {
+          "word": "dōngfāng",
+          "meaning": "oriente",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "dōngfāng",
+          "allTranslations": {
+            "es": "oriente",
+            "en": "east",
+            "de": "Osten",
+            "pt": "oriente",
+            "ru": "восток",
+            "ruRom": "vostok",
+            "zh": "东方",
+            "zhPinyin": "dōngfāng",
+            "zhStrokes": "8",
+            "zhRadical": "方 (dirección)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "dōngfāng",
+      "meaning": "oriente"
     },
     "dōngxiàn zhànchǎng": {
       "entries": [
@@ -448,6 +769,10 @@
             "ruRom": "Vostochnyy front",
             "zh": "东线战场",
             "zhPinyin": "dōngxiàn zhànchǎng",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-08-the-sacred-war",
             "day": 8,
             "filePath": "src/content/blog/dia-08-the-sacred-war.md"
@@ -462,28 +787,156 @@
       "originalWord": "dōngxiàn zhànchǎng",
       "meaning": "frente oriental"
     },
-    "fǎxīsī zhǔyì": {
+    "dòuzhēng": {
       "entries": [
         {
-          "word": "fǎxīsī zhǔyì",
-          "meaning": "fascismo",
+          "word": "dòuzhēng",
+          "meaning": "lucha",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "dòuzhēng",
+          "allTranslations": {
+            "es": "lucha",
+            "en": "struggle",
+            "de": "Kampf",
+            "pt": "luta",
+            "ru": "борьба",
+            "ruRom": "bor'bá",
+            "zh": "斗争",
+            "zhPinyin": "dòuzhēng",
+            "zhStrokes": "12",
+            "zhRadical": "斗 (lucha)",
+            "zhStructure": "independiente",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "originalWord": "dòuzhēng",
+      "meaning": "lucha"
+    },
+    "fǎn fǎxīsī": {
+      "entries": [
+        {
+          "word": "fǎn fǎxīsī",
+          "meaning": "antifascista",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5,
+            6,
+            11
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "fǎn fǎxīsī",
+          "allTranslations": {
+            "es": "antifascista",
+            "en": "antifascist",
+            "de": "Antifaschist",
+            "pt": "antifascista",
+            "ru": "антифашист",
+            "ruRom": "antifashist",
+            "zh": "反法西斯",
+            "zhPinyin": "fǎn fǎxīsī",
+            "zhStrokes": "16",
+            "zhRadical": "反 (opuesto)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "fǎn fǎxīsī",
+      "meaning": "antifascista"
+    },
+    "fǎn yóu zhǔyì": {
+      "entries": [
+        {
+          "word": "fǎn yóu zhǔyì",
+          "meaning": "antisemitismo",
+          "source": "dia-10-oy-ir-narishe-tsienistn",
+          "day": 10,
+          "lessons": [
+            10
+          ],
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "originalWord": "fǎn yóu zhǔyì",
+          "allTranslations": {
+            "es": "antisemitismo",
+            "en": "antisemitism",
+            "de": "Antisemitismus",
+            "pt": "antissemitismo",
+            "ru": "антисемитизм",
+            "ruRom": "antisemitizm",
+            "zh": "反犹主义",
+            "zhPinyin": "fǎn yóu zhǔyì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-10-oy-ir-narishe-tsienistn",
+            "day": 10,
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "originalWord": "fǎn yóu zhǔyì",
+      "meaning": "antisemitismo"
+    },
+    "fángyù": {
+      "entries": [
+        {
+          "word": "fángyù",
+          "meaning": "defensa",
           "source": "dia-08-the-sacred-war",
           "day": 8,
           "lessons": [
-            8,
-            11
+            8
           ],
           "filePath": "src/content/blog/dia-08-the-sacred-war.md",
-          "originalWord": "fǎxīsī zhǔyì",
+          "originalWord": "fángyù",
           "allTranslations": {
-            "es": "fascismo",
-            "en": "fascism",
-            "de": "Faschismus",
-            "pt": "fascismo",
-            "ru": "фашизм",
-            "ruRom": "fashizm",
-            "zh": "法西斯主义",
-            "zhPinyin": "fǎxīsī zhǔyì",
+            "es": "defensa",
+            "en": "defense",
+            "de": "Verteidigung",
+            "pt": "defesa",
+            "ru": "оборона",
+            "ruRom": "oborona",
+            "zh": "防御",
+            "zhPinyin": "fángyù",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-08-the-sacred-war",
             "day": 8,
             "filePath": "src/content/blog/dia-08-the-sacred-war.md"
@@ -495,8 +948,206 @@
         8
       ],
       "firstAppearance": 8,
+      "originalWord": "fángyù",
+      "meaning": "defensa"
+    },
+    "fǎnkàng": {
+      "entries": [
+        {
+          "word": "fǎnkàng",
+          "meaning": "resistir",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "fǎnkàng",
+          "allTranslations": {
+            "es": "resistir",
+            "en": "resist",
+            "de": "widerstehen",
+            "pt": "resistir",
+            "ru": "сопротивляться",
+            "ruRom": "soprotivlyát'sya",
+            "zh": "反抗",
+            "zhPinyin": "fǎnkàng",
+            "zhStrokes": "11",
+            "zhRadical": "反 (oponer)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "originalWord": "fǎnkàng",
+      "meaning": "resistir"
+    },
+    "fǎxīsī zhǔyì": {
+      "entries": [
+        {
+          "word": "fǎxīsī zhǔyì",
+          "meaning": "fascismo",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5,
+            6,
+            8,
+            11
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "fǎxīsī zhǔyì",
+          "allTranslations": {
+            "es": "fascismo",
+            "en": "fascism",
+            "de": "Faschismus",
+            "pt": "fascismo",
+            "ru": "фашизм",
+            "ruRom": "fashizm",
+            "zh": "法西斯主义",
+            "zhPinyin": "fǎxīsī zhǔyì",
+            "zhStrokes": "23",
+            "zhRadical": "氵 (agua)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
       "originalWord": "fǎxīsī zhǔyì",
       "meaning": "fascismo"
+    },
+    "fèiténg": {
+      "entries": [
+        {
+          "word": "fèiténg",
+          "meaning": "hierve",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "fèiténg",
+          "allTranslations": {
+            "es": "hierve",
+            "en": "boils",
+            "de": "kocht",
+            "pt": "ferve",
+            "ru": "кипит",
+            "ruRom": "kipit",
+            "zh": "沸腾",
+            "zhPinyin": "fèiténg",
+            "zhStrokes": "16",
+            "zhRadical": "水 (agua)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "fèiténg",
+      "meaning": "hierve"
+    },
+    "fēng": {
+      "entries": [
+        {
+          "word": "fēng",
+          "meaning": "viento",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "fēng",
+          "allTranslations": {
+            "es": "viento",
+            "en": "wind",
+            "de": "Wind",
+            "pt": "vento",
+            "ru": "ветер",
+            "ruRom": "veter",
+            "zh": "风",
+            "zhPinyin": "fēng",
+            "zhStrokes": "8",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "independiente",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "originalWord": "fēng",
+      "meaning": "viento"
+    },
+    "fēngbào": {
+      "entries": [
+        {
+          "word": "fēngbào",
+          "meaning": "tormentas",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "fēngbào",
+          "allTranslations": {
+            "es": "tormentas",
+            "en": "storms",
+            "de": "Stürme",
+            "pt": "tempestades",
+            "ru": "бури",
+            "ruRom": "búri",
+            "zh": "风暴",
+            "zhPinyin": "fēngbào",
+            "zhStrokes": "13",
+            "zhRadical": "风 (viento)",
+            "zhStructure": "independiente",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "fēngbào",
+      "meaning": "tormentas"
     },
     "gǎngkǒu": {
       "entries": [
@@ -519,6 +1170,10 @@
             "ruRom": "port",
             "zh": "港口",
             "zhPinyin": "gǎngkǒu",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-04-il-galeone",
             "day": 4,
             "filePath": "src/content/blog/dia-04-il-galeone.md"
@@ -533,27 +1188,31 @@
       "originalWord": "gǎngkǒu",
       "meaning": "puerto"
     },
-    "gōngrén": {
+    "gòngchǎn zhǔyì zhě": {
       "entries": [
         {
-          "word": "gōngrén",
-          "meaning": "trabajador",
+          "word": "gòngchǎn zhǔyì zhě",
+          "meaning": "comunista",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
           "lessons": [
             11
           ],
           "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
-          "originalWord": "gōngrén",
+          "originalWord": "gòngchǎn zhǔyì zhě",
           "allTranslations": {
-            "es": "trabajador",
-            "en": "worker",
-            "de": "Arbeiter",
-            "pt": "trabalhador",
-            "ru": "рабочий",
-            "ruRom": "rabochiy",
-            "zh": "工人",
-            "zhPinyin": "gōngrén",
+            "es": "comunista",
+            "en": "communist",
+            "de": "Kommunist",
+            "pt": "comunista",
+            "ru": "коммунист",
+            "ruRom": "kommunist",
+            "zh": "共产主义者",
+            "zhPinyin": "gòngchǎn zhǔyì zhě",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-11-einheitsfrontlied",
             "day": 11,
             "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
@@ -565,8 +1224,576 @@
         11
       ],
       "firstAppearance": 11,
+      "originalWord": "gòngchǎn zhǔyì zhě",
+      "meaning": "comunista"
+    },
+    "gòngchǎndǎng": {
+      "entries": [
+        {
+          "word": "gòngchǎndǎng",
+          "meaning": "partido comunista",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "gòngchǎndǎng",
+          "allTranslations": {
+            "es": "partido comunista",
+            "en": "communist party",
+            "de": "Kommunistische Partei",
+            "pt": "partido comunista",
+            "ru": "коммунистическая партия",
+            "ruRom": "kommunisticheskaya partiya",
+            "zh": "共产党",
+            "zhPinyin": "gòngchǎndǎng",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "gòngchǎndǎng",
+      "meaning": "partido comunista"
+    },
+    "gònghéguó": {
+      "entries": [
+        {
+          "word": "gònghéguó",
+          "meaning": "república",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "gònghéguó",
+          "allTranslations": {
+            "es": "república",
+            "en": "republic",
+            "de": "Republik",
+            "pt": "república",
+            "ru": "республика",
+            "ruRom": "respublika",
+            "zh": "共和国",
+            "zhPinyin": "gònghéguó",
+            "zhStrokes": "14",
+            "zhRadical": "八 (ocho)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "gònghéguó",
+      "meaning": "república"
+    },
+    "gōngrén": {
+      "entries": [
+        {
+          "word": "gōngrén",
+          "meaning": "trabajador",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0,
+            6,
+            11
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "gōngrén",
+          "allTranslations": {
+            "es": "trabajador",
+            "en": "worker",
+            "de": "Arbeiter",
+            "pt": "trabalhador",
+            "ru": "рабочий",
+            "ruRom": "rabóchiy",
+            "zh": "工人",
+            "zhPinyin": "gōngrén",
+            "zhStrokes": "7",
+            "zhRadical": "工 (trabajo)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        },
+        {
+          "word": "gōngrén",
+          "meaning": "trabajadores",
+          "source": "dia-09-hijos-del-pueblo",
+          "day": 9,
+          "lessons": [
+            9,
+            10
+          ],
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "originalWord": "gōngrén",
+          "allTranslations": {
+            "es": "trabajadores",
+            "en": "workers",
+            "de": "Arbeiter",
+            "pt": "trabalhadores",
+            "ru": "рабочие",
+            "ruRom": "rabochiye",
+            "zh": "工人",
+            "zhPinyin": "gōngrén",
+            "zhStrokes": "7",
+            "zhRadical": "工 (trabajo)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-09-hijos-del-pueblo",
+            "day": 9,
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 2,
+      "lessons": [
+        0,
+        9
+      ],
+      "firstAppearance": 0,
       "originalWord": "gōngrén",
       "meaning": "trabajador"
+    },
+    "gōngrén jiējí": {
+      "entries": [
+        {
+          "word": "gōngrén jiējí",
+          "meaning": "clase obrera",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "gōngrén jiējí",
+          "allTranslations": {
+            "es": "clase obrera",
+            "en": "working class",
+            "de": "Arbeiterklasse",
+            "pt": "classe operária",
+            "ru": "рабочий класс",
+            "ruRom": "rabochiy klass",
+            "zh": "工人阶级",
+            "zhPinyin": "gōngrén jiējí",
+            "zhStrokes": "18",
+            "zhRadical": "工 (trabajo)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "gōngrén jiējí",
+      "meaning": "clase obrera"
+    },
+    "gōngshè": {
+      "entries": [
+        {
+          "word": "gōngshè",
+          "meaning": "comuna",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "gōngshè",
+          "allTranslations": {
+            "es": "comuna",
+            "en": "commune",
+            "de": "Kommune",
+            "pt": "comuna",
+            "ru": "коммуна",
+            "ruRom": "kommuna",
+            "zh": "公社",
+            "zhPinyin": "gōngshè",
+            "zhStrokes": "10",
+            "zhRadical": "八 (ocho)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "gōngshè",
+      "meaning": "comuna"
+    },
+    "gōngtuán zhǔyì": {
+      "entries": [
+        {
+          "word": "gōngtuán zhǔyì",
+          "meaning": "Sindicalismo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "gōngtuán zhǔyì",
+          "allTranslations": {
+            "es": "Sindicalismo",
+            "en": "syndicalism",
+            "de": "Syndikalismus",
+            "pt": "sindicalismo",
+            "ru": "синдикализм",
+            "ruRom": "sindikalizm",
+            "zh": "工团主义",
+            "zhPinyin": "gōngtuán zhǔyì",
+            "zhStrokes": "25",
+            "zhRadical": "工 (trabajo)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        },
+        {
+          "word": "gōngtuán zhǔyì",
+          "meaning": "sindicalismo",
+          "source": "dia-09-hijos-del-pueblo",
+          "day": 9,
+          "lessons": [
+            9
+          ],
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "originalWord": "gōngtuán zhǔyì",
+          "allTranslations": {
+            "es": "sindicalismo",
+            "en": "syndicalism",
+            "de": "Syndikalismus",
+            "pt": "sindicalismo",
+            "ru": "синдикализм",
+            "ruRom": "sindikalizm",
+            "zh": "工团主义",
+            "zhPinyin": "gōngtuán zhǔyì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-09-hijos-del-pueblo",
+            "day": 9,
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 2,
+      "lessons": [
+        1,
+        9
+      ],
+      "firstAppearance": 1,
+      "originalWord": "gōngtuán zhǔyì",
+      "meaning": "Sindicalismo"
+    },
+    "gōulǒng": {
+      "entries": [
+        {
+          "word": "gōulǒng",
+          "meaning": "surcos",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "gōulǒng",
+          "allTranslations": {
+            "es": "surcos",
+            "en": "furrows",
+            "de": "Furchen",
+            "pt": "sulcos",
+            "ru": "борозды",
+            "ruRom": "borozdy",
+            "zh": "沟垄",
+            "zhPinyin": "gōulǒng",
+            "zhStrokes": "10",
+            "zhRadical": "氵 (agua)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "gōulǒng",
+      "meaning": "surcos"
+    },
+    "gùnóng": {
+      "entries": [
+        {
+          "word": "gùnóng",
+          "meaning": "jornalero",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "gùnóng",
+          "allTranslations": {
+            "es": "jornalero",
+            "en": "farmhand",
+            "de": "Landarbeiter",
+            "pt": "jornaleiro",
+            "ru": "батрак",
+            "ruRom": "batrak",
+            "zh": "雇农",
+            "zhPinyin": "gùnóng",
+            "zhStrokes": "12",
+            "zhRadical": "雇 (emplear)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "gùnóng",
+      "meaning": "jornalero"
+    },
+    "háizi men": {
+      "entries": [
+        {
+          "word": "háizi men",
+          "meaning": "hijos",
+          "source": "dia-09-hijos-del-pueblo",
+          "day": 9,
+          "lessons": [
+            9
+          ],
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "originalWord": "háizi men",
+          "allTranslations": {
+            "es": "hijos",
+            "en": "children",
+            "de": "Kinder",
+            "pt": "filhos",
+            "ru": "дети",
+            "ruRom": "deti",
+            "zh": "孩子们",
+            "zhPinyin": "háizi men",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-09-hijos-del-pueblo",
+            "day": 9,
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
+      "originalWord": "háizi men",
+      "meaning": "hijos"
+    },
+    "hànshuǐ": {
+      "entries": [
+        {
+          "word": "hànshuǐ",
+          "meaning": "sudor",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "hànshuǐ",
+          "allTranslations": {
+            "es": "sudor",
+            "en": "sweat",
+            "de": "Schweiß",
+            "pt": "suor",
+            "ru": "пот",
+            "ruRom": "pot",
+            "zh": "汗水",
+            "zhPinyin": "hànshuǐ",
+            "zhStrokes": "9",
+            "zhRadical": "氵 (agua)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "hànshuǐ",
+      "meaning": "sudor"
+    },
+    "hànwèi": {
+      "entries": [
+        {
+          "word": "hànwèi",
+          "meaning": "defender",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "hànwèi",
+          "allTranslations": {
+            "es": "defender",
+            "en": "defend",
+            "de": "verteidigen",
+            "pt": "defender",
+            "ru": "защищать",
+            "ruRom": "zashchishchát'",
+            "zh": "捍卫",
+            "zhPinyin": "hànwèi",
+            "zhStrokes": "15",
+            "zhRadical": "扌 (mano)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "originalWord": "hànwèi",
+      "meaning": "defender"
+    },
+    "hēisè de": {
+      "entries": [
+        {
+          "word": "hēisè de",
+          "meaning": "Negras",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "hēisè de",
+          "allTranslations": {
+            "es": "Negras",
+            "en": "black",
+            "de": "schwarze",
+            "pt": "negras",
+            "ru": "чёрные",
+            "ruRom": "chyórnye",
+            "zh": "黑色的",
+            "zhPinyin": "hēisè de",
+            "zhStrokes": "12",
+            "zhRadical": "黑 (negro)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "hēisè de",
+      "meaning": "Negras"
+    },
+    "hóng": {
+      "entries": [
+        {
+          "word": "hóng",
+          "meaning": "rojo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "hóng",
+          "allTranslations": {
+            "es": "rojo",
+            "en": "red",
+            "de": "rot",
+            "pt": "vermelho",
+            "ru": "красный",
+            "ruRom": "krasnyy",
+            "zh": "红",
+            "zhPinyin": "hóng",
+            "zhStrokes": "6",
+            "zhRadical": "纟 (seda)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "hóng",
+      "meaning": "rojo"
     },
     "huànxiǎng": {
       "entries": [
@@ -589,6 +1816,10 @@
             "ruRom": "fantazirovat'",
             "zh": "幻想",
             "zhPinyin": "huànxiǎng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -603,42 +1834,356 @@
       "originalWord": "huànxiǎng",
       "meaning": "fantasear"
     },
-    "líhūn gōngtóu": {
+    "jī'è de": {
       "entries": [
         {
-          "word": "líhūn gōngtóu",
-          "meaning": "Referéndum divorcio",
-          "source": "dia-04-il-galeone",
-          "day": 4,
+          "word": "jī'è de",
+          "meaning": "hambrientos",
+          "source": "dia-02-l-internationale",
+          "day": 2,
           "lessons": [
-            4
+            2
           ],
-          "filePath": "src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "líhūn gōngtóu",
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "jī'è de",
           "allTranslations": {
-            "es": "Referéndum divorcio",
-            "en": "Divorce referendum",
-            "de": "Scheidungsreferendum",
-            "pt": "Referendo divórcio",
-            "ru": "Референдум о разводе",
-            "ruRom": "Referendum o razvode",
-            "zh": "离婚公投",
-            "zhPinyin": "líhūn gōngtóu",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "src/content/blog/dia-04-il-galeone.md",
-            "originalKey": "1974",
-            "context": "Divorcio legal"
+            "es": "hambrientos",
+            "en": "hungry",
+            "de": "Hungrige",
+            "pt": "famintos",
+            "ru": "голодные",
+            "ruRom": "golodnye",
+            "zh": "饥饿的",
+            "zhPinyin": "jī'è de",
+            "zhStrokes": "19",
+            "zhRadical": "食 (comida)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        4
+        2
       ],
-      "firstAppearance": 4,
-      "originalWord": "líhūn gōngtóu",
-      "meaning": "Referéndum divorcio"
+      "firstAppearance": 2,
+      "originalWord": "jī'è de",
+      "meaning": "hambrientos"
+    },
+    "jiāng shì": {
+      "entries": [
+        {
+          "word": "jiāng shì",
+          "meaning": "será",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "jiāng shì",
+          "allTranslations": {
+            "es": "será",
+            "en": "will be",
+            "de": "wird sein",
+            "pt": "será",
+            "ru": "будет",
+            "ruRom": "budet",
+            "zh": "将是",
+            "zhPinyin": "jiāng shì",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "jiāng shì",
+      "meaning": "será"
+    },
+    "jiāoguàn": {
+      "entries": [
+        {
+          "word": "jiāoguàn",
+          "meaning": "regar",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "jiāoguàn",
+          "allTranslations": {
+            "es": "regar",
+            "en": "to water",
+            "de": "bewässern",
+            "pt": "regar",
+            "ru": "поливать",
+            "ruRom": "polivat'",
+            "zh": "浇灌",
+            "zhPinyin": "jiāoguàn",
+            "zhStrokes": "15",
+            "zhRadical": "氵 (agua)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "jiāoguàn",
+      "meaning": "regar"
+    },
+    "jiěfàng zhě": {
+      "entries": [
+        {
+          "word": "jiěfàng zhě",
+          "meaning": "libertadores",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "jiěfàng zhě",
+          "allTranslations": {
+            "es": "libertadores",
+            "en": "liberators",
+            "de": "Befreier",
+            "pt": "libertadores",
+            "ru": "освободители",
+            "ruRom": "osvoboditeli",
+            "zh": "解放者",
+            "zhPinyin": "jiěfàng zhě",
+            "zhStrokes": "13",
+            "zhRadical": "角 (ángulo)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "jiěfàng zhě",
+      "meaning": "libertadores"
+    },
+    "jiùxīng": {
+      "entries": [
+        {
+          "word": "jiùxīng",
+          "meaning": "salvador",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "jiùxīng",
+          "allTranslations": {
+            "es": "salvador",
+            "en": "savior",
+            "de": "Retter",
+            "pt": "salvador",
+            "ru": "спаситель",
+            "ruRom": "spasitel'",
+            "zh": "救星",
+            "zhPinyin": "jiùxīng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "jiùxīng",
+      "meaning": "salvador"
+    },
+    "jǔqǐ de": {
+      "entries": [
+        {
+          "word": "jǔqǐ de",
+          "meaning": "levantado",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "jǔqǐ de",
+          "allTranslations": {
+            "es": "levantado",
+            "en": "raised",
+            "de": "erhoben",
+            "pt": "levantado",
+            "ru": "поднятый",
+            "ruRom": "podnyatyy",
+            "zh": "举起的",
+            "zhPinyin": "jǔqǐ de",
+            "zhStrokes": "12",
+            "zhRadical": "手 (mano)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "jǔqǐ de",
+      "meaning": "levantado"
+    },
+    "láozuò": {
+      "entries": [
+        {
+          "word": "láozuò",
+          "meaning": "trabajar",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "láozuò",
+          "allTranslations": {
+            "es": "trabajar",
+            "en": "to work",
+            "de": "arbeiten",
+            "pt": "trabalhar",
+            "ru": "работать",
+            "ruRom": "rabotat'",
+            "zh": "劳作",
+            "zhPinyin": "láozuò",
+            "zhStrokes": "9",
+            "zhRadical": "力 (fuerza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "láozuò",
+      "meaning": "trabajar"
+    },
+    "lí": {
+      "entries": [
+        {
+          "word": "lí",
+          "meaning": "arado",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "lí",
+          "allTranslations": {
+            "es": "arado",
+            "en": "plow",
+            "de": "Pflug",
+            "pt": "arado",
+            "ru": "плуг",
+            "ruRom": "plug",
+            "zh": "犁",
+            "zhPinyin": "lí",
+            "zhStrokes": "11",
+            "zhRadical": "牛 (buey)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "lí",
+      "meaning": "arado"
+    },
+    "liánméng": {
+      "entries": [
+        {
+          "word": "liánméng",
+          "meaning": "unión",
+          "source": "dia-10-oy-ir-narishe-tsienistn",
+          "day": 10,
+          "lessons": [
+            10
+          ],
+          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "originalWord": "liánméng",
+          "allTranslations": {
+            "es": "unión",
+            "en": "union",
+            "de": "Verband",
+            "pt": "união",
+            "ru": "союз",
+            "ruRom": "soyuz",
+            "zh": "联盟",
+            "zhPinyin": "liánméng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-10-oy-ir-narishe-tsienistn",
+            "day": 10,
+            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "originalWord": "liánméng",
+      "meaning": "unión"
     },
     "límíng": {
       "entries": [
@@ -661,6 +2206,10 @@
             "ruRom": "zarya",
             "zh": "黎明",
             "zhPinyin": "límíng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
             "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
@@ -675,42 +2224,122 @@
       "originalWord": "límíng",
       "meaning": "amanecer"
     },
-    "méng jūn shènglì": {
+    "lǐngxiù": {
       "entries": [
         {
-          "word": "méng jūn shènglì",
-          "meaning": "Victoria aliada",
-          "source": "dia-05-pesn-partizan",
-          "day": 5,
+          "word": "lǐngxiù",
+          "meaning": "líder",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
           "lessons": [
-            5
+            7
           ],
-          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
-          "originalWord": "méng jūn shènglì",
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "lǐngxiù",
           "allTranslations": {
-            "es": "Victoria aliada",
-            "en": "Allied victory",
-            "de": "Alliierter Sieg",
-            "pt": "Vitória aliada",
-            "ru": "Победа союзников",
-            "ruRom": "Pobeda soyuznikov",
-            "zh": "盟军胜利",
-            "zhPinyin": "méng jūn shènglì",
-            "source": "dia-05-pesn-partizan",
-            "day": 5,
-            "filePath": "src/content/blog/dia-05-pesn-partizan.md",
-            "originalKey": "1944",
-            "context": "Liberación de París"
+            "es": "líder",
+            "en": "leader",
+            "de": "Führer",
+            "pt": "líder",
+            "ru": "лидер",
+            "ruRom": "lider",
+            "zh": "领袖",
+            "zhPinyin": "lǐngxiù",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        5
+        7
       ],
-      "firstAppearance": 5,
-      "originalWord": "méng jūn shènglì",
-      "meaning": "Victoria aliada"
+      "firstAppearance": 7,
+      "originalWord": "lǐngxiù",
+      "meaning": "líder"
+    },
+    "lìshǐ": {
+      "entries": [
+        {
+          "word": "lìshǐ",
+          "meaning": "historia",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "lìshǐ",
+          "allTranslations": {
+            "es": "historia",
+            "en": "history",
+            "de": "Geschichte",
+            "pt": "história",
+            "ru": "история",
+            "ruRom": "istoriya",
+            "zh": "历史",
+            "zhPinyin": "lìshǐ",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "lìshǐ",
+      "meaning": "historia"
+    },
+    "lǐxìng": {
+      "entries": [
+        {
+          "word": "lǐxìng",
+          "meaning": "razón",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "lǐxìng",
+          "allTranslations": {
+            "es": "razón",
+            "en": "reason",
+            "de": "Vernunft",
+            "pt": "razão",
+            "ru": "разум",
+            "ruRom": "razum",
+            "zh": "理性",
+            "zhPinyin": "lǐxìng",
+            "zhStrokes": "15",
+            "zhRadical": "王 (rey)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "lǐxìng",
+      "meaning": "razón"
     },
     "mièwáng": {
       "entries": [
@@ -733,6 +2362,10 @@
             "ruRom": "gibnut'",
             "zh": "灭亡",
             "zhPinyin": "mièwáng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -768,6 +2401,10 @@
             "ruRom": "taynyy",
             "zh": "秘密的",
             "zhPinyin": "mìmì de",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adjetivo",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -781,6 +2418,113 @@
       "firstAppearance": 6,
       "originalWord": "mìmì de",
       "meaning": "secreto"
+    },
+    "núlì": {
+      "entries": [
+        {
+          "word": "núlì",
+          "meaning": "esclavos",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "núlì",
+          "allTranslations": {
+            "es": "esclavos",
+            "en": "slaves",
+            "de": "Sklaven",
+            "pt": "escravos",
+            "ru": "рабы",
+            "ruRom": "raby",
+            "zh": "奴隶",
+            "zhPinyin": "núlì",
+            "zhStrokes": "8",
+            "zhRadical": "女 (mujer)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        },
+        {
+          "word": "núlì",
+          "meaning": "esclavo",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "núlì",
+          "allTranslations": {
+            "es": "esclavo",
+            "en": "slave",
+            "de": "Sklave",
+            "pt": "escravo",
+            "ru": "раб",
+            "ruRom": "rab",
+            "zh": "奴隶",
+            "zhPinyin": "núlì",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 2,
+      "lessons": [
+        2,
+        4
+      ],
+      "firstAppearance": 2,
+      "originalWord": "núlì",
+      "meaning": "esclavos"
+    },
+    "piānzhāng": {
+      "entries": [
+        {
+          "word": "piānzhāng",
+          "meaning": "páginas",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "piānzhāng",
+          "allTranslations": {
+            "es": "páginas",
+            "en": "pages",
+            "de": "Seiten",
+            "pt": "páginas",
+            "ru": "страницы",
+            "ruRom": "stranitsy",
+            "zh": "篇章",
+            "zhPinyin": "piānzhāng",
+            "zhStrokes": "20",
+            "zhRadical": "竹 (bambú)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "piānzhāng",
+      "meaning": "páginas"
     },
     "pòhuài": {
       "entries": [
@@ -803,6 +2547,10 @@
             "ruRom": "diversiya",
             "zh": "破坏",
             "zhPinyin": "pòhuài",
+            "zhStrokes": "13",
+            "zhRadical": "石 (piedra)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-05-pesn-partizan",
             "day": 5,
             "filePath": "src/content/blog/dia-05-pesn-partizan.md"
@@ -838,6 +2586,10 @@
             "ruRom": "razboynichjya orda",
             "zh": "强盗军队",
             "zhPinyin": "qiángdào jūnduì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -873,6 +2625,10 @@
             "ruRom": "front",
             "zh": "前线",
             "zhPinyin": "qiánxiàn",
+            "zhStrokes": "9",
+            "zhRadical": "前 (delante)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-11-einheitsfrontlied",
             "day": 11,
             "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
@@ -908,6 +2664,10 @@
             "ruRom": "shyopot",
             "zh": "窃窃私语",
             "zhPinyin": "qièqiè sīyǔ",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -922,8 +2682,76 @@
       "originalWord": "qièqiè sīyǔ",
       "meaning": "susurro"
     },
+    "qǐlái": {
+      "entries": [
+        {
+          "word": "qǐlái",
+          "meaning": "levántate",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "qǐlái",
+          "allTranslations": {
+            "es": "levántate",
+            "en": "rise up",
+            "de": "steh auf",
+            "pt": "levanta-te",
+            "ru": "вставай",
+            "ruRom": "vstavay",
+            "zh": "起来",
+            "zhPinyin": "qǐlái",
+            "zhStrokes": "10",
+            "zhRadical": "走 (caminar)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "verbo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "qǐlái",
+      "meaning": "levántate"
+    },
     "qízhì": {
       "entries": [
+        {
+          "word": "qízhì",
+          "meaning": "bandera",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0,
+            10
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "qízhì",
+          "allTranslations": {
+            "es": "bandera",
+            "en": "flag",
+            "de": "Fahne",
+            "pt": "bandeira",
+            "ru": "знамя",
+            "ruRom": "známya",
+            "zh": "旗帜",
+            "zhPinyin": "qízhì",
+            "zhStrokes": "18",
+            "zhRadical": "方 (cuadrado)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        },
         {
           "word": "qízhì",
           "meaning": "banderas",
@@ -943,44 +2771,24 @@
             "ruRom": "znamyona",
             "zh": "旗帜",
             "zhPinyin": "qízhì",
+            "zhStrokes": "14",
+            "zhRadical": "方 (dirección)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
             "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
-          }
-        },
-        {
-          "word": "qízhì",
-          "meaning": "bandera",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "lessons": [
-            10
-          ],
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
-          "originalWord": "qízhì",
-          "allTranslations": {
-            "es": "bandera",
-            "en": "flag",
-            "de": "Fahne",
-            "pt": "bandeira",
-            "ru": "знамя",
-            "ruRom": "znamya",
-            "zh": "旗帜",
-            "zhPinyin": "qízhì",
-            "source": "dia-10-oy-ir-narishe-tsienistn",
-            "day": 10,
-            "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
           }
         }
       ],
       "frequency": 2,
       "lessons": [
-        3,
-        10
+        0,
+        3
       ],
-      "firstAppearance": 3,
+      "firstAppearance": 0,
       "originalWord": "qízhì",
-      "meaning": "banderas"
+      "meaning": "bandera"
     },
     "quánlì": {
       "entries": [
@@ -1003,6 +2811,10 @@
             "ruRom": "vlast'",
             "zh": "权力",
             "zhPinyin": "quánlì",
+            "zhStrokes": "10",
+            "zhRadical": "木 (madera)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
             "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
@@ -1017,18 +2829,64 @@
       "originalWord": "quánlì",
       "meaning": "poder"
     },
+    "quántou": {
+      "entries": [
+        {
+          "word": "quántou",
+          "meaning": "puño",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "quántou",
+          "allTranslations": {
+            "es": "puño",
+            "en": "fist",
+            "de": "Faust",
+            "pt": "punho",
+            "ru": "кулак",
+            "ruRom": "kulak",
+            "zh": "拳头",
+            "zhPinyin": "quántou",
+            "zhStrokes": "13",
+            "zhRadical": "手 (mano)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "quántou",
+      "meaning": "puño"
+    },
     "rénmín": {
       "entries": [
         {
           "word": "rénmín",
           "meaning": "pueblo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
           "lessons": [
+            0,
             3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
             11
           ],
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "rénmín",
           "allTranslations": {
             "es": "pueblo",
@@ -1036,20 +2894,24 @@
             "de": "Volk",
             "pt": "povo",
             "ru": "народ",
-            "ruRom": "narod",
+            "ruRom": "naród",
             "zh": "人民",
             "zhPinyin": "rénmín",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+            "zhStrokes": "5",
+            "zhRadical": "人 (persona)",
+            "zhStructure": "independiente",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        3
+        0
       ],
-      "firstAppearance": 3,
+      "firstAppearance": 0,
       "originalWord": "rénmín",
       "meaning": "pueblo"
     },
@@ -1074,6 +2936,10 @@
             "ruRom": "diaspora",
             "zh": "散居",
             "zhPinyin": "sànjū",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -1087,6 +2953,162 @@
       "firstAppearance": 10,
       "originalWord": "sànjū",
       "meaning": "diáspora"
+    },
+    "shānmài": {
+      "entries": [
+        {
+          "word": "shānmài",
+          "meaning": "montañas",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "shānmài",
+          "allTranslations": {
+            "es": "montañas",
+            "en": "mountains",
+            "de": "Berge",
+            "pt": "montanhas",
+            "ru": "горы",
+            "ruRom": "gory",
+            "zh": "山脉",
+            "zhPinyin": "shānmài",
+            "zhStrokes": "10",
+            "zhRadical": "山 (montaña)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "shānmài",
+      "meaning": "montañas"
+    },
+    "shèhuì zhǔyì": {
+      "entries": [
+        {
+          "word": "shèhuì zhǔyì",
+          "meaning": "socialismo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "shèhuì zhǔyì",
+          "allTranslations": {
+            "es": "socialismo",
+            "en": "socialism",
+            "de": "Sozialismus",
+            "pt": "socialismo",
+            "ru": "социализм",
+            "ruRom": "sotsializm",
+            "zh": "社会主义",
+            "zhPinyin": "shèhuì zhǔyì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "shèhuì zhǔyì",
+      "meaning": "socialismo"
+    },
+    "shèhuì zhǔyì zhě": {
+      "entries": [
+        {
+          "word": "shèhuì zhǔyì zhě",
+          "meaning": "socialista",
+          "source": "dia-11-einheitsfrontlied",
+          "day": 11,
+          "lessons": [
+            11
+          ],
+          "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "originalWord": "shèhuì zhǔyì zhě",
+          "allTranslations": {
+            "es": "socialista",
+            "en": "socialist",
+            "de": "Sozialist",
+            "pt": "socialista",
+            "ru": "социалист",
+            "ruRom": "sotsialist",
+            "zh": "社会主义者",
+            "zhPinyin": "shèhuì zhǔyì zhě",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-11-einheitsfrontlied",
+            "day": 11,
+            "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        11
+      ],
+      "firstAppearance": 11,
+      "originalWord": "shèhuì zhǔyì zhě",
+      "meaning": "socialista"
+    },
+    "shèhuìzhǔyì": {
+      "entries": [
+        {
+          "word": "shèhuìzhǔyì",
+          "meaning": "socialismo",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "shèhuìzhǔyì",
+          "allTranslations": {
+            "es": "socialismo",
+            "en": "socialism",
+            "de": "Sozialismus",
+            "pt": "socialismo",
+            "ru": "социализм",
+            "ruRom": "sotsializm",
+            "zh": "社会主义",
+            "zhPinyin": "shèhuìzhǔyì",
+            "zhStrokes": "22",
+            "zhRadical": "社 (sociedad)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "shèhuìzhǔyì",
+      "meaning": "socialismo"
     },
     "shènglì": {
       "entries": [
@@ -1109,19 +3131,251 @@
             "ruRom": "pobedit'",
             "zh": "胜利",
             "zhPinyin": "shènglì",
+            "zhStrokes": "14",
+            "zhRadical": "力 (fuerza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        },
+        {
+          "word": "shènglì",
+          "meaning": "victoria",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3,
+            5,
+            8
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "shènglì",
+          "allTranslations": {
+            "es": "victoria",
+            "en": "victory",
+            "de": "Sieg",
+            "pt": "vitória",
+            "ru": "победа",
+            "ruRom": "pobeda",
+            "zh": "胜利",
+            "zhPinyin": "shènglì",
+            "zhStrokes": "14",
+            "zhRadical": "力 (fuerza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
             "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
-      "frequency": 1,
+      "frequency": 2,
       "lessons": [
+        3,
         3
       ],
       "firstAppearance": 3,
       "originalWord": "shènglì",
       "meaning": "triunfar"
+    },
+    "shēngqǐ": {
+      "entries": [
+        {
+          "word": "shēngqǐ",
+          "meaning": "surgir",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "shēngqǐ",
+          "allTranslations": {
+            "es": "surgir",
+            "en": "to rise",
+            "de": "aufgehen",
+            "pt": "nascer",
+            "ru": "восходить",
+            "ruRom": "voskhodit'",
+            "zh": "升起",
+            "zhPinyin": "shēngqǐ",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "shēngqǐ",
+      "meaning": "surgir"
+    },
+    "shénme dōu méiyǒu": {
+      "entries": [
+        {
+          "word": "shénme dōu méiyǒu",
+          "meaning": "nada",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "shénme dōu méiyǒu",
+          "allTranslations": {
+            "es": "nada",
+            "en": "nothing",
+            "de": "nichts",
+            "pt": "nada",
+            "ru": "ничего",
+            "ruRom": "nichego",
+            "zh": "什么都没有",
+            "zhPinyin": "shénme dōu méiyǒu",
+            "zhStrokes": "25",
+            "zhRadical": "什 (qué)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "pronombre",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "shénme dōu méiyǒu",
+      "meaning": "nada"
+    },
+    "shénshèng de": {
+      "entries": [
+        {
+          "word": "shénshèng de",
+          "meaning": "sagrada",
+          "source": "dia-08-the-sacred-war",
+          "day": 8,
+          "lessons": [
+            8
+          ],
+          "filePath": "src/content/blog/dia-08-the-sacred-war.md",
+          "originalWord": "shénshèng de",
+          "allTranslations": {
+            "es": "sagrada",
+            "en": "sacred",
+            "de": "heilig",
+            "pt": "sagrada",
+            "ru": "священная",
+            "ruRom": "svyashchennaya",
+            "zh": "神圣的",
+            "zhPinyin": "shénshèng de",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-08-the-sacred-war",
+            "day": 8,
+            "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "originalWord": "shénshèng de",
+      "meaning": "sagrada"
+    },
+    "shìbīng": {
+      "entries": [
+        {
+          "word": "shìbīng",
+          "meaning": "soldados",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5,
+            8
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "shìbīng",
+          "allTranslations": {
+            "es": "soldados",
+            "en": "soldiers",
+            "de": "Soldaten",
+            "pt": "soldados",
+            "ru": "солдаты",
+            "ruRom": "soldaty",
+            "zh": "士兵",
+            "zhPinyin": "shìbīng",
+            "zhStrokes": "10",
+            "zhRadical": "士 (soldado)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "shìbīng",
+      "meaning": "soldados"
+    },
+    "shìjiè": {
+      "entries": [
+        {
+          "word": "shìjiè",
+          "meaning": "mundo",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2,
+            6
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "shìjiè",
+          "allTranslations": {
+            "es": "mundo",
+            "en": "world",
+            "de": "Welt",
+            "pt": "mundo",
+            "ru": "мир",
+            "ruRom": "mir",
+            "zh": "世界",
+            "zhPinyin": "shìjiè",
+            "zhStrokes": "9",
+            "zhRadical": "世 (generación)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "shìjiè",
+      "meaning": "mundo"
     },
     "shìjiè gònghéguó": {
       "entries": [
@@ -1144,6 +3398,10 @@
             "ruRom": "mirovaya respublika",
             "zh": "世界共和国",
             "zhPinyin": "shìjiè gònghéguó",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -1158,6 +3416,123 @@
       "originalWord": "shìjiè gònghéguó",
       "meaning": "república mundial"
     },
+    "shòu zǔzhòu de": {
+      "entries": [
+        {
+          "word": "shòu zǔzhòu de",
+          "meaning": "malditos",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "shòu zǔzhòu de",
+          "allTranslations": {
+            "es": "malditos",
+            "en": "damned",
+            "de": "Verdammte",
+            "pt": "malditos",
+            "ru": "проклятые",
+            "ruRom": "proklyatye",
+            "zh": "受诅咒的",
+            "zhPinyin": "shòu zǔzhòu de",
+            "zhStrokes": "25",
+            "zhRadical": "示 (sagrado)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "shòu zǔzhòu de",
+      "meaning": "malditos"
+    },
+    "shūxiě": {
+      "entries": [
+        {
+          "word": "shūxiě",
+          "meaning": "escribir",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "shūxiě",
+          "allTranslations": {
+            "es": "escribir",
+            "en": "to write",
+            "de": "schreiben",
+            "pt": "escrever",
+            "ru": "писать",
+            "ruRom": "pisat'",
+            "zh": "书写",
+            "zhPinyin": "shūxiě",
+            "zhStrokes": "9",
+            "zhRadical": "乚 (segundo)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "verbo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "shūxiě",
+      "meaning": "escribir"
+    },
+    "sǐ": {
+      "entries": [
+        {
+          "word": "sǐ",
+          "meaning": "morir",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "sǐ",
+          "allTranslations": {
+            "es": "morir",
+            "en": "to die",
+            "de": "sterben",
+            "pt": "morrer",
+            "ru": "умирать",
+            "ruRom": "umirat'",
+            "zh": "死",
+            "zhPinyin": "sǐ",
+            "zhStrokes": "6",
+            "zhRadical": "歹 (mal)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "verbo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "sǐ",
+      "meaning": "morir"
+    },
     "sǐwáng": {
       "entries": [
         {
@@ -1166,7 +3541,8 @@
           "source": "dia-01-a-las-barricadas",
           "day": 1,
           "lessons": [
-            1
+            1,
+            4
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
           "originalWord": "sǐwáng",
@@ -1179,6 +3555,10 @@
             "ruRom": "smert'",
             "zh": "死亡",
             "zhPinyin": "sǐwáng",
+            "zhStrokes": "9",
+            "zhRadical": "歹 (mal)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
             "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
@@ -1214,6 +3594,10 @@
             "ruRom": "khot'",
             "zh": "虽然",
             "zhPinyin": "suīrán",
+            "zhStrokes": "17",
+            "zhRadical": "虫 (insecto)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "conjunción",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
             "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
@@ -1227,6 +3611,45 @@
       "firstAppearance": 1,
       "originalWord": "suīrán",
       "meaning": "aunque"
+    },
+    "suǒliàn": {
+      "entries": [
+        {
+          "word": "suǒliàn",
+          "meaning": "cadenas",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "suǒliàn",
+          "allTranslations": {
+            "es": "cadenas",
+            "en": "chains",
+            "de": "Ketten",
+            "pt": "correntes",
+            "ru": "цепи",
+            "ruRom": "tsepi",
+            "zh": "锁链",
+            "zhPinyin": "suǒliàn",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "originalWord": "suǒliàn",
+      "meaning": "cadenas"
     },
     "Sūwéi'āi zhī guāng": {
       "entries": [
@@ -1249,6 +3672,10 @@
             "ruRom": "sovetskiy svet",
             "zh": "苏维埃之光",
             "zhPinyin": "Sūwéi'āi zhī guāng",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-06-der-heimliche-aufmarsch",
             "day": 6,
             "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
@@ -1262,6 +3689,123 @@
       "firstAppearance": 6,
       "originalWord": "Sūwéi'āi zhī guāng",
       "meaning": "luz soviética"
+    },
+    "tàiyáng": {
+      "entries": [
+        {
+          "word": "tàiyáng",
+          "meaning": "sol",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "tàiyáng",
+          "allTranslations": {
+            "es": "sol",
+            "en": "sun",
+            "de": "Sonne",
+            "pt": "sol",
+            "ru": "солнце",
+            "ruRom": "solntse",
+            "zh": "太阳",
+            "zhPinyin": "tàiyáng",
+            "zhStrokes": "10",
+            "zhRadical": "日 (sol)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "tàiyáng",
+      "meaning": "sol"
+    },
+    "tiānkōng": {
+      "entries": [
+        {
+          "word": "tiānkōng",
+          "meaning": "aires",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "tiānkōng",
+          "allTranslations": {
+            "es": "aires",
+            "en": "skies",
+            "de": "Lüfte",
+            "pt": "ares",
+            "ru": "небеса",
+            "ruRom": "nebésa",
+            "zh": "天空",
+            "zhPinyin": "tiānkōng",
+            "zhStrokes": "8",
+            "zhRadical": "天 (cielo)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "tiānkōng",
+      "meaning": "aires"
+    },
+    "tīngjiàn": {
+      "entries": [
+        {
+          "word": "tīngjiàn",
+          "meaning": "escuchar",
+          "source": "dia-06-der-heimliche-aufmarsch",
+          "day": 6,
+          "lessons": [
+            6
+          ],
+          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "originalWord": "tīngjiàn",
+          "allTranslations": {
+            "es": "escuchar",
+            "en": "to hear",
+            "de": "hören",
+            "pt": "escutar",
+            "ru": "слышать",
+            "ruRom": "slyshat'",
+            "zh": "听见",
+            "zhPinyin": "tīngjiàn",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "verbo",
+            "source": "dia-06-der-heimliche-aufmarsch",
+            "day": 6,
+            "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
+      "originalWord": "tīngjiàn",
+      "meaning": "escuchar"
     },
     "tòngkǔ": {
       "entries": [
@@ -1284,32 +3828,134 @@
             "ruRom": "bol'",
             "zh": "痛苦",
             "zhPinyin": "tòngkǔ",
+            "zhStrokes": "12",
+            "zhRadical": "疒 (enfermedad)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-01-a-las-barricadas",
             "day": 1,
             "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
           }
+        },
+        {
+          "word": "tòngkǔ",
+          "meaning": "miseria",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "tòngkǔ",
+          "allTranslations": {
+            "es": "miseria",
+            "en": "misery",
+            "de": "Elend",
+            "pt": "miséria",
+            "ru": "нищета",
+            "ruRom": "nishcheta",
+            "zh": "痛苦",
+            "zhPinyin": "tòngkǔ",
+            "zhStrokes": "17",
+            "zhRadical": "痛 (dolor)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
         }
       ],
-      "frequency": 1,
+      "frequency": 2,
       "lessons": [
-        1
+        1,
+        12
       ],
       "firstAppearance": 1,
       "originalWord": "tòngkǔ",
       "meaning": "dolor"
+    },
+    "tóngzhì": {
+      "entries": [
+        {
+          "word": "tóngzhì",
+          "meaning": "compañeros",
+          "source": "dia-09-hijos-del-pueblo",
+          "day": 9,
+          "lessons": [
+            9
+          ],
+          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "originalWord": "tóngzhì",
+          "allTranslations": {
+            "es": "compañeros",
+            "en": "comrades",
+            "de": "Genossen",
+            "pt": "companheiros",
+            "ru": "товарищи",
+            "ruRom": "tovarishchi",
+            "zh": "同志",
+            "zhPinyin": "tóngzhì",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-09-hijos-del-pueblo",
+            "day": 9,
+            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+          }
+        },
+        {
+          "word": "tóngzhì",
+          "meaning": "compañero",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "tóngzhì",
+          "allTranslations": {
+            "es": "compañero",
+            "en": "comrade",
+            "de": "Genosse",
+            "pt": "companheiro",
+            "ru": "товарищ",
+            "ruRom": "tovarishch",
+            "zh": "同志",
+            "zhPinyin": "tóngzhì",
+            "zhStrokes": "7",
+            "zhRadical": "同 (mismo)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 2,
+      "lessons": [
+        9,
+        12
+      ],
+      "firstAppearance": 9,
+      "originalWord": "tóngzhì",
+      "meaning": "compañeros"
     },
     "tuánjié": {
       "entries": [
         {
           "word": "tuánjié",
           "meaning": "unidad",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
           "lessons": [
+            0,
             3,
             11
           ],
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "tuánjié",
           "allTranslations": {
             "es": "unidad",
@@ -1317,23 +3963,28 @@
             "de": "Einheit",
             "pt": "unidade",
             "ru": "единство",
-            "ruRom": "edinstvo",
+            "ruRom": "edínstvo",
             "zh": "团结",
             "zhPinyin": "tuánjié",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+            "zhStrokes": "18",
+            "zhRadical": "囗 (recinto)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         },
         {
           "word": "tuánjié",
           "meaning": "solidaridad",
-          "source": "dia-09-hijos-del-pueblo",
-          "day": 9,
+          "source": "dia-02-l-internationale",
+          "day": 2,
           "lessons": [
+            2,
             9
           ],
-          "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
           "originalWord": "tuánjié",
           "allTranslations": {
             "es": "solidaridad",
@@ -1344,18 +3995,22 @@
             "ruRom": "solidarnost'",
             "zh": "团结",
             "zhPinyin": "tuánjié",
-            "source": "dia-09-hijos-del-pueblo",
-            "day": 9,
-            "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+            "zhStrokes": "14",
+            "zhRadical": "囗 (recinto)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
           }
         }
       ],
       "frequency": 2,
       "lessons": [
-        3,
-        9
+        0,
+        2
       ],
-      "firstAppearance": 3,
+      "firstAppearance": 0,
       "originalWord": "tuánjié",
       "meaning": "unidad"
     },
@@ -1380,6 +4035,10 @@
             "ruRom": "edinyy",
             "zh": "团结的",
             "zhPinyin": "tuánjié de",
+            "zhStrokes": "14",
+            "zhRadical": "囗 (recinto)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "adjetivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
             "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
@@ -1393,6 +4052,230 @@
       "firstAppearance": 3,
       "originalWord": "tuánjié de",
       "meaning": "unido"
+    },
+    "tuánjié hùzhù": {
+      "entries": [
+        {
+          "word": "tuánjié hùzhù",
+          "meaning": "solidaridad",
+          "source": "dia-11-einheitsfrontlied",
+          "day": 11,
+          "lessons": [
+            11
+          ],
+          "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "originalWord": "tuánjié hùzhù",
+          "allTranslations": {
+            "es": "solidaridad",
+            "en": "solidarity",
+            "de": "Solidarität",
+            "pt": "solidariedade",
+            "ru": "солидарность",
+            "ruRom": "solidarnost'",
+            "zh": "团结互助",
+            "zhPinyin": "tuánjié hùzhù",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-11-einheitsfrontlied",
+            "day": 11,
+            "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        11
+      ],
+      "firstAppearance": 11,
+      "originalWord": "tuánjié hùzhù",
+      "meaning": "solidaridad"
+    },
+    "tǔdì": {
+      "entries": [
+        {
+          "word": "tǔdì",
+          "meaning": "tierra",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
+          "lessons": [
+            12
+          ],
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "tǔdì",
+          "allTranslations": {
+            "es": "tierra",
+            "en": "land",
+            "de": "Land",
+            "pt": "terra",
+            "ru": "земля",
+            "ruRom": "zemlya",
+            "zh": "土地",
+            "zhPinyin": "tǔdì",
+            "zhStrokes": "6",
+            "zhRadical": "土 (tierra)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "originalWord": "tǔdì",
+      "meaning": "tierra"
+    },
+    "wěidà": {
+      "entries": [
+        {
+          "word": "wěidà",
+          "meaning": "grande",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "wěidà",
+          "allTranslations": {
+            "es": "grande",
+            "en": "great",
+            "de": "groß",
+            "pt": "grande",
+            "ru": "великий",
+            "ruRom": "velikiy",
+            "zh": "伟大",
+            "zhPinyin": "wěidà",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "wěidà",
+      "meaning": "grande"
+    },
+    "wú zhèngfǔ zhǔyì": {
+      "entries": [
+        {
+          "word": "wú zhèngfǔ zhǔyì",
+          "meaning": "anarquismo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "wú zhèngfǔ zhǔyì",
+          "allTranslations": {
+            "es": "anarquismo",
+            "en": "anarchism",
+            "de": "Anarchismus",
+            "pt": "anarquismo",
+            "ru": "анархизм",
+            "ruRom": "anarkhizm",
+            "zh": "无政府主义",
+            "zhPinyin": "wú zhèngfǔ zhǔyì",
+            "zhStrokes": "24",
+            "zhRadical": "无 (sin)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        },
+        {
+          "word": "wú zhèngfǔ zhǔyì",
+          "meaning": "anarquía",
+          "source": "dia-04-il-galeone",
+          "day": 4,
+          "lessons": [
+            4
+          ],
+          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "originalWord": "wú zhèngfǔ zhǔyì",
+          "allTranslations": {
+            "es": "anarquía",
+            "en": "anarchy",
+            "de": "Anarchie",
+            "pt": "anarquia",
+            "ru": "анархия",
+            "ruRom": "anarkhiya",
+            "zh": "无政府主义",
+            "zhPinyin": "wú zhèngfǔ zhǔyì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-04-il-galeone",
+            "day": 4,
+            "filePath": "src/content/blog/dia-04-il-galeone.md"
+          }
+        }
+      ],
+      "frequency": 2,
+      "lessons": [
+        1,
+        4
+      ],
+      "firstAppearance": 1,
+      "originalWord": "wú zhèngfǔ zhǔyì",
+      "meaning": "anarquismo"
+    },
+    "wúchǎnjiējí": {
+      "entries": [
+        {
+          "word": "wúchǎnjiējí",
+          "meaning": "proletariado",
+          "source": "dia-02-l-internationale",
+          "day": 2,
+          "lessons": [
+            2
+          ],
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "wúchǎnjiējí",
+          "allTranslations": {
+            "es": "proletariado",
+            "en": "proletariat",
+            "de": "Proletariat",
+            "pt": "proletariado",
+            "ru": "пролетариат",
+            "ruRom": "proletariat",
+            "zh": "无产阶级",
+            "zhPinyin": "wúchǎnjiējí",
+            "zhStrokes": "20",
+            "zhRadical": "无 (sin)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "originalWord": "wúchǎnjiējí",
+      "meaning": "proletariado"
     },
     "wúchǎnzhě": {
       "entries": [
@@ -1416,6 +4299,10 @@
             "ruRom": "proletariy",
             "zh": "无产者",
             "zhPinyin": "wúchǎnzhě",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -1451,6 +4338,10 @@
             "ruRom": "anarkhizm",
             "zh": "无政府主义",
             "zhPinyin": "wúzhèngfǔ zhǔyì",
+            "zhStrokes": "18",
+            "zhRadical": "无 (nada)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
             "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
@@ -1465,42 +4356,44 @@
       "originalWord": "wúzhèngfǔ zhǔyì",
       "meaning": "anarquismo"
     },
-    "wùzī duǎnquē": {
+    "wúzhèngfǔzhǔyìzhě": {
       "entries": [
         {
-          "word": "wùzī duǎnquē",
-          "meaning": "Desabastecimiento",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
+          "word": "wúzhèngfǔzhǔyìzhě",
+          "meaning": "anarquista",
+          "source": "dia-12-en-la-plaza-de-mi-pueblo",
+          "day": 12,
           "lessons": [
-            3
+            12
           ],
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "wùzī duǎnquē",
+          "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "originalWord": "wúzhèngfǔzhǔyìzhě",
           "allTranslations": {
-            "es": "Desabastecimiento",
-            "en": "Shortages",
-            "de": "Versorgungskrise",
-            "pt": "Desabastecimento",
-            "ru": "Нехватка товаров",
-            "ruRom": "Nekhvatka tovarov",
-            "zh": "物资短缺",
-            "zhPinyin": "wùzī duǎnquē",
-            "source": "dia-03-el-pueblo-unido",
-            "day": 3,
-            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
-            "originalKey": "1972",
-            "context": "Crisis económica"
+            "es": "anarquista",
+            "en": "anarchist",
+            "de": "Anarchist",
+            "pt": "anarquista",
+            "ru": "анархист",
+            "ruRom": "anarkhist",
+            "zh": "无政府主义者",
+            "zhPinyin": "wúzhèngfǔzhǔyìzhě",
+            "zhStrokes": "23",
+            "zhRadical": "政 (gobierno)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-12-en-la-plaza-de-mi-pueblo",
+            "day": 12,
+            "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        3
+        12
       ],
-      "firstAppearance": 3,
-      "originalWord": "wùzī duǎnquē",
-      "meaning": "Desabastecimiento"
+      "firstAppearance": 12,
+      "originalWord": "wúzhèngfǔzhǔyìzhě",
+      "meaning": "anarquista"
     },
     "xíngjìn": {
       "entries": [
@@ -1523,93 +4416,130 @@
             "ruRom": "marshirovat'",
             "zh": "行进",
             "zhPinyin": "xíngjìn",
+            "zhStrokes": "13",
+            "zhRadical": "行 (caminar)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
             "source": "dia-00-fundamentos-basicos",
             "day": 0,
             "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
-        }
-      ],
-      "frequency": 1,
-      "lessons": [
-        0
-      ],
-      "firstAppearance": 0,
-      "originalWord": "xíngjìn",
-      "meaning": "marchar"
-    },
-    "xuǎnjǔ shènglì": {
-      "entries": [
+        },
         {
-          "word": "xuǎnjǔ shènglì",
-          "meaning": "Triunfo electoral",
+          "word": "xíngjìn",
+          "meaning": "marcha",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
           "lessons": [
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
-          "originalWord": "xuǎnjǔ shènglì",
+          "originalWord": "xíngjìn",
           "allTranslations": {
-            "es": "Triunfo electoral",
-            "en": "Electoral victory",
-            "de": "Wahlsieg",
-            "pt": "Vitória eleitoral",
-            "ru": "Победа на выборах",
-            "ruRom": "Pobeda na vyborakh",
-            "zh": "选举胜利",
-            "zhPinyin": "xuǎnjǔ shènglì",
+            "es": "marcha",
+            "en": "march",
+            "de": "Marsch",
+            "pt": "marcha",
+            "ru": "марш",
+            "ruRom": "marsh",
+            "zh": "行进",
+            "zhPinyin": "xíngjìn",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-03-el-pueblo-unido",
             "day": 3,
-            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
-            "originalKey": "1970",
-            "context": "Elección de Allende"
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
           }
         }
       ],
-      "frequency": 1,
+      "frequency": 2,
       "lessons": [
+        0,
         3
       ],
-      "firstAppearance": 3,
-      "originalWord": "xuǎnjǔ shènglì",
-      "meaning": "Triunfo electoral"
+      "firstAppearance": 0,
+      "originalWord": "xíngjìn",
+      "meaning": "marchar"
     },
-    "xuéshēng qǐyì": {
+    "xuèyè": {
       "entries": [
         {
-          "word": "xuéshēng qǐyì",
-          "meaning": "Revueltas estudiantiles",
-          "source": "dia-04-il-galeone",
-          "day": 4,
+          "word": "xuèyè",
+          "meaning": "sangre",
+          "source": "dia-02-l-internationale",
+          "day": 2,
           "lessons": [
-            4
+            2
           ],
-          "filePath": "src/content/blog/dia-04-il-galeone.md",
-          "originalWord": "xuéshēng qǐyì",
+          "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "originalWord": "xuèyè",
           "allTranslations": {
-            "es": "Revueltas estudiantiles",
-            "en": "Student revolts",
-            "de": "Studentenrevolten",
-            "pt": "Revoltas estudantis",
-            "ru": "Студенческие волнения",
-            "ruRom": "Studencheskie volneniya",
-            "zh": "学生起义",
-            "zhPinyin": "xuéshēng qǐyì",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "src/content/blog/dia-04-il-galeone.md",
-            "originalKey": "1968",
-            "context": "Mayo del 68"
+            "es": "sangre",
+            "en": "blood",
+            "de": "Blut",
+            "pt": "sangue",
+            "ru": "кровь",
+            "ruRom": "krov'",
+            "zh": "血液",
+            "zhPinyin": "xuèyè",
+            "zhStrokes": "12",
+            "zhRadical": "血 (sangre)",
+            "zhStructure": "independiente",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-02-l-internationale",
+            "day": 2,
+            "filePath": "src/content/blog/dia-02-l-internationale.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        4
+        2
       ],
-      "firstAppearance": 4,
-      "originalWord": "xuéshēng qǐyì",
-      "meaning": "Revueltas estudiantiles"
+      "firstAppearance": 2,
+      "originalWord": "xuèyè",
+      "meaning": "sangre"
+    },
+    "yáohàn": {
+      "entries": [
+        {
+          "word": "yáohàn",
+          "meaning": "agitan",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "yáohàn",
+          "allTranslations": {
+            "es": "agitan",
+            "en": "shake",
+            "de": "schütteln",
+            "pt": "agitam",
+            "ru": "колышут",
+            "ruRom": "kolýshut",
+            "zh": "摇撼",
+            "zhPinyin": "yáohàn",
+            "zhStrokes": "18",
+            "zhRadical": "扌 (mano)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "yáohàn",
+      "meaning": "agitan"
     },
     "yāpò": {
       "entries": [
@@ -1632,6 +4562,10 @@
             "ruRom": "ugneteniye",
             "zh": "压迫",
             "zhPinyin": "yāpò",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
             "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
@@ -1645,6 +4579,84 @@
       "firstAppearance": 9,
       "originalWord": "yāpò",
       "meaning": "opresión"
+    },
+    "yǒnghéng de": {
+      "entries": [
+        {
+          "word": "yǒnghéng de",
+          "meaning": "eterna",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "yǒnghéng de",
+          "allTranslations": {
+            "es": "eterna",
+            "en": "eternal",
+            "de": "ewig",
+            "pt": "eterna",
+            "ru": "вечная",
+            "ruRom": "vechnaya",
+            "zh": "永恒的",
+            "zhPinyin": "yǒnghéng de",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adjetivo",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "yǒnghéng de",
+      "meaning": "eterna"
+    },
+    "yǒngyuǎn bù huì": {
+      "entries": [
+        {
+          "word": "yǒngyuǎn bù huì",
+          "meaning": "jamás",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "yǒngyuǎn bù huì",
+          "allTranslations": {
+            "es": "jamás",
+            "en": "never",
+            "de": "niemals",
+            "pt": "jamais",
+            "ru": "никогда",
+            "ruRom": "nikogda",
+            "zh": "永远不会",
+            "zhPinyin": "yǒngyuǎn bù huì",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "adverbio",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "yǒngyuǎn bù huì",
+      "meaning": "jamás"
     },
     "yóujīduì": {
       "entries": [
@@ -1667,6 +4679,10 @@
             "ruRom": "partizany",
             "zh": "游击队",
             "zhPinyin": "yóujīduì",
+            "zhStrokes": "9",
+            "zhRadical": "辶 (camino)",
+            "zhStructure": "semi-encierro",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-05-pesn-partizan",
             "day": 5,
             "filePath": "src/content/blog/dia-05-pesn-partizan.md"
@@ -1702,6 +4718,10 @@
             "ruRom": "glupyy",
             "zh": "愚蠢",
             "zhPinyin": "yúchǔn",
+            "zhStrokes": "13",
+            "zhRadical": "心 (corazón)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "adjetivo",
             "source": "dia-10-oy-ir-narishe-tsienistn",
             "day": 10,
             "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
@@ -1737,6 +4757,10 @@
             "ruRom": "dvizhenie",
             "zh": "运动",
             "zhPinyin": "yùndòng",
+            "zhStrokes": "16",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-04-il-galeone",
             "day": 4,
             "filePath": "src/content/blog/dia-04-il-galeone.md"
@@ -1751,17 +4775,137 @@
       "originalWord": "yùndòng",
       "meaning": "movimiento"
     },
+    "zhàndòu": {
+      "entries": [
+        {
+          "word": "zhàndòu",
+          "meaning": "luchar",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "lessons": [
+            0,
+            2
+          ],
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "originalWord": "zhàndòu",
+          "allTranslations": {
+            "es": "luchar",
+            "en": "fight",
+            "de": "kämpfen",
+            "pt": "lutar",
+            "ru": "бороться",
+            "ruRom": "borót'sya",
+            "zh": "战斗",
+            "zhPinyin": "zhàndòu",
+            "zhStrokes": "16",
+            "zhRadical": "戈 (lanza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "originalWord": "zhàndòu",
+      "meaning": "luchar"
+    },
+    "zhànshèng": {
+      "entries": [
+        {
+          "word": "zhànshèng",
+          "meaning": "vencer",
+          "source": "dia-03-el-pueblo-unido",
+          "day": 3,
+          "lessons": [
+            3
+          ],
+          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "originalWord": "zhànshèng",
+          "allTranslations": {
+            "es": "vencer",
+            "en": "to conquer",
+            "de": "besiegen",
+            "pt": "vencer",
+            "ru": "победить",
+            "ruRom": "pobedit'",
+            "zh": "战胜",
+            "zhPinyin": "zhànshèng",
+            "zhStrokes": "12",
+            "zhRadical": "戈 (lanza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "verbo",
+            "source": "dia-03-el-pueblo-unido",
+            "day": 3,
+            "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "originalWord": "zhànshèng",
+      "meaning": "vencer"
+    },
+    "zhànshì": {
+      "entries": [
+        {
+          "word": "zhànshì",
+          "meaning": "combatientes",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "zhànshì",
+          "allTranslations": {
+            "es": "combatientes",
+            "en": "fighters",
+            "de": "Kämpfer",
+            "pt": "combatentes",
+            "ru": "бойцы",
+            "ruRom": "boytsy",
+            "zh": "战士",
+            "zhPinyin": "zhànshì",
+            "zhStrokes": "10",
+            "zhRadical": "戈 (lanza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "zhànshì",
+      "meaning": "combatientes"
+    },
     "zhànzhēng": {
       "entries": [
         {
           "word": "zhànzhēng",
           "meaning": "guerra",
-          "source": "dia-08-the-sacred-war",
-          "day": 8,
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
           "lessons": [
+            5,
+            6,
             8
           ],
-          "filePath": "src/content/blog/dia-08-the-sacred-war.md",
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
           "originalWord": "zhànzhēng",
           "allTranslations": {
             "es": "guerra",
@@ -1772,31 +4916,117 @@
             "ruRom": "voyna",
             "zh": "战争",
             "zhPinyin": "zhànzhēng",
-            "source": "dia-08-the-sacred-war",
-            "day": 8,
-            "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+            "zhStrokes": "16",
+            "zhRadical": "戈 (lanza)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        8
+        5
       ],
-      "firstAppearance": 8,
+      "firstAppearance": 5,
       "originalWord": "zhànzhēng",
       "meaning": "guerra"
+    },
+    "zhàohuàn": {
+      "entries": [
+        {
+          "word": "zhàohuàn",
+          "meaning": "llama",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "zhàohuàn",
+          "allTranslations": {
+            "es": "llama",
+            "en": "calls",
+            "de": "ruft",
+            "pt": "chama",
+            "ru": "зовёт",
+            "ruRom": "zovyót",
+            "zh": "召唤",
+            "zhPinyin": "zhàohuàn",
+            "zhStrokes": "10",
+            "zhRadical": "召 (convocar)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "verbo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "zhàohuàn",
+      "meaning": "llama"
+    },
+    "zhǔxí": {
+      "entries": [
+        {
+          "word": "zhǔxí",
+          "meaning": "presidente",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "lessons": [
+            7
+          ],
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "originalWord": "zhǔxí",
+          "allTranslations": {
+            "es": "presidente",
+            "en": "chairman",
+            "de": "Vorsitzender",
+            "pt": "presidente",
+            "ru": "председатель",
+            "ruRom": "predsedatel'",
+            "zh": "主席",
+            "zhPinyin": "zhǔxí",
+            "zhStrokes": "6",
+            "zhRadical": "主 (señor)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-07-dongfang-hong",
+            "day": 7,
+            "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "originalWord": "zhǔxí",
+      "meaning": "presidente"
     },
     "zìyóu": {
       "entries": [
         {
           "word": "zìyóu",
           "meaning": "libertad",
-          "source": "dia-04-il-galeone",
-          "day": 4,
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
           "lessons": [
-            4
+            0,
+            4,
+            5,
+            8,
+            9
           ],
-          "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
           "originalWord": "zìyóu",
           "allTranslations": {
             "es": "libertad",
@@ -1804,22 +5034,65 @@
             "de": "Freiheit",
             "pt": "liberdade",
             "ru": "свобода",
-            "ruRom": "svoboda",
+            "ruRom": "svobóda",
             "zh": "自由",
             "zhPinyin": "zìyóu",
-            "source": "dia-04-il-galeone",
-            "day": 4,
-            "filePath": "src/content/blog/dia-04-il-galeone.md"
+            "zhStrokes": "9",
+            "zhRadical": "自 (uno mismo)",
+            "zhStructure": "arriba-abajo",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-00-fundamentos-basicos",
+            "day": 0,
+            "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
           }
         }
       ],
       "frequency": 1,
       "lessons": [
-        4
+        0
       ],
-      "firstAppearance": 4,
+      "firstAppearance": 0,
       "originalWord": "zìyóu",
       "meaning": "libertad"
+    },
+    "zìzhì guǎnlǐ": {
+      "entries": [
+        {
+          "word": "zìzhì guǎnlǐ",
+          "meaning": "Autogestión",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "lessons": [
+            1
+          ],
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "originalWord": "zìzhì guǎnlǐ",
+          "allTranslations": {
+            "es": "Autogestión",
+            "en": "self-management",
+            "de": "Selbstverwaltung",
+            "pt": "autogestão",
+            "ru": "самоуправление",
+            "ruRom": "samoupravléniye",
+            "zh": "自治管理",
+            "zhPinyin": "zìzhì guǎnlǐ",
+            "zhStrokes": "19",
+            "zhRadical": "自 (uno mismo)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-01-a-las-barricadas",
+            "day": 1,
+            "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "originalWord": "zìzhì guǎnlǐ",
+      "meaning": "Autogestión"
     },
     "zǒng bàgōng": {
       "entries": [
@@ -1842,6 +5115,10 @@
             "ruRom": "vseobshchaya zabastovka",
             "zh": "总罢工",
             "zhPinyin": "zǒng bàgōng",
+            "zhStrokes": "20",
+            "zhRadical": "一 (uno)",
+            "zhStructure": "compuesto",
+            "grammaticalCategory": "sustantivo",
             "source": "dia-09-hijos-del-pueblo",
             "day": 9,
             "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
@@ -1855,6 +5132,46 @@
       "firstAppearance": 9,
       "originalWord": "zǒng bàgōng",
       "meaning": "huelga general"
+    },
+    "zǔguó": {
+      "entries": [
+        {
+          "word": "zǔguó",
+          "meaning": "patria",
+          "source": "dia-05-pesn-partizan",
+          "day": 5,
+          "lessons": [
+            5,
+            8
+          ],
+          "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "originalWord": "zǔguó",
+          "allTranslations": {
+            "es": "patria",
+            "en": "homeland",
+            "de": "Vaterland",
+            "pt": "pátria",
+            "ru": "родина",
+            "ruRom": "rodina",
+            "zh": "祖国",
+            "zhPinyin": "zǔguó",
+            "zhStrokes": "14",
+            "zhRadical": "示 (sagrado)",
+            "zhStructure": "izquierda-derecha",
+            "grammaticalCategory": "sustantivo",
+            "source": "dia-05-pesn-partizan",
+            "day": 5,
+            "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+          }
+        }
+      ],
+      "frequency": 1,
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "originalWord": "zǔguó",
+      "meaning": "patria"
     }
   }
 }

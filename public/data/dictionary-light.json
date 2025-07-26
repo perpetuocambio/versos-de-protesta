@@ -1,131 +1,131 @@
 {
   "meta": {
-    "totalWords": 49,
-    "totalEntries": 56,
+    "totalWords": 124,
+    "totalEntries": 168,
     "totalLanguages": 8,
-    "totalLessons": 10,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "totalLessons": 13,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
     "es": {
-      "count": 49,
+      "count": 124,
       "sample": [
+        "agitan",
+        "aires",
         "amanecer",
+        "amo",
+        "anarquía",
         "anarquismo",
-        "aunque",
-        "bandera",
-        "banderas",
-        "cantar",
-        "clandestino",
-        "Desabastecimiento",
-        "diáspora",
-        "dolor"
+        "anarquista",
+        "antifascista",
+        "antisemitismo",
+        "aparecer"
       ]
     },
     "en": {
-      "count": 49,
+      "count": 123,
       "sample": [
-        "Allied victory",
         "anarchism",
+        "anarchist",
+        "anarchy",
+        "antifascist",
+        "antisemitism",
+        "await",
         "banners",
-        "dawn",
-        "death",
-        "defeated",
-        "diaspora",
-        "Divorce referendum",
-        "Eastern Front",
-        "Electoral victory"
+        "black",
+        "blood",
+        "boils"
       ]
     },
     "de": {
-      "count": 50,
+      "count": 123,
       "sample": [
-        "Alliierter Sieg",
+        "Anarchie",
         "Anarchismus",
+        "Anarchist",
+        "Antifaschist",
+        "Antisemitismus",
+        "arbeiten",
         "Arbeiter",
+        "Arbeiterklasse",
         "auch wenn",
-        "besiegt",
-        "Bewegung",
-        "Diaspora",
-        "Einheit",
-        "Erste Internationale",
-        "erwarten"
+        "aufgehen"
       ]
     },
     "pt": {
-      "count": 49,
+      "count": 123,
       "sample": [
+        "agitam",
         "amanhecer",
+        "anarquia",
         "anarquismo",
-        "bandeira",
-        "bandeiras",
-        "cantar",
-        "clandestino",
-        "Desabastecimento",
-        "diáspora",
-        "dor",
-        "embora"
+        "anarquista",
+        "antifascista",
+        "antissemitismo",
+        "aparecer",
+        "arado",
+        "ares"
       ]
     },
     "ru": {
-      "count": 49,
+      "count": 122,
       "sample": [
         "анархизм",
+        "анархист",
+        "анархия",
+        "антисемитизм",
+        "антифашист",
+        "батрак",
+        "бойцы",
         "боль",
-        "власть",
-        "война",
-        "Восточный фронт",
-        "всеобщая забастовка",
-        "галеон",
-        "гибнуть",
-        "глупый",
-        "движение"
+        "борозды",
+        "бороться"
       ]
     },
     "ruRom": {
-      "count": 50,
+      "count": 130,
       "sample": [
+        "anarkhist",
+        "anarkhiya",
         "anarkhizm",
+        "antifashist",
+        "antisemitizm",
+        "batrak",
         "bol'",
-        "diaspora",
-        "diversiya",
-        "dvizhenie",
-        "edinstvo",
-        "edinyy",
-        "fantazirovat'",
-        "fashizm",
-        "front"
+        "bor'ba",
+        "bor'bá",
+        "borot'sya"
       ]
     },
     "zh": {
-      "count": 47,
+      "count": 115,
       "sample": [
         "被战胜的",
+        "波浪",
         "唱",
+        "出现",
         "船员",
-        "大罢工",
         "大帆船",
         "地下的",
+        "地主",
         "等待",
-        "第一国际",
-        "东线战场",
-        "法西斯主义"
+        "敌人"
       ]
     },
     "zhPinyin": {
-      "count": 47,
+      "count": 117,
       "sample": [
         "bèi zhànshèng de",
+        "bōlàng",
         "chàng",
         "chuányuán",
-        "dà bàgōng",
+        "chūxiàn",
         "dà fānchuán",
         "děngdài",
         "dì-yī guójì",
-        "dìxià de",
-        "dōngxiàn zhànchǎng",
-        "fǎxīsī zhǔyì"
+        "dírén",
+        "dìxià de"
       ]
     }
   },

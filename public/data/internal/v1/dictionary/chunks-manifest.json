@@ -11,63 +11,63 @@
     "totalChunks": 8,
     "scalabilityTarget": "100+ lessons",
     "estimatedMaxSizeAt100Lessons": "750KB per language",
-    "generated": "2025-07-26T10:33:58.280Z"
+    "generated": "2025-07-26T17:50:08.027Z"
   },
   "languages": [
     {
       "code": "es",
       "totalChunks": 1,
-      "totalWords": 49,
-      "estimatedSizeKB": 28,
+      "totalWords": 124,
+      "estimatedSizeKB": 80,
       "chunksPath": "/internal/v1/dictionary/chunks/es-*"
     },
     {
       "code": "en",
       "totalChunks": 1,
-      "totalWords": 49,
-      "estimatedSizeKB": 28,
+      "totalWords": 123,
+      "estimatedSizeKB": 80,
       "chunksPath": "/internal/v1/dictionary/chunks/en-*"
     },
     {
       "code": "de",
       "totalChunks": 1,
-      "totalWords": 50,
-      "estimatedSizeKB": 29,
+      "totalWords": 123,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/de-*"
     },
     {
       "code": "pt",
       "totalChunks": 1,
-      "totalWords": 49,
-      "estimatedSizeKB": 28,
+      "totalWords": 123,
+      "estimatedSizeKB": 80,
       "chunksPath": "/internal/v1/dictionary/chunks/pt-*"
     },
     {
       "code": "ru",
       "totalChunks": 1,
-      "totalWords": 49,
-      "estimatedSizeKB": 28,
+      "totalWords": 122,
+      "estimatedSizeKB": 80,
       "chunksPath": "/internal/v1/dictionary/chunks/ru-*"
     },
     {
       "code": "ru-rom",
       "totalChunks": 1,
-      "totalWords": 50,
-      "estimatedSizeKB": 29,
+      "totalWords": 130,
+      "estimatedSizeKB": 85,
       "chunksPath": "/internal/v1/dictionary/chunks/ru-rom-*"
     },
     {
       "code": "zh",
       "totalChunks": 1,
-      "totalWords": 47,
-      "estimatedSizeKB": 27,
+      "totalWords": 115,
+      "estimatedSizeKB": 77,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-*"
     },
     {
       "code": "zh-pinyin",
       "totalChunks": 1,
-      "totalWords": 47,
-      "estimatedSizeKB": 28,
+      "totalWords": 117,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-pinyin-*"
     }
   ],

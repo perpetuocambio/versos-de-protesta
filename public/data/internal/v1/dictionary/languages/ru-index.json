@@ -9,40 +9,57 @@
   "meta": {
     "language": "русский",
     "code": "ru",
-    "wordCount": 49,
-    "lastUpdated": "2025-07-24T16:13:26.107Z",
+    "wordCount": 122,
+    "lastUpdated": "2025-07-26T17:47:29.349Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 56
+    "estimatedLoadTimeMs": 160
   },
   "chunks": [
     {
       "number": 0,
-      "file": "ru-lessons-0-11.json",
+      "file": "ru-lessons-0-12.json",
       "lessonsRange": {
         "start": 0,
-        "end": 11
+        "end": 12
       },
-      "wordCount": 49,
-      "sizeKB": 28,
-      "path": "/internal/v1/dictionary/chunks/ru-lessons-0-11.json"
+      "wordCount": 122,
+      "sizeKB": 80,
+      "path": "/internal/v1/dictionary/chunks/ru-lessons-0-12.json"
     }
   ],
   "index": {
     "lessonToChunk": {
       "0": 0,
       "1": 0,
+      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0,
+      "7": 0,
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 0
+      "11": 0,
+      "12": 0
     },
     "popularWords": [
+      {
+        "word": "победить",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "синдикализм",
+        "frequency": 2,
+        "chunkNumbers": [
+          0
+        ]
+      },
       {
         "word": "анархизм",
         "frequency": 1,
@@ -51,7 +68,105 @@
         ]
       },
       {
+        "word": "анархист",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "анархия",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "антисемитизм",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "антифашист",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "батрак",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "бойцы",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "боль",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "борозды",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "бороться",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "борьба",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "будет",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "бури",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "великий",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "ветер",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "вечная",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -72,6 +187,20 @@
         ]
       },
       {
+        "word": "волна",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "восток",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "Восточный фронт",
         "frequency": 1,
         "chunkNumbers": [
@@ -79,7 +208,28 @@
         ]
       },
       {
+        "word": "восходить",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "враг",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "всеобщая забастовка",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "вставай",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -107,7 +257,28 @@
         ]
       },
       {
+        "word": "голодные",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "горы",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
         "word": "движение",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "дети",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -142,7 +313,7 @@
         ]
       },
       {
-        "word": "ждут",
+        "word": "ждёт",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -150,6 +321,20 @@
       },
       {
         "word": "заря",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "защищать",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "земля",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -170,217 +355,42 @@
         ]
       },
       {
-        "word": "маршировать",
+        "word": "зовёт",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Массовые забастовки",
+        "word": "история",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "мировая республика",
+        "word": "кипит",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "моряки",
+        "word": "колышут",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "народ",
+        "word": "коммуна",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "Нехватка товаров",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "партизаны",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Первый Интернационал",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "петь",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Победа на выборах",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Победа союзников",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "победить",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "побеждённый",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "подпольный",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "порт",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "пролетарий",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "рабочий",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "разбойничья орда",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Референдум о разводе",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "свобода",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "смерть",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "советский свет",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "солидарность",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "Студенческие волнения",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "тайный",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "угнетение",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "фантазировать",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "фашизм",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "фронт",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "хоть",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "шёпот",
+        "word": "коммунист",
         "frequency": 1,
         "chunkNumbers": [
           0
