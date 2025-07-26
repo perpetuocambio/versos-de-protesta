@@ -1,7 +1,7 @@
 ---
 title: "Песнь Партизан / Le Chant des Partisans"
 description: "De los bosques rusos a la Resistencia francesa: el himno que unió a Europa contra el fascismo (1943)"
-pubDate: 2024-01-05
+pubDate: 2025-01-05
 contentType: "song-analysis"
 primaryLanguages: ["ru", "fr", "es", "en", "de", "pt", "zh"]
 day: 5

@@ -1,7 +1,7 @@
 ---
 title: "EINHEITSFRONTLIED"
 description: "Análisis multilingüe del Einheitsfrontlied de Brecht-Eisler con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del antifascismo alemán"
-pubDate: 2024-01-11
+pubDate: 2025-01-11
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: 11

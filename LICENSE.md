@@ -2,7 +2,7 @@
 
 ## Licencia CC BY-NC 4.0
 
-**Versos de Protesta** © 2024 está licenciado bajo [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
+**Versos de Protesta** © 2025 está licenciado bajo [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -83,7 +83,7 @@ licenciado bajo CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 ## Aviso de Copyright
 
 ```
-Copyright © 2024 Versos de Protesta
+Copyright © 2025 Versos de Protesta
 
 Este trabajo está licenciado bajo Creative Commons 
 Attribution-NonCommercial 4.0 International License.

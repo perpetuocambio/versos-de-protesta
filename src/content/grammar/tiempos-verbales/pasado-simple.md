@@ -1,7 +1,7 @@
 ---
 title: "Pasado Simple"
 description: "Sistemas de pasado: pretérito español, simple past inglés, Perfekt alemán vs sistema aspectual ruso vs marcador 了 chino"
-pubDate: 2024-01-16
+pubDate: 2025-01-16
 category: "tiempos-verbales"
 subcategory: "tiempos-simples"
 difficultyLevel: "intermediate"

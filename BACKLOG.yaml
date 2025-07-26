@@ -291,7 +291,7 @@ immediate_quality_improvements:
           status: "pendiente"
 
 next_immediate_actions:
-  # ORDEN DE PRIORIDAD ACTUALIZADO (26/07/2024)
+  # ORDEN DE PRIORIDAD ACTUALIZADO (26/07/2025)
   1. "CRÍTICO: Completar mejoras calidad Días 6-11 (fuentes, enlaces, categorías, letras) - [DÍAS 0-5 COMPLETADOS]"
   2. "CRÍTICO: Verificar y corregir letras de canciones contra Wikipedia en Días 0-11"
   3. "CRÍTICO: Corregir discrepancias diccionario JSON (palabras faltantes zh/zhPinyin: 64 vs 67-68)"

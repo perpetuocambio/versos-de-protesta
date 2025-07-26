@@ -96,7 +96,7 @@ git commit --no-verify -m "mensaje"
 ---
 title: "DÍA XX: Título del Himno"
 description: "Análisis del himno..."
-pubDate: 2024-01-XX
+pubDate: 2025-01-XX
 day: XX
 originalSong:
   title: "Título Original"

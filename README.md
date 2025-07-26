@@ -79,7 +79,7 @@ src/
 ---
 title: "DÍA XX: Título del Himno"
 description: "Descripción del análisis"
-pubDate: 2024-01-XX
+pubDate: 2025-01-XX
 day: XX
 originalSong:
   title: "Título Original"

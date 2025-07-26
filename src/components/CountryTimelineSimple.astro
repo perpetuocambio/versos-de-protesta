@@ -20,7 +20,7 @@ if (!songs || songs.length === 0) {
 }
 
 const minYear = songs.length > 0 ? Math.min(...songs.map(s => s.year)) : 1850;
-const maxYear = songs.length > 0 ? Math.max(...songs.map(s => s.year)) : 2024;
+const maxYear = songs.length > 0 ? Math.max(...songs.map(s => s.year)) : 2025;
 const timeSpan = maxYear - minYear;
 
 // Función para extraer país del origin - DINÁMICA

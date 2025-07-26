@@ -1,7 +1,7 @@
 ---
 title: "A las Barricadas"
 description: "El himno de combate anarquista que resonó en las trincheras de la Guerra Civil Española (1936-1939)"
-pubDate: 2024-01-16
+pubDate: 2025-01-16
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: 1

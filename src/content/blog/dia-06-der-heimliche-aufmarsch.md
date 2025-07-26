@@ -1,7 +1,7 @@
 ---
 title: "DER HEIMLICHE AUFMARSCH"
 description: "La profética advertencia de Eisler contra el militarismo fascista en la agonizante República de Weimar (1930)"
-pubDate: 2024-01-06
+pubDate: 2025-01-06
 contentType: "song-analysis"
 primaryLanguages: ["de", "es", "en", "fr", "pt", "ru", "zh"]
 day: 6

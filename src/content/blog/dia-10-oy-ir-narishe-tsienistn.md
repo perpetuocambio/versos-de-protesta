@@ -1,7 +1,7 @@
 ---
 title: "OY, IR NARISHE TSIENISTN"
 description: "La respuesta socialista yiddish al sionismo: el Bund y la resistencia cultural en Europa Oriental"
-pubDate: 2024-01-10
+pubDate: 2025-01-10
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: 10

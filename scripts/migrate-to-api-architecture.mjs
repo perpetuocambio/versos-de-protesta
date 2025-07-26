@@ -75,8 +75,8 @@ async function migrateToApiArchitecture() {
       meta: {
         totalLessons: Object.keys(dictionaryStats.byLesson).length,
         dateRange: {
-          start: "2024-01-15",
-          end: "2024-01-26"
+          start: "2025-01-15",
+          end: "2025-01-26"
         },
         difficulty: {
           beginner: 1,

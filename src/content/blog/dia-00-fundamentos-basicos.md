@@ -1,14 +1,14 @@
 ---
 title: "Fundamentos Básicos - Conceptos Gramaticales"
 description: "Fundamentos gramaticales esenciales para el estudio de himnos revolucionarios internacionales"
-pubDate: 2024-01-15
+pubDate: 2025-01-15
 contentType: "grammar"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: 0
 originalSong:
   title: "Fundamentos Gramaticales"
   artist: "Conceptos Teóricos"
-  year: 2024
+  year: 2025
   language: "es"
   genre: "educational"
   origin: "Síntesis pedagógica"

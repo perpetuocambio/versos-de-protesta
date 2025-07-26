@@ -1,7 +1,7 @@
 ---
 title: "Pasado Continuo"
 description: "Aspectos progresivos pasados: estaba+gerundio romance, was+ing inglés vs Präteritum alemán vs русский imperfectivo vs contexto chino"
-pubDate: 2024-01-19
+pubDate: 2025-01-19
 category: "tiempos-verbales"
 subcategory: "tiempos-continuos"
 difficultyLevel: "intermediate"

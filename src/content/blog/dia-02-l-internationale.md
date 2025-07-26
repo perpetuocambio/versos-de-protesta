@@ -1,7 +1,7 @@
 ---
 title: "L'Internationale"
 description: "Nacida en las cenizas de la Comuna de París (1871), la canción que unió a los trabajadores del mundo entero"
-pubDate: 2024-01-17
+pubDate: 2025-01-17
 contentType: "song-analysis"
 primaryLanguages: ["fr", "es", "en", "de", "pt", "ru", "zh"]
 day: 2

@@ -1,7 +1,7 @@
 ---
 title: "Il Galeone"
 description: "La metáfora marinera que navegó por la contracultura italiana de los años 70, entre revolución y poesía"
-pubDate: 2024-01-04
+pubDate: 2025-01-04
 contentType: "song-analysis"
 primaryLanguages: ["it", "es", "en", "de", "pt", "ru", "zh"]
 day: 4

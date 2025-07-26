@@ -1,7 +1,7 @@
 ---
 title: "Presente Simple"
 description: "Acciones habituales en español/inglés/alemán/portugués/ruso vs sistema chino sin conjugación verbal"
-pubDate: 2024-01-15
+pubDate: 2025-01-15
 category: "tiempos-verbales"
 subcategory: "tiempos-simples" 
 difficultyLevel: "beginner"

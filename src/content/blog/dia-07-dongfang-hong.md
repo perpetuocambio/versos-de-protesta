@@ -1,7 +1,7 @@
 ---
 title: "东方红 (DŌNGFĀNG HÓNG)"
 description: "El sol que se alza en el Este: himno no oficial de la Revolución Cultural china y símbolo del maoísmo mundial"
-pubDate: 2024-01-07
+pubDate: 2025-01-07
 contentType: "song-analysis"
 primaryLanguages: ["zh", "es", "en", "de", "pt", "ru", "fr"]
 day: 7

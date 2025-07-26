@@ -1,7 +1,7 @@
 ---
 title: "El Pueblo Unido Jamás Será Vencido"
 description: "El himno de la Unidad Popular chilena que se convirtió en símbolo de resistencia contra la dictadura de Pinochet"
-pubDate: 2024-01-03
+pubDate: 2025-01-03
 contentType: "song-analysis"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: 3

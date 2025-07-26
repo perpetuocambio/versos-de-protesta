@@ -18,7 +18,7 @@
 ---
 title: "DÍA X: [TÍTULO CANCIÓN]"
 description: "[CONTEXTO HISTÓRICO/POLÍTICO ESPECÍFICO DE LA CANCIÓN - SIN MENCIONAR 'ANÁLISIS MULTILINGÜE']"
-pubDate: 2024-01-0X
+pubDate: 2025-01-0X
 contentType: "song-analysis"  # o "lesson", "grammar", "cultural"
 primaryLanguages: ["es", "en", "de", "pt", "ru", "zh"]
 day: X

@@ -1,7 +1,7 @@
 ---
 title: "Futuro Simple"
 description: "Sistemas de futuro: morfológico romance, will inglés, werden alemán vs ausencia ruso/chino con estrategias modales"
-pubDate: 2024-01-17
+pubDate: 2025-01-17
 category: "tiempos-verbales"
 subcategory: "tiempos-simples"
 difficultyLevel: "intermediate"

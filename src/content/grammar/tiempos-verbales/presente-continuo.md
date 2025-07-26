@@ -1,7 +1,7 @@
 ---
 title: "Presente Continuo"
 description: "Aspectos progresivos: estar+gerundio romance, be+ing inglés vs presente alemán vs русский imperfectivo vs 在+动词 chino"
-pubDate: 2024-01-18
+pubDate: 2025-01-18
 category: "tiempos-verbales"
 subcategory: "tiempos-continuos"
 difficultyLevel: "intermediate"
