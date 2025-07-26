@@ -43,8 +43,10 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 ---
 ```
 
-### FORMATO DOCUMENTACIÓN DIARIA EXACTO:
+### FORMATO DOCUMENTACIÓN EXACTO:
 
+#### **MODALIDAD A: LECCIONES CRONOLÓGICAS (TIMELINE PRINCIPAL)**
+**Para himnos obreros tradicionales que van en la línea temporal histórica:**
 ```
 # DÍA X: [TÍTULO CANCIÓN]
 
@@ -55,6 +57,124 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 ```
 [Estrofas completas de la canción original]
 ```
+
+#### **MODALIDAD B: LECCIONES TEMÁTICAS (SECCIÓN SEPARADA)**
+**Para canciones políticas que NO son himnos obreros tradicionales, pero permiten análisis dual político-ecológico:**
+```
+# LECCIÓN TEMÁTICA [LETRA]: [TÍTULO CANCIÓN] - [ENFOQUE DUAL]
+
+## 🎵 CANCIÓN ORIGINAL ([IDIOMA FUENTE])
+
+**"[Título]" - [Descripción/Autor] ([Año])**
+
+```
+[Estrofas completas de la canción original]
+```
+
+## 🧬 CONTEXTO BIOLÓGICO/ECOLÓGICO
+
+### TAXONOMÍA MULTILINGÜE OBLIGATORIA
+
+#### **CLASIFICACIÓN TAXONÓMICA - [GRUPO PRINCIPAL]**
+
+| Nivel | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|-------|-----|-----|-----|-----|------|---------|------|-----------|
+| **Reino** | [Reino] | [Kingdom] | [Reich] | [Reino] | [Царство] | [Tsarstvo] | [界] | [jiè] |
+| **Filo** | [Filo] | [Phylum] | [Stamm] | [Filo] | [Тип] | [Tip] | [门] | [mén] |
+| **Clase** | [Clase] | [Class] | [Klasse] | [Classe] | [Класс] | [Klass] | [纲] | [gāng] |
+| **Orden** | [Orden] | [Order] | [Ordnung] | [Ordem] | [Отряд] | [Otryad] | [目] | [mù] |
+| **Familia** | [Familia] | [Family] | [Familie] | [Família] | [Семейство] | [Semeystvo] | [科] | [kē] |
+| **Género** | [Género] | [Genus] | [Gattung] | [Gênero] | [Род] | [Rod] | [属] | [shǔ] |
+| **Especie** | [Especie] | [Species] | [Art] | [Espécie] | [Вид] | [Vid] | [种] | [zhǒng] |
+
+#### **ESPECIES CLAVE EN 6 IDIOMAS**
+
+| Nombre Científico | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|-------------------|-----|-----|-----|-----|------|---------|------|-----------|
+| **[*Especie 1*]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| **[*Especie 2*]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| **[*Especie 3*]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+
+#### **DISTRIBUCIÓN GEOGRÁFICA**
+
+| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
+|--------|-----|-----|-----|-----|------|---------|------|-----------|
+| **[Región 1]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| **[Región 2]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+| **[Región 3]** | [ES] | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] |
+
+### [TEMA CIENTÍFICO ESPECÍFICO] EN 6 IDIOMAS
+
+#### ESPAÑOL
+[Datos, especies, ecosistemas, procesos biológicos relacionados en español]
+
+#### ENGLISH
+[MISMO contenido traducido al inglés]
+
+#### DEUTSCH
+[MISMO contenido traducido al alemán]
+
+#### PORTUGUÊS
+[MISMO contenido traducido al portugués]
+
+#### РУССКИЙ
+[MISMO contenido en cirílico]
+
+#### 中文
+[MISMO contenido en hanzi]
+
+### CONSERVACIÓN Y AMENAZAS
+[Estado actual, presiones, datos cuantitativos]
+
+**REGLAS MODALIDAD B:**
+- ✅ contentType: "thematic-lesson" (en lugar de "song-analysis")
+- ✅ **TRADUCCIONES COMPLETAS**: Canciones completas en todos los 6 idiomas obligatorias
+- ✅ **CONJUGACIONES COMPLETAS**: Incluir РУССКИЙ ROM. y PINYIN obligatorios
+- ✅ **CONTENIDO CIENTÍFICO MULTILINGÜE**: Todas las secciones biológicas en 6 idiomas
+- ✅ Mantiene vocabulario 16 entradas mínimo
+- ✅ **TAXONOMÍA MULTILINGÜE OBLIGATORIA**: Clasificación completa desde Reino hasta Especie
+- ✅ **ESPECIES CLAVE**: Nombres científicos + vernáculos en 6 idiomas
+- ✅ **DISTRIBUCIÓN GEOGRÁFICA**: Regiones de distribución en 6 idiomas
+- ✅ **ENLACES WIKIPEDIA VERIFICADOS**: Solo URLs confirmadas con WebFetch
+- ✅ **ENLACES MULTILINGÜES**: Mínimo 6 idiomas por tema cuando disponible
+- ❌ NO se incluye en timeline cronológico principal
+- ❌ NO rompe la estructura pedagógica de idiomas
+
+### 🎯 CRITERIOS DE SELECCIÓN POR MODALIDAD
+
+#### **USAR MODALIDAD A (Timeline cronológico) SI:**
+- ✅ Es himno obrero tradicional (CNT, FAI, sindicatos)
+- ✅ Es canción de resistencia/revolución histórica
+- ✅ Forma parte del movimiento obrero internacional
+- ✅ Su contexto histórico es fundamental para la línea temporal
+- **Ejemplos:** "A las Barricadas", "La Internacional", "Joe Hill"
+
+#### **USAR MODALIDAD B (Lecciones temáticas) SI:**
+- ✅ Es canción política pero NO himno obrero tradicional
+- ✅ Permite análisis dual: político + ecológico/biológico
+- ✅ Su tema principal no es estrictamente movimiento obrero
+- ✅ Aporta vocabulario científico/natural relevante
+- **Ejemplos:** "A galopar" (resistencia + équidos), Luzmila Carpio (lucha indígena + hidrología)
+
+#### **EN CASO DE DUDA:**
+- **¿Es himno cantado en manifestaciones obreras?** → Modalidad A
+- **¿Es resistencia política con elementos naturales?** → Modalidad B
+- **¿Lo asocias con CNT/FAI/sindicatos?** → Modalidad A
+- **¿Permite hablar de ecosistemas/especies?** → Modalidad B
+
+### 🔍 VERIFICACIÓN OBLIGATORIA LECCIONES TEMÁTICAS
+
+**ANTES DE PUBLICAR MODALIDAD B, VERIFICAR:**
+- [ ] **Traducciones completas**: 6 idiomas + romanizaciones
+- [ ] **Conjugaciones completas**: 8 subsecciones (incluir ROM y PINYIN)
+- [ ] **Taxonomía multilingüe**: Reino→Especie en 8 columnas
+- [ ] **Especies clave**: Nombres científicos + vernáculos 8 columnas
+- [ ] **Distribución geográfica**: Regiones en 8 columnas
+- [ ] **Contenido científico**: Todas las secciones en 6 idiomas
+- [ ] **Enlaces Wikipedia**: Verificados con WebFetch
+- [ ] **Enlaces multilingües**: Mínimo 6 idiomas por tema
+- [ ] **Vocabulario**: 16+ entradas + términos taxonómicos
+- [ ] **Separación absoluta**: Cirílico ≠ romanización, Hanzi ≠ pinyin
 
 **Nota:** Para la redacción de la canción original y su contexto, así como para la obtención de la letra, se deben utilizar enlaces de Wikipedia. Estos enlaces se recopilarán y se incluirán en la sección "Para Saber Más".
 
@@ -157,6 +277,19 @@ tags: ["historia", "música", "revolución", "gramática-comparativa"]
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
 |---|---|---|---|---|---|---|---|---|
 | **[palabra histórica]** | [EN] | [DE] | [PT] | [RU] | [RU rom] | [ZH] | [ZH pinyin] | [sustantivo/verbo/adjetivo] |
+
+### TÉRMINOS TAXONÓMICOS (Solo para Lecciones Temáticas)
+
+| Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
+|---|---|---|---|---|---|---|---|---|
+| **reino** | kingdom | Reich | reino | царство | tsarstvo | 界 | jiè | sustantivo |
+| **filo** | phylum | Stamm | filo | тип | tip | 门 | mén | sustantivo |
+| **clase** | class | Klasse | classe | класс | klass | 纲 | gāng | sustantivo |
+| **orden** | order | Ordnung | ordem | отряд | otryad | 目 | mù | sustantivo |
+| **familia** | family | Familie | família | семейство | semeystvo | 科 | kē | sustantivo |
+| **género** | genus | Gattung | gênero | род | rod | 属 | shǔ | sustantivo |
+| **especie** | species | Art | espécie | вид | vid | 种 | zhǒng | sustantivo |
+| **distribución** | distribution | Verbreitung | distribuição | распространение | rasprostranenie | 分布 | fēnbù | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 
@@ -440,6 +573,9 @@ Añadir al final de cada lección una sección con enlaces a Wikipedia para la c
 - **Chino especial**: Tonos obligatorios marcados
 
 #### 📝 CONJUGACIONES VERBALES COMPLETAS:
+- **8 IDIOMAS OBLIGATORIOS**: ES, EN, DE, PT, RU, RU-ROM, ZH, ZH-PINYIN
+- **ROMANIZACIONES OBLIGATORIAS**: РУССКИЙ ROM. y PINYIN separados
+- **ESTRUCTURA EXACTA**: РУССКИЙ (cirílico) → РУССКИЙ ROM. → 中文 (hanzi) → PINYIN
 - Todos los verbos de la canción en todos los tiempos
 - Tablas exhaustivas por idioma
 - Aspectos (ruso) / Subjuntivos (romance)
@@ -739,21 +875,46 @@ VIERNES: Economía/tendencias sociales
 - **ZH**: A1 retomado con bases sólidas
 
 
-### CRITERIOS SELECCIÓN MUSICAL OBRERA
+### CRITERIOS SELECCIÓN MUSICAL 
 
-#### **TEMÁTICAS PRIORITARIAS:**
+#### **MODALIDAD A: LECCIONES CRONOLÓGICAS (TIMELINE PRINCIPAL)**
+**TEMÁTICAS PRIORITARIAS:**
 - **Solidaridad internacional**: Canciones traducidas múltiples idiomas
 - **Lucha de clases**: Vocabulario específico sindical/político
 - **Historia obrera**: Eventos históricos específicos
 - **Resistencia**: Contra fascismo, dictaduras, opresión
 - **Trabajo**: Condiciones laborales, dignidad obrera
 
-#### **CARACTERÍSTICAS MUSICALES:**
+**CARACTERÍSTICAS MUSICALES:**
 - **Marchas**: Ritmo de manifestación, fácil memorización
 - **Coros colectivos**: Repetitivos, participativos
 - **Melodías simples**: Cantables por masas
 - **Letra directa**: Mensaje político claro
 - **Adaptabilidad**: Traducibles manteniendo sentido
+
+#### **MODALIDAD B: LECCIONES TEMÁTICAS (SECCIÓN SEPARADA)**
+**ENFOQUE DUAL POLÍTICO-ECOLÓGICO:**
+- **Canciones políticas NO himnos obreros**: Resistencia + temática ambiental/biológica
+- **NO se incluyen en timeline cronológico principal**
+- **Mantienen formato pedagógico estándar completo**
+- **Añaden contexto científico/ecológico específico**
+- **Traducciones completas en los 6 idiomas obligatorias**
+
+**EJEMPLOS CONFIRMADOS:**
+- **Paco Ibáñez - "A galopar"**: Resistencia franquista + équidos/ecosistemas pastoriles
+- **Luzmila Carpio (propuesta)**: Lucha indígena + hidrología andina
+- **Cantautores flamencos (propuesta)**: Política + biodiversidad mediterránea
+
+**CRITERIOS FILTRADO MODALIDAD B:**
+- ✅ **Canción política** pero NO himno obrero tradicional
+- ✅ **Permite análisis dual** político + científico/natural
+- ✅ **Traducciones completas** en 6 idiomas obligatorias
+- ✅ **TAXONOMÍA OBLIGATORIA**: Clasificación completa Reino→Especie en 6 idiomas
+- ✅ **ESPECIES CLAVE**: Nombres científicos + vernáculos multilingües
+- ✅ **DISTRIBUCIÓN GEOGRÁFICA**: Regiones en 6 idiomas
+- ✅ **Vocabulario científico** específico añadido (min. 5 términos + 8 taxonómicos)
+- ❌ **NO incluir en timeline** cronológico principal
+- ❌ **NO romper** estructura pedagógica idiomas estándar
 
 ### RECURSOS ADICIONALES MÚSICA OBRERA
 
