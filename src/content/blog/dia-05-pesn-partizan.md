@@ -928,35 +928,35 @@ Práctica tonal:
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **partisanos** | partisans | Partisanen | partidários | партизаны | partizany | 游击队 | yóujīduì | 9 | 辶 (camino) | semi-encierro | sustantivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | 16 | 一 (uno) | compuesto | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivlenie | 抵抗 | dǐkàng | 15 | 手 (mano) | izquierda-derecha | sustantivo |
 | **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdenie | 解放 | jiěfàng | 13 | 手 (mano) | izquierda-derecha | sustantivo |
-| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | 16 | 一 (uno) | compuesto | sustantivo |
+| **canción** | song | Lied | canção | песня | pesnya | 歌曲 | gēqǔ | 14 | 欠 (bostezar) | izquierda-derecha | sustantivo |
 | **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | 16 | 戈 (lanza) | izquierda-derecha | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
 | **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | 14 | 力 (fuerza) | izquierda-derecha | sustantivo |
-| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | 16 | 一 (uno) | compuesto | sustantivo |
-| **montañas** | mountains | Berge | montanhas | горы | gory | 山脉 | shānmài | 16 | 一 (uno) | compuesto | sustantivo |
-| **libertadores** | liberators | Befreier | libertadores | освободители | osvoboditeli | 解放者 | jiěfàng zhě | 20 | 一 (uno) | compuesto | sustantivo |
-| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | 16 | 一 (uno) | compuesto | sustantivo |
+| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | 10 | 士 (soldado) | arriba-abajo | sustantivo |
+| **montañas** | mountains | Berge | montanhas | горы | gory | 山脉 | shānmài | 10 | 山 (montaña) | izquierda-derecha | sustantivo |
+| **libertadores** | liberators | Befreier | libertadores | освободители | osvoboditeli | 解放者 | jiěfàng zhě | 13 | 角 (ángulo) | izquierda-derecha | sustantivo |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | 14 | 巾 (paño) | izquierda-derecha | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **ocupación** | occupation | Besatzung | ocupação | оккупация | okkupatsiya | 占领 | zhànlǐng | 12 | 口 (boca) | encierro | sustantivo |
-| **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài | 16 | 一 (uno) | compuesto | sustantivo |
-| **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de | 20 | 一 (uno) | compuesto | adjetivo |
-| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
-| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | 20 | 一 (uno) | compuesto | adjetivo |
+| **sabotaje** | sabotage | Sabotage | sabotagem | диверсия | diversiya | 破坏 | pòhuài | 13 | 石 (piedra) | izquierda-derecha | sustantivo |
+| **clandestino** | underground | Untergrund | clandestino | подпольный | podpol'nyy | 地下的 | dìxià de | 9 | 土 (tierra) | arriba-abajo | adjetivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 23 | 氵 (agua) | izquierda-derecha | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | 16 | 反 (opuesto) | izquierda-derecha | adjetivo |
 
 ### TÉRMINOS DE GUERRA Y COMBATE
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **combatientes** | fighters | Kämpfer | combatentes | бойцы | boytsy | 战士 | zhànshì | 10 | 戈 (lanza) | izquierda-derecha | sustantivo |
-| **enemigo** | enemy | Feind | inimigo | враг | vrag | 敌人 | dírén | 16 | 一 (uno) | compuesto | sustantivo |
+| **enemigo** | enemy | Feind | inimigo | враг | vrag | 敌人 | dírén | 6 | 攴 (golpear) | izquierda-derecha | sustantivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
-| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | 16 | 一 (uno) | compuesto | sustantivo |
+| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | 14 | 示 (sagrado) | izquierda-derecha | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
 
 ---

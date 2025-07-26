@@ -829,7 +829,7 @@ Estribillo:| C     | G     | Am    | Dm    |
 ### TÉRMINOS CLAVE
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|
 | **levántate** | rise up | steh auf | levanta-te | вставай | vstavay | 起来 | qǐlái | 10 | 走 (caminar) | arriba-abajo | verbo |
 | **hambrientos** | hungry | Hungrige | famintos | голодные | golodnye | 饥饿的 | jī'è de | 19 | 食 (comida) | izquierda-derecha | adjetivo |
 | **malditos** | damned | Verdammte | malditos | проклятые | proklyatye | 受诅咒的 | shòu zǔzhòu de | 25 | 示 (sagrado) | compuesto | adjetivo |
@@ -845,7 +845,7 @@ Estribillo:| C     | G     | Am    | Dm    |
 ### TÉRMINOS POLÍTICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|
 | **proletariado** | proletariat | Proletariat | proletariado | пролетариат | proletariat | 无产阶级 | wúchǎnjiējí | 20 | 无 (sin) | compuesto | sustantivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 17 | 革 (cambio) | izquierda-derecha | sustantivo |
 | **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuìzhǔyì | 22 | 社 (sociedad) | compuesto | sustantivo |
