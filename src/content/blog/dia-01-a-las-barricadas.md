@@ -22,7 +22,7 @@ vocabulary:
   - "revolución"
 culturalContext: "Himno anarquista de la Guerra Civil Española basado en la Varshavianka polaca"
 difficultyLevel: "intermediate"
-estimatedTime: "60-90 min"
+estimatedTime: "75-90 min"
 tags: ["himno-anarquista", "guerra-civil-española", "traducción", "anarquismo", "gramática-comparativa"]
 ---
 
