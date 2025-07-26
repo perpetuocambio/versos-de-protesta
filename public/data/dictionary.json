@@ -1,5 +1,59 @@
 {
   "es": {
+    "agitan": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "aires": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "amanecer": [
       {
         "translations": {
@@ -174,6 +228,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "aparecer": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "arado": [
       {
         "translations": {
@@ -225,6 +303,33 @@
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
+    "Autogestión": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "bandera": [
       {
         "translations": {
@@ -233,20 +338,24 @@
           "de": "Fahne",
           "pt": "bandeira",
           "ru": "знамя",
-          "ruRom": "znamya",
+          "ruRom": "známya",
           "zh": "旗帜",
           "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           10
         ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "banderas": [
@@ -493,6 +602,33 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "defender": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "defensa": [
@@ -867,6 +1003,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "grande": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "guerra": [
       {
         "translations": {
@@ -1150,23 +1310,27 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "libertadores": [
@@ -1193,6 +1357,57 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "líder": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "llama": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "lucha": [
       {
         "translations": {
@@ -1201,17 +1416,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -1219,34 +1438,35 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "luchar": [
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "luz soviética": [
@@ -1581,6 +1801,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "Negras": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "oleada": [
       {
         "translations": {
@@ -1629,6 +1876,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "oriente": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "páginas": [
       {
         "translations": {
@@ -1651,6 +1922,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "partido comunista": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "partisanos": [
@@ -1753,6 +2048,30 @@
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
+    "presidente": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Primera Internacional": [
       {
         "translations": {
@@ -1837,26 +2156,31 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "puerto": [
@@ -2006,6 +2330,57 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "resistir": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "rojo": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "sabotaje": [
       {
         "translations": {
@@ -2052,6 +2427,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "salvador": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "sangre": [
@@ -2202,7 +2601,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -2229,6 +2629,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "sol": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "soldados": [
@@ -2333,6 +2757,30 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "surgir": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "susurro": [
       {
         "translations": {
@@ -2381,6 +2829,33 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "tormentas": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "trabajador": [
       {
         "translations": {
@@ -2389,21 +2864,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "trabajadores": [
@@ -2487,21 +2966,25 @@
           "de": "Einheit",
           "pt": "unidade",
           "ru": "единство",
-          "ruRom": "edinstvo",
+          "ruRom": "edínstvo",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "unido": [
@@ -2829,6 +3312,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "black": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "blood": [
       {
         "translations": {
@@ -2883,6 +3393,33 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "calls": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "chains": [
       {
         "translations": {
@@ -2905,6 +3442,30 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "chairman": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "children": [
@@ -2977,6 +3538,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "communist party": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "comrade": [
@@ -3130,6 +3715,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "defend": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "defense": [
       {
         "translations": {
@@ -3176,6 +3788,30 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "east": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Eastern Front": [
@@ -3325,6 +3961,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "fight": [
+      {
+        "translations": {
+          "es": "luchar",
+          "en": "fight",
+          "de": "kämpfen",
+          "pt": "lutar",
+          "ru": "бороться",
+          "ruRom": "borót'sya",
+          "zh": "战斗",
+          "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (lanza)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "fighters": [
       {
         "translations": {
@@ -3405,20 +4068,24 @@
           "de": "Fahne",
           "pt": "bandeira",
           "ru": "знамя",
-          "ruRom": "znamya",
+          "ruRom": "známya",
           "zh": "旗帜",
           "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           10
         ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "foolish": [
@@ -3453,23 +4120,27 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "front": [
@@ -3566,6 +4237,30 @@
           9
         ],
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
+      }
+    ],
+    "great": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "history": [
@@ -3666,6 +4361,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "leader": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "liberators": [
@@ -3995,26 +4714,31 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "perish": [
@@ -4219,6 +4943,30 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "red": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "republic": [
       {
         "translations": {
@@ -4241,6 +4989,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "resist": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "rise up": [
@@ -4366,6 +5141,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "savior": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "secret": [
       {
         "translations": {
@@ -4388,6 +5187,60 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "self-management": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "shake": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "sing": [
@@ -4415,6 +5268,33 @@
           0
         ],
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "skies": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "slave": [
@@ -4490,7 +5370,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -4597,6 +5478,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "storms": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "struggle": [
       {
         "translations": {
@@ -4605,17 +5513,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -4623,7 +5535,31 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "sun": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "sweat": [
@@ -4726,6 +5662,30 @@
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
+    "to appear": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "to conquer": [
       {
         "translations": {
@@ -4826,6 +5786,30 @@
           6
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "to rise": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "to water": [
@@ -5004,21 +5988,25 @@
           "de": "Einheit",
           "pt": "unidade",
           "ru": "единство",
-          "ruRom": "edinstvo",
+          "ruRom": "edínstvo",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "victory": [
@@ -5177,21 +6165,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "workers": [
@@ -5458,21 +6450,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       },
       {
         "translations": {
@@ -5550,6 +6546,30 @@
           1
         ],
         "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "aufgehen": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Befreier": [
@@ -5755,21 +6775,25 @@
           "de": "Einheit",
           "pt": "unidade",
           "ru": "единство",
-          "ruRom": "edinstvo",
+          "ruRom": "edínstvo",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "Elend": [
@@ -5818,6 +6842,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "erscheinen": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Erste Internationale": [
@@ -5903,20 +6951,24 @@
           "de": "Fahne",
           "pt": "bandeira",
           "ru": "знамя",
-          "ruRom": "znamya",
+          "ruRom": "známya",
           "zh": "旗帜",
           "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           10
         ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "Fahnen": [
@@ -6026,23 +7078,27 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "Front": [
@@ -6067,6 +7123,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "Führer": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Furchen": [
@@ -6237,6 +7317,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "groß": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Hafen": [
       {
         "translations": {
@@ -6392,17 +7496,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -6410,34 +7518,35 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "kämpfen": [
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "Kämpfer": [
@@ -6587,6 +7696,30 @@
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
       }
     ],
+    "Kommunistische Partei": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Krieg": [
       {
         "translations": {
@@ -6659,6 +7792,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "Lüfte": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "Macht": [
@@ -6812,6 +7972,30 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "Osten": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Ostfront": [
@@ -7033,6 +8217,81 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "Retter": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "rot": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "ruft": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "Sabotage": [
       {
         "translations": {
@@ -7108,6 +8367,60 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "schütteln": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "schwarze": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "Schweiß": [
       {
         "translations": {
@@ -7178,6 +8491,33 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "Selbstverwaltung": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "Sieg": [
@@ -7362,6 +8702,30 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "Sonne": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Sowjetlicht": [
       {
         "translations": {
@@ -7408,7 +8772,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -7479,6 +8844,33 @@
           "zhRadical": "歹 (mal)",
           "zhStructure": "arriba-abajo",
           "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "Stürme": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
@@ -7791,6 +9183,33 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "verteidigen": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "Verteidigung": [
       {
         "translations": {
@@ -7823,26 +9242,55 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "Vorsitzender": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Welle": [
@@ -7921,6 +9369,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "widerstehen": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "Wind": [
       {
         "translations": {
@@ -7971,6 +9446,33 @@
     ]
   },
   "pt": {
+    "agitam": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "amanhecer": [
       {
         "translations": {
@@ -8121,6 +9623,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "aparecer": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "arado": [
       {
         "translations": {
@@ -8145,6 +9671,60 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "ares": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "autogestão": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "bandeira": [
       {
         "translations": {
@@ -8153,20 +9733,24 @@
           "de": "Fahne",
           "pt": "bandeira",
           "ru": "знамя",
-          "ruRom": "znamya",
+          "ruRom": "známya",
           "zh": "旗帜",
           "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           10
         ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "bandeiras": [
@@ -8218,6 +9802,33 @@
           0
         ],
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "chama": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "clandestino": [
@@ -8413,6 +10024,33 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "defender": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "defesa": [
@@ -8868,6 +10506,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "grande": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "greve geral": [
       {
         "translations": {
@@ -9097,23 +10759,27 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "libertadores": [
@@ -9140,6 +10806,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "líder": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "luta": [
       {
         "translations": {
@@ -9148,17 +10838,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -9166,34 +10860,35 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "lutar": [
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "luz soviética": [
@@ -9504,6 +11199,57 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "nascer": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "negras": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "onda": [
       {
         "translations": {
@@ -9552,6 +11298,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "oriente": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "páginas": [
       {
         "translations": {
@@ -9598,6 +11368,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "partido comunista": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "patrão": [
@@ -9732,26 +11526,55 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "presidente": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "Primeira Internacional": [
@@ -9953,6 +11776,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "resistir": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "sabotagem": [
       {
         "translations": {
@@ -9999,6 +11849,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "salvador": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "sangue": [
@@ -10147,7 +12021,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -10174,6 +12049,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "sol": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "soldados": [
@@ -10302,6 +12201,33 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "tempestades": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "terra": [
       {
         "translations": {
@@ -10358,21 +12284,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "trabalhadores": [
@@ -10480,21 +12410,25 @@
           "de": "Einheit",
           "pt": "unidade",
           "ru": "единство",
-          "ruRom": "edinstvo",
+          "ruRom": "edínstvo",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "unido": [
@@ -10591,6 +12525,30 @@
           4
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "vermelho": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "vitória": [
@@ -10850,27 +12808,28 @@
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "борьба": [
@@ -10881,17 +12840,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -10899,7 +12862,7 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "будет": [
@@ -10924,6 +12887,57 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "бури": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "великий": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "ветер": [
@@ -11051,6 +13065,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "восток": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Восточный фронт": [
       {
         "translations": {
@@ -11073,6 +13111,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "восходить": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "враг": [
@@ -11377,21 +13439,25 @@
           "de": "Einheit",
           "pt": "unidade",
           "ru": "единство",
-          "ruRom": "edinstvo",
+          "ruRom": "edínstvo",
           "zh": "团结",
           "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "единый": [
@@ -11469,6 +13535,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "защищать": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "земля": [
       {
         "translations": {
@@ -11525,20 +13618,51 @@
           "de": "Fahne",
           "pt": "bandeira",
           "ru": "знамя",
-          "ruRom": "znamya",
+          "ruRom": "známya",
           "zh": "旗帜",
           "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           10
         ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "зовёт": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "история": [
@@ -11592,6 +13716,33 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "колышут": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "коммуна": [
       {
         "translations": {
@@ -11638,6 +13789,54 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "коммунистическая партия": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "красный": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "кровь": [
@@ -11689,6 +13888,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "лидер": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "марш": [
@@ -11826,26 +14049,58 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "небеса": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "никогда": [
@@ -12310,6 +14565,54 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "появляться": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "председатель": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "проклятые": [
       {
         "translations": {
@@ -12470,21 +14773,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "рабочий класс": [
@@ -12641,6 +14948,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "самоуправление": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "свобода": [
       {
         "translations": {
@@ -12649,23 +14983,27 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "священная": [
@@ -12871,6 +15209,57 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "солнце": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "сопротивляться": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "социализм": [
       {
         "translations": {
@@ -12893,7 +15282,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -12944,6 +15334,30 @@
           10
         ],
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
+      }
+    ],
+    "спаситель": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "страницы": [
@@ -13243,6 +15657,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "чёрные": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "шёпот": [
       {
         "translations": {
@@ -13475,6 +15916,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "bor'bá": [
+      {
+        "translations": {
+          "es": "lucha",
+          "en": "struggle",
+          "de": "Kampf",
+          "pt": "luta",
+          "ru": "борьба",
+          "ruRom": "bor'bá",
+          "zh": "斗争",
+          "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "borot'sya": [
       {
         "translations": {
@@ -13500,6 +15968,33 @@
           2
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
+      }
+    ],
+    "borót'sya": [
+      {
+        "translations": {
+          "es": "luchar",
+          "en": "fight",
+          "de": "kämpfen",
+          "pt": "lutar",
+          "ru": "бороться",
+          "ruRom": "borót'sya",
+          "zh": "战斗",
+          "zhPinyin": "zhàndòu",
+          "zhStrokes": "16",
+          "zhRadical": "戈 (lanza)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "borozdy": [
@@ -13572,6 +16067,60 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "búri": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "chyórnye": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "deti": [
@@ -13692,6 +16241,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "edínstvo": [
+      {
+        "translations": {
+          "es": "unidad",
+          "en": "unity",
+          "de": "Einheit",
+          "pt": "unidade",
+          "ru": "единство",
+          "ruRom": "edínstvo",
+          "zh": "团结",
+          "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "edinyy": [
@@ -14018,6 +16594,33 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "kolýshut": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "kommuna": [
       {
         "translations": {
@@ -14064,6 +16667,54 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "kommunisticheskaya partiya": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "krasnyy": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "krov'": [
@@ -14115,6 +16766,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "lider": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "marsh": [
@@ -14266,12 +16941,67 @@
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "naród": [
+      {
+        "translations": {
+          "es": "pueblo",
+          "en": "people",
+          "de": "Volk",
+          "pt": "povo",
+          "ru": "народ",
+          "ruRom": "naród",
+          "zh": "人民",
+          "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "nebésa": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "nichego": [
@@ -14736,6 +17466,54 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "poyavlyat'sya": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "predsedatel'": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "proklyatye": [
       {
         "translations": {
@@ -14862,6 +17640,33 @@
           11
         ],
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+      }
+    ],
+    "rabóchiy": [
+      {
+        "translations": {
+          "es": "trabajador",
+          "en": "worker",
+          "de": "Arbeiter",
+          "pt": "trabalhador",
+          "ru": "рабочий",
+          "ruRom": "rabóchiy",
+          "zh": "工人",
+          "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "rabochiy klass": [
@@ -15067,6 +17872,33 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "samoupravléniye": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "shyopot": [
       {
         "translations": {
@@ -15246,6 +18078,57 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "solntse": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "soprotivlyát'sya": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "sotsialist": [
       {
         "translations": {
@@ -15292,7 +18175,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -15345,6 +18229,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "spasitel'": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "stranitsy": [
       {
         "translations": {
@@ -15394,6 +18302,33 @@
           9
         ],
         "filePath": "src/content/blog/dia-04-il-galeone.md"
+      }
+    ],
+    "svobóda": [
+      {
+        "translations": {
+          "es": "libertad",
+          "en": "freedom",
+          "de": "Freiheit",
+          "pt": "liberdade",
+          "ru": "свобода",
+          "ruRom": "svobóda",
+          "zh": "自由",
+          "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "svyashchennaya": [
@@ -15591,6 +18526,30 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "velikiy": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "veter": [
       {
         "translations": {
@@ -15666,6 +18625,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "voskhodit'": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "Vostochnyy front": [
       {
         "translations": {
@@ -15688,6 +18671,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "vostok": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "voyna": [
@@ -15839,6 +18846,33 @@
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
+    "zashchishchát'": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "zemlya": [
       {
         "translations": {
@@ -15914,6 +18948,33 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "známya": [
+      {
+        "translations": {
+          "es": "bandera",
+          "en": "flag",
+          "de": "Fahne",
+          "pt": "bandeira",
+          "ru": "знамя",
+          "ruRom": "známya",
+          "zh": "旗帜",
+          "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
     "znamyona": [
       {
         "translations": {
@@ -15936,6 +18997,33 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "zovyót": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ]
   },
@@ -16013,6 +19101,30 @@
           0
         ],
         "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "出现": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "船员": [
@@ -16186,6 +19298,30 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "东方": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "东线战场": [
       {
         "translations": {
@@ -16218,17 +19354,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -16236,7 +19376,7 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "法西斯主义": [
@@ -16290,6 +19430,33 @@
           11
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "反抗": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "反犹主义": [
@@ -16391,6 +19558,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "风暴": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "港口": [
       {
         "translations": {
@@ -16423,21 +19617,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       },
       {
         "translations": {
@@ -16561,6 +19759,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "共产党": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "共产主义者": [
@@ -16707,6 +19929,84 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "捍卫": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "黑色的": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "红": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "幻想": [
       {
         "translations": {
@@ -16828,6 +20128,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "救星": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "举起的": [
@@ -17001,6 +20325,30 @@
         "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
+    "领袖": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "秘密的": [
       {
         "translations": {
@@ -17149,6 +20497,32 @@
     "旗帜": [
       {
         "translations": {
+          "es": "bandera",
+          "en": "flag",
+          "de": "Fahne",
+          "pt": "bandeira",
+          "ru": "знамя",
+          "ruRom": "známya",
+          "zh": "旗帜",
+          "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0,
+          10
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
+      {
+        "translations": {
           "es": "banderas",
           "en": "banners",
           "de": "Fahnen",
@@ -17168,28 +20542,6 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
-      },
-      {
-        "translations": {
-          "es": "bandera",
-          "en": "flag",
-          "de": "Fahne",
-          "pt": "bandeira",
-          "ru": "знамя",
-          "ruRom": "znamya",
-          "zh": "旗帜",
-          "zhPinyin": "qízhì",
-          "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
-        },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
-        "lessons": [
-          10
-        ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
     "起来": [
@@ -17350,26 +20702,31 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "散居": [
@@ -17442,7 +20799,8 @@
         "source": "dia-02-l-internationale",
         "day": 2,
         "lessons": [
-          2
+          2,
+          7
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
@@ -17520,6 +20878,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "升起": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "胜利": [
@@ -17828,6 +21210,57 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "太阳": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "天空": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "听见": [
       {
         "translations": {
@@ -17974,6 +21407,33 @@
     "团结": [
       {
         "translations": {
+          "es": "unidad",
+          "en": "unity",
+          "de": "Einheit",
+          "pt": "unidade",
+          "ru": "единство",
+          "ruRom": "edínstvo",
+          "zh": "团结",
+          "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0,
+          3,
+          11
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
+      {
+        "translations": {
           "es": "solidaridad",
           "en": "solidarity",
           "de": "Solidarität",
@@ -17997,29 +21457,6 @@
           9
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
-      },
-      {
-        "translations": {
-          "es": "unidad",
-          "en": "unity",
-          "de": "Einheit",
-          "pt": "unidade",
-          "ru": "единство",
-          "ruRom": "edinstvo",
-          "zh": "团结",
-          "zhPinyin": "tuánjié",
-          "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
-        },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
-        "lessons": [
-          3,
-          11
-        ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
     "团结的": [
@@ -18068,6 +21505,30 @@
           11
         ],
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
+      }
+    ],
+    "伟大": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "无产阶级": [
@@ -18296,6 +21757,33 @@
         "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md"
       }
     ],
+    "摇撼": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "永恒的": [
       {
         "translations": {
@@ -18420,27 +21908,28 @@
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "战胜": [
@@ -18517,6 +22006,57 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "召唤": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "主席": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "自由": [
       {
         "translations": {
@@ -18525,23 +22065,54 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "自治管理": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "总罢工": [
@@ -18694,6 +22265,30 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "chūxiàn": [
+      {
+        "translations": {
+          "es": "aparecer",
+          "en": "to appear",
+          "de": "erscheinen",
+          "pt": "aparecer",
+          "ru": "появляться",
+          "ruRom": "poyavlyat'sya",
+          "zh": "出现",
+          "zhPinyin": "chūxiàn",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "dà fānchuán": [
       {
         "translations": {
@@ -18841,6 +22436,30 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "dōngfāng": [
+      {
+        "translations": {
+          "es": "oriente",
+          "en": "east",
+          "de": "Osten",
+          "pt": "oriente",
+          "ru": "восток",
+          "ruRom": "vostok",
+          "zh": "东方",
+          "zhPinyin": "dōngfāng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "dōngxiàn zhànchǎng": [
       {
         "translations": {
@@ -18873,17 +22492,21 @@
           "de": "Kampf",
           "pt": "luta",
           "ru": "борьба",
-          "ruRom": "bor'ba",
+          "ruRom": "bor'bá",
           "zh": "斗争",
           "zhPinyin": "dòuzhēng",
+          "zhStrokes": "12",
+          "zhRadical": "斗 (lucha)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           4,
           5,
@@ -18891,7 +22514,7 @@
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "fǎn fǎxīsī": [
@@ -18966,6 +22589,33 @@
           8
         ],
         "filePath": "src/content/blog/dia-08-the-sacred-war.md"
+      }
+    ],
+    "fǎnkàng": [
+      {
+        "translations": {
+          "es": "resistir",
+          "en": "resist",
+          "de": "widerstehen",
+          "pt": "resistir",
+          "ru": "сопротивляться",
+          "ruRom": "soprotivlyát'sya",
+          "zh": "反抗",
+          "zhPinyin": "fǎnkàng",
+          "zhStrokes": "11",
+          "zhRadical": "反 (oponer)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "fǎxīsī zhǔyì": [
@@ -19046,6 +22696,33 @@
         "filePath": "src/content/blog/dia-04-il-galeone.md"
       }
     ],
+    "fēngbào": [
+      {
+        "translations": {
+          "es": "tormentas",
+          "en": "storms",
+          "de": "Stürme",
+          "pt": "tempestades",
+          "ru": "бури",
+          "ruRom": "búri",
+          "zh": "风暴",
+          "zhPinyin": "fēngbào",
+          "zhStrokes": "13",
+          "zhRadical": "风 (viento)",
+          "zhStructure": "independiente",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "gǎngkǒu": [
       {
         "translations": {
@@ -19094,6 +22771,30 @@
         "filePath": "src/content/blog/dia-11-einheitsfrontlied.md"
       }
     ],
+    "gòngchǎndǎng": [
+      {
+        "translations": {
+          "es": "partido comunista",
+          "en": "communist party",
+          "de": "Kommunistische Partei",
+          "pt": "partido comunista",
+          "ru": "коммунистическая партия",
+          "ruRom": "kommunisticheskaya partiya",
+          "zh": "共产党",
+          "zhPinyin": "gòngchǎndǎng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "gònghéguó": [
       {
         "translations": {
@@ -19126,21 +22827,25 @@
           "de": "Arbeiter",
           "pt": "trabalhador",
           "ru": "рабочий",
-          "ruRom": "rabochiy",
+          "ruRom": "rabóchiy",
           "zh": "工人",
           "zhPinyin": "gōngrén",
+          "zhStrokes": "7",
+          "zhRadical": "工 (trabajo)",
+          "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-06-der-heimliche-aufmarsch",
-          "day": 6,
-          "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-06-der-heimliche-aufmarsch",
-        "day": 6,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           6,
           11
         ],
-        "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       },
       {
         "translations": {
@@ -19362,6 +23067,84 @@
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
       }
     ],
+    "hànwèi": [
+      {
+        "translations": {
+          "es": "defender",
+          "en": "defend",
+          "de": "verteidigen",
+          "pt": "defender",
+          "ru": "защищать",
+          "ruRom": "zashchishchát'",
+          "zh": "捍卫",
+          "zhPinyin": "hànwèi",
+          "zhStrokes": "15",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "hēisè de": [
+      {
+        "translations": {
+          "es": "Negras",
+          "en": "black",
+          "de": "schwarze",
+          "pt": "negras",
+          "ru": "чёрные",
+          "ruRom": "chyórnye",
+          "zh": "黑色的",
+          "zhPinyin": "hēisè de",
+          "zhStrokes": "12",
+          "zhRadical": "黑 (negro)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "hóng": [
+      {
+        "translations": {
+          "es": "rojo",
+          "en": "red",
+          "de": "rot",
+          "pt": "vermelho",
+          "ru": "красный",
+          "ruRom": "krasnyy",
+          "zh": "红",
+          "zhPinyin": "hóng",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "huànxiǎng": [
       {
         "translations": {
@@ -19485,6 +23268,30 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "jiùxīng": [
+      {
+        "translations": {
+          "es": "salvador",
+          "en": "savior",
+          "de": "Retter",
+          "pt": "salvador",
+          "ru": "спаситель",
+          "ruRom": "spasitel'",
+          "zh": "救星",
+          "zhPinyin": "jiùxīng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "jǔqǐ de": [
       {
         "translations": {
@@ -19603,6 +23410,30 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "lǐngxiù": [
+      {
+        "translations": {
+          "es": "líder",
+          "en": "leader",
+          "de": "Führer",
+          "pt": "líder",
+          "ru": "лидер",
+          "ruRom": "lider",
+          "zh": "领袖",
+          "zhPinyin": "lǐngxiù",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "lìshǐ": [
@@ -19903,6 +23734,32 @@
     "qízhì": [
       {
         "translations": {
+          "es": "bandera",
+          "en": "flag",
+          "de": "Fahne",
+          "pt": "bandeira",
+          "ru": "знамя",
+          "ruRom": "známya",
+          "zh": "旗帜",
+          "zhPinyin": "qízhì",
+          "zhStrokes": "18",
+          "zhRadical": "方 (cuadrado)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0,
+          10
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
+      {
+        "translations": {
           "es": "banderas",
           "en": "banners",
           "de": "Fahnen",
@@ -19922,28 +23779,6 @@
           3
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
-      },
-      {
-        "translations": {
-          "es": "bandera",
-          "en": "flag",
-          "de": "Fahne",
-          "pt": "bandeira",
-          "ru": "знамя",
-          "ruRom": "znamya",
-          "zh": "旗帜",
-          "zhPinyin": "qízhì",
-          "grammaticalCategory": "sustantivo",
-          "source": "dia-10-oy-ir-narishe-tsienistn",
-          "day": 10,
-          "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
-        },
-        "source": "dia-10-oy-ir-narishe-tsienistn",
-        "day": 10,
-        "lessons": [
-          10
-        ],
-        "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md"
       }
     ],
     "quánlì": [
@@ -20005,26 +23840,31 @@
           "de": "Volk",
           "pt": "povo",
           "ru": "народ",
-          "ruRom": "narod",
+          "ruRom": "naród",
           "zh": "人民",
           "zhPinyin": "rénmín",
+          "zhStrokes": "5",
+          "zhRadical": "人 (persona)",
+          "zhStructure": "independiente",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           3,
           5,
           6,
+          7,
           8,
           9,
           10,
           11
         ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "sànjū": [
@@ -20073,6 +23913,30 @@
           5
         ],
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
+      }
+    ],
+    "shèhuì zhǔyì": [
+      {
+        "translations": {
+          "es": "socialismo",
+          "en": "socialism",
+          "de": "Sozialismus",
+          "pt": "socialismo",
+          "ru": "социализм",
+          "ruRom": "sotsializm",
+          "zh": "社会主义",
+          "zhPinyin": "shèhuì zhǔyì",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "shèhuì zhǔyì zhě": [
@@ -20172,6 +24036,30 @@
           8
         ],
         "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
+      }
+    ],
+    "shēngqǐ": [
+      {
+        "translations": {
+          "es": "surgir",
+          "en": "to rise",
+          "de": "aufgehen",
+          "pt": "nascer",
+          "ru": "восходить",
+          "ruRom": "voskhodit'",
+          "zh": "升起",
+          "zhPinyin": "shēngqǐ",
+          "grammaticalCategory": "verbo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "shénme dōu méiyǒu": [
@@ -20483,6 +24371,57 @@
         "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md"
       }
     ],
+    "tàiyáng": [
+      {
+        "translations": {
+          "es": "sol",
+          "en": "sun",
+          "de": "Sonne",
+          "pt": "sol",
+          "ru": "солнце",
+          "ruRom": "solntse",
+          "zh": "太阳",
+          "zhPinyin": "tàiyáng",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
+    "tiānkōng": [
+      {
+        "translations": {
+          "es": "aires",
+          "en": "skies",
+          "de": "Lüfte",
+          "pt": "ares",
+          "ru": "небеса",
+          "ruRom": "nebésa",
+          "zh": "天空",
+          "zhPinyin": "tiānkōng",
+          "zhStrokes": "8",
+          "zhRadical": "天 (cielo)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "tīngjiàn": [
       {
         "translations": {
@@ -20605,6 +24544,33 @@
     "tuánjié": [
       {
         "translations": {
+          "es": "unidad",
+          "en": "unity",
+          "de": "Einheit",
+          "pt": "unidade",
+          "ru": "единство",
+          "ruRom": "edínstvo",
+          "zh": "团结",
+          "zhPinyin": "tuánjié",
+          "zhStrokes": "18",
+          "zhRadical": "囗 (recinto)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+        },
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
+        "lessons": [
+          0,
+          3,
+          11
+        ],
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      },
+      {
+        "translations": {
           "es": "solidaridad",
           "en": "solidarity",
           "de": "Solidarität",
@@ -20628,29 +24594,6 @@
           9
         ],
         "filePath": "src/content/blog/dia-02-l-internationale.md"
-      },
-      {
-        "translations": {
-          "es": "unidad",
-          "en": "unity",
-          "de": "Einheit",
-          "pt": "unidade",
-          "ru": "единство",
-          "ruRom": "edinstvo",
-          "zh": "团结",
-          "zhPinyin": "tuánjié",
-          "grammaticalCategory": "sustantivo",
-          "source": "dia-03-el-pueblo-unido",
-          "day": 3,
-          "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
-        },
-        "source": "dia-03-el-pueblo-unido",
-        "day": 3,
-        "lessons": [
-          3,
-          11
-        ],
-        "filePath": "src/content/blog/dia-03-el-pueblo-unido.md"
       }
     ],
     "tuánjié de": [
@@ -20723,6 +24666,30 @@
           12
         ],
         "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md"
+      }
+    ],
+    "wěidà": [
+      {
+        "translations": {
+          "es": "grande",
+          "en": "great",
+          "de": "groß",
+          "pt": "grande",
+          "ru": "великий",
+          "ruRom": "velikiy",
+          "zh": "伟大",
+          "zhPinyin": "wěidà",
+          "grammaticalCategory": "adjetivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
       }
     ],
     "wú zhèngfǔ zhǔyì": [
@@ -20950,6 +24917,33 @@
         "filePath": "src/content/blog/dia-02-l-internationale.md"
       }
     ],
+    "yáohàn": [
+      {
+        "translations": {
+          "es": "agitan",
+          "en": "shake",
+          "de": "schütteln",
+          "pt": "agitam",
+          "ru": "колышут",
+          "ruRom": "kolýshut",
+          "zh": "摇撼",
+          "zhPinyin": "yáohàn",
+          "zhStrokes": "18",
+          "zhRadical": "扌 (mano)",
+          "zhStructure": "izquierda-derecha",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
     "yāpò": [
       {
         "translations": {
@@ -21098,27 +25092,28 @@
       {
         "translations": {
           "es": "luchar",
-          "en": "to fight",
+          "en": "fight",
           "de": "kämpfen",
           "pt": "lutar",
           "ru": "бороться",
-          "ruRom": "borot'sya",
+          "ruRom": "borót'sya",
           "zh": "战斗",
           "zhPinyin": "zhàndòu",
           "zhStrokes": "16",
-          "zhRadical": "戈 (arma)",
+          "zhRadical": "戈 (lanza)",
           "zhStructure": "izquierda-derecha",
           "grammaticalCategory": "verbo",
-          "source": "dia-02-l-internationale",
-          "day": 2,
-          "filePath": "src/content/blog/dia-02-l-internationale.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-02-l-internationale",
-        "day": 2,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           2
         ],
-        "filePath": "src/content/blog/dia-02-l-internationale.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
       }
     ],
     "zhànshèng": [
@@ -21195,6 +25190,57 @@
         "filePath": "src/content/blog/dia-05-pesn-partizan.md"
       }
     ],
+    "zhàohuàn": [
+      {
+        "translations": {
+          "es": "llama",
+          "en": "calls",
+          "de": "ruft",
+          "pt": "chama",
+          "ru": "зовёт",
+          "ruRom": "zovyót",
+          "zh": "召唤",
+          "zhPinyin": "zhàohuàn",
+          "zhStrokes": "10",
+          "zhRadical": "召 (convocar)",
+          "zhStructure": "arriba-abajo",
+          "grammaticalCategory": "verbo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+      }
+    ],
+    "zhǔxí": [
+      {
+        "translations": {
+          "es": "presidente",
+          "en": "chairman",
+          "de": "Vorsitzender",
+          "pt": "presidente",
+          "ru": "председатель",
+          "ruRom": "predsedatel'",
+          "zh": "主席",
+          "zhPinyin": "zhǔxí",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-07-dongfang-hong",
+          "day": 7,
+          "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+        },
+        "source": "dia-07-dongfang-hong",
+        "day": 7,
+        "lessons": [
+          7
+        ],
+        "filePath": "src/content/blog/dia-07-dongfang-hong.md"
+      }
+    ],
     "zìyóu": [
       {
         "translations": {
@@ -21203,23 +25249,54 @@
           "de": "Freiheit",
           "pt": "liberdade",
           "ru": "свобода",
-          "ruRom": "svoboda",
+          "ruRom": "svobóda",
           "zh": "自由",
           "zhPinyin": "zìyóu",
+          "zhStrokes": "9",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "arriba-abajo",
           "grammaticalCategory": "sustantivo",
-          "source": "dia-04-il-galeone",
-          "day": 4,
-          "filePath": "src/content/blog/dia-04-il-galeone.md"
+          "source": "dia-00-fundamentos-basicos",
+          "day": 0,
+          "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
         },
-        "source": "dia-04-il-galeone",
-        "day": 4,
+        "source": "dia-00-fundamentos-basicos",
+        "day": 0,
         "lessons": [
+          0,
           4,
           5,
           8,
           9
         ],
-        "filePath": "src/content/blog/dia-04-il-galeone.md"
+        "filePath": "src/content/blog/dia-00-fundamentos-basicos.md"
+      }
+    ],
+    "zìzhì guǎnlǐ": [
+      {
+        "translations": {
+          "es": "Autogestión",
+          "en": "self-management",
+          "de": "Selbstverwaltung",
+          "pt": "autogestão",
+          "ru": "самоуправление",
+          "ruRom": "samoupravléniye",
+          "zh": "自治管理",
+          "zhPinyin": "zìzhì guǎnlǐ",
+          "zhStrokes": "19",
+          "zhRadical": "自 (uno mismo)",
+          "zhStructure": "compuesto",
+          "grammaticalCategory": "sustantivo",
+          "source": "dia-01-a-las-barricadas",
+          "day": 1,
+          "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
+        },
+        "source": "dia-01-a-las-barricadas",
+        "day": 1,
+        "lessons": [
+          1
+        ],
+        "filePath": "src/content/blog/dia-01-a-las-barricadas.md"
       }
     ],
     "zǒng bàgōng": [

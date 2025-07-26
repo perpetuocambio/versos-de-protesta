@@ -394,27 +394,27 @@ on velikiy spasitel' naroda.
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
 |---|---|---|---|---|---|---|---|---|
-| **东方** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng | sustantivo |
-| **红** | red | rot | vermelho | красный | krasnyy | 红 | hóng | adjetivo |
-| **太阳** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng | sustantivo |
-| **人民** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
-| **救星** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng | sustantivo |
-| **升起** | to rise | aufgehen | nascer | восходить | voskhodit' | 升起 | shēngqǐ | verbo |
-| **中国** | China | China | China | Китай | Kitay | 中国 | zhōngguó | sustantivo |
-| **出现** | to appear | erscheinen | aparecer | появляться | poyavlyat'sya | 出现 | chūxiàn | verbo |
-| **革命** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **领袖** | leader | Führer | líder | лидер | lider | 领袖 | lǐngxiù | sustantivo |
-| **伟大** | great | groß | grande | великий | velikiy | 伟大 | wěidà | adjetivo |
+| **oriente** | east | Osten | oriente | восток | vostok | 东方 | dōngfāng | sustantivo |
+| **rojo** | red | rot | vermelho | красный | krasnyy | 红 | hóng | adjetivo |
+| **sol** | sun | Sonne | sol | солнце | solntse | 太阳 | tàiyáng | sustantivo |
+| **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | sustantivo |
+| **salvador** | savior | Retter | salvador | спаситель | spasitel' | 救星 | jiùxīng | sustantivo |
+| **surgir** | to rise | aufgehen | nascer | восходить | voskhodit' | 升起 | shēngqǐ | verbo |
+| **china** | China | China | China | Китай | Kitay | 中国 | zhōngguó | sustantivo |
+| **aparecer** | to appear | erscheinen | aparecer | появляться | poyavlyat'sya | 出现 | chūxiàn | verbo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| **líder** | leader | Führer | líder | лидер | lider | 领袖 | lǐngxiù | sustantivo |
+| **grande** | great | groß | grande | великий | velikiy | 伟大 | wěidà | adjetivo |
 
 ### TÉRMINOS POLÍTICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Categoría |
 |---|---|---|---|---|---|---|---|---|
-| **主席** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí | sustantivo |
-| **共产党** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng | sustantivo |
-| **解放** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
-| **革命** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
-| **社会主义** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuì zhǔyì | sustantivo |
+| **presidente** | chairman | Vorsitzender | presidente | председатель | predsedatel' | 主席 | zhǔxí | sustantivo |
+| **partido comunista** | communist party | Kommunistische Partei | partido comunista | коммунистическая партия | kommunisticheskaya partiya | 共产党 | gòngchǎndǎng | sustantivo |
+| **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | sustantivo |
+| **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | sustantivo |
+| **socialismo** | socialism | Sozialismus | socialismo | социализм | sotsializm | 社会主义 | shèhuì zhǔyì | sustantivo |
 
 ---
 

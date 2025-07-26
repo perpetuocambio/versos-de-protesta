@@ -28,13 +28,13 @@ function isWordInLanguage(word, lang) {
       // Ruso: solo caracteres cirílicos
       return /^[а-яё\s\-']+$/i.test(word);
     case 'ruRom':
-      // Ruso romanizado: caracteres latinos básicos
-      return /^[a-z\s\-']+$/i.test(word);
+      // Ruso romanizado: caracteres latinos + acentos + apostrofes + espacios
+      return /^[a-záéíóúý\s\-'']+$/i.test(word);
     case 'zh':
       // Chino: solo caracteres hanzi (CJK)
       return /^[\u4e00-\u9fff\s]+$/.test(word);
     case 'zhPinyin':
-      // Pinyin: caracteres latinos + tonos
+      // Pinyin: caracteres latinos + tonos + MÚLTIPLES PALABRAS
       return /^[a-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ\s\-']+$/i.test(word);
     default:
       return true;
