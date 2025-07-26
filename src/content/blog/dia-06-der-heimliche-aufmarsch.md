@@ -1,5 +1,5 @@
 ---
-title: "DER HEIMLICHE AUFMARSCH"
+title: "Der Heimliche Aufmarsch"
 description: "La profética advertencia de Eisler contra el militarismo fascista en la agonizante República de Weimar (1930)"
 pubDate: 2025-01-06
 contentType: "song-analysis"
@@ -26,7 +26,7 @@ estimatedTime: "75-90 min"
 tags: ["alemania", "antifascismo", "hanns-eisler", "republica-weimar", "resistencia-comunista"]
 ---
 
-# DÍA 6: DER HEIMLICHE AUFMARSCH
+# DÍA 6: Der Heimliche Aufmarsch
 
 ## 🎵 CANCIÓN ORIGINAL (ALEMÁN)
 

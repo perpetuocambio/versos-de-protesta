@@ -1,5 +1,5 @@
 ---
-title: "EINHEITSFRONTLIED"
+title: "Einheitsfrontlied"
 description: "Análisis multilingüe del Einheitsfrontlied de Brecht-Eisler con traducciones en 5 idiomas, gramática comparativa, IPA y contexto histórico del antifascismo alemán"
 pubDate: 2025-01-11
 contentType: "song-analysis"
@@ -26,7 +26,7 @@ estimatedTime: "60-90 min"
 tags: ["antifascismo", "frente-popular", "brecht", "eisler", "gramática-comparativa"]
 ---
 
-# DÍA 11: EINHEITSFRONTLIED
+# DÍA 11: Einheitsfrontlied
 
 ## 🎵 CANCIÓN ORIGINAL (DEUTSCH)
 

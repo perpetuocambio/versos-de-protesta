@@ -1,5 +1,5 @@
 ---
-title: "HIJOS DEL PUEBLO"
+title: "Hijos del pueblo"
 description: "El himno que despertó la conciencia obrera española desde la Comuna hasta la Guerra Civil"
 pubDate: 2025-01-09
 contentType: "song-analysis"
@@ -27,7 +27,7 @@ estimatedTime: "60-90 min"
 tags: ["historia", "música", "anarquismo", "gramática-comparativa", "españa"]
 ---
 
-# DÍA 9: HIJOS DEL PUEBLO
+# DÍA 9: Hijos del pueblo
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 

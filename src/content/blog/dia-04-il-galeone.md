@@ -26,7 +26,7 @@ estimatedTime: "70-85 min"
 tags: ["italia", "protesta", "música", "años-70", "gramática-comparativa"]
 ---
 
-# DÍA 4: IL GALEONE
+# DÍA 4: Il Galeone
 
 ## 🎵 CANCIÓN ORIGINAL (ITALIANO)
 

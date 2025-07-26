@@ -1,5 +1,5 @@
 ---
-title: "OY, IR NARISHE TSIENISTN"
+title: "Oy, Ir Narishe Tsienistn"
 description: "La respuesta socialista yiddish al sionismo: el Bund y la resistencia cultural en Europa Oriental"
 pubDate: 2025-01-10
 contentType: "song-analysis"
@@ -26,7 +26,7 @@ estimatedTime: "60-90 min"
 tags: ["bund", "yiddish", "socialismo", "anti-sionismo", "gramática-comparativa"]
 ---
 
-# DÍA 10: OY, IR NARISHE TSIENISTN
+# DÍA 10: Oy, Ir Narishe Tsienistn
 
 ## 🎵 CANCIÓN ORIGINAL (YIDDISH)
 

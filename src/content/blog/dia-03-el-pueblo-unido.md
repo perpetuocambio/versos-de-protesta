@@ -26,7 +26,7 @@ estimatedTime: "75-90 min"
 tags: ["chile", "allende", "música", "revolución", "gramática-comparativa"]
 ---
 
-# DÍA 3: EL PUEBLO UNIDO JAMÁS SERÁ VENCIDO
+# DÍA 3: El Pueblo Unido Jamás Será Vencido
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 

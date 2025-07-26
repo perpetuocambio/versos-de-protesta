@@ -1,5 +1,5 @@
 ---
-title: "THE SACRED WAR"
+title: "Священная война"
 description: "La 'Guerra Sagrada' soviética: cuando 22 millones de vidas se alzaron contra la invasión nazi (1941)"
 pubDate: 2025-01-08
 contentType: "song-analysis"
@@ -26,7 +26,7 @@ estimatedTime: "60-90 min"
 tags: ["historia", "música", "revolución", "gramática-comparativa", "segunda-guerra-mundial"]
 ---
 
-# DÍA 8: THE SACRED WAR
+# DÍA 8: Священная война
 
 ## 🎵 CANCIÓN ORIGINAL (РУССКИЙ)
 

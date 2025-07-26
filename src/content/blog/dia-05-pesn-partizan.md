@@ -26,7 +26,7 @@ estimatedTime: "90-105 min"
 tags: ["resistencia", "segunda-guerra-mundial", "francia", "rusia", "antifascismo"]
 ---
 
-# DÍA 5: ПЕСНЬ ПАРТИЗАН / LE CHANT DES PARTISANS
+# DÍA 5: Песнь Партизан / Le Chant des Partisans
 
 ## 🎵 CANCIÓN ORIGINAL 
 

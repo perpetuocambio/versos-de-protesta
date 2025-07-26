@@ -26,7 +26,7 @@ estimatedTime: "60-90 min"
 tags: ["himno-anarquista", "guerra-civil-española", "traducción", "anarquismo", "gramática-comparativa"]
 ---
 
-# DÍA 1: "A LAS BARRICADAS" 
+# DÍA 1: "A las Barricadas" 
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 

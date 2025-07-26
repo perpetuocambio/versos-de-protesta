@@ -27,7 +27,7 @@ estimatedTime: "90-105 min"
 tags: ["himno-socialista", "comuna-de-parís", "francia", "socialismo", "gramática-comparativa"]
 ---
 
-# DÍA 2: L'INTERNATIONALE
+# DÍA 2: L'Internationale
 
 ## 🎵 CANCIÓN ORIGINAL (FRANCÉS)
 

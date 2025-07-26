@@ -1,5 +1,5 @@
 ---
-title: "EN LA PLAZA DE MI PUEBLO"
+title: "En la Plaza de mi Pueblo"
 description: "Himno anarquista de la Guerra Civil Española que presenta un diálogo entre trabajador y terrateniente sobre la explotación laboral y los derechos de los obreros"
 pubDate: 2025-01-12
 contentType: "song-analysis"
@@ -26,7 +26,7 @@ estimatedTime: "60-90 min"
 tags: ["guerra-civil", "anarquismo", "lucha-clases", "gramática-comparativa", "derechos-laborales"]
 ---
 
-# DÍA 12: EN LA PLAZA DE MI PUEBLO
+# DÍA 12: En la Plaza de mi Pueblo
 
 ## 🎵 CANCIÓN ORIGINAL (ESPAÑOL)
 
