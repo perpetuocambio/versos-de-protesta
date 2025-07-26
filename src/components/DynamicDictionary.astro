@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
       const langManifest = manifest.languages.find(lang => lang.code === language);
       if (!langManifest) throw new Error(`No se encontró manifest para el idioma ${language}`);
-      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-11.json');
+      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-12.json');
       if (!chunkFile) throw new Error(`No se encontró chunk para el idioma ${language}`);
 
       const chunkResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks/${chunkFile}`);
