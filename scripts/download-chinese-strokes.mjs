@@ -259,11 +259,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     .then((results) => {
       if (results.failed === 0) {
         console.log('🎉 ¡Descarga completada con éxito!');
-        process.exit(0);
       } else {
         console.log('⚠️  Descarga completada con algunos errores.');
-        process.exit(1);
       }
+      process.exit(0);
     })
     .catch((error) => {
       console.error('💥 Error fatal:', error);
