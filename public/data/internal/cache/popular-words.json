@@ -5,14 +5,22 @@
     "isPublic": false
   },
   "meta": {
-    "totalWords": 274,
+    "totalWords": 678,
     "topWords": 50,
-    "minFrequency": 1,
-    "maxFrequency": 2
+    "minFrequency": 2,
+    "maxFrequency": 3
   },
   "words": [
     {
+      "word": "sindicalismo",
+      "frequency": 3
+    },
+    {
       "word": "cantar",
+      "frequency": 2
+    },
+    {
+      "word": "defender",
       "frequency": 2
     },
     {
@@ -24,7 +32,47 @@
       "frequency": 2
     },
     {
+      "word": "resistir",
+      "frequency": 2
+    },
+    {
+      "word": "anarquismo",
+      "frequency": 2
+    },
+    {
       "word": "espere",
+      "frequency": 2
+    },
+    {
+      "word": "malditos",
+      "frequency": 2
+    },
+    {
+      "word": "mundo",
+      "frequency": 2
+    },
+    {
+      "word": "nada",
+      "frequency": 2
+    },
+    {
+      "word": "proletariado",
+      "frequency": 2
+    },
+    {
+      "word": "socialismo",
+      "frequency": 2
+    },
+    {
+      "word": "eterna",
+      "frequency": 2
+    },
+    {
+      "word": "marcha",
+      "frequency": 2
+    },
+    {
+      "word": "será",
       "frequency": 2
     },
     {
@@ -36,11 +84,35 @@
       "frequency": 2
     },
     {
+      "word": "vencer",
+      "frequency": 2
+    },
+    {
       "word": "vencido",
       "frequency": 2
     },
     {
+      "word": "antifascista",
+      "frequency": 2
+    },
+    {
       "word": "clandestino",
+      "frequency": 2
+    },
+    {
+      "word": "fascismo",
+      "frequency": 2
+    },
+    {
+      "word": "guerra",
+      "frequency": 2
+    },
+    {
+      "word": "libertadores",
+      "frequency": 2
+    },
+    {
+      "word": "soldados",
       "frequency": 2
     },
     {
@@ -60,7 +132,35 @@
       "frequency": 2
     },
     {
-      "word": "fascismo",
+      "word": "aparecer",
+      "frequency": 2
+    },
+    {
+      "word": "grande",
+      "frequency": 2
+    },
+    {
+      "word": "líder",
+      "frequency": 2
+    },
+    {
+      "word": "oriente",
+      "frequency": 2
+    },
+    {
+      "word": "partido comunista",
+      "frequency": 2
+    },
+    {
+      "word": "presidente",
+      "frequency": 2
+    },
+    {
+      "word": "salvador",
+      "frequency": 2
+    },
+    {
+      "word": "sol",
       "frequency": 2
     },
     {
@@ -68,11 +168,7 @@
       "frequency": 2
     },
     {
-      "word": "guerra",
-      "frequency": 2
-    },
-    {
-      "word": "anarquismo",
+      "word": "sagrada",
       "frequency": 2
     },
     {
@@ -84,133 +180,37 @@
       "frequency": 2
     },
     {
+      "word": "comunista",
+      "frequency": 2
+    },
+    {
       "word": "frente",
       "frequency": 2
     },
     {
-      "word": "旗帜",
+      "word": "socialista",
       "frequency": 2
     },
     {
-      "word": "团结",
+      "word": "anarquista",
       "frequency": 2
     },
     {
-      "word": "aunque",
-      "frequency": 1
+      "word": "arado",
+      "frequency": 2
     },
     {
-      "word": "dolor",
-      "frequency": 1
+      "word": "comuna",
+      "frequency": 2
     },
     {
-      "word": "muerte",
-      "frequency": 1
+      "word": "levantado",
+      "frequency": 2
     },
     {
-      "word": "amanecer",
-      "frequency": 1
-    },
-    {
-      "word": "banderas",
-      "frequency": 1
-    },
-    {
-      "word": "Desabastecimiento",
-      "frequency": 1
-    },
-    {
-      "word": "pueblo",
-      "frequency": 1
-    },
-    {
-      "word": "Triunfo electoral",
-      "frequency": 1
-    },
-    {
-      "word": "unidad",
-      "frequency": 1
-    },
-    {
-      "word": "galeón",
-      "frequency": 1
-    },
-    {
-      "word": "Huelgas masivas",
-      "frequency": 1
-    },
-    {
-      "word": "libertad",
-      "frequency": 1
-    },
-    {
-      "word": "marineros",
-      "frequency": 1
-    },
-    {
-      "word": "movimiento",
-      "frequency": 1
-    },
-    {
-      "word": "puerto",
-      "frequency": 1
-    },
-    {
-      "word": "Referéndum divorcio",
-      "frequency": 1
-    },
-    {
-      "word": "Revueltas estudiantiles",
-      "frequency": 1
-    },
-    {
-      "word": "partisanos",
-      "frequency": 1
-    },
-    {
-      "word": "sabotaje",
-      "frequency": 1
-    },
-    {
-      "word": "Victoria aliada",
-      "frequency": 1
-    },
-    {
-      "word": "susurro",
-      "frequency": 1
-    },
-    {
-      "word": "huelga general",
-      "frequency": 1
-    },
-    {
-      "word": "opresión",
-      "frequency": 1
-    },
-    {
-      "word": "Primera Internacional",
-      "frequency": 1
-    },
-    {
-      "word": "solidaridad",
-      "frequency": 1
-    },
-    {
-      "word": "bandera",
-      "frequency": 1
-    },
-    {
-      "word": "fantasear",
-      "frequency": 1
-    },
-    {
-      "word": "necio",
-      "frequency": 1
-    },
-    {
-      "word": "proletario",
-      "frequency": 1
+      "word": "páginas",
+      "frequency": 2
     }
   ],
-  "generated": "2025-07-26T17:54:35.076Z"
+  "generated": "2025-07-26T18:13:15.188Z"
 }
