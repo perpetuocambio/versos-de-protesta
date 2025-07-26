@@ -54,17 +54,17 @@ const timeSpan = maxYear - minYear;
 
 // Colores por país
 const countryColors: Record<string, string> = {
-  'Francia': '#0055A4',
-  'China': '#DE2910', 
-  'España': '#C60B1E',
-  'URSS/Rusia': '#DA020E',
-  'Estados Unidos': '#B22234',
-  'Chile': '#0039A6',
-  'Argentina': '#74ACDF',
-  'Alemania': '#000000',
-  'Italia': '#009246',
-  'Internacional': '#FF6B00',
-  'Desconocido': '#6B7280'
+  'Francia': '#1f77b4', // Azul
+  'China': '#ff7f0e',   // Naranja
+  'España': '#2ca02c',   // Verde
+  'URSS/Rusia': '#d62728',// Rojo
+  'Estados Unidos': '#9467bd',// Púrpura
+  'Chile': '#8c564b',    // Marrón
+  'Argentina': '#e377c2', // Rosa
+  'Alemania': '#7f7f7f',  // Gris
+  'Italia': '#bcbd22',   // Verde oliva
+  'Internacional': '#17becf',// Cian
+  'Desconocido': '#6B7280' // Gris oscuro
 };
 ---
 
@@ -109,13 +109,15 @@ const countryColors: Record<string, string> = {
         >
           <div 
             class="country-label"
-            style={`background-color: ${countryColors[country] || '#6B7280'}`}
           >
             {country}
           </div>
           
           <!-- Línea horizontal del país -->
-          <div class="country-line"></div>
+          <div 
+            class="country-line"
+            style={`background: ${countryColors[country] || '#6B7280'};`}
+          ></div>
           
           <!-- Canciones de este país -->
           {songsByCountry[country]?.map((song) => {
@@ -125,7 +127,7 @@ const countryColors: Record<string, string> = {
             return (
               <div 
                 class="song-point"
-                style={`left: ${position}%; background-color: ${color}; border-color: ${color};`}
+                style={`left: calc(100px + ${position}%); background-color: ${color}; border-color: ${color};`}
                 data-title={song.title}
                 data-artist={song.artist}
                 data-year={song.year}
@@ -211,7 +213,7 @@ const countryColors: Record<string, string> = {
   .year-axis {
     position: absolute;
     bottom: 0;
-    left: 100px;
+    left: 100px; /* Adjusted to align with country line */
     right: 20px;
     height: 60px;
   }
@@ -244,42 +246,39 @@ const countryColors: Record<string, string> = {
   .country-axis {
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 0; /* Keep at 0 for country labels */
     right: 20px;
     bottom: 60px;
   }
 
   .country-row {
-    position: absolute;
+    position: relative; /* Changed to relative */
     left: 0;
     right: 0;
     height: 40px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center items */
   }
 
   .country-label {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    padding: var(--space-xs) var(--space-md);
-    border-radius: var(--radius-md);
+    /* Removed absolute positioning, let flexbox handle it */
+    color: var(--color-text-primary); /* Darker text color */
     font-weight: 600;
     font-size: 0.9rem;
-    min-width: 90px;
-    text-align: center;
     white-space: nowrap;
-    z-index: 5;
+    z-index: 15; /* Ensure label is above the line */
+    margin-right: 10px; /* Add some space between label and line */
   }
 
   .country-line {
     position: absolute;
-    left: 100px;
+    left: 100px; /* Align with year axis start */
     right: 0;
     top: 50%;
-    height: 1px;
-    background: var(--color-border-light);
+    height: 2px; /* Make line slightly thicker */
+    opacity: 0.4; /* Make line more subtle */
     transform: translateY(-50%);
+    z-index: 10; /* Ensure line is behind points but above other elements */
   }
 
   /* Puntos de canciones */
@@ -292,7 +291,7 @@ const countryColors: Record<string, string> = {
     border: 2px solid white;
     cursor: pointer;
     transition: all 0.3s ease;
-    z-index: 10;
+    z-index: 12; /* Increased z-index to be above country-line */
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     transform: translate(-50%, -50%);
   }

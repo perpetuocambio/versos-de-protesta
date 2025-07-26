@@ -56,21 +56,21 @@ songs.forEach(song => {
 function generateCountryColor(countryName: string): string {
   // Colores predefinidos para países conocidos
   const knownColors: Record<string, string> = {
-    'Francia': '#0055A4',
-    'China': '#DE2910', 
-    'España': '#C60B1E',
-    'URSS': '#DA020E',
-    'Rusia': '#DA020E',
-    'EE.UU.': '#B22234',
-    'Chile': '#0039A6',
-    'Alemania': '#000000',
-    'Italia': '#009246',
-    'Internacional': '#FF6B00',
-    'Reino Unido': '#012169',
-    'México': '#006341',
-    'Argentina': '#74ACDF',
-    'Brasil': '#009739',
-    'Desconocido': '#6B7280'
+    'Francia': '#1f77b4', // Azul
+    'China': '#ff7f0e',   // Naranja
+    'España': '#2ca02c',   // Verde
+    'URSS': '#d62728',    // Rojo
+    'Rusia': '#d62728',   // Rojo
+    'EE.UU.': '#9467bd',  // Púrpura
+    'Chile': '#8c564b',    // Marrón
+    'Alemania': '#7f7f7f',  // Gris
+    'Italia': '#bcbd22',   // Verde oliva
+    'Internacional': '#17becf',// Cian
+    'Reino Unido': '#aec7e8', // Azul claro
+    'México': '#ffbb78',   // Naranja claro
+    'Argentina': '#98df8a', // Verde claro
+    'Brasil': '#ff9896',   // Rosa claro
+    'Desconocido': '#6B7280' // Gris oscuro
   };
   
   // Si el país tiene color predefinido, usarlo
@@ -143,14 +143,12 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
 
     <!-- Eje Y: Labels de países -->
     <div class="countries-labels">
-      {countries.map((country, index) => (
+      {countries.map((country) => (
         <div 
           class="country-row" 
-          style={`top: ${(index + 1) * (300 / (countries.length + 1))}px`}
         >
           <div 
             class="country-label" 
-            style={`background-color: ${countryColors[country] || '#6B7280'}`}
             title={country}
           >
             {country}
@@ -161,12 +159,14 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
     
     <!-- Eje Y: Países con datos -->
     <div class="country-axis">
-      {countries.map((country, index) => (
+      {countries.map((country) => (
         <div 
           class="country-row" 
-          style={`top: ${(index + 1) * (300 / (countries.length + 1))}px`}
         >
-          <div class="country-line"></div>
+          <div 
+            class="country-line"
+            style={`background: ${countryColors[country] || '#6B7280'};`}
+          ></div>
           
           <!-- Canciones de este país -->
           {songsByCountry[country]?.map((song) => {
@@ -234,19 +234,21 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
 
   .timeline-wrapper {
     position: relative;
-    height: 400px;
+    min-height: 400px; /* Use min-height to allow content to dictate height */
     margin: var(--space-2xl) 0;
     background: rgba(255, 255, 255, 0.8);
     border-radius: var(--radius-lg);
-    padding: var(--space-lg) var(--space-3xl) var(--space-lg) var(--space-lg);
-    overflow: visible;
+    padding: var(--space-lg); /* Uniform padding */
+    overflow: hidden; /* Changed to hidden to prevent overflow */
+    display: flex; /* Use flexbox for main layout */
+    flex-direction: column;
   }
 
   .year-axis {
     position: absolute;
     bottom: 0;
-    left: 100px;
-    right: 20px;
+    left: 110px; /* Adjusted for new padding and label width */
+    right: 10px; /* Adjusted for new padding */
     height: 60px;
   }
 
@@ -276,43 +278,43 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
 
   .country-axis {
     position: absolute;
-    top: 20px;
-    left: 100px;
-    right: 20px;
+    top: 10px; /* Adjusted for new padding */
+    left: 110px; /* Adjusted for new padding and label width */
+    right: 10px; /* Adjusted for new padding */
     bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Distribute rows evenly */
   }
   
   .countries-labels {
     position: absolute;
-    top: 20px;
-    left: 0;
+    top: 10px; /* Adjusted for new padding */
+    left: 10px; /* Adjusted for new padding */
     width: 90px;
     bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Distribute labels evenly */
   }
 
   .country-row {
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 40px;
+    position: relative; /* Changed to relative */
+    height: 30px; /* Reduced height for each row */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center items */
   }
 
   .country-label {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    padding: var(--space-xs) var(--space-sm);
-    border-radius: var(--radius-md);
+    /* Removed absolute positioning, let flexbox handle it */
+    color: var(--color-text-primary); /* Darker text color */
     font-weight: 600;
-    font-size: 0.85rem;
-    width: 85px;
-    text-align: center;
+    font-size: 0.9rem;
     white-space: nowrap;
-    z-index: 5;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    z-index: 15; /* Ensure label is above the line */
+    margin-right: 10px; /* Add some space between label and line */
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Take full width of its container */
   }
 
   .country-line {
@@ -320,9 +322,10 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
     left: 0;
     right: 0;
     top: 50%;
-    height: 1px;
-    background: var(--color-border-light);
+    height: 2px; /* Make line slightly thicker */
+    opacity: 0.4; /* Make line more subtle */
     transform: translateY(-50%);
+    z-index: 10; /* Ensure line is behind points but above other elements */
   }
 
   .song-point {
@@ -334,7 +337,7 @@ for (let year = startYear; year <= maxYear + yearInterval; year += yearInterval)
     border: 2px solid white;
     cursor: pointer;
     transition: all 0.3s ease;
-    z-index: 10;
+    z-index: 12; /* Increased z-index to be above country-line */
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     transform: translate(-50%, -50%);
   }
