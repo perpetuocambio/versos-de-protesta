@@ -5,186 +5,38 @@
     "isPublic": false
   },
   "meta": {
-    "totalWords": 1397,
+    "totalWords": 274,
     "topWords": 50,
-    "minFrequency": 2,
-    "maxFrequency": 16
+    "minFrequency": 1,
+    "maxFrequency": 2
   },
   "words": [
     {
-      "word": "Estructura",
-      "frequency": 16
-    },
-    {
-      "word": "Ejemplo",
-      "frequency": 11
-    },
-    {
-      "word": "Expresión",
-      "frequency": 6
-    },
-    {
-      "word": "人民",
-      "frequency": 5
-    },
-    {
-      "word": "解放",
-      "frequency": 5
-    },
-    {
-      "word": "Anna Smirnova",
-      "frequency": 5
-    },
-    {
-      "word": "团结",
-      "frequency": 5
-    },
-    {
-      "word": "Orden",
-      "frequency": 4
-    },
-    {
-      "word": "people",
-      "frequency": 4
-    },
-    {
-      "word": "SVO + pasiva",
-      "frequency": 4
-    },
-    {
-      "word": "liberation",
-      "frequency": 4
-    },
-    {
-      "word": "Hanns Eisler",
-      "frequency": 4
-    },
-    {
-      "word": "Hollywood, 1933-1948",
-      "frequency": 4
-    },
-    {
-      "word": "Leipzig, 1898",
-      "frequency": 4
-    },
-    {
-      "word": "desde",
-      "frequency": 4
-    },
-    {
-      "word": "Volk",
-      "frequency": 4
-    },
-    {
-      "word": "Befreiung",
-      "frequency": 4
-    },
-    {
-      "word": "povo",
-      "frequency": 4
-    },
-    {
-      "word": "libertação",
-      "frequency": 4
-    },
-    {
-      "word": "народ",
-      "frequency": 4
-    },
-    {
-      "word": "освобождение",
-      "frequency": 4
-    },
-    {
-      "word": "pueblo",
-      "frequency": 3
-    },
-    {
-      "word": "unidad",
-      "frequency": 3
-    },
-    {
-      "word": "liberación",
-      "frequency": 3
-    },
-    {
-      "word": "resistencia",
-      "frequency": 3
-    },
-    {
-      "word": "para",
-      "frequency": 3
-    },
-    {
-      "word": "unity",
-      "frequency": 3
-    },
-    {
-      "word": "Art + Sust + Part + Adv + Fut.Pas",
-      "frequency": 3
-    },
-    {
-      "word": "día + de + mes + de + año",
-      "frequency": 3
-    },
-    {
-      "word": "resistance",
-      "frequency": 3
-    },
-    {
-      "word": "Verbo + infinitivo + prep + lugar",
-      "frequency": 3
-    },
-    {
-      "word": "SVO estándar",
-      "frequency": 3
-    },
-    {
-      "word": "Einheit",
-      "frequency": 3
-    },
-    {
-      "word": "Widerstand",
-      "frequency": 3
-    },
-    {
-      "word": "unidade",
-      "frequency": 3
-    },
-    {
-      "word": "resistência",
-      "frequency": 3
-    },
-    {
-      "word": "единство",
-      "frequency": 3
-    },
-    {
-      "word": "сопротивление",
-      "frequency": 3
-    },
-    {
-      "word": "旗帜",
-      "frequency": 3
-    },
-    {
-      "word": "抵抗",
-      "frequency": 3
-    },
-    {
-      "word": "bandera",
+      "word": "cantar",
       "frequency": 2
     },
     {
-      "word": "libertad",
+      "word": "marchar",
       "frequency": 2
     },
     {
-      "word": "trabajador",
+      "word": "poder",
       "frequency": 2
     },
     {
-      "word": "mil novecientos setenta",
+      "word": "espere",
+      "frequency": 2
+    },
+    {
+      "word": "triunfar",
+      "frequency": 2
+    },
+    {
+      "word": "unido",
+      "frequency": 2
+    },
+    {
+      "word": "vencido",
       "frequency": 2
     },
     {
@@ -192,25 +44,173 @@
       "frequency": 2
     },
     {
-      "word": "Exilio",
+      "word": "horda saqueadora",
       "frequency": 2
     },
     {
-      "word": "Nacimiento",
+      "word": "luz soviética",
       "frequency": 2
     },
     {
-      "word": "ocupación",
+      "word": "república mundial",
       "frequency": 2
+    },
+    {
+      "word": "secreto",
+      "frequency": 2
+    },
+    {
+      "word": "fascismo",
+      "frequency": 2
+    },
+    {
+      "word": "frente oriental",
+      "frequency": 2
+    },
+    {
+      "word": "guerra",
+      "frequency": 2
+    },
+    {
+      "word": "anarquismo",
+      "frequency": 2
+    },
+    {
+      "word": "diáspora",
+      "frequency": 2
+    },
+    {
+      "word": "perecer",
+      "frequency": 2
+    },
+    {
+      "word": "frente",
+      "frequency": 2
+    },
+    {
+      "word": "旗帜",
+      "frequency": 2
+    },
+    {
+      "word": "团结",
+      "frequency": 2
+    },
+    {
+      "word": "aunque",
+      "frequency": 1
+    },
+    {
+      "word": "dolor",
+      "frequency": 1
+    },
+    {
+      "word": "muerte",
+      "frequency": 1
+    },
+    {
+      "word": "amanecer",
+      "frequency": 1
+    },
+    {
+      "word": "banderas",
+      "frequency": 1
+    },
+    {
+      "word": "Desabastecimiento",
+      "frequency": 1
+    },
+    {
+      "word": "pueblo",
+      "frequency": 1
+    },
+    {
+      "word": "Triunfo electoral",
+      "frequency": 1
+    },
+    {
+      "word": "unidad",
+      "frequency": 1
+    },
+    {
+      "word": "galeón",
+      "frequency": 1
+    },
+    {
+      "word": "Huelgas masivas",
+      "frequency": 1
+    },
+    {
+      "word": "libertad",
+      "frequency": 1
+    },
+    {
+      "word": "marineros",
+      "frequency": 1
+    },
+    {
+      "word": "movimiento",
+      "frequency": 1
+    },
+    {
+      "word": "puerto",
+      "frequency": 1
+    },
+    {
+      "word": "Referéndum divorcio",
+      "frequency": 1
+    },
+    {
+      "word": "Revueltas estudiantiles",
+      "frequency": 1
     },
     {
       "word": "partisanos",
-      "frequency": 2
+      "frequency": 1
     },
     {
       "word": "sabotaje",
-      "frequency": 2
+      "frequency": 1
+    },
+    {
+      "word": "Victoria aliada",
+      "frequency": 1
+    },
+    {
+      "word": "susurro",
+      "frequency": 1
+    },
+    {
+      "word": "huelga general",
+      "frequency": 1
+    },
+    {
+      "word": "opresión",
+      "frequency": 1
+    },
+    {
+      "word": "Primera Internacional",
+      "frequency": 1
+    },
+    {
+      "word": "solidaridad",
+      "frequency": 1
+    },
+    {
+      "word": "bandera",
+      "frequency": 1
+    },
+    {
+      "word": "fantasear",
+      "frequency": 1
+    },
+    {
+      "word": "necio",
+      "frequency": 1
+    },
+    {
+      "word": "proletario",
+      "frequency": 1
     }
   ],
-  "generated": "2025-07-23T18:18:14.235Z"
+  "generated": "2025-07-26T08:36:01.654Z"
 }
