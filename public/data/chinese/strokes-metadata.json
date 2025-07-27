@@ -1,22 +1,17 @@
 {
   "total": 202,
-  "successful": 0,
+  "successful": 1,
   "cached": 201,
-  "failed": 1,
-  "errors": [
-    {
-      "character": "诅",
-      "error": "HTTP 404: Not Found"
-    }
-  ],
-  "totalSize": 0,
-  "startTime": "2025-07-27T09:41:49.865Z",
+  "failed": 0,
+  "errors": [],
+  "totalSize": 648,
+  "startTime": "2025-07-27T10:09:56.662Z",
   "attribution": {
     "source": "MDBG Chinese Dictionary",
     "url": "https://www.mdbg.net/",
     "license": "Educational use with attribution",
     "attribution_text": "Stroke order animations © MDBG Chinese Dictionary (mdbg.net)"
   },
-  "endTime": "2025-07-27T09:41:53.200Z",
-  "duration": 3335
+  "endTime": "2025-07-27T10:09:57.167Z",
+  "duration": 505
 }

@@ -4,7 +4,7 @@
     "totalEntries": 168,
     "totalLanguages": 8,
     "totalLessons": 13,
-    "lastUpdated": "2025-07-27T09:41:49.496Z",
+    "lastUpdated": "2025-07-27T10:00:44.032Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
@@ -114,18 +114,18 @@
       ]
     },
     "zhPinyin": {
-      "count": 117,
+      "count": 115,
       "sample": [
-        "bèi zhànshèng de",
-        "bōlàng",
-        "chàng",
-        "chuányuán",
-        "chūxiàn",
-        "dà fānchuán",
-        "děngdài",
-        "dì-yī guójì",
-        "dírén",
-        "dìxià de"
+        "bèi zhà nshè ng de",
+        "bō là ng",
+        "chà ng",
+        "chū xià n",
+        "chuá nyuá n",
+        "dà fā nchuá n",
+        "dě ngdài",
+        "dí ré n",
+        "dì xià de",
+        "dì zhǔ"
       ]
     }
   },

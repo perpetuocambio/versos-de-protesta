@@ -11,7 +11,7 @@
     "totalChunks": 8,
     "scalabilityTarget": "100+ lessons",
     "estimatedMaxSizeAt100Lessons": "750KB per language",
-    "generated": "2025-07-27T09:43:36.289Z"
+    "generated": "2025-07-27T10:00:44.240Z"
   },
   "languages": [
     {
@@ -32,7 +32,7 @@
       "code": "de",
       "totalChunks": 1,
       "totalWords": 123,
-      "estimatedSizeKB": 81,
+      "estimatedSizeKB": 82,
       "chunksPath": "/internal/v1/dictionary/chunks/de-*"
     },
     {
@@ -66,7 +66,7 @@
     {
       "code": "zh-pinyin",
       "totalChunks": 1,
-      "totalWords": 117,
+      "totalWords": 115,
       "estimatedSizeKB": 82,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-pinyin-*"
     }
