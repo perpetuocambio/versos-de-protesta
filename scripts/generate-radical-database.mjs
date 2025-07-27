@@ -100,7 +100,7 @@ const KANGXI_RADICALS = {
   "支": { number: 65, strokes: 4, meaning: { es: "rama", en: "branch" }, category: "naturaleza" },
   "攴": { number: 66, strokes: 4, meaning: { es: "golpear", en: "strike" }, category: "acción" },
   "文": { number: 67, strokes: 4, meaning: { es: "escritura", en: "writing" }, category: "abstracto" },
-  "斗": { number: 68, strokes: 4, meaning: { es: "medida", en: "dipper" }, category: "medida" },
+  "斗": { number: 68, strokes: 4, meaning: { es: "lucha", en: "struggle" }, category: "acción" },
   "斤": { number: 69, strokes: 4, meaning: { es: "hacha", en: "axe" }, category: "herramienta" },
   "方": { number: 70, strokes: 4, meaning: { es: "cuadrado", en: "square" }, category: "forma" },
   "无": { number: 71, strokes: 4, meaning: { es: "no tener", en: "not have" }, category: "abstracto" },
@@ -126,7 +126,10 @@ const KANGXI_RADICALS = {
   "片": { number: 91, strokes: 4, meaning: { es: "rebanada", en: "slice" }, category: "objeto" },
   "牙": { number: 92, strokes: 4, meaning: { es: "diente", en: "tooth" }, category: "cuerpo" },
   "牛": { number: 93, strokes: 4, meaning: { es: "buey", en: "cow" }, category: "animal" },
-  "犬": { number: 94, strokes: 4, meaning: { es: "perro", en: "dog" }, category: "animal" }
+  "犬": { number: 94, strokes: 4, meaning: { es: "perro", en: "dog" }, category: "animal" },
+  
+  // Radicales adicionales no-Kangxi pero importantes
+  "争": { number: 401, strokes: 6, meaning: { es: "disputar", en: "contend" }, category: "acción" }
 };
 
 // Mapeo de caracteres a sus radicales (ejemplos comunes)
@@ -180,8 +183,8 @@ const CHARACTER_RADICALS = {
   "党": "尚", // radical todavía
   "政": "攴", // radical golpear
   "权": "木", // radical árbol
-  "斗": "斗", // radical medida (lucha)
-  "争": "爪", // radical garra
+  "斗": "斗", // radical medida (lucha) 
+  "争": "争", // el propio carácter es un radical simplificado
   "战": "戈", // radical lanza
   "胜": "月", // radical carne/luna
   "利": "刀", // radical cuchillo
@@ -221,6 +224,16 @@ const CHARACTER_ETYMOLOGY = {
     es: "口 (boca) + 令 (orden). Una orden dada por la boca, evolucionó a 'vida' y 'destino'.",
     en: "口 (mouth) + 令 (order). An order given by mouth, evolved to 'life' and 'destiny'.",
     revolutionary: "En 革命 (revolución), representa el cambio de destino del pueblo."
+  },
+  "斗": {
+    es: "Originalmente representaba una medida para granos. En contexto político significa 'lucha' o 'combate'.",
+    en: "Originally represented a grain measure. In political context means 'struggle' or 'fight'.",
+    revolutionary: "Carácter fundamental en vocabulario de lucha de clases y resistencia."
+  },
+  "争": {
+    es: "Compuesto de 爪 (garra) arriba indicando agarrar o disputar. Significa 'contender' o 'disputar'.",
+    en: "Composed of 爪 (claw) on top indicating grasping or disputing. Means 'contend' or 'dispute'.",
+    revolutionary: "Representa la lucha activa por derechos y justicia social."
   }
 };
 
@@ -294,7 +307,8 @@ function getRadicalPinyin(radical) {
     "土": "tǔ", "水": "shuǐ", "氵": "shuǐ", "人": "rén", "手": "shǒu", "扌": "shǒu",
     "心": "xīn", "口": "kǒu", "木": "mù", "火": "huǒ", "金": "jīn", "女": "nǚ",
     "厂": "chǎng", "革": "gé", "攴": "pū", "囗": "wéi", "氏": "shì", "爪": "zhǎo",
-    "戈": "gē", "月": "yuè", "刀": "dāo", "力": "lì", "工": "gōng", "辰": "chén"
+    "戈": "gē", "月": "yuè", "刀": "dāo", "力": "lì", "工": "gōng", "辰": "chén",
+    "斗": "dǒu", "争": "zhēng"
   };
   return pinyinMap[radical] || "";
 }

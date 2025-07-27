@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import Icon from '../../components/Icon.astro';
 
 export async function getStaticPaths() {
-  const languages = ['es', 'en', 'de', 'pt', 'ru', 'ru-rom', 'zh', 'zh-pinyin'];
+  const languages = ['es', 'en', 'de', 'pt', 'ru', 'ru-rom', 'zh', 'zh-pinyin', 'radical'];
   return languages.map(lang => ({
     params: { lang }
   }));
@@ -22,6 +22,7 @@ const availableLangs = {
   'ru-rom': 'Русский (Rom.)',
   zh: '中文',
   'zh-pinyin': '中文 (Pinyin)',
+  radical: '🔍 Radicales',
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,24 @@ const dictionaryError = null;
        data-language={lang} 
        data-estimated-words={estimatedWords}>
     
-    <DynamicDictionary language={lang} availableLangs={availableLangs} baseUrl={import.meta.env.BASE_URL} />
+    {lang === 'radical' ? (
+      <div class="radical-dictionary-page">
+        <div class="radical-page-header" style="text-align: center; margin-bottom: 2rem;">
+          <h2 style="color: #007bff; margin-bottom: 1rem;">🔍 Diccionario de Radicales Chinos</h2>
+          <p style="color: #6c757d; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+            Explora caracteres chinos organizados por sus radicales fundamentales. 
+            Sistema Kangxi con análisis etimológico y contexto revolucionario.
+          </p>
+        </div>
+        
+        <!-- Aquí irá el componente de búsqueda por radicales -->
+        <div id="radical-search-wrapper">
+          <!-- El contenido se carga dinámicamente -->
+        </div>
+      </div>
+    ) : (
+      <DynamicDictionary language={lang} availableLangs={availableLangs} baseUrl={import.meta.env.BASE_URL} />
+    )}
     
   </div>
 </Layout>
@@ -179,6 +197,609 @@ const dictionaryError = null;
     }
   }
 </style>
+
+{lang === 'radical' && (
+  <script>
+    document.addEventListener('DOMContentLoaded', async function() {
+      const radicalWrapper = document.getElementById('radical-search-wrapper');
+      if (!radicalWrapper) return;
+      
+      console.log('🔍 Cargando diccionario de radicales...');
+      
+      // Mostrar loading inicial
+      radicalWrapper.innerHTML = `
+        <div style="text-align: center; padding: 3rem; color: #6c757d;">
+          <div style="
+            width: 60px; 
+            height: 60px; 
+            border: 4px solid #e9ecef; 
+            border-top: 4px solid #007bff; 
+            border-radius: 50%; 
+            animation: spin 1s linear infinite; 
+            margin: 0 auto 1.5rem;
+          "></div>
+          <p style="font-size: 1.1rem;">Cargando diccionario de radicales...</p>
+          <p style="font-size: 0.9rem; color: #adb5bd;">Sistema Kangxi • 92 radicales • 305 caracteres</p>
+        </div>
+        <style>
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        </style>
+      `;
+      
+      try {
+        // Cargar datos del índice de radicales
+        const baseUrl = document.querySelector('meta[name="astro-base-url"]')?.content || '/versos-de-protesta/';
+        const response = await fetch(`${baseUrl}data/chinese/radical-index.json`);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const radicalIndexData = await response.json();
+        console.log(`✅ Índice de radicales cargado: ${radicalIndexData.radicals.length} radicales`);
+        
+        // Generar HTML del componente
+        const radicalSearchHTML = generateRadicalDictionaryHTML(radicalIndexData);
+        radicalWrapper.innerHTML = radicalSearchHTML;
+        
+        // Configurar funcionalidad
+        setupRadicalDictionaryFunctionality(radicalIndexData);
+        
+      } catch (error) {
+        console.error('❌ Error cargando diccionario de radicales:', error);
+        radicalWrapper.innerHTML = `
+          <div style="text-align: center; padding: 3rem; color: #dc3545;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">❌</div>
+            <h3>Error al cargar el diccionario de radicales</h3>
+            <p>${error.message}</p>
+            <button onclick="location.reload()" style="
+              margin-top: 1rem;
+              padding: 0.75rem 1.5rem;
+              background: #007bff;
+              color: white;
+              border: none;
+              border-radius: 6px;
+              cursor: pointer;
+              font-weight: 600;
+            ">Reintentar</button>
+          </div>
+        `;
+      }
+    });
+    
+    // Generar HTML para el diccionario de radicales
+    function generateRadicalDictionaryHTML(data) {
+      return `
+        <div class="radical-dictionary-container">
+          <!-- Estadísticas generales -->
+          <div class="stats-overview" style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+          ">
+            <div class="stat-card" style="
+              background: linear-gradient(135deg, #007bff, #0056b3);
+              color: white;
+              padding: 1.5rem;
+              border-radius: 12px;
+              text-align: center;
+              box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            ">
+              <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">${data.radicals.length}</div>
+              <div style="font-size: 0.9rem; opacity: 0.9;">Radicales Kangxi</div>
+            </div>
+            
+            <div class="stat-card" style="
+              background: linear-gradient(135deg, #28a745, #1e7e34);
+              color: white;
+              padding: 1.5rem;
+              border-radius: 12px;
+              text-align: center;
+              box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            ">
+              <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">${data.stats.totalCharacters}</div>
+              <div style="font-size: 0.9rem; opacity: 0.9;">Caracteres Analizados</div>
+            </div>
+            
+            <div class="stat-card" style="
+              background: linear-gradient(135deg, #dc3545, #c82333);
+              color: white;
+              padding: 1.5rem;
+              border-radius: 12px;
+              text-align: center;
+              box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            ">
+              <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">${data.stats.revolutionaryCharacters}</div>
+              <div style="font-size: 0.9rem; opacity: 0.9;">Caracteres Revolucionarios</div>
+            </div>
+            
+            <div class="stat-card" style="
+              background: linear-gradient(135deg, #ffc107, #e0a800);
+              color: #212529;
+              padding: 1.5rem;
+              border-radius: 12px;
+              text-align: center;
+              box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            ">
+              <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">${Object.keys(data.categories).length}</div>
+              <div style="font-size: 0.9rem; opacity: 0.8;">Categorías Temáticas</div>
+            </div>
+          </div>
+          
+          <!-- Componente de búsqueda -->
+          <div class="radical-search-component" style="
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 2px solid #dee2e6;
+            margin-bottom: 2rem;
+          ">
+            <div class="search-controls" style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 1.5rem;
+              margin-bottom: 2rem;
+              padding: 1.5rem;
+              background: white;
+              border-radius: 8px;
+              border: 1px solid #dee2e6;
+            ">
+              <div>
+                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">📂 Categoría:</label>
+                <select id="category-filter" style="width: 100%; padding: 0.75rem; border: 2px solid #ced4da; border-radius: 6px; font-size: 0.95rem;">
+                  <option value="">🌟 Todas las categorías</option>
+                  ${Object.keys(data.categories).map(cat => 
+                    `<option value="${cat}">📁 ${cat.charAt(0).toUpperCase() + cat.slice(1)}</option>`
+                  ).join('')}
+                </select>
+              </div>
+              
+              <div>
+                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">✏️ Trazos:</label>
+                <select id="strokes-filter" style="width: 100%; padding: 0.75rem; border: 2px solid #ced4da; border-radius: 6px; font-size: 0.95rem;">
+                  <option value="">🖋️ Todos los trazos</option>
+                  ${Object.keys(data.strokesIndex).sort((a,b) => parseInt(a) - parseInt(b)).map(strokes => 
+                    `<option value="${strokes}">✏️ ${strokes} trazo${strokes !== '1' ? 's' : ''}</option>`
+                  ).join('')}
+                </select>
+              </div>
+              
+              <div>
+                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">🚩 Relevancia:</label>
+                <select id="revolutionary-filter" style="width: 100%; padding: 0.75rem; border: 2px solid #ced4da; border-radius: 6px; font-size: 0.95rem;">
+                  <option value="">🌐 Todos los caracteres</option>
+                  <option value="revolutionary">🚩 Solo revolucionarios</option>
+                  <option value="common">📝 Solo comunes</option>
+                </select>
+              </div>
+              
+              <div>
+                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">🔍 Búsqueda:</label>
+                <input type="text" id="text-search" placeholder="Buscar radical o significado..." style="
+                  width: 100%; 
+                  padding: 0.75rem; 
+                  border: 2px solid #ced4da; 
+                  border-radius: 6px;
+                  font-size: 0.95rem;
+                "/>
+              </div>
+            </div>
+            
+            <div class="results-header" style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 1.5rem;
+              padding: 1rem;
+              background: white;
+              border-radius: 8px;
+              border: 1px solid #dee2e6;
+            ">
+              <span id="results-count" style="font-weight: 600; color: #495057; font-size: 1.1rem;">0 radicales encontrados</span>
+              <button id="view-toggle" data-view="grid" style="
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.5rem 1rem;
+                background: #007bff;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-weight: 600;
+                transition: background-color 0.2s ease;
+              ">
+                <span id="toggle-icon">⊞</span>
+                <span id="toggle-text">Vista Lista</span>
+              </button>
+            </div>
+            
+            <div id="results-container" class="grid-view" style="
+              display: grid;
+              gap: 1.5rem;
+            ">
+              <!-- Los resultados se cargan aquí -->
+            </div>
+          </div>
+          
+          <!-- Modal para caracteres -->
+          <div id="characters-modal" style="
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+          ">
+            <div style="
+              background: white;
+              border-radius: 12px;
+              max-width: 95vw;
+              max-height: 90vh;
+              overflow-y: auto;
+              box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            ">
+              <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.5rem;
+                border-bottom: 1px solid #dee2e6;
+                background: #f8f9fa;
+                border-radius: 12px 12px 0 0;
+                position: sticky;
+                top: 0;
+                z-index: 10;
+              ">
+                <h4 id="modal-title" style="margin: 0; color: #495057; font-size: 1.3rem;">Caracteres con radical</h4>
+                <button id="modal-close" style="
+                  background: none;
+                  border: none;
+                  font-size: 1.8rem;
+                  color: #6c757d;
+                  cursor: pointer;
+                  padding: 0.25rem;
+                  border-radius: 4px;
+                  transition: background-color 0.2s ease;
+                ">&times;</button>
+              </div>
+              <div id="modal-content" style="padding: 1.5rem;">
+                <!-- Contenido se carga dinámicamente -->
+              </div>
+            </div>
+          </div>
+          
+          <!-- Atribución -->
+          <div class="attribution-footer" style="
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            text-align: center;
+          ">
+            <p style="margin: 0; font-size: 0.9rem; color: #6c757d; line-height: 1.5;">
+              📚 Datos de radicales basados en el sistema Kangxi (214 radicales estándar) y fuentes académicas.<br>
+              🔍 Información complementaria de 
+              <a href="https://cc-cedict.org/" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: none; font-weight: 500;">
+                CC-CEDICT
+              </a> 
+              bajo licencia 
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: none; font-weight: 500;">
+                CC BY-SA 4.0
+              </a>
+            </p>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Configurar funcionalidad del diccionario de radicales
+    function setupRadicalDictionaryFunctionality(data) {
+      const categoryFilter = document.getElementById('category-filter');
+      const strokesFilter = document.getElementById('strokes-filter');
+      const revolutionaryFilter = document.getElementById('revolutionary-filter');
+      const textSearch = document.getElementById('text-search');
+      const resultsCount = document.getElementById('results-count');
+      const resultsContainer = document.getElementById('results-container');
+      const viewToggle = document.getElementById('view-toggle');
+      const toggleIcon = document.getElementById('toggle-icon');
+      const toggleText = document.getElementById('toggle-text');
+      const modal = document.getElementById('characters-modal');
+      const modalTitle = document.getElementById('modal-title');
+      const modalContent = document.getElementById('modal-content');
+      const modalClose = document.getElementById('modal-close');
+      
+      let currentView = 'grid';
+      let currentRadicals = [...data.radicals];
+      
+      // Configurar vista inicial
+      updateViewStyles();
+      
+      // Función para actualizar estilos de vista
+      function updateViewStyles() {
+        if (currentView === 'grid') {
+          resultsContainer.style.gridTemplateColumns = 'repeat(auto-fill, minmax(280px, 1fr))';
+          toggleIcon.textContent = '☰';
+          toggleText.textContent = 'Vista Lista';
+        } else {
+          resultsContainer.style.gridTemplateColumns = '1fr';
+          toggleIcon.textContent = '⊞';
+          toggleText.textContent = 'Vista Cuadrícula';
+        }
+      }
+      
+      // Función para filtrar radicales
+      function filterRadicals() {
+        let filtered = [...data.radicals];
+        
+        const selectedCategory = categoryFilter.value;
+        if (selectedCategory) {
+          filtered = filtered.filter(r => r.category === selectedCategory);
+        }
+        
+        const selectedStrokes = strokesFilter.value;
+        if (selectedStrokes) {
+          filtered = filtered.filter(r => r.strokes === parseInt(selectedStrokes));
+        }
+        
+        const revolutionaryType = revolutionaryFilter.value;
+        if (revolutionaryType === 'revolutionary') {
+          filtered = filtered.filter(r => 
+            r.characters.some(char => char.revolutionaryRelevance)
+          );
+        } else if (revolutionaryType === 'common') {
+          filtered = filtered.filter(r => 
+            !r.characters.some(char => char.revolutionaryRelevance)
+          );
+        }
+        
+        const searchTerm = textSearch.value.toLowerCase().trim();
+        if (searchTerm) {
+          filtered = filtered.filter(r => 
+            r.radical.includes(searchTerm) ||
+            r.meaning.es.toLowerCase().includes(searchTerm) ||
+            r.meaning.en.toLowerCase().includes(searchTerm) ||
+            r.meaning.zh_pinyin?.toLowerCase().includes(searchTerm)
+          );
+        }
+        
+        currentRadicals = filtered;
+        displayRadicals(filtered);
+      }
+      
+      // Función para mostrar radicales
+      function displayRadicals(radicals) {
+        resultsCount.textContent = `${radicals.length} radical${radicals.length !== 1 ? 'es' : ''} encontrado${radicals.length !== 1 ? 's' : ''}`;
+        
+        resultsContainer.innerHTML = radicals.map(radical => {
+          const hasRevolutionary = radical.characters.some(char => char.revolutionaryRelevance);
+          const cardSize = currentView === 'grid' ? '2.5rem' : '2rem';
+          const padding = currentView === 'grid' ? '1.5rem' : '1rem';
+          
+          return `
+            <div class="radical-card" data-radical="${radical.radical}" style="
+              background: white;
+              border-radius: 12px;
+              border: 2px solid #dee2e6;
+              ${hasRevolutionary ? 'border-left: 6px solid #dc3545;' : ''}
+              padding: ${padding};
+              cursor: pointer;
+              transition: all 0.3s ease;
+              box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+              ${currentView === 'list' ? 'display: flex; align-items: center; gap: 1rem;' : 'text-align: center;'}
+            ">
+              <div style="
+                font-size: ${cardSize}; 
+                color: #007bff; 
+                ${currentView === 'grid' ? 'margin-bottom: 1rem;' : 'flex-shrink: 0;'}
+                font-family: 'SimSun', '宋体', serif;
+              ">${radical.radical}</div>
+              
+              <div style="${currentView === 'list' ? 'flex: 1;' : ''}">
+                <div style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">${radical.meaning.es}</div>
+                <div style="font-size: 0.9rem; color: #6c757d; margin-bottom: 0.75rem;">
+                  ${radical.strokes} trazo${radical.strokes !== 1 ? 's' : ''} • 
+                  Kangxi #${radical.number} • 
+                  ${radical.category}
+                </div>
+                <div style="
+                  background: ${hasRevolutionary ? 'linear-gradient(135deg, #dc3545, #c82333)' : 'linear-gradient(135deg, #28a745, #1e7e34)'};
+                  color: white;
+                  padding: 0.5rem 1rem;
+                  border-radius: 20px;
+                  font-weight: 600;
+                  display: inline-block;
+                  font-size: 0.85rem;
+                  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                ">
+                  ${radical.frequency} caracter${radical.frequency !== 1 ? 'es' : ''}
+                  ${hasRevolutionary ? ' 🚩' : ''}
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+        
+        // Añadir listeners a las tarjetas
+        resultsContainer.querySelectorAll('.radical-card').forEach(card => {
+          card.addEventListener('mouseenter', () => {
+            card.style.transform = 'translateY(-4px)';
+            card.style.boxShadow = '0 8px 20px rgba(0,0,0,0.15)';
+            card.style.borderColor = '#007bff';
+          });
+          
+          card.addEventListener('mouseleave', () => {
+            card.style.transform = '';
+            card.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+            card.style.borderColor = '#dee2e6';
+          });
+          
+          card.addEventListener('click', () => {
+            const radicalChar = card.dataset.radical;
+            const radicalData = radicals.find(r => r.radical === radicalChar);
+            if (radicalData) {
+              showCharactersModal(radicalData);
+            }
+          });
+        });
+      }
+      
+      // Función para mostrar modal de caracteres
+      function showCharactersModal(radicalData) {
+        modalTitle.textContent = `Caracteres con radical ${radicalData.radical} (${radicalData.meaning.es})`;
+        
+        modalContent.innerHTML = `
+          <div style="
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e9ecef;
+          ">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+              <div>
+                <h5 style="margin: 0 0 0.5rem 0; color: #495057;">📝 Información del Radical</h5>
+                <p style="margin: 0;"><strong>Radical:</strong> ${radicalData.radical}</p>
+                <p style="margin: 0;"><strong>Significado:</strong> ${radicalData.meaning.es}</p>
+                <p style="margin: 0;"><strong>Categoría:</strong> ${radicalData.category}</p>
+              </div>
+              <div>
+                <h5 style="margin: 0 0 0.5rem 0; color: #495057;">📊 Estadísticas</h5>
+                <p style="margin: 0;"><strong>Trazos:</strong> ${radicalData.strokes}</p>
+                <p style="margin: 0;"><strong>Kangxi:</strong> #${radicalData.number}</p>
+                <p style="margin: 0;"><strong>Caracteres:</strong> ${radicalData.frequency}</p>
+              </div>
+            </div>
+          </div>
+          
+          <h5 style="margin: 0 0 1rem 0; color: #495057;">📚 Caracteres (${radicalData.characters.length})</h5>
+          <p style="margin: 0 0 1.5rem 0; color: #6c757d; font-size: 0.95rem;">
+            Haz clic en cualquier carácter para copiarlo al portapapeles
+          </p>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+            ${radicalData.characters.map(char => `
+              <div style="
+                background: ${char.revolutionaryRelevance ? 'linear-gradient(135deg, #fff5f5, #fed7d7)' : '#f8f9fa'};
+                border-radius: 8px;
+                padding: 1.25rem;
+                text-align: center;
+                border: 2px solid ${char.revolutionaryRelevance ? '#fc8181' : '#e2e8f0'};
+                cursor: pointer;
+                transition: all 0.2s ease;
+              " data-character="${char.character}">
+                <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #007bff; font-family: 'SimSun', '宋体', serif;">${char.character}</div>
+                <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem; font-size: 1.1rem;">${char.pinyin || 'N/A'}</div>
+                <div style="font-size: 0.95rem; color: #4a5568; font-style: italic; line-height: 1.3;">${char.translation || 'Sin traducción'}</div>
+                ${char.revolutionaryRelevance ? '<div style="color: #e53e3e; font-size: 0.85rem; margin-top: 0.5rem; font-weight: 600;">🚩 Relevancia Revolucionaria</div>' : ''}
+                <div style="
+                  margin-top: 0.75rem;
+                  padding: 0.25rem 0.75rem;
+                  background: #e2e8f0;
+                  border-radius: 12px;
+                  font-size: 0.8rem;
+                  color: #4a5568;
+                  display: inline-block;
+                ">Unicode: ${char.unicode}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+        
+        // Añadir funcionalidad de copia
+        modalContent.querySelectorAll('[data-character]').forEach(item => {
+          item.addEventListener('mouseenter', () => {
+            item.style.transform = 'scale(1.03)';
+            item.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+          });
+          
+          item.addEventListener('mouseleave', () => {
+            item.style.transform = '';
+            item.style.boxShadow = '';
+          });
+          
+          item.addEventListener('click', async () => {
+            const character = item.dataset.character;
+            try {
+              await navigator.clipboard.writeText(character);
+              
+              // Feedback visual
+              const hanzi = item.querySelector('div');
+              const originalText = hanzi.textContent;
+              hanzi.textContent = '✅';
+              hanzi.style.color = '#38a169';
+              
+              setTimeout(() => {
+                hanzi.textContent = originalText;
+                hanzi.style.color = '#007bff';
+              }, 1500);
+            } catch (err) {
+              console.log('No se pudo copiar al portapapeles');
+              // Feedback de error
+              const hanzi = item.querySelector('div');
+              const originalText = hanzi.textContent;
+              hanzi.textContent = '❌';
+              hanzi.style.color = '#e53e3e';
+              
+              setTimeout(() => {
+                hanzi.textContent = originalText;
+                hanzi.style.color = '#007bff';
+              }, 1500);
+            }
+          });
+        });
+        
+        modal.style.display = 'flex';
+      }
+      
+      // Event listeners
+      [categoryFilter, strokesFilter, revolutionaryFilter, textSearch].forEach(element => {
+        element.addEventListener('change', filterRadicals);
+        element.addEventListener('input', filterRadicals);
+      });
+      
+      viewToggle.addEventListener('click', () => {
+        currentView = currentView === 'grid' ? 'list' : 'grid';
+        viewToggle.dataset.view = currentView;
+        updateViewStyles();
+        displayRadicals(currentRadicals);
+      });
+      
+      modalClose.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+      
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+      
+      // Tecla ESC para cerrar modal
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display === 'flex') {
+          modal.style.display = 'none';
+        }
+      });
+      
+      // Cargar datos iniciales
+      displayRadicals(data.radicals);
+    }
+  </script>
+)}
+
+<!-- Meta tag para base URL -->
+<meta name="astro-base-url" content={import.meta.env.BASE_URL} />
 
 
 

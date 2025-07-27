@@ -200,6 +200,32 @@ const { character, baseUrl } = Astro.props;
     font-size: 0.9rem;
   }
 
+  .attribution-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+  }
+
+  .attribution-text {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #6c757d;
+    line-height: 1.4;
+  }
+
+  .attribution-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .attribution-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
   /* Responsive */
   @media (max-width: 768px) {
     .radical-main {
@@ -338,6 +364,23 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
+    
+    // Atribución
+    html += `
+      <div class="attribution-section">
+        <p class="attribution-text">
+          📚 Datos de radicales basados en el sistema Kangxi y fuentes académicas.<br>
+          🔍 Información complementaria de 
+          <a href="https://cc-cedict.org/" target="_blank" rel="noopener noreferrer" class="attribution-link">
+            CC-CEDICT
+          </a> 
+          bajo licencia 
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" class="attribution-link">
+            CC BY-SA 4.0
+          </a>
+        </p>
+      </div>
+    `;
     
     return html;
   }

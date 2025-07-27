@@ -1,10 +1,13 @@
 ---
+import RadicalAnalyzer from './advanced/RadicalAnalyzer.astro';
+
 export interface Props {
   hanzi: string;
   pinyin?: string;
   translation?: string;
   size?: 'small' | 'medium' | 'large';
   showStroke?: boolean;
+  showRadical?: boolean;
 }
 
 const { 
@@ -12,8 +15,12 @@ const {
   pinyin = '', 
   translation = '', 
   size = 'medium',
-  showStroke = true 
+  showStroke = true,
+  showRadical = true
 } = Astro.props;
+
+// Obtener base URL para el componente RadicalAnalyzer
+const baseUrl = import.meta.env.BASE_URL || '/';
 
 // Calcular el código Unicode del carácter
 const charCode = hanzi.charCodeAt(0);
@@ -91,6 +98,13 @@ const config = sizeConfigs[size];
       <div class="stroke-info">
         <span class="stroke-label">Código: {charCode}</span>
       </div>
+    </div>
+  )}
+  
+  <!-- Análisis de radicales -->
+  {showRadical && (
+    <div class="radical-section">
+      <RadicalAnalyzer character={hanzi} baseUrl={baseUrl} />
     </div>
   )}
 </div>
@@ -255,8 +269,14 @@ const config = sizeConfigs[size];
     }
   }
   
+  .radical-section {
+    width: 100%;
+    margin-top: var(--space-md);
+  }
+  
   /* Animación para mostrar/ocultar detalles */
-  .chinese-character.expanded .stroke-section {
+  .chinese-character.expanded .stroke-section,
+  .chinese-character.expanded .radical-section {
     border-top: 1px solid var(--color-border-light);
     padding-top: var(--space-md);
     margin-top: var(--space-md);
