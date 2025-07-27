@@ -569,11 +569,16 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
         .character-pinyin {
           font-size: 1.1rem !important;
-          color: var(--color-revolutionary-red) !important;
           margin-top: 0.5rem !important;
           font-weight: 600 !important;
           font-family: 'Courier New', monospace !important;
         }
+        /* Los colores de tonos tienen prioridad sobre character-pinyin */
+        .character-pinyin.pinyin-syllable.tone-1 { color: #f44336 !important; }
+        .character-pinyin.pinyin-syllable.tone-2 { color: #ff9800 !important; }
+        .character-pinyin.pinyin-syllable.tone-3 { color: #4caf50 !important; }
+        .character-pinyin.pinyin-syllable.tone-4 { color: #2196f3 !important; }
+        .character-pinyin.pinyin-syllable.tone-5 { color: #9e9e9e !important; }
         
         /* Estilos para la sección de caracteres grandes */
         .chinese-large-display {
@@ -1013,13 +1018,14 @@ document.addEventListener('DOMContentLoaded', async function() {
           detailsHtml += `<div class="stroke-gifs">`;
           strokeGifs.forEach((gif, idx) => {
             const syllablePinyin = pinyinSyllables[idx] || gif.pinyin || gif.char;
+            const toneClass = getToneClass(syllablePinyin);
             detailsHtml += `<div class="stroke-gif">`;
             // Añadir numeración para múltiples caracteres
             if (strokeGifs.length > 1) {
               detailsHtml += `<div style="font-size: 0.7rem; color: #999; margin-bottom: 0.25rem;">${idx + 1}</div>`;
             }
             detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
-            detailsHtml += `<div class="character-pinyin">${syllablePinyin}</div>`;
+            detailsHtml += `<div class="character-pinyin pinyin-syllable ${toneClass}">${syllablePinyin}</div>`;
             detailsHtml += `</div>`;
           });
           detailsHtml += `</div>`;
