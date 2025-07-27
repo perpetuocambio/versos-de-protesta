@@ -380,26 +380,26 @@ wǒmen yào dǎzào jiāngù de guāncái!
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **guerra** | war | Krieg | guerra | война | voyna | 战争 | zhànzhēng | 16 | 戈 (lanza) | izquierda-derecha | sustantivo |
-| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 16 | 一 (uno) | compuesto | sustantivo |
-| **sagrada** | sacred | heilig | sagrada | священная | svyashchennaya | 神圣的 | shénshèng de | 20 | 一 (uno) | compuesto | adjetivo |
-| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | 16 | 一 (uno) | compuesto | sustantivo |
+| **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 16 | 法 (ley) | compuesto | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 8 | 扌 (mano) | izquierda-derecha | sustantivo |
+| **sagrada** | sacred | heilig | sagrada | священная | svyashchennaya | 神圣的 | shénshèng de | 10 | 示 (mostrar) | izquierda-derecha | adjetivo |
+| **patria** | homeland | Vaterland | pátria | родина | rodina | 祖国 | zǔguó | 10 | 示 (mostrar) | izquierda-derecha | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
 | **victoria** | victory | Sieg | vitória | победа | pobeda | 胜利 | shènglì | 14 | 力 (fuerza) | izquierda-derecha | sustantivo |
-| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | 16 | 一 (uno) | compuesto | sustantivo |
-| **heroico** | heroic | heldenhaft | heroico | героический | geroyicheskiy | 英勇的 | yīngyǒng de | 20 | 一 (uno) | compuesto | adjetivo |
+| **soldados** | soldiers | Soldaten | soldados | солдаты | soldaty | 士兵 | shìbīng | 10 | 士 (caballero) | izquierda-derecha | sustantivo |
+| **heroico** | heroic | heldenhaft | heroico | героический | geroyicheskiy | 英勇的 | yīngyǒng de | 15 | 艹 (hierba) + 力 (fuerza) | compuesto | adjetivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
-| **invasión** | invasion | Invasion | invasão | вторжение | vtorzheniye | 入侵 | rùqīn | 16 | 一 (uno) | compuesto | sustantivo |
-| **defensa** | defense | Verteidigung | defesa | оборона | oborona | 防御 | fángyù | 16 | 一 (uno) | compuesto | sustantivo |
+| **invasión** | invasion | Invasion | invasão | вторжение | vtorzheniye | 入侵 | rùqīn | 8 | 入 (entrar) + 亻 (persona) | compuesto | sustantivo |
+| **defensa** | defense | Verteidigung | defesa | оборона | oborona | 防御 | fángyù | 11 | 阝 (montículo) + 彳 (caminar) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **Operación Barbarroja** | Operation Barbarossa | Unternehmen Barbarossa | Operação Barbarossa | Операция Барбаросса | Operatsiya Barbarossa | 巴巴罗萨行动 | Bābāluósà xíngdòng | 18 | 亻 (persona) | izquierda-derecha | sustantivo |
-| **asedio Leningrado** | Siege of Leningrad | Belagerung Leningrads | cerco de Leningrado | блокада Ленинграда | blokada Leningrada | 列宁格勒围城 | Lièníngélè wéichéng | 20 | 一 (uno) | compuesto | sustantivo |
-| **frente oriental** | Eastern Front | Ostfront | frente oriental | Восточный фронт | Vostochnyy front | 东线战场 | dōngxiàn zhànchǎng | 20 | 一 (uno) | compuesto | sustantivo |
+| **asedio Leningrado** | Siege of Leningrad | Belagerung Leningrads | cerco de Leningrado | блокада Ленинграда | blokada Leningrada | 列宁格勒围城 | Lièníngélè wéichéng | 22 | 歹 (mal) + 宀 (techo) + 土 (tierra) | compuesto | sustantivo |
+| **frente oriental** | Eastern Front | Ostfront | frente oriental | Восточный фронт | Vostochnyy front | 东线战场 | dōngxiàn zhànchǎng | 18 | 木 (madera) + 纟 (seda) + 土 (tierra) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

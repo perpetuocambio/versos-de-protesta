@@ -10,11 +10,11 @@
     "language": "中文 pinyin",
     "code": "zh-pinyin",
     "wordCount": 117,
-    "lastUpdated": "2025-07-26T18:25:32.204Z",
+    "lastUpdated": "2025-07-27T00:06:36.244Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 162
+    "estimatedLoadTimeMs": 164
   },
   "chunks": [
     {
@@ -25,7 +25,7 @@
         "end": 12
       },
       "wordCount": 117,
-      "sizeKB": 81,
+      "sizeKB": 82,
       "path": "/internal/v1/dictionary/chunks/zh-pinyin-lessons-0-12.json"
     }
   ],

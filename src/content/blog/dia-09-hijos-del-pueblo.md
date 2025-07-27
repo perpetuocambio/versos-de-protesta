@@ -307,26 +307,26 @@ bùrú wèi lǐxiǎng ér sǐ.
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **anarquismo** | anarchism | Anarchismus | anarquismo | анархизм | anarkhizm | 无政府主义 | wúzhèngfǔ zhǔyì | 18 | 无 (nada) | arriba-abajo | sustantivo |
-| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | 16 | 一 (uno) | compuesto | sustantivo |
+| **opresión** | oppression | Unterdrückung | opressão | угнетение | ugneteniye | 压迫 | yāpò | 16 | 土 (tierra) + 白 (blanco) | compuesto | sustantivo |
 | **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结 | tuánjié | 14 | 囗 (recinto) | izquierda-derecha | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
-| **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | 20 | 一 (uno) | compuesto | sustantivo |
+| **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | 18 | 子 (hijo) + 亻 (persona) | compuesto | sustantivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 16 | 一 (uno) | compuesto | sustantivo |
-| **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | 16 | 一 (uno) | compuesto | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 9 | 止 (parar) + 丿 (línea) | compuesto | sustantivo |
+| **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | 10 | 干 (seco) + 竹 (bambú) | compuesto | sustantivo |
 | **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
-| **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | 16 | 一 (uno) | compuesto | sustantivo |
+| **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | 14 | 口 (boca) + 心 (corazón) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **Primera Internacional** | First International | Erste Internationale | Primeira Internacional | Первый Интернационал | Pervyy Internatsional | 第一国际 | dì-yī guójì | 16 | 囗 (recinto) | encierro | sustantivo |
-| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | 20 | 一 (uno) | compuesto | sustantivo |
-| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | 20 | 一 (uno) | compuesto | sustantivo |
-| **sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
-| **federación** | federation | Föderation | federação | федерация | federatsiya | 联邦 | liánbāng | 16 | 一 (uno) | compuesto | sustantivo |
+| **acción directa** | direct action | direkte Aktion | ação direta | прямое действие | pryamoye deystviye | 直接行动 | zhíjiē xíngdòng | 20 | 十 (diez) + 辶 (caminar) + 彳 (caminar) | compuesto | sustantivo |
+| **huelga general** | general strike | Generalstreik | greve geral | всеобщая забастовка | vseobshchaya zabastovka | 总罢工 | zǒng bàgōng | 18 | 总 (total) + 工 (trabajo) | compuesto | sustantivo |
+| **sindicalismo** | syndicalism | Syndikalismus | sindicalismo | синдикализм | sindikalizm | 工团主义 | gōngtuán zhǔyì | 17 | 工 (trabajo) + 囗 (recinto) + 主 (señor) | compuesto | sustantivo |
+| **federación** | federation | Föderation | federação | федерация | federatsiya | 联邦 | liánbāng | 12 | 车 (carro) + 阝 (montículo) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

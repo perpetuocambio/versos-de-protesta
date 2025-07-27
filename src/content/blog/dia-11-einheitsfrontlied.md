@@ -277,20 +277,20 @@ Bùyào wàngjì!
 | **liberación** | liberation | Befreiung | libertação | освобождение | osvobozhdeniye | 解放 | jiěfàng | 13 | 手 (mano) | izquierda-derecha | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
-| **alianza** | alliance | Bündnis | aliança | альянс | al'yans | 联盟 | liánméng | 16 | 一 (uno) | compuesto | sustantivo |
-| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结互助 | tuánjié hùzhù | 20 | 一 (uno) | compuesto | sustantivo |
-| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 16 | 一 (uno) | compuesto | sustantivo |
-| **comunista** | communist | Kommunist | comunista | коммунист | kommunist | 共产主义者 | gòngchǎn zhǔyì zhě | 20 | 一 (uno) | compuesto | sustantivo |
-| **socialista** | socialist | Sozialist | socialista | социалист | sotsialist | 社会主义者 | shèhuì zhǔyì zhě | 20 | 一 (uno) | compuesto | sustantivo |
+| **alianza** | alliance | Bündnis | aliança | альянс | al'yans | 联盟 | liánméng | 8 | 车 (carro) | izquierda-derecha | sustantivo |
+| **solidaridad** | solidarity | Solidarität | solidariedade | солидарность | solidarnost' | 团结互助 | tuánjié hùzhù | 17 | 因 (causa) | izquierda-derecha | sustantivo |
+| **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 8 | 扌 (mano) | izquierda-derecha | sustantivo |
+| **comunista** | communist | Kommunist | comunista | коммунист | kommunist | 共产主义者 | gòngchǎn zhǔyì zhě | 16 | 共 (junto) | compuesto | sustantivo |
+| **socialista** | socialist | Sozialist | socialista | социалист | sotsialist | 社会主义者 | shèhuì zhǔyì zhě | 16 | 示 (mostrar) | compuesto | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **fascismo** | fascism | Faschismus | fascismo | фашизм | fashizm | 法西斯主义 | fǎxīsī zhǔyì | 15 | 法 (ley) | izquierda-derecha | sustantivo |
-| **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó | 16 | 一 (uno) | compuesto | sustantivo |
-| **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | 20 | 一 (uno) | compuesto | sustantivo |
-| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | 20 | 一 (uno) | compuesto | adjetivo |
+| **Reich** | Reich | Reich | Reich | рейх | reykh | 帝国 | dìguó | 9 | 巾 (tela) | arriba-abajo | sustantivo |
+| **proletario** | proletarian | Prolet | proletário | пролетарий | proletariy | 无产者 | wúchǎnzhě | 11 | 无 (sin) | compuesto | sustantivo |
+| **antifascista** | antifascist | Antifaschist | antifascista | антифашист | antifashist | 反法西斯 | fǎn fǎxīsī | 12 | 反 (oponer) | izquierda-derecha | adjetivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
 
 ### NÚMEROS HISTÓRICOS

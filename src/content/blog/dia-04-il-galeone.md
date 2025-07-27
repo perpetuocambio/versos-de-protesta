@@ -625,25 +625,25 @@ Ràng wǒmen fāshì, fāshì zhèngyì!
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **galeón** | galleon | Galeone | galeão | галеон | galeon | 大帆船 | dà fānchuán | 12 | 船 (barco) | izquierda-derecha | sustantivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
-| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | 16 | 一 (uno) | compuesto | sustantivo |
-| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | 16 | 一 (uno) | compuesto | sustantivo |
-| **viento** | wind | Wind | vento | ветер | veter | 风 | fēng | 8 | 一 (uno) | independiente | sustantivo |
-| **oleada** | wave | Welle | onda | волна | volna | 波浪 | bōlàng | 16 | 一 (uno) | compuesto | sustantivo |
-| **esclavo** | slave | Sklave | escravo | раб | rab | 奴隶 | núlì | 16 | 一 (uno) | compuesto | sustantivo |
-| **cadenas** | chains | Ketten | correntes | цепи | tsepi | 锁链 | suǒliàn | 16 | 一 (uno) | compuesto | sustantivo |
+| **marineros** | sailors | Seeleute | marinheiros | моряки | moryaki | 船员 | chuányuán | 16 | 舟 (barco) + 口 (boca) | compuesto | sustantivo |
+| **puerto** | port | Hafen | porto | порт | port | 港口 | gǎngkǒu | 15 | 氵 (agua) + 口 (boca) | compuesto | sustantivo |
+| **viento** | wind | Wind | vento | ветер | veter | 风 | fēng | 4 | 风 (viento) | independiente | sustantivo |
+| **oleada** | wave | Welle | onda | волна | volna | 波浪 | bōlàng | 10 | 氵 (agua) | izquierda-derecha | sustantivo |
+| **esclavo** | slave | Sklave | escravo | раб | rab | 奴隶 | núlì | 12 | 女 (mujer) | izquierda-derecha | sustantivo |
+| **cadenas** | chains | Ketten | correntes | цепи | tsepi | 锁链 | suǒliàn | 13 | 钅 (metal) | izquierda-derecha | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
-| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | 16 | 一 (uno) | compuesto | sustantivo |
+| **muerte** | death | Tod | morte | смерть | smert' | 死亡 | sǐwáng | 9 | 歹 (mal) | izquierda-derecha | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | 7 | 手 (mano) | izquierda-derecha | sustantivo |
-| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | 16 | 一 (uno) | compuesto | sustantivo |
-| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | 16 | 一 (uno) | compuesto | sustantivo |
+| **contestación** | protest | Protest | contestação | протест | protest | 抗议 | kàngyì | 7 | 扌 (mano) | izquierda-derecha | sustantivo |
+| **movimiento** | movement | Bewegung | movimento | движение | dvizhenie | 运动 | yùndòng | 11 | 辶 (caminar) | izquierda-derecha | sustantivo |
+| **esperanza** | hope | Hoffnung | esperança | надежда | nadezhda | 希望 | xīwàng | 10 | 巾 (tela) | izquierda-derecha | sustantivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
-| **anarquía** | anarchy | Anarchie | anarquia | анархия | anarkhiya | 无政府主义 | wú zhèngfǔ zhǔyì | 20 | 一 (uno) | compuesto | sustantivo |
+| **anarquía** | anarchy | Anarchie | anarquia | анархия | anarkhiya | 无政府主义 | wú zhèngfǔ zhǔyì | 16 | 无 (sin) | compuesto | sustantivo |
 
 ### NÚMEROS HISTÓRICOS
 

@@ -10,11 +10,11 @@
     "language": "中文",
     "code": "zh",
     "wordCount": 115,
-    "lastUpdated": "2025-07-26T18:25:32.204Z",
+    "lastUpdated": "2025-07-27T00:06:36.244Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 154
+    "estimatedLoadTimeMs": 156
   },
   "chunks": [
     {
@@ -25,7 +25,7 @@
         "end": 12
       },
       "wordCount": 115,
-      "sizeKB": 77,
+      "sizeKB": 78,
       "path": "/internal/v1/dictionary/chunks/zh-lessons-0-12.json"
     }
   ],

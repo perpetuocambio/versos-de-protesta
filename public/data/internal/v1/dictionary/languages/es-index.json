@@ -10,11 +10,11 @@
     "language": "español",
     "code": "es",
     "wordCount": 124,
-    "lastUpdated": "2025-07-26T18:25:32.204Z",
+    "lastUpdated": "2025-07-27T00:06:36.244Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 160
+    "estimatedLoadTimeMs": 162
   },
   "chunks": [
     {
@@ -25,7 +25,7 @@
         "end": 12
       },
       "wordCount": 124,
-      "sizeKB": 80,
+      "sizeKB": 81,
       "path": "/internal/v1/dictionary/chunks/es-lessons-0-12.json"
     }
   ],

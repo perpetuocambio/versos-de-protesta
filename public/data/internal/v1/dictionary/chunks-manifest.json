@@ -11,21 +11,21 @@
     "totalChunks": 8,
     "scalabilityTarget": "100+ lessons",
     "estimatedMaxSizeAt100Lessons": "750KB per language",
-    "generated": "2025-07-26T18:25:32.410Z"
+    "generated": "2025-07-27T00:06:36.458Z"
   },
   "languages": [
     {
       "code": "es",
       "totalChunks": 1,
       "totalWords": 124,
-      "estimatedSizeKB": 80,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/es-*"
     },
     {
       "code": "en",
       "totalChunks": 1,
       "totalWords": 123,
-      "estimatedSizeKB": 80,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/en-*"
     },
     {
@@ -39,35 +39,35 @@
       "code": "pt",
       "totalChunks": 1,
       "totalWords": 123,
-      "estimatedSizeKB": 80,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/pt-*"
     },
     {
       "code": "ru",
       "totalChunks": 1,
       "totalWords": 122,
-      "estimatedSizeKB": 80,
+      "estimatedSizeKB": 81,
       "chunksPath": "/internal/v1/dictionary/chunks/ru-*"
     },
     {
       "code": "ru-rom",
       "totalChunks": 1,
       "totalWords": 130,
-      "estimatedSizeKB": 85,
+      "estimatedSizeKB": 86,
       "chunksPath": "/internal/v1/dictionary/chunks/ru-rom-*"
     },
     {
       "code": "zh",
       "totalChunks": 1,
       "totalWords": 115,
-      "estimatedSizeKB": 77,
+      "estimatedSizeKB": 78,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-*"
     },
     {
       "code": "zh-pinyin",
       "totalChunks": 1,
       "totalWords": 117,
-      "estimatedSizeKB": 81,
+      "estimatedSizeKB": 82,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-pinyin-*"
     }
   ],
