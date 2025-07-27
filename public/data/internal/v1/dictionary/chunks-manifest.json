@@ -11,7 +11,7 @@
     "totalChunks": 8,
     "scalabilityTarget": "100+ lessons",
     "estimatedMaxSizeAt100Lessons": "750KB per language",
-    "generated": "2025-07-27T10:00:44.240Z"
+    "generated": "2025-07-27T15:11:12.379Z"
   },
   "languages": [
     {
@@ -66,8 +66,8 @@
     {
       "code": "zh-pinyin",
       "totalChunks": 1,
-      "totalWords": 115,
-      "estimatedSizeKB": 82,
+      "totalWords": 117,
+      "estimatedSizeKB": 83,
       "chunksPath": "/internal/v1/dictionary/chunks/zh-pinyin-*"
     }
   ],

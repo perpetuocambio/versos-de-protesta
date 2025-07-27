@@ -9,7 +9,7 @@
     "ru": 122,
     "ruRom": 130,
     "zh": 115,
-    "zhPinyin": 115
+    "zhPinyin": 117
   },
   "byLesson": {
     "Día 0": 12,
@@ -26,6 +26,6 @@
     "Día 11": 11,
     "Día 12": 17
   },
-  "lastUpdated": "2025-07-27T10:00:44.032Z",
+  "lastUpdated": "2025-07-27T15:11:12.153Z",
   "generatedBy": "build-dictionary.mjs v1.0"
 }

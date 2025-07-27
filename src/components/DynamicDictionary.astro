@@ -219,6 +219,12 @@ const { language, initialWords = 20, availableLangs, baseUrl } = Astro.props;
   }
 
   /* Estilos para el modal */
+  .pinyin-syllable.tone-1 { color: #f44336; }
+  .pinyin-syllable.tone-2 { color: #ff9800; }
+  .pinyin-syllable.tone-3 { color: #4caf50; }
+  .pinyin-syllable.tone-4 { color: #2196f3; }
+  .pinyin-syllable.tone-5 { color: #9e9e9e; }
+
   .modal-entry {
     margin-bottom: var(--space-lg);
     padding-bottom: var(--space-lg);
@@ -561,6 +567,13 @@ document.addEventListener('DOMContentLoaded', async function() {
           font-weight: 600 !important;
           font-family: 'SimSun', '宋体', serif !important;
         }
+        .character-pinyin {
+          font-size: 1.1rem !important;
+          color: var(--color-revolutionary-red) !important;
+          margin-top: 0.5rem !important;
+          font-weight: 600 !important;
+          font-family: 'Courier New', monospace !important;
+        }
         
         /* Estilos para la sección de caracteres grandes */
         .chinese-large-display {
@@ -860,66 +873,51 @@ document.addEventListener('DOMContentLoaded', async function() {
     "昨": 9, "早": 6, "晚": 11, "夜": 8, "午": 4, "晨": 11, "夕": 3, "朝": 12
   };
 
-  // Función para obtener pinyin de un carácter desde el diccionario
-  function getCharacterPinyin(character) {
-    if (!dictionaryData || !dictionaryData.words) return "";
-    
-    // Buscar en todas las palabras del diccionario
-    for (const [word, data] of Object.entries(dictionaryData.words)) {
-      if (data.entries) {
-        for (const entry of data.entries) {
-          if (entry.allTranslations?.zh?.includes(character)) {
-            const zhText = entry.allTranslations.zh;
-            const pinyinText = entry.allTranslations.zhPinyin;
-            
-            if (zhText && pinyinText) {
-              const charIndex = zhText.indexOf(character);
-              if (charIndex !== -1) {
-                // Intentar extraer el pinyin correspondiente
-                const pinyinParts = pinyinText.split(/\s+/);
-                if (pinyinParts[charIndex]) {
-                  return pinyinParts[charIndex];
-                }
-                // Si no se puede mapear exactamente, devolver el primer pinyin
-                return pinyinParts[0] || "";
-              }
-            }
-          }
-        }
-      }
-    }
-    
-    // Pinyins básicos más comunes como fallback
-    const commonPinyin = {
-      "人": "rén", "民": "mín", "国": "guó", "工": "gōng", "党": "dǎng",
-      "革": "gé", "命": "mìng", "反": "fǎn", "抗": "kàng", "斗": "dòu",
-      "争": "zhēng", "战": "zhàn", "胜": "shèng", "利": "lì", "力": "lì",
-      "土": "tǔ", "地": "dì", "农": "nóng", "劳": "láo", "作": "zuò",
-      "自": "zì", "由": "yóu", "主": "zhǔ", "义": "yì", "社": "shè",
-      "会": "huì", "解": "jiě", "放": "fàng", "团": "tuán", "结": "jié",
-      "联": "lián", "盟": "méng", "起": "qǐ", "来": "lái", "权": "quán",
-      "一": "yī", "二": "èr", "三": "sān", "四": "sì", "五": "wǔ",
-      "六": "liù", "七": "qī", "八": "bā", "九": "jiǔ", "十": "shí"
-    };
-    
-    return commonPinyin[character] || "";
-  }
+  
 
   // Función para convertir caracteres chinos a códigos Unicode decimales - ARCHIVOS LOCALES
+    
+
+    function getToneClass(pinyin) {
+    if (/[āēīōū]/.test(pinyin)) return 'tone-1';
+    if (/[áéíóú]/.test(pinyin)) return 'tone-2';
+    if (/[ǎěǐǒǔ]/.test(pinyin)) return 'tone-3';
+    if (/[àèìòù]/.test(pinyin)) return 'tone-4';
+    return 'tone-5';
+  }
+
+  function renderPinyinWithTones(pinyin) {
+    if (!pinyin) return '';
+    return pinyin.split(/\s+/).map(syllable => 
+      `<span class="pinyin-syllable ${getToneClass(syllable)}">${syllable}</span>`
+    ).join(' ');
+  }
+
+    let characterData = {};
+
+  async function loadCharacterData() {
+    try {
+      const response = await fetch(`${baseUrl}data/chinese/character-data.json`);
+      if (!response.ok) throw new Error('No se pudo cargar los datos de los caracteres');
+      characterData = await response.json();
+    } catch (err) {
+      console.error('Error cargando los datos de los caracteres:', err);
+    }
+  }
+
   function getChineseStrokeGifs(chineseText) {
     if (!chineseText || typeof chineseText !== 'string') return [];
     
     const gifs = [];
     for (let i = 0; i < chineseText.length; i++) {
       const char = chineseText[i];
-      // Verificar que sea un carácter chino (CJK)
       if (/[\u4e00-\u9fff]/.test(char)) {
         const unicodeDecimal = char.codePointAt(0);
-        const pinyin = getCharacterPinyin(char);
+        const data = characterData[char] || {};
         gifs.push({
           char: char,
-          pinyin: pinyin,
-          url: `${baseUrl}data/chinese/strokes/${unicodeDecimal}.gif`,
+          pinyin: data.pinyin || '',
+          url: `${baseUrl}data/chinese/strokes/${data.file || `${unicodeDecimal}.gif`}`,
           attribution: "MDBG Chinese Dictionary (mdbg.net)"
         });
       }
@@ -952,7 +950,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 detailsHtml += `<li><strong>zh (hanzi):</strong> ${translations.zh}</li>`;
             }
             if (translations.zhPinyin) {
-                detailsHtml += `<li><strong>zh (pinyin):</strong> ${translations.zhPinyin}</li>`;
+                detailsHtml += `<li><strong>zh (pinyin):</strong> ${renderPinyinWithTones(translations.zhPinyin)}</li>`;
             }
             if (translations.zhStrokes) {
                 detailsHtml += `<li><strong>zh (trazos):</strong> ${translations.zhStrokes}</li>`;
@@ -987,32 +985,41 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     if (language === 'zh' || language === 'zh-pinyin' || containsChinese) {
       let chineseText = '';
+      let pinyinText = '';
       
       if (language === 'zh') {
         chineseText = word;
+        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
       } else if (language === 'zh-pinyin') {
         chineseText = data.entries[0]?.allTranslations?.zh || data.entries[0]?.translations?.zh || '';
+        pinyinText = word;
       } else if (containsChinese && /[\u4e00-\u9fff]/.test(word)) {
         chineseText = word;
+        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
       } else if (containsChinese && data.entries[0]?.allTranslations?.zh) {
         chineseText = data.entries[0].allTranslations.zh;
+        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
       }
       
       if (chineseText && typeof chineseText === 'string') {
         const strokeGifs = getChineseStrokeGifs(chineseText);
+        
+        // Extraer pinyin individual para cada carácter
+        const pinyinSyllables = pinyinText ? pinyinText.split(' ') : [];
         
         if (strokeGifs.length > 0) {
           detailsHtml += `<div class="stroke-section">`;
           detailsHtml += `<h4>✍️ Orden de trazos (${strokeGifs.length} carácter${strokeGifs.length > 1 ? 'es' : ''}):</h4>`;
           detailsHtml += `<div class="stroke-gifs">`;
           strokeGifs.forEach((gif, idx) => {
+            const syllablePinyin = pinyinSyllables[idx] || gif.pinyin || gif.char;
             detailsHtml += `<div class="stroke-gif">`;
             // Añadir numeración para múltiples caracteres
             if (strokeGifs.length > 1) {
               detailsHtml += `<div style="font-size: 0.7rem; color: #999; margin-bottom: 0.25rem;">${idx + 1}</div>`;
             }
             detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
-            detailsHtml += `<div>${gif.pinyin || gif.char}</div>`;
+            detailsHtml += `<div class="character-pinyin">${syllablePinyin}</div>`;
             detailsHtml += `</div>`;
           });
           detailsHtml += `</div>`;
@@ -1074,6 +1081,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
     
     await loadDictionaryData();
+    await loadCharacterData();
     setupEventListeners();
     
     // Configurar event listeners del modal después de cargar el contenido

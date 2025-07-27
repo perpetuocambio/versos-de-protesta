@@ -24,6 +24,7 @@ const PROJECT_ROOT = path.join(__dirname, '..');
 const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'languages', 'zh.json');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'strokes');
 const METADATA_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'strokes-metadata.json');
+const CHARACTER_DATA_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'character-data.json');
 
 // Crear directorios si no existen
 function ensureDirectoryExists(dirPath) {
@@ -91,52 +92,113 @@ function extractUniqueChineseCharacters() {
 // Descargar un archivo de trazo individual
 async function downloadStrokeGif(character, retries = 3) {
   const unicodeDecimal = character.codePointAt(0);
-  const url = `https://www.mdbg.net/chinese/rsc/img/stroke_anim/${unicodeDecimal}.gif`;
-  const filename = `${unicodeDecimal}.gif`;
-  const filepath = path.join(OUTPUT_DIR, filename);
-  
-  // Saltar si ya existe
-  if (fs.existsSync(filepath)) {
-    return { success: true, cached: true, char: character, file: filename };
+  const gifUrl = `https://www.mdbg.net/chinese/rsc/img/stroke_anim/${unicodeDecimal}.gif`;
+  const svgUrl = `https://www.mdbg.net/chinese/rsc/img/hw-char-background.svg`; // Common SVG fallback
+  const gifFilename = `${unicodeDecimal}.gif`;
+  const svgFilename = `${unicodeDecimal}.svg`;
+  const gifFilepath = path.join(OUTPUT_DIR, gifFilename);
+  const svgFilepath = path.join(OUTPUT_DIR, svgFilename);
+
+  // Check if GIF already exists
+  if (fs.existsSync(gifFilepath)) {
+    return { success: true, cached: true, char: character, file: gifFilename };
   }
-  
+  // Check if SVG already exists
+  if (fs.existsSync(svgFilepath)) {
+    return { success: true, cached: true, char: character, file: svgFilename };
+  }
+
   try {
-    console.log(`⬇️  Descargando: ${character} (${unicodeDecimal}) -> ${filename}`);
-    
-    const response = await fetch(url);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    console.log(`⬇️  Descargando: ${character} (${unicodeDecimal})`);
+    let response;
+    let filepathToSave;
+    let filenameToSave;
+
+    // Try GIF first
+    try {
+      response = await fetch(gifUrl);
+      if (response.ok) {
+        filepathToSave = gifFilepath;
+        filenameToSave = gifFilename;
+      } else if (response.status === 404) {
+        // If GIF not found, try SVG
+        console.log(`   ℹ️ GIF no encontrado para ${character}, intentando SVG...`);
+        response = await fetch(svgUrl);
+        if (response.ok) {
+          filepathToSave = svgFilepath;
+          filenameToSave = svgFilename;
+        } else {
+          throw new Error(`HTTP ${response.status}: ${response.statusText} for SVG`);
+        }
+      } else {
+        throw new Error(`HTTP ${response.status}: ${response.statusText} for GIF`);
+      }
+    } catch (gifError) {
+      // If GIF fetch fails for other reasons, try SVG
+      console.log(`   ⚠️ Error GIF para ${character}: ${gifError.message}, intentando SVG...`);
+      response = await fetch(svgUrl);
+      if (response.ok) {
+        filepathToSave = svgFilepath;
+        filenameToSave = svgFilename;
+      } else {
+        throw new Error(`HTTP ${response.status}: ${response.statusText} for SVG`);
+      }
     }
-    
+
     const buffer = await response.arrayBuffer();
-    fs.writeFileSync(filepath, Buffer.from(buffer));
-    
+    fs.writeFileSync(filepathToSave, Buffer.from(buffer));
+
     // Pequeña pausa para no sobrecargar el servidor
     await new Promise(resolve => setTimeout(resolve, 100));
-    
-    return { 
-      success: true, 
-      cached: false, 
-      char: character, 
-      file: filename,
-      size: buffer.byteLength 
+
+    return {
+      success: true,
+      cached: false,
+      char: character,
+      file: filenameToSave,
+      size: buffer.byteLength
     };
-    
+
   } catch (error) {
     console.error(`❌ Error descargando ${character}: ${error.message}`);
-    
+
     if (retries > 0) {
       console.log(`🔄 Reintentando... (${retries} intentos restantes)`);
       await new Promise(resolve => setTimeout(resolve, 1000));
       return await downloadStrokeGif(character, retries - 1);
     }
-    
-    return { 
-      success: false, 
-      char: character, 
-      error: error.message 
+
+    return {
+      success: false,
+      char: character,
+      error: error.message
     };
+  }
+}
+
+// Obtener datos de un caracter
+async function getCharacterData(character) {
+  const url = `https://www.mdbg.net/chinese/dictionary-ajax?c=cdq&i=${encodeURIComponent(character)}`;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const text = await response.text();
+    const pinyinMatch = text.match(/<span class="pinyin">([^<]+)<\/span>/);
+    const radicalMatch = text.match(/Radical: <a[^>]+>([^<]+)<\/a>/);
+    const strokesMatch = text.match(/Strokes: <span class="strokes">(\d+)<\/span>/);
+    const structureMatch = text.match(/Ideographic description: ([^<]+)/);
+
+    return {
+      pinyin: pinyinMatch ? pinyinMatch[1] : '',
+      radical: radicalMatch ? radicalMatch[1] : '',
+      strokes: strokesMatch ? parseInt(strokesMatch[1], 10) : null,
+      structure: structureMatch ? structureMatch[1].trim() : null
+    };
+  } catch (error) {
+    console.error(`❌ Error obteniendo datos para ${character}: ${error.message}`);
+    return null;
   }
 }
 
@@ -169,11 +231,26 @@ async function downloadAllStrokes() {
     }
   };
   
+  // Cargar datos de caracteres existentes
+  let characterData = {};
+  if (fs.existsSync(CHARACTER_DATA_FILE)) {
+    characterData = JSON.parse(fs.readFileSync(CHARACTER_DATA_FILE, 'utf8'));
+  }
+
   // Procesar en lotes para no sobrecargar
   const BATCH_SIZE = 10;
   for (let i = 0; i < characters.length; i += BATCH_SIZE) {
     const batch = characters.slice(i, i + BATCH_SIZE);
-    const batchPromises = batch.map(char => downloadStrokeGif(char));
+    const batchPromises = batch.map(async (char) => {
+      const gifResult = await downloadStrokeGif(char);
+      if (gifResult.success && !gifResult.cached) {
+        const data = await getCharacterData(char);
+        if (data) {
+          characterData[char] = data;
+        }
+      }
+      return gifResult;
+    });
     
     const batchResults = await Promise.all(batchPromises);
     
@@ -203,8 +280,9 @@ async function downloadAllStrokes() {
   results.endTime = new Date();
   results.duration = results.endTime - results.startTime;
   
-  // Guardar metadatos
+  // Guardar metadatos y datos de caracteres
   fs.writeFileSync(METADATA_FILE, JSON.stringify(results, null, 2), 'utf8');
+  fs.writeFileSync(CHARACTER_DATA_FILE, JSON.stringify(characterData, null, 2), 'utf8');
   
   // Resumen final
   console.log(`\n✅ DESCARGA COMPLETADA`);

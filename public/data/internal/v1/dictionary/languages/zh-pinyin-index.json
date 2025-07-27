@@ -9,12 +9,12 @@
   "meta": {
     "language": "中文 pinyin",
     "code": "zh-pinyin",
-    "wordCount": 115,
-    "lastUpdated": "2025-07-27T10:00:44.032Z",
+    "wordCount": 117,
+    "lastUpdated": "2025-07-27T15:11:12.153Z",
     "generatedBy": "partition-dictionary.mjs v1.0",
     "totalChunks": 1,
     "chunkingOptimized": true,
-    "estimatedLoadTimeMs": 164
+    "estimatedLoadTimeMs": 166
   },
   "chunks": [
     {
@@ -24,8 +24,8 @@
         "start": 0,
         "end": 12
       },
-      "wordCount": 115,
-      "sizeKB": 82,
+      "wordCount": 117,
+      "sizeKB": 83,
       "path": "/internal/v1/dictionary/chunks/zh-pinyin-lessons-0-12.json"
     }
   ],
@@ -47,14 +47,14 @@
     },
     "popularWords": [
       {
-        "word": "gō ngré n",
+        "word": "gōng rén",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gō ngtuá n zhǔ yì",
+        "word": "gōngtuán zhǔyì",
         "frequency": 2,
         "chunkNumbers": [
           0
@@ -75,105 +75,98 @@
         ]
       },
       {
-        "word": "shè nglì",
+        "word": "shèng lì",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "tò ngkǔ",
+        "word": "tòng kǔ",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "tó ngzhì",
+        "word": "tóng zhì",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "tuá njié",
+        "word": "tuán jié",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "wú zhè ngfǔ zhǔ yì",
+        "word": "wú zhèngfǔ zhǔyì",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "xí ngjì n",
+        "word": "xíng jìn",
         "frequency": 2,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "bèi zhà nshè ng de",
+        "word": "bèi zhànshèng de",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "bō là ng",
+        "word": "bō làng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "chà ng",
+        "word": "chàng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "chū xià n",
+        "word": "chū xiàn",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "chuá nyuá n",
+        "word": "chuán yuán",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dà fā nchuá n",
+        "word": "dà fānchuán",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dě ngdài",
+        "word": "děng dài",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dí ré n",
-        "frequency": 1,
-        "chunkNumbers": [
-          0
-        ]
-      },
-      {
-        "word": "dì xià de",
+        "word": "dí rén",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -187,182 +180,189 @@
         ]
       },
       {
-        "word": "dì-yī guó jì",
+        "word": "dì-yī guójì",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dō ngfā ng",
+        "word": "dìxià de",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dō ngxià n zhà nchǎ ng",
+        "word": "dōng fāng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "dòu zhē ng",
+        "word": "dōngxiàn zhànchǎng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fǎ n fǎ xī sī",
+        "word": "dòu zhēng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fǎ n yóu zhǔ yì",
+        "word": "fǎn fǎxīsī",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fá ngyù",
+        "word": "fǎn kàng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fǎ nkà ng",
+        "word": "fǎn yóu zhǔyì",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fǎ xī sī zhǔ yì",
+        "word": "fáng yù",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fē ng",
+        "word": "fǎxīsī zhǔyì",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fē ngbào",
+        "word": "fèi téng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "fèi té ng",
+        "word": "fēng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gǎ ngkǒu",
+        "word": "fēng bào",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gò ngchǎ n zhǔ yì zhě",
+        "word": "gǎng kǒu",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gò ngchǎ ndǎ ng",
+        "word": "gòng chǎn dǎng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gò nghé guó",
+        "word": "gòng hé guó",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gō ngré n jiē jí",
+        "word": "gōng shè",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gō ngshè",
+        "word": "gòngchǎn zhǔyì zhě",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gōu lǒ ng",
+        "word": "gōngrén jiējí",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "gù nó ng",
+        "word": "gōu lǒng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "hà nshuǐ",
+        "word": "gùn óng",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "hà nwèi",
+        "word": "háizi men",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "hái zi me n",
+        "word": "hàn shuǐ",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "hēi sè de",
+        "word": "hàn wèi",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "hó ng",
+        "word": "hēisè de",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "huà nxiǎ ng",
+        "word": "hóng",
+        "frequency": 1,
+        "chunkNumbers": [
+          0
+        ]
+      },
+      {
+        "word": "huàn xiǎng",
         "frequency": 1,
         "chunkNumbers": [
           0
@@ -376,21 +376,21 @@
         ]
       },
       {
-        "word": "jiā ng shì",
+        "word": "jiāng shì",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "jiāo guà n",
+        "word": "jiāo guàn",
         "frequency": 1,
         "chunkNumbers": [
           0
         ]
       },
       {
-        "word": "jiě fà ng zhě",
+        "word": "jiěfàng zhě",
         "frequency": 1,
         "chunkNumbers": [
           0

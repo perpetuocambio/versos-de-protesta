@@ -331,7 +331,8 @@ immediate_quality_improvements:
           issues: "Algunos archivos tienen francés (prohibido) o faltan idiomas principales" 
           pattern: "Archivo por archivo → verificar 'Para Saber Más' → identificar faltantes → completar"
           output: "Todos los archivos con enlaces Wikipedia en los 5 idiomas mínimos"
-          status: "en_progreso"
+          status: "completado"
+          completed: ["Day 0", "Day 4", "Day 9", "Day 10", "Day 12", "archivos menores verificados"]
           
       - romanization_completeness_check:
           description: "Verificar romanizaciones completas en textos (ruRom + pinyin)"
@@ -339,7 +340,19 @@ immediate_quality_improvements:
           issue: "Algunos textos tienen cirílico sin romanización o hanzi sin pinyin"
           pattern: "Buscar secciones РУССКИЙ ROM. y PINYIN → verificar completitud"
           output: "Todos los textos con romanizaciones completas"
-          status: "pendiente"
+          status: "completado"
+          completed: ["Día 7 corregido - añadidas secciones 中文 y PINYIN faltantes"]
+          
+      - aesthetic_content_fixes:
+          description: "Actualizar about.astro y páginas + arreglar timeline"
+          scope: "Cambiar 'revolucionarias' a 'protesta', bordes popup, leyendas eje X, excluir Day 0 y especiales"
+          actions_completed:
+            - "Cambiadas referencias 'revolucionarias' → 'protesta' en index.astro, about.astro, diccionario"
+            - "Timeline mejorado: altura 450px, overflow visible, padding mejorado"
+            - "Leyendas eje X visibles con fondo blanco y bordes"
+            - "Excluidos Day 0 y especiales del timeline"
+            - "Tooltips mejorados con box shadows y márgenes"
+          status: "completado"
           
       - dictionary_discrepancies_fix:
           description: "Corregir discrepancias en diccionario JSON - idiomas con palabras faltantes"
@@ -349,19 +362,52 @@ immediate_quality_improvements:
           status: "completado_mayormente"
           note: "Script procesa correctamente las tablas principales. Discrepancias restantes son mínimas y aceptables"
 
+  pinyin_segmentation_critical_fix:
+    priority: "CRÍTICA INMEDIATA"
+    estimated_time: "1-2 días"
+    problem: "Pinyin concatenado sin espacios en diccionario y modal chino"
+    symptoms:
+      - "Modal muestra 'hànwèi' en lugar de 'hàn wèi' (espacios entre sílabas)"
+      - "Character-data.json falta pinyin para caracteres individuales"
+      - "Trazos no muestran pinyin debajo como antes"
+      - "DynamicDictionary no segmenta pinyin correctamente"
+    critical_issues:
+      - "build-dictionary.mjs NO segmenta pinyin concatenado de tablas markdown"
+      - "download-chinese-strokes.mjs NO extrae pinyin individual de MDBG"
+      - "DynamicDictionary.astro confía en datos pre-segmentados inexistentes"
+    solution_components:
+      - pinyin_syllable_dictionary:
+          file: "/scripts/pinyin-syllables.json"
+          description: "Diccionario completo sílabas pinyin válidas para segmentación"
+          content: "Todas las sílabas pinyin con tonos 1-4 + neutral"
+      - build_dictionary_pinyin_fix:
+          file: "/scripts/build-dictionary.mjs"
+          description: "Integrar segmentación pinyin con longest-match algorithm"
+          implementation: "Usar diccionario sílabas para dividir strings concatenados"
+      - character_data_pinyin_fix:
+          file: "/scripts/download-chinese-strokes.mjs" 
+          description: "Extraer pinyin individual de páginas MDBG carácter por carácter"
+          implementation: "Parsear correctamente HTML MDBG para pinyin individual"
+      - dynamic_dictionary_display_fix:
+          file: "/src/components/DynamicDictionary.astro"
+          description: "Mostrar pinyin segmentado + individual en trazos"
+          implementation: "Usar datos segmentados de JSON + individual de character-data"
+    status: "pendiente_crítico"
+
 next_immediate_actions:
   # ORDEN DE PRIORIDAD ACTUALIZADO (27/07/2025)
-  1. "CRÍTICO: AUDITORÍA ENLACES WIKIPEDIA - Verificar que todos los archivos tengan enlaces en EN/DE/ZH/RU/PT mínimo"
-  2. "CRÍTICO: VERIFICAR ROMANIZACIONES - Revisar que todos los textos tengan ruRom y pinyin completos"
+  1. "🔥 CRÍTICO INMEDIATO: ARREGLAR SEGMENTACIÓN PINYIN - Espacios entre sílabas en diccionario y modal chino"
+  2. "CRÍTICO: Automatizar mantenimiento datos chinos - imágenes trazos y análisis radicales se quedan huérfanos con vocabulario nuevo"
   3. "CRÍTICO: Verificar y corregir letras de canciones contra Wikipedia en Días 0-12" 
-  4. "CRÍTICO: Automatizar mantenimiento datos chinos - imágenes trazos y análisis radicales se quedan huérfanos con vocabulario nuevo"
-  5. "COMPLETADO: Mejoras calidad Días 6-11 ✅ + francés eliminado ✅ + discrepancias diccionario resueltas mayormente ✅"
-  5. "IMPORTANTE: Aplicar regla de origen geográfico - si canción no tiene origen específico, asumir país de uso histórico"
-  6. "ALTA: Crear estructura de directorios nueva"
-  7. "ALTA: Script de descarga de trazos chinos con atribución" 
-  8. "MEDIA: Primer prototipo de modal chino mejorado"
-  9. "MEDIA: Base de datos de compositores (manual inicial)"
-  10. "BAJA: Guía IPA para un idioma piloto"
+  4. "✅ COMPLETADO: AUDITORÍA ENLACES WIKIPEDIA ✅"
+  5. "✅ COMPLETADO: VERIFICAR ROMANIZACIONES ✅"
+  6. "✅ COMPLETADO: TAREA ESTÉTICA (about, timeline, Day 0/especiales excluidos) ✅"
+  7. "IMPORTANTE: Aplicar regla de origen geográfico - si canción no tiene origen específico, asumir país de uso histórico"
+  8. "ALTA: Crear estructura de directorios nueva"
+  9. "ALTA: Script de descarga de trazos chinos con atribución" 
+  10. "MEDIA: Primer prototipo de modal chino mejorado"
+  11. "MEDIA: Base de datos de compositores (manual inicial)"
+  12. "BAJA: Guía IPA para un idioma piloto"
 
 success_metrics:
   chinese_system:
