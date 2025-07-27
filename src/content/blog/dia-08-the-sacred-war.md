@@ -720,6 +720,58 @@ tuèi⁵¹kʰàŋ⁵¹ ɡāi⁰ tsu³³ʈ͡ʂoù⁵¹de⁰ pu⁵¹luò⁵¹
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 🎼 Alexander Alexandrov - Compositor (1883-1946)
+
+* **ru:** [Александров, Александр Васильевич](https://ru.wikipedia.org/wiki/Александров,_Александр_Васильевич)
+* **en:** [Alexander Alexandrov (composer)](https://en.wikipedia.org/wiki/Alexander_Alexandrov_(composer))
+* **es:** [Alexander Alexandrov](https://es.wikipedia.org/wiki/Alexander_Alexandrov)
+* **de:** [Alexander Wassiljewitsch Alexandrow](https://de.wikipedia.org/wiki/Alexander_Wassiljewitsch_Alexandrow)
+* **pt:** [Alexander Alexandrov](https://pt.wikipedia.org/wiki/Alexander_Alexandrov)
+
+### ✍️ Vasily Lebedev-Kumach - Letrista (1898-1949)
+
+* **ru:** [Лебедев-Кумач, Василий Иванович](https://ru.wikipedia.org/wiki/Лебедев-Кумач,_Василий_Иванович)
+* **en:** [Vasily Lebedev-Kumach](https://en.wikipedia.org/wiki/Vasily_Lebedev-Kumach)
+* **de:** [Wassili Lebedew-Kumatsch](https://de.wikipedia.org/wiki/Wassili_Lebedew-Kumatsch)
+
+### ⚔️ Segunda Guerra Mundial - Gran Guerra Patriótica (1941-1945)
+
+* **ru:** [Великая Отечественная война](https://ru.wikipedia.org/wiki/Великая_Отечественная_война)
+* **en:** [Great Patriotic War](https://en.wikipedia.org/wiki/Great_Patriotic_War_(term))
+* **es:** [Gran Guerra Patria](https://es.wikipedia.org/wiki/Gran_Guerra_Patria)
+* **de:** [Großer Vaterländischer Krieg](https://de.wikipedia.org/wiki/Großer_Vaterländischer_Krieg)
+* **pt:** [Grande Guerra Patriótica](https://pt.wikipedia.org/wiki/Grande_Guerra_Patriótica)
+* **zh:** [苏德战争](https://zh.wikipedia.org/wiki/苏德战争)
+
+### 📡 Operación Barbarroja - Invasión nazi de la URSS (1941)
+
+* **ru:** [Операция «Барбаросса»](https://ru.wikipedia.org/wiki/Операция_«Барбаросса»)
+* **en:** [Operation Barbarossa](https://en.wikipedia.org/wiki/Operation_Barbarossa)
+* **es:** [Operación Barbarroja](https://es.wikipedia.org/wiki/Operación_Barbarroja)
+* **de:** [Unternehmen Barbarossa](https://de.wikipedia.org/wiki/Unternehmen_Barbarossa)
+* **pt:** [Operação Barbarossa](https://pt.wikipedia.org/wiki/Operação_Barbarossa)
+* **zh:** [巴巴羅薩行動](https://zh.wikipedia.org/wiki/巴巴羅薩行動)
+
+### 🚂 Estación Bielorrusa de Moscú - Lugar del primer concierto
+
+* **ru:** [Белорусский вокзал](https://ru.wikipedia.org/wiki/Белорусский_вокзал)
+* **en:** [Belorussky railway station](https://en.wikipedia.org/wiki/Belorussky_railway_station)
+* **es:** [Estación Bielorrusa](https://es.wikipedia.org/wiki/Estación_Bielorrusa)
+* **de:** [Weißrussischer Bahnhof](https://de.wikipedia.org/wiki/Weißrussischer_Bahnhof)
+
+### 🏴 Unión Soviética - URSS (1922-1991)
+
+* **ru:** [Союз Советских Социалистических Республик](https://ru.wikipedia.org/wiki/Союз_Советских_Социалистических_Республик)
+* **en:** [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union)
+* **es:** [Unión Soviética](https://es.wikipedia.org/wiki/Unión_Soviética)
+* **de:** [Sowjetunion](https://de.wikipedia.org/wiki/Sowjetunion)
+* **pt:** [União Soviética](https://pt.wikipedia.org/wiki/União_Soviética)
+* **zh:** [苏维埃社会主义共和国联盟](https://zh.wikipedia.org/wiki/苏维埃社会主义共和国联盟)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "Священная война"

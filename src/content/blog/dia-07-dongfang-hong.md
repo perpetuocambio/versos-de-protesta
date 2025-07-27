@@ -669,6 +669,59 @@ Características distintivas:
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 👤 Mao Zedong - Líder de la Revolución China (1893-1976)
+
+* **zh:** [毛泽东](https://zh.wikipedia.org/wiki/毛泽东)
+* **en:** [Mao Zedong](https://en.wikipedia.org/wiki/Mao_Zedong)
+* **es:** [Mao Zedong](https://es.wikipedia.org/wiki/Mao_Zedong)
+* **de:** [Mao Zedong](https://de.wikipedia.org/wiki/Mao_Zedong)
+* **pt:** [Mao Tse-Tung](https://pt.wikipedia.org/wiki/Mao_Tse-Tung)
+* **ru:** [Мао Цзэдун](https://ru.wikipedia.org/wiki/Мао_Цзэдун)
+
+### 🔥 Revolución Cultural China (1966-1976)
+
+* **zh:** [文化大革命](https://zh.wikipedia.org/wiki/文化大革命)
+* **en:** [Cultural Revolution](https://en.wikipedia.org/wiki/Cultural_Revolution)
+* **es:** [Revolución Cultural china](https://es.wikipedia.org/wiki/Revolución_Cultural_china)
+* **de:** [Kulturrevolution](https://de.wikipedia.org/wiki/Kulturrevolution)
+* **pt:** [Revolução Cultural Chinesa](https://pt.wikipedia.org/wiki/Revolução_Cultural_Chinesa)
+* **ru:** [Культурная революция в Китае](https://ru.wikipedia.org/wiki/Культурная_революция_в_Китае)
+
+### 🔴 Partido Comunista de China - PCCh (1921-)
+
+* **zh:** [中国共产党](https://zh.wikipedia.org/wiki/中国共产党)
+* **en:** [Chinese Communist Party](https://en.wikipedia.org/wiki/Chinese_Communist_Party)
+* **es:** [Partido Comunista de China](https://es.wikipedia.org/wiki/Partido_Comunista_de_China)
+* **de:** [Kommunistische Partei Chinas](https://de.wikipedia.org/wiki/Kommunistische_Partei_Chinas)
+* **pt:** [Partido Comunista da China](https://pt.wikipedia.org/wiki/Partido_Comunista_da_China)
+* **ru:** [Коммунистическая партия Китая](https://ru.wikipedia.org/wiki/Коммунистическая_партия_Китая)
+
+### 🏛️ República Popular China (1949-)
+
+* **zh:** [中华人民共和国](https://zh.wikipedia.org/wiki/中华人民共和国)
+* **en:** [People's Republic of China](https://en.wikipedia.org/wiki/People%27s_Republic_of_China)
+* **es:** [República Popular China](https://es.wikipedia.org/wiki/República_Popular_China)
+* **de:** [Volksrepublik China](https://de.wikipedia.org/wiki/Volksrepublik_China)
+* **pt:** [República Popular da China](https://pt.wikipedia.org/wiki/República_Popular_da_China)
+* **ru:** [Китайская Народная Республика](https://ru.wikipedia.org/wiki/Китайская_Народная_Республика)
+
+### 🏔️ Provincia de Shaanxi - Origen de la melodía
+
+* **zh:** [陕西省](https://zh.wikipedia.org/wiki/陕西省)
+* **en:** [Shaanxi](https://en.wikipedia.org/wiki/Shaanxi)
+* **es:** [Shaanxi](https://es.wikipedia.org/wiki/Shaanxi)
+* **de:** [Shaanxi](https://de.wikipedia.org/wiki/Shaanxi)
+* **pt:** [Shaanxi](https://pt.wikipedia.org/wiki/Shaanxi)
+* **ru:** [Шэньси](https://ru.wikipedia.org/wiki/Шэньси)
+
+### 👨‍🌾 Li Youyuan - Atribuido como letrista original
+
+* **zh:** [李有源](https://zh.wikipedia.org/wiki/李有源)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "东方红 (Dōngfāng Hóng)"
@@ -679,7 +732,6 @@ Características distintivas:
 *   **de:** [Der Osten ist rot](https://de.wikipedia.org/wiki/Der_Osten_ist_rot)
 *   **pt:** [O Leste é Vermelho (canção)](https://pt.wikipedia.org/wiki/O_Leste_é_Vermelho_(canção))
 *   **ru:** [Алеет Восток](https://ru.wikipedia.org/wiki/Алеет_Восток)
-*   **fr:** [L'Orient est rouge](https://fr.wikipedia.org/wiki/L%27Orient_est_rouge)
 
 ### 🏛️ Contexto Histórico: "Revolución Cultural China"
 
@@ -689,4 +741,3 @@ Características distintivas:
 *   **de:** [Kulturrevolution](https://de.wikipedia.org/wiki/Kulturrevolution)
 *   **pt:** [Revolução Cultural Chinesa](https://pt.wikipedia.org/wiki/Revolução_Cultural_Chinesa)
 *   **ru:** [Культурная революция в Китае](https://ru.wikipedia.org/wiki/Культурная_революция_в_Китае)
-*   **fr:** [Révolution culturelle](https://fr.wikipedia.org/wiki/Révolution_culturelle)

@@ -655,7 +655,6 @@ Gēqǔ "Zài wǒ chéngshì de guǎngchǎng" chǎnshēng yú Xībānyá nèizhà
 - **en:** [National Confederation of Labour (Spain)](https://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
 - **de:** [Confederación Nacional del Trabajo](https://de.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo)
 - **pt:** [Confederação Nacional do Trabalho](https://pt.wikipedia.org/wiki/Confedera%C3%A7%C3%A3o_Nacional_do_Trabalho)
-- **fr:** [Confédération nationale du travail (Espagne)](https://fr.wikipedia.org/wiki/Conf%C3%A9d%C3%A9ration_nationale_du_travail_%28Espagne%29)
 - **ru:** [Национальная конфедерация труда](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D1%82%D1%80%D1%83%D0%B4%D0%B0)
 - **zh:** [伊全國勞工聯盟](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E5%8B%9E%E5%B7%A5%E8%81%AF%E7%9B%9F)
 

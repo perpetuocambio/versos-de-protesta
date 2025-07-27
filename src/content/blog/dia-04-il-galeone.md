@@ -990,7 +990,6 @@ Pàolā Nǐkēlāqí de "Il Galeone" chuàngzuò yú 1970 nián, shì 60 niánd�
 - **en:** [Years of Lead (Italy)](https://en.wikipedia.org/wiki/Years_of_Lead_%28Italy%29)
 - **de:** [Bleierne Jahre (Italien)](https://de.wikipedia.org/wiki/Bleierne_Jahre_%28Italien%29)
 - **pt:** [Anos de chumbo (Itália)](https://pt.wikipedia.org/wiki/Anos_de_chumbo_%28It%C3%A1lia%29)
-- **fr:** [Années de plomb (Italie)](https://fr.wikipedia.org/wiki/Ann%C3%A9es_de_plomb_%28Italie%29)
 
 ### **📚 Movimento del '77 (Movimiento de 1977)**
 - **it:** [Movimento del '77](https://it.wikipedia.org/wiki/Movimento_del_%2777)
@@ -1005,7 +1004,6 @@ Pàolā Nǐkēlāqí de "Il Galeone" chuàngzuò yú 1970 nián, shì 60 niánd�
 - **en:** [Italian student movement](https://en.wikipedia.org/wiki/Italian_student_movement)
 - **de:** [Studentenbewegung](https://de.wikipedia.org/wiki/Studentenbewegung)
 - **pt:** [Movimento estudantil italiano](https://pt.wikipedia.org/wiki/Movimento_estudantil_italiano)
-- **fr:** [Mouvement étudiant italien](https://fr.wikipedia.org/wiki/Mouvement_%C3%A9tudiant_italien)
 
 ### **🎵 Canzone italiana di protesta**
 - **it:** [Canzone di protesta](https://it.wikipedia.org/wiki/Canzone_di_protesta)
@@ -1020,7 +1018,6 @@ Pàolā Nǐkēlāqí de "Il Galeone" chuàngzuò yú 1970 nián, shì 60 niánd�
 - **en:** [Hot Autumn](https://en.wikipedia.org/wiki/Hot_Autumn)
 - **de:** [Heißer Herbst](https://de.wikipedia.org/wiki/Hei%C3%9Fer_Herbst)
 - **pt:** [Outono quente](https://pt.wikipedia.org/wiki/Outono_quente)
-- **fr:** [Automne chaud](https://fr.wikipedia.org/wiki/Automne_chaud)
 
 ---
 

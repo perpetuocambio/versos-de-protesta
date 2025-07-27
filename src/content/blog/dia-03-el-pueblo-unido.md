@@ -893,7 +893,6 @@ Práctica tonal:
 - **en:** [Sergio Ortega](https://en.wikipedia.org/wiki/Sergio_Ortega)
 - **de:** [Sergio Ortega](https://de.wikipedia.org/wiki/Sergio_Ortega)
 - **pt:** [Sergio Ortega](https://pt.wikipedia.org/wiki/Sergio_Ortega)
-- **fr:** [Sergio Ortega](https://fr.wikipedia.org/wiki/Sergio_Ortega)
 - **ru:** [Ортега, Серхио](https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0,_%D0%A1%D0%B5%D1%80%D1%85%D0%B8%D0%BE)
 
 ### **🎸 Quilapayún (Intérpretes)**
@@ -901,7 +900,6 @@ Práctica tonal:
 - **en:** [Quilapayún](https://en.wikipedia.org/wiki/Quilapay%C3%BAn)
 - **de:** [Quilapayún](https://de.wikipedia.org/wiki/Quilapay%C3%BAn)
 - **pt:** [Quilapayún](https://pt.wikipedia.org/wiki/Quilapay%C3%BAn)
-- **fr:** [Quilapayún](https://fr.wikipedia.org/wiki/Quilapay%C3%BAn)
 - **ru:** [Килапайун](https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D0%B0%D0%BF%D0%B0%D0%B9%D1%83%D0%BD)
 
 ### **🏛️ Salvador Allende**
@@ -909,7 +907,6 @@ Práctica tonal:
 - **en:** [Salvador Allende](https://en.wikipedia.org/wiki/Salvador_Allende)
 - **de:** [Salvador Allende](https://de.wikipedia.org/wiki/Salvador_Allende)
 - **pt:** [Salvador Allende](https://pt.wikipedia.org/wiki/Salvador_Allende)
-- **fr:** [Salvador Allende](https://fr.wikipedia.org/wiki/Salvador_Allende)
 - **ru:** [Альенде, Сальвадор](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B5%D0%BD%D0%B4%D0%B5,_%D0%A1%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%80)
 
 ### **🔴 Unidad Popular (Chile)**
@@ -917,7 +914,6 @@ Práctica tonal:
 - **en:** [Popular Unity (Chile)](https://en.wikipedia.org/wiki/Popular_Unity_%28Chile%29)
 - **de:** [Unidad Popular](https://de.wikipedia.org/wiki/Unidad_Popular)
 - **pt:** [Unidade Popular (Chile)](https://pt.wikipedia.org/wiki/Unidade_Popular_%28Chile%29)
-- **fr:** [Unité populaire (Chili)](https://fr.wikipedia.org/wiki/Unit%C3%A9_populaire_%28Chili%29)
 - **ru:** [Народное единство (Чили)](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%28%D0%A7%D0%B8%D0%BB%D0%B8%29)
 
 ### **📅 Golpe de Estado en Chile de 1973**
@@ -925,7 +921,6 @@ Práctica tonal:
 - **en:** [1973 Chilean coup d'état](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat)
 - **de:** [Militärputsch in Chile 1973](https://de.wikipedia.org/wiki/Milit%C3%A4rputsch_in_Chile_1973)
 - **pt:** [Golpe de Estado no Chile em 1973](https://pt.wikipedia.org/wiki/Golpe_de_Estado_no_Chile_em_1973)
-- **fr:** [Coup d'État du 11 septembre 1973 au Chili](https://fr.wikipedia.org/wiki/Coup_d%27%C3%89tat_du_11_septembre_1973_au_Chili)
 - **ru:** [Военный переворот в Чили (1973)](https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D0%B2_%D0%A7%D0%B8%D0%BB%D0%B8_%281973%29)
 
 ### **🎵 Nueva Canción Chilena**
@@ -933,7 +928,6 @@ Práctica tonal:
 - **en:** [Nueva Canción](https://en.wikipedia.org/wiki/Nueva_Canci%C3%B3n)
 - **de:** [Nueva Canción](https://de.wikipedia.org/wiki/Nueva_Canci%C3%B3n)
 - **pt:** [Nueva Canción](https://pt.wikipedia.org/wiki/Nueva_Canci%C3%B3n)
-- **fr:** [Nueva Canción](https://fr.wikipedia.org/wiki/Nueva_Canci%C3%B3n)
 - **ru:** [Нуэва Канчьон](https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D1%8D%D0%B2%D0%B0_%D0%9A%D0%B0%D0%BD%D1%87%D1%8C%D0%BE%D0%BD)
 
 ---

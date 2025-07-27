@@ -35,7 +35,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 #### **TRADICIONES MUSICALES OBRERAS POR REGIÓN**
 
-| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Región | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Tradición** | Canción Obrera | Worker Song | Arbeiterlied | Canção Operária | Рабочая песня | Rabóchaya pésnya | 工人歌曲 | gōngrén gēqǔ |
 | **Periodo clave** | 1840-presente | 1840-present | 1840-Gegenwart | 1840-presente | 1840-настоящее | 1840-nastoyáshcheye | 1840年至今 | 1840 nián zhì jīn |
@@ -43,7 +43,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 #### **CARACTERÍSTICAS MUSICALES UNIVERSALES**
 
-| Característica | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Característica | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Ritmo** | Compás de marcha | March rhythm | Marschrhythmus | Compasso de marcha | Маршевый ритм | Márshevyy ritm | 进行曲节拍 | jìnxíngqǔ jiépāi |
 | **Melodía** | Fácil de cantar | Easy to sing | Leicht singbar | Fácil de cantar | Легко петь | Legkó pet' | 容易唱 | róngyì chàng |
@@ -52,7 +52,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 #### **CONTEXTO HISTÓRICO INTERNACIONAL EN 5 IDIOMAS**
 
-| País | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| País | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |------|-----|-----|-----|-----|------|---------|------|-----------|
 | **España** | Coplas anarquistas CNT-FAI (1936), resistencia antifranquista | Anarchist coplas CNT-FAI (1936), anti-Franco resistance | Anarchistische Coplas CNT-FAI (1936), Anti-Franco-Widerstand | Coplas anarquistas CNT-FAI (1936), resistência antifranquista | Анархистские коплы CNT-FAI (1936), антифранкистское сопротивление | Anarkhístskiye kópły CNT-FAI (1936), antifránkistskoye soprotivléniye | 无政府主义歌谣CNT-FAI (1936)，反佛朗哥抵抗 | wúzhèngfǔzhǔyì gēyáo CNT-FAI (1936), fǎn Fólǎnggē dǐkàng |
 | **Reino Unido/EE.UU.** | Spirituals abolicionistas (1850), IWW songs (Joe Hill), protest folk | Abolitionist spirituals (1850), IWW songs (Joe Hill), protest folk | Abolitionistische Spirituals (1850), IWW-Lieder (Joe Hill), Protest-Folk | Spirituals abolicionistas (1850), canções IWW (Joe Hill), protest folk | Аболиционистские спиричуэлс (1850), песни IWW (Джо Хилл), протест-фолк | Abolitsionístskiye spirichuéls (1850), pésni IWW (Dzho Khill), protést-folk | 废奴主义灵歌 (1850)，IWW歌曲 (乔·希尔)，抗议民谣 | fèinú zhǔyì línggē (1850), IWW gēqǔ (Qiáo Xī'ěr), kàngyì mínyáo |
@@ -381,7 +381,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 #### COMPARACIÓN BÁSICA - PRESENTE SIMPLE
 
-| Persona | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Persona | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----|-----|-----|-----|------|---------|------|-----------|
 | **1ª sing** | canto | I sing | ich singe | canto | пою | póyu | 我唱 | wǒ chàng |
 | **2ª sing** | cantas | you sing | du singst | cantas | поёшь | poyósh' | 你唱 | nǐ chàng |
@@ -430,7 +430,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ## VOCABULARIO
 
-### CONCEPTOS FUNDAMENTALES
+### TÉRMINOS CLAVE
 
 | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin | Trazos | Radical | Estructura | Categoría |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -496,7 +496,7 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ### ESTRUCTURA: "LOS TRABAJADORES CANTAN CANCIONES DE RESISTENCIA"
 
-| Elemento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Elemento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Orden** | SVO | SVO | SVO | SVO | SVO | SVO | SVO | SVO |
 | **Estructura** | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | Art+N + V + N + Prep+N | N + V + N + Prep+N | N + V + N + Prep+N | N + V + N | N + V + N |
@@ -504,14 +504,14 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 
 ### EXPRESAR FINALIDAD: "PARA LA LIBERTAD"
 
-| Función | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Función | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |---------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Preposición** | para | for | für + Akkusativ | para | за + Akkusativ | za + Akkusativ | 为了 | wèile |
 | **Ejemplo** | Cantan para la libertad | They sing for freedom | Sie singen für die Freiheit | Cantam para a liberdade | Поют за свободу | Póyut za svobódu | 为了自由而唱 | wèile zìyóu ér chàng |
 
 ### NEGACIÓN CONTRASTIVA
 
-| Tipo | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Tipo | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Simple** | No cantan | They don't sing | Sie singen nicht | Não cantam | Они не поют | Oní ne póyut | 他们不唱 | tāmen bù chàng |
 | **Doble** | No cantan nada | They sing nothing | Sie singen nichts | Não cantam nada | Они ничего не поют | Oní nichegó ne póyut | 他们什么都不唱 | tāmen shénme dōu bù chàng |
@@ -525,7 +525,6 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [Labour movement](https://en.wikipedia.org/wiki/Labour_movement)
 - **de:** [Arbeiterbewegung](https://de.wikipedia.org/wiki/Arbeiterbewegung)
 - **pt:** [Movimento operário](https://pt.wikipedia.org/wiki/Movimento_oper%C3%A1rio)
-- **fr:** [Mouvement ouvrier](https://fr.wikipedia.org/wiki/Mouvement_ouvrier)
 - **ru:** [Рабочее движение](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### **🤝 Sindicalismo**
@@ -533,7 +532,6 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [Trade unionism](https://en.wikipedia.org/wiki/Trade_unionism)
 - **de:** [Gewerkschaftsbewegung](https://de.wikipedia.org/wiki/Gewerkschaftsbewegung)
 - **pt:** [Sindicalismo](https://pt.wikipedia.org/wiki/Sindicalismo)
-- **fr:** [Syndicalisme](https://fr.wikipedia.org/wiki/Syndicalisme)
 - **ru:** [Синдикализм](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC)
 
 ### **🎵 La Internacional (Himno Obrero)**
@@ -541,7 +539,6 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [The Internationale](https://en.wikipedia.org/wiki/The_Internationale)
 - **de:** [Die Internationale](https://de.wikipedia.org/wiki/Die_Internationale)
 - **pt:** [A Internacional](https://pt.wikipedia.org/wiki/A_Internacional)
-- **fr:** [L'Internationale](https://fr.wikipedia.org/wiki/L%27Internationale)
 - **ru:** [Интернационал](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB)
 
 ### **🌍 Primera Internacional (AIT Histórica)**
@@ -549,7 +546,6 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [International Workingmen's Association](https://en.wikipedia.org/wiki/International_Workingmen%27s_Association)
 - **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_Arbeiter-Assoziation_%281864%29)
 - **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Internacional_dos_Trabalhadores_%281864%29)
-- **fr:** [Association internationale des travailleurs](https://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs_%281864%29)
 - **ru:** [Международное товарищество рабочих](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D1%85)
 
 ### **🔥 Revolución Industrial**
@@ -557,7 +553,6 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution)
 - **de:** [Industrielle Revolution](https://de.wikipedia.org/wiki/Industrielle_Revolution)
 - **pt:** [Revolução Industrial](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Industrial)
-- **fr:** [Révolution industrielle](https://fr.wikipedia.org/wiki/R%C3%A9volution_industrielle)
 - **ru:** [Промышленная революция](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F)
 
 ### **📅 Día Internacional de los Trabajadores**
@@ -565,5 +560,18 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 - **en:** [International Workers' Day](https://en.wikipedia.org/wiki/International_Workers%27_Day)
 - **de:** [Tag der Arbeit](https://de.wikipedia.org/wiki/Tag_der_Arbeit)
 - **pt:** [Dia do Trabalhador](https://pt.wikipedia.org/wiki/Dia_do_Trabalhador)
-- **fr:** [Fête du Travail](https://fr.wikipedia.org/wiki/F%C3%AAte_du_Travail)
 - **ru:** [День международной солидарности трудящихся](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D1%8C_%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D1%81%D0%BE%D0%BB%D0%B8%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%82%D1%80%D1%83%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F)
+- **zh:** [国际劳动节](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E8%8A%82)
+
+---
+
+## 📚 Para Saber Más
+
+### 🏛️ Contexto Histórico: "Movimiento Obrero Internacional"
+
+*   **es:** [Movimiento obrero](https://es.wikipedia.org/wiki/Movimiento_obrero)
+*   **en:** [Labour movement](https://en.wikipedia.org/wiki/Labour_movement)
+*   **de:** [Arbeiterbewegung](https://de.wikipedia.org/wiki/Arbeiterbewegung)
+*   **pt:** [Movimento operário](https://pt.wikipedia.org/wiki/Movimento_oper%C3%A1rio)
+*   **ru:** [Рабочее движение](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
+*   **zh:** [工人运动](https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BA%BA%E8%BF%90%E5%8A%A8)

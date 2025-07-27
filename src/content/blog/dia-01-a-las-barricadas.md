@@ -708,7 +708,6 @@ Wǎláilǐyànuò Àoluóběn Fèi'ěrnándésī yú 1933 nián chuàngzuò "Dà
 - **en:** [Iberian Anarchist Federation](https://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
 - **de:** [Federación Anarquista Ibérica](https://de.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica)
 - **pt:** [Federação Anarquista Ibérica](https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Anarquista_Ib%C3%A9rica)
-- **fr:** [Fédération anarchiste ibérique](https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_anarchiste_ib%C3%A9rique)
 - **ru:** [Федерация анархистов Иберии](https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B0%D0%BD%D0%B0%D1%80%D1%85%D0%B8%D1%81%D1%82%D0%BE%D0%B2_%D0%98%D0%B1%D0%B5%D1%80%D0%B8%D0%B8)
 - **zh:** [伊比利亚无政府主义联合会](https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%AF%94%E5%88%A9%E4%BA%9A%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89%E8%81%94%E5%90%88%E4%BC%9A)
 
@@ -717,7 +716,6 @@ Wǎláilǐyànuò Àoluóběn Fèi'ěrnándésī yú 1933 nián chuàngzuò "Dà
 - **en:** [International Workingmen's Association](https://en.wikipedia.org/wiki/International_Workingmen%27s_Association)
 - **de:** [Internationale Arbeiter-Assoziation](https://de.wikipedia.org/wiki/Internationale_ArbeiterInnen-Assoziation)
 - **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Internacional_dos_Trabalhadores)
-- **fr:** [Association internationale des travailleurs](https://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs)
 - **ru:** [Международная ассоциация трудящихся](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB)
 - **zh:** [第一国际](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E5%9B%BD%E9%99%85)
 
@@ -726,7 +724,6 @@ Wǎláilǐyànuò Àoluóběn Fèi'ěrnándésī yú 1933 nián chuàngzuò "Dà
 - **en:** [Spanish Civil War](https://en.wikipedia.org/wiki/Spanish_Civil_War)
 - **de:** [Spanischer Bürgerkrieg](https://de.wikipedia.org/wiki/Spanischer_B%C3%BCrgerkrieg)
 - **pt:** [Guerra Civil Espanhola](https://pt.wikipedia.org/wiki/Guerra_Civil_Espanhola)
-- **fr:** [Guerre d'Espagne](https://fr.wikipedia.org/wiki/Guerre_d%27Espagne)
 - **ru:** [Гражданская война в Испании](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8)
 - **zh:** [西班牙内战](https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%86%85%E6%88%98)
 

@@ -583,6 +583,68 @@ Tǒngyī zhànxiàn zhī gē, yóu Bèituō'ěrtè Bùláixītè zuòcí, Hàns�
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 🎭 Bertolt Brecht - Dramaturgo y poeta (1898-1956)
+
+* **de:** [Bertolt Brecht](https://de.wikipedia.org/wiki/Bertolt_Brecht)
+* **en:** [Bertolt Brecht](https://en.wikipedia.org/wiki/Bertolt_Brecht)
+* **es:** [Bertolt Brecht](https://es.wikipedia.org/wiki/Bertolt_Brecht)
+* **ru:** [Брехт, Бертольт](https://ru.wikipedia.org/wiki/Брехт,_Бертольт)
+* **pt:** [Bertolt Brecht](https://pt.wikipedia.org/wiki/Bertolt_Brecht)
+* **zh:** [贝尔托·布莱希特](https://zh.wikipedia.org/wiki/贝尔托·布莱希特)
+
+### 🎼 Hanns Eisler - Compositor (1898-1962) - Ya mencionado en Día 6
+
+* **de:** [Hanns Eisler](https://de.wikipedia.org/wiki/Hanns_Eisler)
+* **en:** [Hanns Eisler](https://en.wikipedia.org/wiki/Hanns_Eisler)
+* **es:** [Hanns Eisler](https://es.wikipedia.org/wiki/Hanns_Eisler)
+* **ru:** [Эйслер, Ханнс](https://ru.wikipedia.org/wiki/Эйслер,_Ханнс)
+* **pt:** [Hanns Eisler](https://pt.wikipedia.org/wiki/Hanns_Eisler)
+
+### 🎵 Ernst Busch - Intérprete principal (1900-1980) - Ya mencionado en Día 6
+
+* **de:** [Ernst Busch (Schauspieler)](https://de.wikipedia.org/wiki/Ernst_Busch_(Schauspieler))
+* **en:** [Ernst Busch (actor)](https://en.wikipedia.org/wiki/Ernst_Busch_(actor))
+
+### 🤝 Frente Popular - Estrategia antifascista (1934-1939)
+
+* **es:** [Frente Popular](https://es.wikipedia.org/wiki/Frente_Popular)
+* **en:** [Popular Front](https://en.wikipedia.org/wiki/Popular_Front)
+* **de:** [Volksfront](https://de.wikipedia.org/wiki/Volksfront)
+* **ru:** [Народный фронт](https://ru.wikipedia.org/wiki/Народный_фронт)
+* **pt:** [Frente Popular](https://pt.wikipedia.org/wiki/Frente_Popular)
+
+### ⚫ Ascenso del nazismo - Ya mencionado en Día 6 (1929-1933)
+
+* **de:** [Aufstieg der NSDAP](https://de.wikipedia.org/wiki/Aufstieg_der_NSDAP)
+* **en:** [Rise of the Nazi Party](https://en.wikipedia.org/wiki/Rise_of_the_Nazi_Party)
+* **es:** [Ascenso del nazismo](https://es.wikipedia.org/wiki/Ascenso_del_nazismo)
+* **ru:** [Приход нацистов к власти](https://ru.wikipedia.org/wiki/Приход_нацистов_к_власти)
+
+### 🏛️ República de Weimar - Ya mencionada en Día 6 (1918-1933)
+
+* **de:** [Weimarer Republik](https://de.wikipedia.org/wiki/Weimarer_Republik)
+* **en:** [Weimar Republic](https://en.wikipedia.org/wiki/Weimar_Republic)
+* **es:** [República de Weimar](https://es.wikipedia.org/wiki/República_de_Weimar)
+* **ru:** [Веймарская республика](https://ru.wikipedia.org/wiki/Веймарская_республика)
+
+### 🎬 Teatro épico - Concepto teatral de Brecht
+
+* **de:** [Episches Theater](https://de.wikipedia.org/wiki/Episches_Theater)
+* **en:** [Epic theatre](https://en.wikipedia.org/wiki/Epic_theatre)
+* **es:** [Teatro épico](https://es.wikipedia.org/wiki/Teatro_épico)
+* **ru:** [Эпический театр](https://ru.wikipedia.org/wiki/Эпический_театр)
+
+### 🔴 Partido Socialdemócrata de Alemania - SPD (1863-)
+
+* **de:** [Sozialdemokratische Partei Deutschlands](https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_Deutschlands)
+* **en:** [Social Democratic Party of Germany](https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany)
+* **es:** [Partido Socialdemócrata de Alemania](https://es.wikipedia.org/wiki/Partido_Socialdemócrata_de_Alemania)
+* **ru:** [Социал-демократическая партия Германии](https://ru.wikipedia.org/wiki/Социал-демократическая_партия_Германии)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "Einheitsfrontlied"

@@ -639,7 +639,74 @@ Zhè shǒu yìdìxùyǔ gēqǔ dàibiǎo le Bēngdé de yìshí xíngtài, jí 1
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 🔴 Bund - Unión General de Trabajadores Judíos (1897-1920)
+
+* **en:** [General Jewish Labour Bund](https://en.wikipedia.org/wiki/General_Jewish_Labour_Bund)
+* **es:** [Unión General de Trabajadores Judíos](https://es.wikipedia.org/wiki/Unión_General_de_Trabajadores_Judíos)
+* **de:** [Allgemeiner Jüdischer Arbeiterbund](https://de.wikipedia.org/wiki/Allgemeiner_Jüdischer_Arbeiterbund)
+* **ru:** [Всеобщий еврейский рабочий союз в Литве, Польше и России](https://ru.wikipedia.org/wiki/Всеобщий_еврейский_рабочий_союз_в_Литве,_Польше_и_России)
+* **pl:** [Powszechny Żydowski Związek Robotniczy „Bund"](https://pl.wikipedia.org/wiki/Powszechny_Żydowski_Związek_Robotniczy_„Bund")
+* **yi:** [אַלגעמײַנער ייִדישער אַרבעטער־בונד](https://yi.wikipedia.org/wiki/אַלגעמײַנער_ייִדישער_אַרבעטער־בונד)
+
+### ✡️ Sionismo - Movimiento político judío (1881-presente)
+
+* **es:** [Sionismo](https://es.wikipedia.org/wiki/Sionismo)
+* **en:** [Zionism](https://en.wikipedia.org/wiki/Zionism)
+* **de:** [Zionismus](https://de.wikipedia.org/wiki/Zionismus)
+* **ru:** [Сионизм](https://ru.wikipedia.org/wiki/Сионизм)
+* **he:** [ציונות](https://he.wikipedia.org/wiki/ציונות)
+* **ar:** [الصهيونية](https://ar.wikipedia.org/wiki/الصهيونية)
+
+### 🗣️ Idioma Yiddish - Lengua de la diáspora judía
+
+* **es:** [Idioma yiddish](https://es.wikipedia.org/wiki/Idioma_yiddish)
+* **en:** [Yiddish](https://en.wikipedia.org/wiki/Yiddish)
+* **de:** [Jiddisch](https://de.wikipedia.org/wiki/Jiddisch)
+* **ru:** [Идиш](https://ru.wikipedia.org/wiki/Идиш)
+* **yi:** [ייִדיש](https://yi.wikipedia.org/wiki/ייִדיש)
+* **he:** [יידיש](https://he.wikipedia.org/wiki/יידיש)
+
+### 👤 Theodor Herzl - Fundador del sionismo político (1860-1904)
+
+* **es:** [Theodor Herzl](https://es.wikipedia.org/wiki/Theodor_Herzl)
+* **en:** [Theodor Herzl](https://en.wikipedia.org/wiki/Theodor_Herzl)
+* **de:** [Theodor Herzl](https://de.wikipedia.org/wiki/Theodor_Herzl)
+* **ru:** [Герцль, Теодор](https://ru.wikipedia.org/wiki/Герцль,_Теодор)
+* **he:** [תאודור הרצל](https://he.wikipedia.org/wiki/תאודור_הרצל)
+
+### 🏰 Imperio Ruso - Contexto histórico (1721-1917)
+
+* **es:** [Imperio ruso](https://es.wikipedia.org/wiki/Imperio_ruso)
+* **en:** [Russian Empire](https://en.wikipedia.org/wiki/Russian_Empire)
+* **de:** [Russisches Kaiserreich](https://de.wikipedia.org/wiki/Russisches_Kaiserreich)
+* **ru:** [Российская империя](https://ru.wikipedia.org/wiki/Российская_империя)
+* **pl:** [Imperium Rosyjskie](https://pl.wikipedia.org/wiki/Imperium_Rosyjskie)
+
+### 🎭 Daniel Kahn - Intérprete contemporáneo
+
+* **en:** [Daniel Kahn (musician)](https://en.wikipedia.org/wiki/Daniel_Kahn_(musician))
+* **de:** [Daniel Kahn](https://de.wikipedia.org/wiki/Daniel_Kahn)
+
+### 🎪 Pogroms - Persecución organizada de judíos
+
+* **es:** [Pogromo](https://es.wikipedia.org/wiki/Pogromo)
+* **en:** [Pogrom](https://en.wikipedia.org/wiki/Pogrom)
+* **de:** [Pogrom](https://de.wikipedia.org/wiki/Pogrom)
+* **ru:** [Погром](https://ru.wikipedia.org/wiki/Погром)
+* **pl:** [Pogrom](https://pl.wikipedia.org/wiki/Pogrom)
+* **yi:** [פראָגראַם](https://yi.wikipedia.org/wiki/פראָגראַם)
+
+---
+
 ## 📚 Para Saber Más
+
+### 🎤 La Canción: "Canciones del Bund"
+
+*   **en:** [Di Shvue](https://en.wikipedia.org/wiki/Di_Shvue)
+*   **de:** [Allgemeiner Jüdischer Arbeiterbund](https://de.wikipedia.org/wiki/Allgemeiner_Jüdischer_Arbeiterbund)
+*   **ru:** [Бунд](https://ru.wikipedia.org/wiki/Бунд)
 
 ### 🏛️ Contexto Histórico: "Bundismo"
 

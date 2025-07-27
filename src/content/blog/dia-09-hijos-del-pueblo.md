@@ -656,6 +656,61 @@ nǐŋ²¹sɨ³³ jě²¹⁴ pù⁰ tsuǒ⁵¹ nú³⁵lì⁵¹
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 🎭 Emilio Arrieta - Compositor de la melodía original (1821-1894)
+
+* **es:** [Emilio Arrieta](https://es.wikipedia.org/wiki/Emilio_Arrieta)
+* **en:** [Emilio Arrieta](https://en.wikipedia.org/wiki/Emilio_Arrieta)
+* **de:** [Emilio Arrieta](https://de.wikipedia.org/wiki/Emilio_Arrieta)
+
+### ✍️ Rafael Carratalá Ramos - Atribuido como letrista (1854-1889)
+
+* **es:** [Rafael Carratalá Ramos](https://es.wikipedia.org/wiki/Rafael_Carratalá_Ramos)
+
+### 🔴 Confederación Nacional del Trabajo - CNT (1910-)
+
+* **es:** [Confederación Nacional del Trabajo](https://es.wikipedia.org/wiki/Confederación_Nacional_del_Trabajo)
+* **en:** [Confederación Nacional del Trabajo](https://en.wikipedia.org/wiki/Confederación_Nacional_del_Trabajo)
+* **de:** [Confederación Nacional del Trabajo](https://de.wikipedia.org/wiki/Confederación_Nacional_del_Trabajo)
+* **pt:** [Confederação Nacional do Trabalho (Espanha)](https://pt.wikipedia.org/wiki/Confederação_Nacional_do_Trabalho_(Espanha))
+* **ca:** [Confederació Nacional del Treball](https://ca.wikipedia.org/wiki/Confederació_Nacional_del_Treball)
+
+### ⚫ Anarquismo en España (1868-presente)
+
+* **es:** [Anarquismo en España](https://es.wikipedia.org/wiki/Anarquismo_en_España)
+* **en:** [Anarchism in Spain](https://en.wikipedia.org/wiki/Anarchism_in_Spain)
+* **de:** [Anarchismus in Spanien](https://de.wikipedia.org/wiki/Anarchismus_in_Spanien)
+* **pt:** [Anarquismo na Espanha](https://pt.wikipedia.org/wiki/Anarquismo_na_Espanha)
+* **ca:** [Anarquisme a Espanya](https://ca.wikipedia.org/wiki/Anarquisme_a_Espanya)
+
+### 🏴‍☠️ Asociación Internacional de Trabajadores - Primera Internacional (1864-1876)
+
+* **es:** [Asociación Internacional de los Trabajadores](https://es.wikipedia.org/wiki/Asociación_Internacional_de_los_Trabajadores)
+* **en:** [International Workingmen's Association](https://en.wikipedia.org/wiki/International_Workingmen%27s_Association)
+* **de:** [Internationale Arbeiterassoziation](https://de.wikipedia.org/wiki/Internationale_Arbeiterassoziation)
+* **pt:** [Associação Internacional dos Trabalhadores](https://pt.wikipedia.org/wiki/Associação_Internacional_dos_Trabalhadores)
+* **ru:** [Международное товарищество рабочих](https://ru.wikipedia.org/wiki/Международное_товарищество_рабочих)
+
+### ⚔️ Guerra Civil Española (1936-1939)
+
+* **es:** [Guerra Civil Española](https://es.wikipedia.org/wiki/Guerra_Civil_Española)
+* **en:** [Spanish Civil War](https://en.wikipedia.org/wiki/Spanish_Civil_War)
+* **de:** [Spanischer Bürgerkrieg](https://de.wikipedia.org/wiki/Spanischer_Bürgerkrieg)
+* **pt:** [Guerra Civil Espanhola](https://pt.wikipedia.org/wiki/Guerra_Civil_Espanhola)
+* **ru:** [Гражданская война в Испании](https://ru.wikipedia.org/wiki/Гражданская_война_в_Испании)
+* **zh:** [西班牙内战](https://zh.wikipedia.org/wiki/西班牙内战)
+
+### 🏛️ Segunda República Española (1931-1939)
+
+* **es:** [Segunda República Española](https://es.wikipedia.org/wiki/Segunda_República_Española)
+* **en:** [Second Spanish Republic](https://en.wikipedia.org/wiki/Second_Spanish_Republic)
+* **de:** [Zweite Spanische Republik](https://de.wikipedia.org/wiki/Zweite_Spanische_Republik)
+* **pt:** [Segunda República Espanhola](https://pt.wikipedia.org/wiki/Segunda_República_Espanhola)
+* **ru:** [Вторая Испанская республика](https://ru.wikipedia.org/wiki/Вторая_Испанская_республика)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "Hijos del pueblo"
@@ -671,4 +726,5 @@ nǐŋ²¹sɨ³³ jě²¹⁴ pù⁰ tsuǒ⁵¹ nú³⁵lì⁵¹
 *   **de:** [Anarchismus in Spanien](https://de.wikipedia.org/wiki/Anarchismus_in_Spanien)
 *   **pt:** [Anarquismo na Espanha](https://pt.wikipedia.org/wiki/Anarquismo_na_Espanha)
 *   **ru:** [Анархизм в Испании](https://ru.wikipedia.org/wiki/Анархизм_в_Испании)
+*   **zh:** [西班牙无政府主义](https://zh.wikipedia.org/wiki/西班牙无政府主义)
 

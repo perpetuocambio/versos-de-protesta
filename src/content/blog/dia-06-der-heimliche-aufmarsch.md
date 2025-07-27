@@ -720,13 +720,66 @@ Características distintivas:
 
 ---
 
+## 🔍 FUENTES DE INVESTIGACIÓN MULTILINGÜES
+
+### 🎭 Hanns Eisler - Compositor (1898-1962)
+
+* **de:** [Hanns Eisler](https://de.wikipedia.org/wiki/Hanns_Eisler)
+* **en:** [Hanns Eisler](https://en.wikipedia.org/wiki/Hanns_Eisler)
+* **es:** [Hanns Eisler](https://es.wikipedia.org/wiki/Hanns_Eisler)
+* **pt:** [Hanns Eisler](https://pt.wikipedia.org/wiki/Hanns_Eisler)
+* **ru:** [Эйслер, Ханнс](https://ru.wikipedia.org/wiki/Эйслер,_Ханнс)
+* **zh:** [汉斯·艾斯勒](https://zh.wikipedia.org/wiki/汉斯·艾斯勒)
+
+### 📝 Erich Weinert - Poeta y letrista (1890-1953)
+
+* **de:** [Erich Weinert](https://de.wikipedia.org/wiki/Erich_Weinert)
+* **en:** [Erich Weinert](https://en.wikipedia.org/wiki/Erich_Weinert)
+* **es:** [Erich Weinert](https://es.wikipedia.org/wiki/Erich_Weinert)
+* **pt:** [Erich Weinert](https://pt.wikipedia.org/wiki/Erich_Weinert)
+* **ru:** [Эрих Вайнерт](https://ru.wikipedia.org/wiki/Эрих_Вайнерт)
+
+### 🎵 Ernst Busch - Intérprete principal (1900-1980)
+
+* **de:** [Ernst Busch (Schauspieler)](https://de.wikipedia.org/wiki/Ernst_Busch_(Schauspieler))
+* **en:** [Ernst Busch (actor)](https://en.wikipedia.org/wiki/Ernst_Busch_(actor))
+* **es:** [Ernst Busch](https://es.wikipedia.org/wiki/Ernst_Busch_(actor))
+* **ru:** [Буш, Эрнст](https://ru.wikipedia.org/wiki/Буш,_Эрнст)
+
+### 🔴 Kommunistische Partei Deutschlands - KPD (1918-1956)
+
+* **de:** [Kommunistische Partei Deutschlands](https://de.wikipedia.org/wiki/Kommunistische_Partei_Deutschlands)
+* **en:** [Communist Party of Germany](https://en.wikipedia.org/wiki/Communist_Party_of_Germany)
+* **es:** [Partido Comunista de Alemania](https://es.wikipedia.org/wiki/Partido_Comunista_de_Alemania)
+* **pt:** [Partido Comunista da Alemanha](https://pt.wikipedia.org/wiki/Partido_Comunista_da_Alemanha)
+* **ru:** [Коммунистическая партия Германии](https://ru.wikipedia.org/wiki/Коммунистическая_партия_Германии)
+* **zh:** [德国共产党](https://zh.wikipedia.org/wiki/德国共产党)
+
+### 🏛️ República de Weimar (1918-1933)
+
+* **de:** [Weimarer Republik](https://de.wikipedia.org/wiki/Weimarer_Republik)
+* **en:** [Weimar Republic](https://en.wikipedia.org/wiki/Weimar_Republic)
+* **es:** [República de Weimar](https://es.wikipedia.org/wiki/República_de_Weimar)
+* **pt:** [República de Weimar](https://pt.wikipedia.org/wiki/República_de_Weimar)
+* **ru:** [Веймарская республика](https://ru.wikipedia.org/wiki/Веймарская_республика)
+* **zh:** [魏玛共和国](https://zh.wikipedia.org/wiki/魏玛共和国)
+
+### ⚫ Auge del nazismo (1929-1933)
+
+* **de:** [Aufstieg der NSDAP](https://de.wikipedia.org/wiki/Aufstieg_der_NSDAP)
+* **en:** [Rise of the Nazi Party](https://en.wikipedia.org/wiki/Rise_of_the_Nazi_Party)
+* **es:** [Ascenso del nazismo](https://es.wikipedia.org/wiki/Ascenso_del_nazismo)
+* **pt:** [Ascensão do nazismo](https://pt.wikipedia.org/wiki/Ascensão_do_nazismo)
+* **ru:** [Приход нацистов к власти](https://ru.wikipedia.org/wiki/Приход_нацистов_к_власти)
+
+---
+
 ## 📚 Para Saber Más
 
 ### 🎤 La Canción: "Der heimliche Aufmarsch"
 
 *   **de:** [Der heimliche Aufmarsch](https://de.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
 *   **en:** [Der heimliche Aufmarsch](https://en.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
-*   **fr:** [Der heimliche Aufmarsch](https://fr.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
 *   **pt:** [Der heimliche Aufmarsch](https://pt.wikipedia.org/wiki/Der_heimliche_Aufmarsch)
 *   **ru:** [Тревожный_марш](https://ru.wikipedia.org/wiki/Тревожный_марш)
 *   **zh:** [秘密集结](https://zh.wikipedia.org/wiki/秘密集结)
@@ -736,7 +789,6 @@ Características distintivas:
 *   **de:** [Weimarer Republik](https://de.wikipedia.org/wiki/Weimarer_Republik)
 *   **es:** [República de Weimar](https://es.wikipedia.org/wiki/República_de_Weimar)
 *   **en:** [Weimar Republic](https://en.wikipedia.org/wiki/Weimar_Republic)
-*   **fr:** [République de Weimar](https://fr.wikipedia.org/wiki/République_de_Weimar)
 *   **pt:** [República de Weimar](https://pt.wikipedia.org/wiki/República_de_Weimar)
 *   **ru:** [Веймарская республика](https://ru.wikipedia.org/wiki/Веймарская_республика)
 *   **zh:** [魏玛共和国](https://zh.wikipedia.org/wiki/魏玛共和国)

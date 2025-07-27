@@ -119,7 +119,7 @@ Refrain
 
 #### **1871 - COMUNA DE PARÍS**
 
-| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Inicio Comuna** | Dieciocho de marzo de mil ochocientos setenta y uno | Eighteenth of March eighteen seventy-one | Achtzehnter März achtzehnhunderteinundsiebzig | Dezoito de março de mil oitocentos e setenta e um | Восемнадцатое марта тысяча восемьсот семьдесят первого года | Vosemnádtsatoye marta týsyacha vosem'sot sem'desyát pervogo goda | 一八七一年三月十八日 | yī bā qī yī nián sān yuè shí bā rì |
 | **Duración** | Setenta y dos días | Seventy-two days | Zweiundsiebzig Tage | Setenta e dois dias | Семьдесят два дня | Sem'desyát dva dnya | 七十二天 | qīshí'èr tiān |
@@ -127,7 +127,7 @@ Refrain
 
 #### **ESTADÍSTICAS INTERNACIONALES DE LA CANCIÓN**
 
-| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Concepto | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |----------|-----|-----|-----|-----|------|---------|------|-----------|
 | **Países que la adoptaron** | Más de cincuenta países | More than fifty countries | Über fünfzig Länder | Mais de cinquenta países | Более пятидесяти стран | Bóleye pyatidesyáti stran | 五十多个国家 | wǔshí duō gè guójiā |
 | **Traducciones** | Más de cien idiomas | More than one hundred languages | Über hundert Sprachen | Mais de cem idiomas | Более ста языков | Bóleye sta yazykóv | 一百多种语言 | yībǎi duō zhǒng yǔyán |
@@ -135,7 +135,7 @@ Refrain
 
 #### **LÍNEA TEMPORAL SOCIALISTA INTERNACIONAL**
 
-| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | 中文 Pinyin |
+| Año | Evento | Español | English | Deutsch | Português | Русский | Русский Rom. | 中文 | Pinyin |
 |-----|--------|-----|-----|-----|-----|------|---------|------|-----------|
 | **1848** | Manifiesto Comunista | mil ochocientos cuarenta y ocho | eighteen forty-eight | achtzehnhundertachtundvierzig | mil oitocentos e quarenta e oito | тысяча восемьсот сорок восьмой | týsyacha vosem'sót sórok vos'móy | 一八四八年 | yī bā sì bā nián |
 | **1871** | Comuna de París | mil ochocientos setenta y uno | eighteen seventy-one | achtzehnhunderteinundsiebzig | mil oitocentos e setenta e um | тысяча восемьсот семьдесят первый | týsyacha vosem'sót sem'desyát pérvyy | 一八七一年 | yī bā qī yī nián |
