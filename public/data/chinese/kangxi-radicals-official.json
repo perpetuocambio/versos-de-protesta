@@ -1,0 +1,4935 @@
+{
+  "metadata": {
+    "generated": "2025-07-27T18:39:49.630Z",
+    "version": "1.0.0",
+    "description": "Official Kangxi radicals with pronunciation from CC-CEDICT",
+    "total_radicals": 214,
+    "cedict_coverage": 208,
+    "coverage_percentage": 97,
+    "sources": [
+      "Unicode Standard (character codes and stroke counts)",
+      "CC-CEDICT (pronunciation and definitions)",
+      "Internal categorization system"
+    ],
+    "license": "CC BY-SA 4.0 (CC-CEDICT data)",
+    "attribution": "CC-CEDICT by MDBG, Unicode Consortium"
+  },
+  "radicals": [
+    {
+      "number": 1,
+      "radical": "一",
+      "strokes": 1,
+      "unicode": 19968,
+      "meaning": {
+        "en": "one",
+        "es": "uno",
+        "zh_pinyin": "yi1",
+        "cedict_definition": "one"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 1,
+        "unicode_codepoint": "U+4E00",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 2,
+      "radical": "丨",
+      "strokes": 1,
+      "unicode": 20008,
+      "meaning": {
+        "en": "line",
+        "es": "línea",
+        "zh_pinyin": "gun3",
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 2)"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 2,
+        "unicode_codepoint": "U+4E28",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 3,
+      "radical": "丶",
+      "strokes": 1,
+      "unicode": 20022,
+      "meaning": {
+        "en": "dot",
+        "es": "punto",
+        "zh_pinyin": "zhu3",
+        "cedict_definition": "\"dot\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 3,
+        "unicode_codepoint": "U+4E36",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 4,
+      "radical": "丿",
+      "strokes": 1,
+      "unicode": 20031,
+      "meaning": {
+        "en": "slash",
+        "es": "barra",
+        "zh_pinyin": "pie3",
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 4,
+        "unicode_codepoint": "U+4E3F",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 5,
+      "radical": "乙",
+      "strokes": 1,
+      "unicode": 20057,
+      "meaning": {
+        "en": "second",
+        "es": "second",
+        "zh_pinyin": "yi3",
+        "cedict_definition": "second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 5,
+        "unicode_codepoint": "U+4E59",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 6,
+      "radical": "亅",
+      "strokes": 1,
+      "unicode": 20101,
+      "meaning": {
+        "en": "hook",
+        "es": "gancho",
+        "zh_pinyin": "jue2",
+        "cedict_definition": "\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6), aka 豎鉤|竖钩[shu4gou1]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 6,
+        "unicode_codepoint": "U+4E85",
+        "radical_strokes": 1,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 7,
+      "radical": "二",
+      "strokes": 2,
+      "unicode": 20108,
+      "meaning": {
+        "en": "two",
+        "es": "dos",
+        "zh_pinyin": "er4",
+        "cedict_definition": "two"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 7,
+        "unicode_codepoint": "U+4E8C",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 8,
+      "radical": "亠",
+      "strokes": 2,
+      "unicode": 20128,
+      "meaning": {
+        "en": "lid",
+        "es": "lid",
+        "zh_pinyin": "tou2",
+        "cedict_definition": "\"lid\" radical in Chinese characters (Kangxi radical 8)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 8,
+        "unicode_codepoint": "U+4EA0",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 9,
+      "radical": "人",
+      "strokes": 2,
+      "unicode": 20154,
+      "meaning": {
+        "en": "man",
+        "es": "hombre",
+        "zh_pinyin": "ren2",
+        "cedict_definition": "person; people"
+      },
+      "category": "humano",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 9,
+        "unicode_codepoint": "U+4EBA",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 10,
+      "radical": "儿",
+      "strokes": 2,
+      "unicode": 20799,
+      "meaning": {
+        "en": "legs",
+        "es": "legs",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 10,
+        "unicode_codepoint": "U+513F",
+        "radical_strokes": 2,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 11,
+      "radical": "入",
+      "strokes": 2,
+      "unicode": 20837,
+      "meaning": {
+        "en": "enter",
+        "es": "entrar",
+        "zh_pinyin": "ru4",
+        "cedict_definition": "to enter; to go into"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 11,
+        "unicode_codepoint": "U+5165",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 12,
+      "radical": "八",
+      "strokes": 2,
+      "unicode": 20843,
+      "meaning": {
+        "en": "eight",
+        "es": "ocho",
+        "zh_pinyin": "ba1",
+        "cedict_definition": "eight"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 12,
+        "unicode_codepoint": "U+516B",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 13,
+      "radical": "冂",
+      "strokes": 2,
+      "unicode": 20866,
+      "meaning": {
+        "en": "down box",
+        "es": "down box",
+        "zh_pinyin": "jiong1",
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4], 同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 13,
+        "unicode_codepoint": "U+5182",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 14,
+      "radical": "冖",
+      "strokes": 2,
+      "unicode": 20886,
+      "meaning": {
+        "en": "cover",
+        "es": "cover",
+        "zh_pinyin": "mi4",
+        "cedict_definition": "\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 14,
+        "unicode_codepoint": "U+5196",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 15,
+      "radical": "冫",
+      "strokes": 2,
+      "unicode": 20907,
+      "meaning": {
+        "en": "ice",
+        "es": "ice",
+        "zh_pinyin": "bing1",
+        "cedict_definition": "\"ice\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 15,
+        "unicode_codepoint": "U+51AB",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 16,
+      "radical": "几",
+      "strokes": 2,
+      "unicode": 20960,
+      "meaning": {
+        "en": "table",
+        "es": "table",
+        "zh_pinyin": "ji1",
+        "cedict_definition": "small table"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 16,
+        "unicode_codepoint": "U+51E0",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 17,
+      "radical": "凵",
+      "strokes": 2,
+      "unicode": 20981,
+      "meaning": {
+        "en": "open box",
+        "es": "open box",
+        "zh_pinyin": "kan3",
+        "cedict_definition": "receptacle"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 17,
+        "unicode_codepoint": "U+51F5",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 18,
+      "radical": "刀",
+      "strokes": 2,
+      "unicode": 20992,
+      "meaning": {
+        "en": "knife",
+        "es": "cuchillo",
+        "zh_pinyin": "dao1",
+        "cedict_definition": "surname Dao"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 18,
+        "unicode_codepoint": "U+5200",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 19,
+      "radical": "力",
+      "strokes": 2,
+      "unicode": 21147,
+      "meaning": {
+        "en": "power",
+        "es": "fuerza",
+        "zh_pinyin": "li4",
+        "cedict_definition": "surname Li"
+      },
+      "category": "abstracto",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 19,
+        "unicode_codepoint": "U+529B",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 20,
+      "radical": "勹",
+      "strokes": 2,
+      "unicode": 21241,
+      "meaning": {
+        "en": "wrap",
+        "es": "wrap",
+        "zh_pinyin": "bao1",
+        "cedict_definition": "old variant of 包[bao1]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 20,
+        "unicode_codepoint": "U+52F9",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 21,
+      "radical": "匕",
+      "strokes": 2,
+      "unicode": 21269,
+      "meaning": {
+        "en": "spoon",
+        "es": "cuchara",
+        "zh_pinyin": "bi3",
+        "cedict_definition": "dagger"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 21,
+        "unicode_codepoint": "U+5315",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 22,
+      "radical": "匚",
+      "strokes": 2,
+      "unicode": 21274,
+      "meaning": {
+        "en": "right open box",
+        "es": "right open box",
+        "zh_pinyin": "fang1",
+        "cedict_definition": "\"right open box\" radical (Kangxi radical 22), occurring in 区, 医, 匹 etc"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 22,
+        "unicode_codepoint": "U+531A",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 23,
+      "radical": "匸",
+      "strokes": 2,
+      "unicode": 21304,
+      "meaning": {
+        "en": "hiding enclosure",
+        "es": "hiding enclosure",
+        "zh_pinyin": "xi4",
+        "cedict_definition": "\"cover\" or \"conceal\" radical in Chinese characters (Kangxi radical 23) (distinguished from 匚[fang1])"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 23,
+        "unicode_codepoint": "U+5338",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 24,
+      "radical": "十",
+      "strokes": 2,
+      "unicode": 21313,
+      "meaning": {
+        "en": "ten",
+        "es": "diez",
+        "zh_pinyin": "shi2",
+        "cedict_definition": "ten"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 24,
+        "unicode_codepoint": "U+5341",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 25,
+      "radical": "卜",
+      "strokes": 2,
+      "unicode": 21340,
+      "meaning": {
+        "en": "divination",
+        "es": "divination",
+        "zh_pinyin": "bu3",
+        "cedict_definition": "surname Bu"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 25,
+        "unicode_codepoint": "U+535C",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 26,
+      "radical": "卩",
+      "strokes": 2,
+      "unicode": 21353,
+      "meaning": {
+        "en": "seal",
+        "es": "seal",
+        "zh_pinyin": "jie2",
+        "cedict_definition": "\"seal\" radical in Chinese characters (Kangxi radical 26)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 26,
+        "unicode_codepoint": "U+5369",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 27,
+      "radical": "厂",
+      "strokes": 2,
+      "unicode": 21378,
+      "meaning": {
+        "en": "cliff",
+        "es": "cliff",
+        "zh_pinyin": "han3",
+        "cedict_definition": "\"cliff\" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 27,
+        "unicode_codepoint": "U+5382",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 28,
+      "radical": "厶",
+      "strokes": 2,
+      "unicode": 21430,
+      "meaning": {
+        "en": "private",
+        "es": "private",
+        "zh_pinyin": "mou3",
+        "cedict_definition": "old variant of 某[mou3]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 28,
+        "unicode_codepoint": "U+53B6",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 29,
+      "radical": "又",
+      "strokes": 2,
+      "unicode": 21448,
+      "meaning": {
+        "en": "again",
+        "es": "again",
+        "zh_pinyin": "you4",
+        "cedict_definition": "(once) again"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 29,
+        "unicode_codepoint": "U+53C8",
+        "radical_strokes": 2,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 30,
+      "radical": "口",
+      "strokes": 3,
+      "unicode": 21475,
+      "meaning": {
+        "en": "mouth",
+        "es": "boca",
+        "zh_pinyin": "kou3",
+        "cedict_definition": "mouth"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 30,
+        "unicode_codepoint": "U+53E3",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 31,
+      "radical": "囗",
+      "strokes": 3,
+      "unicode": 22231,
+      "meaning": {
+        "en": "enclosure",
+        "es": "enclosure",
+        "zh_pinyin": "wei2",
+        "cedict_definition": "enclosure"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 31,
+        "unicode_codepoint": "U+56D7",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 32,
+      "radical": "土",
+      "strokes": 3,
+      "unicode": 22303,
+      "meaning": {
+        "en": "earth",
+        "es": "tierra",
+        "zh_pinyin": "tu3",
+        "cedict_definition": "Tu (ethnic group)"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 32,
+        "unicode_codepoint": "U+571F",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 33,
+      "radical": "士",
+      "strokes": 3,
+      "unicode": 22763,
+      "meaning": {
+        "en": "scholar",
+        "es": "scholar",
+        "zh_pinyin": "shi4",
+        "cedict_definition": "surname Shi"
+      },
+      "category": "humano",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 33,
+        "unicode_codepoint": "U+58EB",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 34,
+      "radical": "夂",
+      "strokes": 3,
+      "unicode": 22786,
+      "meaning": {
+        "en": "go",
+        "es": "ir",
+        "zh_pinyin": "zhi3",
+        "cedict_definition": "\"walk slowly\" component in Chinese characters"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 34,
+        "unicode_codepoint": "U+5902",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 35,
+      "radical": "夊",
+      "strokes": 3,
+      "unicode": 22794,
+      "meaning": {
+        "en": "go slowly",
+        "es": "go slowly",
+        "zh_pinyin": "sui1",
+        "cedict_definition": "see 夂[zhi3]"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 35,
+        "unicode_codepoint": "U+590A",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 36,
+      "radical": "夕",
+      "strokes": 3,
+      "unicode": 22805,
+      "meaning": {
+        "en": "evening",
+        "es": "evening",
+        "zh_pinyin": "xi1",
+        "cedict_definition": "(bound form) sunset; dusk"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 36,
+        "unicode_codepoint": "U+5915",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 37,
+      "radical": "大",
+      "strokes": 3,
+      "unicode": 22823,
+      "meaning": {
+        "en": "big",
+        "es": "grande",
+        "zh_pinyin": "da4",
+        "cedict_definition": "big; large; great"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 37,
+        "unicode_codepoint": "U+5927",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 38,
+      "radical": "女",
+      "strokes": 3,
+      "unicode": 22899,
+      "meaning": {
+        "en": "woman",
+        "es": "mujer",
+        "zh_pinyin": "nu:3",
+        "cedict_definition": "female"
+      },
+      "category": "humano",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 38,
+        "unicode_codepoint": "U+5973",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 39,
+      "radical": "子",
+      "strokes": 3,
+      "unicode": 23376,
+      "meaning": {
+        "en": "child",
+        "es": "niño",
+        "zh_pinyin": "zi3",
+        "cedict_definition": "son"
+      },
+      "category": "humano",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 39,
+        "unicode_codepoint": "U+5B50",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 40,
+      "radical": "宀",
+      "strokes": 3,
+      "unicode": 23424,
+      "meaning": {
+        "en": "roof",
+        "es": "roof",
+        "zh_pinyin": "mian2",
+        "cedict_definition": "\"roof\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 40,
+        "unicode_codepoint": "U+5B80",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 41,
+      "radical": "寸",
+      "strokes": 3,
+      "unicode": 23544,
+      "meaning": {
+        "en": "inch",
+        "es": "inch",
+        "zh_pinyin": "cun4",
+        "cedict_definition": "a unit of length"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 41,
+        "unicode_codepoint": "U+5BF8",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 42,
+      "radical": "小",
+      "strokes": 3,
+      "unicode": 23567,
+      "meaning": {
+        "en": "small",
+        "es": "pequeño",
+        "zh_pinyin": "xiao3",
+        "cedict_definition": "small"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 42,
+        "unicode_codepoint": "U+5C0F",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 43,
+      "radical": "尢",
+      "strokes": 3,
+      "unicode": 23586,
+      "meaning": {
+        "en": "lame",
+        "es": "lame",
+        "zh_pinyin": "wang1",
+        "cedict_definition": "lame"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 43,
+        "unicode_codepoint": "U+5C22",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 44,
+      "radical": "尸",
+      "strokes": 3,
+      "unicode": 23608,
+      "meaning": {
+        "en": "corpse",
+        "es": "corpse",
+        "zh_pinyin": "shi1",
+        "cedict_definition": "(literary) person representing the deceased (during burial ceremonies)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 44,
+        "unicode_codepoint": "U+5C38",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 45,
+      "radical": "屮",
+      "strokes": 3,
+      "unicode": 23662,
+      "meaning": {
+        "en": "sprout",
+        "es": "sprout",
+        "zh_pinyin": "che4",
+        "cedict_definition": "plants sprouting"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 45,
+        "unicode_codepoint": "U+5C6E",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 46,
+      "radical": "山",
+      "strokes": 3,
+      "unicode": 23665,
+      "meaning": {
+        "en": "mountain",
+        "es": "montaña",
+        "zh_pinyin": "shan1",
+        "cedict_definition": "surname Shan"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 46,
+        "unicode_codepoint": "U+5C71",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 47,
+      "radical": "巛",
+      "strokes": 3,
+      "unicode": 24027,
+      "meaning": {
+        "en": "river",
+        "es": "river",
+        "zh_pinyin": "chuan1",
+        "cedict_definition": "old variant of 川[chuan1]"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 47,
+        "unicode_codepoint": "U+5DDB",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 48,
+      "radical": "工",
+      "strokes": 3,
+      "unicode": 24037,
+      "meaning": {
+        "en": "work",
+        "es": "trabajo",
+        "zh_pinyin": "gong1",
+        "cedict_definition": "work"
+      },
+      "category": "actividad",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 48,
+        "unicode_codepoint": "U+5DE5",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 49,
+      "radical": "己",
+      "strokes": 3,
+      "unicode": 24049,
+      "meaning": {
+        "en": "oneself",
+        "es": "oneself",
+        "zh_pinyin": "ji3",
+        "cedict_definition": "self"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 49,
+        "unicode_codepoint": "U+5DF1",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 50,
+      "radical": "巾",
+      "strokes": 3,
+      "unicode": 24062,
+      "meaning": {
+        "en": "turban",
+        "es": "turban",
+        "zh_pinyin": "jin1",
+        "cedict_definition": "towel"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 50,
+        "unicode_codepoint": "U+5DFE",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 51,
+      "radical": "干",
+      "strokes": 3,
+      "unicode": 24178,
+      "meaning": {
+        "en": "dry",
+        "es": "dry",
+        "zh_pinyin": "gan1",
+        "cedict_definition": "surname Gan"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 51,
+        "unicode_codepoint": "U+5E72",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 52,
+      "radical": "幺",
+      "strokes": 3,
+      "unicode": 24186,
+      "meaning": {
+        "en": "short thread",
+        "es": "short thread",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 52,
+        "unicode_codepoint": "U+5E7A",
+        "radical_strokes": 3,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 53,
+      "radical": "广",
+      "strokes": 3,
+      "unicode": 24191,
+      "meaning": {
+        "en": "dotted cliff",
+        "es": "dotted cliff",
+        "zh_pinyin": "yan3",
+        "cedict_definition": "\"house on a cliff\" radical in Chinese characters (Kangxi radical 53), occurring in 店, 序, 底 etc"
+      },
+      "category": "forma",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 53,
+        "unicode_codepoint": "U+5E7F",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 54,
+      "radical": "廴",
+      "strokes": 3,
+      "unicode": 24308,
+      "meaning": {
+        "en": "long stride",
+        "es": "long stride",
+        "zh_pinyin": "yin3",
+        "cedict_definition": "\"long stride\" radical in Chinese characters (Kangxi radical 54), occurring in 建, 延, 廷 etc"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 54,
+        "unicode_codepoint": "U+5EF4",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 55,
+      "radical": "廾",
+      "strokes": 3,
+      "unicode": 24318,
+      "meaning": {
+        "en": "arch",
+        "es": "arch",
+        "zh_pinyin": "gong3",
+        "cedict_definition": "hands joined"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 55,
+        "unicode_codepoint": "U+5EFE",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 56,
+      "radical": "弋",
+      "strokes": 3,
+      "unicode": 24331,
+      "meaning": {
+        "en": "shoot",
+        "es": "shoot",
+        "zh_pinyin": "yi4",
+        "cedict_definition": "to shoot"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 56,
+        "unicode_codepoint": "U+5F0B",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 57,
+      "radical": "弓",
+      "strokes": 3,
+      "unicode": 24339,
+      "meaning": {
+        "en": "bow",
+        "es": "arco",
+        "zh_pinyin": "gong1",
+        "cedict_definition": "surname Gong"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 57,
+        "unicode_codepoint": "U+5F13",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 58,
+      "radical": "彐",
+      "strokes": 3,
+      "unicode": 24400,
+      "meaning": {
+        "en": "snout",
+        "es": "snout",
+        "zh_pinyin": "ji4",
+        "cedict_definition": "pig snout (Kangxi radical 58)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 58,
+        "unicode_codepoint": "U+5F50",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 59,
+      "radical": "彡",
+      "strokes": 3,
+      "unicode": 24417,
+      "meaning": {
+        "en": "bristle",
+        "es": "bristle",
+        "zh_pinyin": "shan1",
+        "cedict_definition": "\"bristle\" radical in Chinese characters (Kangxi radical 59)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 59,
+        "unicode_codepoint": "U+5F61",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 60,
+      "radical": "彳",
+      "strokes": 3,
+      "unicode": 24435,
+      "meaning": {
+        "en": "step",
+        "es": "step",
+        "zh_pinyin": "chi4",
+        "cedict_definition": "step with the left foot (Kangxi radical 60)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 60,
+        "unicode_codepoint": "U+5F73",
+        "radical_strokes": 3,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 61,
+      "radical": "心",
+      "strokes": 4,
+      "unicode": 24515,
+      "meaning": {
+        "en": "heart",
+        "es": "corazón",
+        "zh_pinyin": "xin1",
+        "cedict_definition": "heart"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 61,
+        "unicode_codepoint": "U+5FC3",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 62,
+      "radical": "戈",
+      "strokes": 4,
+      "unicode": 25096,
+      "meaning": {
+        "en": "halberd",
+        "es": "lanza",
+        "zh_pinyin": "ge1",
+        "cedict_definition": "surname Ge"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 62,
+        "unicode_codepoint": "U+6208",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 63,
+      "radical": "戶",
+      "strokes": 4,
+      "unicode": 25142,
+      "meaning": {
+        "en": "door",
+        "es": "puerta",
+        "zh_pinyin": "hu4",
+        "cedict_definition": "a household"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 63,
+        "unicode_codepoint": "U+6236",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 64,
+      "radical": "手",
+      "strokes": 4,
+      "unicode": 25163,
+      "meaning": {
+        "en": "hand",
+        "es": "mano",
+        "zh_pinyin": "shou3",
+        "cedict_definition": "hand"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 64,
+        "unicode_codepoint": "U+624B",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 65,
+      "radical": "支",
+      "strokes": 4,
+      "unicode": 25903,
+      "meaning": {
+        "en": "branch",
+        "es": "branch",
+        "zh_pinyin": "zhi1",
+        "cedict_definition": "surname Zhi"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 65,
+        "unicode_codepoint": "U+652F",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 66,
+      "radical": "攴",
+      "strokes": 4,
+      "unicode": 25908,
+      "meaning": {
+        "en": "rap",
+        "es": "rap",
+        "zh_pinyin": "pu1",
+        "cedict_definition": "to tap"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 66,
+        "unicode_codepoint": "U+6534",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 67,
+      "radical": "文",
+      "strokes": 4,
+      "unicode": 25991,
+      "meaning": {
+        "en": "script",
+        "es": "script",
+        "zh_pinyin": "wen2",
+        "cedict_definition": "surname Wen"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 67,
+        "unicode_codepoint": "U+6587",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 68,
+      "radical": "斗",
+      "strokes": 4,
+      "unicode": 26007,
+      "meaning": {
+        "en": "dipper",
+        "es": "dipper",
+        "zh_pinyin": "dou3",
+        "cedict_definition": "abbr. for the Big Dipper constellation 北斗星[Bei3 dou3 xing1]"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 68,
+        "unicode_codepoint": "U+6597",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 69,
+      "radical": "斤",
+      "strokes": 4,
+      "unicode": 26020,
+      "meaning": {
+        "en": "axe",
+        "es": "hacha",
+        "zh_pinyin": "jin1",
+        "cedict_definition": "catty"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 69,
+        "unicode_codepoint": "U+65A4",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 70,
+      "radical": "方",
+      "strokes": 4,
+      "unicode": 26041,
+      "meaning": {
+        "en": "square",
+        "es": "square",
+        "zh_pinyin": "fang1",
+        "cedict_definition": "surname Fang"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 70,
+        "unicode_codepoint": "U+65B9",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 71,
+      "radical": "无",
+      "strokes": 4,
+      "unicode": 26080,
+      "meaning": {
+        "en": "not",
+        "es": "no",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "abstracto",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 71,
+        "unicode_codepoint": "U+65E0",
+        "radical_strokes": 4,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 72,
+      "radical": "日",
+      "strokes": 4,
+      "unicode": 26085,
+      "meaning": {
+        "en": "sun",
+        "es": "sol",
+        "zh_pinyin": "ri4",
+        "cedict_definition": "abbr. for 日本[Ri4 ben3], Japan"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 72,
+        "unicode_codepoint": "U+65E5",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 73,
+      "radical": "曰",
+      "strokes": 4,
+      "unicode": 26352,
+      "meaning": {
+        "en": "say",
+        "es": "say",
+        "zh_pinyin": "yue1",
+        "cedict_definition": "to speak"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 73,
+        "unicode_codepoint": "U+66F0",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 74,
+      "radical": "月",
+      "strokes": 4,
+      "unicode": 26376,
+      "meaning": {
+        "en": "moon",
+        "es": "luna",
+        "zh_pinyin": "yue4",
+        "cedict_definition": "moon"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 74,
+        "unicode_codepoint": "U+6708",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 75,
+      "radical": "木",
+      "strokes": 4,
+      "unicode": 26408,
+      "meaning": {
+        "en": "tree",
+        "es": "madera",
+        "zh_pinyin": "mu4",
+        "cedict_definition": "surname Mu"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 75,
+        "unicode_codepoint": "U+6728",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 76,
+      "radical": "欠",
+      "strokes": 4,
+      "unicode": 27424,
+      "meaning": {
+        "en": "lack",
+        "es": "lack",
+        "zh_pinyin": "qian4",
+        "cedict_definition": "to owe"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 76,
+        "unicode_codepoint": "U+6B20",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 77,
+      "radical": "止",
+      "strokes": 4,
+      "unicode": 27490,
+      "meaning": {
+        "en": "stop",
+        "es": "parar",
+        "zh_pinyin": "zhi3",
+        "cedict_definition": "to stop"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 77,
+        "unicode_codepoint": "U+6B62",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 78,
+      "radical": "歹",
+      "strokes": 4,
+      "unicode": 27513,
+      "meaning": {
+        "en": "death",
+        "es": "death",
+        "zh_pinyin": "dai3",
+        "cedict_definition": "bad"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 78,
+        "unicode_codepoint": "U+6B79",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 79,
+      "radical": "殳",
+      "strokes": 4,
+      "unicode": 27571,
+      "meaning": {
+        "en": "weapon",
+        "es": "arma",
+        "zh_pinyin": "shu1",
+        "cedict_definition": "surname Shu"
+      },
+      "category": "herramienta",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 79,
+        "unicode_codepoint": "U+6BB3",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 80,
+      "radical": "毋",
+      "strokes": 4,
+      "unicode": 27595,
+      "meaning": {
+        "en": "do not",
+        "es": "do not",
+        "zh_pinyin": "wu2",
+        "cedict_definition": "surname Wu"
+      },
+      "category": "abstracto",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 80,
+        "unicode_codepoint": "U+6BCB",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 81,
+      "radical": "比",
+      "strokes": 4,
+      "unicode": 27604,
+      "meaning": {
+        "en": "compare",
+        "es": "comparar",
+        "zh_pinyin": "bi3",
+        "cedict_definition": "Belgium"
+      },
+      "category": "abstracto",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 81,
+        "unicode_codepoint": "U+6BD4",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 82,
+      "radical": "毛",
+      "strokes": 4,
+      "unicode": 27611,
+      "meaning": {
+        "en": "fur",
+        "es": "fur",
+        "zh_pinyin": "mao2",
+        "cedict_definition": "surname Mao"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 82,
+        "unicode_codepoint": "U+6BDB",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 83,
+      "radical": "氏",
+      "strokes": 4,
+      "unicode": 27663,
+      "meaning": {
+        "en": "clan",
+        "es": "clan",
+        "zh_pinyin": "shi4",
+        "cedict_definition": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 83,
+        "unicode_codepoint": "U+6C0F",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 84,
+      "radical": "气",
+      "strokes": 4,
+      "unicode": 27668,
+      "meaning": {
+        "en": "steam",
+        "es": "steam",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 84,
+        "unicode_codepoint": "U+6C14",
+        "radical_strokes": 4,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 85,
+      "radical": "水",
+      "strokes": 4,
+      "unicode": 27700,
+      "meaning": {
+        "en": "water",
+        "es": "agua",
+        "zh_pinyin": "shui3",
+        "cedict_definition": "surname Shui"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 85,
+        "unicode_codepoint": "U+6C34",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 86,
+      "radical": "火",
+      "strokes": 4,
+      "unicode": 28779,
+      "meaning": {
+        "en": "fire",
+        "es": "fuego",
+        "zh_pinyin": "huo3",
+        "cedict_definition": "surname Huo"
+      },
+      "category": "naturaleza",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 86,
+        "unicode_codepoint": "U+706B",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 87,
+      "radical": "爪",
+      "strokes": 4,
+      "unicode": 29226,
+      "meaning": {
+        "en": "claw",
+        "es": "claw",
+        "zh_pinyin": "zhao3",
+        "cedict_definition": "foot of a bird or animal"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 87,
+        "unicode_codepoint": "U+722A",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 88,
+      "radical": "父",
+      "strokes": 4,
+      "unicode": 29238,
+      "meaning": {
+        "en": "father",
+        "es": "father",
+        "zh_pinyin": "fu4",
+        "cedict_definition": "father"
+      },
+      "category": "humano",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 88,
+        "unicode_codepoint": "U+7236",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 89,
+      "radical": "爻",
+      "strokes": 4,
+      "unicode": 29243,
+      "meaning": {
+        "en": "double x",
+        "es": "double x",
+        "zh_pinyin": "yao2",
+        "cedict_definition": "the solid and broken lines of the eight trigrams 八卦[ba1 gua4], e.g. ☶"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 89,
+        "unicode_codepoint": "U+723B",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 90,
+      "radical": "爿",
+      "strokes": 4,
+      "unicode": 29247,
+      "meaning": {
+        "en": "split wood",
+        "es": "split wood",
+        "zh_pinyin": "qiang2",
+        "cedict_definition": "\"piece of wood\" radical in Chinese characters (Kangxi radical 90), mirror image of 片[pian4]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 90,
+        "unicode_codepoint": "U+723F",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 91,
+      "radical": "片",
+      "strokes": 4,
+      "unicode": 29255,
+      "meaning": {
+        "en": "slice",
+        "es": "slice",
+        "zh_pinyin": "pian1",
+        "cedict_definition": "disk"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 91,
+        "unicode_codepoint": "U+7247",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 92,
+      "radical": "牙",
+      "strokes": 4,
+      "unicode": 29273,
+      "meaning": {
+        "en": "fang",
+        "es": "fang",
+        "zh_pinyin": "ya2",
+        "cedict_definition": "tooth"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 92,
+        "unicode_codepoint": "U+7259",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 93,
+      "radical": "牛",
+      "strokes": 4,
+      "unicode": 29275,
+      "meaning": {
+        "en": "cow",
+        "es": "vaca",
+        "zh_pinyin": "niu2",
+        "cedict_definition": "surname Niu"
+      },
+      "category": "animal",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 93,
+        "unicode_codepoint": "U+725B",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 94,
+      "radical": "犬",
+      "strokes": 4,
+      "unicode": 29356,
+      "meaning": {
+        "en": "dog",
+        "es": "perro",
+        "zh_pinyin": "quan3",
+        "cedict_definition": "dog"
+      },
+      "category": "animal",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 94,
+        "unicode_codepoint": "U+72AC",
+        "radical_strokes": 4,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 95,
+      "radical": "玄",
+      "strokes": 5,
+      "unicode": 29572,
+      "meaning": {
+        "en": "profound",
+        "es": "profound",
+        "zh_pinyin": "xuan2",
+        "cedict_definition": "black"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 95,
+        "unicode_codepoint": "U+7384",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 96,
+      "radical": "玉",
+      "strokes": 5,
+      "unicode": 29577,
+      "meaning": {
+        "en": "jade",
+        "es": "jade",
+        "zh_pinyin": "yu4",
+        "cedict_definition": "jade"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 96,
+        "unicode_codepoint": "U+7389",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 97,
+      "radical": "瓜",
+      "strokes": 5,
+      "unicode": 29916,
+      "meaning": {
+        "en": "melon",
+        "es": "melon",
+        "zh_pinyin": "gua1",
+        "cedict_definition": "melon; gourd; squash"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 97,
+        "unicode_codepoint": "U+74DC",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 98,
+      "radical": "瓦",
+      "strokes": 5,
+      "unicode": 29926,
+      "meaning": {
+        "en": "tile",
+        "es": "tile",
+        "zh_pinyin": "wa3",
+        "cedict_definition": "roof tile"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 98,
+        "unicode_codepoint": "U+74E6",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 99,
+      "radical": "甘",
+      "strokes": 5,
+      "unicode": 29976,
+      "meaning": {
+        "en": "sweet",
+        "es": "sweet",
+        "zh_pinyin": "gan1",
+        "cedict_definition": "surname Gan"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 99,
+        "unicode_codepoint": "U+7518",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 100,
+      "radical": "生",
+      "strokes": 5,
+      "unicode": 29983,
+      "meaning": {
+        "en": "life",
+        "es": "life",
+        "zh_pinyin": "sheng1",
+        "cedict_definition": "to be born"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 100,
+        "unicode_codepoint": "U+751F",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 101,
+      "radical": "用",
+      "strokes": 5,
+      "unicode": 29992,
+      "meaning": {
+        "en": "use",
+        "es": "use",
+        "zh_pinyin": "yong4",
+        "cedict_definition": "to use; to make use of; to employ"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 101,
+        "unicode_codepoint": "U+7528",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 102,
+      "radical": "田",
+      "strokes": 5,
+      "unicode": 30000,
+      "meaning": {
+        "en": "field",
+        "es": "field",
+        "zh_pinyin": "tian2",
+        "cedict_definition": "surname Tian"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 102,
+        "unicode_codepoint": "U+7530",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 103,
+      "radical": "疋",
+      "strokes": 5,
+      "unicode": 30091,
+      "meaning": {
+        "en": "bolt of cloth",
+        "es": "bolt of cloth",
+        "zh_pinyin": "pi3",
+        "cedict_definition": "variant of 匹[pi3]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 103,
+        "unicode_codepoint": "U+758B",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 104,
+      "radical": "疒",
+      "strokes": 5,
+      "unicode": 30098,
+      "meaning": {
+        "en": "sickness",
+        "es": "sickness",
+        "zh_pinyin": "ne4",
+        "cedict_definition": "sick"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 104,
+        "unicode_codepoint": "U+7592",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 105,
+      "radical": "癶",
+      "strokes": 5,
+      "unicode": 30326,
+      "meaning": {
+        "en": "dotted tent",
+        "es": "dotted tent",
+        "zh_pinyin": "bo1",
+        "cedict_definition": "Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 105,
+        "unicode_codepoint": "U+7676",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 106,
+      "radical": "白",
+      "strokes": 5,
+      "unicode": 30333,
+      "meaning": {
+        "en": "white",
+        "es": "white",
+        "zh_pinyin": "bai2",
+        "cedict_definition": "surname Bai"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 106,
+        "unicode_codepoint": "U+767D",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 107,
+      "radical": "皮",
+      "strokes": 5,
+      "unicode": 30382,
+      "meaning": {
+        "en": "skin",
+        "es": "skin",
+        "zh_pinyin": "pi2",
+        "cedict_definition": "surname Pi"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 107,
+        "unicode_codepoint": "U+76AE",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 108,
+      "radical": "皿",
+      "strokes": 5,
+      "unicode": 30399,
+      "meaning": {
+        "en": "dish",
+        "es": "dish",
+        "zh_pinyin": "min3",
+        "cedict_definition": "(bound form) dish; vessel; shallow container"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 108,
+        "unicode_codepoint": "U+76BF",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 109,
+      "radical": "目",
+      "strokes": 5,
+      "unicode": 30446,
+      "meaning": {
+        "en": "eye",
+        "es": "eye",
+        "zh_pinyin": "mu4",
+        "cedict_definition": "eye"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 109,
+        "unicode_codepoint": "U+76EE",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 110,
+      "radical": "矛",
+      "strokes": 5,
+      "unicode": 30683,
+      "meaning": {
+        "en": "spear",
+        "es": "spear",
+        "zh_pinyin": "mao2",
+        "cedict_definition": "spear"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 110,
+        "unicode_codepoint": "U+77DB",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 111,
+      "radical": "矢",
+      "strokes": 5,
+      "unicode": 30690,
+      "meaning": {
+        "en": "arrow",
+        "es": "arrow",
+        "zh_pinyin": "shi3",
+        "cedict_definition": "arrow"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 111,
+        "unicode_codepoint": "U+77E2",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 112,
+      "radical": "石",
+      "strokes": 5,
+      "unicode": 30707,
+      "meaning": {
+        "en": "stone",
+        "es": "stone",
+        "zh_pinyin": "shi2",
+        "cedict_definition": "surname Shi"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 112,
+        "unicode_codepoint": "U+77F3",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 113,
+      "radical": "示",
+      "strokes": 5,
+      "unicode": 31034,
+      "meaning": {
+        "en": "spirit",
+        "es": "spirit",
+        "zh_pinyin": "shi4",
+        "cedict_definition": "to show"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 113,
+        "unicode_codepoint": "U+793A",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 114,
+      "radical": "禸",
+      "strokes": 5,
+      "unicode": 31160,
+      "meaning": {
+        "en": "track",
+        "es": "track",
+        "zh_pinyin": "rou2",
+        "cedict_definition": "trample"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 114,
+        "unicode_codepoint": "U+79B8",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 115,
+      "radical": "禾",
+      "strokes": 5,
+      "unicode": 31166,
+      "meaning": {
+        "en": "grain",
+        "es": "grain",
+        "zh_pinyin": "he2",
+        "cedict_definition": "cereal"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 115,
+        "unicode_codepoint": "U+79BE",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 116,
+      "radical": "穴",
+      "strokes": 5,
+      "unicode": 31348,
+      "meaning": {
+        "en": "cave",
+        "es": "cave",
+        "zh_pinyin": "xue2",
+        "cedict_definition": "cave"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 116,
+        "unicode_codepoint": "U+7A74",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 117,
+      "radical": "立",
+      "strokes": 5,
+      "unicode": 31435,
+      "meaning": {
+        "en": "stand",
+        "es": "stand",
+        "zh_pinyin": "li4",
+        "cedict_definition": "surname Li"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 117,
+        "unicode_codepoint": "U+7ACB",
+        "radical_strokes": 5,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 118,
+      "radical": "竹",
+      "strokes": 6,
+      "unicode": 31481,
+      "meaning": {
+        "en": "bamboo",
+        "es": "bamboo",
+        "zh_pinyin": "zhu2",
+        "cedict_definition": "bamboo"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 118,
+        "unicode_codepoint": "U+7AF9",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 119,
+      "radical": "米",
+      "strokes": 6,
+      "unicode": 31859,
+      "meaning": {
+        "en": "rice",
+        "es": "rice",
+        "zh_pinyin": "mi3",
+        "cedict_definition": "surname Mi"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 119,
+        "unicode_codepoint": "U+7C73",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 120,
+      "radical": "糸",
+      "strokes": 6,
+      "unicode": 31992,
+      "meaning": {
+        "en": "silk",
+        "es": "silk",
+        "zh_pinyin": "mi4",
+        "cedict_definition": "fine silk"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 120,
+        "unicode_codepoint": "U+7CF8",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 121,
+      "radical": "缶",
+      "strokes": 6,
+      "unicode": 32566,
+      "meaning": {
+        "en": "jar",
+        "es": "jar",
+        "zh_pinyin": "fou3",
+        "cedict_definition": "pottery"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 121,
+        "unicode_codepoint": "U+7F36",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 122,
+      "radical": "网",
+      "strokes": 6,
+      "unicode": 32593,
+      "meaning": {
+        "en": "net",
+        "es": "net",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 122,
+        "unicode_codepoint": "U+7F51",
+        "radical_strokes": 6,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 123,
+      "radical": "羊",
+      "strokes": 6,
+      "unicode": 32650,
+      "meaning": {
+        "en": "sheep",
+        "es": "sheep",
+        "zh_pinyin": "yang2",
+        "cedict_definition": "surname Yang"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 123,
+        "unicode_codepoint": "U+7F8A",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 124,
+      "radical": "羽",
+      "strokes": 6,
+      "unicode": 32701,
+      "meaning": {
+        "en": "feather",
+        "es": "feather",
+        "zh_pinyin": "yu3",
+        "cedict_definition": "feather"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 124,
+        "unicode_codepoint": "U+7FBD",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 125,
+      "radical": "老",
+      "strokes": 6,
+      "unicode": 32769,
+      "meaning": {
+        "en": "old",
+        "es": "old",
+        "zh_pinyin": "lao3",
+        "cedict_definition": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 125,
+        "unicode_codepoint": "U+8001",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 126,
+      "radical": "而",
+      "strokes": 6,
+      "unicode": 32780,
+      "meaning": {
+        "en": "and",
+        "es": "and",
+        "zh_pinyin": "er2",
+        "cedict_definition": "and"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 126,
+        "unicode_codepoint": "U+800C",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 127,
+      "radical": "耒",
+      "strokes": 6,
+      "unicode": 32786,
+      "meaning": {
+        "en": "plow",
+        "es": "plow",
+        "zh_pinyin": "lei3",
+        "cedict_definition": "plow"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 127,
+        "unicode_codepoint": "U+8012",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 128,
+      "radical": "耳",
+      "strokes": 6,
+      "unicode": 32819,
+      "meaning": {
+        "en": "ear",
+        "es": "ear",
+        "zh_pinyin": "er3",
+        "cedict_definition": "ear"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 128,
+        "unicode_codepoint": "U+8033",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 129,
+      "radical": "聿",
+      "strokes": 6,
+      "unicode": 32895,
+      "meaning": {
+        "en": "brush",
+        "es": "brush",
+        "zh_pinyin": "yu4",
+        "cedict_definition": "(arch. introductory particle)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 129,
+        "unicode_codepoint": "U+807F",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 130,
+      "radical": "肉",
+      "strokes": 6,
+      "unicode": 32905,
+      "meaning": {
+        "en": "meat",
+        "es": "meat",
+        "zh_pinyin": "rou4",
+        "cedict_definition": "meat"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 130,
+        "unicode_codepoint": "U+8089",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 131,
+      "radical": "臣",
+      "strokes": 6,
+      "unicode": 33251,
+      "meaning": {
+        "en": "minister",
+        "es": "minister",
+        "zh_pinyin": "chen2",
+        "cedict_definition": "surname Chen"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 131,
+        "unicode_codepoint": "U+81E3",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 132,
+      "radical": "自",
+      "strokes": 6,
+      "unicode": 33258,
+      "meaning": {
+        "en": "self",
+        "es": "self",
+        "zh_pinyin": "zi4",
+        "cedict_definition": "(bound form) self; oneself"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 132,
+        "unicode_codepoint": "U+81EA",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 133,
+      "radical": "至",
+      "strokes": 6,
+      "unicode": 33267,
+      "meaning": {
+        "en": "arrive",
+        "es": "arrive",
+        "zh_pinyin": "zhi4",
+        "cedict_definition": "to arrive"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 133,
+        "unicode_codepoint": "U+81F3",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 134,
+      "radical": "臼",
+      "strokes": 6,
+      "unicode": 33276,
+      "meaning": {
+        "en": "mortar",
+        "es": "mortar",
+        "zh_pinyin": "jiu4",
+        "cedict_definition": "mortar"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 134,
+        "unicode_codepoint": "U+81FC",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 135,
+      "radical": "舌",
+      "strokes": 6,
+      "unicode": 33292,
+      "meaning": {
+        "en": "tongue",
+        "es": "tongue",
+        "zh_pinyin": "ji1",
+        "cedict_definition": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\""
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 135,
+        "unicode_codepoint": "U+820C",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 136,
+      "radical": "舛",
+      "strokes": 6,
+      "unicode": 33307,
+      "meaning": {
+        "en": "oppose",
+        "es": "oppose",
+        "zh_pinyin": "chuan3",
+        "cedict_definition": "mistaken"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 136,
+        "unicode_codepoint": "U+821B",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 137,
+      "radical": "舟",
+      "strokes": 6,
+      "unicode": 33311,
+      "meaning": {
+        "en": "boat",
+        "es": "boat",
+        "zh_pinyin": "zhou1",
+        "cedict_definition": "boat"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 137,
+        "unicode_codepoint": "U+821F",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 138,
+      "radical": "艮",
+      "strokes": 6,
+      "unicode": 33390,
+      "meaning": {
+        "en": "stopping",
+        "es": "stopping",
+        "zh_pinyin": "gen3",
+        "cedict_definition": "blunt"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 138,
+        "unicode_codepoint": "U+826E",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 139,
+      "radical": "色",
+      "strokes": 6,
+      "unicode": 33394,
+      "meaning": {
+        "en": "color",
+        "es": "color",
+        "zh_pinyin": "se4",
+        "cedict_definition": "color"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 139,
+        "unicode_codepoint": "U+8272",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 140,
+      "radical": "艸",
+      "strokes": 6,
+      "unicode": 33400,
+      "meaning": {
+        "en": "grass",
+        "es": "grass",
+        "zh_pinyin": "cao3",
+        "cedict_definition": "variant of 草[cao3]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 140,
+        "unicode_codepoint": "U+8278",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 141,
+      "radical": "虍",
+      "strokes": 6,
+      "unicode": 34381,
+      "meaning": {
+        "en": "tiger",
+        "es": "tiger",
+        "zh_pinyin": "hu1",
+        "cedict_definition": "stripes of a tiger"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 141,
+        "unicode_codepoint": "U+864D",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 142,
+      "radical": "虫",
+      "strokes": 6,
+      "unicode": 34411,
+      "meaning": {
+        "en": "insect",
+        "es": "insect",
+        "zh_pinyin": "chong2",
+        "cedict_definition": "variant of 蟲|虫[chong2]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 142,
+        "unicode_codepoint": "U+866B",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 143,
+      "radical": "血",
+      "strokes": 6,
+      "unicode": 34880,
+      "meaning": {
+        "en": "blood",
+        "es": "blood",
+        "zh_pinyin": "xie3",
+        "cedict_definition": "see 血[xue4]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 143,
+        "unicode_codepoint": "U+8840",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 144,
+      "radical": "行",
+      "strokes": 6,
+      "unicode": 34892,
+      "meaning": {
+        "en": "walk",
+        "es": "walk",
+        "zh_pinyin": "hang2",
+        "cedict_definition": "(bound form) row; line"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 144,
+        "unicode_codepoint": "U+884C",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 145,
+      "radical": "衣",
+      "strokes": 6,
+      "unicode": 34915,
+      "meaning": {
+        "en": "clothes",
+        "es": "clothes",
+        "zh_pinyin": "yi1",
+        "cedict_definition": "clothes"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 145,
+        "unicode_codepoint": "U+8863",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 146,
+      "radical": "襾",
+      "strokes": 6,
+      "unicode": 35198,
+      "meaning": {
+        "en": "cover",
+        "es": "cover",
+        "zh_pinyin": "ya4",
+        "cedict_definition": "cover"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 146,
+        "unicode_codepoint": "U+897E",
+        "radical_strokes": 6,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 147,
+      "radical": "見",
+      "strokes": 7,
+      "unicode": 35211,
+      "meaning": {
+        "en": "see",
+        "es": "see",
+        "zh_pinyin": "jian4",
+        "cedict_definition": "to see"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 147,
+        "unicode_codepoint": "U+898B",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 148,
+      "radical": "角",
+      "strokes": 7,
+      "unicode": 35282,
+      "meaning": {
+        "en": "horn",
+        "es": "horn",
+        "zh_pinyin": "jue2",
+        "cedict_definition": "surname Jue"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 148,
+        "unicode_codepoint": "U+89D2",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 149,
+      "radical": "言",
+      "strokes": 7,
+      "unicode": 35328,
+      "meaning": {
+        "en": "speech",
+        "es": "speech",
+        "zh_pinyin": "yan2",
+        "cedict_definition": "words"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 149,
+        "unicode_codepoint": "U+8A00",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 150,
+      "radical": "谷",
+      "strokes": 7,
+      "unicode": 35895,
+      "meaning": {
+        "en": "valley",
+        "es": "valley",
+        "zh_pinyin": "gu3",
+        "cedict_definition": "surname Gu"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 150,
+        "unicode_codepoint": "U+8C37",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 151,
+      "radical": "豆",
+      "strokes": 7,
+      "unicode": 35910,
+      "meaning": {
+        "en": "bean",
+        "es": "bean",
+        "zh_pinyin": "dou4",
+        "cedict_definition": "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4])"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 151,
+        "unicode_codepoint": "U+8C46",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 152,
+      "radical": "豕",
+      "strokes": 7,
+      "unicode": 35925,
+      "meaning": {
+        "en": "pig",
+        "es": "pig",
+        "zh_pinyin": "shi3",
+        "cedict_definition": "hog"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 152,
+        "unicode_codepoint": "U+8C55",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 153,
+      "radical": "豸",
+      "strokes": 7,
+      "unicode": 35960,
+      "meaning": {
+        "en": "badger",
+        "es": "badger",
+        "zh_pinyin": "zhi4",
+        "cedict_definition": "worm-like invertebrate"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 153,
+        "unicode_codepoint": "U+8C78",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 154,
+      "radical": "貝",
+      "strokes": 7,
+      "unicode": 35997,
+      "meaning": {
+        "en": "shell",
+        "es": "shell",
+        "zh_pinyin": "bei4",
+        "cedict_definition": "surname Bei"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 154,
+        "unicode_codepoint": "U+8C9D",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 155,
+      "radical": "赤",
+      "strokes": 7,
+      "unicode": 36196,
+      "meaning": {
+        "en": "red",
+        "es": "red",
+        "zh_pinyin": "chi4",
+        "cedict_definition": "red"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 155,
+        "unicode_codepoint": "U+8D64",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 156,
+      "radical": "走",
+      "strokes": 7,
+      "unicode": 36208,
+      "meaning": {
+        "en": "run",
+        "es": "run",
+        "zh_pinyin": "zou3",
+        "cedict_definition": "to walk"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 156,
+        "unicode_codepoint": "U+8D70",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 157,
+      "radical": "足",
+      "strokes": 7,
+      "unicode": 36275,
+      "meaning": {
+        "en": "foot",
+        "es": "foot",
+        "zh_pinyin": "ju4",
+        "cedict_definition": "excessive"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 157,
+        "unicode_codepoint": "U+8DB3",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 158,
+      "radical": "身",
+      "strokes": 7,
+      "unicode": 36523,
+      "meaning": {
+        "en": "body",
+        "es": "body",
+        "zh_pinyin": "shen1",
+        "cedict_definition": "body"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 158,
+        "unicode_codepoint": "U+8EAB",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 159,
+      "radical": "車",
+      "strokes": 7,
+      "unicode": 36554,
+      "meaning": {
+        "en": "cart",
+        "es": "cart",
+        "zh_pinyin": "che1",
+        "cedict_definition": "surname Che"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 159,
+        "unicode_codepoint": "U+8ECA",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 160,
+      "radical": "辛",
+      "strokes": 7,
+      "unicode": 36763,
+      "meaning": {
+        "en": "bitter",
+        "es": "bitter",
+        "zh_pinyin": "xin1",
+        "cedict_definition": "surname Xin"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 160,
+        "unicode_codepoint": "U+8F9B",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 161,
+      "radical": "辰",
+      "strokes": 7,
+      "unicode": 36784,
+      "meaning": {
+        "en": "morning",
+        "es": "morning",
+        "zh_pinyin": "chen2",
+        "cedict_definition": "5th earthly branch: 7-9 a.m., 3rd solar month (5th April-4th May), year of the Dragon"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 161,
+        "unicode_codepoint": "U+8FB0",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 162,
+      "radical": "辵",
+      "strokes": 7,
+      "unicode": 36789,
+      "meaning": {
+        "en": "walk",
+        "es": "walk",
+        "zh_pinyin": "chuo4",
+        "cedict_definition": "to walk (side part of split character)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 162,
+        "unicode_codepoint": "U+8FB5",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 163,
+      "radical": "邑",
+      "strokes": 7,
+      "unicode": 37009,
+      "meaning": {
+        "en": "city",
+        "es": "city",
+        "zh_pinyin": "yi4",
+        "cedict_definition": "city"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 163,
+        "unicode_codepoint": "U+9091",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 164,
+      "radical": "酉",
+      "strokes": 7,
+      "unicode": 37193,
+      "meaning": {
+        "en": "wine",
+        "es": "wine",
+        "zh_pinyin": "you3",
+        "cedict_definition": "10th earthly branch: 5-7 p.m., 8th solar month (8th September-7th October), year of the Rooster"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 164,
+        "unicode_codepoint": "U+9149",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 165,
+      "radical": "釆",
+      "strokes": 7,
+      "unicode": 37318,
+      "meaning": {
+        "en": "distinguish",
+        "es": "distinguish",
+        "zh_pinyin": "bian4",
+        "cedict_definition": "old variant of 辨[bian4]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 165,
+        "unicode_codepoint": "U+91C6",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 166,
+      "radical": "里",
+      "strokes": 7,
+      "unicode": 37324,
+      "meaning": {
+        "en": "village",
+        "es": "village",
+        "zh_pinyin": "li3",
+        "cedict_definition": "Li (surname)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 166,
+        "unicode_codepoint": "U+91CC",
+        "radical_strokes": 7,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 167,
+      "radical": "金",
+      "strokes": 8,
+      "unicode": 37329,
+      "meaning": {
+        "en": "gold",
+        "es": "gold",
+        "zh_pinyin": "jin1",
+        "cedict_definition": "surname Jin"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 167,
+        "unicode_codepoint": "U+91D1",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 168,
+      "radical": "長",
+      "strokes": 8,
+      "unicode": 38263,
+      "meaning": {
+        "en": "long",
+        "es": "long",
+        "zh_pinyin": "chang2",
+        "cedict_definition": "long"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 168,
+        "unicode_codepoint": "U+9577",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 169,
+      "radical": "門",
+      "strokes": 8,
+      "unicode": 38272,
+      "meaning": {
+        "en": "gate",
+        "es": "gate",
+        "zh_pinyin": "men2",
+        "cedict_definition": "surname Men"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 169,
+        "unicode_codepoint": "U+9580",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 170,
+      "radical": "阜",
+      "strokes": 8,
+      "unicode": 38428,
+      "meaning": {
+        "en": "mound",
+        "es": "mound",
+        "zh_pinyin": "fu4",
+        "cedict_definition": "abundant"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 170,
+        "unicode_codepoint": "U+961C",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 171,
+      "radical": "隶",
+      "strokes": 8,
+      "unicode": 38582,
+      "meaning": {
+        "en": "slave",
+        "es": "slave",
+        "zh_pinyin": null,
+        "cedict_definition": null
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard"
+      ],
+      "metadata": {
+        "kangxi_number": 171,
+        "unicode_codepoint": "U+96B6",
+        "radical_strokes": 8,
+        "data_quality": "basic"
+      }
+    },
+    {
+      "number": 172,
+      "radical": "隹",
+      "strokes": 8,
+      "unicode": 38585,
+      "meaning": {
+        "en": "short tailed bird",
+        "es": "short tailed bird",
+        "zh_pinyin": "zhui1",
+        "cedict_definition": "short-tailed bird"
+      },
+      "category": "animal",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 172,
+        "unicode_codepoint": "U+96B9",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 173,
+      "radical": "雨",
+      "strokes": 8,
+      "unicode": 38632,
+      "meaning": {
+        "en": "rain",
+        "es": "rain",
+        "zh_pinyin": "yu3",
+        "cedict_definition": "rain"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 173,
+        "unicode_codepoint": "U+96E8",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 174,
+      "radical": "青",
+      "strokes": 8,
+      "unicode": 38738,
+      "meaning": {
+        "en": "blue",
+        "es": "blue",
+        "zh_pinyin": "qing1",
+        "cedict_definition": "abbr. for 青海[Qing1 hai3], Qinghai Province"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 174,
+        "unicode_codepoint": "U+9752",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 175,
+      "radical": "非",
+      "strokes": 8,
+      "unicode": 38750,
+      "meaning": {
+        "en": "wrong",
+        "es": "wrong",
+        "zh_pinyin": "fei1",
+        "cedict_definition": "abbr. for 非洲[Fei1 zhou1], Africa"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 175,
+        "unicode_codepoint": "U+975E",
+        "radical_strokes": 8,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 176,
+      "radical": "面",
+      "strokes": 9,
+      "unicode": 38754,
+      "meaning": {
+        "en": "face",
+        "es": "face",
+        "zh_pinyin": "mian4",
+        "cedict_definition": "face"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 176,
+        "unicode_codepoint": "U+9762",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 177,
+      "radical": "革",
+      "strokes": 9,
+      "unicode": 38761,
+      "meaning": {
+        "en": "leather",
+        "es": "leather",
+        "zh_pinyin": "ge2",
+        "cedict_definition": "animal hide"
+      },
+      "category": "material",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 177,
+        "unicode_codepoint": "U+9769",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 178,
+      "radical": "韋",
+      "strokes": 9,
+      "unicode": 38859,
+      "meaning": {
+        "en": "tanned leather",
+        "es": "tanned leather",
+        "zh_pinyin": "wei2",
+        "cedict_definition": "surname Wei"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 178,
+        "unicode_codepoint": "U+97CB",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 179,
+      "radical": "韭",
+      "strokes": 9,
+      "unicode": 38893,
+      "meaning": {
+        "en": "leek",
+        "es": "leek",
+        "zh_pinyin": "jiu3",
+        "cedict_definition": "leek"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 179,
+        "unicode_codepoint": "U+97ED",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 180,
+      "radical": "音",
+      "strokes": 9,
+      "unicode": 38899,
+      "meaning": {
+        "en": "sound",
+        "es": "sound",
+        "zh_pinyin": "yin1",
+        "cedict_definition": "sound"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 180,
+        "unicode_codepoint": "U+97F3",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 181,
+      "radical": "頁",
+      "strokes": 9,
+      "unicode": 38913,
+      "meaning": {
+        "en": "leaf",
+        "es": "leaf",
+        "zh_pinyin": "xie2",
+        "cedict_definition": "head"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 181,
+        "unicode_codepoint": "U+9801",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 182,
+      "radical": "風",
+      "strokes": 9,
+      "unicode": 39080,
+      "meaning": {
+        "en": "wind",
+        "es": "wind",
+        "zh_pinyin": "feng1",
+        "cedict_definition": "wind"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 182,
+        "unicode_codepoint": "U+98A8",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 183,
+      "radical": "飛",
+      "strokes": 9,
+      "unicode": 39131,
+      "meaning": {
+        "en": "fly",
+        "es": "fly",
+        "zh_pinyin": "fei1",
+        "cedict_definition": "to fly"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 183,
+        "unicode_codepoint": "U+98DB",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 184,
+      "radical": "食",
+      "strokes": 9,
+      "unicode": 39135,
+      "meaning": {
+        "en": "eat",
+        "es": "eat",
+        "zh_pinyin": "shi2",
+        "cedict_definition": "to eat"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 184,
+        "unicode_codepoint": "U+98DF",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 185,
+      "radical": "首",
+      "strokes": 9,
+      "unicode": 39318,
+      "meaning": {
+        "en": "head",
+        "es": "head",
+        "zh_pinyin": "shou3",
+        "cedict_definition": "head"
+      },
+      "category": "cuerpo",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 185,
+        "unicode_codepoint": "U+9996",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 186,
+      "radical": "香",
+      "strokes": 9,
+      "unicode": 39321,
+      "meaning": {
+        "en": "fragrant",
+        "es": "fragrant",
+        "zh_pinyin": "xiang1",
+        "cedict_definition": "fragrant"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 186,
+        "unicode_codepoint": "U+9999",
+        "radical_strokes": 9,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 187,
+      "radical": "馬",
+      "strokes": 10,
+      "unicode": 39340,
+      "meaning": {
+        "en": "horse",
+        "es": "horse",
+        "zh_pinyin": "ma3",
+        "cedict_definition": "surname Ma"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 187,
+        "unicode_codepoint": "U+99AC",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 188,
+      "radical": "骨",
+      "strokes": 10,
+      "unicode": 39592,
+      "meaning": {
+        "en": "bone",
+        "es": "bone",
+        "zh_pinyin": "gu1",
+        "cedict_definition": "used in 骨碌碌[gu1lu4lu4]"
+      },
+      "category": "número",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 188,
+        "unicode_codepoint": "U+9AA8",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 189,
+      "radical": "高",
+      "strokes": 10,
+      "unicode": 39640,
+      "meaning": {
+        "en": "tall",
+        "es": "tall",
+        "zh_pinyin": "gao1",
+        "cedict_definition": "surname Gao"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 189,
+        "unicode_codepoint": "U+9AD8",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 190,
+      "radical": "髟",
+      "strokes": 10,
+      "unicode": 39647,
+      "meaning": {
+        "en": "hair",
+        "es": "hair",
+        "zh_pinyin": "biao1",
+        "cedict_definition": "hair"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 190,
+        "unicode_codepoint": "U+9ADF",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 191,
+      "radical": "鬥",
+      "strokes": 10,
+      "unicode": 39717,
+      "meaning": {
+        "en": "fight",
+        "es": "fight",
+        "zh_pinyin": "dou4",
+        "cedict_definition": "to fight"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 191,
+        "unicode_codepoint": "U+9B25",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 192,
+      "radical": "鬯",
+      "strokes": 10,
+      "unicode": 39727,
+      "meaning": {
+        "en": "sacrificial wine",
+        "es": "sacrificial wine",
+        "zh_pinyin": "chang4",
+        "cedict_definition": "a kind of sacrificial wine used in ancient times"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 192,
+        "unicode_codepoint": "U+9B2F",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 193,
+      "radical": "鬲",
+      "strokes": 10,
+      "unicode": 39730,
+      "meaning": {
+        "en": "cauldron",
+        "es": "cauldron",
+        "zh_pinyin": "ge2",
+        "cedict_definition": "surname Ge"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 193,
+        "unicode_codepoint": "U+9B32",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 194,
+      "radical": "鬼",
+      "strokes": 10,
+      "unicode": 39740,
+      "meaning": {
+        "en": "ghost",
+        "es": "ghost",
+        "zh_pinyin": "gui3",
+        "cedict_definition": "disembodied spirit; ghost; devil"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 194,
+        "unicode_codepoint": "U+9B3C",
+        "radical_strokes": 10,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 195,
+      "radical": "魚",
+      "strokes": 11,
+      "unicode": 39770,
+      "meaning": {
+        "en": "fish",
+        "es": "fish",
+        "zh_pinyin": "yu2",
+        "cedict_definition": "surname Yu"
+      },
+      "category": "animal",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 195,
+        "unicode_codepoint": "U+9B5A",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 196,
+      "radical": "鳥",
+      "strokes": 11,
+      "unicode": 40165,
+      "meaning": {
+        "en": "bird",
+        "es": "bird",
+        "zh_pinyin": "diao3",
+        "cedict_definition": "variant of 屌[diao3]"
+      },
+      "category": "animal",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 196,
+        "unicode_codepoint": "U+9CE5",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 197,
+      "radical": "鹵",
+      "strokes": 11,
+      "unicode": 40565,
+      "meaning": {
+        "en": "salt",
+        "es": "salt",
+        "zh_pinyin": "lu3",
+        "cedict_definition": "alkaline soil"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 197,
+        "unicode_codepoint": "U+9E75",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 198,
+      "radical": "鹿",
+      "strokes": 11,
+      "unicode": 40575,
+      "meaning": {
+        "en": "deer",
+        "es": "deer",
+        "zh_pinyin": "lu4",
+        "cedict_definition": "deer"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 198,
+        "unicode_codepoint": "U+9E7F",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 199,
+      "radical": "麥",
+      "strokes": 11,
+      "unicode": 40613,
+      "meaning": {
+        "en": "wheat",
+        "es": "wheat",
+        "zh_pinyin": "mai4",
+        "cedict_definition": "surname Mai"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 199,
+        "unicode_codepoint": "U+9EA5",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 200,
+      "radical": "麻",
+      "strokes": 11,
+      "unicode": 40635,
+      "meaning": {
+        "en": "hemp",
+        "es": "hemp",
+        "zh_pinyin": "ma2",
+        "cedict_definition": "surname Ma"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 200,
+        "unicode_codepoint": "U+9EBB",
+        "radical_strokes": 11,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 201,
+      "radical": "黃",
+      "strokes": 12,
+      "unicode": 40643,
+      "meaning": {
+        "en": "yellow",
+        "es": "yellow",
+        "zh_pinyin": "huang2",
+        "cedict_definition": "surname Huang or Hwang"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 201,
+        "unicode_codepoint": "U+9EC3",
+        "radical_strokes": 12,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 202,
+      "radical": "黍",
+      "strokes": 12,
+      "unicode": 40653,
+      "meaning": {
+        "en": "millet",
+        "es": "millet",
+        "zh_pinyin": "shu3",
+        "cedict_definition": "broomcorn millet"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 202,
+        "unicode_codepoint": "U+9ECD",
+        "radical_strokes": 12,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 203,
+      "radical": "黑",
+      "strokes": 12,
+      "unicode": 40657,
+      "meaning": {
+        "en": "black",
+        "es": "black",
+        "zh_pinyin": "hei1",
+        "cedict_definition": "abbr. for Heilongjiang province 黑龍江|黑龙江[Hei1 long2 jiang1]"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 203,
+        "unicode_codepoint": "U+9ED1",
+        "radical_strokes": 12,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 204,
+      "radical": "黹",
+      "strokes": 12,
+      "unicode": 40697,
+      "meaning": {
+        "en": "embroidery",
+        "es": "embroidery",
+        "zh_pinyin": "zhi3",
+        "cedict_definition": "embroidery"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 204,
+        "unicode_codepoint": "U+9EF9",
+        "radical_strokes": 12,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 205,
+      "radical": "黽",
+      "strokes": 13,
+      "unicode": 40701,
+      "meaning": {
+        "en": "frog",
+        "es": "frog",
+        "zh_pinyin": "meng3",
+        "cedict_definition": "toad"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 205,
+        "unicode_codepoint": "U+9EFD",
+        "radical_strokes": 13,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 206,
+      "radical": "鼎",
+      "strokes": 13,
+      "unicode": 40718,
+      "meaning": {
+        "en": "tripod",
+        "es": "tripod",
+        "zh_pinyin": "ding3",
+        "cedict_definition": "ancient cooking cauldron with two looped handles and three or four legs"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 206,
+        "unicode_codepoint": "U+9F0E",
+        "radical_strokes": 13,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 207,
+      "radical": "鼓",
+      "strokes": 13,
+      "unicode": 40723,
+      "meaning": {
+        "en": "drum",
+        "es": "drum",
+        "zh_pinyin": "gu3",
+        "cedict_definition": "drum"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 207,
+        "unicode_codepoint": "U+9F13",
+        "radical_strokes": 13,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 208,
+      "radical": "鼠",
+      "strokes": 13,
+      "unicode": 40736,
+      "meaning": {
+        "en": "rat",
+        "es": "rat",
+        "zh_pinyin": "shu3",
+        "cedict_definition": "(bound form) rat; mouse"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 208,
+        "unicode_codepoint": "U+9F20",
+        "radical_strokes": 13,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 209,
+      "radical": "鼻",
+      "strokes": 14,
+      "unicode": 40763,
+      "meaning": {
+        "en": "nose",
+        "es": "nose",
+        "zh_pinyin": "bi2",
+        "cedict_definition": "nose"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 209,
+        "unicode_codepoint": "U+9F3B",
+        "radical_strokes": 14,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 210,
+      "radical": "齊",
+      "strokes": 14,
+      "unicode": 40778,
+      "meaning": {
+        "en": "even",
+        "es": "even",
+        "zh_pinyin": "qi2",
+        "cedict_definition": "(name of states and dynasties at several different periods)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 210,
+        "unicode_codepoint": "U+9F4A",
+        "radical_strokes": 14,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 211,
+      "radical": "齒",
+      "strokes": 15,
+      "unicode": 40786,
+      "meaning": {
+        "en": "tooth",
+        "es": "tooth",
+        "zh_pinyin": "chi3",
+        "cedict_definition": "tooth"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 211,
+        "unicode_codepoint": "U+9F52",
+        "radical_strokes": 15,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 212,
+      "radical": "龍",
+      "strokes": 16,
+      "unicode": 40845,
+      "meaning": {
+        "en": "dragon",
+        "es": "dragon",
+        "zh_pinyin": "long2",
+        "cedict_definition": "surname Long"
+      },
+      "category": "acción",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 212,
+        "unicode_codepoint": "U+9F8D",
+        "radical_strokes": 16,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 213,
+      "radical": "龜",
+      "strokes": 16,
+      "unicode": 40860,
+      "meaning": {
+        "en": "turtle",
+        "es": "turtle",
+        "zh_pinyin": "gui1",
+        "cedict_definition": "tortoise; turtle"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 213,
+        "unicode_codepoint": "U+9F9C",
+        "radical_strokes": 16,
+        "data_quality": "complete"
+      }
+    },
+    {
+      "number": 214,
+      "radical": "龠",
+      "strokes": 17,
+      "unicode": 40864,
+      "meaning": {
+        "en": "flute",
+        "es": "flute",
+        "zh_pinyin": "yue4",
+        "cedict_definition": "ancient unit of volume (half a 合[ge3], equivalent to 50ml)"
+      },
+      "category": "general",
+      "sources": [
+        "Unicode Standard",
+        "CC-CEDICT"
+      ],
+      "metadata": {
+        "kangxi_number": 214,
+        "unicode_codepoint": "U+9FA0",
+        "radical_strokes": 17,
+        "data_quality": "complete"
+      }
+    }
+  ]
+}

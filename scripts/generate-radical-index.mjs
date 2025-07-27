@@ -18,6 +18,7 @@ const __dirname = path.dirname(__filename);
 // Configuración
 const PROJECT_ROOT = path.join(__dirname, '..');
 const RADICALS_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'radicals.json');
+const OFFICIAL_RADICALS_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'kangxi-radicals-official.json');
 const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'languages', 'zh.json');
 const OUTPUT_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'radical-index.json');
 
@@ -35,13 +36,25 @@ async function generateRadicalIndex() {
   const outputDir = path.dirname(OUTPUT_FILE);
   ensureDirectoryExists(outputDir);
   
-  // Leer datos de radicales
-  const radicalsData = JSON.parse(fs.readFileSync(RADICALS_FILE, 'utf8'));
+  // Leer datos oficiales de radicales Kangxi (todos los 214)
+  let officialRadicalsData = {};
+  if (fs.existsSync(OFFICIAL_RADICALS_FILE)) {
+    officialRadicalsData = JSON.parse(fs.readFileSync(OFFICIAL_RADICALS_FILE, 'utf8'));
+    console.log(`📚 Cargados ${officialRadicalsData.radicals?.length || 0} radicales oficiales Kangxi`);
+  }
+  
+  // Leer datos de radicales con caracteres asociados (para backward compatibility)
+  let radicalsData = { characters: {}, radicals: {} };
+  if (fs.existsSync(RADICALS_FILE)) {
+    radicalsData = JSON.parse(fs.readFileSync(RADICALS_FILE, 'utf8'));
+    console.log(`📝 Cargados ${Object.keys(radicalsData.characters || {}).length} caracteres con radicales asignados`);
+  }
   
   // Leer diccionario chino para obtener traducciones
   let dictionaryData = {};
   if (fs.existsSync(DICTIONARY_PATH)) {
     dictionaryData = JSON.parse(fs.readFileSync(DICTIONARY_PATH, 'utf8'));
+    console.log(`📖 Cargadas ${Object.keys(dictionaryData.words || {}).length} palabras del diccionario chino`);
   }
   
   // Crear índice: radical → lista de caracteres
@@ -59,15 +72,43 @@ async function generateRadicalIndex() {
       
       // Obtener información del diccionario si está disponible
       const dictEntry = dictionaryData.words?.[character];
+      let pinyin = '';
+      let translation = '';
+      let frequency = 0;
+      let lessons = [];
+      
+      if (dictEntry) {
+        // Encontrado el carácter individual
+        pinyin = dictEntry.pronunciation?.zh_pinyin || dictEntry.entries?.[0]?.allTranslations?.zhPinyin || '';
+        translation = dictEntry.translations?.es || dictEntry.entries?.[0]?.allTranslations?.es || '';
+        frequency = dictEntry.frequency || 0;
+        lessons = dictEntry.lessons || [];
+      } else {
+        // Buscar palabras que empiecen con este carácter
+        const wordsWithChar = Object.entries(dictionaryData.words || {})
+          .filter(([word, data]) => word.startsWith(character))
+          .sort((a, b) => (b[1].frequency || 0) - (a[1].frequency || 0));
+        
+        if (wordsWithChar.length > 0) {
+          const [firstWord, firstData] = wordsWithChar[0];
+          // Extraer pinyin del primer carácter
+          const pinyinFull = firstData.pronunciation?.zh_pinyin || firstData.entries?.[0]?.allTranslations?.zhPinyin || '';
+          pinyin = pinyinFull.split(' ')[0] || '';
+          translation = `${firstData.translations?.es || firstData.entries?.[0]?.allTranslations?.es || ''} (en "${firstWord}")`;
+          frequency = firstData.frequency || 0;
+          lessons = firstData.lessons || [];
+        }
+      }
       
       charactersByRadical[radical].push({
         character: character,
         unicode: data.unicode,
-        pinyin: dictEntry?.pronunciation?.zh_pinyin || '',
-        translation: dictEntry?.translations?.es || '',
+        pinyin: pinyin,
+        translation: translation,
         radicalType: data.radicalType,
         revolutionaryRelevance: data.revolutionaryRelevance || false,
-        frequency: dictEntry?.frequency || 0
+        frequency: frequency,
+        lessons: lessons
       });
     }
   });
@@ -88,20 +129,52 @@ async function generateRadicalIndex() {
     });
   });
   
-  // Crear información completa de radicales
-  const radicalsList = Object.entries(radicalsData.radicals).map(([radical, info]) => {
-    const charactersWithRadical = charactersByRadical[radical] || [];
+  // Crear información completa de radicales usando los 214 oficiales
+  const radicalsList = [];
+  
+  // Usar radicales oficiales como base (todos los 214)
+  if (officialRadicalsData.radicals) {
+    officialRadicalsData.radicals.forEach(radicalInfo => {
+      const radical = radicalInfo.radical;
+      const charactersWithRadical = charactersByRadical[radical] || [];
+      
+      radicalsList.push({
+        radical: radical,
+        number: radicalInfo.number,
+        strokes: radicalInfo.strokes,
+        meaning: {
+          es: radicalInfo.meaning.es,
+          en: radicalInfo.meaning.en,
+          zh_pinyin: radicalInfo.meaning.zh_pinyin || radical
+        },
+        category: radicalInfo.category,
+        frequency: charactersWithRadical.length,
+        characters: charactersWithRadical,
+        sources: radicalInfo.sources || ['Kangxi Standard'],
+        unicode: radicalInfo.unicode,
+        metadata: radicalInfo.metadata || {}
+      });
+    });
     
-    return {
-      radical: radical,
-      number: info.number,
-      strokes: info.strokes,
-      meaning: info.meaning,
-      category: info.category,
-      frequency: charactersWithRadical.length,
-      characters: charactersWithRadical
-    };
-  });
+    console.log(`✅ Procesados ${radicalsList.length} radicales oficiales Kangxi`);
+  } else {
+    // Fallback a datos anteriores si no están disponibles los oficiales
+    console.log('⚠️ Datos oficiales no disponibles, usando datos legacy...');
+    
+    Object.entries(radicalsData.radicals).forEach(([radical, info]) => {
+      const charactersWithRadical = charactersByRadical[radical] || [];
+      
+      radicalsList.push({
+        radical: radical,
+        number: info.number,
+        strokes: info.strokes,
+        meaning: info.meaning,
+        category: info.category,
+        frequency: charactersWithRadical.length,
+        characters: charactersWithRadical
+      });
+    });
+  }
   
   // Ordenar radicales por frecuencia de uso y luego por número Kangxi
   radicalsList.sort((a, b) => {
@@ -130,16 +203,27 @@ async function generateRadicalIndex() {
   const index = {
     metadata: {
       generated: new Date().toISOString(),
-      version: "1.0.0",
+      version: "2.0.0",
+      description: "Complete Kangxi radical index with all 214 official radicals",
       totalRadicals: radicalsList.length,
-      totalCharacters: Object.keys(radicalsData.characters).length,
-      sources: ["Kangxi Radical System", "Internal Dictionary"],
+      totalCharacters: Object.keys(radicalsData.characters || {}).length,
+      officialsource: officialRadicalsData.metadata || null,
+      sources: [
+        "Unicode Standard (official Kangxi radicals)",
+        "CC-CEDICT (pronunciation and definitions)", 
+        "Internal Dictionary (character associations)"
+      ],
       searchCapabilities: [
         "radical_to_characters",
         "category_browsing", 
         "stroke_count_filtering",
-        "revolutionary_filtering"
-      ]
+        "all_214_kangxi_radicals"
+      ],
+      coverage: {
+        kangxi_radicals: radicalsList.length,
+        radicals_with_characters: radicalsList.filter(r => r.frequency > 0).length,
+        empty_radicals: radicalsList.filter(r => r.frequency === 0).length
+      }
     },
     
     // Índice principal: radical → caracteres
@@ -183,13 +267,16 @@ async function generateRadicalIndex() {
   // Escribir archivo
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(index, null, 2), 'utf8');
   
-  console.log(`✅ Índice de radicales generado exitosamente:`);
+  console.log(`✅ Índice completo de radicales Kangxi generado exitosamente:`);
   console.log(`   📁 Archivo: ${OUTPUT_FILE}`);
-  console.log(`   📊 Radicales indexados: ${radicalsList.length}`);
-  console.log(`   📚 Caracteres totales: ${Object.keys(radicalsData.characters).length}`);
+  console.log(`   📊 Total radicales Kangxi: ${radicalsList.length}/214`);
+  console.log(`   📚 Caracteres asociados: ${Object.keys(radicalsData.characters || {}).length}`);
   console.log(`   📂 Categorías: ${Object.keys(categoriesIndex).length}`);
   console.log(`   🚩 Caracteres revolucionarios: ${index.stats.revolutionaryCharacters}`);
-  console.log(`   📈 Radicales más frecuentes:`);
+  console.log(`   📈 Cobertura:`);
+  console.log(`      ✅ Radicales con caracteres: ${index.metadata.coverage.radicals_with_characters}`);
+  console.log(`      📭 Radicales sin caracteres: ${index.metadata.coverage.empty_radicals}`);
+  console.log(`   🎯 Radicales más frecuentes:`);
   index.stats.mostFrequentRadicals.slice(0, 5).forEach(r => {
     console.log(`      ${r.radical} (${r.meaning}) - ${r.frequency} caracteres`);
   });
