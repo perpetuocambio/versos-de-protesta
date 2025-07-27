@@ -313,7 +313,7 @@ bùrú wèi lǐxiǎng ér sǐ.
 | **hijos** | children | Kinder | filhos | дети | deti | 孩子们 | háizi men | 18 | 子 (hijo) + 亻 (persona) | compuesto | sustantivo |
 | **libertad** | freedom | Freiheit | liberdade | свобода | svoboda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyutsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 9 | 止 (parar) + 丿 (línea) | compuesto | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 8 | 止 (parar) | compuesto | sustantivo |
 | **igualdad** | equality | Gleichheit | igualdade | равенство | ravenstvo | 平等 | píngděng | 10 | 干 (seco) + 竹 (bambú) | compuesto | sustantivo |
 | **trabajadores** | workers | Arbeiter | trabalhadores | рабочие | rabochiye | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
 | **compañeros** | comrades | Genossen | companheiros | товарищи | tovarishchi | 同志 | tóngzhì | 14 | 口 (boca) + 心 (corazón) | compuesto | sustantivo |

@@ -4,7 +4,7 @@
     "totalEntries": 168,
     "totalLanguages": 8,
     "totalLessons": 13,
-    "lastUpdated": "2025-07-27T00:06:36.244Z",
+    "lastUpdated": "2025-07-27T00:38:59.647Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "languages": {
@@ -52,42 +52,42 @@
   "partitions": {
     "es": {
       "words": 124,
-      "fileSize": 85517,
+      "fileSize": 85489,
       "filePath": "es.json"
     },
     "en": {
       "words": 123,
-      "fileSize": 85427,
+      "fileSize": 85399,
       "filePath": "en.json"
     },
     "de": {
       "words": 123,
-      "fileSize": 85982,
+      "fileSize": 85954,
       "filePath": "de.json"
     },
     "pt": {
       "words": 123,
-      "fileSize": 85480,
+      "fileSize": 85452,
       "filePath": "pt.json"
     },
     "ru": {
       "words": 122,
-      "fileSize": 85089,
+      "fileSize": 85061,
       "filePath": "ru.json"
     },
     "ruRom": {
       "words": 130,
-      "fileSize": 90856,
+      "fileSize": 90828,
       "filePath": "ru-rom.json"
     },
     "zh": {
       "words": 115,
-      "fileSize": 81683,
+      "fileSize": 81655,
       "filePath": "zh.json"
     },
     "zhPinyin": {
       "words": 117,
-      "fileSize": 86806,
+      "fileSize": 86778,
       "filePath": "zh-pinyin.json"
     }
   },
@@ -119,7 +119,7 @@
       "Día 11": 11,
       "Día 12": 17
     },
-    "lastUpdated": "2025-07-27T00:06:36.244Z",
+    "lastUpdated": "2025-07-27T00:38:59.647Z",
     "generatedBy": "build-dictionary.mjs v1.0"
   },
   "routes": {

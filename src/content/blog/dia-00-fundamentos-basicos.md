@@ -437,13 +437,13 @@ tags: ["gramática", "fundamentos", "multilingüe", "música-obrera", "introducc
 | **trabajador** | worker | Arbeiter | trabalhador | рабочий | rabóchiy | 工人 | gōngrén | 7 | 工 (trabajo) | izquierda-derecha | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'bá | 斗争 | dòuzhēng | 12 | 斗 (lucha) | independiente | sustantivo |
 | **revolución** | revolution | Revolution | revolução | революция | revolyútsiya | 革命 | gémìng | 18 | 革 (cuero) | arriba-abajo | sustantivo |
-| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu | 9 | 自 (uno mismo) | arriba-abajo | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì | 14 | 羊 (oveja) | arriba-abajo | sustantivo |
-| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín | 5 | 人 (persona) | independiente | sustantivo |
-| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì | 10 | 木 (madera) | izquierda-derecha | sustantivo |
-| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié | 18 | 囗 (recinto) | arriba-abajo | sustantivo |
+| **libertad** | freedom | Freiheit | liberdade | свобода | svobóda | 自由 | zìyóu | 11 | 自 (uno mismo) | arriba-abajo | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlívost' | 正义 | zhèngyì | 8 | 正 (correcto) | independiente | sustantivo |
+| **pueblo** | people | Volk | povo | народ | naród | 人民 | rénmín | 7 | 人 (persona) | izquierda-derecha | sustantivo |
+| **poder** | power | Macht | poder | власть | vlast' | 权力 | quánlì | 9 | 木 (madera) | izquierda-derecha | sustantivo |
+| **unidad** | unity | Einheit | unidade | единство | edínstvo | 团结 | tuánjié | 14 | 囗 (recinto) | izquierda-derecha | sustantivo |
 | **canción** | song | Lied | canção | песня | pésnya | 歌曲 | gēqǔ | 18 | 欠 (bostezar) | izquierda-derecha | sustantivo |
-| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì | 18 | 方 (cuadrado) | izquierda-derecha | sustantivo |
+| **bandera** | flag | Fahne | bandeira | знамя | známya | 旗帜 | qízhì | 14 | 方 (cuadrado) | izquierda-derecha | sustantivo |
 
 ### VERBOS DE ACCIÓN REVOLUCIONARIA
 

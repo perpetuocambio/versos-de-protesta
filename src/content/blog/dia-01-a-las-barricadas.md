@@ -361,7 +361,7 @@ Wèile bānglián de shènglì.
 | **Negras** | black | schwarze | negras | чёрные | chyórnye | 黑色的 | hēisè de | 12 | 黑 (negro) | arriba-abajo | adjetivo |
 | **tormentas** | storms | Stürme | tempestades | бури | búri | 风暴 | fēngbào | 13 | 风 (viento) | independiente | sustantivo |
 | **agitan** | shake | schütteln | agitam | колышут | kolýshut | 摇撼 | yáohàn | 14 | 扌 (mano) | izquierda-derecha | verbo |
-| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng | 8 | 天 (cielo) | arriba-abajo | sustantivo |
+| **aires** | skies | Lüfte | ares | небеса | nebésa | 天空 | tiānkōng | 12 | 天 (cielo) | arriba-abajo | sustantivo |
 | **aunque** | though | auch wenn | embora | хоть | khot' | 虽然 | suīrán | 9 | 虫 (insecto) | izquierda-derecha | conjunción |
 | **espere** | await | erwarten | espere | ждёт | zhdyot | 等待 | děngdài | 12 | 竹 (bambú) | arriba-abajo | verbo |
 | **dolor** | pain | Schmerz | dor | боль | bol' | 痛苦 | tòngkǔ | 12 | 疒 (enfermedad) | arriba-abajo | sustantivo |

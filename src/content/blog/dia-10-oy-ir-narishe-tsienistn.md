@@ -252,8 +252,8 @@ Méiyǒu jiùshú, gòu le!
 | **juventud** | youth | Jugend | juventude | молодежь | molodyozh | 青年 | qīngnián | 11 | 青 (azul) + 彡 (adorno) | compuesto | sustantivo |
 | **lucha** | struggle | Kampf | luta | борьба | bor'ba | 斗争 | dòuzhēng | 8 | 斗 (lucha) | independiente | sustantivo |
 | **pueblo** | people | Volk | povo | народ | narod | 人民 | rénmín | 4 | 人 (persona) | independiente | sustantivo |
-| **unión** | union | Verband | união | союз | soyuz | 联盟 | liánméng | 13 | 车 (carro) + 皿 (plato) | compuesto | sustantivo |
-| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 9 | 止 (parar) + 丿 (línea) | compuesto | sustantivo |
+| **unión** | union | Verband | união | союз | soyuz | 联盟 | liánméng | 25 | 耳 (oreja) | compuesto | sustantivo |
+| **justicia** | justice | Gerechtigkeit | justiça | справедливость | spravedlivost' | 正义 | zhèngyì | 8 | 止 (parar) | compuesto | sustantivo |
 | **resistencia** | resistance | Widerstand | resistência | сопротивление | soprotivleniye | 抵抗 | dǐkàng | 11 | 扌 (mano) + 氐 (base) | izquierda-derecha | sustantivo |
 
 ### TÉRMINOS HISTÓRICOS
