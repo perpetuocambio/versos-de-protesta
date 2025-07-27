@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated": "2025-07-27T18:39:55.955Z",
+    "generated": "2025-07-27T18:56:13.545Z",
     "version": "2.0.0",
     "description": "Complete Kangxi radical index with all 214 official radicals",
     "totalRadicals": 214,
     "totalCharacters": 202,
     "officialsource": {
-      "generated": "2025-07-27T18:39:49.630Z",
+      "generated": "2025-07-27T18:56:08.568Z",
       "version": "1.0.0",
       "description": "Official Kangxi radicals with pronunciation from CC-CEDICT",
       "total_radicals": 214,
@@ -29,7 +29,8 @@
       "radical_to_characters",
       "category_browsing",
       "stroke_count_filtering",
-      "all_214_kangxi_radicals"
+      "all_214_kangxi_radicals",
+      "vocabulary_word_association"
     ],
     "coverage": {
       "kangxi_radicals": 214,
@@ -56,7 +57,6 @@
           "pinyin": "tuán",
           "translation": "unidad (en \"团结\")",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 2,
           "lessons": [
             0,
@@ -69,7 +69,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "self",
-          "revolutionaryRelevance": false,
           "frequency": 0,
           "lessons": []
         }
@@ -104,7 +103,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "self",
-          "revolutionaryRelevance": false,
           "frequency": 0,
           "lessons": []
         }
@@ -139,7 +137,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 0,
           "lessons": []
         }
@@ -161,7 +158,7 @@
       "number": 8,
       "strokes": 2,
       "meaning": {
-        "es": "lid",
+        "es": "tapa",
         "en": "lid",
         "zh_pinyin": "tou2"
       },
@@ -174,7 +171,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 0,
           "lessons": []
         }
@@ -209,7 +205,6 @@
           "pinyin": "rén",
           "translation": "pueblo (en \"人民\")",
           "radicalType": "self",
-          "revolutionaryRelevance": true,
           "frequency": 1,
           "lessons": [
             0
@@ -246,7 +241,6 @@
           "pinyin": "gòng",
           "translation": "partido comunista (en \"共产党\")",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 1,
           "lessons": [
             7
@@ -283,7 +277,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 0,
           "lessons": []
         }
@@ -318,7 +311,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "self",
-          "revolutionaryRelevance": true,
           "frequency": 0,
           "lessons": []
         }
@@ -353,7 +345,6 @@
           "pinyin": "tǔ",
           "translation": "tierra (en \"土地\")",
           "radicalType": "self",
-          "revolutionaryRelevance": false,
           "frequency": 1,
           "lessons": [
             12
@@ -390,7 +381,6 @@
           "pinyin": "dà",
           "translation": "galeón (en \"大帆船\")",
           "radicalType": "self",
-          "revolutionaryRelevance": true,
           "frequency": 1,
           "lessons": [
             4
@@ -427,7 +417,6 @@
           "pinyin": "gōng",
           "translation": "trabajador (en \"工人\")",
           "radicalType": "self",
-          "revolutionaryRelevance": true,
           "frequency": 2,
           "lessons": [
             0,
@@ -465,7 +454,6 @@
           "pinyin": "dòu",
           "translation": "lucha (en \"斗争\")",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 1,
           "lessons": [
             0
@@ -502,7 +490,6 @@
           "pinyin": "shèng",
           "translation": "triunfar (en \"胜利\")",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 2,
           "lessons": [
             3,
@@ -540,7 +527,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "self",
-          "revolutionaryRelevance": false,
           "frequency": 0,
           "lessons": []
         }
@@ -562,7 +548,7 @@
       "number": 113,
       "strokes": 5,
       "meaning": {
-        "es": "spirit",
+        "es": "espíritu",
         "en": "spirit",
         "zh_pinyin": "shi4"
       },
@@ -575,7 +561,6 @@
           "pinyin": "shè",
           "translation": "socialismo (en \"社会主义\")",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 1,
           "lessons": [
             2
@@ -599,7 +584,7 @@
       "number": 120,
       "strokes": 6,
       "meaning": {
-        "es": "silk",
+        "es": "seda",
         "en": "silk",
         "zh_pinyin": "mi4"
       },
@@ -612,7 +597,6 @@
           "pinyin": "",
           "translation": "",
           "radicalType": "revolutionary_context",
-          "revolutionaryRelevance": true,
           "frequency": 0,
           "lessons": []
         }
@@ -781,7 +765,7 @@
         "en": "enter",
         "zh_pinyin": "ru4"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -825,7 +809,7 @@
       "number": 14,
       "strokes": 2,
       "meaning": {
-        "es": "cover",
+        "es": "cubierta",
         "en": "cover",
         "zh_pinyin": "mi4"
       },
@@ -1161,7 +1145,7 @@
       "number": 31,
       "strokes": 3,
       "meaning": {
-        "es": "enclosure",
+        "es": "recinto",
         "en": "enclosure",
         "zh_pinyin": "wei2"
       },
@@ -1185,7 +1169,7 @@
       "number": 33,
       "strokes": 3,
       "meaning": {
-        "es": "scholar",
+        "es": "erudito",
         "en": "scholar",
         "zh_pinyin": "shi4"
       },
@@ -1213,7 +1197,7 @@
         "en": "go",
         "zh_pinyin": "zhi3"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -1237,7 +1221,7 @@
         "en": "go slowly",
         "zh_pinyin": "sui1"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -1257,7 +1241,7 @@
       "number": 36,
       "strokes": 3,
       "meaning": {
-        "es": "evening",
+        "es": "noche",
         "en": "evening",
         "zh_pinyin": "xi1"
       },
@@ -1329,7 +1313,7 @@
       "number": 40,
       "strokes": 3,
       "meaning": {
-        "es": "roof",
+        "es": "techo",
         "en": "roof",
         "zh_pinyin": "mian2"
       },
@@ -1353,7 +1337,7 @@
       "number": 41,
       "strokes": 3,
       "meaning": {
-        "es": "inch",
+        "es": "pulgada",
         "en": "inch",
         "zh_pinyin": "cun4"
       },
@@ -1497,7 +1481,7 @@
       "number": 47,
       "strokes": 3,
       "meaning": {
-        "es": "river",
+        "es": "río",
         "en": "river",
         "zh_pinyin": "chuan1"
       },
@@ -1688,7 +1672,7 @@
       "number": 56,
       "strokes": 3,
       "meaning": {
-        "es": "shoot",
+        "es": "disparar",
         "en": "shoot",
         "zh_pinyin": "yi4"
       },
@@ -2147,7 +2131,7 @@
         "en": "stop",
         "zh_pinyin": "zhi3"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -2382,7 +2366,7 @@
       "number": 88,
       "strokes": 4,
       "meaning": {
-        "es": "father",
+        "es": "padre",
         "en": "father",
         "zh_pinyin": "fu4"
       },
@@ -2646,7 +2630,7 @@
       "number": 99,
       "strokes": 5,
       "meaning": {
-        "es": "sweet",
+        "es": "dulce",
         "en": "sweet",
         "zh_pinyin": "gan1"
       },
@@ -2670,7 +2654,7 @@
       "number": 100,
       "strokes": 5,
       "meaning": {
-        "es": "life",
+        "es": "vida",
         "en": "life",
         "zh_pinyin": "sheng1"
       },
@@ -2694,7 +2678,7 @@
       "number": 101,
       "strokes": 5,
       "meaning": {
-        "es": "use",
+        "es": "usar",
         "en": "use",
         "zh_pinyin": "yong4"
       },
@@ -2718,7 +2702,7 @@
       "number": 102,
       "strokes": 5,
       "meaning": {
-        "es": "field",
+        "es": "campo",
         "en": "field",
         "zh_pinyin": "tian2"
       },
@@ -2814,7 +2798,7 @@
       "number": 106,
       "strokes": 5,
       "meaning": {
-        "es": "white",
+        "es": "blanco",
         "en": "white",
         "zh_pinyin": "bai2"
       },
@@ -2862,7 +2846,7 @@
       "number": 108,
       "strokes": 5,
       "meaning": {
-        "es": "dish",
+        "es": "plato",
         "en": "dish",
         "zh_pinyin": "min3"
       },
@@ -2886,7 +2870,7 @@
       "number": 109,
       "strokes": 5,
       "meaning": {
-        "es": "eye",
+        "es": "ojo",
         "en": "eye",
         "zh_pinyin": "mu4"
       },
@@ -2910,7 +2894,7 @@
       "number": 110,
       "strokes": 5,
       "meaning": {
-        "es": "spear",
+        "es": "lanza",
         "en": "spear",
         "zh_pinyin": "mao2"
       },
@@ -2934,7 +2918,7 @@
       "number": 111,
       "strokes": 5,
       "meaning": {
-        "es": "arrow",
+        "es": "flecha",
         "en": "arrow",
         "zh_pinyin": "shi3"
       },
@@ -2958,7 +2942,7 @@
       "number": 112,
       "strokes": 5,
       "meaning": {
-        "es": "stone",
+        "es": "piedra",
         "en": "stone",
         "zh_pinyin": "shi2"
       },
@@ -3006,7 +2990,7 @@
       "number": 115,
       "strokes": 5,
       "meaning": {
-        "es": "grain",
+        "es": "grano",
         "en": "grain",
         "zh_pinyin": "he2"
       },
@@ -3030,7 +3014,7 @@
       "number": 116,
       "strokes": 5,
       "meaning": {
-        "es": "cave",
+        "es": "cueva",
         "en": "cave",
         "zh_pinyin": "xue2"
       },
@@ -3078,7 +3062,7 @@
       "number": 118,
       "strokes": 6,
       "meaning": {
-        "es": "bamboo",
+        "es": "bambú",
         "en": "bamboo",
         "zh_pinyin": "zhu2"
       },
@@ -3102,7 +3086,7 @@
       "number": 119,
       "strokes": 6,
       "meaning": {
-        "es": "rice",
+        "es": "arroz",
         "en": "rice",
         "zh_pinyin": "mi3"
       },
@@ -3126,7 +3110,7 @@
       "number": 121,
       "strokes": 6,
       "meaning": {
-        "es": "jar",
+        "es": "jarra",
         "en": "jar",
         "zh_pinyin": "fou3"
       },
@@ -3150,7 +3134,7 @@
       "number": 122,
       "strokes": 6,
       "meaning": {
-        "es": "net",
+        "es": "red",
         "en": "net",
         "zh_pinyin": "网"
       },
@@ -3173,7 +3157,7 @@
       "number": 123,
       "strokes": 6,
       "meaning": {
-        "es": "sheep",
+        "es": "oveja",
         "en": "sheep",
         "zh_pinyin": "yang2"
       },
@@ -3221,7 +3205,7 @@
       "number": 125,
       "strokes": 6,
       "meaning": {
-        "es": "old",
+        "es": "viejo",
         "en": "old",
         "zh_pinyin": "lao3"
       },
@@ -3245,7 +3229,7 @@
       "number": 126,
       "strokes": 6,
       "meaning": {
-        "es": "and",
+        "es": "y",
         "en": "and",
         "zh_pinyin": "er2"
       },
@@ -3269,7 +3253,7 @@
       "number": 127,
       "strokes": 6,
       "meaning": {
-        "es": "plow",
+        "es": "arado",
         "en": "plow",
         "zh_pinyin": "lei3"
       },
@@ -3293,7 +3277,7 @@
       "number": 128,
       "strokes": 6,
       "meaning": {
-        "es": "ear",
+        "es": "oído",
         "en": "ear",
         "zh_pinyin": "er3"
       },
@@ -3365,7 +3349,7 @@
       "number": 131,
       "strokes": 6,
       "meaning": {
-        "es": "minister",
+        "es": "ministro",
         "en": "minister",
         "zh_pinyin": "chen2"
       },
@@ -3389,7 +3373,7 @@
       "number": 132,
       "strokes": 6,
       "meaning": {
-        "es": "self",
+        "es": "uno mismo",
         "en": "self",
         "zh_pinyin": "zi4"
       },
@@ -3413,7 +3397,7 @@
       "number": 133,
       "strokes": 6,
       "meaning": {
-        "es": "arrive",
+        "es": "llegar",
         "en": "arrive",
         "zh_pinyin": "zhi4"
       },
@@ -3461,7 +3445,7 @@
       "number": 135,
       "strokes": 6,
       "meaning": {
-        "es": "tongue",
+        "es": "lengua",
         "en": "tongue",
         "zh_pinyin": "ji1"
       },
@@ -3509,7 +3493,7 @@
       "number": 137,
       "strokes": 6,
       "meaning": {
-        "es": "boat",
+        "es": "barco",
         "en": "boat",
         "zh_pinyin": "zhou1"
       },
@@ -3537,7 +3521,7 @@
         "en": "stopping",
         "zh_pinyin": "gen3"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -3605,7 +3589,7 @@
       "number": 141,
       "strokes": 6,
       "meaning": {
-        "es": "tiger",
+        "es": "tigre",
         "en": "tiger",
         "zh_pinyin": "hu1"
       },
@@ -3629,7 +3613,7 @@
       "number": 142,
       "strokes": 6,
       "meaning": {
-        "es": "insect",
+        "es": "insecto",
         "en": "insect",
         "zh_pinyin": "chong2"
       },
@@ -3677,7 +3661,7 @@
       "number": 144,
       "strokes": 6,
       "meaning": {
-        "es": "walk",
+        "es": "caminar",
         "en": "walk",
         "zh_pinyin": "hang2"
       },
@@ -3701,7 +3685,7 @@
       "number": 145,
       "strokes": 6,
       "meaning": {
-        "es": "clothes",
+        "es": "ropa",
         "en": "clothes",
         "zh_pinyin": "yi1"
       },
@@ -3725,7 +3709,7 @@
       "number": 146,
       "strokes": 6,
       "meaning": {
-        "es": "cover",
+        "es": "cubierta",
         "en": "cover",
         "zh_pinyin": "ya4"
       },
@@ -3749,7 +3733,7 @@
       "number": 147,
       "strokes": 7,
       "meaning": {
-        "es": "see",
+        "es": "ver",
         "en": "see",
         "zh_pinyin": "jian4"
       },
@@ -3869,7 +3853,7 @@
       "number": 152,
       "strokes": 7,
       "meaning": {
-        "es": "pig",
+        "es": "cerdo",
         "en": "pig",
         "zh_pinyin": "shi3"
       },
@@ -3941,7 +3925,7 @@
       "number": 155,
       "strokes": 7,
       "meaning": {
-        "es": "red",
+        "es": "rojo",
         "en": "red",
         "zh_pinyin": "chi4"
       },
@@ -3965,7 +3949,7 @@
       "number": 156,
       "strokes": 7,
       "meaning": {
-        "es": "run",
+        "es": "correr",
         "en": "run",
         "zh_pinyin": "zou3"
       },
@@ -3989,7 +3973,7 @@
       "number": 157,
       "strokes": 7,
       "meaning": {
-        "es": "foot",
+        "es": "pie",
         "en": "foot",
         "zh_pinyin": "ju4"
       },
@@ -4013,7 +3997,7 @@
       "number": 158,
       "strokes": 7,
       "meaning": {
-        "es": "body",
+        "es": "cuerpo",
         "en": "body",
         "zh_pinyin": "shen1"
       },
@@ -4037,7 +4021,7 @@
       "number": 159,
       "strokes": 7,
       "meaning": {
-        "es": "cart",
+        "es": "carro",
         "en": "cart",
         "zh_pinyin": "che1"
       },
@@ -4061,7 +4045,7 @@
       "number": 160,
       "strokes": 7,
       "meaning": {
-        "es": "bitter",
+        "es": "amargo",
         "en": "bitter",
         "zh_pinyin": "xin1"
       },
@@ -4085,7 +4069,7 @@
       "number": 161,
       "strokes": 7,
       "meaning": {
-        "es": "morning",
+        "es": "mañana",
         "en": "morning",
         "zh_pinyin": "chen2"
       },
@@ -4109,7 +4093,7 @@
       "number": 162,
       "strokes": 7,
       "meaning": {
-        "es": "walk",
+        "es": "caminar",
         "en": "walk",
         "zh_pinyin": "chuo4"
       },
@@ -4133,7 +4117,7 @@
       "number": 163,
       "strokes": 7,
       "meaning": {
-        "es": "city",
+        "es": "ciudad",
         "en": "city",
         "zh_pinyin": "yi4"
       },
@@ -4157,7 +4141,7 @@
       "number": 164,
       "strokes": 7,
       "meaning": {
-        "es": "wine",
+        "es": "vino",
         "en": "wine",
         "zh_pinyin": "you3"
       },
@@ -4205,7 +4189,7 @@
       "number": 166,
       "strokes": 7,
       "meaning": {
-        "es": "village",
+        "es": "aldea",
         "en": "village",
         "zh_pinyin": "li3"
       },
@@ -4229,11 +4213,11 @@
       "number": 167,
       "strokes": 8,
       "meaning": {
-        "es": "gold",
+        "es": "oro",
         "en": "gold",
         "zh_pinyin": "jin1"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -4253,7 +4237,7 @@
       "number": 168,
       "strokes": 8,
       "meaning": {
-        "es": "long",
+        "es": "largo",
         "en": "long",
         "zh_pinyin": "chang2"
       },
@@ -4277,7 +4261,7 @@
       "number": 169,
       "strokes": 8,
       "meaning": {
-        "es": "gate",
+        "es": "puerta",
         "en": "gate",
         "zh_pinyin": "men2"
       },
@@ -4372,7 +4356,7 @@
       "number": 173,
       "strokes": 8,
       "meaning": {
-        "es": "rain",
+        "es": "lluvia",
         "en": "rain",
         "zh_pinyin": "yu3"
       },
@@ -4396,7 +4380,7 @@
       "number": 174,
       "strokes": 8,
       "meaning": {
-        "es": "blue",
+        "es": "azul",
         "en": "blue",
         "zh_pinyin": "qing1"
       },
@@ -4468,7 +4452,7 @@
       "number": 177,
       "strokes": 9,
       "meaning": {
-        "es": "leather",
+        "es": "cuero",
         "en": "leather",
         "zh_pinyin": "ge2"
       },
@@ -4540,7 +4524,7 @@
       "number": 180,
       "strokes": 9,
       "meaning": {
-        "es": "sound",
+        "es": "sonido",
         "en": "sound",
         "zh_pinyin": "yin1"
       },
@@ -4588,7 +4572,7 @@
       "number": 182,
       "strokes": 9,
       "meaning": {
-        "es": "wind",
+        "es": "viento",
         "en": "wind",
         "zh_pinyin": "feng1"
       },
@@ -4612,7 +4596,7 @@
       "number": 183,
       "strokes": 9,
       "meaning": {
-        "es": "fly",
+        "es": "volar",
         "en": "fly",
         "zh_pinyin": "fei1"
       },
@@ -4636,7 +4620,7 @@
       "number": 184,
       "strokes": 9,
       "meaning": {
-        "es": "eat",
+        "es": "comer",
         "en": "eat",
         "zh_pinyin": "shi2"
       },
@@ -4660,7 +4644,7 @@
       "number": 185,
       "strokes": 9,
       "meaning": {
-        "es": "head",
+        "es": "cabeza",
         "en": "head",
         "zh_pinyin": "shou3"
       },
@@ -4684,7 +4668,7 @@
       "number": 186,
       "strokes": 9,
       "meaning": {
-        "es": "fragrant",
+        "es": "fragante",
         "en": "fragrant",
         "zh_pinyin": "xiang1"
       },
@@ -4708,7 +4692,7 @@
       "number": 187,
       "strokes": 10,
       "meaning": {
-        "es": "horse",
+        "es": "caballo",
         "en": "horse",
         "zh_pinyin": "ma3"
       },
@@ -4756,7 +4740,7 @@
       "number": 189,
       "strokes": 10,
       "meaning": {
-        "es": "tall",
+        "es": "alto",
         "en": "tall",
         "zh_pinyin": "gao1"
       },
@@ -4780,7 +4764,7 @@
       "number": 190,
       "strokes": 10,
       "meaning": {
-        "es": "hair",
+        "es": "cabello",
         "en": "hair",
         "zh_pinyin": "biao1"
       },
@@ -4804,7 +4788,7 @@
       "number": 191,
       "strokes": 10,
       "meaning": {
-        "es": "fight",
+        "es": "luchar",
         "en": "fight",
         "zh_pinyin": "dou4"
       },
@@ -4900,7 +4884,7 @@
       "number": 195,
       "strokes": 11,
       "meaning": {
-        "es": "fish",
+        "es": "pez",
         "en": "fish",
         "zh_pinyin": "yu2"
       },
@@ -4924,7 +4908,7 @@
       "number": 196,
       "strokes": 11,
       "meaning": {
-        "es": "bird",
+        "es": "pájaro",
         "en": "bird",
         "zh_pinyin": "diao3"
       },
@@ -4948,7 +4932,7 @@
       "number": 197,
       "strokes": 11,
       "meaning": {
-        "es": "salt",
+        "es": "sal",
         "en": "salt",
         "zh_pinyin": "lu3"
       },
@@ -4972,7 +4956,7 @@
       "number": 198,
       "strokes": 11,
       "meaning": {
-        "es": "deer",
+        "es": "ciervo",
         "en": "deer",
         "zh_pinyin": "lu4"
       },
@@ -4996,7 +4980,7 @@
       "number": 199,
       "strokes": 11,
       "meaning": {
-        "es": "wheat",
+        "es": "trigo",
         "en": "wheat",
         "zh_pinyin": "mai4"
       },
@@ -5020,7 +5004,7 @@
       "number": 200,
       "strokes": 11,
       "meaning": {
-        "es": "hemp",
+        "es": "cáñamo",
         "en": "hemp",
         "zh_pinyin": "ma2"
       },
@@ -5044,7 +5028,7 @@
       "number": 201,
       "strokes": 12,
       "meaning": {
-        "es": "yellow",
+        "es": "amarillo",
         "en": "yellow",
         "zh_pinyin": "huang2"
       },
@@ -5068,7 +5052,7 @@
       "number": 202,
       "strokes": 12,
       "meaning": {
-        "es": "millet",
+        "es": "mijo",
         "en": "millet",
         "zh_pinyin": "shu3"
       },
@@ -5092,7 +5076,7 @@
       "number": 203,
       "strokes": 12,
       "meaning": {
-        "es": "black",
+        "es": "negro",
         "en": "black",
         "zh_pinyin": "hei1"
       },
@@ -5116,7 +5100,7 @@
       "number": 204,
       "strokes": 12,
       "meaning": {
-        "es": "embroidery",
+        "es": "bordado",
         "en": "embroidery",
         "zh_pinyin": "zhi3"
       },
@@ -5140,7 +5124,7 @@
       "number": 205,
       "strokes": 13,
       "meaning": {
-        "es": "frog",
+        "es": "rana",
         "en": "frog",
         "zh_pinyin": "meng3"
       },
@@ -5188,7 +5172,7 @@
       "number": 207,
       "strokes": 13,
       "meaning": {
-        "es": "drum",
+        "es": "tambor",
         "en": "drum",
         "zh_pinyin": "gu3"
       },
@@ -5236,7 +5220,7 @@
       "number": 209,
       "strokes": 14,
       "meaning": {
-        "es": "nose",
+        "es": "nariz",
         "en": "nose",
         "zh_pinyin": "bi2"
       },
@@ -5260,7 +5244,7 @@
       "number": 210,
       "strokes": 14,
       "meaning": {
-        "es": "even",
+        "es": "uniforme",
         "en": "even",
         "zh_pinyin": "qi2"
       },
@@ -5284,7 +5268,7 @@
       "number": 211,
       "strokes": 15,
       "meaning": {
-        "es": "tooth",
+        "es": "diente",
         "en": "tooth",
         "zh_pinyin": "chi3"
       },
@@ -5308,11 +5292,11 @@
       "number": 212,
       "strokes": 16,
       "meaning": {
-        "es": "dragon",
+        "es": "dragón",
         "en": "dragon",
         "zh_pinyin": "long2"
       },
-      "category": "acción",
+      "category": "actividad",
       "frequency": 0,
       "characters": [],
       "sources": [
@@ -5332,7 +5316,7 @@
       "number": 213,
       "strokes": 16,
       "meaning": {
-        "es": "turtle",
+        "es": "tortuga",
         "en": "turtle",
         "zh_pinyin": "gui1"
       },
@@ -5356,7 +5340,7 @@
       "number": 214,
       "strokes": 17,
       "meaning": {
-        "es": "flute",
+        "es": "flauta",
         "en": "flute",
         "zh_pinyin": "yue4"
       },
@@ -5421,7 +5405,7 @@
       {
         "radical": "目",
         "meaning": {
-          "es": "eye",
+          "es": "ojo",
           "en": "eye",
           "zh_pinyin": "mu4"
         },
@@ -5431,7 +5415,7 @@
       {
         "radical": "矛",
         "meaning": {
-          "es": "spear",
+          "es": "lanza",
           "en": "spear",
           "zh_pinyin": "mao2"
         },
@@ -5441,7 +5425,7 @@
       {
         "radical": "耳",
         "meaning": {
-          "es": "ear",
+          "es": "oído",
           "en": "ear",
           "zh_pinyin": "er3"
         },
@@ -5451,7 +5435,7 @@
       {
         "radical": "足",
         "meaning": {
-          "es": "foot",
+          "es": "pie",
           "en": "foot",
           "zh_pinyin": "ju4"
         },
@@ -5461,7 +5445,7 @@
       {
         "radical": "首",
         "meaning": {
-          "es": "head",
+          "es": "cabeza",
           "en": "head",
           "zh_pinyin": "shou3"
         },
@@ -5533,7 +5517,7 @@
       {
         "radical": "石",
         "meaning": {
-          "es": "stone",
+          "es": "piedra",
           "en": "stone",
           "zh_pinyin": "shi2"
         },
@@ -5615,7 +5599,7 @@
       {
         "radical": "囗",
         "meaning": {
-          "es": "enclosure",
+          "es": "recinto",
           "en": "enclosure",
           "zh_pinyin": "wei2"
         },
@@ -5637,7 +5621,7 @@
       {
         "radical": "亠",
         "meaning": {
-          "es": "lid",
+          "es": "tapa",
           "en": "lid",
           "zh_pinyin": "tou2"
         },
@@ -5657,7 +5641,7 @@
       {
         "radical": "示",
         "meaning": {
-          "es": "spirit",
+          "es": "espíritu",
           "en": "spirit",
           "zh_pinyin": "shi4"
         },
@@ -5667,7 +5651,7 @@
       {
         "radical": "糸",
         "meaning": {
-          "es": "silk",
+          "es": "seda",
           "en": "silk",
           "zh_pinyin": "mi4"
         },
@@ -5717,7 +5701,7 @@
       {
         "radical": "冖",
         "meaning": {
-          "es": "cover",
+          "es": "cubierta",
           "en": "cover",
           "zh_pinyin": "mi4"
         },
@@ -5807,7 +5791,7 @@
       {
         "radical": "夕",
         "meaning": {
-          "es": "evening",
+          "es": "noche",
           "en": "evening",
           "zh_pinyin": "xi1"
         },
@@ -5817,7 +5801,7 @@
       {
         "radical": "宀",
         "meaning": {
-          "es": "roof",
+          "es": "techo",
           "en": "roof",
           "zh_pinyin": "mian2"
         },
@@ -5827,7 +5811,7 @@
       {
         "radical": "寸",
         "meaning": {
-          "es": "inch",
+          "es": "pulgada",
           "en": "inch",
           "zh_pinyin": "cun4"
         },
@@ -5927,7 +5911,7 @@
       {
         "radical": "弋",
         "meaning": {
-          "es": "shoot",
+          "es": "disparar",
           "en": "shoot",
           "zh_pinyin": "yi4"
         },
@@ -6167,7 +6151,7 @@
       {
         "radical": "甘",
         "meaning": {
-          "es": "sweet",
+          "es": "dulce",
           "en": "sweet",
           "zh_pinyin": "gan1"
         },
@@ -6177,7 +6161,7 @@
       {
         "radical": "生",
         "meaning": {
-          "es": "life",
+          "es": "vida",
           "en": "life",
           "zh_pinyin": "sheng1"
         },
@@ -6187,7 +6171,7 @@
       {
         "radical": "用",
         "meaning": {
-          "es": "use",
+          "es": "usar",
           "en": "use",
           "zh_pinyin": "yong4"
         },
@@ -6197,7 +6181,7 @@
       {
         "radical": "田",
         "meaning": {
-          "es": "field",
+          "es": "campo",
           "en": "field",
           "zh_pinyin": "tian2"
         },
@@ -6227,7 +6211,7 @@
       {
         "radical": "白",
         "meaning": {
-          "es": "white",
+          "es": "blanco",
           "en": "white",
           "zh_pinyin": "bai2"
         },
@@ -6247,7 +6231,7 @@
       {
         "radical": "皿",
         "meaning": {
-          "es": "dish",
+          "es": "plato",
           "en": "dish",
           "zh_pinyin": "min3"
         },
@@ -6257,7 +6241,7 @@
       {
         "radical": "矢",
         "meaning": {
-          "es": "arrow",
+          "es": "flecha",
           "en": "arrow",
           "zh_pinyin": "shi3"
         },
@@ -6277,7 +6261,7 @@
       {
         "radical": "禾",
         "meaning": {
-          "es": "grain",
+          "es": "grano",
           "en": "grain",
           "zh_pinyin": "he2"
         },
@@ -6287,7 +6271,7 @@
       {
         "radical": "穴",
         "meaning": {
-          "es": "cave",
+          "es": "cueva",
           "en": "cave",
           "zh_pinyin": "xue2"
         },
@@ -6307,7 +6291,7 @@
       {
         "radical": "竹",
         "meaning": {
-          "es": "bamboo",
+          "es": "bambú",
           "en": "bamboo",
           "zh_pinyin": "zhu2"
         },
@@ -6317,7 +6301,7 @@
       {
         "radical": "米",
         "meaning": {
-          "es": "rice",
+          "es": "arroz",
           "en": "rice",
           "zh_pinyin": "mi3"
         },
@@ -6327,7 +6311,7 @@
       {
         "radical": "缶",
         "meaning": {
-          "es": "jar",
+          "es": "jarra",
           "en": "jar",
           "zh_pinyin": "fou3"
         },
@@ -6337,7 +6321,7 @@
       {
         "radical": "网",
         "meaning": {
-          "es": "net",
+          "es": "red",
           "en": "net",
           "zh_pinyin": "网"
         },
@@ -6347,7 +6331,7 @@
       {
         "radical": "羊",
         "meaning": {
-          "es": "sheep",
+          "es": "oveja",
           "en": "sheep",
           "zh_pinyin": "yang2"
         },
@@ -6367,7 +6351,7 @@
       {
         "radical": "老",
         "meaning": {
-          "es": "old",
+          "es": "viejo",
           "en": "old",
           "zh_pinyin": "lao3"
         },
@@ -6377,7 +6361,7 @@
       {
         "radical": "而",
         "meaning": {
-          "es": "and",
+          "es": "y",
           "en": "and",
           "zh_pinyin": "er2"
         },
@@ -6387,7 +6371,7 @@
       {
         "radical": "耒",
         "meaning": {
-          "es": "plow",
+          "es": "arado",
           "en": "plow",
           "zh_pinyin": "lei3"
         },
@@ -6417,7 +6401,7 @@
       {
         "radical": "臣",
         "meaning": {
-          "es": "minister",
+          "es": "ministro",
           "en": "minister",
           "zh_pinyin": "chen2"
         },
@@ -6427,7 +6411,7 @@
       {
         "radical": "自",
         "meaning": {
-          "es": "self",
+          "es": "uno mismo",
           "en": "self",
           "zh_pinyin": "zi4"
         },
@@ -6437,7 +6421,7 @@
       {
         "radical": "至",
         "meaning": {
-          "es": "arrive",
+          "es": "llegar",
           "en": "arrive",
           "zh_pinyin": "zhi4"
         },
@@ -6457,7 +6441,7 @@
       {
         "radical": "舌",
         "meaning": {
-          "es": "tongue",
+          "es": "lengua",
           "en": "tongue",
           "zh_pinyin": "ji1"
         },
@@ -6477,7 +6461,7 @@
       {
         "radical": "舟",
         "meaning": {
-          "es": "boat",
+          "es": "barco",
           "en": "boat",
           "zh_pinyin": "zhou1"
         },
@@ -6507,7 +6491,7 @@
       {
         "radical": "虍",
         "meaning": {
-          "es": "tiger",
+          "es": "tigre",
           "en": "tiger",
           "zh_pinyin": "hu1"
         },
@@ -6517,7 +6501,7 @@
       {
         "radical": "虫",
         "meaning": {
-          "es": "insect",
+          "es": "insecto",
           "en": "insect",
           "zh_pinyin": "chong2"
         },
@@ -6537,7 +6521,7 @@
       {
         "radical": "行",
         "meaning": {
-          "es": "walk",
+          "es": "caminar",
           "en": "walk",
           "zh_pinyin": "hang2"
         },
@@ -6547,7 +6531,7 @@
       {
         "radical": "衣",
         "meaning": {
-          "es": "clothes",
+          "es": "ropa",
           "en": "clothes",
           "zh_pinyin": "yi1"
         },
@@ -6557,7 +6541,7 @@
       {
         "radical": "襾",
         "meaning": {
-          "es": "cover",
+          "es": "cubierta",
           "en": "cover",
           "zh_pinyin": "ya4"
         },
@@ -6567,7 +6551,7 @@
       {
         "radical": "見",
         "meaning": {
-          "es": "see",
+          "es": "ver",
           "en": "see",
           "zh_pinyin": "jian4"
         },
@@ -6617,7 +6601,7 @@
       {
         "radical": "豕",
         "meaning": {
-          "es": "pig",
+          "es": "cerdo",
           "en": "pig",
           "zh_pinyin": "shi3"
         },
@@ -6647,7 +6631,7 @@
       {
         "radical": "赤",
         "meaning": {
-          "es": "red",
+          "es": "rojo",
           "en": "red",
           "zh_pinyin": "chi4"
         },
@@ -6657,7 +6641,7 @@
       {
         "radical": "走",
         "meaning": {
-          "es": "run",
+          "es": "correr",
           "en": "run",
           "zh_pinyin": "zou3"
         },
@@ -6667,7 +6651,7 @@
       {
         "radical": "身",
         "meaning": {
-          "es": "body",
+          "es": "cuerpo",
           "en": "body",
           "zh_pinyin": "shen1"
         },
@@ -6677,7 +6661,7 @@
       {
         "radical": "車",
         "meaning": {
-          "es": "cart",
+          "es": "carro",
           "en": "cart",
           "zh_pinyin": "che1"
         },
@@ -6687,7 +6671,7 @@
       {
         "radical": "辛",
         "meaning": {
-          "es": "bitter",
+          "es": "amargo",
           "en": "bitter",
           "zh_pinyin": "xin1"
         },
@@ -6697,7 +6681,7 @@
       {
         "radical": "辰",
         "meaning": {
-          "es": "morning",
+          "es": "mañana",
           "en": "morning",
           "zh_pinyin": "chen2"
         },
@@ -6707,7 +6691,7 @@
       {
         "radical": "辵",
         "meaning": {
-          "es": "walk",
+          "es": "caminar",
           "en": "walk",
           "zh_pinyin": "chuo4"
         },
@@ -6717,7 +6701,7 @@
       {
         "radical": "邑",
         "meaning": {
-          "es": "city",
+          "es": "ciudad",
           "en": "city",
           "zh_pinyin": "yi4"
         },
@@ -6727,7 +6711,7 @@
       {
         "radical": "酉",
         "meaning": {
-          "es": "wine",
+          "es": "vino",
           "en": "wine",
           "zh_pinyin": "you3"
         },
@@ -6747,7 +6731,7 @@
       {
         "radical": "里",
         "meaning": {
-          "es": "village",
+          "es": "aldea",
           "en": "village",
           "zh_pinyin": "li3"
         },
@@ -6757,7 +6741,7 @@
       {
         "radical": "長",
         "meaning": {
-          "es": "long",
+          "es": "largo",
           "en": "long",
           "zh_pinyin": "chang2"
         },
@@ -6767,7 +6751,7 @@
       {
         "radical": "門",
         "meaning": {
-          "es": "gate",
+          "es": "puerta",
           "en": "gate",
           "zh_pinyin": "men2"
         },
@@ -6797,7 +6781,7 @@
       {
         "radical": "雨",
         "meaning": {
-          "es": "rain",
+          "es": "lluvia",
           "en": "rain",
           "zh_pinyin": "yu3"
         },
@@ -6807,7 +6791,7 @@
       {
         "radical": "青",
         "meaning": {
-          "es": "blue",
+          "es": "azul",
           "en": "blue",
           "zh_pinyin": "qing1"
         },
@@ -6857,7 +6841,7 @@
       {
         "radical": "音",
         "meaning": {
-          "es": "sound",
+          "es": "sonido",
           "en": "sound",
           "zh_pinyin": "yin1"
         },
@@ -6877,7 +6861,7 @@
       {
         "radical": "風",
         "meaning": {
-          "es": "wind",
+          "es": "viento",
           "en": "wind",
           "zh_pinyin": "feng1"
         },
@@ -6887,7 +6871,7 @@
       {
         "radical": "飛",
         "meaning": {
-          "es": "fly",
+          "es": "volar",
           "en": "fly",
           "zh_pinyin": "fei1"
         },
@@ -6897,7 +6881,7 @@
       {
         "radical": "食",
         "meaning": {
-          "es": "eat",
+          "es": "comer",
           "en": "eat",
           "zh_pinyin": "shi2"
         },
@@ -6907,7 +6891,7 @@
       {
         "radical": "香",
         "meaning": {
-          "es": "fragrant",
+          "es": "fragante",
           "en": "fragrant",
           "zh_pinyin": "xiang1"
         },
@@ -6917,7 +6901,7 @@
       {
         "radical": "馬",
         "meaning": {
-          "es": "horse",
+          "es": "caballo",
           "en": "horse",
           "zh_pinyin": "ma3"
         },
@@ -6927,7 +6911,7 @@
       {
         "radical": "高",
         "meaning": {
-          "es": "tall",
+          "es": "alto",
           "en": "tall",
           "zh_pinyin": "gao1"
         },
@@ -6937,7 +6921,7 @@
       {
         "radical": "髟",
         "meaning": {
-          "es": "hair",
+          "es": "cabello",
           "en": "hair",
           "zh_pinyin": "biao1"
         },
@@ -6947,7 +6931,7 @@
       {
         "radical": "鬥",
         "meaning": {
-          "es": "fight",
+          "es": "luchar",
           "en": "fight",
           "zh_pinyin": "dou4"
         },
@@ -6987,7 +6971,7 @@
       {
         "radical": "鹵",
         "meaning": {
-          "es": "salt",
+          "es": "sal",
           "en": "salt",
           "zh_pinyin": "lu3"
         },
@@ -6997,7 +6981,7 @@
       {
         "radical": "鹿",
         "meaning": {
-          "es": "deer",
+          "es": "ciervo",
           "en": "deer",
           "zh_pinyin": "lu4"
         },
@@ -7007,7 +6991,7 @@
       {
         "radical": "麥",
         "meaning": {
-          "es": "wheat",
+          "es": "trigo",
           "en": "wheat",
           "zh_pinyin": "mai4"
         },
@@ -7017,7 +7001,7 @@
       {
         "radical": "麻",
         "meaning": {
-          "es": "hemp",
+          "es": "cáñamo",
           "en": "hemp",
           "zh_pinyin": "ma2"
         },
@@ -7027,7 +7011,7 @@
       {
         "radical": "黃",
         "meaning": {
-          "es": "yellow",
+          "es": "amarillo",
           "en": "yellow",
           "zh_pinyin": "huang2"
         },
@@ -7037,7 +7021,7 @@
       {
         "radical": "黍",
         "meaning": {
-          "es": "millet",
+          "es": "mijo",
           "en": "millet",
           "zh_pinyin": "shu3"
         },
@@ -7047,7 +7031,7 @@
       {
         "radical": "黑",
         "meaning": {
-          "es": "black",
+          "es": "negro",
           "en": "black",
           "zh_pinyin": "hei1"
         },
@@ -7057,7 +7041,7 @@
       {
         "radical": "黹",
         "meaning": {
-          "es": "embroidery",
+          "es": "bordado",
           "en": "embroidery",
           "zh_pinyin": "zhi3"
         },
@@ -7067,7 +7051,7 @@
       {
         "radical": "黽",
         "meaning": {
-          "es": "frog",
+          "es": "rana",
           "en": "frog",
           "zh_pinyin": "meng3"
         },
@@ -7087,7 +7071,7 @@
       {
         "radical": "鼓",
         "meaning": {
-          "es": "drum",
+          "es": "tambor",
           "en": "drum",
           "zh_pinyin": "gu3"
         },
@@ -7107,7 +7091,7 @@
       {
         "radical": "鼻",
         "meaning": {
-          "es": "nose",
+          "es": "nariz",
           "en": "nose",
           "zh_pinyin": "bi2"
         },
@@ -7117,7 +7101,7 @@
       {
         "radical": "齊",
         "meaning": {
-          "es": "even",
+          "es": "uniforme",
           "en": "even",
           "zh_pinyin": "qi2"
         },
@@ -7127,7 +7111,7 @@
       {
         "radical": "齒",
         "meaning": {
-          "es": "tooth",
+          "es": "diente",
           "en": "tooth",
           "zh_pinyin": "chi3"
         },
@@ -7137,7 +7121,7 @@
       {
         "radical": "龜",
         "meaning": {
-          "es": "turtle",
+          "es": "tortuga",
           "en": "turtle",
           "zh_pinyin": "gui1"
         },
@@ -7147,7 +7131,7 @@
       {
         "radical": "龠",
         "meaning": {
-          "es": "flute",
+          "es": "flauta",
           "en": "flute",
           "zh_pinyin": "yue4"
         },
@@ -7169,7 +7153,7 @@
       {
         "radical": "士",
         "meaning": {
-          "es": "scholar",
+          "es": "erudito",
           "en": "scholar",
           "zh_pinyin": "shi4"
         },
@@ -7199,7 +7183,7 @@
       {
         "radical": "父",
         "meaning": {
-          "es": "father",
+          "es": "padre",
           "en": "father",
           "zh_pinyin": "fu4"
         },
@@ -7331,81 +7315,7 @@
         },
         "frequency": 1,
         "strokes": 3
-      }
-    ],
-    "naturaleza": [
-      {
-        "radical": "月",
-        "meaning": {
-          "es": "luna",
-          "en": "moon",
-          "zh_pinyin": "yue4"
-        },
-        "frequency": 1,
-        "strokes": 4
       },
-      {
-        "radical": "水",
-        "meaning": {
-          "es": "agua",
-          "en": "water",
-          "zh_pinyin": "shui3"
-        },
-        "frequency": 1,
-        "strokes": 4
-      },
-      {
-        "radical": "山",
-        "meaning": {
-          "es": "montaña",
-          "en": "mountain",
-          "zh_pinyin": "shan1"
-        },
-        "frequency": 0,
-        "strokes": 3
-      },
-      {
-        "radical": "巛",
-        "meaning": {
-          "es": "river",
-          "en": "river",
-          "zh_pinyin": "chuan1"
-        },
-        "frequency": 0,
-        "strokes": 3
-      },
-      {
-        "radical": "日",
-        "meaning": {
-          "es": "sol",
-          "en": "sun",
-          "zh_pinyin": "ri4"
-        },
-        "frequency": 0,
-        "strokes": 4
-      },
-      {
-        "radical": "木",
-        "meaning": {
-          "es": "madera",
-          "en": "tree",
-          "zh_pinyin": "mu4"
-        },
-        "frequency": 0,
-        "strokes": 4
-      },
-      {
-        "radical": "火",
-        "meaning": {
-          "es": "fuego",
-          "en": "fire",
-          "zh_pinyin": "huo3"
-        },
-        "frequency": 0,
-        "strokes": 4
-      }
-    ],
-    "acción": [
       {
         "radical": "入",
         "meaning": {
@@ -7459,7 +7369,7 @@
       {
         "radical": "金",
         "meaning": {
-          "es": "gold",
+          "es": "oro",
           "en": "gold",
           "zh_pinyin": "jin1"
         },
@@ -7469,12 +7379,84 @@
       {
         "radical": "龍",
         "meaning": {
-          "es": "dragon",
+          "es": "dragón",
           "en": "dragon",
           "zh_pinyin": "long2"
         },
         "frequency": 0,
         "strokes": 16
+      }
+    ],
+    "naturaleza": [
+      {
+        "radical": "月",
+        "meaning": {
+          "es": "luna",
+          "en": "moon",
+          "zh_pinyin": "yue4"
+        },
+        "frequency": 1,
+        "strokes": 4
+      },
+      {
+        "radical": "水",
+        "meaning": {
+          "es": "agua",
+          "en": "water",
+          "zh_pinyin": "shui3"
+        },
+        "frequency": 1,
+        "strokes": 4
+      },
+      {
+        "radical": "山",
+        "meaning": {
+          "es": "montaña",
+          "en": "mountain",
+          "zh_pinyin": "shan1"
+        },
+        "frequency": 0,
+        "strokes": 3
+      },
+      {
+        "radical": "巛",
+        "meaning": {
+          "es": "río",
+          "en": "river",
+          "zh_pinyin": "chuan1"
+        },
+        "frequency": 0,
+        "strokes": 3
+      },
+      {
+        "radical": "日",
+        "meaning": {
+          "es": "sol",
+          "en": "sun",
+          "zh_pinyin": "ri4"
+        },
+        "frequency": 0,
+        "strokes": 4
+      },
+      {
+        "radical": "木",
+        "meaning": {
+          "es": "madera",
+          "en": "tree",
+          "zh_pinyin": "mu4"
+        },
+        "frequency": 0,
+        "strokes": 4
+      },
+      {
+        "radical": "火",
+        "meaning": {
+          "es": "fuego",
+          "en": "fire",
+          "zh_pinyin": "huo3"
+        },
+        "frequency": 0,
+        "strokes": 4
       }
     ],
     "animal": [
@@ -7511,7 +7493,7 @@
       {
         "radical": "魚",
         "meaning": {
-          "es": "fish",
+          "es": "pez",
           "en": "fish",
           "zh_pinyin": "yu2"
         },
@@ -7521,7 +7503,7 @@
       {
         "radical": "鳥",
         "meaning": {
-          "es": "bird",
+          "es": "pájaro",
           "en": "bird",
           "zh_pinyin": "diao3"
         },
@@ -7533,7 +7515,7 @@
       {
         "radical": "革",
         "meaning": {
-          "es": "leather",
+          "es": "cuero",
           "en": "leather",
           "zh_pinyin": "ge2"
         },
@@ -7609,7 +7591,7 @@
       {
         "radical": "亠",
         "meaning": {
-          "es": "lid",
+          "es": "tapa",
           "en": "lid",
           "zh_pinyin": "tou2"
         },
@@ -7684,7 +7666,7 @@
           "zh_pinyin": "ru4"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "冂",
@@ -7699,7 +7681,7 @@
       {
         "radical": "冖",
         "meaning": {
-          "es": "cover",
+          "es": "cubierta",
           "en": "cover",
           "zh_pinyin": "mi4"
         },
@@ -7881,7 +7863,7 @@
       {
         "radical": "囗",
         "meaning": {
-          "es": "enclosure",
+          "es": "recinto",
           "en": "enclosure",
           "zh_pinyin": "wei2"
         },
@@ -7891,7 +7873,7 @@
       {
         "radical": "士",
         "meaning": {
-          "es": "scholar",
+          "es": "erudito",
           "en": "scholar",
           "zh_pinyin": "shi4"
         },
@@ -7906,7 +7888,7 @@
           "zh_pinyin": "zhi3"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "夊",
@@ -7916,12 +7898,12 @@
           "zh_pinyin": "sui1"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "夕",
         "meaning": {
-          "es": "evening",
+          "es": "noche",
           "en": "evening",
           "zh_pinyin": "xi1"
         },
@@ -7951,7 +7933,7 @@
       {
         "radical": "宀",
         "meaning": {
-          "es": "roof",
+          "es": "techo",
           "en": "roof",
           "zh_pinyin": "mian2"
         },
@@ -7961,7 +7943,7 @@
       {
         "radical": "寸",
         "meaning": {
-          "es": "inch",
+          "es": "pulgada",
           "en": "inch",
           "zh_pinyin": "cun4"
         },
@@ -8021,7 +8003,7 @@
       {
         "radical": "巛",
         "meaning": {
-          "es": "river",
+          "es": "río",
           "en": "river",
           "zh_pinyin": "chuan1"
         },
@@ -8101,7 +8083,7 @@
       {
         "radical": "弋",
         "meaning": {
-          "es": "shoot",
+          "es": "disparar",
           "en": "shoot",
           "zh_pinyin": "yi4"
         },
@@ -8328,7 +8310,7 @@
           "zh_pinyin": "zhi3"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "歹",
@@ -8423,7 +8405,7 @@
       {
         "radical": "父",
         "meaning": {
-          "es": "father",
+          "es": "padre",
           "en": "father",
           "zh_pinyin": "fu4"
         },
@@ -8495,7 +8477,7 @@
       {
         "radical": "示",
         "meaning": {
-          "es": "spirit",
+          "es": "espíritu",
           "en": "spirit",
           "zh_pinyin": "shi4"
         },
@@ -8545,7 +8527,7 @@
       {
         "radical": "甘",
         "meaning": {
-          "es": "sweet",
+          "es": "dulce",
           "en": "sweet",
           "zh_pinyin": "gan1"
         },
@@ -8555,7 +8537,7 @@
       {
         "radical": "生",
         "meaning": {
-          "es": "life",
+          "es": "vida",
           "en": "life",
           "zh_pinyin": "sheng1"
         },
@@ -8565,7 +8547,7 @@
       {
         "radical": "用",
         "meaning": {
-          "es": "use",
+          "es": "usar",
           "en": "use",
           "zh_pinyin": "yong4"
         },
@@ -8575,7 +8557,7 @@
       {
         "radical": "田",
         "meaning": {
-          "es": "field",
+          "es": "campo",
           "en": "field",
           "zh_pinyin": "tian2"
         },
@@ -8615,7 +8597,7 @@
       {
         "radical": "白",
         "meaning": {
-          "es": "white",
+          "es": "blanco",
           "en": "white",
           "zh_pinyin": "bai2"
         },
@@ -8635,7 +8617,7 @@
       {
         "radical": "皿",
         "meaning": {
-          "es": "dish",
+          "es": "plato",
           "en": "dish",
           "zh_pinyin": "min3"
         },
@@ -8645,7 +8627,7 @@
       {
         "radical": "目",
         "meaning": {
-          "es": "eye",
+          "es": "ojo",
           "en": "eye",
           "zh_pinyin": "mu4"
         },
@@ -8655,7 +8637,7 @@
       {
         "radical": "矛",
         "meaning": {
-          "es": "spear",
+          "es": "lanza",
           "en": "spear",
           "zh_pinyin": "mao2"
         },
@@ -8665,7 +8647,7 @@
       {
         "radical": "矢",
         "meaning": {
-          "es": "arrow",
+          "es": "flecha",
           "en": "arrow",
           "zh_pinyin": "shi3"
         },
@@ -8675,7 +8657,7 @@
       {
         "radical": "石",
         "meaning": {
-          "es": "stone",
+          "es": "piedra",
           "en": "stone",
           "zh_pinyin": "shi2"
         },
@@ -8695,7 +8677,7 @@
       {
         "radical": "禾",
         "meaning": {
-          "es": "grain",
+          "es": "grano",
           "en": "grain",
           "zh_pinyin": "he2"
         },
@@ -8705,7 +8687,7 @@
       {
         "radical": "穴",
         "meaning": {
-          "es": "cave",
+          "es": "cueva",
           "en": "cave",
           "zh_pinyin": "xue2"
         },
@@ -8727,7 +8709,7 @@
       {
         "radical": "糸",
         "meaning": {
-          "es": "silk",
+          "es": "seda",
           "en": "silk",
           "zh_pinyin": "mi4"
         },
@@ -8737,7 +8719,7 @@
       {
         "radical": "竹",
         "meaning": {
-          "es": "bamboo",
+          "es": "bambú",
           "en": "bamboo",
           "zh_pinyin": "zhu2"
         },
@@ -8747,7 +8729,7 @@
       {
         "radical": "米",
         "meaning": {
-          "es": "rice",
+          "es": "arroz",
           "en": "rice",
           "zh_pinyin": "mi3"
         },
@@ -8757,7 +8739,7 @@
       {
         "radical": "缶",
         "meaning": {
-          "es": "jar",
+          "es": "jarra",
           "en": "jar",
           "zh_pinyin": "fou3"
         },
@@ -8767,7 +8749,7 @@
       {
         "radical": "网",
         "meaning": {
-          "es": "net",
+          "es": "red",
           "en": "net",
           "zh_pinyin": "网"
         },
@@ -8777,7 +8759,7 @@
       {
         "radical": "羊",
         "meaning": {
-          "es": "sheep",
+          "es": "oveja",
           "en": "sheep",
           "zh_pinyin": "yang2"
         },
@@ -8797,7 +8779,7 @@
       {
         "radical": "老",
         "meaning": {
-          "es": "old",
+          "es": "viejo",
           "en": "old",
           "zh_pinyin": "lao3"
         },
@@ -8807,7 +8789,7 @@
       {
         "radical": "而",
         "meaning": {
-          "es": "and",
+          "es": "y",
           "en": "and",
           "zh_pinyin": "er2"
         },
@@ -8817,7 +8799,7 @@
       {
         "radical": "耒",
         "meaning": {
-          "es": "plow",
+          "es": "arado",
           "en": "plow",
           "zh_pinyin": "lei3"
         },
@@ -8827,7 +8809,7 @@
       {
         "radical": "耳",
         "meaning": {
-          "es": "ear",
+          "es": "oído",
           "en": "ear",
           "zh_pinyin": "er3"
         },
@@ -8857,7 +8839,7 @@
       {
         "radical": "臣",
         "meaning": {
-          "es": "minister",
+          "es": "ministro",
           "en": "minister",
           "zh_pinyin": "chen2"
         },
@@ -8867,7 +8849,7 @@
       {
         "radical": "自",
         "meaning": {
-          "es": "self",
+          "es": "uno mismo",
           "en": "self",
           "zh_pinyin": "zi4"
         },
@@ -8877,7 +8859,7 @@
       {
         "radical": "至",
         "meaning": {
-          "es": "arrive",
+          "es": "llegar",
           "en": "arrive",
           "zh_pinyin": "zhi4"
         },
@@ -8897,7 +8879,7 @@
       {
         "radical": "舌",
         "meaning": {
-          "es": "tongue",
+          "es": "lengua",
           "en": "tongue",
           "zh_pinyin": "ji1"
         },
@@ -8917,7 +8899,7 @@
       {
         "radical": "舟",
         "meaning": {
-          "es": "boat",
+          "es": "barco",
           "en": "boat",
           "zh_pinyin": "zhou1"
         },
@@ -8932,7 +8914,7 @@
           "zh_pinyin": "gen3"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "色",
@@ -8957,7 +8939,7 @@
       {
         "radical": "虍",
         "meaning": {
-          "es": "tiger",
+          "es": "tigre",
           "en": "tiger",
           "zh_pinyin": "hu1"
         },
@@ -8967,7 +8949,7 @@
       {
         "radical": "虫",
         "meaning": {
-          "es": "insect",
+          "es": "insecto",
           "en": "insect",
           "zh_pinyin": "chong2"
         },
@@ -8987,7 +8969,7 @@
       {
         "radical": "行",
         "meaning": {
-          "es": "walk",
+          "es": "caminar",
           "en": "walk",
           "zh_pinyin": "hang2"
         },
@@ -8997,7 +8979,7 @@
       {
         "radical": "衣",
         "meaning": {
-          "es": "clothes",
+          "es": "ropa",
           "en": "clothes",
           "zh_pinyin": "yi1"
         },
@@ -9007,7 +8989,7 @@
       {
         "radical": "襾",
         "meaning": {
-          "es": "cover",
+          "es": "cubierta",
           "en": "cover",
           "zh_pinyin": "ya4"
         },
@@ -9019,7 +9001,7 @@
       {
         "radical": "見",
         "meaning": {
-          "es": "see",
+          "es": "ver",
           "en": "see",
           "zh_pinyin": "jian4"
         },
@@ -9069,7 +9051,7 @@
       {
         "radical": "豕",
         "meaning": {
-          "es": "pig",
+          "es": "cerdo",
           "en": "pig",
           "zh_pinyin": "shi3"
         },
@@ -9099,7 +9081,7 @@
       {
         "radical": "赤",
         "meaning": {
-          "es": "red",
+          "es": "rojo",
           "en": "red",
           "zh_pinyin": "chi4"
         },
@@ -9109,7 +9091,7 @@
       {
         "radical": "走",
         "meaning": {
-          "es": "run",
+          "es": "correr",
           "en": "run",
           "zh_pinyin": "zou3"
         },
@@ -9119,7 +9101,7 @@
       {
         "radical": "足",
         "meaning": {
-          "es": "foot",
+          "es": "pie",
           "en": "foot",
           "zh_pinyin": "ju4"
         },
@@ -9129,7 +9111,7 @@
       {
         "radical": "身",
         "meaning": {
-          "es": "body",
+          "es": "cuerpo",
           "en": "body",
           "zh_pinyin": "shen1"
         },
@@ -9139,7 +9121,7 @@
       {
         "radical": "車",
         "meaning": {
-          "es": "cart",
+          "es": "carro",
           "en": "cart",
           "zh_pinyin": "che1"
         },
@@ -9149,7 +9131,7 @@
       {
         "radical": "辛",
         "meaning": {
-          "es": "bitter",
+          "es": "amargo",
           "en": "bitter",
           "zh_pinyin": "xin1"
         },
@@ -9159,7 +9141,7 @@
       {
         "radical": "辰",
         "meaning": {
-          "es": "morning",
+          "es": "mañana",
           "en": "morning",
           "zh_pinyin": "chen2"
         },
@@ -9169,7 +9151,7 @@
       {
         "radical": "辵",
         "meaning": {
-          "es": "walk",
+          "es": "caminar",
           "en": "walk",
           "zh_pinyin": "chuo4"
         },
@@ -9179,7 +9161,7 @@
       {
         "radical": "邑",
         "meaning": {
-          "es": "city",
+          "es": "ciudad",
           "en": "city",
           "zh_pinyin": "yi4"
         },
@@ -9189,7 +9171,7 @@
       {
         "radical": "酉",
         "meaning": {
-          "es": "wine",
+          "es": "vino",
           "en": "wine",
           "zh_pinyin": "you3"
         },
@@ -9209,7 +9191,7 @@
       {
         "radical": "里",
         "meaning": {
-          "es": "village",
+          "es": "aldea",
           "en": "village",
           "zh_pinyin": "li3"
         },
@@ -9221,17 +9203,17 @@
       {
         "radical": "金",
         "meaning": {
-          "es": "gold",
+          "es": "oro",
           "en": "gold",
           "zh_pinyin": "jin1"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "長",
         "meaning": {
-          "es": "long",
+          "es": "largo",
           "en": "long",
           "zh_pinyin": "chang2"
         },
@@ -9241,7 +9223,7 @@
       {
         "radical": "門",
         "meaning": {
-          "es": "gate",
+          "es": "puerta",
           "en": "gate",
           "zh_pinyin": "men2"
         },
@@ -9281,7 +9263,7 @@
       {
         "radical": "雨",
         "meaning": {
-          "es": "rain",
+          "es": "lluvia",
           "en": "rain",
           "zh_pinyin": "yu3"
         },
@@ -9291,7 +9273,7 @@
       {
         "radical": "青",
         "meaning": {
-          "es": "blue",
+          "es": "azul",
           "en": "blue",
           "zh_pinyin": "qing1"
         },
@@ -9323,7 +9305,7 @@
       {
         "radical": "革",
         "meaning": {
-          "es": "leather",
+          "es": "cuero",
           "en": "leather",
           "zh_pinyin": "ge2"
         },
@@ -9353,7 +9335,7 @@
       {
         "radical": "音",
         "meaning": {
-          "es": "sound",
+          "es": "sonido",
           "en": "sound",
           "zh_pinyin": "yin1"
         },
@@ -9373,7 +9355,7 @@
       {
         "radical": "風",
         "meaning": {
-          "es": "wind",
+          "es": "viento",
           "en": "wind",
           "zh_pinyin": "feng1"
         },
@@ -9383,7 +9365,7 @@
       {
         "radical": "飛",
         "meaning": {
-          "es": "fly",
+          "es": "volar",
           "en": "fly",
           "zh_pinyin": "fei1"
         },
@@ -9393,7 +9375,7 @@
       {
         "radical": "食",
         "meaning": {
-          "es": "eat",
+          "es": "comer",
           "en": "eat",
           "zh_pinyin": "shi2"
         },
@@ -9403,7 +9385,7 @@
       {
         "radical": "首",
         "meaning": {
-          "es": "head",
+          "es": "cabeza",
           "en": "head",
           "zh_pinyin": "shou3"
         },
@@ -9413,7 +9395,7 @@
       {
         "radical": "香",
         "meaning": {
-          "es": "fragrant",
+          "es": "fragante",
           "en": "fragrant",
           "zh_pinyin": "xiang1"
         },
@@ -9425,7 +9407,7 @@
       {
         "radical": "馬",
         "meaning": {
-          "es": "horse",
+          "es": "caballo",
           "en": "horse",
           "zh_pinyin": "ma3"
         },
@@ -9445,7 +9427,7 @@
       {
         "radical": "高",
         "meaning": {
-          "es": "tall",
+          "es": "alto",
           "en": "tall",
           "zh_pinyin": "gao1"
         },
@@ -9455,7 +9437,7 @@
       {
         "radical": "髟",
         "meaning": {
-          "es": "hair",
+          "es": "cabello",
           "en": "hair",
           "zh_pinyin": "biao1"
         },
@@ -9465,7 +9447,7 @@
       {
         "radical": "鬥",
         "meaning": {
-          "es": "fight",
+          "es": "luchar",
           "en": "fight",
           "zh_pinyin": "dou4"
         },
@@ -9507,7 +9489,7 @@
       {
         "radical": "魚",
         "meaning": {
-          "es": "fish",
+          "es": "pez",
           "en": "fish",
           "zh_pinyin": "yu2"
         },
@@ -9517,7 +9499,7 @@
       {
         "radical": "鳥",
         "meaning": {
-          "es": "bird",
+          "es": "pájaro",
           "en": "bird",
           "zh_pinyin": "diao3"
         },
@@ -9527,7 +9509,7 @@
       {
         "radical": "鹵",
         "meaning": {
-          "es": "salt",
+          "es": "sal",
           "en": "salt",
           "zh_pinyin": "lu3"
         },
@@ -9537,7 +9519,7 @@
       {
         "radical": "鹿",
         "meaning": {
-          "es": "deer",
+          "es": "ciervo",
           "en": "deer",
           "zh_pinyin": "lu4"
         },
@@ -9547,7 +9529,7 @@
       {
         "radical": "麥",
         "meaning": {
-          "es": "wheat",
+          "es": "trigo",
           "en": "wheat",
           "zh_pinyin": "mai4"
         },
@@ -9557,7 +9539,7 @@
       {
         "radical": "麻",
         "meaning": {
-          "es": "hemp",
+          "es": "cáñamo",
           "en": "hemp",
           "zh_pinyin": "ma2"
         },
@@ -9569,7 +9551,7 @@
       {
         "radical": "黃",
         "meaning": {
-          "es": "yellow",
+          "es": "amarillo",
           "en": "yellow",
           "zh_pinyin": "huang2"
         },
@@ -9579,7 +9561,7 @@
       {
         "radical": "黍",
         "meaning": {
-          "es": "millet",
+          "es": "mijo",
           "en": "millet",
           "zh_pinyin": "shu3"
         },
@@ -9589,7 +9571,7 @@
       {
         "radical": "黑",
         "meaning": {
-          "es": "black",
+          "es": "negro",
           "en": "black",
           "zh_pinyin": "hei1"
         },
@@ -9599,7 +9581,7 @@
       {
         "radical": "黹",
         "meaning": {
-          "es": "embroidery",
+          "es": "bordado",
           "en": "embroidery",
           "zh_pinyin": "zhi3"
         },
@@ -9611,7 +9593,7 @@
       {
         "radical": "黽",
         "meaning": {
-          "es": "frog",
+          "es": "rana",
           "en": "frog",
           "zh_pinyin": "meng3"
         },
@@ -9631,7 +9613,7 @@
       {
         "radical": "鼓",
         "meaning": {
-          "es": "drum",
+          "es": "tambor",
           "en": "drum",
           "zh_pinyin": "gu3"
         },
@@ -9653,7 +9635,7 @@
       {
         "radical": "鼻",
         "meaning": {
-          "es": "nose",
+          "es": "nariz",
           "en": "nose",
           "zh_pinyin": "bi2"
         },
@@ -9663,7 +9645,7 @@
       {
         "radical": "齊",
         "meaning": {
-          "es": "even",
+          "es": "uniforme",
           "en": "even",
           "zh_pinyin": "qi2"
         },
@@ -9675,7 +9657,7 @@
       {
         "radical": "齒",
         "meaning": {
-          "es": "tooth",
+          "es": "diente",
           "en": "tooth",
           "zh_pinyin": "chi3"
         },
@@ -9687,17 +9669,17 @@
       {
         "radical": "龍",
         "meaning": {
-          "es": "dragon",
+          "es": "dragón",
           "en": "dragon",
           "zh_pinyin": "long2"
         },
         "frequency": 0,
-        "category": "acción"
+        "category": "actividad"
       },
       {
         "radical": "龜",
         "meaning": {
-          "es": "turtle",
+          "es": "tortuga",
           "en": "turtle",
           "zh_pinyin": "gui1"
         },
@@ -9709,7 +9691,7 @@
       {
         "radical": "龠",
         "meaning": {
-          "es": "flute",
+          "es": "flauta",
           "en": "flute",
           "zh_pinyin": "yue4"
         },
@@ -9721,7 +9703,7 @@
   "stats": {
     "totalRadicals": 214,
     "totalCharacters": 202,
-    "revolutionaryCharacters": 25,
+    "vocabularyWords": 115,
     "averageCharactersPerRadical": 0.9,
     "mostFrequentRadicals": [
       {
@@ -9742,7 +9724,7 @@
       {
         "radical": "亠",
         "frequency": 1,
-        "meaning": "lid"
+        "meaning": "tapa"
       },
       {
         "radical": "人",

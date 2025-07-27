@@ -17,6 +17,10 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Rutas a archivos de configuración
+const SPANISH_TRANSLATIONS_FILE = path.join(__dirname, 'data', 'spanish-translations.json');
+const RADICAL_CATEGORIES_FILE = path.join(__dirname, 'data', 'radical-categories.json');
+
 // Configuración
 const PROJECT_ROOT = path.join(__dirname, '..');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'public', 'data', 'chinese');
@@ -368,83 +372,48 @@ async function downloadKangxiRadicals() {
 
 // Función para categorizar radicales basada en semántica
 function categorizeRadical(meaningEn, radical) {
-  const categoryMap = {
-    // Partes del cuerpo
-    'mouth': 'cuerpo', 'hand': 'cuerpo', 'heart': 'cuerpo', 'eye': 'cuerpo', 
-    'ear': 'cuerpo', 'foot': 'cuerpo', 'head': 'cuerpo',
+  try {
+    const radicalCategories = JSON.parse(fs.readFileSync(RADICAL_CATEGORIES_FILE, 'utf8'));
     
-    // Naturaleza
-    'water': 'naturaleza', 'fire': 'naturaleza', 'earth': 'naturaleza', 'tree': 'naturaleza',
-    'mountain': 'naturaleza', 'river': 'naturaleza', 'sun': 'naturaleza', 'moon': 'naturaleza',
-    
-    // Herramientas/Objetos
-    'knife': 'herramienta', 'axe': 'herramienta', 'bow': 'herramienta', 'spoon': 'herramienta',
-    'halberd': 'herramienta', 'weapon': 'herramienta',
-    
-    // Animales
-    'cow': 'animal', 'dog': 'animal', 'bird': 'animal', 'fish': 'animal',
-    
-    // Humano/Social
-    'man': 'humano', 'woman': 'humano', 'child': 'humano', 'father': 'humano',
-    'scholar': 'humano',
-    
-    // Números
-    'one': 'número', 'two': 'número', 'eight': 'número', 'ten': 'número',
-    
-    // Formas/Estructuras
-    'line': 'forma', 'dot': 'forma', 'box': 'forma', 'enclosure': 'forma',
-    
-    // Acciones
-    'work': 'actividad', 'enter': 'acción', 'go': 'acción', 'stop': 'acción',
-    
-    // Abstractos
-    'power': 'abstracto', 'not': 'abstracto', 'compare': 'abstracto'
-  };
-  
-  // Buscar coincidencia exacta o parcial
-  for (const [key, category] of Object.entries(categoryMap)) {
-    if (meaningEn.toLowerCase().includes(key)) {
-      return category;
+    // Buscar en casos específicos por radical primero
+    if (radicalCategories.specific_radicals[radical]) {
+      return radicalCategories.specific_radicals[radical];
     }
+    
+    // Buscar coincidencia semántica
+    for (const [category, keywords] of Object.entries(radicalCategories.semantic_mapping)) {
+      for (const keyword of keywords) {
+        if (meaningEn.toLowerCase().includes(keyword)) {
+          return category;
+        }
+      }
+    }
+    
+    return radicalCategories.default_category;
+  } catch (error) {
+    console.warn(`⚠️ Error cargando categorías de radicales: ${error.message}`);
+    return 'general';
   }
-  
-  // Categorización por radicales específicos conocidos
-  const specialCases = {
-    '戈': 'herramienta', // halberd/lanza
-    '斗': 'herramienta', // dipper pero en contexto de lucha
-    '革': 'material',    // leather/revolución
-    '民': 'político',    // people
-    '国': 'político',    // country
-    '军': 'militar',     // army
-    '战': 'militar',     // war
-    '红': 'color',       // red
-    '东': 'dirección',   // east
-  };
-  
-  if (specialCases[radical]) {
-    return specialCases[radical];
-  }
-  
-  return 'general';
 }
 
-// Función para traducir a español (simplificada)
+// Función para traducir a español usando datos externos
 function translateToSpanish(englishMeaning) {
-  const translations = {
-    'one': 'uno', 'two': 'dos', 'eight': 'ocho', 'ten': 'diez',
-    'line': 'línea', 'dot': 'punto', 'slash': 'barra', 'hook': 'gancho',
-    'man': 'hombre', 'woman': 'mujer', 'child': 'niño',
-    'mouth': 'boca', 'hand': 'mano', 'heart': 'corazón',
-    'water': 'agua', 'fire': 'fuego', 'earth': 'tierra', 'tree': 'madera',
-    'mountain': 'montaña', 'sun': 'sol', 'moon': 'luna',
-    'knife': 'cuchillo', 'axe': 'hacha', 'bow': 'arco', 'spoon': 'cuchara',
-    'work': 'trabajo', 'power': 'fuerza', 'big': 'grande', 'small': 'pequeño',
-    'halberd': 'lanza', 'weapon': 'arma', 'door': 'puerta',
-    'enter': 'entrar', 'go': 'ir', 'stop': 'parar', 'compare': 'comparar',
-    'not': 'no', 'cow': 'vaca', 'dog': 'perro'
-  };
-  
-  return translations[englishMeaning.toLowerCase()] || englishMeaning;
+  try {
+    const spanishTranslations = JSON.parse(fs.readFileSync(SPANISH_TRANSLATIONS_FILE, 'utf8'));
+    
+    // Crear un mapa plano de todas las traducciones
+    const allTranslations = {};
+    
+    // Combinar todas las categorías de traducciones
+    Object.values(spanishTranslations).forEach(category => {
+      Object.assign(allTranslations, category);
+    });
+    
+    return allTranslations[englishMeaning.toLowerCase()] || englishMeaning;
+  } catch (error) {
+    console.warn(`⚠️ Error cargando traducciones al español: ${error.message}`);
+    return englishMeaning;
+  }
 }
 
 // Ejecutar si se llama directamente

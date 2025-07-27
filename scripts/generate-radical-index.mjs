@@ -106,7 +106,6 @@ async function generateRadicalIndex() {
         pinyin: pinyin,
         translation: translation,
         radicalType: data.radicalType,
-        revolutionaryRelevance: data.revolutionaryRelevance || false,
         frequency: frequency,
         lessons: lessons
       });
@@ -116,11 +115,7 @@ async function generateRadicalIndex() {
   // Ordenar caracteres dentro de cada radical por frecuencia y después alfabéticamente
   Object.keys(charactersByRadical).forEach(radical => {
     charactersByRadical[radical].sort((a, b) => {
-      // Primero por relevancia revolucionaria
-      if (a.revolutionaryRelevance !== b.revolutionaryRelevance) {
-        return b.revolutionaryRelevance - a.revolutionaryRelevance;
-      }
-      // Luego por frecuencia
+      // Primero por frecuencia
       if (a.frequency !== b.frequency) {
         return b.frequency - a.frequency;
       }
@@ -217,7 +212,8 @@ async function generateRadicalIndex() {
         "radical_to_characters",
         "category_browsing", 
         "stroke_count_filtering",
-        "all_214_kangxi_radicals"
+        "all_214_kangxi_radicals",
+        "vocabulary_word_association"
       ],
       coverage: {
         kangxi_radicals: radicalsList.length,
@@ -238,13 +234,13 @@ async function generateRadicalIndex() {
     // Estadísticas
     stats: {
       totalRadicals: radicalsList.length,
-      totalCharacters: Object.keys(radicalsData.characters).length,
-      revolutionaryCharacters: Object.values(radicalsData.characters)
-        .filter(char => char.revolutionaryRelevance).length,
+      totalCharacters: Object.keys(radicalsData.characters || {}).length,
+      vocabularyWords: Object.keys(dictionaryData.words || {}).length,
       averageCharactersPerRadical: Math.round(
-        Object.keys(radicalsData.characters).length / radicalsList.length * 10
+        Object.keys(radicalsData.characters || {}).length / radicalsList.length * 10
       ) / 10,
       mostFrequentRadicals: radicalsList
+        .filter(r => r.frequency > 0)
         .slice(0, 10)
         .map(r => ({ radical: r.radical, frequency: r.frequency, meaning: r.meaning.es }))
     }
@@ -271,8 +267,8 @@ async function generateRadicalIndex() {
   console.log(`   📁 Archivo: ${OUTPUT_FILE}`);
   console.log(`   📊 Total radicales Kangxi: ${radicalsList.length}/214`);
   console.log(`   📚 Caracteres asociados: ${Object.keys(radicalsData.characters || {}).length}`);
+  console.log(`   📖 Palabras de vocabulario: ${index.stats.vocabularyWords}`);
   console.log(`   📂 Categorías: ${Object.keys(categoriesIndex).length}`);
-  console.log(`   🚩 Caracteres revolucionarios: ${index.stats.revolutionaryCharacters}`);
   console.log(`   📈 Cobertura:`);
   console.log(`      ✅ Radicales con caracteres: ${index.metadata.coverage.radicals_with_characters}`);
   console.log(`      📭 Radicales sin caracteres: ${index.metadata.coverage.empty_radicals}`);

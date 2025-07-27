@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2025-07-27T18:39:49.630Z",
+    "generated": "2025-07-27T18:56:08.568Z",
     "version": "1.0.0",
     "description": "Official Kangxi radicals with pronunciation from CC-CEDICT",
     "total_radicals": 214,
@@ -183,7 +183,7 @@
       "unicode": 20128,
       "meaning": {
         "en": "lid",
-        "es": "lid",
+        "es": "tapa",
         "zh_pinyin": "tou2",
         "cedict_definition": "\"lid\" radical in Chinese characters (Kangxi radical 8)"
       },
@@ -255,7 +255,7 @@
         "zh_pinyin": "ru4",
         "cedict_definition": "to enter; to go into"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -320,7 +320,7 @@
       "unicode": 20886,
       "meaning": {
         "en": "cover",
-        "es": "cover",
+        "es": "cubierta",
         "zh_pinyin": "mi4",
         "cedict_definition": "\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]"
       },
@@ -711,7 +711,7 @@
       "unicode": 22231,
       "meaning": {
         "en": "enclosure",
-        "es": "enclosure",
+        "es": "recinto",
         "zh_pinyin": "wei2",
         "cedict_definition": "enclosure"
       },
@@ -757,7 +757,7 @@
       "unicode": 22763,
       "meaning": {
         "en": "scholar",
-        "es": "scholar",
+        "es": "erudito",
         "zh_pinyin": "shi4",
         "cedict_definition": "surname Shi"
       },
@@ -784,7 +784,7 @@
         "zh_pinyin": "zhi3",
         "cedict_definition": "\"walk slowly\" component in Chinese characters"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -807,7 +807,7 @@
         "zh_pinyin": "sui1",
         "cedict_definition": "see 夂[zhi3]"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -826,7 +826,7 @@
       "unicode": 22805,
       "meaning": {
         "en": "evening",
-        "es": "evening",
+        "es": "noche",
         "zh_pinyin": "xi1",
         "cedict_definition": "(bound form) sunset; dusk"
       },
@@ -918,7 +918,7 @@
       "unicode": 23424,
       "meaning": {
         "en": "roof",
-        "es": "roof",
+        "es": "techo",
         "zh_pinyin": "mian2",
         "cedict_definition": "\"roof\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]"
       },
@@ -941,7 +941,7 @@
       "unicode": 23544,
       "meaning": {
         "en": "inch",
-        "es": "inch",
+        "es": "pulgada",
         "zh_pinyin": "cun4",
         "cedict_definition": "a unit of length"
       },
@@ -1079,7 +1079,7 @@
       "unicode": 24027,
       "meaning": {
         "en": "river",
-        "es": "river",
+        "es": "río",
         "zh_pinyin": "chuan1",
         "cedict_definition": "old variant of 川[chuan1]"
       },
@@ -1285,7 +1285,7 @@
       "unicode": 24331,
       "meaning": {
         "en": "shoot",
-        "es": "shoot",
+        "es": "disparar",
         "zh_pinyin": "yi4",
         "cedict_definition": "to shoot"
       },
@@ -1771,7 +1771,7 @@
         "zh_pinyin": "zhi3",
         "cedict_definition": "to stop"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -2019,7 +2019,7 @@
       "unicode": 29238,
       "meaning": {
         "en": "father",
-        "es": "father",
+        "es": "padre",
         "zh_pinyin": "fu4",
         "cedict_definition": "father"
       },
@@ -2272,7 +2272,7 @@
       "unicode": 29976,
       "meaning": {
         "en": "sweet",
-        "es": "sweet",
+        "es": "dulce",
         "zh_pinyin": "gan1",
         "cedict_definition": "surname Gan"
       },
@@ -2295,7 +2295,7 @@
       "unicode": 29983,
       "meaning": {
         "en": "life",
-        "es": "life",
+        "es": "vida",
         "zh_pinyin": "sheng1",
         "cedict_definition": "to be born"
       },
@@ -2318,7 +2318,7 @@
       "unicode": 29992,
       "meaning": {
         "en": "use",
-        "es": "use",
+        "es": "usar",
         "zh_pinyin": "yong4",
         "cedict_definition": "to use; to make use of; to employ"
       },
@@ -2341,7 +2341,7 @@
       "unicode": 30000,
       "meaning": {
         "en": "field",
-        "es": "field",
+        "es": "campo",
         "zh_pinyin": "tian2",
         "cedict_definition": "surname Tian"
       },
@@ -2433,7 +2433,7 @@
       "unicode": 30333,
       "meaning": {
         "en": "white",
-        "es": "white",
+        "es": "blanco",
         "zh_pinyin": "bai2",
         "cedict_definition": "surname Bai"
       },
@@ -2479,7 +2479,7 @@
       "unicode": 30399,
       "meaning": {
         "en": "dish",
-        "es": "dish",
+        "es": "plato",
         "zh_pinyin": "min3",
         "cedict_definition": "(bound form) dish; vessel; shallow container"
       },
@@ -2502,7 +2502,7 @@
       "unicode": 30446,
       "meaning": {
         "en": "eye",
-        "es": "eye",
+        "es": "ojo",
         "zh_pinyin": "mu4",
         "cedict_definition": "eye"
       },
@@ -2525,7 +2525,7 @@
       "unicode": 30683,
       "meaning": {
         "en": "spear",
-        "es": "spear",
+        "es": "lanza",
         "zh_pinyin": "mao2",
         "cedict_definition": "spear"
       },
@@ -2548,7 +2548,7 @@
       "unicode": 30690,
       "meaning": {
         "en": "arrow",
-        "es": "arrow",
+        "es": "flecha",
         "zh_pinyin": "shi3",
         "cedict_definition": "arrow"
       },
@@ -2571,7 +2571,7 @@
       "unicode": 30707,
       "meaning": {
         "en": "stone",
-        "es": "stone",
+        "es": "piedra",
         "zh_pinyin": "shi2",
         "cedict_definition": "surname Shi"
       },
@@ -2594,7 +2594,7 @@
       "unicode": 31034,
       "meaning": {
         "en": "spirit",
-        "es": "spirit",
+        "es": "espíritu",
         "zh_pinyin": "shi4",
         "cedict_definition": "to show"
       },
@@ -2640,7 +2640,7 @@
       "unicode": 31166,
       "meaning": {
         "en": "grain",
-        "es": "grain",
+        "es": "grano",
         "zh_pinyin": "he2",
         "cedict_definition": "cereal"
       },
@@ -2663,7 +2663,7 @@
       "unicode": 31348,
       "meaning": {
         "en": "cave",
-        "es": "cave",
+        "es": "cueva",
         "zh_pinyin": "xue2",
         "cedict_definition": "cave"
       },
@@ -2709,7 +2709,7 @@
       "unicode": 31481,
       "meaning": {
         "en": "bamboo",
-        "es": "bamboo",
+        "es": "bambú",
         "zh_pinyin": "zhu2",
         "cedict_definition": "bamboo"
       },
@@ -2732,7 +2732,7 @@
       "unicode": 31859,
       "meaning": {
         "en": "rice",
-        "es": "rice",
+        "es": "arroz",
         "zh_pinyin": "mi3",
         "cedict_definition": "surname Mi"
       },
@@ -2755,7 +2755,7 @@
       "unicode": 31992,
       "meaning": {
         "en": "silk",
-        "es": "silk",
+        "es": "seda",
         "zh_pinyin": "mi4",
         "cedict_definition": "fine silk"
       },
@@ -2778,7 +2778,7 @@
       "unicode": 32566,
       "meaning": {
         "en": "jar",
-        "es": "jar",
+        "es": "jarra",
         "zh_pinyin": "fou3",
         "cedict_definition": "pottery"
       },
@@ -2801,7 +2801,7 @@
       "unicode": 32593,
       "meaning": {
         "en": "net",
-        "es": "net",
+        "es": "red",
         "zh_pinyin": null,
         "cedict_definition": null
       },
@@ -2823,7 +2823,7 @@
       "unicode": 32650,
       "meaning": {
         "en": "sheep",
-        "es": "sheep",
+        "es": "oveja",
         "zh_pinyin": "yang2",
         "cedict_definition": "surname Yang"
       },
@@ -2869,7 +2869,7 @@
       "unicode": 32769,
       "meaning": {
         "en": "old",
-        "es": "old",
+        "es": "viejo",
         "zh_pinyin": "lao3",
         "cedict_definition": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity"
       },
@@ -2892,7 +2892,7 @@
       "unicode": 32780,
       "meaning": {
         "en": "and",
-        "es": "and",
+        "es": "y",
         "zh_pinyin": "er2",
         "cedict_definition": "and"
       },
@@ -2915,7 +2915,7 @@
       "unicode": 32786,
       "meaning": {
         "en": "plow",
-        "es": "plow",
+        "es": "arado",
         "zh_pinyin": "lei3",
         "cedict_definition": "plow"
       },
@@ -2938,7 +2938,7 @@
       "unicode": 32819,
       "meaning": {
         "en": "ear",
-        "es": "ear",
+        "es": "oído",
         "zh_pinyin": "er3",
         "cedict_definition": "ear"
       },
@@ -3007,7 +3007,7 @@
       "unicode": 33251,
       "meaning": {
         "en": "minister",
-        "es": "minister",
+        "es": "ministro",
         "zh_pinyin": "chen2",
         "cedict_definition": "surname Chen"
       },
@@ -3030,7 +3030,7 @@
       "unicode": 33258,
       "meaning": {
         "en": "self",
-        "es": "self",
+        "es": "uno mismo",
         "zh_pinyin": "zi4",
         "cedict_definition": "(bound form) self; oneself"
       },
@@ -3053,7 +3053,7 @@
       "unicode": 33267,
       "meaning": {
         "en": "arrive",
-        "es": "arrive",
+        "es": "llegar",
         "zh_pinyin": "zhi4",
         "cedict_definition": "to arrive"
       },
@@ -3099,7 +3099,7 @@
       "unicode": 33292,
       "meaning": {
         "en": "tongue",
-        "es": "tongue",
+        "es": "lengua",
         "zh_pinyin": "ji1",
         "cedict_definition": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\""
       },
@@ -3145,7 +3145,7 @@
       "unicode": 33311,
       "meaning": {
         "en": "boat",
-        "es": "boat",
+        "es": "barco",
         "zh_pinyin": "zhou1",
         "cedict_definition": "boat"
       },
@@ -3172,7 +3172,7 @@
         "zh_pinyin": "gen3",
         "cedict_definition": "blunt"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -3237,7 +3237,7 @@
       "unicode": 34381,
       "meaning": {
         "en": "tiger",
-        "es": "tiger",
+        "es": "tigre",
         "zh_pinyin": "hu1",
         "cedict_definition": "stripes of a tiger"
       },
@@ -3260,7 +3260,7 @@
       "unicode": 34411,
       "meaning": {
         "en": "insect",
-        "es": "insect",
+        "es": "insecto",
         "zh_pinyin": "chong2",
         "cedict_definition": "variant of 蟲|虫[chong2]"
       },
@@ -3306,7 +3306,7 @@
       "unicode": 34892,
       "meaning": {
         "en": "walk",
-        "es": "walk",
+        "es": "caminar",
         "zh_pinyin": "hang2",
         "cedict_definition": "(bound form) row; line"
       },
@@ -3329,7 +3329,7 @@
       "unicode": 34915,
       "meaning": {
         "en": "clothes",
-        "es": "clothes",
+        "es": "ropa",
         "zh_pinyin": "yi1",
         "cedict_definition": "clothes"
       },
@@ -3352,7 +3352,7 @@
       "unicode": 35198,
       "meaning": {
         "en": "cover",
-        "es": "cover",
+        "es": "cubierta",
         "zh_pinyin": "ya4",
         "cedict_definition": "cover"
       },
@@ -3375,7 +3375,7 @@
       "unicode": 35211,
       "meaning": {
         "en": "see",
-        "es": "see",
+        "es": "ver",
         "zh_pinyin": "jian4",
         "cedict_definition": "to see"
       },
@@ -3490,7 +3490,7 @@
       "unicode": 35925,
       "meaning": {
         "en": "pig",
-        "es": "pig",
+        "es": "cerdo",
         "zh_pinyin": "shi3",
         "cedict_definition": "hog"
       },
@@ -3559,7 +3559,7 @@
       "unicode": 36196,
       "meaning": {
         "en": "red",
-        "es": "red",
+        "es": "rojo",
         "zh_pinyin": "chi4",
         "cedict_definition": "red"
       },
@@ -3582,7 +3582,7 @@
       "unicode": 36208,
       "meaning": {
         "en": "run",
-        "es": "run",
+        "es": "correr",
         "zh_pinyin": "zou3",
         "cedict_definition": "to walk"
       },
@@ -3605,7 +3605,7 @@
       "unicode": 36275,
       "meaning": {
         "en": "foot",
-        "es": "foot",
+        "es": "pie",
         "zh_pinyin": "ju4",
         "cedict_definition": "excessive"
       },
@@ -3628,7 +3628,7 @@
       "unicode": 36523,
       "meaning": {
         "en": "body",
-        "es": "body",
+        "es": "cuerpo",
         "zh_pinyin": "shen1",
         "cedict_definition": "body"
       },
@@ -3651,7 +3651,7 @@
       "unicode": 36554,
       "meaning": {
         "en": "cart",
-        "es": "cart",
+        "es": "carro",
         "zh_pinyin": "che1",
         "cedict_definition": "surname Che"
       },
@@ -3674,7 +3674,7 @@
       "unicode": 36763,
       "meaning": {
         "en": "bitter",
-        "es": "bitter",
+        "es": "amargo",
         "zh_pinyin": "xin1",
         "cedict_definition": "surname Xin"
       },
@@ -3697,7 +3697,7 @@
       "unicode": 36784,
       "meaning": {
         "en": "morning",
-        "es": "morning",
+        "es": "mañana",
         "zh_pinyin": "chen2",
         "cedict_definition": "5th earthly branch: 7-9 a.m., 3rd solar month (5th April-4th May), year of the Dragon"
       },
@@ -3720,7 +3720,7 @@
       "unicode": 36789,
       "meaning": {
         "en": "walk",
-        "es": "walk",
+        "es": "caminar",
         "zh_pinyin": "chuo4",
         "cedict_definition": "to walk (side part of split character)"
       },
@@ -3743,7 +3743,7 @@
       "unicode": 37009,
       "meaning": {
         "en": "city",
-        "es": "city",
+        "es": "ciudad",
         "zh_pinyin": "yi4",
         "cedict_definition": "city"
       },
@@ -3766,7 +3766,7 @@
       "unicode": 37193,
       "meaning": {
         "en": "wine",
-        "es": "wine",
+        "es": "vino",
         "zh_pinyin": "you3",
         "cedict_definition": "10th earthly branch: 5-7 p.m., 8th solar month (8th September-7th October), year of the Rooster"
       },
@@ -3812,7 +3812,7 @@
       "unicode": 37324,
       "meaning": {
         "en": "village",
-        "es": "village",
+        "es": "aldea",
         "zh_pinyin": "li3",
         "cedict_definition": "Li (surname)"
       },
@@ -3835,11 +3835,11 @@
       "unicode": 37329,
       "meaning": {
         "en": "gold",
-        "es": "gold",
+        "es": "oro",
         "zh_pinyin": "jin1",
         "cedict_definition": "surname Jin"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -3858,7 +3858,7 @@
       "unicode": 38263,
       "meaning": {
         "en": "long",
-        "es": "long",
+        "es": "largo",
         "zh_pinyin": "chang2",
         "cedict_definition": "long"
       },
@@ -3881,7 +3881,7 @@
       "unicode": 38272,
       "meaning": {
         "en": "gate",
-        "es": "gate",
+        "es": "puerta",
         "zh_pinyin": "men2",
         "cedict_definition": "surname Men"
       },
@@ -3972,7 +3972,7 @@
       "unicode": 38632,
       "meaning": {
         "en": "rain",
-        "es": "rain",
+        "es": "lluvia",
         "zh_pinyin": "yu3",
         "cedict_definition": "rain"
       },
@@ -3995,7 +3995,7 @@
       "unicode": 38738,
       "meaning": {
         "en": "blue",
-        "es": "blue",
+        "es": "azul",
         "zh_pinyin": "qing1",
         "cedict_definition": "abbr. for 青海[Qing1 hai3], Qinghai Province"
       },
@@ -4064,7 +4064,7 @@
       "unicode": 38761,
       "meaning": {
         "en": "leather",
-        "es": "leather",
+        "es": "cuero",
         "zh_pinyin": "ge2",
         "cedict_definition": "animal hide"
       },
@@ -4133,7 +4133,7 @@
       "unicode": 38899,
       "meaning": {
         "en": "sound",
-        "es": "sound",
+        "es": "sonido",
         "zh_pinyin": "yin1",
         "cedict_definition": "sound"
       },
@@ -4179,7 +4179,7 @@
       "unicode": 39080,
       "meaning": {
         "en": "wind",
-        "es": "wind",
+        "es": "viento",
         "zh_pinyin": "feng1",
         "cedict_definition": "wind"
       },
@@ -4202,7 +4202,7 @@
       "unicode": 39131,
       "meaning": {
         "en": "fly",
-        "es": "fly",
+        "es": "volar",
         "zh_pinyin": "fei1",
         "cedict_definition": "to fly"
       },
@@ -4225,7 +4225,7 @@
       "unicode": 39135,
       "meaning": {
         "en": "eat",
-        "es": "eat",
+        "es": "comer",
         "zh_pinyin": "shi2",
         "cedict_definition": "to eat"
       },
@@ -4248,7 +4248,7 @@
       "unicode": 39318,
       "meaning": {
         "en": "head",
-        "es": "head",
+        "es": "cabeza",
         "zh_pinyin": "shou3",
         "cedict_definition": "head"
       },
@@ -4271,7 +4271,7 @@
       "unicode": 39321,
       "meaning": {
         "en": "fragrant",
-        "es": "fragrant",
+        "es": "fragante",
         "zh_pinyin": "xiang1",
         "cedict_definition": "fragrant"
       },
@@ -4294,7 +4294,7 @@
       "unicode": 39340,
       "meaning": {
         "en": "horse",
-        "es": "horse",
+        "es": "caballo",
         "zh_pinyin": "ma3",
         "cedict_definition": "surname Ma"
       },
@@ -4340,7 +4340,7 @@
       "unicode": 39640,
       "meaning": {
         "en": "tall",
-        "es": "tall",
+        "es": "alto",
         "zh_pinyin": "gao1",
         "cedict_definition": "surname Gao"
       },
@@ -4363,7 +4363,7 @@
       "unicode": 39647,
       "meaning": {
         "en": "hair",
-        "es": "hair",
+        "es": "cabello",
         "zh_pinyin": "biao1",
         "cedict_definition": "hair"
       },
@@ -4386,7 +4386,7 @@
       "unicode": 39717,
       "meaning": {
         "en": "fight",
-        "es": "fight",
+        "es": "luchar",
         "zh_pinyin": "dou4",
         "cedict_definition": "to fight"
       },
@@ -4478,7 +4478,7 @@
       "unicode": 39770,
       "meaning": {
         "en": "fish",
-        "es": "fish",
+        "es": "pez",
         "zh_pinyin": "yu2",
         "cedict_definition": "surname Yu"
       },
@@ -4501,7 +4501,7 @@
       "unicode": 40165,
       "meaning": {
         "en": "bird",
-        "es": "bird",
+        "es": "pájaro",
         "zh_pinyin": "diao3",
         "cedict_definition": "variant of 屌[diao3]"
       },
@@ -4524,7 +4524,7 @@
       "unicode": 40565,
       "meaning": {
         "en": "salt",
-        "es": "salt",
+        "es": "sal",
         "zh_pinyin": "lu3",
         "cedict_definition": "alkaline soil"
       },
@@ -4547,7 +4547,7 @@
       "unicode": 40575,
       "meaning": {
         "en": "deer",
-        "es": "deer",
+        "es": "ciervo",
         "zh_pinyin": "lu4",
         "cedict_definition": "deer"
       },
@@ -4570,7 +4570,7 @@
       "unicode": 40613,
       "meaning": {
         "en": "wheat",
-        "es": "wheat",
+        "es": "trigo",
         "zh_pinyin": "mai4",
         "cedict_definition": "surname Mai"
       },
@@ -4593,7 +4593,7 @@
       "unicode": 40635,
       "meaning": {
         "en": "hemp",
-        "es": "hemp",
+        "es": "cáñamo",
         "zh_pinyin": "ma2",
         "cedict_definition": "surname Ma"
       },
@@ -4616,7 +4616,7 @@
       "unicode": 40643,
       "meaning": {
         "en": "yellow",
-        "es": "yellow",
+        "es": "amarillo",
         "zh_pinyin": "huang2",
         "cedict_definition": "surname Huang or Hwang"
       },
@@ -4639,7 +4639,7 @@
       "unicode": 40653,
       "meaning": {
         "en": "millet",
-        "es": "millet",
+        "es": "mijo",
         "zh_pinyin": "shu3",
         "cedict_definition": "broomcorn millet"
       },
@@ -4662,7 +4662,7 @@
       "unicode": 40657,
       "meaning": {
         "en": "black",
-        "es": "black",
+        "es": "negro",
         "zh_pinyin": "hei1",
         "cedict_definition": "abbr. for Heilongjiang province 黑龍江|黑龙江[Hei1 long2 jiang1]"
       },
@@ -4685,7 +4685,7 @@
       "unicode": 40697,
       "meaning": {
         "en": "embroidery",
-        "es": "embroidery",
+        "es": "bordado",
         "zh_pinyin": "zhi3",
         "cedict_definition": "embroidery"
       },
@@ -4708,7 +4708,7 @@
       "unicode": 40701,
       "meaning": {
         "en": "frog",
-        "es": "frog",
+        "es": "rana",
         "zh_pinyin": "meng3",
         "cedict_definition": "toad"
       },
@@ -4754,7 +4754,7 @@
       "unicode": 40723,
       "meaning": {
         "en": "drum",
-        "es": "drum",
+        "es": "tambor",
         "zh_pinyin": "gu3",
         "cedict_definition": "drum"
       },
@@ -4800,7 +4800,7 @@
       "unicode": 40763,
       "meaning": {
         "en": "nose",
-        "es": "nose",
+        "es": "nariz",
         "zh_pinyin": "bi2",
         "cedict_definition": "nose"
       },
@@ -4823,7 +4823,7 @@
       "unicode": 40778,
       "meaning": {
         "en": "even",
-        "es": "even",
+        "es": "uniforme",
         "zh_pinyin": "qi2",
         "cedict_definition": "(name of states and dynasties at several different periods)"
       },
@@ -4846,7 +4846,7 @@
       "unicode": 40786,
       "meaning": {
         "en": "tooth",
-        "es": "tooth",
+        "es": "diente",
         "zh_pinyin": "chi3",
         "cedict_definition": "tooth"
       },
@@ -4869,11 +4869,11 @@
       "unicode": 40845,
       "meaning": {
         "en": "dragon",
-        "es": "dragon",
+        "es": "dragón",
         "zh_pinyin": "long2",
         "cedict_definition": "surname Long"
       },
-      "category": "acción",
+      "category": "actividad",
       "sources": [
         "Unicode Standard",
         "CC-CEDICT"
@@ -4892,7 +4892,7 @@
       "unicode": 40860,
       "meaning": {
         "en": "turtle",
-        "es": "turtle",
+        "es": "tortuga",
         "zh_pinyin": "gui1",
         "cedict_definition": "tortoise; turtle"
       },
@@ -4915,7 +4915,7 @@
       "unicode": 40864,
       "meaning": {
         "en": "flute",
-        "es": "flute",
+        "es": "flauta",
         "zh_pinyin": "yue4",
         "cedict_definition": "ancient unit of volume (half a 合[ge3], equivalent to 50ml)"
       },

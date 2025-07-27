@@ -87,7 +87,7 @@ const dictionaryError = null;
           <h2 style="color: #007bff; margin-bottom: 1rem;">🔍 Diccionario de Radicales Chinos</h2>
           <p style="color: #6c757d; font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem auto;">
             Explora caracteres chinos organizados por sus radicales fundamentales. 
-            Sistema Kangxi con análisis etimológico y contexto revolucionario.
+            Sistema Kangxi completo con análisis etimológico y pronunciación auténtica.
           </p>
           
           <div style="font-size: 0.9rem; color: #6c757d; margin-bottom: 1rem;">
@@ -398,19 +398,7 @@ const dictionaryError = null;
               <div style="font-size: 0.9rem; opacity: 0.9;">Caracteres Analizados</div>
             </div>
             
-            <div class="stat-card" style="
-              background: linear-gradient(135deg, #dc3545, #c82333);
-              color: white;
-              padding: 1.5rem;
-              border-radius: 12px;
-              text-align: center;
-              box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            ">
-              <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">${data.stats.revolutionaryCharacters}</div>
-              <div style="font-size: 0.9rem; opacity: 0.9;">Caracteres Revolucionarios</div>
-            </div>
-            
-            <div class="stat-card" style="
+             <div class="stat-card" style="
               background: linear-gradient(135deg, #ffc107, #e0a800);
               color: #212529;
               padding: 1.5rem;
@@ -462,11 +450,11 @@ const dictionaryError = null;
               </div>
               
               <div>
-                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">🚩 Relevancia:</label>
-                <select id="revolutionary-filter" style="width: 100%; padding: 0.75rem; border: 2px solid #ced4da; border-radius: 6px; font-size: 0.95rem;">
-                  <option value="">🌐 Todos los caracteres</option>
-                  <option value="revolutionary">🚩 Solo revolucionarios</option>
-                  <option value="common">📝 Solo comunes</option>
+                <label style="font-weight: 600; color: #495057; font-size: 1rem; display: block; margin-bottom: 0.75rem;">📊 Frecuencia:</label>
+                <select id="frequency-filter" style="width: 100%; padding: 0.75rem; border: 2px solid #ced4da; border-radius: 6px; font-size: 0.95rem;">
+                  <option value="">📝 Todos los radicales</option>
+                  <option value="has-words">📚 Con vocabulario</option>
+                  <option value="empty">📭 Sin vocabulario</option>
                 </select>
               </div>
               
@@ -600,7 +588,7 @@ const dictionaryError = null;
     function setupRadicalDictionaryFunctionality(data) {
       const categoryFilter = document.getElementById('category-filter');
       const strokesFilter = document.getElementById('strokes-filter');
-      const revolutionaryFilter = document.getElementById('revolutionary-filter');
+      const frequencyFilter = document.getElementById('frequency-filter');
       const textSearch = document.getElementById('text-search');
       const resultsCount = document.getElementById('results-count');
       const resultsContainer = document.getElementById('results-container');
@@ -645,15 +633,11 @@ const dictionaryError = null;
           filtered = filtered.filter(r => r.strokes === parseInt(selectedStrokes));
         }
         
-        const revolutionaryType = revolutionaryFilter.value;
-        if (revolutionaryType === 'revolutionary') {
-          filtered = filtered.filter(r => 
-            r.characters.some(char => char.revolutionaryRelevance)
-          );
-        } else if (revolutionaryType === 'common') {
-          filtered = filtered.filter(r => 
-            !r.characters.some(char => char.revolutionaryRelevance)
-          );
+        const frequencyType = frequencyFilter.value;
+        if (frequencyType === 'has-words') {
+          filtered = filtered.filter(r => r.frequency > 0);
+        } else if (frequencyType === 'empty') {
+          filtered = filtered.filter(r => r.frequency === 0);
         }
         
         const searchTerm = textSearch.value.toLowerCase().trim();
@@ -702,7 +686,7 @@ const dictionaryError = null;
         resultsCount.textContent = `${radicals.length} radical${radicals.length !== 1 ? 'es' : ''} encontrado${radicals.length !== 1 ? 's' : ''}`;
         
         resultsContainer.innerHTML = radicals.map(radical => {
-          const hasRevolutionary = radical.characters.some(char => char.revolutionaryRelevance);
+          const hasWords = radical.characters.length > 0;
           const cardSize = currentView === 'grid' ? '2.5rem' : '2rem';
           const padding = currentView === 'grid' ? '1.5rem' : '1rem';
           const categoryConfig = getCategoryConfig(radical.category);
@@ -747,7 +731,6 @@ const dictionaryError = null;
                   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
                 ">
                   ${radical.frequency} caracter${radical.frequency !== 1 ? 'es' : ''}
-                  ${hasRevolutionary ? ' ⚡' : ''}
                 </div>
               </div>
             </div>
@@ -915,7 +898,7 @@ const dictionaryError = null;
       }
       
       // Event listeners
-      [categoryFilter, strokesFilter, revolutionaryFilter, textSearch].forEach(element => {
+      [categoryFilter, strokesFilter, frequencyFilter, textSearch].forEach(element => {
         element.addEventListener('change', filterRadicals);
         element.addEventListener('input', filterRadicals);
       });
