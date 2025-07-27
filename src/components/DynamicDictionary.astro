@@ -918,12 +918,15 @@ document.addEventListener('DOMContentLoaded', async function() {
       const char = chineseText[i];
       if (/[\u4e00-\u9fff]/.test(char)) {
         const unicodeDecimal = char.codePointAt(0);
-        const data = characterData[char] || {};
+        // Usar datos CC-CEDICT para información del carácter
+        const charData = characterData?.characters?.[char] || {};
         gifs.push({
           char: char,
-          pinyin: data.pinyin || '',
-          url: `${baseUrl}data/chinese/strokes/${data.file || `${unicodeDecimal}.gif`}`,
-          attribution: "MDBG Chinese Dictionary (mdbg.net)"
+          pinyin: charData.pinyin || '',
+          url: `${baseUrl}data/chinese/strokes/${charData.file || `${unicodeDecimal}.gif`}`,
+          attribution: "MDBG Chinese Dictionary (mdbg.net)",
+          definitions: charData.definitions || [],
+          traditional: charData.traditional || char
         });
       }
     }
@@ -1009,8 +1012,33 @@ document.addEventListener('DOMContentLoaded', async function() {
       if (chineseText && typeof chineseText === 'string') {
         const strokeGifs = getChineseStrokeGifs(chineseText);
         
-        // Extraer pinyin individual para cada carácter
-        const pinyinSyllables = pinyinText ? pinyinText.split(' ') : [];
+        // Extraer pinyin individual para cada carácter usando datos CC-CEDICT
+        let pinyinSyllables = [];
+        
+        if (pinyinText && pinyinText.split(' ').length === chineseText.length) {
+          // Si el número de sílabas coincide con el número de caracteres, usar directamente
+          pinyinSyllables = pinyinText.split(' ');
+        } else {
+          // Usar datos CC-CEDICT individuales para cada carácter
+          for (let i = 0; i < chineseText.length; i++) {
+            const char = chineseText[i];
+            if (/[\u4e00-\u9fff]/.test(char)) {
+              // Buscar datos CC-CEDICT para este carácter
+              const charData = characterData?.characters?.[char];
+              if (charData && charData.pinyin) {
+                pinyinSyllables.push(charData.pinyin);
+              } else {
+                // Fallback: intentar extraer de la palabra completa
+                const wordSyllables = pinyinText ? pinyinText.split(' ') : [];
+                pinyinSyllables.push(wordSyllables[i] || char);
+              }
+            } else {
+              // No es carácter chino, mantener tal como está
+              pinyinSyllables.push(char);
+            }
+          }
+          console.log(`Using CC-CEDICT individual pinyin for "${chineseText}": [${pinyinSyllables.join(', ')}]`);
+        }
         
         if (strokeGifs.length > 0) {
           detailsHtml += `<div class="stroke-section">`;
