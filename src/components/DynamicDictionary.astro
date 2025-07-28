@@ -308,19 +308,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         loading.style.display = 'flex';
       }, 300);
 
-      const manifestResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks-manifest.json`);
-      if (!manifestResponse.ok) throw new Error('No se pudo cargar el manifest de chunks');
-      const manifest = await manifestResponse.json();
-
-      const langManifest = manifest.languages.find(lang => lang.code === language);
-      if (!langManifest) throw new Error(`No se encontró manifest para el idioma ${language}`);
-      const chunkFile = langManifest.chunksPath.split('/').pop().replace('*', 'lessons-0-12.json');
-      if (!chunkFile) throw new Error(`No se encontró chunk para el idioma ${language}`);
-
-      const chunkResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/chunks/${chunkFile}`);
-      if (!chunkResponse.ok) throw new Error(`No se pudo cargar el archivo de chunk ${chunkFile}`);
+      // Cargar directamente el archivo de idioma (sin chunks para 13 lecciones)
+      const languageResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/languages/${language}.json`);
+      if (!languageResponse.ok) throw new Error(`No se pudo cargar el archivo de idioma ${language}.json`);
       
-      dictionaryData = await chunkResponse.json();
+      dictionaryData = await languageResponse.json();
       allWords = Object.entries(dictionaryData.words);
 
       clearTimeout(loadingTimeout);

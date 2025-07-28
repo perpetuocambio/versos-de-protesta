@@ -74,8 +74,29 @@ async function partitionDictionary() {
         const transformedEntries = entries.map(entry => {
           const currentLangTranslation = entry.translations[langKey];
           
+          // ESPECIAL PARA CHINO: Incluir pinyin junto con hanzi
+          let processedTranslation = currentLangTranslation || word;
+          if (langKey === 'zh' && entry.translations.zhPinyin) {
+            // Crear estructura especial para chino que incluya pinyin
+            return {
+              word: processedTranslation,
+              pinyin: entry.translations.zhPinyin,
+              meaning: entry.translations.es || word,
+              source: entry.source,
+              day: entry.day,
+              lessons: entry.lessons || [entry.day],
+              filePath: entry.filePath,
+              // Información adicional china
+              strokes: entry.translations.zhStrokes,
+              radical: entry.translations.zhRadical,
+              structure: entry.translations.zhStructure,
+              originalWord: word,
+              allTranslations: entry.translations
+            };
+          }
+          
           return {
-            word: currentLangTranslation || word, // Usar traducción del idioma actual o palabra original
+            word: processedTranslation,
             meaning: entry.translations.es || word, // Significado base siempre en español
             source: entry.source,
             day: entry.day,
@@ -90,7 +111,8 @@ async function partitionDictionary() {
         // Las entradas ya vienen consolidadas desde build-dictionary.mjs
         const uniqueEntries = transformedEntries;
         
-        processedWords[translatedWord] = {
+        // ESPECIAL PARA CHINO: Incluir pinyin y datos adicionales en la estructura principal
+        const baseWordData = {
           entries: uniqueEntries,
           frequency: uniqueEntries.length,
           lessons: entries.map(e => e.day).sort((a, b) => a - b),
@@ -98,6 +120,15 @@ async function partitionDictionary() {
           originalWord: word, // Palabra original (clave en diccionario base)
           meaning: entries[0]?.translations?.es || word // Significado base siempre en español
         };
+        
+        if (langKey === 'zh' && entries[0]?.translations?.zhPinyin) {
+          baseWordData.pinyin = entries[0].translations.zhPinyin;
+          baseWordData.strokes = entries[0].translations.zhStrokes;
+          baseWordData.radical = entries[0].translations.zhRadical;
+          baseWordData.structure = entries[0].translations.zhStructure;
+        }
+        
+        processedWords[translatedWord] = baseWordData;
       });
       
       // Ordenar palabras

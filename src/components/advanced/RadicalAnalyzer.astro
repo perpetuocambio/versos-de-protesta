@@ -256,21 +256,26 @@ document.addEventListener('DOMContentLoaded', function() {
     try {
       console.log(`🔍 Cargando análisis de radicales para: ${character}`);
       
-      // Cargar datos de radicales
-      const response = await fetch(`${baseUrl}data/chinese/radicals.json`);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      // Cargar datos de radicales unificados y mapeo de caracteres
+      const [radicalsResponse, characterMapResponse] = await Promise.all([
+        fetch(`${baseUrl}data/chinese/radicals-unified.json`),
+        fetch(`${baseUrl}data/chinese/character-radical-unified.json`)
+      ]);
+      
+      if (!radicalsResponse.ok || !characterMapResponse.ok) {
+        throw new Error(`HTTP Error: ${radicalsResponse.status} | ${characterMapResponse.status}`);
       }
       
-      const radicalData = await response.json();
-      const characterAnalysis = radicalData.characters[character];
+      const radicalsData = await radicalsResponse.json();
+      const characterMapData = await characterMapResponse.json();
+      const characterAnalysis = characterMapData.characters[character];
       
       if (!characterAnalysis) {
         throw new Error(`No se encontró análisis para el caracter: ${character}`);
       }
       
       // Generar HTML del análisis
-      const analysisHTML = generateAnalysisHTML(characterAnalysis, radicalData);
+      const analysisHTML = generateAnalysisHTML(characterAnalysis, radicalsData);
       
       // Mostrar contenido
       loadingEl.style.display = 'none';
@@ -286,18 +291,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  function generateAnalysisHTML(analysis, data) {
-    const isRevolutionary = analysis.revolutionaryRelevance;
+  function generateAnalysisHTML(analysis, radicalsData) {
+    // Obtener información del radical desde los datos consolidados
+    const radicalInfo = radicalsData.radicals[analysis.radical];
     
     let html = `
-      ${isRevolutionary ? '<div class="revolutionary-badge">🚩</div>' : ''}
-      
       <div class="radical-header">
         <h3>📚 Análisis de Radicales</h3>
         <div class="character-display">${analysis.character}</div>
         <div class="strokes-info">
           <span>Unicode: ${analysis.unicode}</span>
-          ${isRevolutionary ? '<span style="color: #dc3545; font-weight: 600;">• Relevancia Revolucionaria</span>' : ''}
+          <span>• Pinyin: ${analysis.pinyin || 'N/A'}</span>
+          ${analysis.hasStrokeData ? '<span style="color: #28a745;">• Con datos de trazos</span>' : ''}
         </div>
       </div>
       
@@ -307,60 +312,63 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="radical-display">${analysis.radical}</div>
     `;
     
-    // Información del radical
-    if (analysis.radicalData && analysis.radicalData.meaning) {
+    // Información del radical desde datos consolidados
+    if (radicalInfo && radicalInfo.meaning) {
       html += `
         <div class="radical-meaning">
-          Significado: ${analysis.radicalData.meaning.es}
+          Significado: ${radicalInfo.meaning.es}
+        </div>
+        <div class="radical-meaning">
+          English: ${radicalInfo.meaning.en}
         </div>
       `;
       
-      if (analysis.radicalData.strokes) {
-        html += `<div class="strokes-info">Trazos: ${analysis.radicalData.strokes}</div>`;
+      if (radicalInfo.strokes) {
+        html += `<div class="strokes-info">Trazos del radical: ${radicalInfo.strokes}</div>`;
       }
       
-      if (analysis.radicalData.category) {
-        html += `<div class="radical-category">${analysis.radicalData.category}</div>`;
+      if (radicalInfo.category) {
+        html += `<div class="radical-category">${radicalInfo.category}</div>`;
       }
     } else {
-      html += `<div class="radical-meaning">Análisis en desarrollo</div>`;
+      html += `<div class="radical-meaning">Información del radical no disponible</div>`;
     }
     
     html += `</div>`;
     
-    // Información de componentes si existe
-    if (analysis.component) {
-      html += `
-        <div class="radical-info">
-          <h4>🧩 Componente</h4>
-          <div class="radical-display">${analysis.component}</div>
-          <div class="component-info">
-            <strong>Posición:</strong> ${analysis.position}<br>
-            <strong>Tipo:</strong> ${analysis.radicalType}
-          </div>
+    // Información adicional del carácter
+    html += `
+      <div class="radical-info">
+        <h4>📋 Información del Carácter</h4>
+        <div class="component-info">
+          <strong>Pinyin:</strong> ${analysis.pinyin || 'N/A'}<br>
+          <strong>Código Unicode:</strong> ${analysis.unicode}<br>
+          <strong>Frecuencia de uso:</strong> ${analysis.frequency || 'N/A'}
         </div>
-      `;
-    } else {
-      html += `
-        <div class="radical-info">
-          <h4>📋 Información</h4>
-          <div class="component-info">
-            <strong>Tipo de análisis:</strong> ${analysis.radicalType}<br>
-            <strong>Categoría:</strong> ${analysis.category}
+        ${analysis.definitions && analysis.definitions.length > 0 ? `
+          <div style="margin-top: 0.75rem;">
+            <strong>Definiciones:</strong>
+            <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+              ${analysis.definitions.slice(0, 3).map(def => `<li>${def}</li>`).join('')}
+            </ul>
           </div>
-        </div>
-      `;
-    }
+        ` : ''}
+      </div>
+    `;
     
     html += `</div>`;
     
-    // Etimología si está disponible
-    if (analysis.etymology) {
-      const etymology = analysis.etymology.es || analysis.etymology.en || 'Etimología en desarrollo';
+    // Información del radical expandida
+    if (radicalInfo) {
       html += `
         <div class="etymology-section">
-          <h4>📜 Etimología</h4>
-          <div class="etymology-text">${etymology}</div>
+          <h4>🏗️ Información Completa del Radical</h4>
+          <div class="etymology-text">
+            <strong>Radical ${radicalInfo.number} (${analysis.radical}):</strong> "${radicalInfo.meaning.es}"<br>
+            <strong>Trazos:</strong> ${radicalInfo.strokes}<br>
+            <strong>Categoría:</strong> ${radicalInfo.category}<br>
+            <strong>Traducciones:</strong> ES: ${radicalInfo.meaning.es} | EN: ${radicalInfo.meaning.en} | DE: ${radicalInfo.meaning.de}
+          </div>
         </div>
       `;
     }

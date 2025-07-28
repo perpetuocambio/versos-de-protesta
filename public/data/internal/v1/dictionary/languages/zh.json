@@ -3,7 +3,7 @@
     "language": "中文",
     "code": "zh",
     "wordCount": 115,
-    "lastUpdated": "2025-07-27T18:26:37.913Z",
+    "lastUpdated": "2025-07-28T18:31:34.302Z",
     "generatedBy": "partition-dictionary.mjs v1.0"
   },
   "index": {
@@ -430,6 +430,7 @@
       "entries": [
         {
           "word": "被战胜的",
+          "pinyin": "bèi zhànshèng de",
           "meaning": "vencido",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -437,6 +438,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "12",
+          "radical": "戈 (lanza)",
+          "structure": "izquierda-derecha",
           "originalWord": "被战胜的",
           "allTranslations": {
             "es": "vencido",
@@ -463,12 +467,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "被战胜的",
-      "meaning": "vencido"
+      "meaning": "vencido",
+      "pinyin": "bèi zhànshèng de",
+      "strokes": "12",
+      "radical": "戈 (lanza)",
+      "structure": "izquierda-derecha"
     },
     "波浪": {
       "entries": [
         {
           "word": "波浪",
+          "pinyin": "bō làng",
           "meaning": "oleada",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -476,6 +485,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "10",
+          "radical": "氵 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "波浪",
           "allTranslations": {
             "es": "oleada",
@@ -502,12 +514,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "波浪",
-      "meaning": "oleada"
+      "meaning": "oleada",
+      "pinyin": "bō làng",
+      "strokes": "10",
+      "radical": "氵 (agua)",
+      "structure": "izquierda-derecha"
     },
     "唱": {
       "entries": [
         {
           "word": "唱",
+          "pinyin": "chàng",
           "meaning": "cantar",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -515,6 +532,9 @@
             0
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "11",
+          "radical": "口 (boca)",
+          "structure": "izquierda-derecha",
           "originalWord": "唱",
           "allTranslations": {
             "es": "cantar",
@@ -541,12 +561,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "唱",
-      "meaning": "cantar"
+      "meaning": "cantar",
+      "pinyin": "chàng",
+      "strokes": "11",
+      "radical": "口 (boca)",
+      "structure": "izquierda-derecha"
     },
     "出现": {
       "entries": [
         {
           "word": "出现",
+          "pinyin": "chū xiàn",
           "meaning": "aparecer",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -554,6 +579,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "11",
+          "radical": "凵 (recipiente) + 王 (rey)",
+          "structure": "compuesto",
           "originalWord": "出现",
           "allTranslations": {
             "es": "aparecer",
@@ -580,12 +608,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "出现",
-      "meaning": "aparecer"
+      "meaning": "aparecer",
+      "pinyin": "chū xiàn",
+      "strokes": "11",
+      "radical": "凵 (recipiente) + 王 (rey)",
+      "structure": "compuesto"
     },
     "船员": {
       "entries": [
         {
           "word": "船员",
+          "pinyin": "chuán yuán",
           "meaning": "marineros",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -593,6 +626,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "16",
+          "radical": "舟 (barco) + 口 (boca)",
+          "structure": "compuesto",
           "originalWord": "船员",
           "allTranslations": {
             "es": "marineros",
@@ -619,12 +655,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "船员",
-      "meaning": "marineros"
+      "meaning": "marineros",
+      "pinyin": "chuán yuán",
+      "strokes": "16",
+      "radical": "舟 (barco) + 口 (boca)",
+      "structure": "compuesto"
     },
     "大帆船": {
       "entries": [
         {
           "word": "大帆船",
+          "pinyin": "dà fānchuán",
           "meaning": "galeón",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -632,6 +673,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "12",
+          "radical": "船 (barco)",
+          "structure": "izquierda-derecha",
           "originalWord": "大帆船",
           "allTranslations": {
             "es": "galeón",
@@ -658,12 +702,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "大帆船",
-      "meaning": "galeón"
+      "meaning": "galeón",
+      "pinyin": "dà fānchuán",
+      "strokes": "12",
+      "radical": "船 (barco)",
+      "structure": "izquierda-derecha"
     },
     "地下的": {
       "entries": [
         {
           "word": "地下的",
+          "pinyin": "dìxià de",
           "meaning": "clandestino",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -671,6 +720,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "9",
+          "radical": "土 (tierra)",
+          "structure": "arriba-abajo",
           "originalWord": "地下的",
           "allTranslations": {
             "es": "clandestino",
@@ -697,12 +749,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "地下的",
-      "meaning": "clandestino"
+      "meaning": "clandestino",
+      "pinyin": "dìxià de",
+      "strokes": "9",
+      "radical": "土 (tierra)",
+      "structure": "arriba-abajo"
     },
     "地主": {
       "entries": [
         {
           "word": "地主",
+          "pinyin": "dì zhǔ",
           "meaning": "amo",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -710,6 +767,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "8",
+          "radical": "土 (tierra)",
+          "structure": "arriba-abajo",
           "originalWord": "地主",
           "allTranslations": {
             "es": "amo",
@@ -736,12 +796,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "地主",
-      "meaning": "amo"
+      "meaning": "amo",
+      "pinyin": "dì zhǔ",
+      "strokes": "8",
+      "radical": "土 (tierra)",
+      "structure": "arriba-abajo"
     },
     "等待": {
       "entries": [
         {
           "word": "等待",
+          "pinyin": "děng dài",
           "meaning": "espere",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -749,6 +814,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "12",
+          "radical": "竹 (bambú)",
+          "structure": "arriba-abajo",
           "originalWord": "等待",
           "allTranslations": {
             "es": "espere",
@@ -775,12 +843,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "等待",
-      "meaning": "espere"
+      "meaning": "espere",
+      "pinyin": "děng dài",
+      "strokes": "12",
+      "radical": "竹 (bambú)",
+      "structure": "arriba-abajo"
     },
     "敌人": {
       "entries": [
         {
           "word": "敌人",
+          "pinyin": "dí rén",
           "meaning": "enemigo",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -788,6 +861,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "6",
+          "radical": "攴 (golpear)",
+          "structure": "izquierda-derecha",
           "originalWord": "敌人",
           "allTranslations": {
             "es": "enemigo",
@@ -814,12 +890,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "敌人",
-      "meaning": "enemigo"
+      "meaning": "enemigo",
+      "pinyin": "dí rén",
+      "strokes": "6",
+      "radical": "攴 (golpear)",
+      "structure": "izquierda-derecha"
     },
     "第一国际": {
       "entries": [
         {
           "word": "第一国际",
+          "pinyin": "dì-yī guójì",
           "meaning": "Primera Internacional",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -827,6 +908,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "16",
+          "radical": "囗 (recinto)",
+          "structure": "encierro",
           "originalWord": "第一国际",
           "allTranslations": {
             "es": "Primera Internacional",
@@ -853,12 +937,17 @@
       ],
       "firstAppearance": 9,
       "originalWord": "第一国际",
-      "meaning": "Primera Internacional"
+      "meaning": "Primera Internacional",
+      "pinyin": "dì-yī guójì",
+      "strokes": "16",
+      "radical": "囗 (recinto)",
+      "structure": "encierro"
     },
     "东方": {
       "entries": [
         {
           "word": "东方",
+          "pinyin": "dōng fāng",
           "meaning": "oriente",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -866,6 +955,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "8",
+          "radical": "方 (dirección)",
+          "structure": "izquierda-derecha",
           "originalWord": "东方",
           "allTranslations": {
             "es": "oriente",
@@ -892,12 +984,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "东方",
-      "meaning": "oriente"
+      "meaning": "oriente",
+      "pinyin": "dōng fāng",
+      "strokes": "8",
+      "radical": "方 (dirección)",
+      "structure": "izquierda-derecha"
     },
     "东线战场": {
       "entries": [
         {
           "word": "东线战场",
+          "pinyin": "dōngxiàn zhànchǎng",
           "meaning": "frente oriental",
           "source": "dia-08-the-sacred-war",
           "day": 8,
@@ -905,6 +1002,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-08-the-sacred-war.md",
+          "strokes": "22",
+          "radical": "东 (este)",
+          "structure": "compuesto",
           "originalWord": "东线战场",
           "allTranslations": {
             "es": "frente oriental",
@@ -931,12 +1031,17 @@
       ],
       "firstAppearance": 8,
       "originalWord": "东线战场",
-      "meaning": "frente oriental"
+      "meaning": "frente oriental",
+      "pinyin": "dōngxiàn zhànchǎng",
+      "strokes": "22",
+      "radical": "东 (este)",
+      "structure": "compuesto"
     },
     "斗争": {
       "entries": [
         {
           "word": "斗争",
+          "pinyin": "dòu zhēng",
           "meaning": "lucha",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -950,6 +1055,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "12",
+          "radical": "斗 (lucha)",
+          "structure": "independiente",
           "originalWord": "斗争",
           "allTranslations": {
             "es": "lucha",
@@ -976,12 +1084,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "斗争",
-      "meaning": "lucha"
+      "meaning": "lucha",
+      "pinyin": "dòu zhēng",
+      "strokes": "12",
+      "radical": "斗 (lucha)",
+      "structure": "independiente"
     },
     "法西斯主义": {
       "entries": [
         {
           "word": "法西斯主义",
+          "pinyin": "fǎxīsī zhǔyì",
           "meaning": "fascismo",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -992,6 +1105,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "23",
+          "radical": "氵 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "法西斯主义",
           "allTranslations": {
             "es": "fascismo",
@@ -1018,12 +1134,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "法西斯主义",
-      "meaning": "fascismo"
+      "meaning": "fascismo",
+      "pinyin": "fǎxīsī zhǔyì",
+      "strokes": "23",
+      "radical": "氵 (agua)",
+      "structure": "izquierda-derecha"
     },
     "反法西斯": {
       "entries": [
         {
           "word": "反法西斯",
+          "pinyin": "fǎn fǎxīsī",
           "meaning": "antifascista",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -1033,6 +1154,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "16",
+          "radical": "反 (opuesto)",
+          "structure": "izquierda-derecha",
           "originalWord": "反法西斯",
           "allTranslations": {
             "es": "antifascista",
@@ -1059,12 +1183,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "反法西斯",
-      "meaning": "antifascista"
+      "meaning": "antifascista",
+      "pinyin": "fǎn fǎxīsī",
+      "strokes": "16",
+      "radical": "反 (opuesto)",
+      "structure": "izquierda-derecha"
     },
     "反抗": {
       "entries": [
         {
           "word": "反抗",
+          "pinyin": "fǎn kàng",
           "meaning": "resistir",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -1072,6 +1201,9 @@
             0
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "11",
+          "radical": "反 (oponer)",
+          "structure": "izquierda-derecha",
           "originalWord": "反抗",
           "allTranslations": {
             "es": "resistir",
@@ -1098,12 +1230,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "反抗",
-      "meaning": "resistir"
+      "meaning": "resistir",
+      "pinyin": "fǎn kàng",
+      "strokes": "11",
+      "radical": "反 (oponer)",
+      "structure": "izquierda-derecha"
     },
     "反犹主义": {
       "entries": [
         {
           "word": "反犹主义",
+          "pinyin": "fǎn yóu zhǔyì",
           "meaning": "antisemitismo",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -1111,6 +1248,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "12",
+          "radical": "又 (otra vez) + 犭 (perro) + 主 (señor)",
+          "structure": "compuesto",
           "originalWord": "反犹主义",
           "allTranslations": {
             "es": "antisemitismo",
@@ -1137,12 +1277,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "反犹主义",
-      "meaning": "antisemitismo"
+      "meaning": "antisemitismo",
+      "pinyin": "fǎn yóu zhǔyì",
+      "strokes": "12",
+      "radical": "又 (otra vez) + 犭 (perro) + 主 (señor)",
+      "structure": "compuesto"
     },
     "防御": {
       "entries": [
         {
           "word": "防御",
+          "pinyin": "fáng yù",
           "meaning": "defensa",
           "source": "dia-08-the-sacred-war",
           "day": 8,
@@ -1150,6 +1295,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-08-the-sacred-war.md",
+          "strokes": "11",
+          "radical": "阝 (montículo) + 彳 (caminar)",
+          "structure": "compuesto",
           "originalWord": "防御",
           "allTranslations": {
             "es": "defensa",
@@ -1176,12 +1324,17 @@
       ],
       "firstAppearance": 8,
       "originalWord": "防御",
-      "meaning": "defensa"
+      "meaning": "defensa",
+      "pinyin": "fáng yù",
+      "strokes": "11",
+      "radical": "阝 (montículo) + 彳 (caminar)",
+      "structure": "compuesto"
     },
     "沸腾": {
       "entries": [
         {
           "word": "沸腾",
+          "pinyin": "fèi téng",
           "meaning": "hierve",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1189,6 +1342,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "16",
+          "radical": "水 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "沸腾",
           "allTranslations": {
             "es": "hierve",
@@ -1215,12 +1371,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "沸腾",
-      "meaning": "hierve"
+      "meaning": "hierve",
+      "pinyin": "fèi téng",
+      "strokes": "16",
+      "radical": "水 (agua)",
+      "structure": "izquierda-derecha"
     },
     "风": {
       "entries": [
         {
           "word": "风",
+          "pinyin": "fēng",
           "meaning": "viento",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -1228,6 +1389,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "4",
+          "radical": "风 (viento)",
+          "structure": "independiente",
           "originalWord": "风",
           "allTranslations": {
             "es": "viento",
@@ -1254,12 +1418,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "风",
-      "meaning": "viento"
+      "meaning": "viento",
+      "pinyin": "fēng",
+      "strokes": "4",
+      "radical": "风 (viento)",
+      "structure": "independiente"
     },
     "风暴": {
       "entries": [
         {
           "word": "风暴",
+          "pinyin": "fēng bào",
           "meaning": "tormentas",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -1267,6 +1436,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "13",
+          "radical": "风 (viento)",
+          "structure": "independiente",
           "originalWord": "风暴",
           "allTranslations": {
             "es": "tormentas",
@@ -1293,12 +1465,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "风暴",
-      "meaning": "tormentas"
+      "meaning": "tormentas",
+      "pinyin": "fēng bào",
+      "strokes": "13",
+      "radical": "风 (viento)",
+      "structure": "independiente"
     },
     "港口": {
       "entries": [
         {
           "word": "港口",
+          "pinyin": "gǎng kǒu",
           "meaning": "puerto",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -1306,6 +1483,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "15",
+          "radical": "氵 (agua) + 口 (boca)",
+          "structure": "compuesto",
           "originalWord": "港口",
           "allTranslations": {
             "es": "puerto",
@@ -1332,12 +1512,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "港口",
-      "meaning": "puerto"
+      "meaning": "puerto",
+      "pinyin": "gǎng kǒu",
+      "strokes": "15",
+      "radical": "氵 (agua) + 口 (boca)",
+      "structure": "compuesto"
     },
     "工人": {
       "entries": [
         {
           "word": "工人",
+          "pinyin": "gōng rén",
           "meaning": "trabajador",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -1347,6 +1532,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "7",
+          "radical": "工 (trabajo)",
+          "structure": "izquierda-derecha",
           "originalWord": "工人",
           "allTranslations": {
             "es": "trabajador",
@@ -1368,6 +1556,7 @@
         },
         {
           "word": "工人",
+          "pinyin": "gōng rén",
           "meaning": "trabajadores",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -1376,6 +1565,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "7",
+          "radical": "工 (trabajo)",
+          "structure": "izquierda-derecha",
           "originalWord": "工人",
           "allTranslations": {
             "es": "trabajadores",
@@ -1403,12 +1595,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "工人",
-      "meaning": "trabajador"
+      "meaning": "trabajador",
+      "pinyin": "gōng rén",
+      "strokes": "7",
+      "radical": "工 (trabajo)",
+      "structure": "izquierda-derecha"
     },
     "工人阶级": {
       "entries": [
         {
           "word": "工人阶级",
+          "pinyin": "gōngrén jiējí",
           "meaning": "clase obrera",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1416,6 +1613,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "18",
+          "radical": "工 (trabajo)",
+          "structure": "compuesto",
           "originalWord": "工人阶级",
           "allTranslations": {
             "es": "clase obrera",
@@ -1442,12 +1642,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "工人阶级",
-      "meaning": "clase obrera"
+      "meaning": "clase obrera",
+      "pinyin": "gōngrén jiējí",
+      "strokes": "18",
+      "radical": "工 (trabajo)",
+      "structure": "compuesto"
     },
     "工团主义": {
       "entries": [
         {
           "word": "工团主义",
+          "pinyin": "gōngtuán zhǔyì",
           "meaning": "Sindicalismo",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -1455,6 +1660,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "25",
+          "radical": "工 (trabajo)",
+          "structure": "compuesto",
           "originalWord": "工团主义",
           "allTranslations": {
             "es": "Sindicalismo",
@@ -1476,6 +1684,7 @@
         },
         {
           "word": "工团主义",
+          "pinyin": "gōngtuán zhǔyì",
           "meaning": "sindicalismo",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -1483,6 +1692,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "17",
+          "radical": "工 (trabajo) + 囗 (recinto) + 主 (señor)",
+          "structure": "compuesto",
           "originalWord": "工团主义",
           "allTranslations": {
             "es": "sindicalismo",
@@ -1510,12 +1722,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "工团主义",
-      "meaning": "Sindicalismo"
+      "meaning": "Sindicalismo",
+      "pinyin": "gōngtuán zhǔyì",
+      "strokes": "25",
+      "radical": "工 (trabajo)",
+      "structure": "compuesto"
     },
     "公社": {
       "entries": [
         {
           "word": "公社",
+          "pinyin": "gōng shè",
           "meaning": "comuna",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -1523,6 +1740,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "10",
+          "radical": "八 (ocho)",
+          "structure": "izquierda-derecha",
           "originalWord": "公社",
           "allTranslations": {
             "es": "comuna",
@@ -1549,12 +1769,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "公社",
-      "meaning": "comuna"
+      "meaning": "comuna",
+      "pinyin": "gōng shè",
+      "strokes": "10",
+      "radical": "八 (ocho)",
+      "structure": "izquierda-derecha"
     },
     "共产党": {
       "entries": [
         {
           "word": "共产党",
+          "pinyin": "gòng chǎn dǎng",
           "meaning": "partido comunista",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -1562,6 +1787,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "20",
+          "radical": "八 (ocho) + 文 (cultura) + 子 (hijo)",
+          "structure": "compuesto",
           "originalWord": "共产党",
           "allTranslations": {
             "es": "partido comunista",
@@ -1588,12 +1816,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "共产党",
-      "meaning": "partido comunista"
+      "meaning": "partido comunista",
+      "pinyin": "gòng chǎn dǎng",
+      "strokes": "20",
+      "radical": "八 (ocho) + 文 (cultura) + 子 (hijo)",
+      "structure": "compuesto"
     },
     "共产主义者": {
       "entries": [
         {
           "word": "共产主义者",
+          "pinyin": "gòngchǎn zhǔyì zhě",
           "meaning": "comunista",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
@@ -1601,6 +1834,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "strokes": "16",
+          "radical": "共 (junto)",
+          "structure": "compuesto",
           "originalWord": "共产主义者",
           "allTranslations": {
             "es": "comunista",
@@ -1627,12 +1863,17 @@
       ],
       "firstAppearance": 11,
       "originalWord": "共产主义者",
-      "meaning": "comunista"
+      "meaning": "comunista",
+      "pinyin": "gòngchǎn zhǔyì zhě",
+      "strokes": "16",
+      "radical": "共 (junto)",
+      "structure": "compuesto"
     },
     "共和国": {
       "entries": [
         {
           "word": "共和国",
+          "pinyin": "gòng hé guó",
           "meaning": "república",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -1640,6 +1881,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "14",
+          "radical": "八 (ocho)",
+          "structure": "izquierda-derecha",
           "originalWord": "共和国",
           "allTranslations": {
             "es": "república",
@@ -1666,12 +1910,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "共和国",
-      "meaning": "república"
+      "meaning": "república",
+      "pinyin": "gòng hé guó",
+      "strokes": "14",
+      "radical": "八 (ocho)",
+      "structure": "izquierda-derecha"
     },
     "沟垄": {
       "entries": [
         {
           "word": "沟垄",
+          "pinyin": "gōu lǒng",
           "meaning": "surcos",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -1679,6 +1928,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "10",
+          "radical": "氵 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "沟垄",
           "allTranslations": {
             "es": "surcos",
@@ -1705,12 +1957,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "沟垄",
-      "meaning": "surcos"
+      "meaning": "surcos",
+      "pinyin": "gōu lǒng",
+      "strokes": "10",
+      "radical": "氵 (agua)",
+      "structure": "izquierda-derecha"
     },
     "雇农": {
       "entries": [
         {
           "word": "雇农",
+          "pinyin": "gùn óng",
           "meaning": "jornalero",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -1718,6 +1975,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "12",
+          "radical": "雇 (emplear)",
+          "structure": "izquierda-derecha",
           "originalWord": "雇农",
           "allTranslations": {
             "es": "jornalero",
@@ -1744,12 +2004,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "雇农",
-      "meaning": "jornalero"
+      "meaning": "jornalero",
+      "pinyin": "gùn óng",
+      "strokes": "12",
+      "radical": "雇 (emplear)",
+      "structure": "izquierda-derecha"
     },
     "孩子们": {
       "entries": [
         {
           "word": "孩子们",
+          "pinyin": "háizi men",
           "meaning": "hijos",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -1757,6 +2022,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "18",
+          "radical": "子 (hijo) + 亻 (persona)",
+          "structure": "compuesto",
           "originalWord": "孩子们",
           "allTranslations": {
             "es": "hijos",
@@ -1783,12 +2051,17 @@
       ],
       "firstAppearance": 9,
       "originalWord": "孩子们",
-      "meaning": "hijos"
+      "meaning": "hijos",
+      "pinyin": "háizi men",
+      "strokes": "18",
+      "radical": "子 (hijo) + 亻 (persona)",
+      "structure": "compuesto"
     },
     "汗水": {
       "entries": [
         {
           "word": "汗水",
+          "pinyin": "hàn shuǐ",
           "meaning": "sudor",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -1796,6 +2069,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "9",
+          "radical": "氵 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "汗水",
           "allTranslations": {
             "es": "sudor",
@@ -1822,12 +2098,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "汗水",
-      "meaning": "sudor"
+      "meaning": "sudor",
+      "pinyin": "hàn shuǐ",
+      "strokes": "9",
+      "radical": "氵 (agua)",
+      "structure": "izquierda-derecha"
     },
     "捍卫": {
       "entries": [
         {
           "word": "捍卫",
+          "pinyin": "hàn wèi",
           "meaning": "defender",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -1835,6 +2116,9 @@
             0
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "15",
+          "radical": "扌 (mano)",
+          "structure": "izquierda-derecha",
           "originalWord": "捍卫",
           "allTranslations": {
             "es": "defender",
@@ -1861,12 +2145,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "捍卫",
-      "meaning": "defender"
+      "meaning": "defender",
+      "pinyin": "hàn wèi",
+      "strokes": "15",
+      "radical": "扌 (mano)",
+      "structure": "izquierda-derecha"
     },
     "黑色的": {
       "entries": [
         {
           "word": "黑色的",
+          "pinyin": "hēisè de",
           "meaning": "Negras",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -1874,6 +2163,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "12",
+          "radical": "黑 (negro)",
+          "structure": "arriba-abajo",
           "originalWord": "黑色的",
           "allTranslations": {
             "es": "Negras",
@@ -1900,12 +2192,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "黑色的",
-      "meaning": "Negras"
+      "meaning": "Negras",
+      "pinyin": "hēisè de",
+      "strokes": "12",
+      "radical": "黑 (negro)",
+      "structure": "arriba-abajo"
     },
     "红": {
       "entries": [
         {
           "word": "红",
+          "pinyin": "hóng",
           "meaning": "rojo",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -1913,6 +2210,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "6",
+          "radical": "纟 (seda)",
+          "structure": "izquierda-derecha",
           "originalWord": "红",
           "allTranslations": {
             "es": "rojo",
@@ -1939,12 +2239,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "红",
-      "meaning": "rojo"
+      "meaning": "rojo",
+      "pinyin": "hóng",
+      "strokes": "6",
+      "radical": "纟 (seda)",
+      "structure": "izquierda-derecha"
     },
     "幻想": {
       "entries": [
         {
           "word": "幻想",
+          "pinyin": "huàn xiǎng",
           "meaning": "fantasear",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -1952,6 +2257,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "11",
+          "radical": "幺 (pequeño) + 心 (corazón)",
+          "structure": "compuesto",
           "originalWord": "幻想",
           "allTranslations": {
             "es": "fantasear",
@@ -1978,12 +2286,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "幻想",
-      "meaning": "fantasear"
+      "meaning": "fantasear",
+      "pinyin": "huàn xiǎng",
+      "strokes": "11",
+      "radical": "幺 (pequeño) + 心 (corazón)",
+      "structure": "compuesto"
     },
     "饥饿的": {
       "entries": [
         {
           "word": "饥饿的",
+          "pinyin": "jī'è de",
           "meaning": "hambrientos",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -1991,6 +2304,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "19",
+          "radical": "食 (comida)",
+          "structure": "izquierda-derecha",
           "originalWord": "饥饿的",
           "allTranslations": {
             "es": "hambrientos",
@@ -2017,12 +2333,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "饥饿的",
-      "meaning": "hambrientos"
+      "meaning": "hambrientos",
+      "pinyin": "jī'è de",
+      "strokes": "19",
+      "radical": "食 (comida)",
+      "structure": "izquierda-derecha"
     },
     "将是": {
       "entries": [
         {
           "word": "将是",
+          "pinyin": "jiāng shì",
           "meaning": "será",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -2030,6 +2351,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "12",
+          "radical": "寸 (pulgada) + 日 (sol)",
+          "structure": "compuesto",
           "originalWord": "将是",
           "allTranslations": {
             "es": "será",
@@ -2056,12 +2380,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "将是",
-      "meaning": "será"
+      "meaning": "será",
+      "pinyin": "jiāng shì",
+      "strokes": "12",
+      "radical": "寸 (pulgada) + 日 (sol)",
+      "structure": "compuesto"
     },
     "浇灌": {
       "entries": [
         {
           "word": "浇灌",
+          "pinyin": "jiāo guàn",
           "meaning": "regar",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2069,6 +2398,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "15",
+          "radical": "氵 (agua)",
+          "structure": "izquierda-derecha",
           "originalWord": "浇灌",
           "allTranslations": {
             "es": "regar",
@@ -2095,12 +2427,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "浇灌",
-      "meaning": "regar"
+      "meaning": "regar",
+      "pinyin": "jiāo guàn",
+      "strokes": "15",
+      "radical": "氵 (agua)",
+      "structure": "izquierda-derecha"
     },
     "解放者": {
       "entries": [
         {
           "word": "解放者",
+          "pinyin": "jiěfàng zhě",
           "meaning": "libertadores",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -2108,6 +2445,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "13",
+          "radical": "角 (ángulo)",
+          "structure": "izquierda-derecha",
           "originalWord": "解放者",
           "allTranslations": {
             "es": "libertadores",
@@ -2134,12 +2474,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "解放者",
-      "meaning": "libertadores"
+      "meaning": "libertadores",
+      "pinyin": "jiěfàng zhě",
+      "strokes": "13",
+      "radical": "角 (ángulo)",
+      "structure": "izquierda-derecha"
     },
     "救星": {
       "entries": [
         {
           "word": "救星",
+          "pinyin": "jiù xīng",
           "meaning": "salvador",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -2147,6 +2492,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "15",
+          "radical": "攵 (golpear) + 日 (sol)",
+          "structure": "compuesto",
           "originalWord": "救星",
           "allTranslations": {
             "es": "salvador",
@@ -2173,12 +2521,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "救星",
-      "meaning": "salvador"
+      "meaning": "salvador",
+      "pinyin": "jiù xīng",
+      "strokes": "15",
+      "radical": "攵 (golpear) + 日 (sol)",
+      "structure": "compuesto"
     },
     "举起的": {
       "entries": [
         {
           "word": "举起的",
+          "pinyin": "jǔqǐ de",
           "meaning": "levantado",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2186,6 +2539,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "12",
+          "radical": "手 (mano)",
+          "structure": "arriba-abajo",
           "originalWord": "举起的",
           "allTranslations": {
             "es": "levantado",
@@ -2212,12 +2568,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "举起的",
-      "meaning": "levantado"
+      "meaning": "levantado",
+      "pinyin": "jǔqǐ de",
+      "strokes": "12",
+      "radical": "手 (mano)",
+      "structure": "arriba-abajo"
     },
     "劳作": {
       "entries": [
         {
           "word": "劳作",
+          "pinyin": "láo zuò",
           "meaning": "trabajar",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2225,6 +2586,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "9",
+          "radical": "力 (fuerza)",
+          "structure": "izquierda-derecha",
           "originalWord": "劳作",
           "allTranslations": {
             "es": "trabajar",
@@ -2251,12 +2615,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "劳作",
-      "meaning": "trabajar"
+      "meaning": "trabajar",
+      "pinyin": "láo zuò",
+      "strokes": "9",
+      "radical": "力 (fuerza)",
+      "structure": "izquierda-derecha"
     },
     "犁": {
       "entries": [
         {
           "word": "犁",
+          "pinyin": "lí",
           "meaning": "arado",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2264,6 +2633,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "11",
+          "radical": "牛 (buey)",
+          "structure": "arriba-abajo",
           "originalWord": "犁",
           "allTranslations": {
             "es": "arado",
@@ -2290,12 +2662,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "犁",
-      "meaning": "arado"
+      "meaning": "arado",
+      "pinyin": "lí",
+      "strokes": "11",
+      "radical": "牛 (buey)",
+      "structure": "arriba-abajo"
     },
     "黎明": {
       "entries": [
         {
           "word": "黎明",
+          "pinyin": "lí míng",
           "meaning": "amanecer",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -2303,6 +2680,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "23",
+          "radical": "黍 (mijo) + 日 (sol)",
+          "structure": "compuesto",
           "originalWord": "黎明",
           "allTranslations": {
             "es": "amanecer",
@@ -2329,12 +2709,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "黎明",
-      "meaning": "amanecer"
+      "meaning": "amanecer",
+      "pinyin": "lí míng",
+      "strokes": "23",
+      "radical": "黍 (mijo) + 日 (sol)",
+      "structure": "compuesto"
     },
     "理性": {
       "entries": [
         {
           "word": "理性",
+          "pinyin": "lǐ xìng",
           "meaning": "razón",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2342,6 +2727,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "15",
+          "radical": "王 (rey)",
+          "structure": "izquierda-derecha",
           "originalWord": "理性",
           "allTranslations": {
             "es": "razón",
@@ -2368,12 +2756,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "理性",
-      "meaning": "razón"
+      "meaning": "razón",
+      "pinyin": "lǐ xìng",
+      "strokes": "15",
+      "radical": "王 (rey)",
+      "structure": "izquierda-derecha"
     },
     "历史": {
       "entries": [
         {
           "word": "历史",
+          "pinyin": "lì shǐ",
           "meaning": "historia",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -2381,6 +2774,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "9",
+          "radical": "厂 (acantilado) + 口 (boca)",
+          "structure": "compuesto",
           "originalWord": "历史",
           "allTranslations": {
             "es": "historia",
@@ -2407,12 +2803,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "历史",
-      "meaning": "historia"
+      "meaning": "historia",
+      "pinyin": "lì shǐ",
+      "strokes": "9",
+      "radical": "厂 (acantilado) + 口 (boca)",
+      "structure": "compuesto"
     },
     "联盟": {
       "entries": [
         {
           "word": "联盟",
+          "pinyin": "lián méng",
           "meaning": "unión",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -2420,6 +2821,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "25",
+          "radical": "耳 (oreja)",
+          "structure": "compuesto",
           "originalWord": "联盟",
           "allTranslations": {
             "es": "unión",
@@ -2446,12 +2850,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "联盟",
-      "meaning": "unión"
+      "meaning": "unión",
+      "pinyin": "lián méng",
+      "strokes": "25",
+      "radical": "耳 (oreja)",
+      "structure": "compuesto"
     },
     "领袖": {
       "entries": [
         {
           "word": "领袖",
+          "pinyin": "lǐng xiù",
           "meaning": "líder",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -2459,6 +2868,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "17",
+          "radical": "页 (página) + 衣 (ropa)",
+          "structure": "compuesto",
           "originalWord": "领袖",
           "allTranslations": {
             "es": "líder",
@@ -2485,12 +2897,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "领袖",
-      "meaning": "líder"
+      "meaning": "líder",
+      "pinyin": "lǐng xiù",
+      "strokes": "17",
+      "radical": "页 (página) + 衣 (ropa)",
+      "structure": "compuesto"
     },
     "秘密的": {
       "entries": [
         {
           "word": "秘密的",
+          "pinyin": "mìmì de",
           "meaning": "secreto",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -2498,6 +2915,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "21",
+          "radical": "禾 (cereal) + 宀 (techo)",
+          "structure": "compuesto",
           "originalWord": "秘密的",
           "allTranslations": {
             "es": "secreto",
@@ -2524,12 +2944,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "秘密的",
-      "meaning": "secreto"
+      "meaning": "secreto",
+      "pinyin": "mìmì de",
+      "strokes": "21",
+      "radical": "禾 (cereal) + 宀 (techo)",
+      "structure": "compuesto"
     },
     "灭亡": {
       "entries": [
         {
           "word": "灭亡",
+          "pinyin": "miè wáng",
           "meaning": "perecer",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -2537,6 +2962,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "10",
+          "radical": "火 (fuego) + 亡 (muerte)",
+          "structure": "compuesto",
           "originalWord": "灭亡",
           "allTranslations": {
             "es": "perecer",
@@ -2563,12 +2991,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "灭亡",
-      "meaning": "perecer"
+      "meaning": "perecer",
+      "pinyin": "miè wáng",
+      "strokes": "10",
+      "radical": "火 (fuego) + 亡 (muerte)",
+      "structure": "compuesto"
     },
     "奴隶": {
       "entries": [
         {
           "word": "奴隶",
+          "pinyin": "nú lì",
           "meaning": "esclavos",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2576,6 +3009,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "8",
+          "radical": "女 (mujer)",
+          "structure": "izquierda-derecha",
           "originalWord": "奴隶",
           "allTranslations": {
             "es": "esclavos",
@@ -2597,6 +3033,7 @@
         },
         {
           "word": "奴隶",
+          "pinyin": "nú lì",
           "meaning": "esclavo",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -2604,6 +3041,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "12",
+          "radical": "女 (mujer)",
+          "structure": "izquierda-derecha",
           "originalWord": "奴隶",
           "allTranslations": {
             "es": "esclavo",
@@ -2631,12 +3071,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "奴隶",
-      "meaning": "esclavos"
+      "meaning": "esclavos",
+      "pinyin": "nú lì",
+      "strokes": "8",
+      "radical": "女 (mujer)",
+      "structure": "izquierda-derecha"
     },
     "篇章": {
       "entries": [
         {
           "word": "篇章",
+          "pinyin": "piān zhāng",
           "meaning": "páginas",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2644,6 +3089,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "20",
+          "radical": "竹 (bambú)",
+          "structure": "arriba-abajo",
           "originalWord": "篇章",
           "allTranslations": {
             "es": "páginas",
@@ -2670,12 +3118,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "篇章",
-      "meaning": "páginas"
+      "meaning": "páginas",
+      "pinyin": "piān zhāng",
+      "strokes": "20",
+      "radical": "竹 (bambú)",
+      "structure": "arriba-abajo"
     },
     "破坏": {
       "entries": [
         {
           "word": "破坏",
+          "pinyin": "pò huài",
           "meaning": "sabotaje",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -2683,6 +3136,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "13",
+          "radical": "石 (piedra)",
+          "structure": "izquierda-derecha",
           "originalWord": "破坏",
           "allTranslations": {
             "es": "sabotaje",
@@ -2709,12 +3165,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "破坏",
-      "meaning": "sabotaje"
+      "meaning": "sabotaje",
+      "pinyin": "pò huài",
+      "strokes": "13",
+      "radical": "石 (piedra)",
+      "structure": "izquierda-derecha"
     },
     "旗帜": {
       "entries": [
         {
           "word": "旗帜",
+          "pinyin": "qí zhì",
           "meaning": "bandera",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -2723,6 +3184,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "14",
+          "radical": "方 (cuadrado)",
+          "structure": "izquierda-derecha",
           "originalWord": "旗帜",
           "allTranslations": {
             "es": "bandera",
@@ -2744,6 +3208,7 @@
         },
         {
           "word": "旗帜",
+          "pinyin": "qí zhì",
           "meaning": "banderas",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -2751,6 +3216,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "14",
+          "radical": "方 (dirección)",
+          "structure": "izquierda-derecha",
           "originalWord": "旗帜",
           "allTranslations": {
             "es": "banderas",
@@ -2778,12 +3246,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "旗帜",
-      "meaning": "bandera"
+      "meaning": "bandera",
+      "pinyin": "qí zhì",
+      "strokes": "14",
+      "radical": "方 (cuadrado)",
+      "structure": "izquierda-derecha"
     },
     "起来": {
       "entries": [
         {
           "word": "起来",
+          "pinyin": "qǐ lái",
           "meaning": "levántate",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -2791,6 +3264,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "10",
+          "radical": "走 (caminar)",
+          "structure": "arriba-abajo",
           "originalWord": "起来",
           "allTranslations": {
             "es": "levántate",
@@ -2817,12 +3293,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "起来",
-      "meaning": "levántate"
+      "meaning": "levántate",
+      "pinyin": "qǐ lái",
+      "strokes": "10",
+      "radical": "走 (caminar)",
+      "structure": "arriba-abajo"
     },
     "前线": {
       "entries": [
         {
           "word": "前线",
+          "pinyin": "qián xiàn",
           "meaning": "frente",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
@@ -2830,6 +3311,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "strokes": "9",
+          "radical": "前 (delante)",
+          "structure": "arriba-abajo",
           "originalWord": "前线",
           "allTranslations": {
             "es": "frente",
@@ -2856,12 +3340,17 @@
       ],
       "firstAppearance": 11,
       "originalWord": "前线",
-      "meaning": "frente"
+      "meaning": "frente",
+      "pinyin": "qián xiàn",
+      "strokes": "9",
+      "radical": "前 (delante)",
+      "structure": "arriba-abajo"
     },
     "强盗军队": {
       "entries": [
         {
           "word": "强盗军队",
+          "pinyin": "qiángdào jūnduì",
           "meaning": "horda saqueadora",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -2869,6 +3358,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "20",
+          "radical": "弓 (arco) + 皿 (plato) + 冠 (corona)",
+          "structure": "compuesto",
           "originalWord": "强盗军队",
           "allTranslations": {
             "es": "horda saqueadora",
@@ -2895,12 +3387,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "强盗军队",
-      "meaning": "horda saqueadora"
+      "meaning": "horda saqueadora",
+      "pinyin": "qiángdào jūnduì",
+      "strokes": "20",
+      "radical": "弓 (arco) + 皿 (plato) + 冠 (corona)",
+      "structure": "compuesto"
     },
     "窃窃私语": {
       "entries": [
         {
           "word": "窃窃私语",
+          "pinyin": "qièqiè sīyǔ",
           "meaning": "susurro",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -2908,6 +3405,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "31",
+          "radical": "穴 (cueva) + 禾 (cereal) + 言 (habla)",
+          "structure": "compuesto",
           "originalWord": "窃窃私语",
           "allTranslations": {
             "es": "susurro",
@@ -2934,12 +3434,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "窃窃私语",
-      "meaning": "susurro"
+      "meaning": "susurro",
+      "pinyin": "qièqiè sīyǔ",
+      "strokes": "31",
+      "radical": "穴 (cueva) + 禾 (cereal) + 言 (habla)",
+      "structure": "compuesto"
     },
     "权力": {
       "entries": [
         {
           "word": "权力",
+          "pinyin": "quán lì",
           "meaning": "poder",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -2947,6 +3452,9 @@
             0
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "9",
+          "radical": "木 (madera)",
+          "structure": "izquierda-derecha",
           "originalWord": "权力",
           "allTranslations": {
             "es": "poder",
@@ -2973,12 +3481,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "权力",
-      "meaning": "poder"
+      "meaning": "poder",
+      "pinyin": "quán lì",
+      "strokes": "9",
+      "radical": "木 (madera)",
+      "structure": "izquierda-derecha"
     },
     "拳头": {
       "entries": [
         {
           "word": "拳头",
+          "pinyin": "quán tou",
           "meaning": "puño",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -2986,6 +3499,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "13",
+          "radical": "手 (mano)",
+          "structure": "arriba-abajo",
           "originalWord": "拳头",
           "allTranslations": {
             "es": "puño",
@@ -3012,12 +3528,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "拳头",
-      "meaning": "puño"
+      "meaning": "puño",
+      "pinyin": "quán tou",
+      "strokes": "13",
+      "radical": "手 (mano)",
+      "structure": "arriba-abajo"
     },
     "人民": {
       "entries": [
         {
           "word": "人民",
+          "pinyin": "rén mín",
           "meaning": "pueblo",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -3033,6 +3554,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "7",
+          "radical": "人 (persona)",
+          "structure": "izquierda-derecha",
           "originalWord": "人民",
           "allTranslations": {
             "es": "pueblo",
@@ -3059,12 +3583,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "人民",
-      "meaning": "pueblo"
+      "meaning": "pueblo",
+      "pinyin": "rén mín",
+      "strokes": "7",
+      "radical": "人 (persona)",
+      "structure": "izquierda-derecha"
     },
     "散居": {
       "entries": [
         {
           "word": "散居",
+          "pinyin": "sàn jū",
           "meaning": "diáspora",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -3072,6 +3601,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "16",
+          "radical": "攵 (golpear) + 尸 (cuerpo)",
+          "structure": "compuesto",
           "originalWord": "散居",
           "allTranslations": {
             "es": "diáspora",
@@ -3098,12 +3630,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "散居",
-      "meaning": "diáspora"
+      "meaning": "diáspora",
+      "pinyin": "sàn jū",
+      "strokes": "16",
+      "radical": "攵 (golpear) + 尸 (cuerpo)",
+      "structure": "compuesto"
     },
     "山脉": {
       "entries": [
         {
           "word": "山脉",
+          "pinyin": "shān mài",
           "meaning": "montañas",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -3111,6 +3648,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "10",
+          "radical": "山 (montaña)",
+          "structure": "izquierda-derecha",
           "originalWord": "山脉",
           "allTranslations": {
             "es": "montañas",
@@ -3137,12 +3677,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "山脉",
-      "meaning": "montañas"
+      "meaning": "montañas",
+      "pinyin": "shān mài",
+      "strokes": "10",
+      "radical": "山 (montaña)",
+      "structure": "izquierda-derecha"
     },
     "社会主义": {
       "entries": [
         {
           "word": "社会主义",
+          "pinyin": "shè huì zhǔ yì",
           "meaning": "socialismo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3151,6 +3696,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "22",
+          "radical": "社 (sociedad)",
+          "structure": "compuesto",
           "originalWord": "社会主义",
           "allTranslations": {
             "es": "socialismo",
@@ -3177,12 +3725,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "社会主义",
-      "meaning": "socialismo"
+      "meaning": "socialismo",
+      "pinyin": "shè huì zhǔ yì",
+      "strokes": "22",
+      "radical": "社 (sociedad)",
+      "structure": "compuesto"
     },
     "社会主义者": {
       "entries": [
         {
           "word": "社会主义者",
+          "pinyin": "shèhuì zhǔyì zhě",
           "meaning": "socialista",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
@@ -3190,6 +3743,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "strokes": "16",
+          "radical": "示 (mostrar)",
+          "structure": "compuesto",
           "originalWord": "社会主义者",
           "allTranslations": {
             "es": "socialista",
@@ -3216,12 +3772,17 @@
       ],
       "firstAppearance": 11,
       "originalWord": "社会主义者",
-      "meaning": "socialista"
+      "meaning": "socialista",
+      "pinyin": "shèhuì zhǔyì zhě",
+      "strokes": "16",
+      "radical": "示 (mostrar)",
+      "structure": "compuesto"
     },
     "什么都没有": {
       "entries": [
         {
           "word": "什么都没有",
+          "pinyin": "shénme dōu méiyǒu",
           "meaning": "nada",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3229,6 +3790,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "25",
+          "radical": "什 (qué)",
+          "structure": "compuesto",
           "originalWord": "什么都没有",
           "allTranslations": {
             "es": "nada",
@@ -3255,12 +3819,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "什么都没有",
-      "meaning": "nada"
+      "meaning": "nada",
+      "pinyin": "shénme dōu méiyǒu",
+      "strokes": "25",
+      "radical": "什 (qué)",
+      "structure": "compuesto"
     },
     "神圣的": {
       "entries": [
         {
           "word": "神圣的",
+          "pinyin": "shénshèng de",
           "meaning": "sagrada",
           "source": "dia-08-the-sacred-war",
           "day": 8,
@@ -3268,6 +3837,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-08-the-sacred-war.md",
+          "strokes": "13",
+          "radical": "示 (mostrar)",
+          "structure": "izquierda-derecha",
           "originalWord": "神圣的",
           "allTranslations": {
             "es": "sagrada",
@@ -3294,12 +3866,17 @@
       ],
       "firstAppearance": 8,
       "originalWord": "神圣的",
-      "meaning": "sagrada"
+      "meaning": "sagrada",
+      "pinyin": "shénshèng de",
+      "strokes": "13",
+      "radical": "示 (mostrar)",
+      "structure": "izquierda-derecha"
     },
     "升起": {
       "entries": [
         {
           "word": "升起",
+          "pinyin": "shēng qǐ",
           "meaning": "surgir",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -3307,6 +3884,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "8",
+          "radical": "十 (diez) + 辶 (caminar)",
+          "structure": "compuesto",
           "originalWord": "升起",
           "allTranslations": {
             "es": "surgir",
@@ -3333,12 +3913,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "升起",
-      "meaning": "surgir"
+      "meaning": "surgir",
+      "pinyin": "shēng qǐ",
+      "strokes": "8",
+      "radical": "十 (diez) + 辶 (caminar)",
+      "structure": "compuesto"
     },
     "胜利": {
       "entries": [
         {
           "word": "胜利",
+          "pinyin": "shèng lì",
           "meaning": "triunfar",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -3346,6 +3931,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "14",
+          "radical": "力 (fuerza)",
+          "structure": "izquierda-derecha",
           "originalWord": "胜利",
           "allTranslations": {
             "es": "triunfar",
@@ -3367,6 +3955,7 @@
         },
         {
           "word": "胜利",
+          "pinyin": "shèng lì",
           "meaning": "victoria",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -3376,6 +3965,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "14",
+          "radical": "力 (fuerza)",
+          "structure": "izquierda-derecha",
           "originalWord": "胜利",
           "allTranslations": {
             "es": "victoria",
@@ -3403,12 +3995,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "胜利",
-      "meaning": "triunfar"
+      "meaning": "triunfar",
+      "pinyin": "shèng lì",
+      "strokes": "14",
+      "radical": "力 (fuerza)",
+      "structure": "izquierda-derecha"
     },
     "士兵": {
       "entries": [
         {
           "word": "士兵",
+          "pinyin": "shì bīng",
           "meaning": "soldados",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -3417,6 +4014,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "10",
+          "radical": "士 (soldado)",
+          "structure": "arriba-abajo",
           "originalWord": "士兵",
           "allTranslations": {
             "es": "soldados",
@@ -3443,12 +4043,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "士兵",
-      "meaning": "soldados"
+      "meaning": "soldados",
+      "pinyin": "shì bīng",
+      "strokes": "10",
+      "radical": "士 (soldado)",
+      "structure": "arriba-abajo"
     },
     "世界": {
       "entries": [
         {
           "word": "世界",
+          "pinyin": "shì jiè",
           "meaning": "mundo",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3457,6 +4062,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "9",
+          "radical": "世 (generación)",
+          "structure": "arriba-abajo",
           "originalWord": "世界",
           "allTranslations": {
             "es": "mundo",
@@ -3483,12 +4091,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "世界",
-      "meaning": "mundo"
+      "meaning": "mundo",
+      "pinyin": "shì jiè",
+      "strokes": "9",
+      "radical": "世 (generación)",
+      "structure": "arriba-abajo"
     },
     "世界共和国": {
       "entries": [
         {
           "word": "世界共和国",
+          "pinyin": "shìjiè gònghéguó",
           "meaning": "república mundial",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -3496,6 +4109,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "17",
+          "radical": "世 (generación) + 共 (junto)",
+          "structure": "compuesto",
           "originalWord": "世界共和国",
           "allTranslations": {
             "es": "república mundial",
@@ -3522,12 +4138,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "世界共和国",
-      "meaning": "república mundial"
+      "meaning": "república mundial",
+      "pinyin": "shìjiè gònghéguó",
+      "strokes": "17",
+      "radical": "世 (generación) + 共 (junto)",
+      "structure": "compuesto"
     },
     "受诅咒的": {
       "entries": [
         {
           "word": "受诅咒的",
+          "pinyin": "shòu zǔzhòu de",
           "meaning": "malditos",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -3535,6 +4156,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "25",
+          "radical": "示 (sagrado)",
+          "structure": "compuesto",
           "originalWord": "受诅咒的",
           "allTranslations": {
             "es": "malditos",
@@ -3561,12 +4185,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "受诅咒的",
-      "meaning": "malditos"
+      "meaning": "malditos",
+      "pinyin": "shòu zǔzhòu de",
+      "strokes": "25",
+      "radical": "示 (sagrado)",
+      "structure": "compuesto"
     },
     "书写": {
       "entries": [
         {
           "word": "书写",
+          "pinyin": "shū xiě",
           "meaning": "escribir",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -3574,6 +4203,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "9",
+          "radical": "乚 (segundo)",
+          "structure": "arriba-abajo",
           "originalWord": "书写",
           "allTranslations": {
             "es": "escribir",
@@ -3600,12 +4232,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "书写",
-      "meaning": "escribir"
+      "meaning": "escribir",
+      "pinyin": "shū xiě",
+      "strokes": "9",
+      "radical": "乚 (segundo)",
+      "structure": "arriba-abajo"
     },
     "死": {
       "entries": [
         {
           "word": "死",
+          "pinyin": "sǐ",
           "meaning": "morir",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -3613,6 +4250,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "6",
+          "radical": "歹 (mal)",
+          "structure": "arriba-abajo",
           "originalWord": "死",
           "allTranslations": {
             "es": "morir",
@@ -3639,12 +4279,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "死",
-      "meaning": "morir"
+      "meaning": "morir",
+      "pinyin": "sǐ",
+      "strokes": "6",
+      "radical": "歹 (mal)",
+      "structure": "arriba-abajo"
     },
     "死亡": {
       "entries": [
         {
           "word": "死亡",
+          "pinyin": "sǐ wáng",
           "meaning": "muerte",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -3653,6 +4298,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "9",
+          "radical": "歹 (mal)",
+          "structure": "izquierda-derecha",
           "originalWord": "死亡",
           "allTranslations": {
             "es": "muerte",
@@ -3679,12 +4327,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "死亡",
-      "meaning": "muerte"
+      "meaning": "muerte",
+      "pinyin": "sǐ wáng",
+      "strokes": "9",
+      "radical": "歹 (mal)",
+      "structure": "izquierda-derecha"
     },
     "苏维埃之光": {
       "entries": [
         {
           "word": "苏维埃之光",
+          "pinyin": "Sūwéi'āi zhī guāng",
           "meaning": "luz soviética",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -3692,6 +4345,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "18",
+          "radical": "艹 (hierba) + 止 (parar) + 日 (sol)",
+          "structure": "compuesto",
           "originalWord": "苏维埃之光",
           "allTranslations": {
             "es": "luz soviética",
@@ -3718,12 +4374,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "苏维埃之光",
-      "meaning": "luz soviética"
+      "meaning": "luz soviética",
+      "pinyin": "Sūwéi'āi zhī guāng",
+      "strokes": "18",
+      "radical": "艹 (hierba) + 止 (parar) + 日 (sol)",
+      "structure": "compuesto"
     },
     "虽然": {
       "entries": [
         {
           "word": "虽然",
+          "pinyin": "suī rán",
           "meaning": "aunque",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -3731,6 +4392,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "9",
+          "radical": "虫 (insecto)",
+          "structure": "izquierda-derecha",
           "originalWord": "虽然",
           "allTranslations": {
             "es": "aunque",
@@ -3757,12 +4421,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "虽然",
-      "meaning": "aunque"
+      "meaning": "aunque",
+      "pinyin": "suī rán",
+      "strokes": "9",
+      "radical": "虫 (insecto)",
+      "structure": "izquierda-derecha"
     },
     "锁链": {
       "entries": [
         {
           "word": "锁链",
+          "pinyin": "suǒ liàn",
           "meaning": "cadenas",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -3770,6 +4439,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "13",
+          "radical": "钅 (metal)",
+          "structure": "izquierda-derecha",
           "originalWord": "锁链",
           "allTranslations": {
             "es": "cadenas",
@@ -3796,12 +4468,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "锁链",
-      "meaning": "cadenas"
+      "meaning": "cadenas",
+      "pinyin": "suǒ liàn",
+      "strokes": "13",
+      "radical": "钅 (metal)",
+      "structure": "izquierda-derecha"
     },
     "太阳": {
       "entries": [
         {
           "word": "太阳",
+          "pinyin": "tài yáng",
           "meaning": "sol",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -3809,6 +4486,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "10",
+          "radical": "日 (sol)",
+          "structure": "arriba-abajo",
           "originalWord": "太阳",
           "allTranslations": {
             "es": "sol",
@@ -3835,12 +4515,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "太阳",
-      "meaning": "sol"
+      "meaning": "sol",
+      "pinyin": "tài yáng",
+      "strokes": "10",
+      "radical": "日 (sol)",
+      "structure": "arriba-abajo"
     },
     "天空": {
       "entries": [
         {
           "word": "天空",
+          "pinyin": "tiān kōng",
           "meaning": "aires",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -3848,6 +4533,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "12",
+          "radical": "天 (cielo)",
+          "structure": "arriba-abajo",
           "originalWord": "天空",
           "allTranslations": {
             "es": "aires",
@@ -3874,12 +4562,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "天空",
-      "meaning": "aires"
+      "meaning": "aires",
+      "pinyin": "tiān kōng",
+      "strokes": "12",
+      "radical": "天 (cielo)",
+      "structure": "arriba-abajo"
     },
     "听见": {
       "entries": [
         {
           "word": "听见",
+          "pinyin": "tīng jiàn",
           "meaning": "escuchar",
           "source": "dia-06-der-heimliche-aufmarsch",
           "day": 6,
@@ -3887,6 +4580,9 @@
             6
           ],
           "filePath": "src/content/blog/dia-06-der-heimliche-aufmarsch.md",
+          "strokes": "15",
+          "radical": "口 (boca) + 见 (ver)",
+          "structure": "compuesto",
           "originalWord": "听见",
           "allTranslations": {
             "es": "escuchar",
@@ -3913,12 +4609,17 @@
       ],
       "firstAppearance": 6,
       "originalWord": "听见",
-      "meaning": "escuchar"
+      "meaning": "escuchar",
+      "pinyin": "tīng jiàn",
+      "strokes": "15",
+      "radical": "口 (boca) + 见 (ver)",
+      "structure": "compuesto"
     },
     "同志": {
       "entries": [
         {
           "word": "同志",
+          "pinyin": "tóng zhì",
           "meaning": "compañeros",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -3926,6 +4627,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "14",
+          "radical": "口 (boca) + 心 (corazón)",
+          "structure": "compuesto",
           "originalWord": "同志",
           "allTranslations": {
             "es": "compañeros",
@@ -3947,6 +4651,7 @@
         },
         {
           "word": "同志",
+          "pinyin": "tóng zhì",
           "meaning": "compañero",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -3954,6 +4659,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "7",
+          "radical": "同 (mismo)",
+          "structure": "arriba-abajo",
           "originalWord": "同志",
           "allTranslations": {
             "es": "compañero",
@@ -3981,12 +4689,17 @@
       ],
       "firstAppearance": 9,
       "originalWord": "同志",
-      "meaning": "compañeros"
+      "meaning": "compañeros",
+      "pinyin": "tóng zhì",
+      "strokes": "14",
+      "radical": "口 (boca) + 心 (corazón)",
+      "structure": "compuesto"
     },
     "痛苦": {
       "entries": [
         {
           "word": "痛苦",
+          "pinyin": "tòng kǔ",
           "meaning": "dolor",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -3994,6 +4707,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "12",
+          "radical": "疒 (enfermedad)",
+          "structure": "arriba-abajo",
           "originalWord": "痛苦",
           "allTranslations": {
             "es": "dolor",
@@ -4015,6 +4731,7 @@
         },
         {
           "word": "痛苦",
+          "pinyin": "tòng kǔ",
           "meaning": "miseria",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -4022,6 +4739,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "17",
+          "radical": "痛 (dolor)",
+          "structure": "arriba-abajo",
           "originalWord": "痛苦",
           "allTranslations": {
             "es": "miseria",
@@ -4049,12 +4769,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "痛苦",
-      "meaning": "dolor"
+      "meaning": "dolor",
+      "pinyin": "tòng kǔ",
+      "strokes": "12",
+      "radical": "疒 (enfermedad)",
+      "structure": "arriba-abajo"
     },
     "土地": {
       "entries": [
         {
           "word": "土地",
+          "pinyin": "tǔ dì",
           "meaning": "tierra",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -4062,6 +4787,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "6",
+          "radical": "土 (tierra)",
+          "structure": "izquierda-derecha",
           "originalWord": "土地",
           "allTranslations": {
             "es": "tierra",
@@ -4088,12 +4816,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "土地",
-      "meaning": "tierra"
+      "meaning": "tierra",
+      "pinyin": "tǔ dì",
+      "strokes": "6",
+      "radical": "土 (tierra)",
+      "structure": "izquierda-derecha"
     },
     "团结": {
       "entries": [
         {
           "word": "团结",
+          "pinyin": "tuán jié",
           "meaning": "unidad",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -4103,6 +4836,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "14",
+          "radical": "囗 (recinto)",
+          "structure": "izquierda-derecha",
           "originalWord": "团结",
           "allTranslations": {
             "es": "unidad",
@@ -4124,6 +4860,7 @@
         },
         {
           "word": "团结",
+          "pinyin": "tuán jié",
           "meaning": "solidaridad",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4132,6 +4869,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "14",
+          "radical": "囗 (recinto)",
+          "structure": "arriba-abajo",
           "originalWord": "团结",
           "allTranslations": {
             "es": "solidaridad",
@@ -4159,12 +4899,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "团结",
-      "meaning": "unidad"
+      "meaning": "unidad",
+      "pinyin": "tuán jié",
+      "strokes": "14",
+      "radical": "囗 (recinto)",
+      "structure": "izquierda-derecha"
     },
     "团结的": {
       "entries": [
         {
           "word": "团结的",
+          "pinyin": "tuánjié de",
           "meaning": "unido",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -4172,6 +4917,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "14",
+          "radical": "囗 (recinto)",
+          "structure": "izquierda-derecha",
           "originalWord": "团结的",
           "allTranslations": {
             "es": "unido",
@@ -4198,12 +4946,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "团结的",
-      "meaning": "unido"
+      "meaning": "unido",
+      "pinyin": "tuánjié de",
+      "strokes": "14",
+      "radical": "囗 (recinto)",
+      "structure": "izquierda-derecha"
     },
     "团结互助": {
       "entries": [
         {
           "word": "团结互助",
+          "pinyin": "tuánjié hùzhù",
           "meaning": "solidaridad",
           "source": "dia-11-einheitsfrontlied",
           "day": 11,
@@ -4211,6 +4964,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-11-einheitsfrontlied.md",
+          "strokes": "17",
+          "radical": "因 (causa)",
+          "structure": "izquierda-derecha",
           "originalWord": "团结互助",
           "allTranslations": {
             "es": "solidaridad",
@@ -4237,12 +4993,17 @@
       ],
       "firstAppearance": 11,
       "originalWord": "团结互助",
-      "meaning": "solidaridad"
+      "meaning": "solidaridad",
+      "pinyin": "tuánjié hùzhù",
+      "strokes": "17",
+      "radical": "因 (causa)",
+      "structure": "izquierda-derecha"
     },
     "伟大": {
       "entries": [
         {
           "word": "伟大",
+          "pinyin": "wěi dà",
           "meaning": "grande",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -4250,6 +5011,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "9",
+          "radical": "亻 (persona) + 大 (grande)",
+          "structure": "izquierda-derecha",
           "originalWord": "伟大",
           "allTranslations": {
             "es": "grande",
@@ -4276,12 +5040,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "伟大",
-      "meaning": "grande"
+      "meaning": "grande",
+      "pinyin": "wěi dà",
+      "strokes": "9",
+      "radical": "亻 (persona) + 大 (grande)",
+      "structure": "izquierda-derecha"
     },
     "无产阶级": {
       "entries": [
         {
           "word": "无产阶级",
+          "pinyin": "wú chǎn jiē jí",
           "meaning": "proletariado",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4289,6 +5058,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "20",
+          "radical": "无 (sin)",
+          "structure": "compuesto",
           "originalWord": "无产阶级",
           "allTranslations": {
             "es": "proletariado",
@@ -4315,12 +5087,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "无产阶级",
-      "meaning": "proletariado"
+      "meaning": "proletariado",
+      "pinyin": "wú chǎn jiē jí",
+      "strokes": "20",
+      "radical": "无 (sin)",
+      "structure": "compuesto"
     },
     "无产者": {
       "entries": [
         {
           "word": "无产者",
+          "pinyin": "wú chǎn zhě",
           "meaning": "proletario",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -4329,6 +5106,9 @@
             11
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "11",
+          "radical": "无 (nada) + 文 (cultura) + 者 (persona)",
+          "structure": "compuesto",
           "originalWord": "无产者",
           "allTranslations": {
             "es": "proletario",
@@ -4355,12 +5135,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "无产者",
-      "meaning": "proletario"
+      "meaning": "proletario",
+      "pinyin": "wú chǎn zhě",
+      "strokes": "11",
+      "radical": "无 (nada) + 文 (cultura) + 者 (persona)",
+      "structure": "compuesto"
     },
     "无政府主义": {
       "entries": [
         {
           "word": "无政府主义",
+          "pinyin": "wú zhèngfǔ zhǔyì",
           "meaning": "anarquismo",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -4369,6 +5154,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "24",
+          "radical": "无 (sin)",
+          "structure": "compuesto",
           "originalWord": "无政府主义",
           "allTranslations": {
             "es": "anarquismo",
@@ -4390,6 +5178,7 @@
         },
         {
           "word": "无政府主义",
+          "pinyin": "wú zhèngfǔ zhǔyì",
           "meaning": "anarquía",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -4397,6 +5186,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "16",
+          "radical": "无 (sin)",
+          "structure": "compuesto",
           "originalWord": "无政府主义",
           "allTranslations": {
             "es": "anarquía",
@@ -4424,12 +5216,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "无政府主义",
-      "meaning": "anarquismo"
+      "meaning": "anarquismo",
+      "pinyin": "wú zhèngfǔ zhǔyì",
+      "strokes": "24",
+      "radical": "无 (sin)",
+      "structure": "compuesto"
     },
     "无政府主义者": {
       "entries": [
         {
           "word": "无政府主义者",
+          "pinyin": "wúzhèngfǔzhǔyìzhě",
           "meaning": "anarquista",
           "source": "dia-12-en-la-plaza-de-mi-pueblo",
           "day": 12,
@@ -4437,6 +5234,9 @@
             12
           ],
           "filePath": "src/content/blog/dia-12-en-la-plaza-de-mi-pueblo.md",
+          "strokes": "23",
+          "radical": "政 (gobierno)",
+          "structure": "arriba-abajo",
           "originalWord": "无政府主义者",
           "allTranslations": {
             "es": "anarquista",
@@ -4463,12 +5263,17 @@
       ],
       "firstAppearance": 12,
       "originalWord": "无政府主义者",
-      "meaning": "anarquista"
+      "meaning": "anarquista",
+      "pinyin": "wúzhèngfǔzhǔyìzhě",
+      "strokes": "23",
+      "radical": "政 (gobierno)",
+      "structure": "arriba-abajo"
     },
     "行进": {
       "entries": [
         {
           "word": "行进",
+          "pinyin": "xíng jìn",
           "meaning": "marchar",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -4476,6 +5281,9 @@
             0
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "13",
+          "radical": "行 (caminar)",
+          "structure": "izquierda-derecha",
           "originalWord": "行进",
           "allTranslations": {
             "es": "marchar",
@@ -4497,6 +5305,7 @@
         },
         {
           "word": "行进",
+          "pinyin": "xíng jìn",
           "meaning": "marcha",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -4504,6 +5313,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "13",
+          "radical": "行 (caminar) + 辶 (caminar)",
+          "structure": "compuesto",
           "originalWord": "行进",
           "allTranslations": {
             "es": "marcha",
@@ -4531,12 +5343,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "行进",
-      "meaning": "marchar"
+      "meaning": "marchar",
+      "pinyin": "xíng jìn",
+      "strokes": "13",
+      "radical": "行 (caminar)",
+      "structure": "izquierda-derecha"
     },
     "血液": {
       "entries": [
         {
           "word": "血液",
+          "pinyin": "xuè yè",
           "meaning": "sangre",
           "source": "dia-02-l-internationale",
           "day": 2,
@@ -4544,6 +5361,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-02-l-internationale.md",
+          "strokes": "12",
+          "radical": "血 (sangre)",
+          "structure": "independiente",
           "originalWord": "血液",
           "allTranslations": {
             "es": "sangre",
@@ -4570,12 +5390,17 @@
       ],
       "firstAppearance": 2,
       "originalWord": "血液",
-      "meaning": "sangre"
+      "meaning": "sangre",
+      "pinyin": "xuè yè",
+      "strokes": "12",
+      "radical": "血 (sangre)",
+      "structure": "independiente"
     },
     "压迫": {
       "entries": [
         {
           "word": "压迫",
+          "pinyin": "yā pò",
           "meaning": "opresión",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -4583,6 +5408,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "16",
+          "radical": "土 (tierra) + 白 (blanco)",
+          "structure": "compuesto",
           "originalWord": "压迫",
           "allTranslations": {
             "es": "opresión",
@@ -4609,12 +5437,17 @@
       ],
       "firstAppearance": 9,
       "originalWord": "压迫",
-      "meaning": "opresión"
+      "meaning": "opresión",
+      "pinyin": "yā pò",
+      "strokes": "16",
+      "radical": "土 (tierra) + 白 (blanco)",
+      "structure": "compuesto"
     },
     "摇撼": {
       "entries": [
         {
           "word": "摇撼",
+          "pinyin": "yáo hàn",
           "meaning": "agitan",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -4622,6 +5455,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "14",
+          "radical": "扌 (mano)",
+          "structure": "izquierda-derecha",
           "originalWord": "摇撼",
           "allTranslations": {
             "es": "agitan",
@@ -4648,12 +5484,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "摇撼",
-      "meaning": "agitan"
+      "meaning": "agitan",
+      "pinyin": "yáo hàn",
+      "strokes": "14",
+      "radical": "扌 (mano)",
+      "structure": "izquierda-derecha"
     },
     "永恒的": {
       "entries": [
         {
           "word": "永恒的",
+          "pinyin": "yǒnghéng de",
           "meaning": "eterna",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -4661,6 +5502,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "14",
+          "radical": "水 (agua) + 心 (corazón)",
+          "structure": "compuesto",
           "originalWord": "永恒的",
           "allTranslations": {
             "es": "eterna",
@@ -4687,12 +5531,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "永恒的",
-      "meaning": "eterna"
+      "meaning": "eterna",
+      "pinyin": "yǒnghéng de",
+      "strokes": "14",
+      "radical": "水 (agua) + 心 (corazón)",
+      "structure": "compuesto"
     },
     "永远不会": {
       "entries": [
         {
           "word": "永远不会",
+          "pinyin": "yǒngyuǎn bù huì",
           "meaning": "jamás",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -4700,6 +5549,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "15",
+          "radical": "水 (agua) + 辶 (caminar)",
+          "structure": "compuesto",
           "originalWord": "永远不会",
           "allTranslations": {
             "es": "jamás",
@@ -4726,12 +5578,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "永远不会",
-      "meaning": "jamás"
+      "meaning": "jamás",
+      "pinyin": "yǒngyuǎn bù huì",
+      "strokes": "15",
+      "radical": "水 (agua) + 辶 (caminar)",
+      "structure": "compuesto"
     },
     "游击队": {
       "entries": [
         {
           "word": "游击队",
+          "pinyin": "yóu jī duì",
           "meaning": "partisanos",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -4739,6 +5596,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "9",
+          "radical": "辶 (camino)",
+          "structure": "semi-encierro",
           "originalWord": "游击队",
           "allTranslations": {
             "es": "partisanos",
@@ -4765,12 +5625,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "游击队",
-      "meaning": "partisanos"
+      "meaning": "partisanos",
+      "pinyin": "yóu jī duì",
+      "strokes": "9",
+      "radical": "辶 (camino)",
+      "structure": "semi-encierro"
     },
     "愚蠢": {
       "entries": [
         {
           "word": "愚蠢",
+          "pinyin": "yú chǔn",
           "meaning": "necio",
           "source": "dia-10-oy-ir-narishe-tsienistn",
           "day": 10,
@@ -4778,6 +5643,9 @@
             10
           ],
           "filePath": "src/content/blog/dia-10-oy-ir-narishe-tsienistn.md",
+          "strokes": "13",
+          "radical": "心 (corazón)",
+          "structure": "arriba-abajo",
           "originalWord": "愚蠢",
           "allTranslations": {
             "es": "necio",
@@ -4804,12 +5672,17 @@
       ],
       "firstAppearance": 10,
       "originalWord": "愚蠢",
-      "meaning": "necio"
+      "meaning": "necio",
+      "pinyin": "yú chǔn",
+      "strokes": "13",
+      "radical": "心 (corazón)",
+      "structure": "arriba-abajo"
     },
     "运动": {
       "entries": [
         {
           "word": "运动",
+          "pinyin": "yùn dòng",
           "meaning": "movimiento",
           "source": "dia-04-il-galeone",
           "day": 4,
@@ -4817,6 +5690,9 @@
             4
           ],
           "filePath": "src/content/blog/dia-04-il-galeone.md",
+          "strokes": "11",
+          "radical": "辶 (caminar)",
+          "structure": "izquierda-derecha",
           "originalWord": "运动",
           "allTranslations": {
             "es": "movimiento",
@@ -4843,12 +5719,17 @@
       ],
       "firstAppearance": 4,
       "originalWord": "运动",
-      "meaning": "movimiento"
+      "meaning": "movimiento",
+      "pinyin": "yùn dòng",
+      "strokes": "11",
+      "radical": "辶 (caminar)",
+      "structure": "izquierda-derecha"
     },
     "战斗": {
       "entries": [
         {
           "word": "战斗",
+          "pinyin": "zhàn dòu",
           "meaning": "luchar",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -4857,6 +5738,9 @@
             2
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "16",
+          "radical": "戈 (lanza)",
+          "structure": "izquierda-derecha",
           "originalWord": "战斗",
           "allTranslations": {
             "es": "luchar",
@@ -4883,12 +5767,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "战斗",
-      "meaning": "luchar"
+      "meaning": "luchar",
+      "pinyin": "zhàn dòu",
+      "strokes": "16",
+      "radical": "戈 (lanza)",
+      "structure": "izquierda-derecha"
     },
     "战胜": {
       "entries": [
         {
           "word": "战胜",
+          "pinyin": "zhàn shèng",
           "meaning": "vencer",
           "source": "dia-03-el-pueblo-unido",
           "day": 3,
@@ -4896,6 +5785,9 @@
             3
           ],
           "filePath": "src/content/blog/dia-03-el-pueblo-unido.md",
+          "strokes": "12",
+          "radical": "戈 (lanza)",
+          "structure": "izquierda-derecha",
           "originalWord": "战胜",
           "allTranslations": {
             "es": "vencer",
@@ -4922,12 +5814,17 @@
       ],
       "firstAppearance": 3,
       "originalWord": "战胜",
-      "meaning": "vencer"
+      "meaning": "vencer",
+      "pinyin": "zhàn shèng",
+      "strokes": "12",
+      "radical": "戈 (lanza)",
+      "structure": "izquierda-derecha"
     },
     "战士": {
       "entries": [
         {
           "word": "战士",
+          "pinyin": "zhàn shì",
           "meaning": "combatientes",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -4935,6 +5832,9 @@
             5
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "10",
+          "radical": "戈 (lanza)",
+          "structure": "izquierda-derecha",
           "originalWord": "战士",
           "allTranslations": {
             "es": "combatientes",
@@ -4961,12 +5861,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "战士",
-      "meaning": "combatientes"
+      "meaning": "combatientes",
+      "pinyin": "zhàn shì",
+      "strokes": "10",
+      "radical": "戈 (lanza)",
+      "structure": "izquierda-derecha"
     },
     "战争": {
       "entries": [
         {
           "word": "战争",
+          "pinyin": "zhàn zhēng",
           "meaning": "guerra",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -4976,6 +5881,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "16",
+          "radical": "戈 (lanza)",
+          "structure": "izquierda-derecha",
           "originalWord": "战争",
           "allTranslations": {
             "es": "guerra",
@@ -5002,12 +5910,17 @@
       ],
       "firstAppearance": 5,
       "originalWord": "战争",
-      "meaning": "guerra"
+      "meaning": "guerra",
+      "pinyin": "zhàn zhēng",
+      "strokes": "16",
+      "radical": "戈 (lanza)",
+      "structure": "izquierda-derecha"
     },
     "召唤": {
       "entries": [
         {
           "word": "召唤",
+          "pinyin": "zhào huàn",
           "meaning": "llama",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -5015,6 +5928,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "9",
+          "radical": "召 (convocar)",
+          "structure": "arriba-abajo",
           "originalWord": "召唤",
           "allTranslations": {
             "es": "llama",
@@ -5041,12 +5957,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "召唤",
-      "meaning": "llama"
+      "meaning": "llama",
+      "pinyin": "zhào huàn",
+      "strokes": "9",
+      "radical": "召 (convocar)",
+      "structure": "arriba-abajo"
     },
     "主席": {
       "entries": [
         {
           "word": "主席",
+          "pinyin": "zhǔ xí",
           "meaning": "presidente",
           "source": "dia-07-dongfang-hong",
           "day": 7,
@@ -5054,6 +5975,9 @@
             7
           ],
           "filePath": "src/content/blog/dia-07-dongfang-hong.md",
+          "strokes": "6",
+          "radical": "主 (señor)",
+          "structure": "arriba-abajo",
           "originalWord": "主席",
           "allTranslations": {
             "es": "presidente",
@@ -5080,12 +6004,17 @@
       ],
       "firstAppearance": 7,
       "originalWord": "主席",
-      "meaning": "presidente"
+      "meaning": "presidente",
+      "pinyin": "zhǔ xí",
+      "strokes": "6",
+      "radical": "主 (señor)",
+      "structure": "arriba-abajo"
     },
     "自由": {
       "entries": [
         {
           "word": "自由",
+          "pinyin": "zì yóu",
           "meaning": "libertad",
           "source": "dia-00-fundamentos-basicos",
           "day": 0,
@@ -5097,6 +6026,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-00-fundamentos-basicos.md",
+          "strokes": "11",
+          "radical": "自 (uno mismo)",
+          "structure": "arriba-abajo",
           "originalWord": "自由",
           "allTranslations": {
             "es": "libertad",
@@ -5123,12 +6055,17 @@
       ],
       "firstAppearance": 0,
       "originalWord": "自由",
-      "meaning": "libertad"
+      "meaning": "libertad",
+      "pinyin": "zì yóu",
+      "strokes": "11",
+      "radical": "自 (uno mismo)",
+      "structure": "arriba-abajo"
     },
     "自治管理": {
       "entries": [
         {
           "word": "自治管理",
+          "pinyin": "zìzhì guǎnlǐ",
           "meaning": "Autogestión",
           "source": "dia-01-a-las-barricadas",
           "day": 1,
@@ -5136,6 +6073,9 @@
             1
           ],
           "filePath": "src/content/blog/dia-01-a-las-barricadas.md",
+          "strokes": "19",
+          "radical": "自 (uno mismo)",
+          "structure": "compuesto",
           "originalWord": "自治管理",
           "allTranslations": {
             "es": "Autogestión",
@@ -5162,12 +6102,17 @@
       ],
       "firstAppearance": 1,
       "originalWord": "自治管理",
-      "meaning": "Autogestión"
+      "meaning": "Autogestión",
+      "pinyin": "zìzhì guǎnlǐ",
+      "strokes": "19",
+      "radical": "自 (uno mismo)",
+      "structure": "compuesto"
     },
     "总罢工": {
       "entries": [
         {
           "word": "总罢工",
+          "pinyin": "zǒng bàgōng",
           "meaning": "huelga general",
           "source": "dia-09-hijos-del-pueblo",
           "day": 9,
@@ -5175,6 +6120,9 @@
             9
           ],
           "filePath": "src/content/blog/dia-09-hijos-del-pueblo.md",
+          "strokes": "18",
+          "radical": "总 (total) + 工 (trabajo)",
+          "structure": "compuesto",
           "originalWord": "总罢工",
           "allTranslations": {
             "es": "huelga general",
@@ -5201,12 +6149,17 @@
       ],
       "firstAppearance": 9,
       "originalWord": "总罢工",
-      "meaning": "huelga general"
+      "meaning": "huelga general",
+      "pinyin": "zǒng bàgōng",
+      "strokes": "18",
+      "radical": "总 (total) + 工 (trabajo)",
+      "structure": "compuesto"
     },
     "祖国": {
       "entries": [
         {
           "word": "祖国",
+          "pinyin": "zǔ guó",
           "meaning": "patria",
           "source": "dia-05-pesn-partizan",
           "day": 5,
@@ -5215,6 +6168,9 @@
             8
           ],
           "filePath": "src/content/blog/dia-05-pesn-partizan.md",
+          "strokes": "14",
+          "radical": "示 (sagrado)",
+          "structure": "izquierda-derecha",
           "originalWord": "祖国",
           "allTranslations": {
             "es": "patria",
@@ -5241,7 +6197,11 @@
       ],
       "firstAppearance": 5,
       "originalWord": "祖国",
-      "meaning": "patria"
+      "meaning": "patria",
+      "pinyin": "zǔ guó",
+      "strokes": "14",
+      "radical": "示 (sagrado)",
+      "structure": "izquierda-derecha"
     }
   }
 }

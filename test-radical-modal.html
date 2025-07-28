@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Radical Modal - 口</title>
+    <style>
+        body { font-family: system-ui; margin: 2rem; }
+        .test-container { max-width: 800px; }
+        .radical-analyzer { background: #f8f9fa; border-radius: 12px; padding: 1.5rem; border: 2px solid #dee2e6; }
+        .loading-spinner { width: 40px; height: 40px; border: 3px solid #e9ecef; border-top: 3px solid #007bff; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 1rem; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .radical-content { display: none; }
+        .radical-error { display: none; color: #dc3545; text-align: center; padding: 2rem; }
+        .character-display { font-size: 3rem; font-family: 'SimSun', serif; color: #2c3e50; margin: 0.5rem 0; }
+        .radical-display { font-size: 2rem; font-family: 'SimSun', serif; color: #007bff; margin: 0.5rem 0; }
+        .radical-info { background: white; border-radius: 8px; padding: 1rem; border: 1px solid #dee2e6; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Test Radical Modal - Carácter 口</h1>
+        <p>Probando si el modal funciona con los archivos unificados...</p>
+        
+        <div class="radical-analyzer" data-character="口">
+            <div class="radical-loading">
+                <div class="loading-spinner"></div>
+                <p>Analizando radicales...</p>
+            </div>
+            
+            <div class="radical-content" style="display: none;">
+                <!-- Contenido se insertará aquí -->
+            </div>
+            
+            <div class="radical-error" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <p>No se pudo cargar el análisis de radicales</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const character = '口';
+        const baseUrl = './public/';  // Ajustar ruta según estructura
+        
+        const analyzer = document.querySelector(`[data-character="${character}"]`);
+        const loadingEl = analyzer.querySelector('.radical-loading');
+        const contentEl = analyzer.querySelector('.radical-content');
+        const errorEl = analyzer.querySelector('.radical-error');
+        
+        async function loadRadicalAnalysis() {
+            try {
+                console.log(`🔍 Cargando análisis de radicales para: ${character}`);
+                
+                // Cargar datos de radicales unificados y mapeo de caracteres
+                const [radicalsResponse, characterMapResponse] = await Promise.all([
+                    fetch(`${baseUrl}data/chinese/radicals-unified.json`),
+                    fetch(`${baseUrl}data/chinese/character-radical-unified.json`)
+                ]);
+                
+                if (!radicalsResponse.ok || !characterMapResponse.ok) {
+                    throw new Error(`HTTP Error: ${radicalsResponse.status} | ${characterMapResponse.status}`);
+                }
+                
+                const radicalsData = await radicalsResponse.json();
+                const characterMapData = await characterMapResponse.json();
+                const characterAnalysis = characterMapData.characters[character];
+                
+                if (!characterAnalysis) {
+                    throw new Error(`No se encontró análisis para el caracter: ${character}`);
+                }
+                
+                // Generar HTML del análisis
+                const analysisHTML = generateAnalysisHTML(characterAnalysis, radicalsData);
+                
+                // Mostrar contenido
+                loadingEl.style.display = 'none';
+                contentEl.innerHTML = analysisHTML;
+                contentEl.style.display = 'block';
+                
+                console.log(`✅ Análisis de radicales cargado para: ${character}`);
+                
+            } catch (error) {
+                console.error(`❌ Error cargando análisis de radicales:`, error);
+                loadingEl.style.display = 'none';
+                errorEl.innerHTML = `
+                    <div class="error-icon">⚠️</div>
+                    <p>Error: ${error.message}</p>
+                    <p>Archivos necesarios: radicals-unified.json, character-radical-unified.json</p>
+                `;
+                errorEl.style.display = 'block';
+            }
+        }
+        
+        function generateAnalysisHTML(analysis, radicalsData) {
+            const radicalInfo = radicalsData.radicals[analysis.radical];
+            
+            let html = `
+                <div class="radical-header">
+                    <h3>📚 Análisis de Radicales</h3>
+                    <div class="character-display">${analysis.character}</div>
+                    <div>Unicode: ${analysis.unicode} • Pinyin: ${analysis.pinyin || 'N/A'}</div>
+                </div>
+                
+                <div class="radical-info">
+                    <h4>🏗️ Radical Principal</h4>
+                    <div class="radical-display">${analysis.radical}</div>
+            `;
+            
+            if (radicalInfo && radicalInfo.meaning) {
+                html += `
+                    <div>Significado: ${radicalInfo.meaning.es}</div>
+                    <div>English: ${radicalInfo.meaning.en}</div>
+                    <div>Trazos del radical: ${radicalInfo.strokes || 'N/A'}</div>
+                `;
+            } else {
+                html += `<div>❌ Información del radical no disponible</div>`;
+            }
+            
+            html += `
+                </div>
+                <div class="radical-info">
+                    <h4>📋 Información del Carácter</h4>
+                    <div><strong>Pinyin:</strong> ${analysis.pinyin || 'N/A'}</div>
+                    <div><strong>Código Unicode:</strong> ${analysis.unicode}</div>
+                    <div><strong>Frecuencia:</strong> ${analysis.frequency || 'N/A'}</div>
+            `;
+            
+            if (analysis.definitions && analysis.definitions.length > 0) {
+                html += `
+                    <div style="margin-top: 0.75rem;">
+                        <strong>Definiciones:</strong>
+                        <ul>
+                            ${analysis.definitions.slice(0, 3).map(def => `<li>${def}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            html += `</div>`;
+            return html;
+        }
+        
+        // Cargar análisis inmediatamente
+        loadRadicalAnalysis();
+    });
+    </script>
+</body>
+</html>
