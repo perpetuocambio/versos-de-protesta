@@ -1,0 +1,2531 @@
+{
+  "metadata": {
+    "generatedAt": "2025-07-28T22:01:45.968Z",
+    "totalCharacters": 202,
+    "source": "CC-CEDICT (Creative Commons Chinese-English Dictionary)",
+    "license": "Creative Commons Attribution-Share Alike 3.0",
+    "attribution": "Character data based on CC-CEDICT",
+    "version": "1.0"
+  },
+  "characters": {
+    "一": {
+      "pinyin": "yī",
+      "definitions": [
+        "one",
+        "single",
+        "a (article)",
+        "as soon as",
+        "entire; whole; all; throughout",
+        "\"one\" radical in Chinese characters (Kangxi radical 1)",
+        "also pr. [yao1] for greater clarity when spelling out numbers digit by digit"
+      ],
+      "frequency": 1278,
+      "unicode": 19968,
+      "traditional": "一"
+    },
+    "下": {
+      "pinyin": "xià",
+      "definitions": [
+        "down",
+        "downwards",
+        "below",
+        "lower",
+        "later",
+        "next (week etc)",
+        "second (of two parts)",
+        "to decline",
+        "to go down",
+        "to arrive at (a decision, conclusion etc)",
+        "measure word to show the frequency of an action"
+      ],
+      "frequency": 559,
+      "unicode": 19979,
+      "traditional": "下"
+    },
+    "不": {
+      "pinyin": "bù",
+      "definitions": [
+        "no; not so",
+        "(bound form) not; un-"
+      ],
+      "frequency": 2313,
+      "unicode": 19981,
+      "traditional": "不"
+    },
+    "世": {
+      "pinyin": "shì",
+      "definitions": [
+        "life",
+        "age",
+        "generation",
+        "era",
+        "world",
+        "lifetime",
+        "epoch",
+        "descendant",
+        "noble"
+      ],
+      "frequency": 314,
+      "unicode": 19990,
+      "traditional": "世"
+    },
+    "东": {
+      "pinyin": "dong",
+      "definitions": [
+        "east",
+        "host (i.e. sitting on east side of guest)",
+        "landlord"
+      ],
+      "frequency": 414,
+      "unicode": 19996,
+      "traditional": "東"
+    },
+    "主": {
+      "pinyin": "zhǔ",
+      "definitions": [
+        "owner",
+        "master",
+        "host",
+        "individual or party concerned",
+        "God",
+        "Lord",
+        "main",
+        "to indicate or signify",
+        "trump card (in card games)"
+      ],
+      "frequency": 533,
+      "unicode": 20027,
+      "traditional": "主"
+    },
+    "举": {
+      "pinyin": "jǔ",
+      "definitions": [
+        "to lift",
+        "to hold up",
+        "to cite",
+        "to enumerate",
+        "to act",
+        "to raise",
+        "to choose",
+        "to elect",
+        "act",
+        "move",
+        "deed"
+      ],
+      "frequency": 121,
+      "unicode": 20030,
+      "traditional": "舉"
+    },
+    "么": {
+      "pinyin": "me",
+      "definitions": [
+        "variant of 麼|么[me5]"
+      ],
+      "frequency": 56,
+      "unicode": 20040,
+      "traditional": "麽"
+    },
+    "义": {
+      "pinyin": "yì",
+      "definitions": [
+        "justice",
+        "righteousness",
+        "meaning",
+        "foster (father etc)",
+        "adopted",
+        "artificial (tooth, limb etc)",
+        "relationship",
+        "friendship"
+      ],
+      "frequency": 441,
+      "unicode": 20041,
+      "traditional": "義"
+    },
+    "之": {
+      "pinyin": "zhī",
+      "definitions": [
+        "(possessive particle, literary equivalent of 的[de5])",
+        "him",
+        "her",
+        "it"
+      ],
+      "frequency": 552,
+      "unicode": 20043,
+      "traditional": "之"
+    },
+    "书": {
+      "pinyin": "shū",
+      "definitions": [
+        "book",
+        "letter",
+        "document",
+        "CL:本[ben3],冊|册[ce4],部[bu4]",
+        "to write"
+      ],
+      "frequency": 364,
+      "unicode": 20070,
+      "traditional": "書"
+    },
+    "争": {
+      "pinyin": "zheng",
+      "definitions": [
+        "to strive for",
+        "to vie for",
+        "to argue or debate",
+        "deficient or lacking (dialect)",
+        "how or what (literary)"
+      ],
+      "frequency": 139,
+      "unicode": 20105,
+      "traditional": "爭"
+    },
+    "互": {
+      "pinyin": "hù",
+      "definitions": [
+        "mutual"
+      ],
+      "frequency": 63,
+      "unicode": 20114,
+      "traditional": "互"
+    },
+    "亡": {
+      "pinyin": "wang",
+      "definitions": [
+        "old variant of 亡[wang2]"
+      ],
+      "frequency": 71,
+      "unicode": 20129,
+      "traditional": "亾"
+    },
+    "产": {
+      "pinyin": "chan",
+      "definitions": [
+        "variant of 產|产[chan3]"
+      ],
+      "frequency": 258,
+      "unicode": 20135,
+      "traditional": "産"
+    },
+    "人": {
+      "pinyin": "ren",
+      "definitions": [
+        "person; people",
+        "CL:個|个[ge4],位[wei4]"
+      ],
+      "frequency": 1756,
+      "unicode": 20154,
+      "traditional": "人"
+    },
+    "什": {
+      "pinyin": "shí",
+      "definitions": [
+        "ten (used in fractions, writing checks etc)",
+        "assorted",
+        "miscellaneous"
+      ],
+      "frequency": 91,
+      "unicode": 20160,
+      "traditional": "什"
+    },
+    "们": {
+      "pinyin": "men",
+      "definitions": [
+        "plural marker for pronouns, and nouns referring to individuals"
+      ],
+      "frequency": 23,
+      "unicode": 20204,
+      "traditional": "們"
+    },
+    "会": {
+      "pinyin": "kuaì",
+      "definitions": [
+        "(bound form) to reckon accounts"
+      ],
+      "frequency": 646,
+      "unicode": 20250,
+      "traditional": "會"
+    },
+    "伟": {
+      "pinyin": "weǐ",
+      "definitions": [
+        "big",
+        "large",
+        "great"
+      ],
+      "frequency": 29,
+      "unicode": 20255,
+      "traditional": "偉"
+    },
+    "作": {
+      "pinyin": "zuò",
+      "definitions": [
+        "to do; to engage in",
+        "to write; to compose",
+        "to pretend; to feign",
+        "to regard as; to consider to be",
+        "to be; to act the part of",
+        "to feel (itchy, nauseous etc)",
+        "writings; works"
+      ],
+      "frequency": 394,
+      "unicode": 20316,
+      "traditional": "作"
+    },
+    "光": {
+      "pinyin": "guang",
+      "definitions": [
+        "light; ray (CL:道[dao4])",
+        "bright; shiny",
+        "only; merely",
+        "used up; finished",
+        "to leave (a part of the body) uncovered"
+      ],
+      "frequency": 446,
+      "unicode": 20809,
+      "traditional": "光"
+    },
+    "党": {
+      "pinyin": "dang",
+      "definitions": [
+        "party",
+        "association",
+        "club",
+        "society",
+        "CL:個|个[ge4]"
+      ],
+      "frequency": 142,
+      "unicode": 20826,
+      "traditional": "黨"
+    },
+    "公": {
+      "pinyin": "gong",
+      "definitions": [
+        "public",
+        "collectively owned",
+        "common",
+        "international (e.g. high seas, metric system, calendar)",
+        "make public",
+        "fair",
+        "just",
+        "Duke, highest of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]",
+        "honorable (gentlemen)",
+        "father-in-law",
+        "male (animal)"
+      ],
+      "frequency": 617,
+      "unicode": 20844,
+      "traditional": "公"
+    },
+    "共": {
+      "pinyin": "gong",
+      "definitions": [
+        "common",
+        "general",
+        "to share",
+        "together",
+        "total",
+        "altogether",
+        "abbr. for 共產黨|共产党[Gong4 chan3 dang3], Communist party"
+      ],
+      "frequency": 189,
+      "unicode": 20849,
+      "traditional": "共"
+    },
+    "兵": {
+      "pinyin": "bing",
+      "definitions": [
+        "soldiers",
+        "a force",
+        "an army",
+        "weapons",
+        "arms",
+        "military",
+        "warlike",
+        "CL:個|个[ge4]"
+      ],
+      "frequency": 180,
+      "unicode": 20853,
+      "traditional": "兵"
+    },
+    "写": {
+      "pinyin": "xiè",
+      "definitions": [
+        "used in 寫意|写意[xie4yi4]"
+      ],
+      "frequency": 88,
+      "unicode": 20889,
+      "traditional": "寫"
+    },
+    "军": {
+      "pinyin": "jun",
+      "definitions": [
+        "(bound form) army",
+        "military"
+      ],
+      "frequency": 293,
+      "unicode": 20891,
+      "traditional": "軍"
+    },
+    "农": {
+      "pinyin": "nong",
+      "definitions": [
+        "variant of 農|农[nong2]"
+      ],
+      "frequency": 137,
+      "unicode": 20892,
+      "traditional": "辳"
+    },
+    "出": {
+      "pinyin": "chū",
+      "definitions": [
+        "variant of 出[chu1] (classifier for plays or chapters of classical novels)"
+      ],
+      "frequency": 565,
+      "unicode": 20986,
+      "traditional": "齣"
+    },
+    "击": {
+      "pinyin": "jī",
+      "definitions": [
+        "to hit",
+        "to strike",
+        "to break",
+        "Taiwan pr. [ji2]"
+      ],
+      "frequency": 153,
+      "unicode": 20987,
+      "traditional": "擊"
+    },
+    "利": {
+      "pinyin": "lì",
+      "definitions": [
+        "sharp",
+        "favorable",
+        "advantage",
+        "benefit",
+        "profit",
+        "interest",
+        "to do good to",
+        "to benefit"
+      ],
+      "frequency": 564,
+      "unicode": 21033,
+      "traditional": "利"
+    },
+    "前": {
+      "pinyin": "qian",
+      "definitions": [
+        "front",
+        "forward",
+        "ahead",
+        "first",
+        "top (followed by a number)",
+        "future",
+        "ago",
+        "before",
+        "BC (e.g. 前293年)",
+        "former",
+        "formerly"
+      ],
+      "frequency": 337,
+      "unicode": 21069,
+      "traditional": "前"
+    },
+    "力": {
+      "pinyin": "lì",
+      "definitions": [
+        "power",
+        "force",
+        "strength",
+        "ability",
+        "strenuously"
+      ],
+      "frequency": 570,
+      "unicode": 21147,
+      "traditional": "力"
+    },
+    "动": {
+      "pinyin": "dong",
+      "definitions": [
+        "(of sth) to move",
+        "to set in movement",
+        "to displace",
+        "to touch",
+        "to make use of",
+        "to stir (emotions)",
+        "to alter",
+        "abbr. for 動詞|动词[dong4 ci2], verb"
+      ],
+      "frequency": 699,
+      "unicode": 21160,
+      "traditional": "動"
+    },
+    "助": {
+      "pinyin": "zhù",
+      "definitions": [
+        "to help",
+        "to assist"
+      ],
+      "frequency": 101,
+      "unicode": 21161,
+      "traditional": "助"
+    },
+    "劳": {
+      "pinyin": "laó",
+      "definitions": [
+        "(bound form) to toil; labor",
+        "(bound form) laborer",
+        "(bound form) meritorious deed",
+        "(bound form) fatigue",
+        "to put sb to the trouble (of doing sth)",
+        "to express one's appreciation (Taiwan pr. [lao4])"
+      ],
+      "frequency": 160,
+      "unicode": 21171,
+      "traditional": "勞"
+    },
+    "升": {
+      "pinyin": "sheng",
+      "definitions": [
+        "to ascend; to rise (variant of 升[sheng1])",
+        "to promote; to elevate (variant of 升[sheng1])"
+      ],
+      "frequency": 85,
+      "unicode": 21319,
+      "traditional": "陞"
+    },
+    "卫": {
+      "pinyin": "weì",
+      "definitions": [
+        "to guard",
+        "to protect",
+        "to defend",
+        "abbr. for 衛生|卫生, hygiene",
+        "health",
+        "abbr. for 衛生間|卫生间, toilet"
+      ],
+      "frequency": 164,
+      "unicode": 21355,
+      "traditional": "衛"
+    },
+    "历": {
+      "pinyin": "lì",
+      "definitions": [
+        "to experience",
+        "to undergo",
+        "to pass through",
+        "all",
+        "each",
+        "every",
+        "history"
+      ],
+      "frequency": 124,
+      "unicode": 21382,
+      "traditional": "歷"
+    },
+    "压": {
+      "pinyin": "yà",
+      "definitions": [
+        "used in 壓根兒|压根儿[ya4gen1r5]",
+        "used in 壓馬路|压马路[ya4ma3lu4]",
+        "used in 壓板|压板[ya4ban3]"
+      ],
+      "frequency": 179,
+      "unicode": 21387,
+      "traditional": "壓"
+    },
+    "反": {
+      "pinyin": "fan",
+      "definitions": [
+        "contrary",
+        "in reverse",
+        "inside out or upside down",
+        "to reverse",
+        "to return",
+        "to oppose",
+        "opposite",
+        "against",
+        "anti-",
+        "to rebel",
+        "to use analogy",
+        "instead",
+        "abbr. for 反切[fan3 qie4] phonetic system"
+      ],
+      "frequency": 344,
+      "unicode": 21453,
+      "traditional": "反"
+    },
+    "受": {
+      "pinyin": "shoù",
+      "definitions": [
+        "to receive",
+        "to accept",
+        "to suffer",
+        "subjected to",
+        "to bear",
+        "to stand",
+        "pleasant",
+        "(passive marker)",
+        "(LGBT) bottom"
+      ],
+      "frequency": 185,
+      "unicode": 21463,
+      "traditional": "受"
+    },
+    "口": {
+      "pinyin": "koǔ",
+      "definitions": [
+        "mouth",
+        "classifier for things with mouths (people, domestic animals, cannons, wells etc)",
+        "classifier for bites or mouthfuls"
+      ],
+      "frequency": 553,
+      "unicode": 21475,
+      "traditional": "口"
+    },
+    "召": {
+      "pinyin": "zhaò",
+      "definitions": [
+        "to call together",
+        "to summon",
+        "to convene",
+        "temple or monastery (used in place names in Inner Mongolia)"
+      ],
+      "frequency": 28,
+      "unicode": 21484,
+      "traditional": "召"
+    },
+    "史": {
+      "pinyin": "shǐ",
+      "definitions": [
+        "history",
+        "annals",
+        "title of an official historian in ancient China"
+      ],
+      "frequency": 158,
+      "unicode": 21490,
+      "traditional": "史"
+    },
+    "同": {
+      "pinyin": "tong",
+      "definitions": [
+        "used in 衚衕|胡同[hu2tong4]"
+      ],
+      "frequency": 350,
+      "unicode": 21516,
+      "traditional": "衕"
+    },
+    "听": {
+      "pinyin": "ting",
+      "definitions": [
+        "to listen to; to hear",
+        "to heed; to obey",
+        "a can (loanword from English \"tin\")",
+        "classifier for canned beverages",
+        "to let be; to allow (Taiwan pr. [ting4])",
+        "(literary) to administer; to deal with (Taiwan pr. [ting4])"
+      ],
+      "frequency": 141,
+      "unicode": 21548,
+      "traditional": "聽"
+    },
+    "员": {
+      "pinyin": "yuan",
+      "definitions": [
+        "(bound form) person engaged in a certain field of activity",
+        "(bound form) member",
+        "classifier for military generals"
+      ],
+      "frequency": 297,
+      "unicode": 21592,
+      "traditional": "員"
+    },
+    "和": {
+      "pinyin": "hé",
+      "definitions": [
+        "(literary) harmonious (variant of 和[he2])"
+      ],
+      "frequency": 337,
+      "unicode": 21644,
+      "traditional": "龢"
+    },
+    "咒": {
+      "pinyin": "zhoù",
+      "definitions": [
+        "incantation",
+        "magic spell",
+        "curse",
+        "malediction",
+        "to revile",
+        "to put a curse on sb"
+      ],
+      "frequency": 14,
+      "unicode": 21650,
+      "traditional": "咒"
+    },
+    "唤": {
+      "pinyin": "huan",
+      "definitions": [
+        "to call"
+      ],
+      "frequency": 14,
+      "unicode": 21796,
+      "traditional": "喚"
+    },
+    "唱": {
+      "pinyin": "chang",
+      "definitions": [
+        "to sing",
+        "to call loudly",
+        "to chant"
+      ],
+      "frequency": 86,
+      "unicode": 21809,
+      "traditional": "唱"
+    },
+    "团": {
+      "pinyin": "tuan",
+      "definitions": [
+        "dumpling"
+      ],
+      "frequency": 182,
+      "unicode": 22242,
+      "traditional": "糰"
+    },
+    "国": {
+      "pinyin": "guó",
+      "definitions": [
+        "country; nation; state",
+        "(bound form) national"
+      ],
+      "frequency": 1039,
+      "unicode": 22269,
+      "traditional": "國"
+    },
+    "土": {
+      "pinyin": "tǔ",
+      "definitions": [
+        "earth",
+        "dust",
+        "clay",
+        "local",
+        "indigenous",
+        "crude opium",
+        "unsophisticated",
+        "one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
+      ],
+      "frequency": 280,
+      "unicode": 22303,
+      "traditional": "土"
+    },
+    "圣": {
+      "pinyin": "sheng",
+      "definitions": [
+        "(bound form) peerless (in wisdom, moral virtue, skill etc)",
+        "(bound form) peerless individual; paragon (sage, saint, emperor, master of a skill etc)",
+        "(bound form) holy; sacred"
+      ],
+      "frequency": 198,
+      "unicode": 22307,
+      "traditional": "聖"
+    },
+    "地": {
+      "pinyin": "dì",
+      "definitions": [
+        "earth",
+        "ground",
+        "field",
+        "place",
+        "land",
+        "CL:片[pian4]"
+      ],
+      "frequency": 819,
+      "unicode": 22320,
+      "traditional": "地"
+    },
+    "场": {
+      "pinyin": "chang",
+      "definitions": [
+        "variant of 場|场[chang3]"
+      ],
+      "frequency": 336,
+      "unicode": 22330,
+      "traditional": "塲"
+    },
+    "坏": {
+      "pinyin": "huaì",
+      "definitions": [
+        "bad",
+        "spoiled",
+        "broken",
+        "to break down",
+        "(suffix) to the utmost"
+      ],
+      "frequency": 71,
+      "unicode": 22351,
+      "traditional": "壞"
+    },
+    "垄": {
+      "pinyin": "long",
+      "definitions": [
+        "ridge between fields",
+        "crop row; mounded soil forming a ridge in a field",
+        "grave mound"
+      ],
+      "frequency": 7,
+      "unicode": 22404,
+      "traditional": "壟"
+    },
+    "埃": {
+      "pinyin": "aī",
+      "definitions": [
+        "dust",
+        "dirt",
+        "angstrom",
+        "phonetic ai or e"
+      ],
+      "frequency": 95,
+      "unicode": 22467,
+      "traditional": "埃"
+    },
+    "士": {
+      "pinyin": "shì",
+      "definitions": [
+        "member of the senior ministerial class (old)",
+        "scholar (old)",
+        "bachelor",
+        "honorific",
+        "soldier",
+        "noncommissioned officer",
+        "specialist worker"
+      ],
+      "frequency": 281,
+      "unicode": 22763,
+      "traditional": "士"
+    },
+    "大": {
+      "pinyin": "daì",
+      "definitions": [
+        "see 大夫[dai4 fu5]"
+      ],
+      "frequency": 1856,
+      "unicode": 22823,
+      "traditional": "大"
+    },
+    "天": {
+      "pinyin": "tian",
+      "definitions": [
+        "day",
+        "sky",
+        "heaven"
+      ],
+      "frequency": 789,
+      "unicode": 22825,
+      "traditional": "天"
+    },
+    "太": {
+      "pinyin": "taì",
+      "definitions": [
+        "highest",
+        "greatest",
+        "too (much)",
+        "very",
+        "extremely"
+      ],
+      "frequency": 274,
+      "unicode": 22826,
+      "traditional": "太"
+    },
+    "头": {
+      "pinyin": "tou",
+      "definitions": [
+        "suffix for nouns"
+      ],
+      "frequency": 958,
+      "unicode": 22836,
+      "traditional": "頭"
+    },
+    "奴": {
+      "pinyin": "nú",
+      "definitions": [
+        "slave"
+      ],
+      "frequency": 48,
+      "unicode": 22900,
+      "traditional": "奴"
+    },
+    "子": {
+      "pinyin": "zi",
+      "definitions": [
+        "noun suffix, as in 椅子[yi3zi5] \"chair\""
+      ],
+      "frequency": 1800,
+      "unicode": 23376,
+      "traditional": "子"
+    },
+    "孩": {
+      "pinyin": "haí",
+      "definitions": [
+        "(bound form) child"
+      ],
+      "frequency": 33,
+      "unicode": 23401,
+      "traditional": "孩"
+    },
+    "密": {
+      "pinyin": "mì",
+      "definitions": [
+        "dense; close; thick",
+        "intimate; close",
+        "(bound form) secret; confidential",
+        "(Internet slang) to send a private message to (sb); to DM"
+      ],
+      "frequency": 218,
+      "unicode": 23494,
+      "traditional": "密"
+    },
+    "将": {
+      "pinyin": "qiang",
+      "definitions": [
+        "to desire",
+        "to invite",
+        "to request"
+      ],
+      "frequency": 109,
+      "unicode": 23558,
+      "traditional": "將"
+    },
+    "居": {
+      "pinyin": "jū",
+      "definitions": [
+        "to reside",
+        "to be (in a certain position)",
+        "to store up",
+        "to be at a standstill",
+        "residence",
+        "house",
+        "restaurant",
+        "classifier for bedrooms"
+      ],
+      "frequency": 153,
+      "unicode": 23621,
+      "traditional": "居"
+    },
+    "山": {
+      "pinyin": "shan",
+      "definitions": [
+        "mountain; hill (CL:座[zuo4])",
+        "(coll.) small bundle of straw for silkworms to spin cocoons on"
+      ],
+      "frequency": 1013,
+      "unicode": 23665,
+      "traditional": "山"
+    },
+    "工": {
+      "pinyin": "gong",
+      "definitions": [
+        "work",
+        "worker",
+        "skill",
+        "profession",
+        "trade",
+        "craft",
+        "labor"
+      ],
+      "frequency": 473,
+      "unicode": 24037,
+      "traditional": "工"
+    },
+    "帆": {
+      "pinyin": "fan",
+      "definitions": [
+        "to gallop",
+        "Taiwan pr. [fan2]",
+        "variant of 帆[fan1]"
+      ],
+      "frequency": 25,
+      "unicode": 24070,
+      "traditional": "颿"
+    },
+    "帜": {
+      "pinyin": "zhì",
+      "definitions": [
+        "flag"
+      ],
+      "frequency": 7,
+      "unicode": 24092,
+      "traditional": "幟"
+    },
+    "席": {
+      "pinyin": "xí",
+      "definitions": [
+        "variant of 席[xi2]",
+        "woven mat"
+      ],
+      "frequency": 83,
+      "unicode": 24109,
+      "traditional": "蓆"
+    },
+    "幻": {
+      "pinyin": "huan",
+      "definitions": [
+        "fantasy"
+      ],
+      "frequency": 38,
+      "unicode": 24187,
+      "traditional": "幻"
+    },
+    "府": {
+      "pinyin": "fǔ",
+      "definitions": [
+        "seat of government",
+        "government repository (archive)",
+        "official residence",
+        "mansion",
+        "presidential palace",
+        "(honorific) Your home",
+        "prefecture (from Tang to Qing times)"
+      ],
+      "frequency": 90,
+      "unicode": 24220,
+      "traditional": "府"
+    },
+    "强": {
+      "pinyin": "qiang",
+      "definitions": [
+        "variant of 強|强[qiang3]"
+      ],
+      "frequency": 206,
+      "unicode": 24378,
+      "traditional": "彊"
+    },
+    "待": {
+      "pinyin": "daì",
+      "definitions": [
+        "to wait",
+        "to treat",
+        "to deal with",
+        "to need",
+        "going to (do sth)",
+        "about to",
+        "intending to"
+      ],
+      "frequency": 107,
+      "unicode": 24453,
+      "traditional": "待"
+    },
+    "御": {
+      "pinyin": "yù",
+      "definitions": [
+        "(bound form) to defend; to resist"
+      ],
+      "frequency": 38,
+      "unicode": 24481,
+      "traditional": "禦"
+    },
+    "志": {
+      "pinyin": "zhì",
+      "definitions": [
+        "sign",
+        "mark",
+        "to record",
+        "to write a footnote"
+      ],
+      "frequency": 133,
+      "unicode": 24535,
+      "traditional": "誌"
+    },
+    "性": {
+      "pinyin": "xing",
+      "definitions": [
+        "nature",
+        "character",
+        "property",
+        "quality",
+        "attribute",
+        "sexuality",
+        "sex",
+        "gender",
+        "suffix forming adjective from verb",
+        "suffix forming noun from adjective, corresponding to -ness or -ity",
+        "essence",
+        "CL:個|个[ge4]"
+      ],
+      "frequency": 726,
+      "unicode": 24615,
+      "traditional": "性"
+    },
+    "总": {
+      "pinyin": "zong",
+      "definitions": [
+        "(bound form) general; overall",
+        "to sum up",
+        "in every case; always; invariably",
+        "anyway; after all; eventually; sooner or later",
+        "surely",
+        "(after a person's name) abbr. for 總經理|总经理[zong3jing1li3] or 總編|总编[zong3bian1] etc"
+      ],
+      "frequency": 174,
+      "unicode": 24635,
+      "traditional": "總"
+    },
+    "恒": {
+      "pinyin": "heng",
+      "definitions": [
+        "variant of 恆|恒[heng2]"
+      ],
+      "frequency": 47,
+      "unicode": 24658,
+      "traditional": "恒"
+    },
+    "想": {
+      "pinyin": "xiang",
+      "definitions": [
+        "to think (about)",
+        "to think of; to devise",
+        "to think (that); to believe (that)",
+        "to desire; to want (to)",
+        "to miss (feel wistful about the absence of)"
+      ],
+      "frequency": 149,
+      "unicode": 24819,
+      "traditional": "想"
+    },
+    "愚": {
+      "pinyin": "yú",
+      "definitions": [
+        "to be stupid",
+        "to cheat or deceive",
+        "me or I (modest)"
+      ],
+      "frequency": 32,
+      "unicode": 24858,
+      "traditional": "愚"
+    },
+    "战": {
+      "pinyin": "zhan",
+      "definitions": [
+        "to fight",
+        "fight",
+        "war",
+        "battle"
+      ],
+      "frequency": 317,
+      "unicode": 25112,
+      "traditional": "戰"
+    },
+    "抗": {
+      "pinyin": "kang",
+      "definitions": [
+        "to resist",
+        "to fight",
+        "to defy",
+        "anti-"
+      ],
+      "frequency": 95,
+      "unicode": 25239,
+      "traditional": "抗"
+    },
+    "拳": {
+      "pinyin": "quan",
+      "definitions": [
+        "fist",
+        "boxing"
+      ],
+      "frequency": 82,
+      "unicode": 25331,
+      "traditional": "拳"
+    },
+    "捍": {
+      "pinyin": "han",
+      "definitions": [
+        "to ward off (a blow)",
+        "to withstand",
+        "to defend"
+      ],
+      "frequency": 4,
+      "unicode": 25421,
+      "traditional": "捍"
+    },
+    "摇": {
+      "pinyin": "yaó",
+      "definitions": [
+        "to shake",
+        "to rock",
+        "to row",
+        "to crank"
+      ],
+      "frequency": 71,
+      "unicode": 25671,
+      "traditional": "搖"
+    },
+    "撼": {
+      "pinyin": "han",
+      "definitions": [
+        "to shake",
+        "to vibrate"
+      ],
+      "frequency": 12,
+      "unicode": 25788,
+      "traditional": "撼"
+    },
+    "放": {
+      "pinyin": "fang",
+      "definitions": [
+        "to put",
+        "to place",
+        "to release",
+        "to free",
+        "to let go",
+        "to let out",
+        "to set off (fireworks)"
+      ],
+      "frequency": 261,
+      "unicode": 25918,
+      "traditional": "放"
+    },
+    "政": {
+      "pinyin": "zheng",
+      "definitions": [
+        "political",
+        "politics",
+        "government"
+      ],
+      "frequency": 255,
+      "unicode": 25919,
+      "traditional": "政"
+    },
+    "敌": {
+      "pinyin": "dí",
+      "definitions": [
+        "(bound form) enemy",
+        "(bound form) to be a match for; to rival",
+        "(bound form) to resist; to withstand"
+      ],
+      "frequency": 83,
+      "unicode": 25932,
+      "traditional": "敵"
+    },
+    "救": {
+      "pinyin": "jiù",
+      "definitions": [
+        "to save",
+        "to assist",
+        "to rescue"
+      ],
+      "frequency": 97,
+      "unicode": 25937,
+      "traditional": "救"
+    },
+    "散": {
+      "pinyin": "san",
+      "definitions": [
+        "to scatter",
+        "to break up (a meeting etc)",
+        "to disperse",
+        "to disseminate",
+        "to dispel",
+        "(coll.) to sack"
+      ],
+      "frequency": 163,
+      "unicode": 25955,
+      "traditional": "散"
+    },
+    "斗": {
+      "pinyin": "doù",
+      "definitions": [
+        "variant of 鬥|斗[dou4]"
+      ],
+      "frequency": 183,
+      "unicode": 26007,
+      "traditional": "鬭"
+    },
+    "斯": {
+      "pinyin": "sī",
+      "definitions": [
+        "(phonetic)",
+        "this"
+      ],
+      "frequency": 925,
+      "unicode": 26031,
+      "traditional": "斯"
+    },
+    "方": {
+      "pinyin": "fang",
+      "definitions": [
+        "square",
+        "power or involution (math.)",
+        "upright",
+        "honest",
+        "fair and square",
+        "direction",
+        "side",
+        "party (to a contract, dispute etc)",
+        "place",
+        "method",
+        "prescription (medicine)",
+        "just when",
+        "only or just",
+        "classifier for square things",
+        "abbr. for square or cubic meter"
+      ],
+      "frequency": 415,
+      "unicode": 26041,
+      "traditional": "方"
+    },
+    "旗": {
+      "pinyin": "qí",
+      "definitions": [
+        "banner",
+        "flag",
+        "(in Qing times) Manchu (cf. 八旗[Ba1 qi2])",
+        "administrative subdivision in inner Mongolia equivalent to 縣|县[xian4] county",
+        "CL:面[mian4]"
+      ],
+      "frequency": 134,
+      "unicode": 26071,
+      "traditional": "旗"
+    },
+    "无": {
+      "pinyin": "wú",
+      "definitions": [
+        "not to have",
+        "no",
+        "none",
+        "not",
+        "to lack",
+        "un-",
+        "-less"
+      ],
+      "frequency": 831,
+      "unicode": 26080,
+      "traditional": "無"
+    },
+    "明": {
+      "pinyin": "ming",
+      "definitions": [
+        "bright",
+        "opposite: dark 暗[an4]",
+        "(of meaning) clear",
+        "to understand",
+        "next",
+        "public or open",
+        "wise",
+        "generic term for a sacrifice to the gods"
+      ],
+      "frequency": 424,
+      "unicode": 26126,
+      "traditional": "明"
+    },
+    "星": {
+      "pinyin": "xing",
+      "definitions": [
+        "star",
+        "heavenly body",
+        "satellite",
+        "small amount"
+      ],
+      "frequency": 345,
+      "unicode": 26143,
+      "traditional": "星"
+    },
+    "是": {
+      "pinyin": "shì",
+      "definitions": [
+        "variant of 是[shi4]"
+      ],
+      "frequency": 162,
+      "unicode": 26159,
+      "traditional": "昰"
+    },
+    "暴": {
+      "pinyin": "pù",
+      "definitions": [
+        "variant of 曝[pu4]"
+      ],
+      "frequency": 123,
+      "unicode": 26292,
+      "traditional": "暴"
+    },
+    "有": {
+      "pinyin": "yoǔ",
+      "definitions": [
+        "to have; there is",
+        "(bound form) having; with; -ful; -ed; -al (as in 有意[you3yi4] intentional)"
+      ],
+      "frequency": 728,
+      "unicode": 26377,
+      "traditional": "有"
+    },
+    "权": {
+      "pinyin": "quan",
+      "definitions": [
+        "authority",
+        "power",
+        "right",
+        "(literary) to weigh",
+        "expedient",
+        "temporary"
+      ],
+      "frequency": 241,
+      "unicode": 26435,
+      "traditional": "權"
+    },
+    "来": {
+      "pinyin": "laí",
+      "definitions": [
+        "to come",
+        "(used as a substitute for a more specific verb)",
+        "hither (directional complement for motion toward the speaker, as in 回來|回来[hui2lai5])",
+        "ever since (as in 自古以來|自古以来[zi4gu3 yi3lai2])",
+        "for the past (amount of time)",
+        "(prefix) the coming ...; the next ... (as in 來世|来世[lai2shi4])",
+        "(between two verbs) in order to",
+        "(after a round number) approximately",
+        "(used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2de5lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1bu5lai2])"
+      ],
+      "frequency": 383,
+      "unicode": 26469,
+      "traditional": "來"
+    },
+    "死": {
+      "pinyin": "sǐ",
+      "definitions": [
+        "to die",
+        "impassable",
+        "uncrossable",
+        "inflexible",
+        "rigid",
+        "extremely",
+        "damned"
+      ],
+      "frequency": 331,
+      "unicode": 27515,
+      "traditional": "死"
+    },
+    "民": {
+      "pinyin": "min",
+      "definitions": [
+        "(bound form) the people",
+        "inhabitants of a country"
+      ],
+      "frequency": 411,
+      "unicode": 27665,
+      "traditional": "民"
+    },
+    "水": {
+      "pinyin": "shuǐ",
+      "definitions": [
+        "water",
+        "(after a name) ... River",
+        "to swim (used mostly in 會水|会水[hui4shui3] and 水性[shui3xing4])",
+        "(coll.) lacking in substance; shoddy",
+        "(bound form) additional cost; extra income",
+        "classifier for washings of a garment"
+      ],
+      "frequency": 949,
+      "unicode": 27700,
+      "traditional": "水"
+    },
+    "永": {
+      "pinyin": "yong",
+      "definitions": [
+        "forever",
+        "always",
+        "perpetual"
+      ],
+      "frequency": 122,
+      "unicode": 27704,
+      "traditional": "永"
+    },
+    "汗": {
+      "pinyin": "han",
+      "definitions": [
+        "perspiration",
+        "sweat",
+        "CL:滴[di1],頭|头[tou2],身[shen1]",
+        "to be speechless (out of helplessness, embarrassment etc) (Internet slang used as an interjection)"
+      ],
+      "frequency": 68,
+      "unicode": 27735,
+      "traditional": "汗"
+    },
+    "沟": {
+      "pinyin": "goū",
+      "definitions": [
+        "ditch",
+        "gutter",
+        "groove",
+        "gully",
+        "ravine",
+        "CL:道[dao4]"
+      ],
+      "frequency": 62,
+      "unicode": 27807,
+      "traditional": "溝"
+    },
+    "没": {
+      "pinyin": "mò",
+      "definitions": [
+        "drowned",
+        "to end",
+        "to die",
+        "to inundate"
+      ],
+      "frequency": 169,
+      "unicode": 27809,
+      "traditional": "沒"
+    },
+    "沸": {
+      "pinyin": "feì",
+      "definitions": [
+        "to boil"
+      ],
+      "frequency": 15,
+      "unicode": 27832,
+      "traditional": "沸"
+    },
+    "治": {
+      "pinyin": "zhì",
+      "definitions": [
+        "to rule",
+        "to govern",
+        "to manage",
+        "to control",
+        "to harness (a river)",
+        "to treat (a disease)",
+        "to wipe out (a pest)",
+        "to punish",
+        "to research"
+      ],
+      "frequency": 346,
+      "unicode": 27835,
+      "traditional": "治"
+    },
+    "法": {
+      "pinyin": "fǎ",
+      "definitions": [
+        "old variant of 法[fa3]",
+        "law"
+      ],
+      "frequency": 593,
+      "unicode": 27861,
+      "traditional": "灋"
+    },
+    "波": {
+      "pinyin": "bō",
+      "definitions": [
+        "wave",
+        "ripple",
+        "storm",
+        "surge"
+      ],
+      "frequency": 289,
+      "unicode": 27874,
+      "traditional": "波"
+    },
+    "浇": {
+      "pinyin": "jiaō",
+      "definitions": [
+        "to pour liquid",
+        "to irrigate (using waterwheel)",
+        "to water",
+        "to cast (molten metal)",
+        "to mold"
+      ],
+      "frequency": 11,
+      "unicode": 27975,
+      "traditional": "澆"
+    },
+    "浪": {
+      "pinyin": "lang",
+      "definitions": [
+        "wave",
+        "breaker",
+        "unrestrained",
+        "dissipated",
+        "to stroll",
+        "to ramble"
+      ],
+      "frequency": 85,
+      "unicode": 28010,
+      "traditional": "浪"
+    },
+    "液": {
+      "pinyin": "yè",
+      "definitions": [
+        "(bound form) a liquid",
+        "also pr. [yi4]"
+      ],
+      "frequency": 86,
+      "unicode": 28082,
+      "traditional": "液"
+    },
+    "港": {
+      "pinyin": "gang",
+      "definitions": [
+        "harbor",
+        "port",
+        "CL:個|个[ge4]"
+      ],
+      "frequency": 170,
+      "unicode": 28207,
+      "traditional": "港"
+    },
+    "游": {
+      "pinyin": "yoú",
+      "definitions": [
+        "to walk",
+        "to tour",
+        "to roam",
+        "to travel"
+      ],
+      "frequency": 219,
+      "unicode": 28216,
+      "traditional": "遊"
+    },
+    "灌": {
+      "pinyin": "guan",
+      "definitions": [
+        "to irrigate",
+        "to pour",
+        "to install (software)",
+        "to record (music)"
+      ],
+      "frequency": 48,
+      "unicode": 28748,
+      "traditional": "灌"
+    },
+    "灭": {
+      "pinyin": "miè",
+      "definitions": [
+        "to extinguish or put out",
+        "to go out (of a fire etc)",
+        "to exterminate or wipe out",
+        "to drown"
+      ],
+      "frequency": 76,
+      "unicode": 28781,
+      "traditional": "滅"
+    },
+    "然": {
+      "pinyin": "ran",
+      "definitions": [
+        "correct",
+        "right",
+        "so",
+        "thus",
+        "like this",
+        "-ly"
+      ],
+      "frequency": 329,
+      "unicode": 28982,
+      "traditional": "然"
+    },
+    "犁": {
+      "pinyin": "lí",
+      "definitions": [
+        "plow"
+      ],
+      "frequency": 27,
+      "unicode": 29313,
+      "traditional": "犁"
+    },
+    "犹": {
+      "pinyin": "yoú",
+      "definitions": [
+        "as if",
+        "(just) like",
+        "just as",
+        "still",
+        "yet"
+      ],
+      "frequency": 43,
+      "unicode": 29369,
+      "traditional": "猶"
+    },
+    "现": {
+      "pinyin": "xian",
+      "definitions": [
+        "to appear",
+        "present",
+        "now",
+        "existing",
+        "current"
+      ],
+      "frequency": 162,
+      "unicode": 29616,
+      "traditional": "現"
+    },
+    "理": {
+      "pinyin": "lǐ",
+      "definitions": [
+        "texture",
+        "grain (of wood)",
+        "inner essence",
+        "intrinsic order",
+        "reason",
+        "logic",
+        "truth",
+        "science",
+        "natural science (esp. physics)",
+        "to manage",
+        "to pay attention to",
+        "to run (affairs)",
+        "to handle",
+        "to put in order",
+        "to tidy up"
+      ],
+      "frequency": 523,
+      "unicode": 29702,
+      "traditional": "理"
+    },
+    "由": {
+      "pinyin": "yoú",
+      "definitions": [
+        "to follow",
+        "from",
+        "because of; due to",
+        "by; via; through",
+        "(before a noun and a verb) it is for ... to ..."
+      ],
+      "frequency": 112,
+      "unicode": 30001,
+      "traditional": "由"
+    },
+    "界": {
+      "pinyin": "jiè",
+      "definitions": [
+        "(bound form) boundary; border",
+        "(bound form) realm"
+      ],
+      "frequency": 198,
+      "unicode": 30028,
+      "traditional": "界"
+    },
+    "痛": {
+      "pinyin": "tong",
+      "definitions": [
+        "ache",
+        "pain",
+        "sorrow",
+        "deeply",
+        "thoroughly"
+      ],
+      "frequency": 118,
+      "unicode": 30171,
+      "traditional": "痛"
+    },
+    "的": {
+      "pinyin": "dì",
+      "definitions": [
+        "(bound form) bull's-eye; target"
+      ],
+      "frequency": 181,
+      "unicode": 30340,
+      "traditional": "的"
+    },
+    "盗": {
+      "pinyin": "daò",
+      "definitions": [
+        "to steal",
+        "to rob",
+        "to plunder",
+        "thief",
+        "bandit",
+        "robber"
+      ],
+      "frequency": 49,
+      "unicode": 30423,
+      "traditional": "盜"
+    },
+    "盟": {
+      "pinyin": "meng",
+      "definitions": [
+        "oath",
+        "pledge",
+        "union",
+        "to ally",
+        "league, a subdivision corresponding to prefecture in Inner Mongolia"
+      ],
+      "frequency": 69,
+      "unicode": 30431,
+      "traditional": "盟"
+    },
+    "破": {
+      "pinyin": "pò",
+      "definitions": [
+        "broken",
+        "damaged",
+        "worn out",
+        "lousy",
+        "rotten",
+        "to break, split or cleave",
+        "to get rid of",
+        "to destroy",
+        "to break with",
+        "to defeat",
+        "to capture (a city etc)",
+        "to expose the truth of"
+      ],
+      "frequency": 178,
+      "unicode": 30772,
+      "traditional": "破"
+    },
+    "社": {
+      "pinyin": "shè",
+      "definitions": [
+        "(bound form) society; organization; agency",
+        "(old) god of the land"
+      ],
+      "frequency": 166,
+      "unicode": 31038,
+      "traditional": "社"
+    },
+    "祖": {
+      "pinyin": "zǔ",
+      "definitions": [
+        "ancestor",
+        "forefather",
+        "grandparents"
+      ],
+      "frequency": 95,
+      "unicode": 31062,
+      "traditional": "祖"
+    },
+    "神": {
+      "pinyin": "shen",
+      "definitions": [
+        "god; deity",
+        "supernatural; magical; mysterious",
+        "spirit; mind; energy",
+        "lively; expressive",
+        "look; expression",
+        "(coll.) awesome; amazing"
+      ],
+      "frequency": 441,
+      "unicode": 31070,
+      "traditional": "神"
+    },
+    "私": {
+      "pinyin": "sī",
+      "definitions": [
+        "personal",
+        "private",
+        "selfish"
+      ],
+      "frequency": 116,
+      "unicode": 31169,
+      "traditional": "私"
+    },
+    "秘": {
+      "pinyin": "mì",
+      "definitions": [
+        "secret",
+        "secretary"
+      ],
+      "frequency": 49,
+      "unicode": 31192,
+      "traditional": "秘"
+    },
+    "空": {
+      "pinyin": "kong",
+      "definitions": [
+        "to empty",
+        "vacant",
+        "unoccupied",
+        "space",
+        "leisure",
+        "free time"
+      ],
+      "frequency": 438,
+      "unicode": 31354,
+      "traditional": "空"
+    },
+    "窃": {
+      "pinyin": "qiè",
+      "definitions": [
+        "to steal",
+        "secretly",
+        "(humble) I"
+      ],
+      "frequency": 34,
+      "unicode": 31363,
+      "traditional": "竊"
+    },
+    "章": {
+      "pinyin": "zhang",
+      "definitions": [
+        "chapter",
+        "section",
+        "clause",
+        "movement (of symphony)",
+        "seal",
+        "badge",
+        "regulation",
+        "order"
+      ],
+      "frequency": 94,
+      "unicode": 31456,
+      "traditional": "章"
+    },
+    "第": {
+      "pinyin": "dì",
+      "definitions": [
+        "(prefix indicating ordinal number, as in 第六[di4-liu4] \"sixth\")",
+        "(literary) grades in which successful candidates in the imperial examinations were placed",
+        "(old) residence of a high official",
+        "(literary) but; however",
+        "(literary) only; just"
+      ],
+      "frequency": 123,
+      "unicode": 31532,
+      "traditional": "第"
+    },
+    "等": {
+      "pinyin": "deng",
+      "definitions": [
+        "to wait for; to await",
+        "by the time; when; till",
+        "and so on; etc.; et al.",
+        "(bound form) class; rank; grade",
+        "(bound form) equal to; same as",
+        "(used to end an enumeration)",
+        "(literary) (plural suffix attached to a personal pronoun or noun)"
+      ],
+      "frequency": 148,
+      "unicode": 31561,
+      "traditional": "等"
+    },
+    "管": {
+      "pinyin": "guan",
+      "definitions": [
+        "to take care (of)",
+        "to control",
+        "to manage",
+        "to be in charge of",
+        "to look after",
+        "to run",
+        "to care about",
+        "tube",
+        "pipe",
+        "woodwind",
+        "classifier for tube-shaped objects",
+        "particle similar to 把[ba3] in 管...叫 constructions",
+        "writing brush",
+        "(coll.) to",
+        "towards"
+      ],
+      "frequency": 356,
+      "unicode": 31649,
+      "traditional": "管"
+    },
+    "篇": {
+      "pinyin": "pian",
+      "definitions": [
+        "sheet",
+        "piece of writing",
+        "bound set of bamboo slips used for record keeping (old)",
+        "classifier for written items: chapter, article"
+      ],
+      "frequency": 28,
+      "unicode": 31687,
+      "traditional": "篇"
+    },
+    "红": {
+      "pinyin": "hong",
+      "definitions": [
+        "red",
+        "popular",
+        "revolutionary",
+        "bonus"
+      ],
+      "frequency": 429,
+      "unicode": 32418,
+      "traditional": "紅"
+    },
+    "级": {
+      "pinyin": "jí",
+      "definitions": [
+        "level",
+        "grade",
+        "rank",
+        "step (of stairs)",
+        "CL:個|个[ge4]",
+        "classifier: step, level"
+      ],
+      "frequency": 178,
+      "unicode": 32423,
+      "traditional": "級"
+    },
+    "线": {
+      "pinyin": "xian",
+      "definitions": [
+        "thread",
+        "string",
+        "wire",
+        "line",
+        "CL:條|条[tiao2],股[gu3],根[gen1]",
+        "(after a number) tier (unofficial ranking of a Chinese city)"
+      ],
+      "frequency": 428,
+      "unicode": 32447,
+      "traditional": "線"
+    },
+    "结": {
+      "pinyin": "jié",
+      "definitions": [
+        "knot",
+        "sturdy",
+        "bond",
+        "to tie",
+        "to bind",
+        "to check out (of a hotel)"
+      ],
+      "frequency": 252,
+      "unicode": 32467,
+      "traditional": "結"
+    },
+    "维": {
+      "pinyin": "weí",
+      "definitions": [
+        "to preserve",
+        "to maintain",
+        "to hold together",
+        "dimension",
+        "vitamin (abbr. for 維生素|维生素[wei2 sheng1 su4])"
+      ],
+      "frequency": 252,
+      "unicode": 32500,
+      "traditional": "維"
+    },
+    "罢": {
+      "pinyin": "ba",
+      "definitions": [
+        "(final particle, same as 吧)"
+      ],
+      "frequency": 23,
+      "unicode": 32610,
+      "traditional": "罷"
+    },
+    "者": {
+      "pinyin": "zhě",
+      "definitions": [
+        "(after a verb or adjective) one who (is) ...",
+        "(after a noun) person involved in ...",
+        "-er",
+        "-ist",
+        "(used after a number or 後|后[hou4] or 前[qian2] to refer to sth mentioned previously)",
+        "(used after a term, to mark a pause before defining the term)",
+        "(old) (used at the end of a command)",
+        "(old) this"
+      ],
+      "frequency": 434,
+      "unicode": 32773,
+      "traditional": "者"
+    },
+    "联": {
+      "pinyin": "lian",
+      "definitions": [
+        "(bound form) to ally oneself with; to unite; to combine; to join",
+        "(bound form) (poetry) antithetical couplet"
+      ],
+      "frequency": 252,
+      "unicode": 32852,
+      "traditional": "聯"
+    },
+    "胜": {
+      "pinyin": "sheng",
+      "definitions": [
+        "victory",
+        "success",
+        "to beat",
+        "to defeat",
+        "to surpass",
+        "victorious",
+        "superior to",
+        "to get the better of",
+        "better than",
+        "surpassing",
+        "superb (of vista)",
+        "beautiful (scenery)",
+        "wonderful (view)",
+        "(Taiwan pr. [sheng1]) able to bear",
+        "equal to (a task)"
+      ],
+      "frequency": 123,
+      "unicode": 32988,
+      "traditional": "勝"
+    },
+    "脉": {
+      "pinyin": "maì",
+      "definitions": [
+        "variant of 脈|脉[mai4]"
+      ],
+      "frequency": 119,
+      "unicode": 33033,
+      "traditional": "衇"
+    },
+    "腾": {
+      "pinyin": "teng",
+      "definitions": [
+        "(bound form) to gallop; to prance",
+        "(bound form) to soar; to hover",
+        "to make room; to clear out; to vacate",
+        "(verb suffix indicating repeated action)"
+      ],
+      "frequency": 62,
+      "unicode": 33150,
+      "traditional": "騰"
+    },
+    "自": {
+      "pinyin": "zì",
+      "definitions": [
+        "(bound form) self; oneself",
+        "from; since",
+        "naturally; as a matter of course"
+      ],
+      "frequency": 787,
+      "unicode": 33258,
+      "traditional": "自"
+    },
+    "船": {
+      "pinyin": "chuan",
+      "definitions": [
+        "boat",
+        "vessel",
+        "ship",
+        "CL:條|条[tiao2],艘[sou1],隻|只[zhi1]"
+      ],
+      "frequency": 163,
+      "unicode": 33337,
+      "traditional": "船"
+    },
+    "色": {
+      "pinyin": "shaǐ",
+      "definitions": [
+        "(coll.) color",
+        "used in 色子[shai3zi5]"
+      ],
+      "frequency": 403,
+      "unicode": 33394,
+      "traditional": "色"
+    },
+    "苏": {
+      "pinyin": "sū",
+      "definitions": [
+        "old variant of 蘇|苏[su1]"
+      ],
+      "frequency": 159,
+      "unicode": 33487,
+      "traditional": "蘓"
+    },
+    "苦": {
+      "pinyin": "kǔ",
+      "definitions": [
+        "bitter",
+        "hardship",
+        "pain",
+        "to suffer",
+        "to bring suffering to",
+        "painstakingly"
+      ],
+      "frequency": 183,
+      "unicode": 33510,
+      "traditional": "苦"
+    },
+    "虽": {
+      "pinyin": "suī",
+      "definitions": [
+        "although",
+        "even though"
+      ],
+      "frequency": 16,
+      "unicode": 34429,
+      "traditional": "雖"
+    },
+    "蠢": {
+      "pinyin": "chun",
+      "definitions": [
+        "stupid",
+        "sluggish",
+        "clumsy",
+        "to wiggle (of worms)",
+        "to move in a disorderly fashion"
+      ],
+      "frequency": 19,
+      "unicode": 34850,
+      "traditional": "蠢"
+    },
+    "血": {
+      "pinyin": "xuè",
+      "definitions": [
+        "blood",
+        "colloquial pr. [xie3]",
+        "CL:滴[di1],片[pian4]"
+      ],
+      "frequency": 297,
+      "unicode": 34880,
+      "traditional": "血"
+    },
+    "行": {
+      "pinyin": "xing",
+      "definitions": [
+        "(bound form) to walk; to go; to travel",
+        "(literary) trip; journey; visit",
+        "(bound form) temporary; makeshift",
+        "(bound form) current; in circulation",
+        "(bound form) to do; to perform",
+        "capable; competent",
+        "all right; OK!; will do",
+        "behavior; conduct (Taiwan pr. [xing4])",
+        "(literary) about to; soon"
+      ],
+      "frequency": 646,
+      "unicode": 34892,
+      "traditional": "行"
+    },
+    "袖": {
+      "pinyin": "xiù",
+      "definitions": [
+        "sleeve",
+        "to tuck inside one's sleeve"
+      ],
+      "frequency": 34,
+      "unicode": 34966,
+      "traditional": "袖"
+    },
+    "被": {
+      "pinyin": "beì",
+      "definitions": [
+        "quilt",
+        "to cover (with)",
+        "(literary) to suffer (a misfortune)",
+        "used to indicate passive voice (placed before the doer of the action like \"by\" in English passive-voice sentences, or, if the doer is not mentioned, before the verb)",
+        "(since c. 2009) (sarcastic or jocular) used to indicate that the following word should be regarded as being in air quotes (as in 被旅遊|被旅游[bei4 lu:3you2] to \"go on a trip\")"
+      ],
+      "frequency": 56,
+      "unicode": 34987,
+      "traditional": "被"
+    },
+    "西": {
+      "pinyin": "xī",
+      "definitions": [
+        "west"
+      ],
+      "frequency": 631,
+      "unicode": 35199,
+      "traditional": "西"
+    },
+    "见": {
+      "pinyin": "xian",
+      "definitions": [
+        "to appear",
+        "also written 現|现[xian4]"
+      ],
+      "frequency": 297,
+      "unicode": 35265,
+      "traditional": "見"
+    },
+    "解": {
+      "pinyin": "xiè",
+      "definitions": [
+        "acrobatic display (esp. on horseback) (old)",
+        "variant of 懈[xie4] and 邂[xie4] (old)"
+      ],
+      "frequency": 277,
+      "unicode": 35299,
+      "traditional": "解"
+    },
+    "诅": {
+      "pinyin": "zǔ",
+      "definitions": [
+        "curse",
+        "swear (oath)"
+      ],
+      "frequency": 3,
+      "unicode": 35781,
+      "traditional": "詛"
+    },
+    "语": {
+      "pinyin": "yù",
+      "definitions": [
+        "(literary) to tell; to let (sb) know"
+      ],
+      "frequency": 483,
+      "unicode": 35821,
+      "traditional": "語"
+    },
+    "起": {
+      "pinyin": "qǐ",
+      "definitions": [
+        "to rise",
+        "to raise",
+        "to get up",
+        "to set out",
+        "to start",
+        "to appear",
+        "to launch",
+        "to initiate (action)",
+        "to draft",
+        "to establish",
+        "to get (from a depot or counter)",
+        "verb suffix, to start",
+        "starting from (a time, place, price etc)",
+        "classifier for occurrences or unpredictable events: case, instance",
+        "classifier for groups: batch, group"
+      ],
+      "frequency": 304,
+      "unicode": 36215,
+      "traditional": "起"
+    },
+    "运": {
+      "pinyin": "yun",
+      "definitions": [
+        "to move",
+        "to transport",
+        "to use",
+        "to apply",
+        "fortune",
+        "luck",
+        "fate"
+      ],
+      "frequency": 303,
+      "unicode": 36816,
+      "traditional": "運"
+    },
+    "进": {
+      "pinyin": "jin",
+      "definitions": [
+        "to go forward",
+        "to advance",
+        "to go in",
+        "to enter",
+        "to put in",
+        "to submit",
+        "to take in",
+        "to admit",
+        "(math.) base of a number system",
+        "classifier for sections in a building or residential compound"
+      ],
+      "frequency": 237,
+      "unicode": 36827,
+      "traditional": "進"
+    },
+    "远": {
+      "pinyin": "yuan",
+      "definitions": [
+        "to distance oneself from (classical)"
+      ],
+      "frequency": 199,
+      "unicode": 36828,
+      "traditional": "遠"
+    },
+    "迫": {
+      "pinyin": "pò",
+      "definitions": [
+        "to force",
+        "to compel",
+        "to approach or go towards",
+        "urgent",
+        "pressing"
+      ],
+      "frequency": 44,
+      "unicode": 36843,
+      "traditional": "迫"
+    },
+    "都": {
+      "pinyin": "dū",
+      "definitions": [
+        "capital city",
+        "metropolis"
+      ],
+      "frequency": 143,
+      "unicode": 37117,
+      "traditional": "都"
+    },
+    "链": {
+      "pinyin": "lian",
+      "definitions": [
+        "chain",
+        "cable (unit of length: 100 fathoms, about 185 m)",
+        "chain (unit of length: 66 feet, about 20 m)",
+        "to chain",
+        "to enchain"
+      ],
+      "frequency": 71,
+      "unicode": 38142,
+      "traditional": "鏈"
+    },
+    "锁": {
+      "pinyin": "suǒ",
+      "definitions": [
+        "old variant of 鎖|锁[suo3]"
+      ],
+      "frequency": 59,
+      "unicode": 38145,
+      "traditional": "鎻"
+    },
+    "队": {
+      "pinyin": "duì",
+      "definitions": [
+        "squadron",
+        "team",
+        "group",
+        "CL:個|个[ge4]"
+      ],
+      "frequency": 134,
+      "unicode": 38431,
+      "traditional": "隊"
+    },
+    "防": {
+      "pinyin": "fang",
+      "definitions": [
+        "to protect",
+        "to defend",
+        "to guard against",
+        "to prevent"
+      ],
+      "frequency": 190,
+      "unicode": 38450,
+      "traditional": "防"
+    },
+    "阳": {
+      "pinyin": "yang",
+      "definitions": [
+        "positive (electric.)",
+        "sun",
+        "male principle (Taoism)",
+        "Yang, opposite: 陰|阴[yin1]"
+      ],
+      "frequency": 380,
+      "unicode": 38451,
+      "traditional": "陽"
+    },
+    "阶": {
+      "pinyin": "jiē",
+      "definitions": [
+        "rank or step",
+        "stairs"
+      ],
+      "frequency": 49,
+      "unicode": 38454,
+      "traditional": "階"
+    },
+    "际": {
+      "pinyin": "jì",
+      "definitions": [
+        "border",
+        "edge",
+        "boundary",
+        "interval",
+        "between",
+        "inter-",
+        "to meet",
+        "time",
+        "occasion",
+        "to meet with (circumstances)"
+      ],
+      "frequency": 154,
+      "unicode": 38469,
+      "traditional": "際"
+    },
+    "隶": {
+      "pinyin": "lì",
+      "definitions": [
+        "(bound form) a person in servitude; low-ranking subordinate",
+        "(bound form) to be subordinate to",
+        "(bound form) clerical script (the style of characters intermediate between ancient seal and modern regular characters)"
+      ],
+      "frequency": 13,
+      "unicode": 38582,
+      "traditional": "隸"
+    },
+    "雇": {
+      "pinyin": "gù",
+      "definitions": [
+        "to employ",
+        "to hire",
+        "to rent"
+      ],
+      "frequency": 15,
+      "unicode": 38599,
+      "traditional": "雇"
+    },
+    "领": {
+      "pinyin": "ling",
+      "definitions": [
+        "neck",
+        "collar",
+        "to lead",
+        "to receive",
+        "classifier for clothes, mats, screens etc"
+      ],
+      "frequency": 149,
+      "unicode": 39046,
+      "traditional": "領"
+    },
+    "风": {
+      "pinyin": "feng",
+      "definitions": [
+        "wind",
+        "news",
+        "style",
+        "custom",
+        "manner",
+        "CL:陣|阵[zhen4],絲|丝[si1]"
+      ],
+      "frequency": 526,
+      "unicode": 39118,
+      "traditional": "風"
+    },
+    "饥": {
+      "pinyin": "jī",
+      "definitions": [
+        "variant of 飢|饥[ji1]"
+      ],
+      "frequency": 22,
+      "unicode": 39269,
+      "traditional": "饑"
+    },
+    "饿": {
+      "pinyin": "è",
+      "definitions": [
+        "hungry",
+        "to starve (sb)"
+      ],
+      "frequency": 23,
+      "unicode": 39295,
+      "traditional": "餓"
+    },
+    "黎": {
+      "pinyin": "lí",
+      "definitions": [
+        "(literary) black",
+        "dark",
+        "many",
+        "multitude"
+      ],
+      "frequency": 55,
+      "unicode": 40654,
+      "traditional": "黎"
+    },
+    "黑": {
+      "pinyin": "heī",
+      "definitions": [
+        "black",
+        "dark",
+        "sinister",
+        "secret",
+        "shady",
+        "illegal",
+        "to hide (sth) away",
+        "to vilify",
+        "(loanword) to hack (computing)"
+      ],
+      "frequency": 366,
+      "unicode": 40657,
+      "traditional": "黑"
+    }
+  }
+}

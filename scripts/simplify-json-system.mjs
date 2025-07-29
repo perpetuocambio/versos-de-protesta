@@ -25,6 +25,7 @@ const ESSENTIAL_FILES = [
     // Chinese data unificados
     'chinese/radicals-unified.json',
     'chinese/character-radical-unified.json', 
+    'chinese/character-data.json',  // Mantenido por compatibilidad con DynamicDictionary.astro
     'chinese/cache-info.json',
     'chinese/strokes-metadata.json',
     
@@ -77,8 +78,8 @@ const FILES_TO_REMOVE = [
     'internal/v1/dictionary/languages/zh-pinyin-index.json',
     'internal/v1/dictionary/index.json',
     
-    // Chinese obsoletos
-    'chinese/character-data.json',  // Datos incluidos en unified
+    // Chinese obsoletos - MANTENER character-data.json por ahora (usado por DynamicDictionary.astro)
+    // 'chinese/character-data.json',  // Datos incluidos en unified - TODO: migrar DynamicDictionary.astro
     
     // Composers con nombres problemáticos
     'composers/-------------------.json',
