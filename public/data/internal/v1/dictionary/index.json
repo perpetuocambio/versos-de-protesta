@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "internal": {
+    "path": "/internal/v1/dictionary",
+    "isPublic": false,
+    "accessType": "import-only"
+  },
+  "meta": {
+    "totalLanguages": 8,
+    "totalWords": 124,
+    "totalEntries": 168,
+    "lastUpdated": "2025-07-29T17:10:53.692Z",
+    "description": "Diccionario interno multilingüe de himnos obreros"
+  },
+  "languages": [
+    {
+      "code": "es",
+      "name": "Español",
+      "nativeName": "Español",
+      "wordCount": 124,
+      "file": "es.json",
+      "flag": "🇪🇸"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "wordCount": 124,
+      "file": "en.json",
+      "flag": "🇬🇧"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "nativeName": "Deutsch",
+      "wordCount": 124,
+      "file": "de.json",
+      "flag": "🇩🇪"
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "nativeName": "Português",
+      "wordCount": 124,
+      "file": "pt.json",
+      "flag": "🇵🇹"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "nativeName": "Русский",
+      "wordCount": 124,
+      "file": "ru.json",
+      "flag": "🇷🇺"
+    },
+    {
+      "code": "ru-rom",
+      "name": "Русский Rom.",
+      "nativeName": "Russky Romanized",
+      "wordCount": 124,
+      "file": "ru-rom.json",
+      "flag": "🇷🇺"
+    },
+    {
+      "code": "zh",
+      "name": "中文",
+      "nativeName": "中文",
+      "wordCount": 124,
+      "file": "zh.json",
+      "flag": "🇨🇳"
+    },
+    {
+      "code": "zh-pinyin",
+      "name": "中文 Pinyin",
+      "nativeName": "Zhōngwén Pinyin",
+      "wordCount": 124,
+      "file": "zh-pinyin.json",
+      "flag": "🇨🇳"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "totalEntries": 168,
+  "totalUniqueWords": 124,
+  "byLanguage": {
+    "es": 124,
+    "en": 123,
+    "de": 123,
+    "pt": 123,
+    "ru": 122,
+    "ruRom": 130,
+    "zh": 115,
+    "zhPinyin": 117
+  },
+  "byLesson": {
+    "Día 0": 12,
+    "Día 1": 13,
+    "Día 2": 14,
+    "Día 3": 15,
+    "Día 4": 13,
+    "Día 5": 16,
+    "Día 6": 12,
+    "Día 7": 12,
+    "Día 8": 11,
+    "Día 9": 11,
+    "Día 10": 11,
+    "Día 11": 11,
+    "Día 12": 17
+  },
+  "lastUpdated": "2025-07-29T17:10:53.430Z",
+  "generatedBy": "build-dictionary.mjs v1.0"
+}
