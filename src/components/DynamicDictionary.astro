@@ -176,6 +176,49 @@ const { language, initialWords = 20, availableLangs, baseUrl } = Astro.props;
     font-weight: 600;
   }
 
+  .semantic-filter {
+    margin-top: var(--space-lg);
+    padding: var(--space-lg);
+    background: var(--color-paper);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+  }
+  .semantic-filter h4 {
+    color: var(--color-revolutionary-red);
+    margin-bottom: var(--space-md);
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .semantic-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+  .semantic-btn {
+    background: var(--color-paper);
+    border: 2px solid var(--color-border);
+    color: var(--color-text-secondary);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+  }
+  .semantic-btn:hover {
+    background: var(--color-socialist-gold-light);
+    border-color: var(--color-socialist-gold);
+    color: var(--color-socialist-gold-dark);
+    transform: translateY(-1px);
+  }
+  .semantic-btn.active {
+    background: var(--color-socialist-gold);
+    border-color: var(--color-socialist-gold);
+    color: white;
+    font-weight: 600;
+  }
+
   .dictionary-grid { 
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
@@ -450,6 +493,21 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
         .dictionary-content .lessons {
           color: var(--color-text-muted);
+        }
+        .dictionary-content .pronunciation {
+          color: var(--color-revolutionary-red) !important;
+          font-weight: 600;
+          font-family: 'Courier New', monospace;
+        }
+        .dictionary-content .category {
+          color: var(--color-anarchist-black) !important;
+          font-weight: 500;
+          font-style: italic;
+        }
+        .dictionary-content .semantic-category {
+          color: var(--color-socialist-gold-dark) !important;
+          font-weight: 600;
+          font-style: italic;
         }
         @media (max-width: 768px) {
           .dictionary-content .dictionary-grid { 
@@ -774,6 +832,26 @@ document.addEventListener('DOMContentLoaded', async function() {
             `<button class="letter-btn" data-letter="${letter}">${letter}</button>`
           ).join('')}
         </div>
+        ${language === 'radical' ? `
+        <div class="semantic-filter" id="semantic-filter">
+          <h4>Filtrar por categoría:</h4>
+          <div class="semantic-buttons">
+            <button class="semantic-btn active" data-semantic="all">Todos</button>
+            <button class="semantic-btn" data-semantic="elementos">Elementos</button>
+            <button class="semantic-btn" data-semantic="animales">Animales</button>
+            <button class="semantic-btn" data-semantic="plantas">Plantas</button>
+            <button class="semantic-btn" data-semantic="cuerpo">Cuerpo</button>
+            <button class="semantic-btn" data-semantic="objetos">Objetos</button>
+            <button class="semantic-btn" data-semantic="construcciones">Construcciones</button>
+            <button class="semantic-btn" data-semantic="acciones">Acciones</button>
+            <button class="semantic-btn" data-semantic="dirección">Dirección</button>
+            <button class="semantic-btn" data-semantic="números">Números</button>
+            <button class="semantic-btn" data-semantic="tiempo">Tiempo</button>
+            <button class="semantic-btn" data-semantic="abstractos">Abstractos</button>
+            <button class="semantic-btn" data-semantic="otros">Otros</button>
+          </div>
+        </div>
+        ` : ''}
       </div>
       
       <!-- Enlaces a búsqueda por radicales para idiomas chinos -->
@@ -781,10 +859,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         ${allWords.map(([word, data]) => {
           const details = JSON.stringify(data).replace(/'/g, '&apos;');
           return `
-            <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}">
+            <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}" ${language === 'radical' && data.metadata?.semanticCategory ? `data-semantic="${data.metadata.semanticCategory}"` : ''}>
               <h3 class="word-title">${word}</h3>
               <div class="word-meta">
                 <span class="meaning">${language === 'es' ? `Primera aparición: Día ${data.firstAppearance}` : `Significado: ${data.meaning}`}</span>
+                ${language === 'radical' && data.pronunciation?.zh_pinyin ? `<span class="pronunciation">Pinyin: ${data.pronunciation.zh_pinyin}</span>` : ''}
+                ${language === 'radical' && data.metadata?.radicalCategory ? `<span class="category">Complejidad: ${data.metadata.radicalCategory}</span>` : ''}
+                ${language === 'radical' && data.metadata?.semanticCategory ? `<span class="semantic-category">Tipo: ${data.metadata.semanticCategory}</span>` : ''}
                 <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
               </div>
             </div>
@@ -815,8 +896,38 @@ document.addEventListener('DOMContentLoaded', async function() {
         alphabetFilter.querySelector('.active')?.classList.remove('active');
         e.target.classList.add('active');
 
+        // Reset semantic filter
+        const semanticFilter = document.getElementById('semantic-filter');
+        if (semanticFilter) {
+            semanticFilter.querySelector('.active')?.classList.remove('active');
+            semanticFilter.querySelector('[data-semantic="all"]')?.classList.add('active');
+        }
+
         document.querySelectorAll('.word-card').forEach(card => {
             if (letter === 'all' || card.dataset.letter === letter) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        searchInput.value = '';
+    });
+
+    // Event listener para filtro semántico (solo para radicales)
+    const semanticFilter = document.getElementById('semantic-filter');
+    semanticFilter?.addEventListener('click', (e) => {
+        if (e.target.tagName !== 'BUTTON') return;
+        const semantic = e.target.dataset.semantic;
+
+        semanticFilter.querySelector('.active')?.classList.remove('active');
+        e.target.classList.add('active');
+
+        // Reset alphabet filter
+        alphabetFilter.querySelector('.active')?.classList.remove('active');
+        alphabetFilter.querySelector('[data-letter="all"]')?.classList.add('active');
+
+        document.querySelectorAll('.word-card').forEach(card => {
+            if (semantic === 'all' || card.dataset.semantic === semantic) {
                 card.style.display = '';
             } else {
                 card.style.display = 'none';
@@ -831,6 +942,17 @@ document.addEventListener('DOMContentLoaded', async function() {
         console.log('Word card clicked:', card.dataset.wordRaw);
         const details = JSON.parse(card.dataset.wordDetails.replace(/&apos;/g, "'"));
         showWordDetails(card.dataset.wordRaw, details);
+      }
+    });
+
+    // Event listeners para modal
+    const modal = document.getElementById('word-modal');
+    const closeButton = modal?.querySelector('.close-button');
+    
+    closeButton?.addEventListener('click', closeModal);
+    modal?.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeModal();
       }
     });
     
@@ -932,7 +1054,79 @@ document.addEventListener('DOMContentLoaded', async function() {
   function showWordDetails(word, data) {
     let detailsHtml = `<h2>${word}</h2>`;
 
-    data.entries.forEach((entry, index) => {
+    // Manejar estructura de radicales y caracteres vs estructura de palabras regulares
+    if (data.metadata && (data.metadata.category === 'radical' || data.metadata.category === 'character')) {
+      // Estructura para radicales y caracteres
+      detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
+      detailsHtml += `<p><strong>Significado:</strong> ${data.meaning}</p>`;
+      
+      if (data.metadata.category === 'radical') {
+        // Información específica de radical
+        if (data.metadata.radicalCategory) {
+          detailsHtml += `<p><strong>Complejidad:</strong> ${data.metadata.radicalCategory}</p>`;
+        }
+        if (data.metadata.semanticCategory) {
+          detailsHtml += `<p><strong>Tipo semántico:</strong> ${data.metadata.semanticCategory}</p>`;
+        }
+        if (data.metadata.strokes) {
+          detailsHtml += `<p><strong>Trazos:</strong> ${data.metadata.strokes}</p>`;
+        }
+        if (data.metadata.radicalNumber && data.metadata.radicalNumber !== "N/A") {
+          detailsHtml += `<p><strong>Número Kangxi:</strong> ${data.metadata.radicalNumber}</p>`;
+        }
+      } else if (data.metadata.category === 'character') {
+        // Información específica de carácter
+        if (data.metadata.radical) {
+          detailsHtml += `<p><strong>Radical:</strong> ${data.metadata.radical}</p>`;
+        }
+        if (data.metadata.strokes) {
+          detailsHtml += `<p><strong>Trazos:</strong> ${data.metadata.strokes}</p>`;
+        }
+        if (data.metadata.structure) {
+          detailsHtml += `<p><strong>Estructura:</strong> ${data.metadata.structure}</p>`;
+        }
+        if (data.metadata.unicode) {
+          detailsHtml += `<p><strong>Unicode:</strong> ${data.metadata.unicode}</p>`;
+        }
+      }
+      
+      // Traducciones
+      if (data.translations) {
+        detailsHtml += '<h4>Traducciones:</h4><ul>';
+        const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom'];
+        langOrder.forEach(lang => {
+          if (data.translations[lang]) {
+            detailsHtml += `<li><strong>${lang}:</strong> ${data.translations[lang]}</li>`;
+          }
+        });
+        if (data.translations.zh) {
+          detailsHtml += `<li><strong>zh (hanzi):</strong> ${data.translations.zh}</li>`;
+        }
+        if (data.translations.zhPinyin) {
+          detailsHtml += `<li><strong>zh (pinyin):</strong> ${renderPinyinWithTones(data.translations.zhPinyin)}</li>`;
+        }
+        detailsHtml += '</ul>';
+      }
+      
+      // Caracteres relacionados (solo para radicales)
+      if (data.metadata.category === 'radical' && data.metadata.characters && data.metadata.characters.length > 0) {
+        detailsHtml += `<p><strong>Caracteres relacionados:</strong> ${data.metadata.characters.join(', ')}</p>`;
+      }
+      
+      // Contexto
+      if (data.context) {
+        detailsHtml += `<p><strong>Contexto:</strong> ${data.context}</p>`;
+      }
+      
+      // Lecciones
+      if (data.lessons) {
+        detailsHtml += `<p><strong>Fuente:</strong> ${data.lessons.join(', ')}</p>`;
+      }
+      
+      detailsHtml += `</div>`;
+    } else {
+      // Estructura original para palabras regulares
+      data.entries.forEach((entry, index) => {
         const translations = entry.allTranslations || entry.translations;
         const category = translations.grammaticalCategory || 'N/A';
 
@@ -981,11 +1175,13 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsHtml += `</p>`;
         }
         detailsHtml += `</div>`;
-    });
+      });
+    }
 
     // Agregar trazos de caracteres chinos si aplica
     const containsChinese = /[\u4e00-\u9fff]/.test(word) || 
-                           (data.entries[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh));
+                           (data.entries?.[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh)) ||
+                           (data.translations?.zh && /[\u4e00-\u9fff]/.test(data.translations.zh));
     
     if (language === 'zh' || language === 'zh-pinyin' || containsChinese) {
       let chineseText = '';
@@ -993,16 +1189,20 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       if (language === 'zh') {
         chineseText = word;
-        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
+        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
       } else if (language === 'zh-pinyin') {
-        chineseText = data.entries[0]?.allTranslations?.zh || data.entries[0]?.translations?.zh || '';
+        chineseText = data.entries?.[0]?.allTranslations?.zh || data.entries?.[0]?.translations?.zh || data.translations?.zh || '';
         pinyinText = word;
+      } else if (language === 'radical') {
+        // Para radicales, usar directamente las traducciones
+        chineseText = data.translations?.zh || word;
+        pinyinText = data.translations?.zhPinyin || '';
       } else if (containsChinese && /[\u4e00-\u9fff]/.test(word)) {
         chineseText = word;
-        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
-      } else if (containsChinese && data.entries[0]?.allTranslations?.zh) {
-        chineseText = data.entries[0].allTranslations.zh;
-        pinyinText = data.entries[0]?.allTranslations?.zhPinyin || data.entries[0]?.translations?.zhPinyin || '';
+        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
+      } else if (containsChinese && (data.entries?.[0]?.allTranslations?.zh || data.translations?.zh)) {
+        chineseText = data.entries?.[0]?.allTranslations?.zh || data.translations?.zh;
+        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
       }
       
       if (chineseText && typeof chineseText === 'string') {
@@ -1082,6 +1282,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 
 
+    const modalBody = document.getElementById('modal-body');
+    if (!modalBody) {
+      console.error('Modal body element not found!');
+      return;
+    }
     modalBody.innerHTML = detailsHtml;
     
     // Cargar análisis de radicales para caracteres chinos

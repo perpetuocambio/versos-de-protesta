@@ -3,7 +3,7 @@
     "language": "🔍 Radicales Chinos",
     "code": "radical",
     "wordCount": 76,
-    "lastUpdated": "2025-07-29T17:57:05.808Z",
+    "lastUpdated": "2025-07-30T16:47:37.088Z",
     "generatedBy": "generate-radical-dictionary.mjs v1.0"
   },
   "index": {
@@ -54,12 +54,6 @@
         "船 (舟)",
         "员 (舟)"
       ],
-      "船": [
-        "船",
-        "大 (船)",
-        "帆 (船)",
-        "船 (船)"
-      ],
       "土": [
         "土",
         "地 (土)",
@@ -99,25 +93,10 @@
         "旗 (方)",
         "帜 (方)"
       ],
-      "东": [
-        "东",
-        "东 (东)",
-        "线 (东)",
-        "战 (东)",
-        "场 (东)"
-      ],
       "斗": [
         "斗",
         "斗 (斗)",
         "争 (斗)"
-      ],
-      "反": [
-        "反",
-        "反 (反)",
-        "法 (反)",
-        "西 (反)",
-        "斯 (反)",
-        "抗 (反)"
       ],
       "又": [
         "又",
@@ -142,11 +121,6 @@
         "不 (水)",
         "会 (水)"
       ],
-      "风": [
-        "风",
-        "风 (风)",
-        "暴 (风)"
-      ],
       "工": [
         "工",
         "工 (工)",
@@ -166,19 +140,6 @@
         "党 (八)",
         "和 (八)",
         "国 (八)"
-      ],
-      "共": [
-        "共",
-        "共 (共)",
-        "产 (共)",
-        "主 (共)",
-        "义 (共)",
-        "者 (共)"
-      ],
-      "雇": [
-        "雇",
-        "雇 (雇)",
-        "农 (雇)"
       ],
       "子": [
         "子",
@@ -271,11 +232,6 @@
         "联 (耳)",
         "盟 (耳)"
       ],
-      "页": [
-        "页",
-        "领 (页)",
-        "袖 (页)"
-      ],
       "禾": [
         "禾",
         "秘 (禾)",
@@ -301,11 +257,6 @@
         "走",
         "起 (走)",
         "来 (走)"
-      ],
-      "前": [
-        "前",
-        "前 (前)",
-        "线 (前)"
       ],
       "弓": [
         "弓",
@@ -335,13 +286,6 @@
         "山 (山)",
         "脉 (山)"
       ],
-      "社": [
-        "社",
-        "社 (社)",
-        "会 (社)",
-        "主 (社)",
-        "义 (社)"
-      ],
       "示": [
         "示",
         "社 (示)",
@@ -358,14 +302,6 @@
         "祖 (示)",
         "国 (示)"
       ],
-      "什": [
-        "什",
-        "什 (什)",
-        "么 (什)",
-        "都 (什)",
-        "没 (什)",
-        "有 (什)"
-      ],
       "十": [
         "十",
         "升 (十)",
@@ -375,19 +311,6 @@
         "士",
         "士 (士)",
         "兵 (士)"
-      ],
-      "世": [
-        "世",
-        "世 (世)",
-        "界 (世)",
-        "共 (世)",
-        "和 (世)",
-        "国 (世)"
-      ],
-      "乚": [
-        "乚",
-        "书 (乚)",
-        "写 (乚)"
       ],
       "歹": [
         "歹",
@@ -417,22 +340,10 @@
         "太 (日)",
         "阳 (日)"
       ],
-      "天": [
-        "天",
-        "天 (天)",
-        "空 (天)"
-      ],
       "疒": [
         "疒",
         "痛 (疒)",
         "苦 (疒)"
-      ],
-      "因": [
-        "因",
-        "团 (因)",
-        "结 (因)",
-        "互 (因)",
-        "助 (因)"
       ],
       "亻": [
         "亻",
@@ -450,15 +361,6 @@
         "府 (无)",
         "主 (无)",
         "义 (无)"
-      ],
-      "政": [
-        "政",
-        "无 (政)",
-        "政 (政)",
-        "府 (政)",
-        "主 (政)",
-        "义 (政)",
-        "者 (政)"
       ],
       "行": [
         "行",
@@ -483,16 +385,6 @@
         "愚 (心)",
         "蠢 (心)"
       ],
-      "召": [
-        "召",
-        "召 (召)",
-        "唤 (召)"
-      ],
-      "主": [
-        "主",
-        "主 (主)",
-        "席 (主)"
-      ],
       "自": [
         "自",
         "自 (自)",
@@ -500,12 +392,6 @@
         "治 (自)",
         "管 (自)",
         "理 (自)"
-      ],
-      "总": [
-        "总",
-        "总 (总)",
-        "罢 (总)",
-        "工 (总)"
       ]
     }
   },
@@ -513,17 +399,19 @@
     "戈": {
       "translations": {
         "es": "lanza",
-        "en": "lanza",
+        "en": "halberd",
         "de": "lanza",
         "pt": "lanza",
         "ru": "lanza",
         "ruRom": "lanza",
         "zh": "戈",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ge"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "objetos",
+        "strokes": 4,
         "characterCount": 7,
         "characters": [
           "被",
@@ -533,19 +421,23 @@
           "斗",
           "士",
           "争"
-        ]
+        ],
+        "radicalNumber": 62,
+        "isVariant": false,
+        "standardForm": "戈",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "lanza",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ge"
       },
-      "context": "Radical Kangxi que significa \"lanza\". Aparece en 7 caracteres: 被, 战, 胜, 的, 斗, 士, 争.",
+      "context": "Radical Kangxi #62 que significa \"lanza\". Aparece en 7 caracteres: 被, 战, 胜, 的, 斗, 士, 争.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 7 caracteres"
+        "context": "Radical Kangxi #62 • 4 trazos • 7 caracteres"
       }
     },
     "被 (戈)": {
@@ -775,17 +667,19 @@
     "氵": {
       "translations": {
         "es": "agua",
-        "en": "agua",
+        "en": "water",
         "de": "agua",
         "pt": "agua",
         "ru": "agua",
         "ruRom": "agua",
         "zh": "氵",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shui"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 4,
         "characterCount": 15,
         "characters": [
           "波",
@@ -803,19 +697,23 @@
           "水",
           "浇",
           "灌"
-        ]
+        ],
+        "radicalNumber": 85,
+        "isVariant": true,
+        "standardForm": "水",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "agua",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shui"
       },
-      "context": "Radical Kangxi que significa \"agua\". Aparece en 15 caracteres: 波, 浪, 法, 西, 斯, 主, 义, 港, 口, 沟, 垄, 汗, 水, 浇, 灌.",
+      "context": "Radical Kangxi #85 (variante left_variant de 水) que significa \"agua\". Aparece en 15 caracteres: 波, 浪, 法, 西, 斯, 主, 义, 港, 口, 沟, 垄, 汗, 水, 浇, 灌.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 15 caracteres"
+        "context": "Radical Kangxi #85 • 4 trazos • 15 caracteres"
       }
     },
     "波 (氵)": {
@@ -1301,17 +1199,19 @@
     "口": {
       "translations": {
         "es": "boca",
-        "en": "boca",
+        "en": "mouth",
         "de": "boca",
         "pt": "boca",
         "ru": "boca",
         "ruRom": "boca",
         "zh": "口",
-        "zhPinyin": "unknown"
+        "zhPinyin": "kou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 3,
         "characterCount": 5,
         "characters": [
           "唱",
@@ -1319,19 +1219,23 @@
           "见",
           "同",
           "志"
-        ]
+        ],
+        "radicalNumber": 30,
+        "isVariant": false,
+        "standardForm": "口",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "boca",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "kou"
       },
-      "context": "Radical Kangxi que significa \"boca\". Aparece en 5 caracteres: 唱, 听, 见, 同, 志.",
+      "context": "Radical Kangxi #30 que significa \"boca\". Aparece en 5 caracteres: 唱, 听, 见, 同, 志.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 5 caracteres"
+        "context": "Radical Kangxi #30 • 3 trazos • 5 caracteres"
       }
     },
     "唱 (口)": {
@@ -1496,35 +1400,41 @@
     },
     "凵": {
       "translations": {
-        "es": "recipiente",
-        "en": "recipiente",
+        "es": "open box",
+        "en": "open box",
         "de": "recipiente",
         "pt": "recipiente",
         "ru": "recipiente",
         "ruRom": "recipiente",
         "zh": "凵",
-        "zhPinyin": "unknown"
+        "zhPinyin": "kan"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 2,
         "characterCount": 2,
         "characters": [
           "出",
           "现"
-        ]
+        ],
+        "radicalNumber": 17,
+        "isVariant": false,
+        "standardForm": "凵",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "recipiente",
+      "meaning": "open box",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "kan"
       },
-      "context": "Radical Kangxi que significa \"recipiente\". Aparece en 2 caracteres: 出, 现.",
+      "context": "Radical Kangxi #17 que significa \"open box\". Aparece en 2 caracteres: 出, 现.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 2 caracteres"
+        "context": "Radical Kangxi #17 • 2 trazos • 2 caracteres"
       }
     },
     "出 (凵)": {
@@ -1594,34 +1504,40 @@
     "舟": {
       "translations": {
         "es": "barco",
-        "en": "barco",
+        "en": "boat",
         "de": "barco",
         "pt": "barco",
         "ru": "barco",
         "ruRom": "barco",
         "zh": "舟",
-        "zhPinyin": "unknown"
+        "zhPinyin": "zhou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 16,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "objetos",
+        "strokes": 6,
         "characterCount": 2,
         "characters": [
           "船",
           "员"
-        ]
+        ],
+        "radicalNumber": 137,
+        "isVariant": false,
+        "standardForm": "舟",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "barco",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "zhou"
       },
-      "context": "Radical Kangxi que significa \"barco\". Aparece en 2 caracteres: 船, 员.",
+      "context": "Radical Kangxi #137 que significa \"barco\". Aparece en 2 caracteres: 船, 员.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 2 caracteres"
+        "context": "Radical Kangxi #137 • 6 trazos • 2 caracteres"
       }
     },
     "船 (舟)": {
@@ -1688,150 +1604,22 @@
         "context": "Del radical 舟 • 16 trazos • compuesto"
       }
     },
-    "船": {
-      "translations": {
-        "es": "barco",
-        "en": "barco",
-        "de": "barco",
-        "pt": "barco",
-        "ru": "barco",
-        "ruRom": "barco",
-        "zh": "船",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 12,
-        "characterCount": 3,
-        "characters": [
-          "大",
-          "帆",
-          "船"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "barco",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"barco\". Aparece en 3 caracteres: 大, 帆, 船.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 3 caracteres"
-      }
-    },
-    "大 (船)": {
-      "translations": {
-        "es": "大",
-        "en": "大",
-        "de": "大",
-        "pt": "大",
-        "ru": "大",
-        "ruRom": "大",
-        "zh": "大",
-        "zhPinyin": "dà"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "船",
-        "strokes": 12,
-        "unicode": 22823,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical barco",
-      "pronunciation": {
-        "zh_pinyin": "dà"
-      },
-      "context": "Carácter que usa el radical 船 (barco). Pinyin: dà. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 船 • 12 trazos • izquierda-derecha"
-      }
-    },
-    "帆 (船)": {
-      "translations": {
-        "es": "帆",
-        "en": "帆",
-        "de": "帆",
-        "pt": "帆",
-        "ru": "帆",
-        "ruRom": "帆",
-        "zh": "帆",
-        "zhPinyin": "fānchuán"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "船",
-        "strokes": 12,
-        "unicode": 24070,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical barco",
-      "pronunciation": {
-        "zh_pinyin": "fānchuán"
-      },
-      "context": "Carácter que usa el radical 船 (barco). Pinyin: fānchuán. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 船 • 12 trazos • izquierda-derecha"
-      }
-    },
-    "船 (船)": {
-      "translations": {
-        "es": "船",
-        "en": "船",
-        "de": "船",
-        "pt": "船",
-        "ru": "船",
-        "ruRom": "船",
-        "zh": "船",
-        "zhPinyin": "chuán"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "船",
-        "strokes": 16,
-        "unicode": 33337,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical barco",
-      "pronunciation": {
-        "zh_pinyin": "chuán"
-      },
-      "context": "Carácter que usa el radical 船 (barco). Pinyin: chuán. 16 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 船 • 16 trazos • compuesto"
-      }
-    },
     "土": {
       "translations": {
         "es": "tierra",
-        "en": "tierra",
+        "en": "earth",
         "de": "tierra",
         "pt": "tierra",
         "ru": "tierra",
         "ruRom": "tierra",
         "zh": "土",
-        "zhPinyin": "unknown"
+        "zhPinyin": "tu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 3,
         "characterCount": 7,
         "characters": [
           "地",
@@ -1841,19 +1629,23 @@
           "土",
           "压",
           "迫"
-        ]
+        ],
+        "radicalNumber": 32,
+        "isVariant": false,
+        "standardForm": "土",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "tierra",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "tu"
       },
-      "context": "Radical Kangxi que significa \"tierra\". Aparece en 7 caracteres: 地, 下, 的, 主, 土, 压, 迫.",
+      "context": "Radical Kangxi #32 que significa \"tierra\". Aparece en 7 caracteres: 地, 下, 的, 主, 土, 压, 迫.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 7 caracteres"
+        "context": "Radical Kangxi #32 • 3 trazos • 7 caracteres"
       }
     },
     "地 (土)": {
@@ -2083,36 +1875,42 @@
     "竹": {
       "translations": {
         "es": "bambú",
-        "en": "bambú",
+        "en": "bamboo",
         "de": "bambú",
         "pt": "bambú",
         "ru": "bambú",
         "ruRom": "bambú",
         "zh": "竹",
-        "zhPinyin": "unknown"
+        "zhPinyin": "zhu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "plantas",
+        "strokes": 6,
         "characterCount": 4,
         "characters": [
           "等",
           "待",
           "篇",
           "章"
-        ]
+        ],
+        "radicalNumber": 118,
+        "isVariant": false,
+        "standardForm": "竹",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "bambú",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "zhu"
       },
-      "context": "Radical Kangxi que significa \"bambú\". Aparece en 4 caracteres: 等, 待, 篇, 章.",
+      "context": "Radical Kangxi #118 que significa \"bambú\". Aparece en 4 caracteres: 等, 待, 篇, 章.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 4 caracteres"
+        "context": "Radical Kangxi #118 • 6 trazos • 4 caracteres"
       }
     },
     "等 (竹)": {
@@ -2245,35 +2043,41 @@
     },
     "攴": {
       "translations": {
-        "es": "golpear",
-        "en": "golpear",
+        "es": "rap",
+        "en": "rap",
         "de": "golpear",
         "pt": "golpear",
         "ru": "golpear",
         "ruRom": "golpear",
         "zh": "攴",
-        "zhPinyin": "unknown"
+        "zhPinyin": "pu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 6,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "敌",
           "人"
-        ]
+        ],
+        "radicalNumber": 66,
+        "isVariant": false,
+        "standardForm": "攴",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "golpear",
+      "meaning": "rap",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "pu"
       },
-      "context": "Radical Kangxi que significa \"golpear\". Aparece en 2 caracteres: 敌, 人.",
+      "context": "Radical Kangxi #66 que significa \"rap\". Aparece en 2 caracteres: 敌, 人.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 6 trazos • 2 caracteres"
+        "context": "Radical Kangxi #66 • 4 trazos • 2 caracteres"
       }
     },
     "敌 (攴)": {
@@ -2343,17 +2147,19 @@
     "囗": {
       "translations": {
         "es": "recinto",
-        "en": "recinto",
+        "en": "enclosure",
         "de": "recinto",
         "pt": "recinto",
         "ru": "recinto",
         "ruRom": "recinto",
         "zh": "囗",
-        "zhPinyin": "unknown"
+        "zhPinyin": "wei"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 16,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "construcciones",
+        "strokes": 3,
         "characterCount": 7,
         "characters": [
           "第",
@@ -2363,19 +2169,23 @@
           "团",
           "结",
           "的"
-        ]
+        ],
+        "radicalNumber": 31,
+        "isVariant": false,
+        "standardForm": "囗",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "recinto",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "wei"
       },
-      "context": "Radical Kangxi que significa \"recinto\". Aparece en 7 caracteres: 第, 一, 国, 际, 团, 结, 的.",
+      "context": "Radical Kangxi #31 que significa \"recinto\". Aparece en 7 caracteres: 第, 一, 国, 际, 团, 结, 的.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 7 caracteres"
+        "context": "Radical Kangxi #31 • 3 trazos • 7 caracteres"
       }
     },
     "第 (囗)": {
@@ -2604,37 +2414,43 @@
     },
     "方": {
       "translations": {
-        "es": "dirección",
-        "en": "dirección",
+        "es": "square",
+        "en": "square",
         "de": "dirección",
         "pt": "dirección",
         "ru": "dirección",
         "ruRom": "dirección",
         "zh": "方",
-        "zhPinyin": "unknown"
+        "zhPinyin": "fang"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 8,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "abstractos",
+        "strokes": 4,
         "characterCount": 4,
         "characters": [
           "东",
           "方",
           "旗",
           "帜"
-        ]
+        ],
+        "radicalNumber": 70,
+        "isVariant": false,
+        "standardForm": "方",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "dirección",
+      "meaning": "square",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "fang"
       },
-      "context": "Radical Kangxi que significa \"dirección\". Aparece en 4 caracteres: 东, 方, 旗, 帜.",
+      "context": "Radical Kangxi #70 que significa \"square\". Aparece en 4 caracteres: 东, 方, 旗, 帜.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 8 trazos • 4 caracteres"
+        "context": "Radical Kangxi #70 • 4 trazos • 4 caracteres"
       }
     },
     "东 (方)": {
@@ -2765,200 +2581,43 @@
         "context": "Del radical 方 • 14 trazos • izquierda-derecha"
       }
     },
-    "东": {
-      "translations": {
-        "es": "este",
-        "en": "este",
-        "de": "este",
-        "pt": "este",
-        "ru": "este",
-        "ruRom": "este",
-        "zh": "东",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 22,
-        "characterCount": 4,
-        "characters": [
-          "东",
-          "线",
-          "战",
-          "场"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "este",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"este\". Aparece en 4 caracteres: 东, 线, 战, 场.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 22 trazos • 4 caracteres"
-      }
-    },
-    "东 (东)": {
-      "translations": {
-        "es": "东",
-        "en": "东",
-        "de": "东",
-        "pt": "东",
-        "ru": "东",
-        "ruRom": "东",
-        "zh": "东",
-        "zhPinyin": "dōng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "东",
-        "strokes": 8,
-        "unicode": 19996,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical este",
-      "pronunciation": {
-        "zh_pinyin": "dōng"
-      },
-      "context": "Carácter que usa el radical 东 (este). Pinyin: dōng. 8 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 东 • 8 trazos • izquierda-derecha"
-      }
-    },
-    "线 (东)": {
-      "translations": {
-        "es": "线",
-        "en": "线",
-        "de": "线",
-        "pt": "线",
-        "ru": "线",
-        "ruRom": "线",
-        "zh": "线",
-        "zhPinyin": "zhànchǎng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "东",
-        "strokes": 22,
-        "unicode": 32447,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical este",
-      "pronunciation": {
-        "zh_pinyin": "zhànchǎng"
-      },
-      "context": "Carácter que usa el radical 东 (este). Pinyin: zhànchǎng. 22 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 东 • 22 trazos • compuesto"
-      }
-    },
-    "战 (东)": {
-      "translations": {
-        "es": "战",
-        "en": "战",
-        "de": "战",
-        "pt": "战",
-        "ru": "战",
-        "ruRom": "战",
-        "zh": "战",
-        "zhPinyin": "zhànshèng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "东",
-        "strokes": 12,
-        "unicode": 25112,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical este",
-      "pronunciation": {
-        "zh_pinyin": "zhànshèng"
-      },
-      "context": "Carácter que usa el radical 东 (este). Pinyin: zhànshèng. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 东 • 12 trazos • izquierda-derecha"
-      }
-    },
-    "场 (东)": {
-      "translations": {
-        "es": "场",
-        "en": "场",
-        "de": "场",
-        "pt": "场",
-        "ru": "场",
-        "ruRom": "场",
-        "zh": "场",
-        "zhPinyin": "dōngxiàn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "东",
-        "strokes": 22,
-        "unicode": 22330,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical este",
-      "pronunciation": {
-        "zh_pinyin": "dōngxiàn"
-      },
-      "context": "Carácter que usa el radical 东 (este). Pinyin: dōngxiàn. 22 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 东 • 22 trazos • compuesto"
-      }
-    },
     "斗": {
       "translations": {
-        "es": "lucha",
-        "en": "lucha",
+        "es": "dipper",
+        "en": "dipper",
         "de": "lucha",
         "pt": "lucha",
         "ru": "lucha",
         "ruRom": "lucha",
         "zh": "斗",
-        "zhPinyin": "unknown"
+        "zhPinyin": "dou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "斗",
           "争"
-        ]
+        ],
+        "radicalNumber": 68,
+        "isVariant": false,
+        "standardForm": "斗",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "lucha",
+      "meaning": "dipper",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "dou"
       },
-      "context": "Radical Kangxi que significa \"lucha\". Aparece en 2 caracteres: 斗, 争.",
+      "context": "Radical Kangxi #68 que significa \"dipper\". Aparece en 2 caracteres: 斗, 争.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
+        "context": "Radical Kangxi #68 • 4 trazos • 2 caracteres"
       }
     },
     "斗 (斗)": {
@@ -3025,235 +2684,45 @@
         "context": "Del radical 斗 • 12 trazos • independiente"
       }
     },
-    "反": {
-      "translations": {
-        "es": "opuesto",
-        "en": "opuesto",
-        "de": "opuesto",
-        "pt": "opuesto",
-        "ru": "opuesto",
-        "ruRom": "opuesto",
-        "zh": "反",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 16,
-        "characterCount": 5,
-        "characters": [
-          "反",
-          "法",
-          "西",
-          "斯",
-          "抗"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "opuesto",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"opuesto\". Aparece en 5 caracteres: 反, 法, 西, 斯, 抗.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 5 caracteres"
-      }
-    },
-    "反 (反)": {
-      "translations": {
-        "es": "反",
-        "en": "反",
-        "de": "反",
-        "pt": "反",
-        "ru": "反",
-        "ruRom": "反",
-        "zh": "反",
-        "zhPinyin": "fǎn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "反",
-        "strokes": 16,
-        "unicode": 21453,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical opuesto",
-      "pronunciation": {
-        "zh_pinyin": "fǎn"
-      },
-      "context": "Carácter que usa el radical 反 (opuesto). Pinyin: fǎn. 16 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 反 • 16 trazos • izquierda-derecha"
-      }
-    },
-    "法 (反)": {
-      "translations": {
-        "es": "法",
-        "en": "法",
-        "de": "法",
-        "pt": "法",
-        "ru": "法",
-        "ruRom": "法",
-        "zh": "法",
-        "zhPinyin": "fǎxīsī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "反",
-        "strokes": 23,
-        "unicode": 27861,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical opuesto",
-      "pronunciation": {
-        "zh_pinyin": "fǎxīsī"
-      },
-      "context": "Carácter que usa el radical 反 (opuesto). Pinyin: fǎxīsī. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 反 • 23 trazos • izquierda-derecha"
-      }
-    },
-    "西 (反)": {
-      "translations": {
-        "es": "西",
-        "en": "西",
-        "de": "西",
-        "pt": "西",
-        "ru": "西",
-        "ruRom": "西",
-        "zh": "西",
-        "zhPinyin": "zhǔyì"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "反",
-        "strokes": 23,
-        "unicode": 35199,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical opuesto",
-      "pronunciation": {
-        "zh_pinyin": "zhǔyì"
-      },
-      "context": "Carácter que usa el radical 反 (opuesto). Pinyin: zhǔyì. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 反 • 23 trazos • izquierda-derecha"
-      }
-    },
-    "斯 (反)": {
-      "translations": {
-        "es": "斯",
-        "en": "斯",
-        "de": "斯",
-        "pt": "斯",
-        "ru": "斯",
-        "ruRom": "斯",
-        "zh": "斯",
-        "zhPinyin": "fǎxīsī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "反",
-        "strokes": 23,
-        "unicode": 26031,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical opuesto",
-      "pronunciation": {
-        "zh_pinyin": "fǎxīsī"
-      },
-      "context": "Carácter que usa el radical 反 (opuesto). Pinyin: fǎxīsī. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 反 • 23 trazos • izquierda-derecha"
-      }
-    },
-    "抗 (反)": {
-      "translations": {
-        "es": "抗",
-        "en": "抗",
-        "de": "抗",
-        "pt": "抗",
-        "ru": "抗",
-        "ruRom": "抗",
-        "zh": "抗",
-        "zhPinyin": "kàng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "反",
-        "strokes": 11,
-        "unicode": 25239,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical opuesto",
-      "pronunciation": {
-        "zh_pinyin": "kàng"
-      },
-      "context": "Carácter que usa el radical 反 (opuesto). Pinyin: kàng. 11 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 反 • 11 trazos • izquierda-derecha"
-      }
-    },
     "又": {
       "translations": {
-        "es": "otra vez",
-        "en": "otra vez",
+        "es": "again",
+        "en": "again",
         "de": "otra vez",
         "pt": "otra vez",
         "ru": "otra vez",
         "ruRom": "otra vez",
         "zh": "又",
-        "zhPinyin": "unknown"
+        "zhPinyin": "you"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 2,
         "characterCount": 4,
         "characters": [
           "反",
           "犹",
           "主",
           "义"
-        ]
+        ],
+        "radicalNumber": 29,
+        "isVariant": false,
+        "standardForm": "又",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "otra vez",
+      "meaning": "again",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "you"
       },
-      "context": "Radical Kangxi que significa \"otra vez\". Aparece en 4 caracteres: 反, 犹, 主, 义.",
+      "context": "Radical Kangxi #29 que significa \"again\". Aparece en 4 caracteres: 反, 犹, 主, 义.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 4 caracteres"
+        "context": "Radical Kangxi #29 • 2 trazos • 4 caracteres"
       }
     },
     "反 (又)": {
@@ -3386,35 +2855,41 @@
     },
     "阝": {
       "translations": {
-        "es": "montículo",
-        "en": "montículo",
+        "es": "ciudad",
+        "en": "city",
         "de": "montículo",
         "pt": "montículo",
         "ru": "montículo",
         "ruRom": "montículo",
         "zh": "阝",
-        "zhPinyin": "unknown"
+        "zhPinyin": "yi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 7,
         "characterCount": 2,
         "characters": [
           "防",
           "御"
-        ]
+        ],
+        "radicalNumber": 163,
+        "isVariant": true,
+        "standardForm": "邑",
+        "variantType": "right_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "montículo",
+      "meaning": "ciudad",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "yi"
       },
-      "context": "Radical Kangxi que significa \"montículo\". Aparece en 2 caracteres: 防, 御.",
+      "context": "Radical Kangxi #163 (variante right_variant de 邑) que significa \"ciudad\". Aparece en 2 caracteres: 防, 御.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 2 caracteres"
+        "context": "Radical Kangxi #163 • 7 trazos • 2 caracteres"
       }
     },
     "防 (阝)": {
@@ -3484,17 +2959,19 @@
     "水": {
       "translations": {
         "es": "agua",
-        "en": "agua",
+        "en": "water",
         "de": "agua",
         "pt": "agua",
         "ru": "agua",
         "ruRom": "agua",
         "zh": "水",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shui"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 16,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 4,
         "characterCount": 8,
         "characters": [
           "沸",
@@ -3505,19 +2982,23 @@
           "远",
           "不",
           "会"
-        ]
+        ],
+        "radicalNumber": 85,
+        "isVariant": false,
+        "standardForm": "水",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "agua",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shui"
       },
-      "context": "Radical Kangxi que significa \"agua\". Aparece en 8 caracteres: 沸, 腾, 永, 恒, 的, 远, 不, 会.",
+      "context": "Radical Kangxi #85 que significa \"agua\". Aparece en 8 caracteres: 沸, 腾, 永, 恒, 的, 远, 不, 会.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 8 caracteres"
+        "context": "Radical Kangxi #85 • 4 trazos • 8 caracteres"
       }
     },
     "沸 (水)": {
@@ -3776,117 +3257,22 @@
         "context": "Del radical 水 • 22 trazos • compuesto"
       }
     },
-    "风": {
-      "translations": {
-        "es": "viento",
-        "en": "viento",
-        "de": "viento",
-        "pt": "viento",
-        "ru": "viento",
-        "ruRom": "viento",
-        "zh": "风",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 4,
-        "characterCount": 2,
-        "characters": [
-          "风",
-          "暴"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "viento",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"viento\". Aparece en 2 caracteres: 风, 暴.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 4 trazos • 2 caracteres"
-      }
-    },
-    "风 (风)": {
-      "translations": {
-        "es": "风",
-        "en": "风",
-        "de": "风",
-        "pt": "风",
-        "ru": "风",
-        "ruRom": "风",
-        "zh": "风",
-        "zhPinyin": "fēng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "风",
-        "strokes": 4,
-        "unicode": 39118,
-        "structure": "independiente",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical viento",
-      "pronunciation": {
-        "zh_pinyin": "fēng"
-      },
-      "context": "Carácter que usa el radical 风 (viento). Pinyin: fēng. 4 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 风 • 4 trazos • independiente"
-      }
-    },
-    "暴 (风)": {
-      "translations": {
-        "es": "暴",
-        "en": "暴",
-        "de": "暴",
-        "pt": "暴",
-        "ru": "暴",
-        "ruRom": "暴",
-        "zh": "暴",
-        "zhPinyin": "bào"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "风",
-        "strokes": 13,
-        "unicode": 26292,
-        "structure": "independiente",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical viento",
-      "pronunciation": {
-        "zh_pinyin": "bào"
-      },
-      "context": "Carácter que usa el radical 风 (viento). Pinyin: bào. 13 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 风 • 13 trazos • independiente"
-      }
-    },
     "工": {
       "translations": {
         "es": "trabajo",
-        "en": "trabajo",
+        "en": "work",
         "de": "trabajo",
         "pt": "trabajo",
         "ru": "trabajo",
         "ruRom": "trabajo",
         "zh": "工",
-        "zhPinyin": "unknown"
+        "zhPinyin": "gong"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 7,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 3,
         "characterCount": 7,
         "characters": [
           "工",
@@ -3896,19 +3282,23 @@
           "团",
           "主",
           "义"
-        ]
+        ],
+        "radicalNumber": 48,
+        "isVariant": false,
+        "standardForm": "工",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "trabajo",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "gong"
       },
-      "context": "Radical Kangxi que significa \"trabajo\". Aparece en 7 caracteres: 工, 人, 阶, 级, 团, 主, 义.",
+      "context": "Radical Kangxi #48 que significa \"trabajo\". Aparece en 7 caracteres: 工, 人, 阶, 级, 团, 主, 义.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 7 trazos • 7 caracteres"
+        "context": "Radical Kangxi #48 • 3 trazos • 7 caracteres"
       }
     },
     "工 (工)": {
@@ -4138,17 +3528,19 @@
     "八": {
       "translations": {
         "es": "ocho",
-        "en": "ocho",
+        "en": "eight",
         "de": "ocho",
         "pt": "ocho",
         "ru": "ocho",
         "ruRom": "ocho",
         "zh": "八",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ba"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "números",
+        "strokes": 2,
         "characterCount": 7,
         "characters": [
           "公",
@@ -4158,19 +3550,23 @@
           "党",
           "和",
           "国"
-        ]
+        ],
+        "radicalNumber": 12,
+        "isVariant": false,
+        "standardForm": "八",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "ocho",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ba"
       },
-      "context": "Radical Kangxi que significa \"ocho\". Aparece en 7 caracteres: 公, 社, 共, 产, 党, 和, 国.",
+      "context": "Radical Kangxi #12 que significa \"ocho\". Aparece en 7 caracteres: 公, 社, 共, 产, 党, 和, 国.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 7 caracteres"
+        "context": "Radical Kangxi #12 • 2 trazos • 7 caracteres"
       }
     },
     "公 (八)": {
@@ -4397,331 +3793,44 @@
         "context": "Del radical 八 • 16 trazos • encierro"
       }
     },
-    "共": {
-      "translations": {
-        "es": "junto",
-        "en": "junto",
-        "de": "junto",
-        "pt": "junto",
-        "ru": "junto",
-        "ruRom": "junto",
-        "zh": "共",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 16,
-        "characterCount": 5,
-        "characters": [
-          "共",
-          "产",
-          "主",
-          "义",
-          "者"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "junto",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"junto\". Aparece en 5 caracteres: 共, 产, 主, 义, 者.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 5 caracteres"
-      }
-    },
-    "共 (共)": {
-      "translations": {
-        "es": "共",
-        "en": "共",
-        "de": "共",
-        "pt": "共",
-        "ru": "共",
-        "ruRom": "共",
-        "zh": "共",
-        "zhPinyin": "gòng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "共",
-        "strokes": 20,
-        "unicode": 20849,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical junto",
-      "pronunciation": {
-        "zh_pinyin": "gòng"
-      },
-      "context": "Carácter que usa el radical 共 (junto). Pinyin: gòng. 20 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 共 • 20 trazos • compuesto"
-      }
-    },
-    "产 (共)": {
-      "translations": {
-        "es": "产",
-        "en": "产",
-        "de": "产",
-        "pt": "产",
-        "ru": "产",
-        "ruRom": "产",
-        "zh": "产",
-        "zhPinyin": "chǎn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "共",
-        "strokes": 20,
-        "unicode": 20135,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical junto",
-      "pronunciation": {
-        "zh_pinyin": "chǎn"
-      },
-      "context": "Carácter que usa el radical 共 (junto). Pinyin: chǎn. 20 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 共 • 20 trazos • compuesto"
-      }
-    },
-    "主 (共)": {
-      "translations": {
-        "es": "主",
-        "en": "主",
-        "de": "主",
-        "pt": "主",
-        "ru": "主",
-        "ruRom": "主",
-        "zh": "主",
-        "zhPinyin": "zhǔ"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "共",
-        "strokes": 8,
-        "unicode": 20027,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical junto",
-      "pronunciation": {
-        "zh_pinyin": "zhǔ"
-      },
-      "context": "Carácter que usa el radical 共 (junto). Pinyin: zhǔ. 8 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 共 • 8 trazos • arriba-abajo"
-      }
-    },
-    "义 (共)": {
-      "translations": {
-        "es": "义",
-        "en": "义",
-        "de": "义",
-        "pt": "义",
-        "ru": "义",
-        "ruRom": "义",
-        "zh": "义",
-        "zhPinyin": "fǎxīsī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "共",
-        "strokes": 23,
-        "unicode": 20041,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical junto",
-      "pronunciation": {
-        "zh_pinyin": "fǎxīsī"
-      },
-      "context": "Carácter que usa el radical 共 (junto). Pinyin: fǎxīsī. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 共 • 23 trazos • izquierda-derecha"
-      }
-    },
-    "者 (共)": {
-      "translations": {
-        "es": "者",
-        "en": "者",
-        "de": "者",
-        "pt": "者",
-        "ru": "者",
-        "ruRom": "者",
-        "zh": "者",
-        "zhPinyin": "gòngchǎn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "共",
-        "strokes": 16,
-        "unicode": 32773,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical junto",
-      "pronunciation": {
-        "zh_pinyin": "gòngchǎn"
-      },
-      "context": "Carácter que usa el radical 共 (junto). Pinyin: gòngchǎn. 16 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 共 • 16 trazos • compuesto"
-      }
-    },
-    "雇": {
-      "translations": {
-        "es": "emplear",
-        "en": "emplear",
-        "de": "emplear",
-        "pt": "emplear",
-        "ru": "emplear",
-        "ruRom": "emplear",
-        "zh": "雇",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 12,
-        "characterCount": 2,
-        "characters": [
-          "雇",
-          "农"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "emplear",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"emplear\". Aparece en 2 caracteres: 雇, 农.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
-      }
-    },
-    "雇 (雇)": {
-      "translations": {
-        "es": "雇",
-        "en": "雇",
-        "de": "雇",
-        "pt": "雇",
-        "ru": "雇",
-        "ruRom": "雇",
-        "zh": "雇",
-        "zhPinyin": "gùn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "雇",
-        "strokes": 12,
-        "unicode": 38599,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical emplear",
-      "pronunciation": {
-        "zh_pinyin": "gùn"
-      },
-      "context": "Carácter que usa el radical 雇 (emplear). Pinyin: gùn. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 雇 • 12 trazos • izquierda-derecha"
-      }
-    },
-    "农 (雇)": {
-      "translations": {
-        "es": "农",
-        "en": "农",
-        "de": "农",
-        "pt": "农",
-        "ru": "农",
-        "ruRom": "农",
-        "zh": "农",
-        "zhPinyin": "óng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "雇",
-        "strokes": 12,
-        "unicode": 20892,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical emplear",
-      "pronunciation": {
-        "zh_pinyin": "óng"
-      },
-      "context": "Carácter que usa el radical 雇 (emplear). Pinyin: óng. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 雇 • 12 trazos • izquierda-derecha"
-      }
-    },
     "子": {
       "translations": {
-        "es": "hijo",
-        "en": "hijo",
+        "es": "niño",
+        "en": "child",
         "de": "hijo",
         "pt": "hijo",
         "ru": "hijo",
         "ruRom": "hijo",
         "zh": "子",
-        "zhPinyin": "unknown"
+        "zhPinyin": "zi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 18,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 3,
         "characterCount": 3,
         "characters": [
           "孩",
           "子",
           "们"
-        ]
+        ],
+        "radicalNumber": 39,
+        "isVariant": false,
+        "standardForm": "子",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "hijo",
+      "meaning": "niño",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "zi"
       },
-      "context": "Radical Kangxi que significa \"hijo\". Aparece en 3 caracteres: 孩, 子, 们.",
+      "context": "Radical Kangxi #39 que significa \"niño\". Aparece en 3 caracteres: 孩, 子, 们.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 18 trazos • 3 caracteres"
+        "context": "Radical Kangxi #39 • 3 trazos • 3 caracteres"
       }
     },
     "孩 (子)": {
@@ -4823,36 +3932,42 @@
     "扌": {
       "translations": {
         "es": "mano",
-        "en": "mano",
+        "en": "hand",
         "de": "mano",
         "pt": "mano",
         "ru": "mano",
         "ruRom": "mano",
         "zh": "扌",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 15,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 4,
         "characterCount": 4,
         "characters": [
           "捍",
           "卫",
           "摇",
           "撼"
-        ]
+        ],
+        "radicalNumber": 64,
+        "isVariant": true,
+        "standardForm": "手",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "mano",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shou"
       },
-      "context": "Radical Kangxi que significa \"mano\". Aparece en 4 caracteres: 捍, 卫, 摇, 撼.",
+      "context": "Radical Kangxi #64 (variante left_variant de 手) que significa \"mano\". Aparece en 4 caracteres: 捍, 卫, 摇, 撼.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 15 trazos • 4 caracteres"
+        "context": "Radical Kangxi #64 • 4 trazos • 4 caracteres"
       }
     },
     "捍 (扌)": {
@@ -4986,35 +4101,41 @@
     "黑": {
       "translations": {
         "es": "negro",
-        "en": "negro",
+        "en": "black",
         "de": "negro",
         "pt": "negro",
         "ru": "negro",
         "ruRom": "negro",
         "zh": "黑",
-        "zhPinyin": "unknown"
+        "zhPinyin": "hei"
       },
       "metadata": {
         "category": "radical",
+        "radicalCategory": "Muy complejos (11+ trazos)",
+        "semanticCategory": "otros",
         "strokes": 12,
         "characterCount": 3,
         "characters": [
           "黑",
           "色",
           "的"
-        ]
+        ],
+        "radicalNumber": 203,
+        "isVariant": false,
+        "standardForm": "黑",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "negro",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "hei"
       },
-      "context": "Radical Kangxi que significa \"negro\". Aparece en 3 caracteres: 黑, 色, 的.",
+      "context": "Radical Kangxi #203 que significa \"negro\". Aparece en 3 caracteres: 黑, 色, 的.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 3 caracteres"
+        "context": "Radical Kangxi #203 • 12 trazos • 3 caracteres"
       }
     },
     "黑 (黑)": {
@@ -5116,33 +4237,39 @@
     "纟": {
       "translations": {
         "es": "seda",
-        "en": "seda",
+        "en": "silk",
         "de": "seda",
         "pt": "seda",
         "ru": "seda",
         "ruRom": "seda",
         "zh": "纟",
-        "zhPinyin": "unknown"
+        "zhPinyin": "mi"
       },
       "metadata": {
         "category": "radical",
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
         "strokes": 6,
         "characterCount": 1,
         "characters": [
           "红"
-        ]
+        ],
+        "radicalNumber": 120,
+        "isVariant": true,
+        "standardForm": "糸",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "seda",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "mi"
       },
-      "context": "Radical Kangxi que significa \"seda\". Aparece en 1 caracteres: 红.",
+      "context": "Radical Kangxi #120 (variante left_variant de 糸) que significa \"seda\". Aparece en 1 caracteres: 红.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 6 trazos • 1 caracteres"
+        "context": "Radical Kangxi #120 • 6 trazos • 1 caracteres"
       }
     },
     "红 (纟)": {
@@ -5179,8 +4306,8 @@
     },
     "幺": {
       "translations": {
-        "es": "pequeño",
-        "en": "pequeño",
+        "es": "short thread",
+        "en": "short thread",
         "de": "pequeño",
         "pt": "pequeño",
         "ru": "pequeño",
@@ -5190,24 +4317,30 @@
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 3,
         "characterCount": 2,
         "characters": [
           "幻",
           "想"
-        ]
+        ],
+        "radicalNumber": 52,
+        "isVariant": false,
+        "standardForm": "幺",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "pequeño",
+      "meaning": "short thread",
       "pronunciation": {
         "zh_pinyin": "unknown"
       },
-      "context": "Radical Kangxi que significa \"pequeño\". Aparece en 2 caracteres: 幻, 想.",
+      "context": "Radical Kangxi #52 que significa \"short thread\". Aparece en 2 caracteres: 幻, 想.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 2 caracteres"
+        "context": "Radical Kangxi #52 • 3 trazos • 2 caracteres"
       }
     },
     "幻 (幺)": {
@@ -5276,36 +4409,42 @@
     },
     "食": {
       "translations": {
-        "es": "comida",
-        "en": "comida",
+        "es": "comer",
+        "en": "eat",
         "de": "comida",
         "pt": "comida",
         "ru": "comida",
         "ruRom": "comida",
         "zh": "食",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 19,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 9,
         "characterCount": 3,
         "characters": [
           "饥",
           "饿",
           "的"
-        ]
+        ],
+        "radicalNumber": 184,
+        "isVariant": false,
+        "standardForm": "食",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "comida",
+      "meaning": "comer",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shi"
       },
-      "context": "Radical Kangxi que significa \"comida\". Aparece en 3 caracteres: 饥, 饿, 的.",
+      "context": "Radical Kangxi #184 que significa \"comer\". Aparece en 3 caracteres: 饥, 饿, 的.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 19 trazos • 3 caracteres"
+        "context": "Radical Kangxi #184 • 9 trazos • 3 caracteres"
       }
     },
     "饥 (食)": {
@@ -5407,34 +4546,40 @@
     "寸": {
       "translations": {
         "es": "pulgada",
-        "en": "pulgada",
+        "en": "inch",
         "de": "pulgada",
         "pt": "pulgada",
         "ru": "pulgada",
         "ruRom": "pulgada",
         "zh": "寸",
-        "zhPinyin": "unknown"
+        "zhPinyin": "cun"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "números",
+        "strokes": 3,
         "characterCount": 2,
         "characters": [
           "将",
           "是"
-        ]
+        ],
+        "radicalNumber": 41,
+        "isVariant": false,
+        "standardForm": "寸",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "pulgada",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "cun"
       },
-      "context": "Radical Kangxi que significa \"pulgada\". Aparece en 2 caracteres: 将, 是.",
+      "context": "Radical Kangxi #41 que significa \"pulgada\". Aparece en 2 caracteres: 将, 是.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
+        "context": "Radical Kangxi #41 • 3 trazos • 2 caracteres"
       }
     },
     "将 (寸)": {
@@ -5503,36 +4648,42 @@
     },
     "角": {
       "translations": {
-        "es": "ángulo",
-        "en": "ángulo",
+        "es": "horn",
+        "en": "horn",
         "de": "ángulo",
         "pt": "ángulo",
         "ru": "ángulo",
         "ruRom": "ángulo",
         "zh": "角",
-        "zhPinyin": "unknown"
+        "zhPinyin": "jue"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 13,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 7,
         "characterCount": 3,
         "characters": [
           "解",
           "放",
           "者"
-        ]
+        ],
+        "radicalNumber": 148,
+        "isVariant": false,
+        "standardForm": "角",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "ángulo",
+      "meaning": "horn",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "jue"
       },
-      "context": "Radical Kangxi que significa \"ángulo\". Aparece en 3 caracteres: 解, 放, 者.",
+      "context": "Radical Kangxi #148 que significa \"horn\". Aparece en 3 caracteres: 解, 放, 者.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 13 trazos • 3 caracteres"
+        "context": "Radical Kangxi #148 • 7 trazos • 3 caracteres"
       }
     },
     "解 (角)": {
@@ -5633,37 +4784,43 @@
     },
     "攵": {
       "translations": {
-        "es": "golpear",
-        "en": "golpear",
+        "es": "rap",
+        "en": "rap",
         "de": "golpear",
         "pt": "golpear",
         "ru": "golpear",
         "ruRom": "golpear",
         "zh": "攵",
-        "zhPinyin": "unknown"
+        "zhPinyin": "pu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 15,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 4,
         "characterCount": 4,
         "characters": [
           "救",
           "星",
           "散",
           "居"
-        ]
+        ],
+        "radicalNumber": 66,
+        "isVariant": true,
+        "standardForm": "攴",
+        "variantType": "variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "golpear",
+      "meaning": "rap",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "pu"
       },
-      "context": "Radical Kangxi que significa \"golpear\". Aparece en 4 caracteres: 救, 星, 散, 居.",
+      "context": "Radical Kangxi #66 (variante variant de 攴) que significa \"rap\". Aparece en 4 caracteres: 救, 星, 散, 居.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 15 trazos • 4 caracteres"
+        "context": "Radical Kangxi #66 • 4 trazos • 4 caracteres"
       }
     },
     "救 (攵)": {
@@ -5797,17 +4954,19 @@
     "手": {
       "translations": {
         "es": "mano",
-        "en": "mano",
+        "en": "hand",
         "de": "mano",
         "pt": "mano",
         "ru": "mano",
         "ruRom": "mano",
         "zh": "手",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 4,
         "characterCount": 5,
         "characters": [
           "举",
@@ -5815,19 +4974,23 @@
           "的",
           "拳",
           "头"
-        ]
+        ],
+        "radicalNumber": 64,
+        "isVariant": false,
+        "standardForm": "手",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "mano",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shou"
       },
-      "context": "Radical Kangxi que significa \"mano\". Aparece en 5 caracteres: 举, 起, 的, 拳, 头.",
+      "context": "Radical Kangxi #64 que significa \"mano\". Aparece en 5 caracteres: 举, 起, 的, 拳, 头.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 5 caracteres"
+        "context": "Radical Kangxi #64 • 4 trazos • 5 caracteres"
       }
     },
     "举 (手)": {
@@ -5993,36 +5156,42 @@
     "力": {
       "translations": {
         "es": "fuerza",
-        "en": "fuerza",
+        "en": "power",
         "de": "fuerza",
         "pt": "fuerza",
         "ru": "fuerza",
         "ruRom": "fuerza",
         "zh": "力",
-        "zhPinyin": "unknown"
+        "zhPinyin": "li"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 2,
         "characterCount": 4,
         "characters": [
           "劳",
           "作",
           "胜",
           "利"
-        ]
+        ],
+        "radicalNumber": 19,
+        "isVariant": false,
+        "standardForm": "力",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "fuerza",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "li"
       },
-      "context": "Radical Kangxi que significa \"fuerza\". Aparece en 4 caracteres: 劳, 作, 胜, 利.",
+      "context": "Radical Kangxi #19 que significa \"fuerza\". Aparece en 4 caracteres: 劳, 作, 胜, 利.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 4 caracteres"
+        "context": "Radical Kangxi #19 • 2 trazos • 4 caracteres"
       }
     },
     "劳 (力)": {
@@ -6155,34 +5324,40 @@
     },
     "牛": {
       "translations": {
-        "es": "buey",
-        "en": "buey",
+        "es": "vaca",
+        "en": "cow",
         "de": "buey",
         "pt": "buey",
         "ru": "buey",
         "ruRom": "buey",
         "zh": "牛",
-        "zhPinyin": "unknown"
+        "zhPinyin": "niu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "animales",
+        "strokes": 4,
         "characterCount": 1,
         "characters": [
           "犁"
-        ]
+        ],
+        "radicalNumber": 93,
+        "isVariant": false,
+        "standardForm": "牛",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "buey",
+      "meaning": "vaca",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "niu"
       },
-      "context": "Radical Kangxi que significa \"buey\". Aparece en 1 caracteres: 犁.",
+      "context": "Radical Kangxi #93 que significa \"vaca\". Aparece en 1 caracteres: 犁.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 1 caracteres"
+        "context": "Radical Kangxi #93 • 4 trazos • 1 caracteres"
       }
     },
     "犁 (牛)": {
@@ -6220,34 +5395,40 @@
     "黍": {
       "translations": {
         "es": "mijo",
-        "en": "mijo",
+        "en": "millet",
         "de": "mijo",
         "pt": "mijo",
         "ru": "mijo",
         "ruRom": "mijo",
         "zh": "黍",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 23,
+        "radicalCategory": "Muy complejos (11+ trazos)",
+        "semanticCategory": "otros",
+        "strokes": 12,
         "characterCount": 2,
         "characters": [
           "黎",
           "明"
-        ]
+        ],
+        "radicalNumber": 202,
+        "isVariant": false,
+        "standardForm": "黍",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "mijo",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shu"
       },
-      "context": "Radical Kangxi que significa \"mijo\". Aparece en 2 caracteres: 黎, 明.",
+      "context": "Radical Kangxi #202 que significa \"mijo\". Aparece en 2 caracteres: 黎, 明.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 23 trazos • 2 caracteres"
+        "context": "Radical Kangxi #202 • 12 trazos • 2 caracteres"
       }
     },
     "黎 (黍)": {
@@ -6316,35 +5497,41 @@
     },
     "王": {
       "translations": {
-        "es": "rey",
-        "en": "rey",
+        "es": "jade",
+        "en": "jade",
         "de": "rey",
         "pt": "rey",
         "ru": "rey",
         "ruRom": "rey",
         "zh": "王",
-        "zhPinyin": "unknown"
+        "zhPinyin": "yu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 15,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 5,
         "characterCount": 2,
         "characters": [
           "理",
           "性"
-        ]
+        ],
+        "radicalNumber": 96,
+        "isVariant": true,
+        "standardForm": "玉",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "rey",
+      "meaning": "jade",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "yu"
       },
-      "context": "Radical Kangxi que significa \"rey\". Aparece en 2 caracteres: 理, 性.",
+      "context": "Radical Kangxi #96 (variante left_variant de 玉) que significa \"jade\". Aparece en 2 caracteres: 理, 性.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 15 trazos • 2 caracteres"
+        "context": "Radical Kangxi #96 • 5 trazos • 2 caracteres"
       }
     },
     "理 (王)": {
@@ -6413,35 +5600,41 @@
     },
     "厂": {
       "translations": {
-        "es": "acantilado",
-        "en": "acantilado",
+        "es": "cliff",
+        "en": "cliff",
         "de": "acantilado",
         "pt": "acantilado",
         "ru": "acantilado",
         "ruRom": "acantilado",
         "zh": "厂",
-        "zhPinyin": "unknown"
+        "zhPinyin": "han"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "construcciones",
+        "strokes": 2,
         "characterCount": 2,
         "characters": [
           "历",
           "史"
-        ]
+        ],
+        "radicalNumber": 27,
+        "isVariant": false,
+        "standardForm": "厂",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "acantilado",
+      "meaning": "cliff",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "han"
       },
-      "context": "Radical Kangxi que significa \"acantilado\". Aparece en 2 caracteres: 历, 史.",
+      "context": "Radical Kangxi #27 que significa \"cliff\". Aparece en 2 caracteres: 历, 史.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
+        "context": "Radical Kangxi #27 • 2 trazos • 2 caracteres"
       }
     },
     "历 (厂)": {
@@ -6510,35 +5703,41 @@
     },
     "耳": {
       "translations": {
-        "es": "oreja",
-        "en": "oreja",
+        "es": "oído",
+        "en": "ear",
         "de": "oreja",
         "pt": "oreja",
         "ru": "oreja",
         "ruRom": "oreja",
         "zh": "耳",
-        "zhPinyin": "unknown"
+        "zhPinyin": "er"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 25,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 6,
         "characterCount": 2,
         "characters": [
           "联",
           "盟"
-        ]
+        ],
+        "radicalNumber": 128,
+        "isVariant": false,
+        "standardForm": "耳",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "oreja",
+      "meaning": "oído",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "er"
       },
-      "context": "Radical Kangxi que significa \"oreja\". Aparece en 2 caracteres: 联, 盟.",
+      "context": "Radical Kangxi #128 que significa \"oído\". Aparece en 2 caracteres: 联, 盟.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 25 trazos • 2 caracteres"
+        "context": "Radical Kangxi #128 • 6 trazos • 2 caracteres"
       }
     },
     "联 (耳)": {
@@ -6605,135 +5804,44 @@
         "context": "Del radical 耳 • 25 trazos • compuesto"
       }
     },
-    "页": {
-      "translations": {
-        "es": "página",
-        "en": "página",
-        "de": "página",
-        "pt": "página",
-        "ru": "página",
-        "ruRom": "página",
-        "zh": "页",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 17,
-        "characterCount": 2,
-        "characters": [
-          "领",
-          "袖"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "página",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"página\". Aparece en 2 caracteres: 领, 袖.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 17 trazos • 2 caracteres"
-      }
-    },
-    "领 (页)": {
-      "translations": {
-        "es": "领",
-        "en": "领",
-        "de": "领",
-        "pt": "领",
-        "ru": "领",
-        "ruRom": "领",
-        "zh": "领",
-        "zhPinyin": "lǐng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "页",
-        "strokes": 17,
-        "unicode": 39046,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical página",
-      "pronunciation": {
-        "zh_pinyin": "lǐng"
-      },
-      "context": "Carácter que usa el radical 页 (página). Pinyin: lǐng. 17 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 页 • 17 trazos • compuesto"
-      }
-    },
-    "袖 (页)": {
-      "translations": {
-        "es": "袖",
-        "en": "袖",
-        "de": "袖",
-        "pt": "袖",
-        "ru": "袖",
-        "ruRom": "袖",
-        "zh": "袖",
-        "zhPinyin": "xiù"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "页",
-        "strokes": 17,
-        "unicode": 34966,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical página",
-      "pronunciation": {
-        "zh_pinyin": "xiù"
-      },
-      "context": "Carácter que usa el radical 页 (página). Pinyin: xiù. 17 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 页 • 17 trazos • compuesto"
-      }
-    },
     "禾": {
       "translations": {
-        "es": "cereal",
-        "en": "cereal",
+        "es": "grano",
+        "en": "grain",
         "de": "cereal",
         "pt": "cereal",
         "ru": "cereal",
         "ruRom": "cereal",
         "zh": "禾",
-        "zhPinyin": "unknown"
+        "zhPinyin": "he"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 21,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "plantas",
+        "strokes": 5,
         "characterCount": 3,
         "characters": [
           "秘",
           "密",
           "的"
-        ]
+        ],
+        "radicalNumber": 115,
+        "isVariant": false,
+        "standardForm": "禾",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "cereal",
+      "meaning": "grano",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "he"
       },
-      "context": "Radical Kangxi que significa \"cereal\". Aparece en 3 caracteres: 秘, 密, 的.",
+      "context": "Radical Kangxi #115 que significa \"grano\". Aparece en 3 caracteres: 秘, 密, 的.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 21 trazos • 3 caracteres"
+        "context": "Radical Kangxi #115 • 5 trazos • 3 caracteres"
       }
     },
     "秘 (禾)": {
@@ -6835,34 +5943,40 @@
     "火": {
       "translations": {
         "es": "fuego",
-        "en": "fuego",
+        "en": "fire",
         "de": "fuego",
         "pt": "fuego",
         "ru": "fuego",
         "ruRom": "fuego",
         "zh": "火",
-        "zhPinyin": "unknown"
+        "zhPinyin": "huo"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "灭",
           "亡"
-        ]
+        ],
+        "radicalNumber": 86,
+        "isVariant": false,
+        "standardForm": "火",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "fuego",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "huo"
       },
-      "context": "Radical Kangxi que significa \"fuego\". Aparece en 2 caracteres: 灭, 亡.",
+      "context": "Radical Kangxi #86 que significa \"fuego\". Aparece en 2 caracteres: 灭, 亡.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 2 caracteres"
+        "context": "Radical Kangxi #86 • 4 trazos • 2 caracteres"
       }
     },
     "灭 (火)": {
@@ -6932,34 +6046,40 @@
     "女": {
       "translations": {
         "es": "mujer",
-        "en": "mujer",
+        "en": "woman",
         "de": "mujer",
         "pt": "mujer",
         "ru": "mujer",
         "ruRom": "mujer",
         "zh": "女",
-        "zhPinyin": "unknown"
+        "zhPinyin": "nu:"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 8,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 3,
         "characterCount": 2,
         "characters": [
           "奴",
           "隶"
-        ]
+        ],
+        "radicalNumber": 38,
+        "isVariant": false,
+        "standardForm": "女",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "mujer",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "nu:"
       },
-      "context": "Radical Kangxi que significa \"mujer\". Aparece en 2 caracteres: 奴, 隶.",
+      "context": "Radical Kangxi #38 que significa \"mujer\". Aparece en 2 caracteres: 奴, 隶.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 8 trazos • 2 caracteres"
+        "context": "Radical Kangxi #38 • 3 trazos • 2 caracteres"
       }
     },
     "奴 (女)": {
@@ -7029,34 +6149,40 @@
     "石": {
       "translations": {
         "es": "piedra",
-        "en": "piedra",
+        "en": "stone",
         "de": "piedra",
         "pt": "piedra",
         "ru": "piedra",
         "ruRom": "piedra",
         "zh": "石",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 13,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 5,
         "characterCount": 2,
         "characters": [
           "破",
           "坏"
-        ]
+        ],
+        "radicalNumber": 112,
+        "isVariant": false,
+        "standardForm": "石",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "piedra",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shi"
       },
-      "context": "Radical Kangxi que significa \"piedra\". Aparece en 2 caracteres: 破, 坏.",
+      "context": "Radical Kangxi #112 que significa \"piedra\". Aparece en 2 caracteres: 破, 坏.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 13 trazos • 2 caracteres"
+        "context": "Radical Kangxi #112 • 5 trazos • 2 caracteres"
       }
     },
     "破 (石)": {
@@ -7125,35 +6251,41 @@
     },
     "走": {
       "translations": {
-        "es": "caminar",
-        "en": "caminar",
+        "es": "correr",
+        "en": "run",
         "de": "caminar",
         "pt": "caminar",
         "ru": "caminar",
         "ruRom": "caminar",
         "zh": "走",
-        "zhPinyin": "unknown"
+        "zhPinyin": "zou"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 7,
         "characterCount": 2,
         "characters": [
           "起",
           "来"
-        ]
+        ],
+        "radicalNumber": 156,
+        "isVariant": false,
+        "standardForm": "走",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "caminar",
+      "meaning": "correr",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "zou"
       },
-      "context": "Radical Kangxi que significa \"caminar\". Aparece en 2 caracteres: 起, 来.",
+      "context": "Radical Kangxi #156 que significa \"correr\". Aparece en 2 caracteres: 起, 来.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 2 caracteres"
+        "context": "Radical Kangxi #156 • 7 trazos • 2 caracteres"
       }
     },
     "起 (走)": {
@@ -7220,136 +6352,45 @@
         "context": "Del radical 走 • 10 trazos • arriba-abajo"
       }
     },
-    "前": {
-      "translations": {
-        "es": "delante",
-        "en": "delante",
-        "de": "delante",
-        "pt": "delante",
-        "ru": "delante",
-        "ruRom": "delante",
-        "zh": "前",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 9,
-        "characterCount": 2,
-        "characters": [
-          "前",
-          "线"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "delante",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"delante\". Aparece en 2 caracteres: 前, 线.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
-      }
-    },
-    "前 (前)": {
-      "translations": {
-        "es": "前",
-        "en": "前",
-        "de": "前",
-        "pt": "前",
-        "ru": "前",
-        "ruRom": "前",
-        "zh": "前",
-        "zhPinyin": "qián"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "前",
-        "strokes": 9,
-        "unicode": 21069,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical delante",
-      "pronunciation": {
-        "zh_pinyin": "qián"
-      },
-      "context": "Carácter que usa el radical 前 (delante). Pinyin: qián. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 前 • 9 trazos • arriba-abajo"
-      }
-    },
-    "线 (前)": {
-      "translations": {
-        "es": "线",
-        "en": "线",
-        "de": "线",
-        "pt": "线",
-        "ru": "线",
-        "ruRom": "线",
-        "zh": "线",
-        "zhPinyin": "zhànchǎng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "前",
-        "strokes": 22,
-        "unicode": 32447,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical delante",
-      "pronunciation": {
-        "zh_pinyin": "zhànchǎng"
-      },
-      "context": "Carácter que usa el radical 前 (delante). Pinyin: zhànchǎng. 22 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 前 • 22 trazos • compuesto"
-      }
-    },
     "弓": {
       "translations": {
         "es": "arco",
-        "en": "arco",
+        "en": "bow",
         "de": "arco",
         "pt": "arco",
         "ru": "arco",
         "ruRom": "arco",
         "zh": "弓",
-        "zhPinyin": "unknown"
+        "zhPinyin": "gong"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 20,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "objetos",
+        "strokes": 3,
         "characterCount": 4,
         "characters": [
           "强",
           "盗",
           "军",
           "队"
-        ]
+        ],
+        "radicalNumber": 57,
+        "isVariant": false,
+        "standardForm": "弓",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "arco",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "gong"
       },
-      "context": "Radical Kangxi que significa \"arco\". Aparece en 4 caracteres: 强, 盗, 军, 队.",
+      "context": "Radical Kangxi #57 que significa \"arco\". Aparece en 4 caracteres: 强, 盗, 军, 队.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 20 trazos • 4 caracteres"
+        "context": "Radical Kangxi #57 • 3 trazos • 4 caracteres"
       }
     },
     "强 (弓)": {
@@ -7483,35 +6524,41 @@
     "穴": {
       "translations": {
         "es": "cueva",
-        "en": "cueva",
+        "en": "cave",
         "de": "cueva",
         "pt": "cueva",
         "ru": "cueva",
         "ruRom": "cueva",
         "zh": "穴",
-        "zhPinyin": "unknown"
+        "zhPinyin": "xue"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 31,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "construcciones",
+        "strokes": 5,
         "characterCount": 3,
         "characters": [
           "窃",
           "私",
           "语"
-        ]
+        ],
+        "radicalNumber": 116,
+        "isVariant": false,
+        "standardForm": "穴",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "cueva",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "xue"
       },
-      "context": "Radical Kangxi que significa \"cueva\". Aparece en 3 caracteres: 窃, 私, 语.",
+      "context": "Radical Kangxi #116 que significa \"cueva\". Aparece en 3 caracteres: 窃, 私, 语.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 31 trazos • 3 caracteres"
+        "context": "Radical Kangxi #116 • 5 trazos • 3 caracteres"
       }
     },
     "窃 (穴)": {
@@ -7613,34 +6660,40 @@
     "木": {
       "translations": {
         "es": "madera",
-        "en": "madera",
+        "en": "tree",
         "de": "madera",
         "pt": "madera",
         "ru": "madera",
         "ruRom": "madera",
         "zh": "木",
-        "zhPinyin": "unknown"
+        "zhPinyin": "mu"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "plantas",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "权",
           "力"
-        ]
+        ],
+        "radicalNumber": 75,
+        "isVariant": false,
+        "standardForm": "木",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "madera",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "mu"
       },
-      "context": "Radical Kangxi que significa \"madera\". Aparece en 2 caracteres: 权, 力.",
+      "context": "Radical Kangxi #75 que significa \"madera\". Aparece en 2 caracteres: 权, 力.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
+        "context": "Radical Kangxi #75 • 4 trazos • 2 caracteres"
       }
     },
     "权 (木)": {
@@ -7709,35 +6762,41 @@
     },
     "人": {
       "translations": {
-        "es": "persona",
-        "en": "persona",
+        "es": "hombre",
+        "en": "man",
         "de": "persona",
         "pt": "persona",
         "ru": "persona",
         "ruRom": "persona",
         "zh": "人",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ren"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 7,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 2,
         "characterCount": 2,
         "characters": [
           "人",
           "民"
-        ]
+        ],
+        "radicalNumber": 9,
+        "isVariant": false,
+        "standardForm": "人",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "persona",
+      "meaning": "hombre",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ren"
       },
-      "context": "Radical Kangxi que significa \"persona\". Aparece en 2 caracteres: 人, 民.",
+      "context": "Radical Kangxi #9 que significa \"hombre\". Aparece en 2 caracteres: 人, 民.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 7 trazos • 2 caracteres"
+        "context": "Radical Kangxi #9 • 2 trazos • 2 caracteres"
       }
     },
     "人 (人)": {
@@ -7807,34 +6866,40 @@
     "山": {
       "translations": {
         "es": "montaña",
-        "en": "montaña",
+        "en": "mountain",
         "de": "montaña",
         "pt": "montaña",
         "ru": "montaña",
         "ruRom": "montaña",
         "zh": "山",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shan"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 3,
         "characterCount": 2,
         "characters": [
           "山",
           "脉"
-        ]
+        ],
+        "radicalNumber": 46,
+        "isVariant": false,
+        "standardForm": "山",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "montaña",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shan"
       },
-      "context": "Radical Kangxi que significa \"montaña\". Aparece en 2 caracteres: 山, 脉.",
+      "context": "Radical Kangxi #46 que significa \"montaña\". Aparece en 2 caracteres: 山, 脉.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 2 caracteres"
+        "context": "Radical Kangxi #46 • 3 trazos • 2 caracteres"
       }
     },
     "山 (山)": {
@@ -7901,183 +6966,22 @@
         "context": "Del radical 山 • 10 trazos • izquierda-derecha"
       }
     },
-    "社": {
-      "translations": {
-        "es": "sociedad",
-        "en": "sociedad",
-        "de": "sociedad",
-        "pt": "sociedad",
-        "ru": "sociedad",
-        "ruRom": "sociedad",
-        "zh": "社",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 22,
-        "characterCount": 4,
-        "characters": [
-          "社",
-          "会",
-          "主",
-          "义"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "sociedad",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"sociedad\". Aparece en 4 caracteres: 社, 会, 主, 义.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 22 trazos • 4 caracteres"
-      }
-    },
-    "社 (社)": {
-      "translations": {
-        "es": "社",
-        "en": "社",
-        "de": "社",
-        "pt": "社",
-        "ru": "社",
-        "ruRom": "社",
-        "zh": "社",
-        "zhPinyin": "shè"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "社",
-        "strokes": 10,
-        "unicode": 31038,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical sociedad",
-      "pronunciation": {
-        "zh_pinyin": "shè"
-      },
-      "context": "Carácter que usa el radical 社 (sociedad). Pinyin: shè. 10 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 社 • 10 trazos • izquierda-derecha"
-      }
-    },
-    "会 (社)": {
-      "translations": {
-        "es": "会",
-        "en": "会",
-        "de": "会",
-        "pt": "会",
-        "ru": "会",
-        "ruRom": "会",
-        "zh": "会",
-        "zhPinyin": "huì"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "社",
-        "strokes": 22,
-        "unicode": 20250,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical sociedad",
-      "pronunciation": {
-        "zh_pinyin": "huì"
-      },
-      "context": "Carácter que usa el radical 社 (sociedad). Pinyin: huì. 22 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 社 • 22 trazos • compuesto"
-      }
-    },
-    "主 (社)": {
-      "translations": {
-        "es": "主",
-        "en": "主",
-        "de": "主",
-        "pt": "主",
-        "ru": "主",
-        "ruRom": "主",
-        "zh": "主",
-        "zhPinyin": "zhǔ"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "社",
-        "strokes": 8,
-        "unicode": 20027,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical sociedad",
-      "pronunciation": {
-        "zh_pinyin": "zhǔ"
-      },
-      "context": "Carácter que usa el radical 社 (sociedad). Pinyin: zhǔ. 8 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 社 • 8 trazos • arriba-abajo"
-      }
-    },
-    "义 (社)": {
-      "translations": {
-        "es": "义",
-        "en": "义",
-        "de": "义",
-        "pt": "义",
-        "ru": "义",
-        "ruRom": "义",
-        "zh": "义",
-        "zhPinyin": "fǎxīsī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "社",
-        "strokes": 23,
-        "unicode": 20041,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical sociedad",
-      "pronunciation": {
-        "zh_pinyin": "fǎxīsī"
-      },
-      "context": "Carácter que usa el radical 社 (sociedad). Pinyin: fǎxīsī. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 社 • 23 trazos • izquierda-derecha"
-      }
-    },
     "示": {
       "translations": {
-        "es": "mostrar",
-        "en": "mostrar",
+        "es": "espíritu",
+        "en": "spirit",
         "de": "mostrar",
         "pt": "mostrar",
         "ru": "mostrar",
         "ruRom": "mostrar",
         "zh": "示",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 16,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "abstractos",
+        "strokes": 5,
         "characterCount": 13,
         "characters": [
           "社",
@@ -8093,19 +6997,23 @@
           "咒",
           "祖",
           "国"
-        ]
+        ],
+        "radicalNumber": 113,
+        "isVariant": false,
+        "standardForm": "示",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "mostrar",
+      "meaning": "espíritu",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shi"
       },
-      "context": "Radical Kangxi que significa \"mostrar\". Aparece en 13 caracteres: 社, 会, 主, 义, 者, 神, 圣, 的, 受, 诅, 咒, 祖, 国.",
+      "context": "Radical Kangxi #113 que significa \"espíritu\". Aparece en 13 caracteres: 社, 会, 主, 义, 者, 神, 圣, 的, 受, 诅, 咒, 祖, 国.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 16 trazos • 13 caracteres"
+        "context": "Radical Kangxi #113 • 5 trazos • 13 caracteres"
       }
     },
     "社 (示)": {
@@ -8524,233 +7432,43 @@
         "context": "Del radical 示 • 16 trazos • encierro"
       }
     },
-    "什": {
-      "translations": {
-        "es": "qué",
-        "en": "qué",
-        "de": "qué",
-        "pt": "qué",
-        "ru": "qué",
-        "ruRom": "qué",
-        "zh": "什",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 25,
-        "characterCount": 5,
-        "characters": [
-          "什",
-          "么",
-          "都",
-          "没",
-          "有"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "qué",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"qué\". Aparece en 5 caracteres: 什, 么, 都, 没, 有.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 25 trazos • 5 caracteres"
-      }
-    },
-    "什 (什)": {
-      "translations": {
-        "es": "什",
-        "en": "什",
-        "de": "什",
-        "pt": "什",
-        "ru": "什",
-        "ruRom": "什",
-        "zh": "什",
-        "zhPinyin": "shénme"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "什",
-        "strokes": 25,
-        "unicode": 20160,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical qué",
-      "pronunciation": {
-        "zh_pinyin": "shénme"
-      },
-      "context": "Carácter que usa el radical 什 (qué). Pinyin: shénme. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 什 • 25 trazos • compuesto"
-      }
-    },
-    "么 (什)": {
-      "translations": {
-        "es": "么",
-        "en": "么",
-        "de": "么",
-        "pt": "么",
-        "ru": "么",
-        "ruRom": "么",
-        "zh": "么",
-        "zhPinyin": "dōu"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "什",
-        "strokes": 25,
-        "unicode": 20040,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical qué",
-      "pronunciation": {
-        "zh_pinyin": "dōu"
-      },
-      "context": "Carácter que usa el radical 什 (qué). Pinyin: dōu. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 什 • 25 trazos • compuesto"
-      }
-    },
-    "都 (什)": {
-      "translations": {
-        "es": "都",
-        "en": "都",
-        "de": "都",
-        "pt": "都",
-        "ru": "都",
-        "ruRom": "都",
-        "zh": "都",
-        "zhPinyin": "méiyǒu"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "什",
-        "strokes": 25,
-        "unicode": 37117,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical qué",
-      "pronunciation": {
-        "zh_pinyin": "méiyǒu"
-      },
-      "context": "Carácter que usa el radical 什 (qué). Pinyin: méiyǒu. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 什 • 25 trazos • compuesto"
-      }
-    },
-    "没 (什)": {
-      "translations": {
-        "es": "没",
-        "en": "没",
-        "de": "没",
-        "pt": "没",
-        "ru": "没",
-        "ruRom": "没",
-        "zh": "没",
-        "zhPinyin": "shénme"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "什",
-        "strokes": 25,
-        "unicode": 27809,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical qué",
-      "pronunciation": {
-        "zh_pinyin": "shénme"
-      },
-      "context": "Carácter que usa el radical 什 (qué). Pinyin: shénme. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 什 • 25 trazos • compuesto"
-      }
-    },
-    "有 (什)": {
-      "translations": {
-        "es": "有",
-        "en": "有",
-        "de": "有",
-        "pt": "有",
-        "ru": "有",
-        "ruRom": "有",
-        "zh": "有",
-        "zhPinyin": "shénme"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "什",
-        "strokes": 25,
-        "unicode": 26377,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical qué",
-      "pronunciation": {
-        "zh_pinyin": "shénme"
-      },
-      "context": "Carácter que usa el radical 什 (qué). Pinyin: shénme. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 什 • 25 trazos • compuesto"
-      }
-    },
     "十": {
       "translations": {
         "es": "diez",
-        "en": "diez",
+        "en": "ten",
         "de": "diez",
         "pt": "diez",
         "ru": "diez",
         "ruRom": "diez",
         "zh": "十",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 8,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "números",
+        "strokes": 2,
         "characterCount": 2,
         "characters": [
           "升",
           "起"
-        ]
+        ],
+        "radicalNumber": 24,
+        "isVariant": false,
+        "standardForm": "十",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "diez",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shi"
       },
-      "context": "Radical Kangxi que significa \"diez\". Aparece en 2 caracteres: 升, 起.",
+      "context": "Radical Kangxi #24 que significa \"diez\". Aparece en 2 caracteres: 升, 起.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 8 trazos • 2 caracteres"
+        "context": "Radical Kangxi #24 • 2 trazos • 2 caracteres"
       }
     },
     "升 (十)": {
@@ -8819,35 +7537,41 @@
     },
     "士": {
       "translations": {
-        "es": "soldado",
-        "en": "soldado",
+        "es": "erudito",
+        "en": "scholar",
         "de": "soldado",
         "pt": "soldado",
         "ru": "soldado",
         "ruRom": "soldado",
         "zh": "士",
-        "zhPinyin": "unknown"
+        "zhPinyin": "shi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 3,
         "characterCount": 2,
         "characters": [
           "士",
           "兵"
-        ]
+        ],
+        "radicalNumber": 33,
+        "isVariant": false,
+        "standardForm": "士",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "soldado",
+      "meaning": "erudito",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "shi"
       },
-      "context": "Radical Kangxi que significa \"soldado\". Aparece en 2 caracteres: 士, 兵.",
+      "context": "Radical Kangxi #33 que significa \"erudito\". Aparece en 2 caracteres: 士, 兵.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 2 caracteres"
+        "context": "Radical Kangxi #33 • 3 trazos • 2 caracteres"
       }
     },
     "士 (士)": {
@@ -8914,330 +7638,43 @@
         "context": "Del radical 士 • 10 trazos • arriba-abajo"
       }
     },
-    "世": {
-      "translations": {
-        "es": "generación",
-        "en": "generación",
-        "de": "generación",
-        "pt": "generación",
-        "ru": "generación",
-        "ruRom": "generación",
-        "zh": "世",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 9,
-        "characterCount": 5,
-        "characters": [
-          "世",
-          "界",
-          "共",
-          "和",
-          "国"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "generación",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"generación\". Aparece en 5 caracteres: 世, 界, 共, 和, 国.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 5 caracteres"
-      }
-    },
-    "世 (世)": {
-      "translations": {
-        "es": "世",
-        "en": "世",
-        "de": "世",
-        "pt": "世",
-        "ru": "世",
-        "ruRom": "世",
-        "zh": "世",
-        "zhPinyin": "shì"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "世",
-        "strokes": 9,
-        "unicode": 19990,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical generación",
-      "pronunciation": {
-        "zh_pinyin": "shì"
-      },
-      "context": "Carácter que usa el radical 世 (generación). Pinyin: shì. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 世 • 9 trazos • arriba-abajo"
-      }
-    },
-    "界 (世)": {
-      "translations": {
-        "es": "界",
-        "en": "界",
-        "de": "界",
-        "pt": "界",
-        "ru": "界",
-        "ruRom": "界",
-        "zh": "界",
-        "zhPinyin": "jiè"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "世",
-        "strokes": 9,
-        "unicode": 30028,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical generación",
-      "pronunciation": {
-        "zh_pinyin": "jiè"
-      },
-      "context": "Carácter que usa el radical 世 (generación). Pinyin: jiè. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 世 • 9 trazos • arriba-abajo"
-      }
-    },
-    "共 (世)": {
-      "translations": {
-        "es": "共",
-        "en": "共",
-        "de": "共",
-        "pt": "共",
-        "ru": "共",
-        "ruRom": "共",
-        "zh": "共",
-        "zhPinyin": "gòng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "世",
-        "strokes": 20,
-        "unicode": 20849,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical generación",
-      "pronunciation": {
-        "zh_pinyin": "gòng"
-      },
-      "context": "Carácter que usa el radical 世 (generación). Pinyin: gòng. 20 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 世 • 20 trazos • compuesto"
-      }
-    },
-    "和 (世)": {
-      "translations": {
-        "es": "和",
-        "en": "和",
-        "de": "和",
-        "pt": "和",
-        "ru": "和",
-        "ruRom": "和",
-        "zh": "和",
-        "zhPinyin": "hé"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "世",
-        "strokes": 14,
-        "unicode": 21644,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical generación",
-      "pronunciation": {
-        "zh_pinyin": "hé"
-      },
-      "context": "Carácter que usa el radical 世 (generación). Pinyin: hé. 14 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 世 • 14 trazos • izquierda-derecha"
-      }
-    },
-    "国 (世)": {
-      "translations": {
-        "es": "国",
-        "en": "国",
-        "de": "国",
-        "pt": "国",
-        "ru": "国",
-        "ruRom": "国",
-        "zh": "国",
-        "zhPinyin": "dì-yī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "世",
-        "strokes": 16,
-        "unicode": 22269,
-        "structure": "encierro",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical generación",
-      "pronunciation": {
-        "zh_pinyin": "dì-yī"
-      },
-      "context": "Carácter que usa el radical 世 (generación). Pinyin: dì-yī. 16 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 世 • 16 trazos • encierro"
-      }
-    },
-    "乚": {
-      "translations": {
-        "es": "segundo",
-        "en": "segundo",
-        "de": "segundo",
-        "pt": "segundo",
-        "ru": "segundo",
-        "ruRom": "segundo",
-        "zh": "乚",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 9,
-        "characterCount": 2,
-        "characters": [
-          "书",
-          "写"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "segundo",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"segundo\". Aparece en 2 caracteres: 书, 写.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
-      }
-    },
-    "书 (乚)": {
-      "translations": {
-        "es": "书",
-        "en": "书",
-        "de": "书",
-        "pt": "书",
-        "ru": "书",
-        "ruRom": "书",
-        "zh": "书",
-        "zhPinyin": "shū"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "乚",
-        "strokes": 9,
-        "unicode": 20070,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical segundo",
-      "pronunciation": {
-        "zh_pinyin": "shū"
-      },
-      "context": "Carácter que usa el radical 乚 (segundo). Pinyin: shū. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 乚 • 9 trazos • arriba-abajo"
-      }
-    },
-    "写 (乚)": {
-      "translations": {
-        "es": "写",
-        "en": "写",
-        "de": "写",
-        "pt": "写",
-        "ru": "写",
-        "ruRom": "写",
-        "zh": "写",
-        "zhPinyin": "xiě"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "乚",
-        "strokes": 9,
-        "unicode": 20889,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical segundo",
-      "pronunciation": {
-        "zh_pinyin": "xiě"
-      },
-      "context": "Carácter que usa el radical 乚 (segundo). Pinyin: xiě. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 乚 • 9 trazos • arriba-abajo"
-      }
-    },
     "歹": {
       "translations": {
-        "es": "mal",
-        "en": "mal",
+        "es": "death",
+        "en": "death",
         "de": "mal",
         "pt": "mal",
         "ru": "mal",
         "ruRom": "mal",
         "zh": "歹",
-        "zhPinyin": "unknown"
+        "zhPinyin": "dai"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 6,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "死",
           "亡"
-        ]
+        ],
+        "radicalNumber": 78,
+        "isVariant": false,
+        "standardForm": "歹",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "mal",
+      "meaning": "death",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "dai"
       },
-      "context": "Radical Kangxi que significa \"mal\". Aparece en 2 caracteres: 死, 亡.",
+      "context": "Radical Kangxi #78 que significa \"death\". Aparece en 2 caracteres: 死, 亡.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 6 trazos • 2 caracteres"
+        "context": "Radical Kangxi #78 • 4 trazos • 2 caracteres"
       }
     },
     "死 (歹)": {
@@ -9306,18 +7743,20 @@
     },
     "艹": {
       "translations": {
-        "es": "hierba",
-        "en": "hierba",
+        "es": "grass",
+        "en": "grass",
         "de": "hierba",
         "pt": "hierba",
         "ru": "hierba",
         "ruRom": "hierba",
         "zh": "艹",
-        "zhPinyin": "unknown"
+        "zhPinyin": "cao"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 18,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 6,
         "characterCount": 5,
         "characters": [
           "苏",
@@ -9325,19 +7764,23 @@
           "埃",
           "之",
           "光"
-        ]
+        ],
+        "radicalNumber": 140,
+        "isVariant": true,
+        "standardForm": "艸",
+        "variantType": "top_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "hierba",
+      "meaning": "grass",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "cao"
       },
-      "context": "Radical Kangxi que significa \"hierba\". Aparece en 5 caracteres: 苏, 维, 埃, 之, 光.",
+      "context": "Radical Kangxi #140 (variante top_variant de 艸) que significa \"grass\". Aparece en 5 caracteres: 苏, 维, 埃, 之, 光.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 18 trazos • 5 caracteres"
+        "context": "Radical Kangxi #140 • 6 trazos • 5 caracteres"
       }
     },
     "苏 (艹)": {
@@ -9503,34 +7946,40 @@
     "虫": {
       "translations": {
         "es": "insecto",
-        "en": "insecto",
+        "en": "insect",
         "de": "insecto",
         "pt": "insecto",
         "ru": "insecto",
         "ruRom": "insecto",
         "zh": "虫",
-        "zhPinyin": "unknown"
+        "zhPinyin": "chong"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "animales",
+        "strokes": 6,
         "characterCount": 2,
         "characters": [
           "虽",
           "然"
-        ]
+        ],
+        "radicalNumber": 142,
+        "isVariant": false,
+        "standardForm": "虫",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "insecto",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "chong"
       },
-      "context": "Radical Kangxi que significa \"insecto\". Aparece en 2 caracteres: 虽, 然.",
+      "context": "Radical Kangxi #142 que significa \"insecto\". Aparece en 2 caracteres: 虽, 然.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
+        "context": "Radical Kangxi #142 • 6 trazos • 2 caracteres"
       }
     },
     "虽 (虫)": {
@@ -9599,35 +8048,41 @@
     },
     "钅": {
       "translations": {
-        "es": "metal",
-        "en": "metal",
+        "es": "oro",
+        "en": "gold",
         "de": "metal",
         "pt": "metal",
         "ru": "metal",
         "ruRom": "metal",
         "zh": "钅",
-        "zhPinyin": "unknown"
+        "zhPinyin": "jin"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 13,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "elementos",
+        "strokes": 8,
         "characterCount": 2,
         "characters": [
           "锁",
           "链"
-        ]
+        ],
+        "radicalNumber": 167,
+        "isVariant": true,
+        "standardForm": "金",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "metal",
+      "meaning": "oro",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "jin"
       },
-      "context": "Radical Kangxi que significa \"metal\". Aparece en 2 caracteres: 锁, 链.",
+      "context": "Radical Kangxi #167 (variante left_variant de 金) que significa \"oro\". Aparece en 2 caracteres: 锁, 链.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 13 trazos • 2 caracteres"
+        "context": "Radical Kangxi #167 • 8 trazos • 2 caracteres"
       }
     },
     "锁 (钅)": {
@@ -9697,34 +8152,40 @@
     "日": {
       "translations": {
         "es": "sol",
-        "en": "sol",
+        "en": "sun",
         "de": "sol",
         "pt": "sol",
         "ru": "sol",
         "ruRom": "sol",
         "zh": "日",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ri"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 10,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "tiempo",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "太",
           "阳"
-        ]
+        ],
+        "radicalNumber": 72,
+        "isVariant": false,
+        "standardForm": "日",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "sol",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ri"
       },
-      "context": "Radical Kangxi que significa \"sol\". Aparece en 2 caracteres: 太, 阳.",
+      "context": "Radical Kangxi #72 que significa \"sol\". Aparece en 2 caracteres: 太, 阳.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 10 trazos • 2 caracteres"
+        "context": "Radical Kangxi #72 • 4 trazos • 2 caracteres"
       }
     },
     "太 (日)": {
@@ -9791,134 +8252,43 @@
         "context": "Del radical 日 • 10 trazos • arriba-abajo"
       }
     },
-    "天": {
-      "translations": {
-        "es": "cielo",
-        "en": "cielo",
-        "de": "cielo",
-        "pt": "cielo",
-        "ru": "cielo",
-        "ruRom": "cielo",
-        "zh": "天",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 12,
-        "characterCount": 2,
-        "characters": [
-          "天",
-          "空"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "cielo",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"cielo\". Aparece en 2 caracteres: 天, 空.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
-      }
-    },
-    "天 (天)": {
-      "translations": {
-        "es": "天",
-        "en": "天",
-        "de": "天",
-        "pt": "天",
-        "ru": "天",
-        "ruRom": "天",
-        "zh": "天",
-        "zhPinyin": "tiān"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "天",
-        "strokes": 12,
-        "unicode": 22825,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical cielo",
-      "pronunciation": {
-        "zh_pinyin": "tiān"
-      },
-      "context": "Carácter que usa el radical 天 (cielo). Pinyin: tiān. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 天 • 12 trazos • arriba-abajo"
-      }
-    },
-    "空 (天)": {
-      "translations": {
-        "es": "空",
-        "en": "空",
-        "de": "空",
-        "pt": "空",
-        "ru": "空",
-        "ruRom": "空",
-        "zh": "空",
-        "zhPinyin": "kōng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "天",
-        "strokes": 12,
-        "unicode": 31354,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical cielo",
-      "pronunciation": {
-        "zh_pinyin": "kōng"
-      },
-      "context": "Carácter que usa el radical 天 (cielo). Pinyin: kōng. 12 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 天 • 12 trazos • arriba-abajo"
-      }
-    },
     "疒": {
       "translations": {
-        "es": "enfermedad",
-        "en": "enfermedad",
+        "es": "sickness",
+        "en": "sickness",
         "de": "enfermedad",
         "pt": "enfermedad",
         "ru": "enfermedad",
         "ruRom": "enfermedad",
         "zh": "疒",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ne"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 5,
         "characterCount": 2,
         "characters": [
           "痛",
           "苦"
-        ]
+        ],
+        "radicalNumber": 104,
+        "isVariant": false,
+        "standardForm": "疒",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "enfermedad",
+      "meaning": "sickness",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ne"
       },
-      "context": "Radical Kangxi que significa \"enfermedad\". Aparece en 2 caracteres: 痛, 苦.",
+      "context": "Radical Kangxi #104 que significa \"sickness\". Aparece en 2 caracteres: 痛, 苦.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
+        "context": "Radical Kangxi #104 • 5 trazos • 2 caracteres"
       }
     },
     "痛 (疒)": {
@@ -9985,200 +8355,43 @@
         "context": "Del radical 疒 • 12 trazos • arriba-abajo"
       }
     },
-    "因": {
-      "translations": {
-        "es": "causa",
-        "en": "causa",
-        "de": "causa",
-        "pt": "causa",
-        "ru": "causa",
-        "ruRom": "causa",
-        "zh": "因",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 17,
-        "characterCount": 4,
-        "characters": [
-          "团",
-          "结",
-          "互",
-          "助"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "causa",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"causa\". Aparece en 4 caracteres: 团, 结, 互, 助.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 17 trazos • 4 caracteres"
-      }
-    },
-    "团 (因)": {
-      "translations": {
-        "es": "团",
-        "en": "团",
-        "de": "团",
-        "pt": "团",
-        "ru": "团",
-        "ruRom": "团",
-        "zh": "团",
-        "zhPinyin": "zhǔyì"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "因",
-        "strokes": 25,
-        "unicode": 22242,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical causa",
-      "pronunciation": {
-        "zh_pinyin": "zhǔyì"
-      },
-      "context": "Carácter que usa el radical 因 (causa). Pinyin: zhǔyì. 25 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 因 • 25 trazos • compuesto"
-      }
-    },
-    "结 (因)": {
-      "translations": {
-        "es": "结",
-        "en": "结",
-        "de": "结",
-        "pt": "结",
-        "ru": "结",
-        "ruRom": "结",
-        "zh": "结",
-        "zhPinyin": "jié"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "因",
-        "strokes": 14,
-        "unicode": 32467,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical causa",
-      "pronunciation": {
-        "zh_pinyin": "jié"
-      },
-      "context": "Carácter que usa el radical 因 (causa). Pinyin: jié. 14 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 因 • 14 trazos • izquierda-derecha"
-      }
-    },
-    "互 (因)": {
-      "translations": {
-        "es": "互",
-        "en": "互",
-        "de": "互",
-        "pt": "互",
-        "ru": "互",
-        "ruRom": "互",
-        "zh": "互",
-        "zhPinyin": "tuánjié"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "因",
-        "strokes": 17,
-        "unicode": 20114,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical causa",
-      "pronunciation": {
-        "zh_pinyin": "tuánjié"
-      },
-      "context": "Carácter que usa el radical 因 (causa). Pinyin: tuánjié. 17 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 因 • 17 trazos • izquierda-derecha"
-      }
-    },
-    "助 (因)": {
-      "translations": {
-        "es": "助",
-        "en": "助",
-        "de": "助",
-        "pt": "助",
-        "ru": "助",
-        "ruRom": "助",
-        "zh": "助",
-        "zhPinyin": "tuánjié"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "因",
-        "strokes": 17,
-        "unicode": 21161,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical causa",
-      "pronunciation": {
-        "zh_pinyin": "tuánjié"
-      },
-      "context": "Carácter que usa el radical 因 (causa). Pinyin: tuánjié. 17 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 因 • 17 trazos • izquierda-derecha"
-      }
-    },
     "亻": {
       "translations": {
-        "es": "persona",
-        "en": "persona",
+        "es": "hombre",
+        "en": "man",
         "de": "persona",
         "pt": "persona",
         "ru": "persona",
         "ruRom": "persona",
         "zh": "亻",
-        "zhPinyin": "unknown"
+        "zhPinyin": "ren"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Básicos (1-3 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 2,
         "characterCount": 2,
         "characters": [
           "伟",
           "大"
-        ]
+        ],
+        "radicalNumber": 9,
+        "isVariant": true,
+        "standardForm": "人",
+        "variantType": "left_variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "persona",
+      "meaning": "hombre",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "ren"
       },
-      "context": "Radical Kangxi que significa \"persona\". Aparece en 2 caracteres: 伟, 大.",
+      "context": "Radical Kangxi #9 (variante left_variant de 人) que significa \"hombre\". Aparece en 2 caracteres: 伟, 大.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
+        "context": "Radical Kangxi #9 • 2 trazos • 2 caracteres"
       }
     },
     "伟 (亻)": {
@@ -10247,8 +8460,8 @@
     },
     "无": {
       "translations": {
-        "es": "sin",
-        "en": "sin",
+        "es": "no",
+        "en": "not",
         "de": "sin",
         "pt": "sin",
         "ru": "sin",
@@ -10258,7 +8471,9 @@
       },
       "metadata": {
         "category": "radical",
-        "strokes": 20,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 4,
         "characterCount": 9,
         "characters": [
           "无",
@@ -10270,19 +8485,23 @@
           "府",
           "主",
           "义"
-        ]
+        ],
+        "radicalNumber": 71,
+        "isVariant": false,
+        "standardForm": "无",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "sin",
+      "meaning": "no",
       "pronunciation": {
         "zh_pinyin": "unknown"
       },
-      "context": "Radical Kangxi que significa \"sin\". Aparece en 9 caracteres: 无, 产, 阶, 级, 者, 政, 府, 主, 义.",
+      "context": "Radical Kangxi #71 que significa \"no\". Aparece en 9 caracteres: 无, 产, 阶, 级, 者, 政, 府, 主, 义.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 20 trazos • 9 caracteres"
+        "context": "Radical Kangxi #71 • 4 trazos • 9 caracteres"
       }
     },
     "无 (无)": {
@@ -10573,266 +8792,43 @@
         "context": "Del radical 无 • 23 trazos • izquierda-derecha"
       }
     },
-    "政": {
-      "translations": {
-        "es": "gobierno",
-        "en": "gobierno",
-        "de": "gobierno",
-        "pt": "gobierno",
-        "ru": "gobierno",
-        "ruRom": "gobierno",
-        "zh": "政",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 23,
-        "characterCount": 6,
-        "characters": [
-          "无",
-          "政",
-          "府",
-          "主",
-          "义",
-          "者"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "gobierno",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"gobierno\". Aparece en 6 caracteres: 无, 政, 府, 主, 义, 者.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 23 trazos • 6 caracteres"
-      }
-    },
-    "无 (政)": {
-      "translations": {
-        "es": "无",
-        "en": "无",
-        "de": "无",
-        "pt": "无",
-        "ru": "无",
-        "ruRom": "无",
-        "zh": "无",
-        "zhPinyin": "wú"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 20,
-        "unicode": 26080,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "wú"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: wú. 20 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 20 trazos • compuesto"
-      }
-    },
-    "政 (政)": {
-      "translations": {
-        "es": "政",
-        "en": "政",
-        "de": "政",
-        "pt": "政",
-        "ru": "政",
-        "ruRom": "政",
-        "zh": "政",
-        "zhPinyin": "zhèngfǔ"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 24,
-        "unicode": 25919,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "zhèngfǔ"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: zhèngfǔ. 24 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 24 trazos • compuesto"
-      }
-    },
-    "府 (政)": {
-      "translations": {
-        "es": "府",
-        "en": "府",
-        "de": "府",
-        "pt": "府",
-        "ru": "府",
-        "ruRom": "府",
-        "zh": "府",
-        "zhPinyin": "zhǔyì"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 24,
-        "unicode": 24220,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "zhǔyì"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: zhǔyì. 24 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 24 trazos • compuesto"
-      }
-    },
-    "主 (政)": {
-      "translations": {
-        "es": "主",
-        "en": "主",
-        "de": "主",
-        "pt": "主",
-        "ru": "主",
-        "ruRom": "主",
-        "zh": "主",
-        "zhPinyin": "zhǔ"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 8,
-        "unicode": 20027,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "zhǔ"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: zhǔ. 8 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 8 trazos • arriba-abajo"
-      }
-    },
-    "义 (政)": {
-      "translations": {
-        "es": "义",
-        "en": "义",
-        "de": "义",
-        "pt": "义",
-        "ru": "义",
-        "ruRom": "义",
-        "zh": "义",
-        "zhPinyin": "fǎxīsī"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 23,
-        "unicode": 20041,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "fǎxīsī"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: fǎxīsī. 23 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 23 trazos • izquierda-derecha"
-      }
-    },
-    "者 (政)": {
-      "translations": {
-        "es": "者",
-        "en": "者",
-        "de": "者",
-        "pt": "者",
-        "ru": "者",
-        "ruRom": "者",
-        "zh": "者",
-        "zhPinyin": "gòngchǎn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "政",
-        "strokes": 16,
-        "unicode": 32773,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical gobierno",
-      "pronunciation": {
-        "zh_pinyin": "gòngchǎn"
-      },
-      "context": "Carácter que usa el radical 政 (gobierno). Pinyin: gòngchǎn. 16 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 政 • 16 trazos • compuesto"
-      }
-    },
     "行": {
       "translations": {
         "es": "caminar",
-        "en": "caminar",
+        "en": "walk",
         "de": "caminar",
         "pt": "caminar",
         "ru": "caminar",
         "ruRom": "caminar",
         "zh": "行",
-        "zhPinyin": "unknown"
+        "zhPinyin": "hang"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 13,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "acciones",
+        "strokes": 6,
         "characterCount": 2,
         "characters": [
           "行",
           "进"
-        ]
+        ],
+        "radicalNumber": 144,
+        "isVariant": false,
+        "standardForm": "行",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "caminar",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "hang"
       },
-      "context": "Radical Kangxi que significa \"caminar\". Aparece en 2 caracteres: 行, 进.",
+      "context": "Radical Kangxi #144 que significa \"caminar\". Aparece en 2 caracteres: 行, 进.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 13 trazos • 2 caracteres"
+        "context": "Radical Kangxi #144 • 6 trazos • 2 caracteres"
       }
     },
     "行 (行)": {
@@ -10901,35 +8897,41 @@
     },
     "血": {
       "translations": {
-        "es": "sangre",
-        "en": "sangre",
+        "es": "blood",
+        "en": "blood",
         "de": "sangre",
         "pt": "sangre",
         "ru": "sangre",
         "ruRom": "sangre",
         "zh": "血",
-        "zhPinyin": "unknown"
+        "zhPinyin": "xie"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 12,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 6,
         "characterCount": 2,
         "characters": [
           "血",
           "液"
-        ]
+        ],
+        "radicalNumber": 143,
+        "isVariant": false,
+        "standardForm": "血",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "sangre",
+      "meaning": "blood",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "xie"
       },
-      "context": "Radical Kangxi que significa \"sangre\". Aparece en 2 caracteres: 血, 液.",
+      "context": "Radical Kangxi #143 que significa \"blood\". Aparece en 2 caracteres: 血, 液.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 12 trazos • 2 caracteres"
+        "context": "Radical Kangxi #143 • 6 trazos • 2 caracteres"
       }
     },
     "血 (血)": {
@@ -10998,18 +9000,20 @@
     },
     "辶": {
       "translations": {
-        "es": "camino",
-        "en": "camino",
+        "es": "caminar",
+        "en": "walk",
         "de": "camino",
         "pt": "camino",
         "ru": "camino",
         "ruRom": "camino",
         "zh": "辶",
-        "zhPinyin": "unknown"
+        "zhPinyin": "chuo"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 9,
+        "radicalCategory": "Complejos (7-10 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 7,
         "characterCount": 5,
         "characters": [
           "游",
@@ -11017,19 +9021,23 @@
           "队",
           "运",
           "动"
-        ]
+        ],
+        "radicalNumber": 162,
+        "isVariant": true,
+        "standardForm": "辵",
+        "variantType": "variant"
       },
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "camino",
+      "meaning": "caminar",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "chuo"
       },
-      "context": "Radical Kangxi que significa \"camino\". Aparece en 5 caracteres: 游, 击, 队, 运, 动.",
+      "context": "Radical Kangxi #162 (variante variant de 辵) que significa \"caminar\". Aparece en 5 caracteres: 游, 击, 队, 运, 动.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 5 caracteres"
+        "context": "Radical Kangxi #162 • 7 trazos • 5 caracteres"
       }
     },
     "游 (辶)": {
@@ -11195,34 +9203,40 @@
     "心": {
       "translations": {
         "es": "corazón",
-        "en": "corazón",
+        "en": "heart",
         "de": "corazón",
         "pt": "corazón",
         "ru": "corazón",
         "ruRom": "corazón",
         "zh": "心",
-        "zhPinyin": "unknown"
+        "zhPinyin": "xin"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 13,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "cuerpo",
+        "strokes": 4,
         "characterCount": 2,
         "characters": [
           "愚",
           "蠢"
-        ]
+        ],
+        "radicalNumber": 61,
+        "isVariant": false,
+        "standardForm": "心",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "corazón",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "xin"
       },
-      "context": "Radical Kangxi que significa \"corazón\". Aparece en 2 caracteres: 愚, 蠢.",
+      "context": "Radical Kangxi #61 que significa \"corazón\". Aparece en 2 caracteres: 愚, 蠢.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 13 trazos • 2 caracteres"
+        "context": "Radical Kangxi #61 • 4 trazos • 2 caracteres"
       }
     },
     "愚 (心)": {
@@ -11289,214 +9303,22 @@
         "context": "Del radical 心 • 13 trazos • arriba-abajo"
       }
     },
-    "召": {
-      "translations": {
-        "es": "convocar",
-        "en": "convocar",
-        "de": "convocar",
-        "pt": "convocar",
-        "ru": "convocar",
-        "ruRom": "convocar",
-        "zh": "召",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 9,
-        "characterCount": 2,
-        "characters": [
-          "召",
-          "唤"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "convocar",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"convocar\". Aparece en 2 caracteres: 召, 唤.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 9 trazos • 2 caracteres"
-      }
-    },
-    "召 (召)": {
-      "translations": {
-        "es": "召",
-        "en": "召",
-        "de": "召",
-        "pt": "召",
-        "ru": "召",
-        "ruRom": "召",
-        "zh": "召",
-        "zhPinyin": "zhào"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "召",
-        "strokes": 9,
-        "unicode": 21484,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical convocar",
-      "pronunciation": {
-        "zh_pinyin": "zhào"
-      },
-      "context": "Carácter que usa el radical 召 (convocar). Pinyin: zhào. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 召 • 9 trazos • arriba-abajo"
-      }
-    },
-    "唤 (召)": {
-      "translations": {
-        "es": "唤",
-        "en": "唤",
-        "de": "唤",
-        "pt": "唤",
-        "ru": "唤",
-        "ruRom": "唤",
-        "zh": "唤",
-        "zhPinyin": "huàn"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "召",
-        "strokes": 9,
-        "unicode": 21796,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical convocar",
-      "pronunciation": {
-        "zh_pinyin": "huàn"
-      },
-      "context": "Carácter que usa el radical 召 (convocar). Pinyin: huàn. 9 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 召 • 9 trazos • arriba-abajo"
-      }
-    },
-    "主": {
-      "translations": {
-        "es": "señor",
-        "en": "señor",
-        "de": "señor",
-        "pt": "señor",
-        "ru": "señor",
-        "ruRom": "señor",
-        "zh": "主",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 6,
-        "characterCount": 2,
-        "characters": [
-          "主",
-          "席"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "señor",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"señor\". Aparece en 2 caracteres: 主, 席.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 6 trazos • 2 caracteres"
-      }
-    },
-    "主 (主)": {
-      "translations": {
-        "es": "主",
-        "en": "主",
-        "de": "主",
-        "pt": "主",
-        "ru": "主",
-        "ruRom": "主",
-        "zh": "主",
-        "zhPinyin": "zhǔ"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "主",
-        "strokes": 8,
-        "unicode": 20027,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical señor",
-      "pronunciation": {
-        "zh_pinyin": "zhǔ"
-      },
-      "context": "Carácter que usa el radical 主 (señor). Pinyin: zhǔ. 8 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 主 • 8 trazos • arriba-abajo"
-      }
-    },
-    "席 (主)": {
-      "translations": {
-        "es": "席",
-        "en": "席",
-        "de": "席",
-        "pt": "席",
-        "ru": "席",
-        "ruRom": "席",
-        "zh": "席",
-        "zhPinyin": "xí"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "主",
-        "strokes": 6,
-        "unicode": 24109,
-        "structure": "arriba-abajo",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical señor",
-      "pronunciation": {
-        "zh_pinyin": "xí"
-      },
-      "context": "Carácter que usa el radical 主 (señor). Pinyin: xí. 6 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 主 • 6 trazos • arriba-abajo"
-      }
-    },
     "自": {
       "translations": {
         "es": "uno mismo",
-        "en": "uno mismo",
+        "en": "self",
         "de": "uno mismo",
         "pt": "uno mismo",
         "ru": "uno mismo",
         "ruRom": "uno mismo",
         "zh": "自",
-        "zhPinyin": "unknown"
+        "zhPinyin": "zi"
       },
       "metadata": {
         "category": "radical",
-        "strokes": 11,
+        "radicalCategory": "Intermedios (4-6 trazos)",
+        "semanticCategory": "otros",
+        "strokes": 6,
         "characterCount": 5,
         "characters": [
           "自",
@@ -11504,19 +9326,23 @@
           "治",
           "管",
           "理"
-        ]
+        ],
+        "radicalNumber": 132,
+        "isVariant": false,
+        "standardForm": "自",
+        "variantType": null
       },
       "lessons": [
         "Radical Dictionary"
       ],
       "meaning": "uno mismo",
       "pronunciation": {
-        "zh_pinyin": "unknown"
+        "zh_pinyin": "zi"
       },
-      "context": "Radical Kangxi que significa \"uno mismo\". Aparece en 5 caracteres: 自, 由, 治, 管, 理.",
+      "context": "Radical Kangxi #132 que significa \"uno mismo\". Aparece en 5 caracteres: 自, 由, 治, 管, 理.",
       "sources": {
         "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 11 trazos • 5 caracteres"
+        "context": "Radical Kangxi #132 • 6 trazos • 5 caracteres"
       }
     },
     "自 (自)": {
@@ -11677,136 +9503,6 @@
       "sources": {
         "lesson": "Dictionary",
         "context": "Del radical 自 • 15 trazos • izquierda-derecha"
-      }
-    },
-    "总": {
-      "translations": {
-        "es": "total",
-        "en": "total",
-        "de": "total",
-        "pt": "total",
-        "ru": "total",
-        "ruRom": "total",
-        "zh": "总",
-        "zhPinyin": "unknown"
-      },
-      "metadata": {
-        "category": "radical",
-        "strokes": 18,
-        "characterCount": 3,
-        "characters": [
-          "总",
-          "罢",
-          "工"
-        ]
-      },
-      "lessons": [
-        "Radical Dictionary"
-      ],
-      "meaning": "total",
-      "pronunciation": {
-        "zh_pinyin": "unknown"
-      },
-      "context": "Radical Kangxi que significa \"total\". Aparece en 3 caracteres: 总, 罢, 工.",
-      "sources": {
-        "lesson": "Radical Dictionary",
-        "context": "Radical Kangxi • 18 trazos • 3 caracteres"
-      }
-    },
-    "总 (总)": {
-      "translations": {
-        "es": "总",
-        "en": "总",
-        "de": "总",
-        "pt": "总",
-        "ru": "总",
-        "ruRom": "总",
-        "zh": "总",
-        "zhPinyin": "zǒng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "总",
-        "strokes": 18,
-        "unicode": 24635,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical total",
-      "pronunciation": {
-        "zh_pinyin": "zǒng"
-      },
-      "context": "Carácter que usa el radical 总 (total). Pinyin: zǒng. 18 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 总 • 18 trazos • compuesto"
-      }
-    },
-    "罢 (总)": {
-      "translations": {
-        "es": "罢",
-        "en": "罢",
-        "de": "罢",
-        "pt": "罢",
-        "ru": "罢",
-        "ruRom": "罢",
-        "zh": "罢",
-        "zhPinyin": "bàgōng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "总",
-        "strokes": 18,
-        "unicode": 32610,
-        "structure": "compuesto",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical total",
-      "pronunciation": {
-        "zh_pinyin": "bàgōng"
-      },
-      "context": "Carácter que usa el radical 总 (total). Pinyin: bàgōng. 18 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 总 • 18 trazos • compuesto"
-      }
-    },
-    "工 (总)": {
-      "translations": {
-        "es": "工",
-        "en": "工",
-        "de": "工",
-        "pt": "工",
-        "ru": "工",
-        "ruRom": "工",
-        "zh": "工",
-        "zhPinyin": "gōng"
-      },
-      "metadata": {
-        "category": "character",
-        "radical": "总",
-        "strokes": 7,
-        "unicode": 24037,
-        "structure": "izquierda-derecha",
-        "hasStrokeData": true
-      },
-      "lessons": [
-        "Dictionary"
-      ],
-      "meaning": "Carácter del radical total",
-      "pronunciation": {
-        "zh_pinyin": "gōng"
-      },
-      "context": "Carácter que usa el radical 总 (total). Pinyin: gōng. 7 trazos.",
-      "sources": {
-        "lesson": "Dictionary",
-        "context": "Del radical 总 • 7 trazos • izquierda-derecha"
       }
     }
   }

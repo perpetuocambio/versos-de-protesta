@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "generated": "2025-07-30T00:00:00.000Z",
+    "version": "1.0.0",
+    "description": "Semantic categorization for Chinese radicals",
+    "total_categories": 12,
+    "usage": "Maps radical characters to semantic categories for filtering"
+  },
+  "categories": {
+    "elementos": {
+      "name": {
+        "es": "Elementos naturales",
+        "en": "Natural elements", 
+        "de": "Natürliche Elemente",
+        "pt": "Elementos naturais",
+        "ru": "Природные элементы",
+        "zh": "自然元素"
+      },
+      "radicals": ["火", "水", "土", "木", "金", "石", "氵", "冫", "风", "雨", "日", "月", "山"]
+    },
+    "animales": {
+      "name": {
+        "es": "Animales",
+        "en": "Animals",
+        "de": "Tiere", 
+        "pt": "Animais",
+        "ru": "Животные",
+        "zh": "动物"
+      },
+      "radicals": ["马", "鸟", "鱼", "犬", "虫", "豕", "牛", "羊", "虎", "兔", "龙", "蛇", "鸡", "猴", "鼠"]
+    },
+    "plantas": {
+      "name": {
+        "es": "Plantas",
+        "en": "Plants",
+        "de": "Pflanzen",
+        "pt": "Plantas", 
+        "ru": "Растения",
+        "zh": "植物"
+      },
+      "radicals": ["艹", "木", "竹", "禾", "米", "瓜", "豆", "麦", "农", "地"]
+    },
+    "cuerpo": {
+      "name": {
+        "es": "Cuerpo humano",
+        "en": "Human body",
+        "de": "Menschlicher Körper",
+        "pt": "Corpo humano",
+        "ru": "Человеческое тело", 
+        "zh": "人体"
+      },
+      "radicals": ["人", "亻", "手", "扌", "口", "目", "耳", "心", "忄", "足", "页", "首", "骨", "血", "肉"]
+    },
+    "objetos": {
+      "name": {
+        "es": "Objetos y herramientas",
+        "en": "Objects and tools",
+        "de": "Objekte und Werkzeuge",
+        "pt": "Objetos e ferramentas",
+        "ru": "Предметы и инструменты",
+        "zh": "物品工具"
+      },
+      "radicals": ["刀", "刂", "弓", "矢", "戈", "斤", "车", "舟", "船", "门", "钅", "衣", "衤", "巾", "革", "线"]
+    },
+    "construcciones": {
+      "name": {
+        "es": "Construcciones y lugares",
+        "en": "Buildings and places",
+        "de": "Gebäude und Orte",
+        "pt": "Construções e lugares",
+        "ru": "Здания и места",
+        "zh": "建筑场所"
+      },
+      "radicals": ["宀", "广", "厂", "囗", "门", "尸", "穴", "井"]
+    },
+    "acciones": {
+      "name": {
+        "es": "Acciones y movimiento",
+        "en": "Actions and movement", 
+        "de": "Handlungen und Bewegung",
+        "pt": "Ações e movimento",
+        "ru": "Действия и движение",
+        "zh": "动作运动"
+      },
+      "radicals": ["走", "辶", "行", "斗", "攴", "力", "又", "支", "来", "争", "战", "胜", "结", "解", "放", "劳", "作", "起"]
+    },
+    "dirección": {
+      "name": {
+        "es": "Dirección y posición",
+        "en": "Direction and position",
+        "de": "Richtung und Position", 
+        "pt": "Direção e posição",
+        "ru": "Направление и позиция",
+        "zh": "方向位置"
+      },
+      "radicals": ["前", "后", "上", "下", "左", "右", "东"]
+    },
+    "números": {
+      "name": {
+        "es": "Números y medidas",
+        "en": "Numbers and measures",
+        "de": "Zahlen und Maße",
+        "pt": "Números e medidas", 
+        "ru": "Числа и меры",
+        "zh": "数字度量"
+      },
+      "radicals": ["十", "一", "二", "三", "四", "五", "六", "七", "八", "九", "寸", "尺"]
+    },
+    "tiempo": {
+      "name": {
+        "es": "Tiempo",
+        "en": "Time",
+        "de": "Zeit",
+        "pt": "Tempo",
+        "ru": "Время", 
+        "zh": "时间"
+      },
+      "radicals": ["日", "月", "夕"]
+    },
+    "abstractos": {
+      "name": {
+        "es": "Conceptos abstractos",
+        "en": "Abstract concepts",
+        "de": "Abstrakte Konzepte",
+        "pt": "Conceitos abstratos",
+        "ru": "Абстрактные понятия",
+        "zh": "抽象概念"
+      },
+      "radicals": ["见", "言", "讠", "文", "方", "比", "网", "示", "政", "党", "民", "权", "主", "义", "会", "社", "团", "联", "盟", "级"]
+    },
+    "otros": {
+      "name": {
+        "es": "Otros", 
+        "en": "Others",
+        "de": "Andere",
+        "pt": "Outros",
+        "ru": "Другие",
+        "zh": "其他"
+      },
+      "radicals": []
+    }
+  }
+}
