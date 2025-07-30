@@ -1,0 +1,23 @@
+
+> shaky-singularity@0.0.1 dev
+> astro dev
+
+23:18:26 [types] Generated 0ms
+23:18:26 [content] Syncing content
+23:18:26 [content] Synced content
+23:18:26 [vite] Re-optimizing dependencies because vite config has changed
+23:18:27 [vite] Port 4321 is in use, trying another one...
+
+ astro  v5.12.0 ready in 278 ms
+
+┃ Local    http://localhost:4322/versos-de-protesta/
+┃ Network  use --host to expose
+
+23:18:27 watching for file changes...
+23:19:25 [200] /diccionario/zh-pinyin/ 12ms
+23:27:23 [200] /diccionario/zh-pinyin/ 3ms
+23:47:07 [watch] /src/components/DynamicDictionary.astro?astro&type=style&index=0&lang.css
+23:47:08 [200] /diccionario/zh-pinyin/ 7ms
+23:47:17 [200] /diccionario/zh-pinyin/ 4ms
+23:47:54 [200] /diccionario/radical/ 3ms
+23:47:56 [404] /data/chinese/strokes/20008.gif 1ms

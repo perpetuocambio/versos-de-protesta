@@ -428,9 +428,23 @@ document.addEventListener('DOMContentLoaded', async function() {
           words: {}
         };
         
+        // Mapear códigos de idioma de URL a campos JSON
+        const languageFieldMap = {
+          'es': 'es',
+          'en': 'en', 
+          'de': 'de',
+          'pt': 'pt',
+          'ru': 'ru',
+          'ru-rom': 'ruRom',
+          'zh': 'zh',
+          'zh-pinyin': 'zhPinyin'
+        };
+        
+        const fieldName = languageFieldMap[language] || language;
+        
         // Filtrar y procesar palabras por idioma
         lessonData.words.forEach(wordEntry => {
-          const wordInLanguage = wordEntry[language];
+          const wordInLanguage = wordEntry[fieldName];
           if (!wordInLanguage || wordInLanguage === '-' || wordInLanguage === '—') return;
           
           const key = wordInLanguage;
@@ -1324,7 +1338,7 @@ document.addEventListener('DOMContentLoaded', async function() {
           strokeGifs.forEach((gif, idx) => {
             detailsHtml += `<div class="stroke-gif">`;
             detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
-            detailsHtml += `<div class="character-pinyin">${gif.char}</div>`;
+            detailsHtml += `<div class="character-pinyin">${gif.pinyin || gif.char}</div>`;
             detailsHtml += `</div>`;
           });
           
