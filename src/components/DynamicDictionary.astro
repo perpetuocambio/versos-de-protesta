@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   async function loadDictionaryData() {
     try {
-      console.log(` Cargando diccionario dinámico para: ${availableLangs[language]} (${language})`);
+      console.log(`🔍 Cargando diccionario SIMPLIFICADO para: ${availableLangs[language]} (${language})`);
       
       // Mostrar loading después de 300ms si no ha cargado
       const loadingTimeout = setTimeout(() => {
@@ -351,12 +351,128 @@ document.addEventListener('DOMContentLoaded', async function() {
         loading.style.display = 'flex';
       }, 300);
 
-      // Cargar directamente el archivo de idioma (sin chunks para 13 lecciones)
-      const languageResponse = await fetch(`${baseUrl}data/internal/v1/dictionary/languages/${language}.json`);
-      if (!languageResponse.ok) throw new Error(`No se pudo cargar el archivo de idioma ${language}.json`);
+      // NUEVA ARQUITECTURA: Carga directa desde lesson-words.json o kangxi-radicals-official.json
+      let response, data;
       
-      dictionaryData = await languageResponse.json();
-      allWords = Object.entries(dictionaryData.words);
+      if (language === 'radical') {
+        // Cargar radicales desde fuente de verdad única
+        response = await fetch(`${baseUrl}data/chinese/kangxi-radicals-official.json`);
+        if (!response.ok) throw new Error('No se pudo cargar kangxi-radicals-official.json');
+        
+        const radicalsData = await response.json();
+        
+        // Procesar radicales para el formato esperado por el frontend
+        data = {
+          meta: {
+            language: 'radicales chinos',
+            wordCount: radicalsData.radicals.length,
+            lastUpdated: radicalsData.metadata.lastUpdated,
+            generatedBy: 'DynamicDictionary.astro - lectura directa'
+          },
+          words: {}
+        };
+        
+        // Convertir array de radicales a formato de palabras
+        radicalsData.radicals.forEach(radical => {
+          const key = radical.radical;
+          data.words[key] = {
+            entries: [{
+              word: radical.radical,
+              meaning: radical.meaning.es,
+              source: 'kangxi-official',
+              day: 0,
+              lessons: [0],
+              allTranslations: {
+                es: radical.meaning.es,
+                en: radical.meaning.en,
+                de: radical.meaning.de,
+                pt: radical.meaning.pt,
+                ru: radical.meaning.ru,
+                ruRom: radical.meaning.ru_rom || radical.meaning.ru,
+                zh: radical.radical,
+                zhPinyin: radical.meaning.zh_pinyin
+              },
+              metadata: {
+                category: radical.category, // Usar la categoría semántica real
+                type: 'radical', // Añadir tipo para distinguir de palabras
+                number: radical.number,
+                strokes: radical.strokes,
+                unicode: radical.unicode,
+                variants: radical.isVariant ? [radical.standardForm] : [],
+                variantType: radical.variantType || null
+              }
+            }],
+            frequency: 1,
+            lessons: [0]
+          };
+        });
+        
+        allWords = Object.entries(data.words);
+        dictionaryData = data;
+        
+      } else {
+        // Cargar vocabulario de lecciones desde fuente de verdad única
+        response = await fetch(`${baseUrl}data/lesson-words.json`);
+        if (!response.ok) throw new Error('No se pudo cargar lesson-words.json');
+        
+        const lessonData = await response.json();
+        
+        // Procesar palabras para el idioma específico
+        data = {
+          meta: {
+            language: availableLangs[language],
+            wordCount: 0,
+            lastUpdated: lessonData.meta.lastUpdated,
+            generatedBy: 'DynamicDictionary.astro - lectura directa'
+          },
+          words: {}
+        };
+        
+        // Filtrar y procesar palabras por idioma
+        lessonData.words.forEach(wordEntry => {
+          const wordInLanguage = wordEntry[language];
+          if (!wordInLanguage || wordInLanguage === '-' || wordInLanguage === '—') return;
+          
+          const key = wordInLanguage;
+          data.words[key] = {
+            entries: [{
+              word: wordInLanguage,
+              meaning: wordEntry.es, // Significado base siempre español
+              source: wordEntry.source,
+              day: wordEntry.day,
+              lessons: wordEntry.lessons,
+              allTranslations: {
+                es: wordEntry.es,
+                en: wordEntry.en,
+                de: wordEntry.de,
+                pt: wordEntry.pt,
+                ru: wordEntry.ru,
+                ruRom: wordEntry.ruRom,
+                zh: wordEntry.zh,
+                zhPinyin: wordEntry.zhPinyin
+              },
+              metadata: {
+                category: wordEntry.category,
+                frequency: wordEntry.frequency,
+                firstAppearance: wordEntry.firstAppearance,
+                // Datos chinos si están disponibles
+                ...(wordEntry.zh && {
+                  strokes: wordEntry.zhStrokes,
+                  radical: wordEntry.zhRadical,
+                  structure: wordEntry.zhStructure,
+                  pinyin: wordEntry.zhPinyin
+                })
+              }
+            }],
+            frequency: wordEntry.frequency,
+            lessons: wordEntry.lessons
+          };
+        });
+        
+        allWords = Object.entries(data.words);
+        dictionaryData = data;
+        data.meta.wordCount = allWords.length;
+      }
 
       clearTimeout(loadingTimeout);
       
@@ -837,18 +953,17 @@ document.addEventListener('DOMContentLoaded', async function() {
           <h4>Filtrar por categoría:</h4>
           <div class="semantic-buttons">
             <button class="semantic-btn active" data-semantic="all">Todos</button>
-            <button class="semantic-btn" data-semantic="elementos">Elementos</button>
-            <button class="semantic-btn" data-semantic="animales">Animales</button>
-            <button class="semantic-btn" data-semantic="plantas">Plantas</button>
+            <button class="semantic-btn" data-semantic="abstracto">Abstracto</button>
+            <button class="semantic-btn" data-semantic="actividad">Actividad</button>
+            <button class="semantic-btn" data-semantic="animal">Animal</button>
             <button class="semantic-btn" data-semantic="cuerpo">Cuerpo</button>
-            <button class="semantic-btn" data-semantic="objetos">Objetos</button>
-            <button class="semantic-btn" data-semantic="construcciones">Construcciones</button>
-            <button class="semantic-btn" data-semantic="acciones">Acciones</button>
-            <button class="semantic-btn" data-semantic="dirección">Dirección</button>
-            <button class="semantic-btn" data-semantic="números">Números</button>
-            <button class="semantic-btn" data-semantic="tiempo">Tiempo</button>
-            <button class="semantic-btn" data-semantic="abstractos">Abstractos</button>
-            <button class="semantic-btn" data-semantic="otros">Otros</button>
+            <button class="semantic-btn" data-semantic="forma">Forma</button>
+            <button class="semantic-btn" data-semantic="general">General</button>
+            <button class="semantic-btn" data-semantic="herramienta">Herramienta</button>
+            <button class="semantic-btn" data-semantic="humano">Humano</button>
+            <button class="semantic-btn" data-semantic="material">Material</button>
+            <button class="semantic-btn" data-semantic="naturaleza">Naturaleza</button>
+            <button class="semantic-btn" data-semantic="número">Número</button>
           </div>
         </div>
         ` : ''}
@@ -858,14 +973,21 @@ document.addEventListener('DOMContentLoaded', async function() {
       <div class="dictionary-grid" id="dictionary-grid">
         ${allWords.map(([word, data]) => {
           const details = JSON.stringify(data).replace(/'/g, '&apos;');
+          const entry = data.entries?.[0];
+          const category = entry?.metadata?.category;
+          const semanticAttr = (language === 'radical' && category) ? `data-semantic="${category}"` : '';
+          const pinyin = entry?.allTranslations?.zhPinyin;
+          const strokes = entry?.metadata?.strokes;
+          const meaning = entry?.meaning || data.meaning || 'Sin significado'; // Fallback para evitar undefined
+          
           return `
-            <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}" ${language === 'radical' && data.metadata?.semanticCategory ? `data-semantic="${data.metadata.semanticCategory}"` : ''}>
+            <div class="word-card" data-word-raw="${word}" data-word-details='${details}' data-letter="${word[0].toUpperCase()}" ${semanticAttr}>
               <h3 class="word-title">${word}</h3>
               <div class="word-meta">
-                <span class="meaning">${language === 'es' ? `Primera aparición: Día ${data.firstAppearance}` : `Significado: ${data.meaning}`}</span>
-                ${language === 'radical' && data.pronunciation?.zh_pinyin ? `<span class="pronunciation">Pinyin: ${data.pronunciation.zh_pinyin}</span>` : ''}
-                ${language === 'radical' && data.metadata?.radicalCategory ? `<span class="category">Complejidad: ${data.metadata.radicalCategory}</span>` : ''}
-                ${language === 'radical' && data.metadata?.semanticCategory ? `<span class="semantic-category">Tipo: ${data.metadata.semanticCategory}</span>` : ''}
+                <span class="meaning">${language === 'es' ? `Primera aparición: Día ${data.firstAppearance}` : `Significado: ${meaning}`}</span>
+                ${language === 'radical' && pinyin ? `<span class="pronunciation">Pinyin: ${pinyin}</span>` : ''}
+                ${language === 'radical' && strokes ? `<span class="category">Trazos: ${strokes}</span>` : ''}
+                ${language === 'radical' && category ? `<span class="semantic-category">Tipo: ${category}</span>` : ''}
                 <span class="lessons">Lecciones: ${data.lessons.join(', ')}</span>
               </div>
             </div>
@@ -1052,229 +1174,164 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
 
   function showWordDetails(word, data) {
+    // NUEVA ARQUITECTURA SIMPLIFICADA: Mostrar detalles con estructura unificada
+    console.log('🔍 Mostrando detalles de:', word, data);
+    
     let detailsHtml = `<h2>${word}</h2>`;
 
-    // Manejar estructura de radicales y caracteres vs estructura de palabras regulares
-    if (data.metadata && (data.metadata.category === 'radical' || data.metadata.category === 'character')) {
-      // Estructura para radicales y caracteres
-      detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
-      detailsHtml += `<p><strong>Significado:</strong> ${data.meaning}</p>`;
+    // NUEVA ARQUITECTURA: Estructura unificada de entries
+    if (data.entries && data.entries.length > 0) {
+      const entry = data.entries[0]; // Usar primera entrada
       
-      if (data.metadata.category === 'radical') {
-        // Información específica de radical
-        if (data.metadata.radicalCategory) {
-          detailsHtml += `<p><strong>Complejidad:</strong> ${data.metadata.radicalCategory}</p>`;
+      detailsHtml += `<div class="modal-entry">`;
+      detailsHtml += `<p><strong>Significado:</strong> ${entry.meaning}</p>`;
+      
+      // Información específica por tipo
+      if (entry.metadata && entry.metadata.type === 'radical') {
+        // RADICAL: Mostrar información específica de radical
+        detailsHtml += `<h4>📋 Información del Radical</h4>`;
+        
+        if (entry.metadata.number) {
+          detailsHtml += `<p><strong>Número Kangxi:</strong> ${entry.metadata.number}/214</p>`;
         }
-        if (data.metadata.semanticCategory) {
-          detailsHtml += `<p><strong>Tipo semántico:</strong> ${data.metadata.semanticCategory}</p>`;
+        if (entry.metadata.strokes) {
+          detailsHtml += `<p><strong>Trazos:</strong> ${entry.metadata.strokes}</p>`;
         }
-        if (data.metadata.strokes) {
-          detailsHtml += `<p><strong>Trazos:</strong> ${data.metadata.strokes}</p>`;
+        if (entry.metadata.unicode) {
+          detailsHtml += `<p><strong>Unicode:</strong> U+${entry.metadata.unicode.toString(16).toUpperCase().padStart(4, '0')}</p>`;
         }
-        if (data.metadata.radicalNumber && data.metadata.radicalNumber !== "N/A") {
-          detailsHtml += `<p><strong>Número Kangxi:</strong> ${data.metadata.radicalNumber}</p>`;
+        if (entry.metadata.variants && entry.metadata.variants.length > 0) {
+          detailsHtml += `<p><strong>Forma estándar:</strong> ${entry.metadata.variants[0]}</p>`;
         }
-      } else if (data.metadata.category === 'character') {
-        // Información específica de carácter
-        if (data.metadata.radical) {
-          detailsHtml += `<p><strong>Radical:</strong> ${data.metadata.radical}</p>`;
+        if (entry.metadata.variantType) {
+          detailsHtml += `<p><strong>Posición:</strong> ${entry.metadata.variantType}</p>`;
         }
-        if (data.metadata.strokes) {
-          detailsHtml += `<p><strong>Trazos:</strong> ${data.metadata.strokes}</p>`;
+        
+      } else {
+        // PALABRA REGULAR: Mostrar información de vocabulario
+        detailsHtml += `<h4>📚 Información de la Palabra</h4>`;
+        
+        if (entry.metadata && entry.metadata.category) {
+          detailsHtml += `<p><strong>Categoría:</strong> ${entry.metadata.category}</p>`;
         }
-        if (data.metadata.structure) {
-          detailsHtml += `<p><strong>Estructura:</strong> ${data.metadata.structure}</p>`;
+        if (entry.lessons && entry.lessons.length > 0) {
+          const lessonsList = entry.lessons.sort((a, b) => a - b).join(', ');
+          detailsHtml += `<p><strong>Aparece en lecciones:</strong> ${lessonsList}</p>`;
         }
-        if (data.metadata.unicode) {
-          detailsHtml += `<p><strong>Unicode:</strong> ${data.metadata.unicode}</p>`;
+        if (entry.metadata && entry.metadata.frequency > 1) {
+          detailsHtml += `<p><strong>Frecuencia:</strong> ${entry.metadata.frequency} lecciones</p>`;
+        }
+        if (entry.source) {
+          detailsHtml += `<p><strong>Fuente:</strong> ${entry.source}</p>`;
         }
       }
       
-      // Traducciones
-      if (data.translations) {
-        detailsHtml += '<h4>Traducciones:</h4><ul>';
-        const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom'];
-        langOrder.forEach(lang => {
-          if (data.translations[lang]) {
-            detailsHtml += `<li><strong>${lang}:</strong> ${data.translations[lang]}</li>`;
+      // TRADUCCIONES: Mostrar todas las traducciones disponibles
+      if (entry.allTranslations) {
+        detailsHtml += `<h4>🌍 Traducciones</h4>`;
+        
+        const translations = [
+          { code: 'es', name: 'Español', value: entry.allTranslations.es },
+          { code: 'en', name: 'English', value: entry.allTranslations.en },
+          { code: 'de', name: 'Deutsch', value: entry.allTranslations.de },
+          { code: 'pt', name: 'Português', value: entry.allTranslations.pt },
+          { code: 'ru', name: 'Русский', value: entry.allTranslations.ru },
+          { code: 'ruRom', name: 'Русский Rom.', value: entry.allTranslations.ruRom },
+          { code: 'zh', name: '中文', value: entry.allTranslations.zh },
+          { code: 'zhPinyin', name: 'Pinyin', value: entry.allTranslations.zhPinyin }
+        ];
+        
+        translations.forEach(trans => {
+          if (trans.value && trans.value !== '-' && trans.value !== '—') {
+            detailsHtml += `<p><strong>${trans.name}:</strong> ${trans.value}</p>`;
           }
         });
-        if (data.translations.zh) {
-          detailsHtml += `<li><strong>zh (hanzi):</strong> ${data.translations.zh}</li>`;
+      }
+      
+      // DATOS CHINOS: Si tiene información china específica
+      if (entry.metadata && (entry.metadata.strokes || entry.metadata.radical || entry.metadata.pinyin)) {
+        detailsHtml += `<h4>🈳 Información China</h4>`;
+        
+        if (entry.metadata.strokes) {
+          detailsHtml += `<p><strong>Trazos:</strong> ${entry.metadata.strokes}</p>`;
         }
-        if (data.translations.zhPinyin) {
-          detailsHtml += `<li><strong>zh (pinyin):</strong> ${renderPinyinWithTones(data.translations.zhPinyin)}</li>`;
+        if (entry.metadata.radical) {
+          detailsHtml += `<p><strong>Radical:</strong> ${entry.metadata.radical}</p>`;
         }
-        detailsHtml += '</ul>';
+        if (entry.metadata.structure) {
+          detailsHtml += `<p><strong>Estructura:</strong> ${entry.metadata.structure}</p>`;
+        }
+        if (entry.metadata.pinyin) {
+          // Procesar pinyin con tonos coloreados
+          const pinyinWithTones = entry.metadata.pinyin.replace(/([aeiouüv])([̄́̌̀]?)/g, (match, vowel, tone) => {
+            const toneClass = {
+              '̄': 'tone-1', '́': 'tone-2', '̌': 'tone-3', '̀': 'tone-4'
+            }[tone] || 'tone-5';
+            return `<span class="pinyin-syllable ${toneClass}">${match}</span>`;
+          });
+          detailsHtml += `<p><strong>Pinyin:</strong> ${pinyinWithTones}</p>`;
+        }
       }
       
-      // Caracteres relacionados (solo para radicales)
-      if (data.metadata.category === 'radical' && data.metadata.characters && data.metadata.characters.length > 0) {
-        detailsHtml += `<p><strong>Caracteres relacionados:</strong> ${data.metadata.characters.join(', ')}</p>`;
-      }
-      
-      // Contexto
-      if (data.context) {
-        detailsHtml += `<p><strong>Contexto:</strong> ${data.context}</p>`;
-      }
-      
-      // Lecciones
-      if (data.lessons) {
-        detailsHtml += `<p><strong>Fuente:</strong> ${data.lessons.join(', ')}</p>`;
+      // ENLACES A LECCIONES
+      if (entry.lessons && entry.lessons.length > 0) {
+        detailsHtml += `<h4>🔗 Enlaces</h4>`;
+        if (entry.lessons.length === 1) {
+          detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${entry.lessons[0]}</a></p>`;
+        } else {
+          detailsHtml += `<p><strong>Aparece en las lecciones:</strong> `;
+          entry.lessons.forEach((day, idx) => {
+            if (idx > 0) detailsHtml += ', ';
+            detailsHtml += `<a href="${baseUrl}blog/dia-${day.toString().padStart(2, '0')}/" class="post-link">Día ${day}</a>`;
+          });
+          detailsHtml += `</p>`;
+        }
       }
       
       detailsHtml += `</div>`;
     } else {
-      // Estructura original para palabras regulares
-      data.entries.forEach((entry, index) => {
-        const translations = entry.allTranslations || entry.translations;
-        const category = translations.grammaticalCategory || 'N/A';
-
-        detailsHtml += `<div class="modal-entry" style="margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">`;
-        detailsHtml += `<p><strong>Significado ${index + 1}:</strong> ${entry.meaning}</p>`;
-        detailsHtml += `<p style="font-style: italic; color: var(--color-text-secondary); margin-bottom: var(--space-md);">Categoría: ${category}</p>`;
-
-        if (translations) {
-            detailsHtml += '<h4>Traducciones:</h4><ul>';
-            // Mostrar el significado primero, luego los elementos lingüísticos
-            const langOrder = ['es', 'en', 'de', 'pt', 'ru', 'ruRom'];
-            langOrder.forEach(lang => {
-                if (translations[lang]) {
-                    detailsHtml += `<li><strong>${lang}:</strong> ${translations[lang]}</li>`;
-                }
-            });
-            // Chino: mostrar hanzi primero, luego pinyin, y información adicional
-            if (translations.zh) {
-                detailsHtml += `<li><strong>zh (hanzi):</strong> ${translations.zh}</li>`;
-            }
-            if (translations.zhPinyin) {
-                detailsHtml += `<li><strong>zh (pinyin):</strong> ${renderPinyinWithTones(translations.zhPinyin)}</li>`;
-            }
-            if (translations.zhStrokes) {
-                detailsHtml += `<li><strong>zh (trazos):</strong> ${translations.zhStrokes}</li>`;
-            }
-            if (translations.zhRadical) {
-                detailsHtml += `<li><strong>zh (radical):</strong> ${translations.zhRadical}</li>`;
-            }
-            if (translations.zhStructure) {
-                detailsHtml += `<li><strong>zh (estructura):</strong> ${translations.zhStructure}</li>`;
-            }
-            detailsHtml += '</ul>';
-        }
-
-        // Mostrar todas las lecciones donde aparece la palabra
-        const lessons = entry.lessons || [entry.day];
-        if (lessons.length === 1) {
-            detailsHtml += `<p><a href="${baseUrl}blog/${entry.source}/" class="post-link">Ver en la lección del día ${lessons[0]}</a></p>`;
-        } else {
-            detailsHtml += `<p><strong>Aparece en las lecciones:</strong> `;
-            lessons.forEach((day, idx) => {
-                if (idx > 0) detailsHtml += ', ';
-                detailsHtml += `<a href="${baseUrl}blog/dia-${day.toString().padStart(2, '0')}/" class="post-link">Día ${day}</a>`;
-            });
-            detailsHtml += `</p>`;
-        }
-        detailsHtml += `</div>`;
-      });
+      // Fallback para datos sin estructura entries
+      detailsHtml += `<div class="modal-entry">`;
+      detailsHtml += `<p><strong>Error:</strong> No se pudo cargar la información de la palabra.</p>`;
+      detailsHtml += `<p>Datos recibidos: ${JSON.stringify(data, null, 2)}</p>`;
+      detailsHtml += `</div>`;
     }
 
-    // Agregar trazos de caracteres chinos si aplica
+    // NUEVA ARQUITECTURA: Trazos chinos simplificados
     const containsChinese = /[\u4e00-\u9fff]/.test(word) || 
-                           (data.entries?.[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh)) ||
-                           (data.translations?.zh && /[\u4e00-\u9fff]/.test(data.translations.zh));
+                           (data.entries?.[0]?.allTranslations?.zh && /[\u4e00-\u9fff]/.test(data.entries[0].allTranslations.zh));
     
-    if (language === 'zh' || language === 'zh-pinyin' || containsChinese) {
+    if ((language === 'zh' || language === 'zh-pinyin' || language === 'radical' || containsChinese) && data.entries && data.entries[0]) {
+      const entry = data.entries[0];
       let chineseText = '';
-      let pinyinText = '';
       
-      if (language === 'zh') {
+      // Determinar texto chino a mostrar
+      if (language === 'zh' || language === 'radical') {
         chineseText = word;
-        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
-      } else if (language === 'zh-pinyin') {
-        chineseText = data.entries?.[0]?.allTranslations?.zh || data.entries?.[0]?.translations?.zh || data.translations?.zh || '';
-        pinyinText = word;
-      } else if (language === 'radical') {
-        // Para radicales, usar directamente las traducciones
-        chineseText = data.translations?.zh || word;
-        pinyinText = data.translations?.zhPinyin || '';
-      } else if (containsChinese && /[\u4e00-\u9fff]/.test(word)) {
-        chineseText = word;
-        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
-      } else if (containsChinese && (data.entries?.[0]?.allTranslations?.zh || data.translations?.zh)) {
-        chineseText = data.entries?.[0]?.allTranslations?.zh || data.translations?.zh;
-        pinyinText = data.entries?.[0]?.allTranslations?.zhPinyin || data.entries?.[0]?.translations?.zhPinyin || data.translations?.zhPinyin || '';
+      } else if (entry.allTranslations && entry.allTranslations.zh) {
+        chineseText = entry.allTranslations.zh;
       }
       
-      if (chineseText && typeof chineseText === 'string') {
+      if (chineseText && /[\u4e00-\u9fff]/.test(chineseText)) {
+        // Generar GIFs de trazos
         const strokeGifs = getChineseStrokeGifs(chineseText);
-        
-        // Extraer pinyin individual para cada carácter usando datos CC-CEDICT
-        let pinyinSyllables = [];
-        
-        if (pinyinText && pinyinText.split(' ').length === chineseText.length) {
-          // Si el número de sílabas coincide con el número de caracteres, usar directamente
-          pinyinSyllables = pinyinText.split(' ');
-        } else {
-          // Usar datos CC-CEDICT individuales para cada carácter
-          for (let i = 0; i < chineseText.length; i++) {
-            const char = chineseText[i];
-            if (/[\u4e00-\u9fff]/.test(char)) {
-              // Buscar datos CC-CEDICT para este carácter
-              const charData = characterData?.characters?.[char];
-              if (charData && charData.pinyin) {
-                pinyinSyllables.push(charData.pinyin);
-              } else {
-                // Fallback: intentar extraer de la palabra completa
-                const wordSyllables = pinyinText ? pinyinText.split(' ') : [];
-                pinyinSyllables.push(wordSyllables[i] || char);
-              }
-            } else {
-              // No es carácter chino, mantener tal como está
-              pinyinSyllables.push(char);
-            }
-          }
-          console.log(`Using CC-CEDICT individual pinyin for "${chineseText}": [${pinyinSyllables.join(', ')}]`);
-        }
         
         if (strokeGifs.length > 0) {
           detailsHtml += `<div class="stroke-section">`;
-          detailsHtml += `<h4>✍️ Orden de trazos (${strokeGifs.length} carácter${strokeGifs.length > 1 ? 'es' : ''}):</h4>`;
+          detailsHtml += `<h4>✍️ Orden de trazos</h4>`;
           detailsHtml += `<div class="stroke-gifs">`;
+          
           strokeGifs.forEach((gif, idx) => {
-            const syllablePinyin = pinyinSyllables[idx] || gif.pinyin || gif.char;
-            const toneClass = getToneClass(syllablePinyin);
             detailsHtml += `<div class="stroke-gif">`;
-            // Añadir numeración para múltiples caracteres
-            if (strokeGifs.length > 1) {
-              detailsHtml += `<div style="font-size: 0.7rem; color: #999; margin-bottom: 0.25rem;">${idx + 1}</div>`;
-            }
             detailsHtml += `<img src="${gif.url}" alt="Trazos de ${gif.char}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100px;height:100px;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;font-size:0.8rem;text-align:center;\\'>No disponible<br>${gif.char}</div>'">`;
-            detailsHtml += `<div class="character-pinyin pinyin-syllable ${toneClass}">${syllablePinyin}</div>`;
+            detailsHtml += `<div class="character-pinyin">${gif.char}</div>`;
             detailsHtml += `</div>`;
           });
+          
           detailsHtml += `</div>`;
-          // Mostrar los caracteres en grande
-          detailsHtml += `<div class="chinese-large-display">`;
-          detailsHtml += `<div class="chinese-large-text">${chineseText}</div>`;
-          detailsHtml += `</div>`;
-          // Atribución para trazos
           detailsHtml += `<div class="stroke-attribution">`;
           detailsHtml += `<small>Orden de trazos © <a href="https://www.mdbg.net/" target="_blank" rel="noopener">MDBG Chinese Dictionary</a></small>`;
           detailsHtml += `</div>`;
-          
-          // Análisis de radicales para cada caracter
-          detailsHtml += `<div class="radical-analysis-section">`;
-          detailsHtml += `<h4>🔍 Análisis de Radicales</h4>`;
-          strokeGifs.forEach((gif, idx) => {
-            detailsHtml += `<div class="radical-analyzer-container" data-character="${gif.char}">`;
-            detailsHtml += `  <div class="radical-loading-mini">`;
-            detailsHtml += `    <div class="loading-mini"></div>`;
-            detailsHtml += `    <span>Analizando ${gif.char}...</span>`;
-            detailsHtml += `  </div>`;
-            detailsHtml += `</div>`;
-          });
-          detailsHtml += `</div>`;
-          
           detailsHtml += `</div>`;
         }
       }

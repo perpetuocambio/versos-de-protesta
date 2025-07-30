@@ -4,9 +4,37 @@ import Icon from '../../components/Icon.astro';
 import NavigationCard from '../../components/NavigationCard.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 
-// Importar estadísticas del archivo local
-import statsData from '../../../public/data/dictionary-stats.json';
-const stats = { default: statsData };
+// Estadísticas dinámicas para nueva arquitectura simplificada
+import lessonWordsData from '../../../public/data/lesson-words.json';
+
+// Generar estadísticas por lección basadas en los datos reales
+const byLesson = {};
+lessonWordsData.words.forEach(word => {
+  word.lessons.forEach(lesson => {
+    byLesson[`dia-${String(lesson).padStart(2, '0')}`] = (byLesson[`dia-${String(lesson).padStart(2, '0')}`] || 0) + 1;
+  });
+});
+
+const stats = {
+  default: {
+    byLanguage: {
+      es: lessonWordsData.meta.totalWords,
+      en: lessonWordsData.meta.totalWords,
+      de: lessonWordsData.meta.totalWords,
+      pt: lessonWordsData.meta.totalWords,
+      ru: lessonWordsData.meta.totalWords,
+      ruRom: lessonWordsData.meta.totalWords,
+      zh: lessonWordsData.meta.totalWords,
+      zhPinyin: lessonWordsData.meta.totalWords,
+      radical: 214 // Kangxi radicals official
+    },
+    totalWords: lessonWordsData.meta.totalWords,
+    totalLessons: lessonWordsData.meta.totalLessons,
+    totalEntries: lessonWordsData.words.reduce((sum, word) => sum + word.frequency, 0),
+    totalUniqueWords: lessonWordsData.meta.totalWords,
+    byLesson: byLesson
+  }
+};
 
 const languageInfo = [
   {
