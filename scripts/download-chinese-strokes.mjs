@@ -34,59 +34,49 @@ function ensureDirectoryExists(dirPath) {
   }
 }
 
-// Extraer caracteres únicos del diccionario
+// Extraer caracteres únicos de los datos existentes
 function extractUniqueChineseCharacters() {
-  console.log('📖 Leyendo diccionario chino...');
+  console.log('📖 Leyendo datos de caracteres chinos...');
   
-  if (!fs.existsSync(DICTIONARY_PATH)) {
-    console.error(`❌ No se encontró el diccionario: ${DICTIONARY_PATH}`);
-    process.exit(1);
+  // Usar datos de caracteres existentes si están disponibles
+  if (fs.existsSync(CHARACTER_DATA_FILE)) {
+    const characterData = JSON.parse(fs.readFileSync(CHARACTER_DATA_FILE, 'utf8'));
+    const characters = Object.keys(characterData.characters || {});
+    
+    console.log(`📊 Estadísticas:`);
+    console.log(`   - Caracteres únicos encontrados: ${characters.length}`);
+    console.log(`   - Fuente: Datos de caracteres existentes`);
+    
+    return characters.sort();
   }
   
-  const dictionaryData = JSON.parse(fs.readFileSync(DICTIONARY_PATH, 'utf8'));
+  // Fallback: buscar en archivos de lecciones
+  console.log('⚠️  Datos de caracteres no encontrados, buscando en archivos de lecciones...');
+  
+  const lessonsDir = path.join(PROJECT_ROOT, 'src', 'content', 'lecciones');
   const uniqueChars = new Set();
   
-  let wordCount = 0;
-  
-  // Buscar en la estructura anidada del diccionario
-  if (dictionaryData.index && dictionaryData.index.letters) {
-    for (const [letter, words] of Object.entries(dictionaryData.index.letters)) {
-      if (Array.isArray(words)) {
-        for (const chineseWord of words) {
-          wordCount++;
-          // Extraer cada caracter individual
-          for (let i = 0; i < chineseWord.length; i++) {
-            const char = chineseWord[i];
-            // Verificar que es un caracter chino (CJK Unified Ideographs)
-            if (/[\u4e00-\u9fff]/.test(char)) {
-              uniqueChars.add(char);
-            }
-          }
-        }
-      }
+  if (fs.existsSync(lessonsDir)) {
+    const lessonFiles = fs.readdirSync(lessonsDir).filter(file => file.endsWith('.md'));
+    
+    for (const file of lessonFiles) {
+      const filePath = path.join(lessonsDir, file);
+      const content = fs.readFileSync(filePath, 'utf8');
+      
+      // Extraer caracteres chinos del contenido
+      const chineseRegex = /[\u4e00-\u9fff]/g;
+      const matches = content.match(chineseRegex) || [];
+      matches.forEach(char => uniqueChars.add(char));
     }
   }
   
-  // También buscar en el diccionario principal si existe
-  if (dictionaryData.dictionary) {
-    for (const [chineseWord, data] of Object.entries(dictionaryData.dictionary)) {
-      wordCount++;
-      // Extraer cada caracter individual
-      for (let i = 0; i < chineseWord.length; i++) {
-        const char = chineseWord[i];
-        // Verificar que es un caracter chino (CJK Unified Ideographs)
-        if (/[\u4e00-\u9fff]/.test(char)) {
-          uniqueChars.add(char);
-        }
-      }
-    }
-  }
-  
+  const characters = Array.from(uniqueChars);
   console.log(`📊 Estadísticas:`);
-  console.log(`   - Palabras procesadas: ${wordCount}`);
-  console.log(`   - Caracteres únicos encontrados: ${uniqueChars.size}`);
+  console.log(`   - Archivos de lecciones procesados: ${fs.existsSync(lessonsDir) ? fs.readdirSync(lessonsDir).filter(f => f.endsWith('.md')).length : 0}`);
+  console.log(`   - Caracteres únicos encontrados: ${characters.length}`);
+  console.log(`   - Fuente: Archivos de lecciones`);
   
-  return Array.from(uniqueChars).sort();
+  return characters.sort();
 }
 
 // Descargar un archivo de trazo individual
