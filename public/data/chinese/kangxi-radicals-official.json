@@ -1,8 +1,8 @@
 {
   "metadata": {
     "generated": "2025-07-27T18:56:08.568Z",
-    "version": "1.0.0",
-    "description": "Official Kangxi radicals with pronunciation from CC-CEDICT",
+    "version": "1.1.0",
+    "description": "Official Kangxi radicals with pronunciation from CC-CEDICT - Extended with DE/PT/RU/RU_ROM translations",
     "total_radicals": 214,
     "cedict_coverage": 208,
     "coverage_percentage": 97,
@@ -12,7 +12,8 @@
       "Internal categorization system"
     ],
     "license": "CC BY-SA 4.0 (CC-CEDICT data)",
-    "attribution": "CC-CEDICT by MDBG, Unicode Consortium"
+    "attribution": "CC-CEDICT by MDBG, Unicode Consortium",
+    "lastUpdated": "2025-07-30T16:58:20.776Z"
   },
   "radicals": [
     {
@@ -24,7 +25,11 @@
         "en": "one",
         "es": "uno",
         "zh_pinyin": "yi1",
-        "cedict_definition": "one"
+        "cedict_definition": "one",
+        "de": "eins",
+        "pt": "um",
+        "ru": "один",
+        "ru_rom": "odin"
       },
       "category": "número",
       "sources": [
@@ -47,7 +52,11 @@
         "en": "line",
         "es": "línea",
         "zh_pinyin": "gun3",
-        "cedict_definition": "radical in Chinese characters (Kangxi radical 2)"
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 2)",
+        "de": "Linie",
+        "pt": "linha",
+        "ru": "линия",
+        "ru_rom": "liniya"
       },
       "category": "forma",
       "sources": [
@@ -70,7 +79,11 @@
         "en": "dot",
         "es": "punto",
         "zh_pinyin": "zhu3",
-        "cedict_definition": "\"dot\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"
+        "cedict_definition": "\"dot\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]",
+        "de": "Punkt",
+        "pt": "ponto",
+        "ru": "точка",
+        "ru_rom": "tochka"
       },
       "category": "forma",
       "sources": [
@@ -93,7 +106,11 @@
         "en": "slash",
         "es": "barra",
         "zh_pinyin": "pie3",
-        "cedict_definition": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]"
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]",
+        "de": "Schrägstrich",
+        "pt": "barra",
+        "ru": "черта",
+        "ru_rom": "cherta"
       },
       "category": "general",
       "sources": [
@@ -114,9 +131,13 @@
       "unicode": 20057,
       "meaning": {
         "en": "second",
-        "es": "second",
+        "es": "segundo",
         "zh_pinyin": "yi3",
-        "cedict_definition": "second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]"
+        "cedict_definition": "second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]",
+        "de": "zweite",
+        "pt": "segundo",
+        "ru": "второй",
+        "ru_rom": "vtoroy"
       },
       "category": "general",
       "sources": [
@@ -139,7 +160,11 @@
         "en": "hook",
         "es": "gancho",
         "zh_pinyin": "jue2",
-        "cedict_definition": "\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6), aka 豎鉤|竖钩[shu4gou1]"
+        "cedict_definition": "\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6), aka 豎鉤|竖钩[shu4gou1]",
+        "de": "Haken",
+        "pt": "gancho",
+        "ru": "крючок",
+        "ru_rom": "kryuchok"
       },
       "category": "general",
       "sources": [
@@ -162,7 +187,11 @@
         "en": "two",
         "es": "dos",
         "zh_pinyin": "er4",
-        "cedict_definition": "two"
+        "cedict_definition": "two",
+        "de": "zwei",
+        "pt": "dois",
+        "ru": "два",
+        "ru_rom": "dva"
       },
       "category": "número",
       "sources": [
@@ -185,7 +214,11 @@
         "en": "lid",
         "es": "tapa",
         "zh_pinyin": "tou2",
-        "cedict_definition": "\"lid\" radical in Chinese characters (Kangxi radical 8)"
+        "cedict_definition": "\"lid\" radical in Chinese characters (Kangxi radical 8)",
+        "de": "Deckel",
+        "pt": "tampa",
+        "ru": "крышка",
+        "ru_rom": "kryshka"
       },
       "category": "general",
       "sources": [
@@ -208,7 +241,11 @@
         "en": "man",
         "es": "hombre",
         "zh_pinyin": "ren2",
-        "cedict_definition": "person; people"
+        "cedict_definition": "person; people",
+        "de": "Mann",
+        "pt": "homem",
+        "ru": "человек",
+        "ru_rom": "chelovek"
       },
       "category": "humano",
       "sources": [
@@ -231,7 +268,11 @@
         "en": "legs",
         "es": "legs",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "legs",
+        "pt": "legs",
+        "ru": "legs",
+        "ru_rom": "legs"
       },
       "category": "general",
       "sources": [
@@ -253,7 +294,11 @@
         "en": "enter",
         "es": "entrar",
         "zh_pinyin": "ru4",
-        "cedict_definition": "to enter; to go into"
+        "cedict_definition": "to enter; to go into",
+        "de": "entrar",
+        "pt": "entrar",
+        "ru": "entrar",
+        "ru_rom": "entrar"
       },
       "category": "actividad",
       "sources": [
@@ -276,7 +321,11 @@
         "en": "eight",
         "es": "ocho",
         "zh_pinyin": "ba1",
-        "cedict_definition": "eight"
+        "cedict_definition": "eight",
+        "de": "acht",
+        "pt": "oito",
+        "ru": "восемь",
+        "ru_rom": "vosem"
       },
       "category": "número",
       "sources": [
@@ -299,7 +348,11 @@
         "en": "down box",
         "es": "down box",
         "zh_pinyin": "jiong1",
-        "cedict_definition": "radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4], 同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]"
+        "cedict_definition": "radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4], 同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]",
+        "de": "down box",
+        "pt": "down box",
+        "ru": "down box",
+        "ru_rom": "down box"
       },
       "category": "forma",
       "sources": [
@@ -322,7 +375,11 @@
         "en": "cover",
         "es": "cubierta",
         "zh_pinyin": "mi4",
-        "cedict_definition": "\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]"
+        "cedict_definition": "\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]",
+        "de": "cubierta",
+        "pt": "cubierta",
+        "ru": "cubierta",
+        "ru_rom": "cubierta"
       },
       "category": "general",
       "sources": [
@@ -345,7 +402,11 @@
         "en": "ice",
         "es": "ice",
         "zh_pinyin": "bing1",
-        "cedict_definition": "\"ice\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"
+        "cedict_definition": "\"ice\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]",
+        "de": "ice",
+        "pt": "ice",
+        "ru": "ice",
+        "ru_rom": "ice"
       },
       "category": "general",
       "sources": [
@@ -368,7 +429,11 @@
         "en": "table",
         "es": "table",
         "zh_pinyin": "ji1",
-        "cedict_definition": "small table"
+        "cedict_definition": "small table",
+        "de": "table",
+        "pt": "table",
+        "ru": "table",
+        "ru_rom": "table"
       },
       "category": "general",
       "sources": [
@@ -391,7 +456,11 @@
         "en": "open box",
         "es": "open box",
         "zh_pinyin": "kan3",
-        "cedict_definition": "receptacle"
+        "cedict_definition": "receptacle",
+        "de": "open box",
+        "pt": "open box",
+        "ru": "open box",
+        "ru_rom": "open box"
       },
       "category": "forma",
       "sources": [
@@ -414,7 +483,11 @@
         "en": "knife",
         "es": "cuchillo",
         "zh_pinyin": "dao1",
-        "cedict_definition": "surname Dao"
+        "cedict_definition": "surname Dao",
+        "de": "Messer",
+        "pt": "faca",
+        "ru": "нож",
+        "ru_rom": "nozh"
       },
       "category": "herramienta",
       "sources": [
@@ -437,7 +510,11 @@
         "en": "power",
         "es": "fuerza",
         "zh_pinyin": "li4",
-        "cedict_definition": "surname Li"
+        "cedict_definition": "surname Li",
+        "de": "fuerza",
+        "pt": "fuerza",
+        "ru": "fuerza",
+        "ru_rom": "fuerza"
       },
       "category": "abstracto",
       "sources": [
@@ -460,7 +537,11 @@
         "en": "wrap",
         "es": "wrap",
         "zh_pinyin": "bao1",
-        "cedict_definition": "old variant of 包[bao1]"
+        "cedict_definition": "old variant of 包[bao1]",
+        "de": "wrap",
+        "pt": "wrap",
+        "ru": "wrap",
+        "ru_rom": "wrap"
       },
       "category": "general",
       "sources": [
@@ -483,7 +564,11 @@
         "en": "spoon",
         "es": "cuchara",
         "zh_pinyin": "bi3",
-        "cedict_definition": "dagger"
+        "cedict_definition": "dagger",
+        "de": "cuchara",
+        "pt": "cuchara",
+        "ru": "cuchara",
+        "ru_rom": "cuchara"
       },
       "category": "herramienta",
       "sources": [
@@ -506,7 +591,11 @@
         "en": "right open box",
         "es": "right open box",
         "zh_pinyin": "fang1",
-        "cedict_definition": "\"right open box\" radical (Kangxi radical 22), occurring in 区, 医, 匹 etc"
+        "cedict_definition": "\"right open box\" radical (Kangxi radical 22), occurring in 区, 医, 匹 etc",
+        "de": "right open box",
+        "pt": "right open box",
+        "ru": "right open box",
+        "ru_rom": "right open box"
       },
       "category": "forma",
       "sources": [
@@ -529,7 +618,11 @@
         "en": "hiding enclosure",
         "es": "hiding enclosure",
         "zh_pinyin": "xi4",
-        "cedict_definition": "\"cover\" or \"conceal\" radical in Chinese characters (Kangxi radical 23) (distinguished from 匚[fang1])"
+        "cedict_definition": "\"cover\" or \"conceal\" radical in Chinese characters (Kangxi radical 23) (distinguished from 匚[fang1])",
+        "de": "hiding enclosure",
+        "pt": "hiding enclosure",
+        "ru": "hiding enclosure",
+        "ru_rom": "hiding enclosure"
       },
       "category": "forma",
       "sources": [
@@ -552,7 +645,11 @@
         "en": "ten",
         "es": "diez",
         "zh_pinyin": "shi2",
-        "cedict_definition": "ten"
+        "cedict_definition": "ten",
+        "de": "zehn",
+        "pt": "dez",
+        "ru": "десять",
+        "ru_rom": "desyat"
       },
       "category": "número",
       "sources": [
@@ -575,7 +672,11 @@
         "en": "divination",
         "es": "divination",
         "zh_pinyin": "bu3",
-        "cedict_definition": "surname Bu"
+        "cedict_definition": "surname Bu",
+        "de": "divination",
+        "pt": "divination",
+        "ru": "divination",
+        "ru_rom": "divination"
       },
       "category": "general",
       "sources": [
@@ -598,7 +699,11 @@
         "en": "seal",
         "es": "seal",
         "zh_pinyin": "jie2",
-        "cedict_definition": "\"seal\" radical in Chinese characters (Kangxi radical 26)"
+        "cedict_definition": "\"seal\" radical in Chinese characters (Kangxi radical 26)",
+        "de": "seal",
+        "pt": "seal",
+        "ru": "seal",
+        "ru_rom": "seal"
       },
       "category": "general",
       "sources": [
@@ -621,7 +726,11 @@
         "en": "cliff",
         "es": "cliff",
         "zh_pinyin": "han3",
-        "cedict_definition": "\"cliff\" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc"
+        "cedict_definition": "\"cliff\" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc",
+        "de": "cliff",
+        "pt": "cliff",
+        "ru": "cliff",
+        "ru_rom": "cliff"
       },
       "category": "general",
       "sources": [
@@ -644,7 +753,11 @@
         "en": "private",
         "es": "private",
         "zh_pinyin": "mou3",
-        "cedict_definition": "old variant of 某[mou3]"
+        "cedict_definition": "old variant of 某[mou3]",
+        "de": "private",
+        "pt": "private",
+        "ru": "private",
+        "ru_rom": "private"
       },
       "category": "general",
       "sources": [
@@ -667,7 +780,11 @@
         "en": "again",
         "es": "again",
         "zh_pinyin": "you4",
-        "cedict_definition": "(once) again"
+        "cedict_definition": "(once) again",
+        "de": "again",
+        "pt": "again",
+        "ru": "again",
+        "ru_rom": "again"
       },
       "category": "general",
       "sources": [
@@ -690,7 +807,11 @@
         "en": "mouth",
         "es": "boca",
         "zh_pinyin": "kou3",
-        "cedict_definition": "mouth"
+        "cedict_definition": "mouth",
+        "de": "Mund",
+        "pt": "boca",
+        "ru": "рот",
+        "ru_rom": "rot"
       },
       "category": "cuerpo",
       "sources": [
@@ -713,7 +834,11 @@
         "en": "enclosure",
         "es": "recinto",
         "zh_pinyin": "wei2",
-        "cedict_definition": "enclosure"
+        "cedict_definition": "enclosure",
+        "de": "recinto",
+        "pt": "recinto",
+        "ru": "recinto",
+        "ru_rom": "recinto"
       },
       "category": "forma",
       "sources": [
@@ -736,7 +861,11 @@
         "en": "earth",
         "es": "tierra",
         "zh_pinyin": "tu3",
-        "cedict_definition": "Tu (ethnic group)"
+        "cedict_definition": "Tu (ethnic group)",
+        "de": "Erde",
+        "pt": "terra",
+        "ru": "земля",
+        "ru_rom": "zemlya"
       },
       "category": "cuerpo",
       "sources": [
@@ -759,7 +888,11 @@
         "en": "scholar",
         "es": "erudito",
         "zh_pinyin": "shi4",
-        "cedict_definition": "surname Shi"
+        "cedict_definition": "surname Shi",
+        "de": "erudito",
+        "pt": "erudito",
+        "ru": "erudito",
+        "ru_rom": "erudito"
       },
       "category": "humano",
       "sources": [
@@ -782,7 +915,11 @@
         "en": "go",
         "es": "ir",
         "zh_pinyin": "zhi3",
-        "cedict_definition": "\"walk slowly\" component in Chinese characters"
+        "cedict_definition": "\"walk slowly\" component in Chinese characters",
+        "de": "ir",
+        "pt": "ir",
+        "ru": "ir",
+        "ru_rom": "ir"
       },
       "category": "actividad",
       "sources": [
@@ -805,7 +942,11 @@
         "en": "go slowly",
         "es": "go slowly",
         "zh_pinyin": "sui1",
-        "cedict_definition": "see 夂[zhi3]"
+        "cedict_definition": "see 夂[zhi3]",
+        "de": "go slowly",
+        "pt": "go slowly",
+        "ru": "go slowly",
+        "ru_rom": "go slowly"
       },
       "category": "actividad",
       "sources": [
@@ -828,7 +969,11 @@
         "en": "evening",
         "es": "noche",
         "zh_pinyin": "xi1",
-        "cedict_definition": "(bound form) sunset; dusk"
+        "cedict_definition": "(bound form) sunset; dusk",
+        "de": "noche",
+        "pt": "noche",
+        "ru": "noche",
+        "ru_rom": "noche"
       },
       "category": "general",
       "sources": [
@@ -851,7 +996,11 @@
         "en": "big",
         "es": "grande",
         "zh_pinyin": "da4",
-        "cedict_definition": "big; large; great"
+        "cedict_definition": "big; large; great",
+        "de": "groß",
+        "pt": "grande",
+        "ru": "большой",
+        "ru_rom": "bolshoy"
       },
       "category": "general",
       "sources": [
@@ -874,7 +1023,11 @@
         "en": "woman",
         "es": "mujer",
         "zh_pinyin": "nu:3",
-        "cedict_definition": "female"
+        "cedict_definition": "female",
+        "de": "Frau",
+        "pt": "mulher",
+        "ru": "женщина",
+        "ru_rom": "zhenshchina"
       },
       "category": "humano",
       "sources": [
@@ -897,7 +1050,11 @@
         "en": "child",
         "es": "niño",
         "zh_pinyin": "zi3",
-        "cedict_definition": "son"
+        "cedict_definition": "son",
+        "de": "Kind",
+        "pt": "criança",
+        "ru": "ребёнок",
+        "ru_rom": "rebyonok"
       },
       "category": "humano",
       "sources": [
@@ -920,7 +1077,11 @@
         "en": "roof",
         "es": "techo",
         "zh_pinyin": "mian2",
-        "cedict_definition": "\"roof\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]"
+        "cedict_definition": "\"roof\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]",
+        "de": "techo",
+        "pt": "techo",
+        "ru": "techo",
+        "ru_rom": "techo"
       },
       "category": "general",
       "sources": [
@@ -943,7 +1104,11 @@
         "en": "inch",
         "es": "pulgada",
         "zh_pinyin": "cun4",
-        "cedict_definition": "a unit of length"
+        "cedict_definition": "a unit of length",
+        "de": "pulgada",
+        "pt": "pulgada",
+        "ru": "pulgada",
+        "ru_rom": "pulgada"
       },
       "category": "general",
       "sources": [
@@ -966,7 +1131,11 @@
         "en": "small",
         "es": "pequeño",
         "zh_pinyin": "xiao3",
-        "cedict_definition": "small"
+        "cedict_definition": "small",
+        "de": "klein",
+        "pt": "pequeno",
+        "ru": "маленький",
+        "ru_rom": "malenkiy"
       },
       "category": "general",
       "sources": [
@@ -989,7 +1158,11 @@
         "en": "lame",
         "es": "lame",
         "zh_pinyin": "wang1",
-        "cedict_definition": "lame"
+        "cedict_definition": "lame",
+        "de": "lame",
+        "pt": "lame",
+        "ru": "lame",
+        "ru_rom": "lame"
       },
       "category": "general",
       "sources": [
@@ -1012,7 +1185,11 @@
         "en": "corpse",
         "es": "corpse",
         "zh_pinyin": "shi1",
-        "cedict_definition": "(literary) person representing the deceased (during burial ceremonies)"
+        "cedict_definition": "(literary) person representing the deceased (during burial ceremonies)",
+        "de": "corpse",
+        "pt": "corpse",
+        "ru": "corpse",
+        "ru_rom": "corpse"
       },
       "category": "general",
       "sources": [
@@ -1035,7 +1212,11 @@
         "en": "sprout",
         "es": "sprout",
         "zh_pinyin": "che4",
-        "cedict_definition": "plants sprouting"
+        "cedict_definition": "plants sprouting",
+        "de": "sprout",
+        "pt": "sprout",
+        "ru": "sprout",
+        "ru_rom": "sprout"
       },
       "category": "general",
       "sources": [
@@ -1058,7 +1239,11 @@
         "en": "mountain",
         "es": "montaña",
         "zh_pinyin": "shan1",
-        "cedict_definition": "surname Shan"
+        "cedict_definition": "surname Shan",
+        "de": "Berg",
+        "pt": "montanha",
+        "ru": "гора",
+        "ru_rom": "gora"
       },
       "category": "naturaleza",
       "sources": [
@@ -1081,7 +1266,11 @@
         "en": "river",
         "es": "río",
         "zh_pinyin": "chuan1",
-        "cedict_definition": "old variant of 川[chuan1]"
+        "cedict_definition": "old variant of 川[chuan1]",
+        "de": "río",
+        "pt": "río",
+        "ru": "río",
+        "ru_rom": "río"
       },
       "category": "naturaleza",
       "sources": [
@@ -1104,7 +1293,11 @@
         "en": "work",
         "es": "trabajo",
         "zh_pinyin": "gong1",
-        "cedict_definition": "work"
+        "cedict_definition": "work",
+        "de": "trabajo",
+        "pt": "trabajo",
+        "ru": "trabajo",
+        "ru_rom": "trabajo"
       },
       "category": "actividad",
       "sources": [
@@ -1127,7 +1320,11 @@
         "en": "oneself",
         "es": "oneself",
         "zh_pinyin": "ji3",
-        "cedict_definition": "self"
+        "cedict_definition": "self",
+        "de": "oneself",
+        "pt": "oneself",
+        "ru": "oneself",
+        "ru_rom": "oneself"
       },
       "category": "número",
       "sources": [
@@ -1150,7 +1347,11 @@
         "en": "turban",
         "es": "turban",
         "zh_pinyin": "jin1",
-        "cedict_definition": "towel"
+        "cedict_definition": "towel",
+        "de": "turban",
+        "pt": "turban",
+        "ru": "turban",
+        "ru_rom": "turban"
       },
       "category": "general",
       "sources": [
@@ -1173,7 +1374,11 @@
         "en": "dry",
         "es": "dry",
         "zh_pinyin": "gan1",
-        "cedict_definition": "surname Gan"
+        "cedict_definition": "surname Gan",
+        "de": "dry",
+        "pt": "dry",
+        "ru": "dry",
+        "ru_rom": "dry"
       },
       "category": "general",
       "sources": [
@@ -1196,7 +1401,11 @@
         "en": "short thread",
         "es": "short thread",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "short thread",
+        "pt": "short thread",
+        "ru": "short thread",
+        "ru_rom": "short thread"
       },
       "category": "general",
       "sources": [
@@ -1218,7 +1427,11 @@
         "en": "dotted cliff",
         "es": "dotted cliff",
         "zh_pinyin": "yan3",
-        "cedict_definition": "\"house on a cliff\" radical in Chinese characters (Kangxi radical 53), occurring in 店, 序, 底 etc"
+        "cedict_definition": "\"house on a cliff\" radical in Chinese characters (Kangxi radical 53), occurring in 店, 序, 底 etc",
+        "de": "dotted cliff",
+        "pt": "dotted cliff",
+        "ru": "dotted cliff",
+        "ru_rom": "dotted cliff"
       },
       "category": "forma",
       "sources": [
@@ -1241,7 +1454,11 @@
         "en": "long stride",
         "es": "long stride",
         "zh_pinyin": "yin3",
-        "cedict_definition": "\"long stride\" radical in Chinese characters (Kangxi radical 54), occurring in 建, 延, 廷 etc"
+        "cedict_definition": "\"long stride\" radical in Chinese characters (Kangxi radical 54), occurring in 建, 延, 廷 etc",
+        "de": "long stride",
+        "pt": "long stride",
+        "ru": "long stride",
+        "ru_rom": "long stride"
       },
       "category": "general",
       "sources": [
@@ -1264,7 +1481,11 @@
         "en": "arch",
         "es": "arch",
         "zh_pinyin": "gong3",
-        "cedict_definition": "hands joined"
+        "cedict_definition": "hands joined",
+        "de": "arch",
+        "pt": "arch",
+        "ru": "arch",
+        "ru_rom": "arch"
       },
       "category": "general",
       "sources": [
@@ -1287,7 +1508,11 @@
         "en": "shoot",
         "es": "disparar",
         "zh_pinyin": "yi4",
-        "cedict_definition": "to shoot"
+        "cedict_definition": "to shoot",
+        "de": "disparar",
+        "pt": "disparar",
+        "ru": "disparar",
+        "ru_rom": "disparar"
       },
       "category": "general",
       "sources": [
@@ -1310,7 +1535,11 @@
         "en": "bow",
         "es": "arco",
         "zh_pinyin": "gong1",
-        "cedict_definition": "surname Gong"
+        "cedict_definition": "surname Gong",
+        "de": "Bogen",
+        "pt": "arco",
+        "ru": "лук",
+        "ru_rom": "luk"
       },
       "category": "herramienta",
       "sources": [
@@ -1333,7 +1562,11 @@
         "en": "snout",
         "es": "snout",
         "zh_pinyin": "ji4",
-        "cedict_definition": "pig snout (Kangxi radical 58)"
+        "cedict_definition": "pig snout (Kangxi radical 58)",
+        "de": "snout",
+        "pt": "snout",
+        "ru": "snout",
+        "ru_rom": "snout"
       },
       "category": "general",
       "sources": [
@@ -1356,7 +1589,11 @@
         "en": "bristle",
         "es": "bristle",
         "zh_pinyin": "shan1",
-        "cedict_definition": "\"bristle\" radical in Chinese characters (Kangxi radical 59)"
+        "cedict_definition": "\"bristle\" radical in Chinese characters (Kangxi radical 59)",
+        "de": "bristle",
+        "pt": "bristle",
+        "ru": "bristle",
+        "ru_rom": "bristle"
       },
       "category": "general",
       "sources": [
@@ -1379,7 +1616,11 @@
         "en": "step",
         "es": "step",
         "zh_pinyin": "chi4",
-        "cedict_definition": "step with the left foot (Kangxi radical 60)"
+        "cedict_definition": "step with the left foot (Kangxi radical 60)",
+        "de": "step",
+        "pt": "step",
+        "ru": "step",
+        "ru_rom": "step"
       },
       "category": "general",
       "sources": [
@@ -1402,7 +1643,11 @@
         "en": "heart",
         "es": "corazón",
         "zh_pinyin": "xin1",
-        "cedict_definition": "heart"
+        "cedict_definition": "heart",
+        "de": "Herz",
+        "pt": "coração",
+        "ru": "сердце",
+        "ru_rom": "serdtse"
       },
       "category": "cuerpo",
       "sources": [
@@ -1425,7 +1670,11 @@
         "en": "halberd",
         "es": "lanza",
         "zh_pinyin": "ge1",
-        "cedict_definition": "surname Ge"
+        "cedict_definition": "surname Ge",
+        "de": "lanza",
+        "pt": "lanza",
+        "ru": "lanza",
+        "ru_rom": "lanza"
       },
       "category": "herramienta",
       "sources": [
@@ -1448,7 +1697,11 @@
         "en": "door",
         "es": "puerta",
         "zh_pinyin": "hu4",
-        "cedict_definition": "a household"
+        "cedict_definition": "a household",
+        "de": "Tür",
+        "pt": "porta",
+        "ru": "дверь",
+        "ru_rom": "dver"
       },
       "category": "general",
       "sources": [
@@ -1471,7 +1724,11 @@
         "en": "hand",
         "es": "mano",
         "zh_pinyin": "shou3",
-        "cedict_definition": "hand"
+        "cedict_definition": "hand",
+        "de": "Hand",
+        "pt": "mão",
+        "ru": "рука",
+        "ru_rom": "ruka"
       },
       "category": "cuerpo",
       "sources": [
@@ -1494,7 +1751,11 @@
         "en": "branch",
         "es": "branch",
         "zh_pinyin": "zhi1",
-        "cedict_definition": "surname Zhi"
+        "cedict_definition": "surname Zhi",
+        "de": "branch",
+        "pt": "branch",
+        "ru": "branch",
+        "ru_rom": "branch"
       },
       "category": "general",
       "sources": [
@@ -1517,7 +1778,11 @@
         "en": "rap",
         "es": "rap",
         "zh_pinyin": "pu1",
-        "cedict_definition": "to tap"
+        "cedict_definition": "to tap",
+        "de": "rap",
+        "pt": "rap",
+        "ru": "rap",
+        "ru_rom": "rap"
       },
       "category": "general",
       "sources": [
@@ -1540,7 +1805,11 @@
         "en": "script",
         "es": "script",
         "zh_pinyin": "wen2",
-        "cedict_definition": "surname Wen"
+        "cedict_definition": "surname Wen",
+        "de": "script",
+        "pt": "script",
+        "ru": "script",
+        "ru_rom": "script"
       },
       "category": "general",
       "sources": [
@@ -1563,7 +1832,11 @@
         "en": "dipper",
         "es": "dipper",
         "zh_pinyin": "dou3",
-        "cedict_definition": "abbr. for the Big Dipper constellation 北斗星[Bei3 dou3 xing1]"
+        "cedict_definition": "abbr. for the Big Dipper constellation 北斗星[Bei3 dou3 xing1]",
+        "de": "dipper",
+        "pt": "dipper",
+        "ru": "dipper",
+        "ru_rom": "dipper"
       },
       "category": "herramienta",
       "sources": [
@@ -1586,7 +1859,11 @@
         "en": "axe",
         "es": "hacha",
         "zh_pinyin": "jin1",
-        "cedict_definition": "catty"
+        "cedict_definition": "catty",
+        "de": "hacha",
+        "pt": "hacha",
+        "ru": "hacha",
+        "ru_rom": "hacha"
       },
       "category": "herramienta",
       "sources": [
@@ -1609,7 +1886,11 @@
         "en": "square",
         "es": "square",
         "zh_pinyin": "fang1",
-        "cedict_definition": "surname Fang"
+        "cedict_definition": "surname Fang",
+        "de": "square",
+        "pt": "square",
+        "ru": "square",
+        "ru_rom": "square"
       },
       "category": "general",
       "sources": [
@@ -1632,7 +1913,11 @@
         "en": "not",
         "es": "no",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "no",
+        "pt": "no",
+        "ru": "no",
+        "ru_rom": "no"
       },
       "category": "abstracto",
       "sources": [
@@ -1654,7 +1939,11 @@
         "en": "sun",
         "es": "sol",
         "zh_pinyin": "ri4",
-        "cedict_definition": "abbr. for 日本[Ri4 ben3], Japan"
+        "cedict_definition": "abbr. for 日本[Ri4 ben3], Japan",
+        "de": "Sonne",
+        "pt": "sol",
+        "ru": "солнце",
+        "ru_rom": "solntse"
       },
       "category": "naturaleza",
       "sources": [
@@ -1677,7 +1966,11 @@
         "en": "say",
         "es": "say",
         "zh_pinyin": "yue1",
-        "cedict_definition": "to speak"
+        "cedict_definition": "to speak",
+        "de": "say",
+        "pt": "say",
+        "ru": "say",
+        "ru_rom": "say"
       },
       "category": "general",
       "sources": [
@@ -1700,7 +1993,11 @@
         "en": "moon",
         "es": "luna",
         "zh_pinyin": "yue4",
-        "cedict_definition": "moon"
+        "cedict_definition": "moon",
+        "de": "Mond",
+        "pt": "lua",
+        "ru": "луна",
+        "ru_rom": "luna"
       },
       "category": "naturaleza",
       "sources": [
@@ -1723,7 +2020,11 @@
         "en": "tree",
         "es": "madera",
         "zh_pinyin": "mu4",
-        "cedict_definition": "surname Mu"
+        "cedict_definition": "surname Mu",
+        "de": "Baum",
+        "pt": "árvore",
+        "ru": "дерево",
+        "ru_rom": "derevo"
       },
       "category": "naturaleza",
       "sources": [
@@ -1746,7 +2047,11 @@
         "en": "lack",
         "es": "lack",
         "zh_pinyin": "qian4",
-        "cedict_definition": "to owe"
+        "cedict_definition": "to owe",
+        "de": "lack",
+        "pt": "lack",
+        "ru": "lack",
+        "ru_rom": "lack"
       },
       "category": "general",
       "sources": [
@@ -1769,7 +2074,11 @@
         "en": "stop",
         "es": "parar",
         "zh_pinyin": "zhi3",
-        "cedict_definition": "to stop"
+        "cedict_definition": "to stop",
+        "de": "parar",
+        "pt": "parar",
+        "ru": "parar",
+        "ru_rom": "parar"
       },
       "category": "actividad",
       "sources": [
@@ -1792,7 +2101,11 @@
         "en": "death",
         "es": "death",
         "zh_pinyin": "dai3",
-        "cedict_definition": "bad"
+        "cedict_definition": "bad",
+        "de": "death",
+        "pt": "death",
+        "ru": "death",
+        "ru_rom": "death"
       },
       "category": "general",
       "sources": [
@@ -1815,7 +2128,11 @@
         "en": "weapon",
         "es": "arma",
         "zh_pinyin": "shu1",
-        "cedict_definition": "surname Shu"
+        "cedict_definition": "surname Shu",
+        "de": "arma",
+        "pt": "arma",
+        "ru": "arma",
+        "ru_rom": "arma"
       },
       "category": "herramienta",
       "sources": [
@@ -1838,7 +2155,11 @@
         "en": "do not",
         "es": "do not",
         "zh_pinyin": "wu2",
-        "cedict_definition": "surname Wu"
+        "cedict_definition": "surname Wu",
+        "de": "do not",
+        "pt": "do not",
+        "ru": "do not",
+        "ru_rom": "do not"
       },
       "category": "abstracto",
       "sources": [
@@ -1861,7 +2182,11 @@
         "en": "compare",
         "es": "comparar",
         "zh_pinyin": "bi3",
-        "cedict_definition": "Belgium"
+        "cedict_definition": "Belgium",
+        "de": "comparar",
+        "pt": "comparar",
+        "ru": "comparar",
+        "ru_rom": "comparar"
       },
       "category": "abstracto",
       "sources": [
@@ -1884,7 +2209,11 @@
         "en": "fur",
         "es": "fur",
         "zh_pinyin": "mao2",
-        "cedict_definition": "surname Mao"
+        "cedict_definition": "surname Mao",
+        "de": "fur",
+        "pt": "fur",
+        "ru": "fur",
+        "ru_rom": "fur"
       },
       "category": "general",
       "sources": [
@@ -1907,7 +2236,11 @@
         "en": "clan",
         "es": "clan",
         "zh_pinyin": "shi4",
-        "cedict_definition": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")"
+        "cedict_definition": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")",
+        "de": "clan",
+        "pt": "clan",
+        "ru": "clan",
+        "ru_rom": "clan"
       },
       "category": "general",
       "sources": [
@@ -1930,7 +2263,11 @@
         "en": "steam",
         "es": "steam",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "steam",
+        "pt": "steam",
+        "ru": "steam",
+        "ru_rom": "steam"
       },
       "category": "general",
       "sources": [
@@ -1952,7 +2289,11 @@
         "en": "water",
         "es": "agua",
         "zh_pinyin": "shui3",
-        "cedict_definition": "surname Shui"
+        "cedict_definition": "surname Shui",
+        "de": "Wasser",
+        "pt": "água",
+        "ru": "вода",
+        "ru_rom": "voda"
       },
       "category": "naturaleza",
       "sources": [
@@ -1975,7 +2316,11 @@
         "en": "fire",
         "es": "fuego",
         "zh_pinyin": "huo3",
-        "cedict_definition": "surname Huo"
+        "cedict_definition": "surname Huo",
+        "de": "Feuer",
+        "pt": "fogo",
+        "ru": "огонь",
+        "ru_rom": "ogon"
       },
       "category": "naturaleza",
       "sources": [
@@ -1998,7 +2343,11 @@
         "en": "claw",
         "es": "claw",
         "zh_pinyin": "zhao3",
-        "cedict_definition": "foot of a bird or animal"
+        "cedict_definition": "foot of a bird or animal",
+        "de": "claw",
+        "pt": "claw",
+        "ru": "claw",
+        "ru_rom": "claw"
       },
       "category": "general",
       "sources": [
@@ -2021,7 +2370,11 @@
         "en": "father",
         "es": "padre",
         "zh_pinyin": "fu4",
-        "cedict_definition": "father"
+        "cedict_definition": "father",
+        "de": "Vater",
+        "pt": "pai",
+        "ru": "отец",
+        "ru_rom": "otets"
       },
       "category": "humano",
       "sources": [
@@ -2044,7 +2397,11 @@
         "en": "double x",
         "es": "double x",
         "zh_pinyin": "yao2",
-        "cedict_definition": "the solid and broken lines of the eight trigrams 八卦[ba1 gua4], e.g. ☶"
+        "cedict_definition": "the solid and broken lines of the eight trigrams 八卦[ba1 gua4], e.g. ☶",
+        "de": "double x",
+        "pt": "double x",
+        "ru": "double x",
+        "ru_rom": "double x"
       },
       "category": "general",
       "sources": [
@@ -2067,7 +2424,11 @@
         "en": "split wood",
         "es": "split wood",
         "zh_pinyin": "qiang2",
-        "cedict_definition": "\"piece of wood\" radical in Chinese characters (Kangxi radical 90), mirror image of 片[pian4]"
+        "cedict_definition": "\"piece of wood\" radical in Chinese characters (Kangxi radical 90), mirror image of 片[pian4]",
+        "de": "split wood",
+        "pt": "split wood",
+        "ru": "split wood",
+        "ru_rom": "split wood"
       },
       "category": "general",
       "sources": [
@@ -2090,7 +2451,11 @@
         "en": "slice",
         "es": "slice",
         "zh_pinyin": "pian1",
-        "cedict_definition": "disk"
+        "cedict_definition": "disk",
+        "de": "slice",
+        "pt": "slice",
+        "ru": "slice",
+        "ru_rom": "slice"
       },
       "category": "general",
       "sources": [
@@ -2113,7 +2478,11 @@
         "en": "fang",
         "es": "fang",
         "zh_pinyin": "ya2",
-        "cedict_definition": "tooth"
+        "cedict_definition": "tooth",
+        "de": "fang",
+        "pt": "fang",
+        "ru": "fang",
+        "ru_rom": "fang"
       },
       "category": "general",
       "sources": [
@@ -2136,7 +2505,11 @@
         "en": "cow",
         "es": "vaca",
         "zh_pinyin": "niu2",
-        "cedict_definition": "surname Niu"
+        "cedict_definition": "surname Niu",
+        "de": "vaca",
+        "pt": "vaca",
+        "ru": "vaca",
+        "ru_rom": "vaca"
       },
       "category": "animal",
       "sources": [
@@ -2159,7 +2532,11 @@
         "en": "dog",
         "es": "perro",
         "zh_pinyin": "quan3",
-        "cedict_definition": "dog"
+        "cedict_definition": "dog",
+        "de": "Hund",
+        "pt": "cão",
+        "ru": "собака",
+        "ru_rom": "sobaka"
       },
       "category": "animal",
       "sources": [
@@ -2182,7 +2559,11 @@
         "en": "profound",
         "es": "profound",
         "zh_pinyin": "xuan2",
-        "cedict_definition": "black"
+        "cedict_definition": "black",
+        "de": "profound",
+        "pt": "profound",
+        "ru": "profound",
+        "ru_rom": "profound"
       },
       "category": "general",
       "sources": [
@@ -2205,7 +2586,11 @@
         "en": "jade",
         "es": "jade",
         "zh_pinyin": "yu4",
-        "cedict_definition": "jade"
+        "cedict_definition": "jade",
+        "de": "jade",
+        "pt": "jade",
+        "ru": "jade",
+        "ru_rom": "jade"
       },
       "category": "general",
       "sources": [
@@ -2228,7 +2613,11 @@
         "en": "melon",
         "es": "melon",
         "zh_pinyin": "gua1",
-        "cedict_definition": "melon; gourd; squash"
+        "cedict_definition": "melon; gourd; squash",
+        "de": "melon",
+        "pt": "melon",
+        "ru": "melon",
+        "ru_rom": "melon"
       },
       "category": "general",
       "sources": [
@@ -2251,7 +2640,11 @@
         "en": "tile",
         "es": "tile",
         "zh_pinyin": "wa3",
-        "cedict_definition": "roof tile"
+        "cedict_definition": "roof tile",
+        "de": "tile",
+        "pt": "tile",
+        "ru": "tile",
+        "ru_rom": "tile"
       },
       "category": "general",
       "sources": [
@@ -2274,7 +2667,11 @@
         "en": "sweet",
         "es": "dulce",
         "zh_pinyin": "gan1",
-        "cedict_definition": "surname Gan"
+        "cedict_definition": "surname Gan",
+        "de": "dulce",
+        "pt": "dulce",
+        "ru": "dulce",
+        "ru_rom": "dulce"
       },
       "category": "general",
       "sources": [
@@ -2297,7 +2694,11 @@
         "en": "life",
         "es": "vida",
         "zh_pinyin": "sheng1",
-        "cedict_definition": "to be born"
+        "cedict_definition": "to be born",
+        "de": "vida",
+        "pt": "vida",
+        "ru": "vida",
+        "ru_rom": "vida"
       },
       "category": "general",
       "sources": [
@@ -2320,7 +2721,11 @@
         "en": "use",
         "es": "usar",
         "zh_pinyin": "yong4",
-        "cedict_definition": "to use; to make use of; to employ"
+        "cedict_definition": "to use; to make use of; to employ",
+        "de": "usar",
+        "pt": "usar",
+        "ru": "usar",
+        "ru_rom": "usar"
       },
       "category": "general",
       "sources": [
@@ -2343,7 +2748,11 @@
         "en": "field",
         "es": "campo",
         "zh_pinyin": "tian2",
-        "cedict_definition": "surname Tian"
+        "cedict_definition": "surname Tian",
+        "de": "campo",
+        "pt": "campo",
+        "ru": "campo",
+        "ru_rom": "campo"
       },
       "category": "general",
       "sources": [
@@ -2366,7 +2775,11 @@
         "en": "bolt of cloth",
         "es": "bolt of cloth",
         "zh_pinyin": "pi3",
-        "cedict_definition": "variant of 匹[pi3]"
+        "cedict_definition": "variant of 匹[pi3]",
+        "de": "bolt of cloth",
+        "pt": "bolt of cloth",
+        "ru": "bolt of cloth",
+        "ru_rom": "bolt of cloth"
       },
       "category": "general",
       "sources": [
@@ -2389,7 +2802,11 @@
         "en": "sickness",
         "es": "sickness",
         "zh_pinyin": "ne4",
-        "cedict_definition": "sick"
+        "cedict_definition": "sick",
+        "de": "sickness",
+        "pt": "sickness",
+        "ru": "sickness",
+        "ru_rom": "sickness"
       },
       "category": "general",
       "sources": [
@@ -2412,7 +2829,11 @@
         "en": "dotted tent",
         "es": "dotted tent",
         "zh_pinyin": "bo1",
-        "cedict_definition": "Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]"
+        "cedict_definition": "Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]",
+        "de": "dotted tent",
+        "pt": "dotted tent",
+        "ru": "dotted tent",
+        "ru_rom": "dotted tent"
       },
       "category": "número",
       "sources": [
@@ -2435,7 +2856,11 @@
         "en": "white",
         "es": "blanco",
         "zh_pinyin": "bai2",
-        "cedict_definition": "surname Bai"
+        "cedict_definition": "surname Bai",
+        "de": "weiß",
+        "pt": "branco",
+        "ru": "белый",
+        "ru_rom": "belyy"
       },
       "category": "general",
       "sources": [
@@ -2458,7 +2883,11 @@
         "en": "skin",
         "es": "skin",
         "zh_pinyin": "pi2",
-        "cedict_definition": "surname Pi"
+        "cedict_definition": "surname Pi",
+        "de": "skin",
+        "pt": "skin",
+        "ru": "skin",
+        "ru_rom": "skin"
       },
       "category": "general",
       "sources": [
@@ -2481,7 +2910,11 @@
         "en": "dish",
         "es": "plato",
         "zh_pinyin": "min3",
-        "cedict_definition": "(bound form) dish; vessel; shallow container"
+        "cedict_definition": "(bound form) dish; vessel; shallow container",
+        "de": "plato",
+        "pt": "plato",
+        "ru": "plato",
+        "ru_rom": "plato"
       },
       "category": "general",
       "sources": [
@@ -2504,7 +2937,11 @@
         "en": "eye",
         "es": "ojo",
         "zh_pinyin": "mu4",
-        "cedict_definition": "eye"
+        "cedict_definition": "eye",
+        "de": "Auge",
+        "pt": "olho",
+        "ru": "глаз",
+        "ru_rom": "glaz"
       },
       "category": "cuerpo",
       "sources": [
@@ -2527,7 +2964,11 @@
         "en": "spear",
         "es": "lanza",
         "zh_pinyin": "mao2",
-        "cedict_definition": "spear"
+        "cedict_definition": "spear",
+        "de": "Speer",
+        "pt": "lança",
+        "ru": "копьё",
+        "ru_rom": "kopyo"
       },
       "category": "cuerpo",
       "sources": [
@@ -2550,7 +2991,11 @@
         "en": "arrow",
         "es": "flecha",
         "zh_pinyin": "shi3",
-        "cedict_definition": "arrow"
+        "cedict_definition": "arrow",
+        "de": "flecha",
+        "pt": "flecha",
+        "ru": "flecha",
+        "ru_rom": "flecha"
       },
       "category": "general",
       "sources": [
@@ -2573,7 +3018,11 @@
         "en": "stone",
         "es": "piedra",
         "zh_pinyin": "shi2",
-        "cedict_definition": "surname Shi"
+        "cedict_definition": "surname Shi",
+        "de": "Stein",
+        "pt": "pedra",
+        "ru": "камень",
+        "ru_rom": "kamen"
       },
       "category": "número",
       "sources": [
@@ -2596,7 +3045,11 @@
         "en": "spirit",
         "es": "espíritu",
         "zh_pinyin": "shi4",
-        "cedict_definition": "to show"
+        "cedict_definition": "to show",
+        "de": "espíritu",
+        "pt": "espíritu",
+        "ru": "espíritu",
+        "ru_rom": "espíritu"
       },
       "category": "general",
       "sources": [
@@ -2619,7 +3072,11 @@
         "en": "track",
         "es": "track",
         "zh_pinyin": "rou2",
-        "cedict_definition": "trample"
+        "cedict_definition": "trample",
+        "de": "track",
+        "pt": "track",
+        "ru": "track",
+        "ru_rom": "track"
       },
       "category": "general",
       "sources": [
@@ -2642,7 +3099,11 @@
         "en": "grain",
         "es": "grano",
         "zh_pinyin": "he2",
-        "cedict_definition": "cereal"
+        "cedict_definition": "cereal",
+        "de": "grano",
+        "pt": "grano",
+        "ru": "grano",
+        "ru_rom": "grano"
       },
       "category": "general",
       "sources": [
@@ -2665,7 +3126,11 @@
         "en": "cave",
         "es": "cueva",
         "zh_pinyin": "xue2",
-        "cedict_definition": "cave"
+        "cedict_definition": "cave",
+        "de": "cueva",
+        "pt": "cueva",
+        "ru": "cueva",
+        "ru_rom": "cueva"
       },
       "category": "general",
       "sources": [
@@ -2688,7 +3153,11 @@
         "en": "stand",
         "es": "stand",
         "zh_pinyin": "li4",
-        "cedict_definition": "surname Li"
+        "cedict_definition": "surname Li",
+        "de": "stand",
+        "pt": "stand",
+        "ru": "stand",
+        "ru_rom": "stand"
       },
       "category": "general",
       "sources": [
@@ -2711,7 +3180,11 @@
         "en": "bamboo",
         "es": "bambú",
         "zh_pinyin": "zhu2",
-        "cedict_definition": "bamboo"
+        "cedict_definition": "bamboo",
+        "de": "bambú",
+        "pt": "bambú",
+        "ru": "bambú",
+        "ru_rom": "bambú"
       },
       "category": "general",
       "sources": [
@@ -2734,7 +3207,11 @@
         "en": "rice",
         "es": "arroz",
         "zh_pinyin": "mi3",
-        "cedict_definition": "surname Mi"
+        "cedict_definition": "surname Mi",
+        "de": "arroz",
+        "pt": "arroz",
+        "ru": "arroz",
+        "ru_rom": "arroz"
       },
       "category": "general",
       "sources": [
@@ -2757,7 +3234,11 @@
         "en": "silk",
         "es": "seda",
         "zh_pinyin": "mi4",
-        "cedict_definition": "fine silk"
+        "cedict_definition": "fine silk",
+        "de": "seda",
+        "pt": "seda",
+        "ru": "seda",
+        "ru_rom": "seda"
       },
       "category": "general",
       "sources": [
@@ -2780,7 +3261,11 @@
         "en": "jar",
         "es": "jarra",
         "zh_pinyin": "fou3",
-        "cedict_definition": "pottery"
+        "cedict_definition": "pottery",
+        "de": "jarra",
+        "pt": "jarra",
+        "ru": "jarra",
+        "ru_rom": "jarra"
       },
       "category": "general",
       "sources": [
@@ -2803,7 +3288,11 @@
         "en": "net",
         "es": "red",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "red",
+        "pt": "red",
+        "ru": "red",
+        "ru_rom": "red"
       },
       "category": "general",
       "sources": [
@@ -2825,7 +3314,11 @@
         "en": "sheep",
         "es": "oveja",
         "zh_pinyin": "yang2",
-        "cedict_definition": "surname Yang"
+        "cedict_definition": "surname Yang",
+        "de": "Schaf",
+        "pt": "ovelha",
+        "ru": "овца",
+        "ru_rom": "ovtsa"
       },
       "category": "general",
       "sources": [
@@ -2848,7 +3341,11 @@
         "en": "feather",
         "es": "feather",
         "zh_pinyin": "yu3",
-        "cedict_definition": "feather"
+        "cedict_definition": "feather",
+        "de": "feather",
+        "pt": "feather",
+        "ru": "feather",
+        "ru_rom": "feather"
       },
       "category": "general",
       "sources": [
@@ -2871,7 +3368,11 @@
         "en": "old",
         "es": "viejo",
         "zh_pinyin": "lao3",
-        "cedict_definition": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity"
+        "cedict_definition": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+        "de": "viejo",
+        "pt": "viejo",
+        "ru": "viejo",
+        "ru_rom": "viejo"
       },
       "category": "general",
       "sources": [
@@ -2894,7 +3395,11 @@
         "en": "and",
         "es": "y",
         "zh_pinyin": "er2",
-        "cedict_definition": "and"
+        "cedict_definition": "and",
+        "de": "y",
+        "pt": "y",
+        "ru": "y",
+        "ru_rom": "y"
       },
       "category": "general",
       "sources": [
@@ -2917,7 +3422,11 @@
         "en": "plow",
         "es": "arado",
         "zh_pinyin": "lei3",
-        "cedict_definition": "plow"
+        "cedict_definition": "plow",
+        "de": "arado",
+        "pt": "arado",
+        "ru": "arado",
+        "ru_rom": "arado"
       },
       "category": "general",
       "sources": [
@@ -2940,7 +3449,11 @@
         "en": "ear",
         "es": "oído",
         "zh_pinyin": "er3",
-        "cedict_definition": "ear"
+        "cedict_definition": "ear",
+        "de": "Ohr",
+        "pt": "orelha",
+        "ru": "ухо",
+        "ru_rom": "ukho"
       },
       "category": "cuerpo",
       "sources": [
@@ -2963,7 +3476,11 @@
         "en": "brush",
         "es": "brush",
         "zh_pinyin": "yu4",
-        "cedict_definition": "(arch. introductory particle)"
+        "cedict_definition": "(arch. introductory particle)",
+        "de": "brush",
+        "pt": "brush",
+        "ru": "brush",
+        "ru_rom": "brush"
       },
       "category": "general",
       "sources": [
@@ -2986,7 +3503,11 @@
         "en": "meat",
         "es": "meat",
         "zh_pinyin": "rou4",
-        "cedict_definition": "meat"
+        "cedict_definition": "meat",
+        "de": "meat",
+        "pt": "meat",
+        "ru": "meat",
+        "ru_rom": "meat"
       },
       "category": "general",
       "sources": [
@@ -3009,7 +3530,11 @@
         "en": "minister",
         "es": "ministro",
         "zh_pinyin": "chen2",
-        "cedict_definition": "surname Chen"
+        "cedict_definition": "surname Chen",
+        "de": "ministro",
+        "pt": "ministro",
+        "ru": "ministro",
+        "ru_rom": "ministro"
       },
       "category": "general",
       "sources": [
@@ -3032,7 +3557,11 @@
         "en": "self",
         "es": "uno mismo",
         "zh_pinyin": "zi4",
-        "cedict_definition": "(bound form) self; oneself"
+        "cedict_definition": "(bound form) self; oneself",
+        "de": "uno mismo",
+        "pt": "uno mismo",
+        "ru": "uno mismo",
+        "ru_rom": "uno mismo"
       },
       "category": "general",
       "sources": [
@@ -3055,7 +3584,11 @@
         "en": "arrive",
         "es": "llegar",
         "zh_pinyin": "zhi4",
-        "cedict_definition": "to arrive"
+        "cedict_definition": "to arrive",
+        "de": "llegar",
+        "pt": "llegar",
+        "ru": "llegar",
+        "ru_rom": "llegar"
       },
       "category": "general",
       "sources": [
@@ -3078,7 +3611,11 @@
         "en": "mortar",
         "es": "mortar",
         "zh_pinyin": "jiu4",
-        "cedict_definition": "mortar"
+        "cedict_definition": "mortar",
+        "de": "mortar",
+        "pt": "mortar",
+        "ru": "mortar",
+        "ru_rom": "mortar"
       },
       "category": "general",
       "sources": [
@@ -3101,7 +3638,11 @@
         "en": "tongue",
         "es": "lengua",
         "zh_pinyin": "ji1",
-        "cedict_definition": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\""
+        "cedict_definition": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\"",
+        "de": "lengua",
+        "pt": "lengua",
+        "ru": "lengua",
+        "ru_rom": "lengua"
       },
       "category": "general",
       "sources": [
@@ -3124,7 +3665,11 @@
         "en": "oppose",
         "es": "oppose",
         "zh_pinyin": "chuan3",
-        "cedict_definition": "mistaken"
+        "cedict_definition": "mistaken",
+        "de": "oppose",
+        "pt": "oppose",
+        "ru": "oppose",
+        "ru_rom": "oppose"
       },
       "category": "general",
       "sources": [
@@ -3147,7 +3692,11 @@
         "en": "boat",
         "es": "barco",
         "zh_pinyin": "zhou1",
-        "cedict_definition": "boat"
+        "cedict_definition": "boat",
+        "de": "barco",
+        "pt": "barco",
+        "ru": "barco",
+        "ru_rom": "barco"
       },
       "category": "general",
       "sources": [
@@ -3170,7 +3719,11 @@
         "en": "stopping",
         "es": "stopping",
         "zh_pinyin": "gen3",
-        "cedict_definition": "blunt"
+        "cedict_definition": "blunt",
+        "de": "stopping",
+        "pt": "stopping",
+        "ru": "stopping",
+        "ru_rom": "stopping"
       },
       "category": "actividad",
       "sources": [
@@ -3193,7 +3746,11 @@
         "en": "color",
         "es": "color",
         "zh_pinyin": "se4",
-        "cedict_definition": "color"
+        "cedict_definition": "color",
+        "de": "color",
+        "pt": "color",
+        "ru": "color",
+        "ru_rom": "color"
       },
       "category": "general",
       "sources": [
@@ -3216,7 +3773,11 @@
         "en": "grass",
         "es": "grass",
         "zh_pinyin": "cao3",
-        "cedict_definition": "variant of 草[cao3]"
+        "cedict_definition": "variant of 草[cao3]",
+        "de": "grass",
+        "pt": "grass",
+        "ru": "grass",
+        "ru_rom": "grass"
       },
       "category": "general",
       "sources": [
@@ -3239,7 +3800,11 @@
         "en": "tiger",
         "es": "tigre",
         "zh_pinyin": "hu1",
-        "cedict_definition": "stripes of a tiger"
+        "cedict_definition": "stripes of a tiger",
+        "de": "tigre",
+        "pt": "tigre",
+        "ru": "tigre",
+        "ru_rom": "tigre"
       },
       "category": "general",
       "sources": [
@@ -3262,7 +3827,11 @@
         "en": "insect",
         "es": "insecto",
         "zh_pinyin": "chong2",
-        "cedict_definition": "variant of 蟲|虫[chong2]"
+        "cedict_definition": "variant of 蟲|虫[chong2]",
+        "de": "Insekt",
+        "pt": "inseto",
+        "ru": "насекомое",
+        "ru_rom": "nasekomoe"
       },
       "category": "general",
       "sources": [
@@ -3285,7 +3854,11 @@
         "en": "blood",
         "es": "blood",
         "zh_pinyin": "xie3",
-        "cedict_definition": "see 血[xue4]"
+        "cedict_definition": "see 血[xue4]",
+        "de": "blood",
+        "pt": "blood",
+        "ru": "blood",
+        "ru_rom": "blood"
       },
       "category": "general",
       "sources": [
@@ -3308,7 +3881,11 @@
         "en": "walk",
         "es": "caminar",
         "zh_pinyin": "hang2",
-        "cedict_definition": "(bound form) row; line"
+        "cedict_definition": "(bound form) row; line",
+        "de": "gehen",
+        "pt": "andar",
+        "ru": "идти",
+        "ru_rom": "idti"
       },
       "category": "general",
       "sources": [
@@ -3331,7 +3908,11 @@
         "en": "clothes",
         "es": "ropa",
         "zh_pinyin": "yi1",
-        "cedict_definition": "clothes"
+        "cedict_definition": "clothes",
+        "de": "Kleidung",
+        "pt": "roupa",
+        "ru": "одежда",
+        "ru_rom": "odezhda"
       },
       "category": "general",
       "sources": [
@@ -3354,7 +3935,11 @@
         "en": "cover",
         "es": "cubierta",
         "zh_pinyin": "ya4",
-        "cedict_definition": "cover"
+        "cedict_definition": "cover",
+        "de": "cubierta",
+        "pt": "cubierta",
+        "ru": "cubierta",
+        "ru_rom": "cubierta"
       },
       "category": "general",
       "sources": [
@@ -3377,7 +3962,11 @@
         "en": "see",
         "es": "ver",
         "zh_pinyin": "jian4",
-        "cedict_definition": "to see"
+        "cedict_definition": "to see",
+        "de": "sehen",
+        "pt": "ver",
+        "ru": "видеть",
+        "ru_rom": "videt"
       },
       "category": "general",
       "sources": [
@@ -3400,7 +3989,11 @@
         "en": "horn",
         "es": "horn",
         "zh_pinyin": "jue2",
-        "cedict_definition": "surname Jue"
+        "cedict_definition": "surname Jue",
+        "de": "horn",
+        "pt": "horn",
+        "ru": "horn",
+        "ru_rom": "horn"
       },
       "category": "general",
       "sources": [
@@ -3423,7 +4016,11 @@
         "en": "speech",
         "es": "speech",
         "zh_pinyin": "yan2",
-        "cedict_definition": "words"
+        "cedict_definition": "words",
+        "de": "Sprache",
+        "pt": "fala",
+        "ru": "речь",
+        "ru_rom": "rech"
       },
       "category": "general",
       "sources": [
@@ -3446,7 +4043,11 @@
         "en": "valley",
         "es": "valley",
         "zh_pinyin": "gu3",
-        "cedict_definition": "surname Gu"
+        "cedict_definition": "surname Gu",
+        "de": "valley",
+        "pt": "valley",
+        "ru": "valley",
+        "ru_rom": "valley"
       },
       "category": "general",
       "sources": [
@@ -3469,7 +4070,11 @@
         "en": "bean",
         "es": "bean",
         "zh_pinyin": "dou4",
-        "cedict_definition": "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4])"
+        "cedict_definition": "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4])",
+        "de": "bean",
+        "pt": "bean",
+        "ru": "bean",
+        "ru_rom": "bean"
       },
       "category": "general",
       "sources": [
@@ -3492,7 +4097,11 @@
         "en": "pig",
         "es": "cerdo",
         "zh_pinyin": "shi3",
-        "cedict_definition": "hog"
+        "cedict_definition": "hog",
+        "de": "Schwein",
+        "pt": "porco",
+        "ru": "свинья",
+        "ru_rom": "svinya"
       },
       "category": "general",
       "sources": [
@@ -3515,7 +4124,11 @@
         "en": "badger",
         "es": "badger",
         "zh_pinyin": "zhi4",
-        "cedict_definition": "worm-like invertebrate"
+        "cedict_definition": "worm-like invertebrate",
+        "de": "badger",
+        "pt": "badger",
+        "ru": "badger",
+        "ru_rom": "badger"
       },
       "category": "general",
       "sources": [
@@ -3538,7 +4151,11 @@
         "en": "shell",
         "es": "shell",
         "zh_pinyin": "bei4",
-        "cedict_definition": "surname Bei"
+        "cedict_definition": "surname Bei",
+        "de": "shell",
+        "pt": "shell",
+        "ru": "shell",
+        "ru_rom": "shell"
       },
       "category": "general",
       "sources": [
@@ -3561,7 +4178,11 @@
         "en": "red",
         "es": "rojo",
         "zh_pinyin": "chi4",
-        "cedict_definition": "red"
+        "cedict_definition": "red",
+        "de": "rot",
+        "pt": "vermelho",
+        "ru": "красный",
+        "ru_rom": "krasnyy"
       },
       "category": "general",
       "sources": [
@@ -3584,7 +4205,11 @@
         "en": "run",
         "es": "correr",
         "zh_pinyin": "zou3",
-        "cedict_definition": "to walk"
+        "cedict_definition": "to walk",
+        "de": "correr",
+        "pt": "correr",
+        "ru": "correr",
+        "ru_rom": "correr"
       },
       "category": "general",
       "sources": [
@@ -3607,7 +4232,11 @@
         "en": "foot",
         "es": "pie",
         "zh_pinyin": "ju4",
-        "cedict_definition": "excessive"
+        "cedict_definition": "excessive",
+        "de": "Fuß",
+        "pt": "pé",
+        "ru": "нога",
+        "ru_rom": "noga"
       },
       "category": "cuerpo",
       "sources": [
@@ -3630,7 +4259,11 @@
         "en": "body",
         "es": "cuerpo",
         "zh_pinyin": "shen1",
-        "cedict_definition": "body"
+        "cedict_definition": "body",
+        "de": "cuerpo",
+        "pt": "cuerpo",
+        "ru": "cuerpo",
+        "ru_rom": "cuerpo"
       },
       "category": "general",
       "sources": [
@@ -3653,7 +4286,11 @@
         "en": "cart",
         "es": "carro",
         "zh_pinyin": "che1",
-        "cedict_definition": "surname Che"
+        "cedict_definition": "surname Che",
+        "de": "carro",
+        "pt": "carro",
+        "ru": "carro",
+        "ru_rom": "carro"
       },
       "category": "general",
       "sources": [
@@ -3676,7 +4313,11 @@
         "en": "bitter",
         "es": "amargo",
         "zh_pinyin": "xin1",
-        "cedict_definition": "surname Xin"
+        "cedict_definition": "surname Xin",
+        "de": "amargo",
+        "pt": "amargo",
+        "ru": "amargo",
+        "ru_rom": "amargo"
       },
       "category": "general",
       "sources": [
@@ -3699,7 +4340,11 @@
         "en": "morning",
         "es": "mañana",
         "zh_pinyin": "chen2",
-        "cedict_definition": "5th earthly branch: 7-9 a.m., 3rd solar month (5th April-4th May), year of the Dragon"
+        "cedict_definition": "5th earthly branch: 7-9 a.m., 3rd solar month (5th April-4th May), year of the Dragon",
+        "de": "mañana",
+        "pt": "mañana",
+        "ru": "mañana",
+        "ru_rom": "mañana"
       },
       "category": "general",
       "sources": [
@@ -3722,7 +4367,11 @@
         "en": "walk",
         "es": "caminar",
         "zh_pinyin": "chuo4",
-        "cedict_definition": "to walk (side part of split character)"
+        "cedict_definition": "to walk (side part of split character)",
+        "de": "gehen",
+        "pt": "andar",
+        "ru": "идти",
+        "ru_rom": "idti"
       },
       "category": "general",
       "sources": [
@@ -3745,7 +4394,11 @@
         "en": "city",
         "es": "ciudad",
         "zh_pinyin": "yi4",
-        "cedict_definition": "city"
+        "cedict_definition": "city",
+        "de": "ciudad",
+        "pt": "ciudad",
+        "ru": "ciudad",
+        "ru_rom": "ciudad"
       },
       "category": "general",
       "sources": [
@@ -3768,7 +4421,11 @@
         "en": "wine",
         "es": "vino",
         "zh_pinyin": "you3",
-        "cedict_definition": "10th earthly branch: 5-7 p.m., 8th solar month (8th September-7th October), year of the Rooster"
+        "cedict_definition": "10th earthly branch: 5-7 p.m., 8th solar month (8th September-7th October), year of the Rooster",
+        "de": "vino",
+        "pt": "vino",
+        "ru": "vino",
+        "ru_rom": "vino"
       },
       "category": "general",
       "sources": [
@@ -3791,7 +4448,11 @@
         "en": "distinguish",
         "es": "distinguish",
         "zh_pinyin": "bian4",
-        "cedict_definition": "old variant of 辨[bian4]"
+        "cedict_definition": "old variant of 辨[bian4]",
+        "de": "distinguish",
+        "pt": "distinguish",
+        "ru": "distinguish",
+        "ru_rom": "distinguish"
       },
       "category": "general",
       "sources": [
@@ -3814,7 +4475,11 @@
         "en": "village",
         "es": "aldea",
         "zh_pinyin": "li3",
-        "cedict_definition": "Li (surname)"
+        "cedict_definition": "Li (surname)",
+        "de": "aldea",
+        "pt": "aldea",
+        "ru": "aldea",
+        "ru_rom": "aldea"
       },
       "category": "general",
       "sources": [
@@ -3837,7 +4502,11 @@
         "en": "gold",
         "es": "oro",
         "zh_pinyin": "jin1",
-        "cedict_definition": "surname Jin"
+        "cedict_definition": "surname Jin",
+        "de": "oro",
+        "pt": "oro",
+        "ru": "oro",
+        "ru_rom": "oro"
       },
       "category": "actividad",
       "sources": [
@@ -3860,7 +4529,11 @@
         "en": "long",
         "es": "largo",
         "zh_pinyin": "chang2",
-        "cedict_definition": "long"
+        "cedict_definition": "long",
+        "de": "largo",
+        "pt": "largo",
+        "ru": "largo",
+        "ru_rom": "largo"
       },
       "category": "general",
       "sources": [
@@ -3883,7 +4556,11 @@
         "en": "gate",
         "es": "puerta",
         "zh_pinyin": "men2",
-        "cedict_definition": "surname Men"
+        "cedict_definition": "surname Men",
+        "de": "puerta",
+        "pt": "puerta",
+        "ru": "puerta",
+        "ru_rom": "puerta"
       },
       "category": "general",
       "sources": [
@@ -3906,7 +4583,11 @@
         "en": "mound",
         "es": "mound",
         "zh_pinyin": "fu4",
-        "cedict_definition": "abundant"
+        "cedict_definition": "abundant",
+        "de": "mound",
+        "pt": "mound",
+        "ru": "mound",
+        "ru_rom": "mound"
       },
       "category": "general",
       "sources": [
@@ -3929,7 +4610,11 @@
         "en": "slave",
         "es": "slave",
         "zh_pinyin": null,
-        "cedict_definition": null
+        "cedict_definition": null,
+        "de": "slave",
+        "pt": "slave",
+        "ru": "slave",
+        "ru_rom": "slave"
       },
       "category": "general",
       "sources": [
@@ -3951,7 +4636,11 @@
         "en": "short tailed bird",
         "es": "short tailed bird",
         "zh_pinyin": "zhui1",
-        "cedict_definition": "short-tailed bird"
+        "cedict_definition": "short-tailed bird",
+        "de": "short tailed bird",
+        "pt": "short tailed bird",
+        "ru": "short tailed bird",
+        "ru_rom": "short tailed bird"
       },
       "category": "animal",
       "sources": [
@@ -3974,7 +4663,11 @@
         "en": "rain",
         "es": "lluvia",
         "zh_pinyin": "yu3",
-        "cedict_definition": "rain"
+        "cedict_definition": "rain",
+        "de": "Regen",
+        "pt": "chuva",
+        "ru": "дождь",
+        "ru_rom": "dozhd"
       },
       "category": "general",
       "sources": [
@@ -3997,7 +4690,11 @@
         "en": "blue",
         "es": "azul",
         "zh_pinyin": "qing1",
-        "cedict_definition": "abbr. for 青海[Qing1 hai3], Qinghai Province"
+        "cedict_definition": "abbr. for 青海[Qing1 hai3], Qinghai Province",
+        "de": "azul",
+        "pt": "azul",
+        "ru": "azul",
+        "ru_rom": "azul"
       },
       "category": "general",
       "sources": [
@@ -4020,7 +4717,11 @@
         "en": "wrong",
         "es": "wrong",
         "zh_pinyin": "fei1",
-        "cedict_definition": "abbr. for 非洲[Fei1 zhou1], Africa"
+        "cedict_definition": "abbr. for 非洲[Fei1 zhou1], Africa",
+        "de": "wrong",
+        "pt": "wrong",
+        "ru": "wrong",
+        "ru_rom": "wrong"
       },
       "category": "general",
       "sources": [
@@ -4043,7 +4744,11 @@
         "en": "face",
         "es": "face",
         "zh_pinyin": "mian4",
-        "cedict_definition": "face"
+        "cedict_definition": "face",
+        "de": "face",
+        "pt": "face",
+        "ru": "face",
+        "ru_rom": "face"
       },
       "category": "general",
       "sources": [
@@ -4066,7 +4771,11 @@
         "en": "leather",
         "es": "cuero",
         "zh_pinyin": "ge2",
-        "cedict_definition": "animal hide"
+        "cedict_definition": "animal hide",
+        "de": "cuero",
+        "pt": "cuero",
+        "ru": "cuero",
+        "ru_rom": "cuero"
       },
       "category": "material",
       "sources": [
@@ -4089,7 +4798,11 @@
         "en": "tanned leather",
         "es": "tanned leather",
         "zh_pinyin": "wei2",
-        "cedict_definition": "surname Wei"
+        "cedict_definition": "surname Wei",
+        "de": "tanned leather",
+        "pt": "tanned leather",
+        "ru": "tanned leather",
+        "ru_rom": "tanned leather"
       },
       "category": "general",
       "sources": [
@@ -4112,7 +4825,11 @@
         "en": "leek",
         "es": "leek",
         "zh_pinyin": "jiu3",
-        "cedict_definition": "leek"
+        "cedict_definition": "leek",
+        "de": "leek",
+        "pt": "leek",
+        "ru": "leek",
+        "ru_rom": "leek"
       },
       "category": "general",
       "sources": [
@@ -4135,7 +4852,11 @@
         "en": "sound",
         "es": "sonido",
         "zh_pinyin": "yin1",
-        "cedict_definition": "sound"
+        "cedict_definition": "sound",
+        "de": "sonido",
+        "pt": "sonido",
+        "ru": "sonido",
+        "ru_rom": "sonido"
       },
       "category": "general",
       "sources": [
@@ -4158,7 +4879,11 @@
         "en": "leaf",
         "es": "leaf",
         "zh_pinyin": "xie2",
-        "cedict_definition": "head"
+        "cedict_definition": "head",
+        "de": "leaf",
+        "pt": "leaf",
+        "ru": "leaf",
+        "ru_rom": "leaf"
       },
       "category": "general",
       "sources": [
@@ -4181,7 +4906,11 @@
         "en": "wind",
         "es": "viento",
         "zh_pinyin": "feng1",
-        "cedict_definition": "wind"
+        "cedict_definition": "wind",
+        "de": "Wind",
+        "pt": "vento",
+        "ru": "ветер",
+        "ru_rom": "veter"
       },
       "category": "general",
       "sources": [
@@ -4204,7 +4933,11 @@
         "en": "fly",
         "es": "volar",
         "zh_pinyin": "fei1",
-        "cedict_definition": "to fly"
+        "cedict_definition": "to fly",
+        "de": "volar",
+        "pt": "volar",
+        "ru": "volar",
+        "ru_rom": "volar"
       },
       "category": "general",
       "sources": [
@@ -4227,7 +4960,11 @@
         "en": "eat",
         "es": "comer",
         "zh_pinyin": "shi2",
-        "cedict_definition": "to eat"
+        "cedict_definition": "to eat",
+        "de": "comer",
+        "pt": "comer",
+        "ru": "comer",
+        "ru_rom": "comer"
       },
       "category": "general",
       "sources": [
@@ -4250,7 +4987,11 @@
         "en": "head",
         "es": "cabeza",
         "zh_pinyin": "shou3",
-        "cedict_definition": "head"
+        "cedict_definition": "head",
+        "de": "cabeza",
+        "pt": "cabeza",
+        "ru": "cabeza",
+        "ru_rom": "cabeza"
       },
       "category": "cuerpo",
       "sources": [
@@ -4273,7 +5014,11 @@
         "en": "fragrant",
         "es": "fragante",
         "zh_pinyin": "xiang1",
-        "cedict_definition": "fragrant"
+        "cedict_definition": "fragrant",
+        "de": "fragante",
+        "pt": "fragante",
+        "ru": "fragante",
+        "ru_rom": "fragante"
       },
       "category": "general",
       "sources": [
@@ -4296,7 +5041,11 @@
         "en": "horse",
         "es": "caballo",
         "zh_pinyin": "ma3",
-        "cedict_definition": "surname Ma"
+        "cedict_definition": "surname Ma",
+        "de": "Pferd",
+        "pt": "cavalo",
+        "ru": "лошадь",
+        "ru_rom": "loshad"
       },
       "category": "general",
       "sources": [
@@ -4319,7 +5068,11 @@
         "en": "bone",
         "es": "bone",
         "zh_pinyin": "gu1",
-        "cedict_definition": "used in 骨碌碌[gu1lu4lu4]"
+        "cedict_definition": "used in 骨碌碌[gu1lu4lu4]",
+        "de": "bone",
+        "pt": "bone",
+        "ru": "bone",
+        "ru_rom": "bone"
       },
       "category": "número",
       "sources": [
@@ -4342,7 +5095,11 @@
         "en": "tall",
         "es": "alto",
         "zh_pinyin": "gao1",
-        "cedict_definition": "surname Gao"
+        "cedict_definition": "surname Gao",
+        "de": "alto",
+        "pt": "alto",
+        "ru": "alto",
+        "ru_rom": "alto"
       },
       "category": "general",
       "sources": [
@@ -4365,7 +5122,11 @@
         "en": "hair",
         "es": "cabello",
         "zh_pinyin": "biao1",
-        "cedict_definition": "hair"
+        "cedict_definition": "hair",
+        "de": "cabello",
+        "pt": "cabello",
+        "ru": "cabello",
+        "ru_rom": "cabello"
       },
       "category": "general",
       "sources": [
@@ -4388,7 +5149,11 @@
         "en": "fight",
         "es": "luchar",
         "zh_pinyin": "dou4",
-        "cedict_definition": "to fight"
+        "cedict_definition": "to fight",
+        "de": "luchar",
+        "pt": "luchar",
+        "ru": "luchar",
+        "ru_rom": "luchar"
       },
       "category": "general",
       "sources": [
@@ -4411,7 +5176,11 @@
         "en": "sacrificial wine",
         "es": "sacrificial wine",
         "zh_pinyin": "chang4",
-        "cedict_definition": "a kind of sacrificial wine used in ancient times"
+        "cedict_definition": "a kind of sacrificial wine used in ancient times",
+        "de": "sacrificial wine",
+        "pt": "sacrificial wine",
+        "ru": "sacrificial wine",
+        "ru_rom": "sacrificial wine"
       },
       "category": "general",
       "sources": [
@@ -4434,7 +5203,11 @@
         "en": "cauldron",
         "es": "cauldron",
         "zh_pinyin": "ge2",
-        "cedict_definition": "surname Ge"
+        "cedict_definition": "surname Ge",
+        "de": "cauldron",
+        "pt": "cauldron",
+        "ru": "cauldron",
+        "ru_rom": "cauldron"
       },
       "category": "general",
       "sources": [
@@ -4457,7 +5230,11 @@
         "en": "ghost",
         "es": "ghost",
         "zh_pinyin": "gui3",
-        "cedict_definition": "disembodied spirit; ghost; devil"
+        "cedict_definition": "disembodied spirit; ghost; devil",
+        "de": "ghost",
+        "pt": "ghost",
+        "ru": "ghost",
+        "ru_rom": "ghost"
       },
       "category": "general",
       "sources": [
@@ -4480,7 +5257,11 @@
         "en": "fish",
         "es": "pez",
         "zh_pinyin": "yu2",
-        "cedict_definition": "surname Yu"
+        "cedict_definition": "surname Yu",
+        "de": "Fisch",
+        "pt": "peixe",
+        "ru": "рыба",
+        "ru_rom": "ryba"
       },
       "category": "animal",
       "sources": [
@@ -4503,7 +5284,11 @@
         "en": "bird",
         "es": "pájaro",
         "zh_pinyin": "diao3",
-        "cedict_definition": "variant of 屌[diao3]"
+        "cedict_definition": "variant of 屌[diao3]",
+        "de": "Vogel",
+        "pt": "pássaro",
+        "ru": "птица",
+        "ru_rom": "ptitsa"
       },
       "category": "animal",
       "sources": [
@@ -4526,7 +5311,11 @@
         "en": "salt",
         "es": "sal",
         "zh_pinyin": "lu3",
-        "cedict_definition": "alkaline soil"
+        "cedict_definition": "alkaline soil",
+        "de": "sal",
+        "pt": "sal",
+        "ru": "sal",
+        "ru_rom": "sal"
       },
       "category": "general",
       "sources": [
@@ -4549,7 +5338,11 @@
         "en": "deer",
         "es": "ciervo",
         "zh_pinyin": "lu4",
-        "cedict_definition": "deer"
+        "cedict_definition": "deer",
+        "de": "ciervo",
+        "pt": "ciervo",
+        "ru": "ciervo",
+        "ru_rom": "ciervo"
       },
       "category": "general",
       "sources": [
@@ -4572,7 +5365,11 @@
         "en": "wheat",
         "es": "trigo",
         "zh_pinyin": "mai4",
-        "cedict_definition": "surname Mai"
+        "cedict_definition": "surname Mai",
+        "de": "trigo",
+        "pt": "trigo",
+        "ru": "trigo",
+        "ru_rom": "trigo"
       },
       "category": "general",
       "sources": [
@@ -4595,7 +5392,11 @@
         "en": "hemp",
         "es": "cáñamo",
         "zh_pinyin": "ma2",
-        "cedict_definition": "surname Ma"
+        "cedict_definition": "surname Ma",
+        "de": "cáñamo",
+        "pt": "cáñamo",
+        "ru": "cáñamo",
+        "ru_rom": "cáñamo"
       },
       "category": "general",
       "sources": [
@@ -4618,7 +5419,11 @@
         "en": "yellow",
         "es": "amarillo",
         "zh_pinyin": "huang2",
-        "cedict_definition": "surname Huang or Hwang"
+        "cedict_definition": "surname Huang or Hwang",
+        "de": "amarillo",
+        "pt": "amarillo",
+        "ru": "amarillo",
+        "ru_rom": "amarillo"
       },
       "category": "general",
       "sources": [
@@ -4641,7 +5446,11 @@
         "en": "millet",
         "es": "mijo",
         "zh_pinyin": "shu3",
-        "cedict_definition": "broomcorn millet"
+        "cedict_definition": "broomcorn millet",
+        "de": "mijo",
+        "pt": "mijo",
+        "ru": "mijo",
+        "ru_rom": "mijo"
       },
       "category": "general",
       "sources": [
@@ -4664,7 +5473,11 @@
         "en": "black",
         "es": "negro",
         "zh_pinyin": "hei1",
-        "cedict_definition": "abbr. for Heilongjiang province 黑龍江|黑龙江[Hei1 long2 jiang1]"
+        "cedict_definition": "abbr. for Heilongjiang province 黑龍江|黑龙江[Hei1 long2 jiang1]",
+        "de": "schwarz",
+        "pt": "preto",
+        "ru": "чёрный",
+        "ru_rom": "chyornyy"
       },
       "category": "general",
       "sources": [
@@ -4687,7 +5500,11 @@
         "en": "embroidery",
         "es": "bordado",
         "zh_pinyin": "zhi3",
-        "cedict_definition": "embroidery"
+        "cedict_definition": "embroidery",
+        "de": "bordado",
+        "pt": "bordado",
+        "ru": "bordado",
+        "ru_rom": "bordado"
       },
       "category": "general",
       "sources": [
@@ -4710,7 +5527,11 @@
         "en": "frog",
         "es": "rana",
         "zh_pinyin": "meng3",
-        "cedict_definition": "toad"
+        "cedict_definition": "toad",
+        "de": "rana",
+        "pt": "rana",
+        "ru": "rana",
+        "ru_rom": "rana"
       },
       "category": "general",
       "sources": [
@@ -4733,7 +5554,11 @@
         "en": "tripod",
         "es": "tripod",
         "zh_pinyin": "ding3",
-        "cedict_definition": "ancient cooking cauldron with two looped handles and three or four legs"
+        "cedict_definition": "ancient cooking cauldron with two looped handles and three or four legs",
+        "de": "tripod",
+        "pt": "tripod",
+        "ru": "tripod",
+        "ru_rom": "tripod"
       },
       "category": "general",
       "sources": [
@@ -4756,7 +5581,11 @@
         "en": "drum",
         "es": "tambor",
         "zh_pinyin": "gu3",
-        "cedict_definition": "drum"
+        "cedict_definition": "drum",
+        "de": "tambor",
+        "pt": "tambor",
+        "ru": "tambor",
+        "ru_rom": "tambor"
       },
       "category": "general",
       "sources": [
@@ -4779,7 +5608,11 @@
         "en": "rat",
         "es": "rat",
         "zh_pinyin": "shu3",
-        "cedict_definition": "(bound form) rat; mouse"
+        "cedict_definition": "(bound form) rat; mouse",
+        "de": "rat",
+        "pt": "rat",
+        "ru": "rat",
+        "ru_rom": "rat"
       },
       "category": "general",
       "sources": [
@@ -4802,7 +5635,11 @@
         "en": "nose",
         "es": "nariz",
         "zh_pinyin": "bi2",
-        "cedict_definition": "nose"
+        "cedict_definition": "nose",
+        "de": "nariz",
+        "pt": "nariz",
+        "ru": "nariz",
+        "ru_rom": "nariz"
       },
       "category": "general",
       "sources": [
@@ -4825,7 +5662,11 @@
         "en": "even",
         "es": "uniforme",
         "zh_pinyin": "qi2",
-        "cedict_definition": "(name of states and dynasties at several different periods)"
+        "cedict_definition": "(name of states and dynasties at several different periods)",
+        "de": "uniforme",
+        "pt": "uniforme",
+        "ru": "uniforme",
+        "ru_rom": "uniforme"
       },
       "category": "general",
       "sources": [
@@ -4848,7 +5689,11 @@
         "en": "tooth",
         "es": "diente",
         "zh_pinyin": "chi3",
-        "cedict_definition": "tooth"
+        "cedict_definition": "tooth",
+        "de": "diente",
+        "pt": "diente",
+        "ru": "diente",
+        "ru_rom": "diente"
       },
       "category": "general",
       "sources": [
@@ -4871,7 +5716,11 @@
         "en": "dragon",
         "es": "dragón",
         "zh_pinyin": "long2",
-        "cedict_definition": "surname Long"
+        "cedict_definition": "surname Long",
+        "de": "dragón",
+        "pt": "dragón",
+        "ru": "dragón",
+        "ru_rom": "dragón"
       },
       "category": "actividad",
       "sources": [
@@ -4894,7 +5743,11 @@
         "en": "turtle",
         "es": "tortuga",
         "zh_pinyin": "gui1",
-        "cedict_definition": "tortoise; turtle"
+        "cedict_definition": "tortoise; turtle",
+        "de": "tortuga",
+        "pt": "tortuga",
+        "ru": "tortuga",
+        "ru_rom": "tortuga"
       },
       "category": "general",
       "sources": [
@@ -4917,7 +5770,11 @@
         "en": "flute",
         "es": "flauta",
         "zh_pinyin": "yue4",
-        "cedict_definition": "ancient unit of volume (half a 合[ge3], equivalent to 50ml)"
+        "cedict_definition": "ancient unit of volume (half a 合[ge3], equivalent to 50ml)",
+        "de": "flauta",
+        "pt": "flauta",
+        "ru": "flauta",
+        "ru_rom": "flauta"
       },
       "category": "general",
       "sources": [
