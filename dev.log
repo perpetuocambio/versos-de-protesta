@@ -21,3 +21,17 @@
 23:47:17 [200] /diccionario/zh-pinyin/ 4ms
 23:47:54 [200] /diccionario/radical/ 3ms
 23:47:56 [404] /data/chinese/strokes/20008.gif 1ms
+23:48:38 [404] /data/chinese/strokes/22794.gif 2ms
+23:48:44 [200] /diccionario/zh-pinyin/ 3ms
+23:48:45 [200] /diccionario/pt/ 3ms
+23:49:01 [404] /data/chinese/strokes/35781.gif 1ms
+23:49:08 [200] /about/ 2ms
+23:49:11 [200] /blog/ 183ms
+23:49:13 [200] / 5ms
+23:49:17 [200] /blog/ 3ms
+23:50:51 Configuration file updated. Restarting...
+23:50:52 [content] Syncing content
+23:50:52 [content] Synced content
+23:50:52 [types] Generated 288ms
+23:50:52 [vite] Port 4321 is in use, trying another one...
+23:50:52 [200] /blog/ 152ms
