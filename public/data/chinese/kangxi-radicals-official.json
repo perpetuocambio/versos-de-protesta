@@ -266,13 +266,13 @@
       "unicode": 20799,
       "meaning": {
         "en": "legs",
-        "es": "legs",
+        "es": "piernas",
         "zh_pinyin": null,
         "cedict_definition": null,
-        "de": "legs",
-        "pt": "legs",
-        "ru": "legs",
-        "ru_rom": "legs"
+        "de": "Beine",
+        "pt": "pernas",
+        "ru": "ноги",
+        "ru_rom": "nogi"
       },
       "category": "general",
       "sources": [
@@ -295,10 +295,10 @@
         "es": "entrar",
         "zh_pinyin": "ru4",
         "cedict_definition": "to enter; to go into",
-        "de": "entrar",
+        "de": "eintreten",
         "pt": "entrar",
-        "ru": "entrar",
-        "ru_rom": "entrar"
+        "ru": "входить",
+        "ru_rom": "vkhodit"
       },
       "category": "actividad",
       "sources": [
@@ -346,13 +346,13 @@
       "unicode": 20866,
       "meaning": {
         "en": "down box",
-        "es": "down box",
+        "es": "marco inferior",
         "zh_pinyin": "jiong1",
         "cedict_definition": "radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4], 同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]",
-        "de": "down box",
-        "pt": "down box",
-        "ru": "down box",
-        "ru_rom": "down box"
+        "de": "unterer Rahmen",
+        "pt": "caixa inferior",
+        "ru": "нижняя рамка",
+        "ru_rom": "nizhnyaya ramka"
       },
       "category": "forma",
       "sources": [
@@ -376,10 +376,10 @@
         "es": "cubierta",
         "zh_pinyin": "mi4",
         "cedict_definition": "\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]",
-        "de": "cubierta",
-        "pt": "cubierta",
-        "ru": "cubierta",
-        "ru_rom": "cubierta"
+        "de": "Abdeckung",
+        "pt": "cobertura",
+        "ru": "покрытие",
+        "ru_rom": "pokrytie"
       },
       "category": "general",
       "sources": [
@@ -400,13 +400,13 @@
       "unicode": 20907,
       "meaning": {
         "en": "ice",
-        "es": "ice",
+        "es": "hielo",
         "zh_pinyin": "bing1",
         "cedict_definition": "\"ice\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]",
-        "de": "ice",
-        "pt": "ice",
-        "ru": "ice",
-        "ru_rom": "ice"
+        "de": "Eis",
+        "pt": "gelo",
+        "ru": "лёд",
+        "ru_rom": "lyod"
       },
       "category": "general",
       "sources": [
@@ -427,13 +427,13 @@
       "unicode": 20960,
       "meaning": {
         "en": "table",
-        "es": "table",
+        "es": "mesa",
         "zh_pinyin": "ji1",
         "cedict_definition": "small table",
-        "de": "table",
-        "pt": "table",
-        "ru": "table",
-        "ru_rom": "table"
+        "de": "Tisch",
+        "pt": "mesa",
+        "ru": "стол",
+        "ru_rom": "stol"
       },
       "category": "general",
       "sources": [
@@ -454,13 +454,13 @@
       "unicode": 20981,
       "meaning": {
         "en": "open box",
-        "es": "open box",
+        "es": "caja abierta",
         "zh_pinyin": "kan3",
         "cedict_definition": "receptacle",
-        "de": "open box",
-        "pt": "open box",
-        "ru": "open box",
-        "ru_rom": "open box"
+        "de": "offene Kiste",
+        "pt": "caixa aberta",
+        "ru": "открытая коробка",
+        "ru_rom": "otkrytaya korobka"
       },
       "category": "forma",
       "sources": [
@@ -511,10 +511,10 @@
         "es": "fuerza",
         "zh_pinyin": "li4",
         "cedict_definition": "surname Li",
-        "de": "fuerza",
-        "pt": "fuerza",
-        "ru": "fuerza",
-        "ru_rom": "fuerza"
+        "de": "Kraft",
+        "pt": "força",
+        "ru": "сила",
+        "ru_rom": "sila"
       },
       "category": "abstracto",
       "sources": [
@@ -535,13 +535,13 @@
       "unicode": 21241,
       "meaning": {
         "en": "wrap",
-        "es": "wrap",
+        "es": "envolver",
         "zh_pinyin": "bao1",
         "cedict_definition": "old variant of 包[bao1]",
-        "de": "wrap",
-        "pt": "wrap",
-        "ru": "wrap",
-        "ru_rom": "wrap"
+        "de": "umhüllen",
+        "pt": "embrulhar",
+        "ru": "обёртывать",
+        "ru_rom": "obyortyvat"
       },
       "category": "general",
       "sources": [
@@ -565,10 +565,10 @@
         "es": "cuchara",
         "zh_pinyin": "bi3",
         "cedict_definition": "dagger",
-        "de": "cuchara",
-        "pt": "cuchara",
-        "ru": "cuchara",
-        "ru_rom": "cuchara"
+        "de": "Löffel",
+        "pt": "colher",
+        "ru": "ложка",
+        "ru_rom": "lozhka"
       },
       "category": "herramienta",
       "sources": [
@@ -589,13 +589,13 @@
       "unicode": 21274,
       "meaning": {
         "en": "right open box",
-        "es": "right open box",
+        "es": "caja abierta derecha",
         "zh_pinyin": "fang1",
         "cedict_definition": "\"right open box\" radical (Kangxi radical 22), occurring in 区, 医, 匹 etc",
-        "de": "right open box",
-        "pt": "right open box",
-        "ru": "right open box",
-        "ru_rom": "right open box"
+        "de": "rechte offene Kiste",
+        "pt": "caixa aberta direita",
+        "ru": "правая открытая коробка",
+        "ru_rom": "pravaya otkrytaya korobka"
       },
       "category": "forma",
       "sources": [
@@ -616,13 +616,13 @@
       "unicode": 21304,
       "meaning": {
         "en": "hiding enclosure",
-        "es": "hiding enclosure",
+        "es": "recinto oculto",
         "zh_pinyin": "xi4",
         "cedict_definition": "\"cover\" or \"conceal\" radical in Chinese characters (Kangxi radical 23) (distinguished from 匚[fang1])",
-        "de": "hiding enclosure",
-        "pt": "hiding enclosure",
-        "ru": "hiding enclosure",
-        "ru_rom": "hiding enclosure"
+        "de": "verstecktes Gehäuse",
+        "pt": "recinto oculto",
+        "ru": "скрытый корпус",
+        "ru_rom": "skrytyy korpus"
       },
       "category": "forma",
       "sources": [
@@ -670,13 +670,13 @@
       "unicode": 21340,
       "meaning": {
         "en": "divination",
-        "es": "divination",
+        "es": "adivinación",
         "zh_pinyin": "bu3",
         "cedict_definition": "surname Bu",
-        "de": "divination",
-        "pt": "divination",
-        "ru": "divination",
-        "ru_rom": "divination"
+        "de": "Wahrsagung",
+        "pt": "adivinhação",
+        "ru": "гадание",
+        "ru_rom": "gadanie"
       },
       "category": "general",
       "sources": [
@@ -697,13 +697,13 @@
       "unicode": 21353,
       "meaning": {
         "en": "seal",
-        "es": "seal",
+        "es": "sello",
         "zh_pinyin": "jie2",
         "cedict_definition": "\"seal\" radical in Chinese characters (Kangxi radical 26)",
-        "de": "seal",
-        "pt": "seal",
-        "ru": "seal",
-        "ru_rom": "seal"
+        "de": "Siegel",
+        "pt": "selo",
+        "ru": "печать",
+        "ru_rom": "pechat"
       },
       "category": "general",
       "sources": [
@@ -1372,13 +1372,13 @@
       "unicode": 24178,
       "meaning": {
         "en": "dry",
-        "es": "dry",
+        "es": "seco",
         "zh_pinyin": "gan1",
         "cedict_definition": "surname Gan",
-        "de": "dry",
-        "pt": "dry",
-        "ru": "dry",
-        "ru_rom": "dry"
+        "de": "trocken",
+        "pt": "seco",
+        "ru": "сухой",
+        "ru_rom": "sukhoy"
       },
       "category": "general",
       "sources": [
@@ -1776,13 +1776,13 @@
       "unicode": 25908,
       "meaning": {
         "en": "rap",
-        "es": "rap",
+        "es": "golpear",
         "zh_pinyin": "pu1",
         "cedict_definition": "to tap",
-        "de": "rap",
-        "pt": "rap",
-        "ru": "rap",
-        "ru_rom": "rap"
+        "de": "schlagen",
+        "pt": "bater",
+        "ru": "ударять",
+        "ru_rom": "udaryat"
       },
       "category": "general",
       "sources": [
@@ -1964,13 +1964,13 @@
       "unicode": 26352,
       "meaning": {
         "en": "say",
-        "es": "say",
+        "es": "decir",
         "zh_pinyin": "yue1",
         "cedict_definition": "to speak",
-        "de": "say",
-        "pt": "say",
-        "ru": "say",
-        "ru_rom": "say"
+        "de": "sagen",
+        "pt": "dizer",
+        "ru": "говорить",
+        "ru_rom": "govorit"
       },
       "category": "general",
       "sources": [
@@ -2207,13 +2207,13 @@
       "unicode": 27611,
       "meaning": {
         "en": "fur",
-        "es": "fur",
+        "es": "pelo",
         "zh_pinyin": "mao2",
         "cedict_definition": "surname Mao",
-        "de": "fur",
-        "pt": "fur",
-        "ru": "fur",
-        "ru_rom": "fur"
+        "de": "Fell",
+        "pt": "pelo",
+        "ru": "мех",
+        "ru_rom": "mekh"
       },
       "category": "general",
       "sources": [
@@ -3289,10 +3289,10 @@
         "es": "red",
         "zh_pinyin": null,
         "cedict_definition": null,
-        "de": "red",
-        "pt": "red",
-        "ru": "red",
-        "ru_rom": "red"
+        "de": "Netz",
+        "pt": "rede",
+        "ru": "сеть",
+        "ru_rom": "set"
       },
       "category": "general",
       "sources": [
@@ -5606,13 +5606,13 @@
       "unicode": 40736,
       "meaning": {
         "en": "rat",
-        "es": "rat",
+        "es": "rata",
         "zh_pinyin": "shu3",
         "cedict_definition": "(bound form) rat; mouse",
-        "de": "rat",
-        "pt": "rat",
-        "ru": "rat",
-        "ru_rom": "rat"
+        "de": "Ratte",
+        "pt": "rato",
+        "ru": "крыса",
+        "ru_rom": "krysa"
       },
       "category": "general",
       "sources": [

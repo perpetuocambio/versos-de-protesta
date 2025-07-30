@@ -3,7 +3,7 @@
     "language": "🔍 Radicales Chinos",
     "code": "radical",
     "wordCount": 220,
-    "lastUpdated": "2025-07-30T17:03:23.360Z",
+    "lastUpdated": "2025-07-30T17:10:34.373Z",
     "generatedBy": "generate-radicals.mjs v1.0"
   },
   "index": {
@@ -771,10 +771,10 @@
       "translations": {
         "es": "barra",
         "en": "slash",
-        "de": "barra",
+        "de": "Schrägstrich",
         "pt": "barra",
-        "ru": "barra",
-        "ruRom": "barra",
+        "ru": "черта",
+        "ruRom": "cherta",
         "zh": "丿",
         "zhPinyin": "pie"
       },
@@ -801,12 +801,12 @@
     },
     "乙": {
       "translations": {
-        "es": "second",
+        "es": "segundo",
         "en": "second",
-        "de": "second",
-        "pt": "second",
-        "ru": "second",
-        "ruRom": "second",
+        "de": "zweite",
+        "pt": "segundo",
+        "ru": "второй",
+        "ruRom": "vtoroy",
         "zh": "乙",
         "zhPinyin": "yi"
       },
@@ -821,11 +821,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "second",
+      "meaning": "segundo",
       "pronunciation": {
         "zh_pinyin": "yi"
       },
-      "context": "Radical Kangxi #5 que significa \"second\". 1 trazos.",
+      "context": "Radical Kangxi #5 que significa \"segundo\". 1 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #5 • 1 trazos"
@@ -835,10 +835,10 @@
       "translations": {
         "es": "gancho",
         "en": "hook",
-        "de": "gancho",
+        "de": "Haken",
         "pt": "gancho",
-        "ru": "gancho",
-        "ruRom": "gancho",
+        "ru": "крючок",
+        "ruRom": "kryuchok",
         "zh": "亅",
         "zhPinyin": "jue"
       },
@@ -899,10 +899,10 @@
       "translations": {
         "es": "tapa",
         "en": "lid",
-        "de": "tapa",
-        "pt": "tapa",
-        "ru": "tapa",
-        "ruRom": "tapa",
+        "de": "Deckel",
+        "pt": "tampa",
+        "ru": "крышка",
+        "ruRom": "kryshka",
         "zh": "亠",
         "zhPinyin": "tou"
       },
@@ -961,12 +961,12 @@
     },
     "儿": {
       "translations": {
-        "es": "legs",
+        "es": "piernas",
         "en": "legs",
-        "de": "legs",
-        "pt": "legs",
-        "ru": "legs",
-        "ruRom": "legs",
+        "de": "Beine",
+        "pt": "pernas",
+        "ru": "ноги",
+        "ruRom": "nogi",
         "zh": "儿",
         "zhPinyin": "unknown"
       },
@@ -981,11 +981,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "legs",
+      "meaning": "piernas",
       "pronunciation": {
         "zh_pinyin": "unknown"
       },
-      "context": "Radical Kangxi #10 que significa \"legs\". 2 trazos.",
+      "context": "Radical Kangxi #10 que significa \"piernas\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #10 • 2 trazos"
@@ -995,10 +995,10 @@
       "translations": {
         "es": "entrar",
         "en": "enter",
-        "de": "entrar",
+        "de": "eintreten",
         "pt": "entrar",
-        "ru": "entrar",
-        "ruRom": "entrar",
+        "ru": "входить",
+        "ruRom": "vkhodit",
         "zh": "入",
         "zhPinyin": "ru"
       },
@@ -1057,12 +1057,12 @@
     },
     "冂": {
       "translations": {
-        "es": "down box",
+        "es": "marco inferior",
         "en": "down box",
-        "de": "down box",
-        "pt": "down box",
-        "ru": "down box",
-        "ruRom": "down box",
+        "de": "unterer Rahmen",
+        "pt": "caixa inferior",
+        "ru": "нижняя рамка",
+        "ruRom": "nizhnyaya ramka",
         "zh": "冂",
         "zhPinyin": "jiong"
       },
@@ -1077,11 +1077,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "down box",
+      "meaning": "marco inferior",
       "pronunciation": {
         "zh_pinyin": "jiong"
       },
-      "context": "Radical Kangxi #13 que significa \"down box\". 2 trazos.",
+      "context": "Radical Kangxi #13 que significa \"marco inferior\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #13 • 2 trazos"
@@ -1091,10 +1091,10 @@
       "translations": {
         "es": "cubierta",
         "en": "cover",
-        "de": "cubierta",
-        "pt": "cubierta",
-        "ru": "cubierta",
-        "ruRom": "cubierta",
+        "de": "Abdeckung",
+        "pt": "cobertura",
+        "ru": "покрытие",
+        "ruRom": "pokrytie",
         "zh": "冖",
         "zhPinyin": "mi"
       },
@@ -1121,12 +1121,12 @@
     },
     "冫": {
       "translations": {
-        "es": "ice",
+        "es": "hielo",
         "en": "ice",
-        "de": "ice",
-        "pt": "ice",
-        "ru": "ice",
-        "ruRom": "ice",
+        "de": "Eis",
+        "pt": "gelo",
+        "ru": "лёд",
+        "ruRom": "lyod",
         "zh": "冫",
         "zhPinyin": "bing"
       },
@@ -1141,11 +1141,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "ice",
+      "meaning": "hielo",
       "pronunciation": {
         "zh_pinyin": "bing"
       },
-      "context": "Radical Kangxi #15 que significa \"ice\". 2 trazos.",
+      "context": "Radical Kangxi #15 que significa \"hielo\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #15 • 2 trazos"
@@ -1153,12 +1153,12 @@
     },
     "几": {
       "translations": {
-        "es": "table",
+        "es": "mesa",
         "en": "table",
-        "de": "table",
-        "pt": "table",
-        "ru": "table",
-        "ruRom": "table",
+        "de": "Tisch",
+        "pt": "mesa",
+        "ru": "стол",
+        "ruRom": "stol",
         "zh": "几",
         "zhPinyin": "ji"
       },
@@ -1173,11 +1173,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "table",
+      "meaning": "mesa",
       "pronunciation": {
         "zh_pinyin": "ji"
       },
-      "context": "Radical Kangxi #16 que significa \"table\". 2 trazos.",
+      "context": "Radical Kangxi #16 que significa \"mesa\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #16 • 2 trazos"
@@ -1185,12 +1185,12 @@
     },
     "凵": {
       "translations": {
-        "es": "open box",
+        "es": "caja abierta",
         "en": "open box",
-        "de": "open box",
-        "pt": "open box",
-        "ru": "open box",
-        "ruRom": "open box",
+        "de": "offene Kiste",
+        "pt": "caixa aberta",
+        "ru": "открытая коробка",
+        "ruRom": "otkrytaya korobka",
         "zh": "凵",
         "zhPinyin": "kan"
       },
@@ -1205,11 +1205,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "open box",
+      "meaning": "caja abierta",
       "pronunciation": {
         "zh_pinyin": "kan"
       },
-      "context": "Radical Kangxi #17 que significa \"open box\". 2 trazos.",
+      "context": "Radical Kangxi #17 que significa \"caja abierta\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #17 • 2 trazos"
@@ -1251,10 +1251,10 @@
       "translations": {
         "es": "fuerza",
         "en": "power",
-        "de": "fuerza",
-        "pt": "fuerza",
-        "ru": "fuerza",
-        "ruRom": "fuerza",
+        "de": "Kraft",
+        "pt": "força",
+        "ru": "сила",
+        "ruRom": "sila",
         "zh": "力",
         "zhPinyin": "li"
       },
@@ -1281,12 +1281,12 @@
     },
     "勹": {
       "translations": {
-        "es": "wrap",
+        "es": "envolver",
         "en": "wrap",
-        "de": "wrap",
-        "pt": "wrap",
-        "ru": "wrap",
-        "ruRom": "wrap",
+        "de": "umhüllen",
+        "pt": "embrulhar",
+        "ru": "обёртывать",
+        "ruRom": "obyortyvat",
         "zh": "勹",
         "zhPinyin": "bao"
       },
@@ -1301,11 +1301,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "wrap",
+      "meaning": "envolver",
       "pronunciation": {
         "zh_pinyin": "bao"
       },
-      "context": "Radical Kangxi #20 que significa \"wrap\". 2 trazos.",
+      "context": "Radical Kangxi #20 que significa \"envolver\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #20 • 2 trazos"
@@ -1315,10 +1315,10 @@
       "translations": {
         "es": "cuchara",
         "en": "spoon",
-        "de": "cuchara",
-        "pt": "cuchara",
-        "ru": "cuchara",
-        "ruRom": "cuchara",
+        "de": "Löffel",
+        "pt": "colher",
+        "ru": "ложка",
+        "ruRom": "lozhka",
         "zh": "匕",
         "zhPinyin": "bi"
       },
@@ -1345,12 +1345,12 @@
     },
     "匚": {
       "translations": {
-        "es": "right open box",
+        "es": "caja abierta derecha",
         "en": "right open box",
-        "de": "right open box",
-        "pt": "right open box",
-        "ru": "right open box",
-        "ruRom": "right open box",
+        "de": "rechte offene Kiste",
+        "pt": "caixa aberta direita",
+        "ru": "правая открытая коробка",
+        "ruRom": "pravaya otkrytaya korobka",
         "zh": "匚",
         "zhPinyin": "fang"
       },
@@ -1365,11 +1365,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "right open box",
+      "meaning": "caja abierta derecha",
       "pronunciation": {
         "zh_pinyin": "fang"
       },
-      "context": "Radical Kangxi #22 que significa \"right open box\". 2 trazos.",
+      "context": "Radical Kangxi #22 que significa \"caja abierta derecha\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #22 • 2 trazos"
@@ -1377,12 +1377,12 @@
     },
     "匸": {
       "translations": {
-        "es": "hiding enclosure",
+        "es": "recinto oculto",
         "en": "hiding enclosure",
-        "de": "hiding enclosure",
-        "pt": "hiding enclosure",
-        "ru": "hiding enclosure",
-        "ruRom": "hiding enclosure",
+        "de": "verstecktes Gehäuse",
+        "pt": "recinto oculto",
+        "ru": "скрытый корпус",
+        "ruRom": "skrytyy korpus",
         "zh": "匸",
         "zhPinyin": "xi"
       },
@@ -1397,11 +1397,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "hiding enclosure",
+      "meaning": "recinto oculto",
       "pronunciation": {
         "zh_pinyin": "xi"
       },
-      "context": "Radical Kangxi #23 que significa \"hiding enclosure\". 2 trazos.",
+      "context": "Radical Kangxi #23 que significa \"recinto oculto\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #23 • 2 trazos"
@@ -1441,12 +1441,12 @@
     },
     "卜": {
       "translations": {
-        "es": "divination",
+        "es": "adivinación",
         "en": "divination",
-        "de": "divination",
-        "pt": "divination",
-        "ru": "divination",
-        "ruRom": "divination",
+        "de": "Wahrsagung",
+        "pt": "adivinhação",
+        "ru": "гадание",
+        "ruRom": "gadanie",
         "zh": "卜",
         "zhPinyin": "bu"
       },
@@ -1461,11 +1461,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "divination",
+      "meaning": "adivinación",
       "pronunciation": {
         "zh_pinyin": "bu"
       },
-      "context": "Radical Kangxi #25 que significa \"divination\". 2 trazos.",
+      "context": "Radical Kangxi #25 que significa \"adivinación\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #25 • 2 trazos"
@@ -1473,12 +1473,12 @@
     },
     "卩": {
       "translations": {
-        "es": "seal",
+        "es": "sello",
         "en": "seal",
-        "de": "seal",
-        "pt": "seal",
-        "ru": "seal",
-        "ruRom": "seal",
+        "de": "Siegel",
+        "pt": "selo",
+        "ru": "печать",
+        "ruRom": "pechat",
         "zh": "卩",
         "zhPinyin": "jie"
       },
@@ -1493,11 +1493,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "seal",
+      "meaning": "sello",
       "pronunciation": {
         "zh_pinyin": "jie"
       },
-      "context": "Radical Kangxi #26 que significa \"seal\". 2 trazos.",
+      "context": "Radical Kangxi #26 que significa \"sello\". 2 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #26 • 2 trazos"
@@ -2273,12 +2273,12 @@
     },
     "干": {
       "translations": {
-        "es": "dry",
+        "es": "seco",
         "en": "dry",
-        "de": "dry",
-        "pt": "dry",
-        "ru": "dry",
-        "ruRom": "dry",
+        "de": "trocken",
+        "pt": "seco",
+        "ru": "сухой",
+        "ruRom": "sukhoy",
         "zh": "干",
         "zhPinyin": "gan"
       },
@@ -2293,11 +2293,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "dry",
+      "meaning": "seco",
       "pronunciation": {
         "zh_pinyin": "gan"
       },
-      "context": "Radical Kangxi #51 que significa \"dry\". 3 trazos.",
+      "context": "Radical Kangxi #51 que significa \"seco\". 3 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #51 • 3 trazos"
@@ -2753,12 +2753,12 @@
     },
     "攴": {
       "translations": {
-        "es": "rap",
+        "es": "golpear",
         "en": "rap",
-        "de": "rap",
-        "pt": "rap",
-        "ru": "rap",
-        "ruRom": "rap",
+        "de": "schlagen",
+        "pt": "bater",
+        "ru": "ударять",
+        "ruRom": "udaryat",
         "zh": "攴",
         "zhPinyin": "pu"
       },
@@ -2773,11 +2773,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "rap",
+      "meaning": "golpear",
       "pronunciation": {
         "zh_pinyin": "pu"
       },
-      "context": "Radical Kangxi #66 que significa \"rap\". 4 trazos.",
+      "context": "Radical Kangxi #66 que significa \"golpear\". 4 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #66 • 4 trazos"
@@ -2977,12 +2977,12 @@
     },
     "曰": {
       "translations": {
-        "es": "say",
+        "es": "decir",
         "en": "say",
-        "de": "say",
-        "pt": "say",
-        "ru": "say",
-        "ruRom": "say",
+        "de": "sagen",
+        "pt": "dizer",
+        "ru": "говорить",
+        "ruRom": "govorit",
         "zh": "曰",
         "zhPinyin": "yue"
       },
@@ -2997,11 +2997,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "say",
+      "meaning": "decir",
       "pronunciation": {
         "zh_pinyin": "yue"
       },
-      "context": "Radical Kangxi #73 que significa \"say\". 4 trazos.",
+      "context": "Radical Kangxi #73 que significa \"decir\". 4 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #73 • 4 trazos"
@@ -3265,12 +3265,12 @@
     },
     "毛": {
       "translations": {
-        "es": "fur",
+        "es": "pelo",
         "en": "fur",
-        "de": "fur",
-        "pt": "fur",
-        "ru": "fur",
-        "ruRom": "fur",
+        "de": "Fell",
+        "pt": "pelo",
+        "ru": "мех",
+        "ruRom": "mekh",
         "zh": "毛",
         "zhPinyin": "mao"
       },
@@ -3285,11 +3285,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "fur",
+      "meaning": "pelo",
       "pronunciation": {
         "zh_pinyin": "mao"
       },
-      "context": "Radical Kangxi #82 que significa \"fur\". 4 trazos.",
+      "context": "Radical Kangxi #82 que significa \"pelo\". 4 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #82 • 4 trazos"
@@ -4547,10 +4547,10 @@
       "translations": {
         "es": "red",
         "en": "net",
-        "de": "red",
-        "pt": "red",
-        "ru": "red",
-        "ruRom": "red",
+        "de": "Netz",
+        "pt": "rede",
+        "ru": "сеть",
+        "ruRom": "set",
         "zh": "网",
         "zhPinyin": "unknown"
       },
@@ -7297,12 +7297,12 @@
     },
     "鼠": {
       "translations": {
-        "es": "rat",
+        "es": "rata",
         "en": "rat",
-        "de": "rat",
-        "pt": "rat",
-        "ru": "rat",
-        "ruRom": "rat",
+        "de": "Ratte",
+        "pt": "rato",
+        "ru": "крыса",
+        "ruRom": "krysa",
         "zh": "鼠",
         "zhPinyin": "shu"
       },
@@ -7317,11 +7317,11 @@
       "lessons": [
         "Radical Dictionary"
       ],
-      "meaning": "rat",
+      "meaning": "rata",
       "pronunciation": {
         "zh_pinyin": "shu"
       },
-      "context": "Radical Kangxi #208 que significa \"rat\". 13 trazos.",
+      "context": "Radical Kangxi #208 que significa \"rata\". 13 trazos.",
       "sources": {
         "lesson": "Radical Dictionary",
         "context": "Radical Kangxi #208 • 13 trazos"
