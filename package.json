@@ -15,7 +15,8 @@
     "analyze-json": "node scripts/analyze-json-redundancy.mjs",
     "simplify-json": "node scripts/simplify-json-system.mjs",
     "build-vocabulary": "node scripts/build-lesson-vocabulary.mjs",
-    "update-all": "npm run build-vocabulary && npm run download-strokes && npm run download-cedict && npm run integrate-chinese",
+    "generate-dictionaries": "node scripts/generate-language-dictionaries.mjs",
+    "update-all": "npm run build-vocabulary && npm run generate-dictionaries && npm run download-strokes && npm run download-cedict && npm run integrate-chinese",
     "prepare": "command -v pre-commit >/dev/null 2>&1 && pre-commit install || echo 'Pre-commit not available, skipping hooks setup'",
     "precommit-setup": "pip3 install pre-commit && pre-commit install",
     "validate-lessons": "python3 scripts/validate-lesson.py src/content/blog/dia-*.md"

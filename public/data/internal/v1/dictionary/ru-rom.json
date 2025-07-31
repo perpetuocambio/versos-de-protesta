@@ -1,0 +1,3290 @@
+{
+  "meta": {
+    "language": "ruRom",
+    "name": "Русский Rom.",
+    "nativeName": "Russky Romanized",
+    "flag": "🇷🇺",
+    "wordCount": 137,
+    "lastUpdated": "2025-07-31T17:20:42.735Z",
+    "version": "1.0.0",
+    "generatedBy": "generate-language-dictionaries.mjs",
+    "sourceFile": "lesson-words.json"
+  },
+  "words": {
+    "rabóchiy": {
+      "id": "trabajador-worker",
+      "term": "rabóchiy",
+      "category": "sustantivo",
+      "translations": {
+        "es": "trabajador",
+        "en": "worker",
+        "de": "Arbeiter",
+        "pt": "trabalhador",
+        "ru": "рабочий",
+        "ruRom": "rabóchiy",
+        "zh": "工人",
+        "zhPinyin": "gōngrén"
+      },
+      "lessons": [
+        0,
+        6,
+        11
+      ],
+      "frequency": 3,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "7",
+      "zhRadical": "工 (trabajo)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "bor'bá": {
+      "id": "lucha-struggle",
+      "term": "bor'bá",
+      "category": "sustantivo",
+      "translations": {
+        "es": "lucha",
+        "en": "struggle",
+        "de": "Kampf",
+        "pt": "luta",
+        "ru": "борьба",
+        "ruRom": "bor'bá",
+        "zh": "斗争",
+        "zhPinyin": "dòuzhēng"
+      },
+      "lessons": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "frequency": 7,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "12",
+      "zhRadical": "斗 (lucha)",
+      "zhStructure": "independiente"
+    },
+    "svobóda": {
+      "id": "libertad-freedom",
+      "term": "svobóda",
+      "category": "sustantivo",
+      "translations": {
+        "es": "libertad",
+        "en": "freedom",
+        "de": "Freiheit",
+        "pt": "liberdade",
+        "ru": "свобода",
+        "ruRom": "svobóda",
+        "zh": "自由",
+        "zhPinyin": "zìyóu"
+      },
+      "lessons": [
+        0,
+        4,
+        5,
+        8,
+        9
+      ],
+      "frequency": 5,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "11",
+      "zhRadical": "自 (uno mismo)",
+      "zhStructure": "arriba-abajo"
+    },
+    "naród": {
+      "id": "pueblo-people",
+      "term": "naród",
+      "category": "sustantivo",
+      "translations": {
+        "es": "pueblo",
+        "en": "people",
+        "de": "Volk",
+        "pt": "povo",
+        "ru": "народ",
+        "ruRom": "naród",
+        "zh": "人民",
+        "zhPinyin": "rénmín"
+      },
+      "lessons": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "frequency": 9,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "7",
+      "zhRadical": "人 (persona)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "vlast'": {
+      "id": "poder-power",
+      "term": "vlast'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "poder",
+        "en": "power",
+        "de": "Macht",
+        "pt": "poder",
+        "ru": "власть",
+        "ruRom": "vlast'",
+        "zh": "权力",
+        "zhPinyin": "quánlì"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "9",
+      "zhRadical": "木 (madera)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "edínstvo": {
+      "id": "unidad-unity",
+      "term": "edínstvo",
+      "category": "sustantivo",
+      "translations": {
+        "es": "unidad",
+        "en": "unity",
+        "de": "Einheit",
+        "pt": "unidade",
+        "ru": "единство",
+        "ruRom": "edínstvo",
+        "zh": "团结",
+        "zhPinyin": "tuánjié"
+      },
+      "lessons": [
+        0,
+        3,
+        11
+      ],
+      "frequency": 3,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "14",
+      "zhRadical": "囗 (recinto)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "známya": {
+      "id": "bandera-flag",
+      "term": "známya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "bandera",
+        "en": "flag",
+        "de": "Fahne",
+        "pt": "bandeira",
+        "ru": "знамя",
+        "ruRom": "známya",
+        "zh": "旗帜",
+        "zhPinyin": "qízhì"
+      },
+      "lessons": [
+        0,
+        10
+      ],
+      "frequency": 2,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "14",
+      "zhRadical": "方 (cuadrado)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "borót'sya": {
+      "id": "luchar-fight",
+      "term": "borót'sya",
+      "category": "verbo",
+      "translations": {
+        "es": "luchar",
+        "en": "fight",
+        "de": "kämpfen",
+        "pt": "lutar",
+        "ru": "бороться",
+        "ruRom": "borót'sya",
+        "zh": "战斗",
+        "zhPinyin": "zhàndòu"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "16",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "soprotivlyát'sya": {
+      "id": "resistir-resist",
+      "term": "soprotivlyát'sya",
+      "category": "verbo",
+      "translations": {
+        "es": "resistir",
+        "en": "resist",
+        "de": "widerstehen",
+        "pt": "resistir",
+        "ru": "сопротивляться",
+        "ruRom": "soprotivlyát'sya",
+        "zh": "反抗",
+        "zhPinyin": "fǎnkàng"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "11",
+      "zhRadical": "反 (oponer)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "zashchishchát'": {
+      "id": "defender-defend",
+      "term": "zashchishchát'",
+      "category": "verbo",
+      "translations": {
+        "es": "defender",
+        "en": "defend",
+        "de": "verteidigen",
+        "pt": "defender",
+        "ru": "защищать",
+        "ruRom": "zashchishchát'",
+        "zh": "捍卫",
+        "zhPinyin": "hànwèi"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "15",
+      "zhRadical": "扌 (mano)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "pet'": {
+      "id": "cantar-sing",
+      "term": "pet'",
+      "category": "verbo",
+      "translations": {
+        "es": "cantar",
+        "en": "sing",
+        "de": "singen",
+        "pt": "cantar",
+        "ru": "петь",
+        "ruRom": "pet'",
+        "zh": "唱",
+        "zhPinyin": "chàng"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "11",
+      "zhRadical": "口 (boca)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "marshirovat'": {
+      "id": "marchar-march",
+      "term": "marshirovat'",
+      "category": "verbo",
+      "translations": {
+        "es": "marchar",
+        "en": "march",
+        "de": "marschieren",
+        "pt": "marchar",
+        "ru": "маршировать",
+        "ruRom": "marshirovat'",
+        "zh": "行进",
+        "zhPinyin": "xíngjìn"
+      },
+      "lessons": [
+        0
+      ],
+      "frequency": 1,
+      "firstAppearance": 0,
+      "source": "dia-00-fundamentos-basicos",
+      "zhStrokes": "13",
+      "zhRadical": "行 (caminar)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "chyórnye": {
+      "id": "negras-black",
+      "term": "chyórnye",
+      "category": "adjetivo",
+      "translations": {
+        "es": "Negras",
+        "en": "black",
+        "de": "schwarze",
+        "pt": "negras",
+        "ru": "чёрные",
+        "ruRom": "chyórnye",
+        "zh": "黑色的",
+        "zhPinyin": "hēisè de"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "12",
+      "zhRadical": "黑 (negro)",
+      "zhStructure": "arriba-abajo"
+    },
+    "búri": {
+      "id": "tormentas-storms",
+      "term": "búri",
+      "category": "sustantivo",
+      "translations": {
+        "es": "tormentas",
+        "en": "storms",
+        "de": "Stürme",
+        "pt": "tempestades",
+        "ru": "бури",
+        "ruRom": "búri",
+        "zh": "风暴",
+        "zhPinyin": "fēng bào"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "13",
+      "zhRadical": "风 (viento)",
+      "zhStructure": "independiente"
+    },
+    "kolýshut": {
+      "id": "agitan-shake",
+      "term": "kolýshut",
+      "category": "verbo",
+      "translations": {
+        "es": "agitan",
+        "en": "shake",
+        "de": "schütteln",
+        "pt": "agitam",
+        "ru": "колышут",
+        "ruRom": "kolýshut",
+        "zh": "摇撼",
+        "zhPinyin": "yáohàn"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "14",
+      "zhRadical": "扌 (mano)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "nebésa": {
+      "id": "aires-skies",
+      "term": "nebésa",
+      "category": "sustantivo",
+      "translations": {
+        "es": "aires",
+        "en": "skies",
+        "de": "Lüfte",
+        "pt": "ares",
+        "ru": "небеса",
+        "ruRom": "nebésa",
+        "zh": "天空",
+        "zhPinyin": "tiānkōng"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "12",
+      "zhRadical": "天 (cielo)",
+      "zhStructure": "arriba-abajo"
+    },
+    "khot'": {
+      "id": "aunque-though",
+      "term": "khot'",
+      "category": "conjunción",
+      "translations": {
+        "es": "aunque",
+        "en": "though",
+        "de": "auch wenn",
+        "pt": "embora",
+        "ru": "хоть",
+        "ruRom": "khot'",
+        "zh": "虽然",
+        "zhPinyin": "suīrán"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "9",
+      "zhRadical": "虫 (insecto)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "zhdyot": {
+      "id": "espere-await",
+      "term": "zhdyot",
+      "category": "verbo",
+      "translations": {
+        "es": "espere",
+        "en": "await",
+        "de": "erwarten",
+        "pt": "espere",
+        "ru": "ждёт",
+        "ruRom": "zhdyot",
+        "zh": "等待",
+        "zhPinyin": "děng dài"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "12",
+      "zhRadical": "竹 (bambú)",
+      "zhStructure": "arriba-abajo"
+    },
+    "bol'": {
+      "id": "dolor-pain",
+      "term": "bol'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "dolor",
+        "en": "pain",
+        "de": "Schmerz",
+        "pt": "dor",
+        "ru": "боль",
+        "ruRom": "bol'",
+        "zh": "痛苦",
+        "zhPinyin": "tòngkǔ"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "12",
+      "zhRadical": "疒 (enfermedad)",
+      "zhStructure": "arriba-abajo"
+    },
+    "smert'": {
+      "id": "muerte-death",
+      "term": "smert'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "muerte",
+        "en": "death",
+        "de": "Tod",
+        "pt": "morte",
+        "ru": "смерть",
+        "ruRom": "smert'",
+        "zh": "死亡",
+        "zhPinyin": "sǐwáng"
+      },
+      "lessons": [
+        1,
+        4
+      ],
+      "frequency": 2,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "9",
+      "zhRadical": "歹 (mal)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "umirat'": {
+      "id": "morir-to-die",
+      "term": "umirat'",
+      "category": "verbo",
+      "translations": {
+        "es": "morir",
+        "en": "to die",
+        "de": "sterben",
+        "pt": "morrer",
+        "ru": "умирать",
+        "ruRom": "umirat'",
+        "zh": "死",
+        "zhPinyin": "sǐ"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "6",
+      "zhRadical": "歹 (mal)",
+      "zhStructure": "arriba-abajo"
+    },
+    "zovyót": {
+      "id": "llama-calls",
+      "term": "zovyót",
+      "category": "verbo",
+      "translations": {
+        "es": "llama",
+        "en": "calls",
+        "de": "ruft",
+        "pt": "chama",
+        "ru": "зовёт",
+        "ruRom": "zovyót",
+        "zh": "召唤",
+        "zhPinyin": "zhàohuàn"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "9",
+      "zhRadical": "召 (convocar)",
+      "zhStructure": "arriba-abajo"
+    },
+    "dolg": {
+      "id": "deber-duty",
+      "term": "dolg",
+      "category": "sustantivo",
+      "translations": {
+        "es": "deber",
+        "en": "duty",
+        "de": "Pflicht",
+        "pt": "dever",
+        "ru": "долг",
+        "ruRom": "dolg",
+        "zh": "职责",
+        "zhPinyin": "zhízé"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "11",
+      "zhRadical": "耳 (oreja)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "anarkhizm": {
+      "id": "anarquismo-anarchism",
+      "term": "anarkhizm",
+      "category": "sustantivo",
+      "translations": {
+        "es": "anarquismo",
+        "en": "anarchism",
+        "de": "Anarchismus",
+        "pt": "anarquismo",
+        "ru": "анархизм",
+        "ruRom": "anarkhizm",
+        "zh": "无政府主义",
+        "zhPinyin": "wú zhèngfǔ zhǔyì"
+      },
+      "lessons": [
+        1,
+        9
+      ],
+      "frequency": 2,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "24",
+      "zhRadical": "无 (sin)",
+      "zhStructure": "compuesto"
+    },
+    "samoupravléniye": {
+      "id": "autogesti-n-self-management",
+      "term": "samoupravléniye",
+      "category": "sustantivo",
+      "translations": {
+        "es": "Autogestión",
+        "en": "self-management",
+        "de": "Selbstverwaltung",
+        "pt": "autogestão",
+        "ru": "самоуправление",
+        "ruRom": "samoupravléniye",
+        "zh": "自治管理",
+        "zhPinyin": "zìzhì guǎnlǐ"
+      },
+      "lessons": [
+        1
+      ],
+      "frequency": 1,
+      "firstAppearance": 1,
+      "source": "dia-01-a-las-barricadas",
+      "zhStrokes": "19",
+      "zhRadical": "自 (uno mismo)",
+      "zhStructure": "compuesto"
+    },
+    "sindikalizm": {
+      "id": "sindicalismo-syndicalism",
+      "term": "sindikalizm",
+      "category": "sustantivo",
+      "translations": {
+        "es": "sindicalismo",
+        "en": "syndicalism",
+        "de": "Syndikalismus",
+        "pt": "sindicalismo",
+        "ru": "синдикализм",
+        "ruRom": "sindikalizm",
+        "zh": "工团主义",
+        "zhPinyin": "gōngtuán zhǔyì"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "17",
+      "zhRadical": "工 (trabajo) + 囗 (recinto) + 主 (señor)",
+      "zhStructure": "compuesto"
+    },
+    "vstavay": {
+      "id": "lev-ntate-rise-up",
+      "term": "vstavay",
+      "category": "verbo",
+      "translations": {
+        "es": "levántate",
+        "en": "rise up",
+        "de": "steh auf",
+        "pt": "levanta-te",
+        "ru": "вставай",
+        "ruRom": "vstavay",
+        "zh": "起来",
+        "zhPinyin": "qǐlái"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "10",
+      "zhRadical": "走 (caminar)",
+      "zhStructure": "arriba-abajo"
+    },
+    "golodnye": {
+      "id": "hambrientos-hungry",
+      "term": "golodnye",
+      "category": "adjetivo",
+      "translations": {
+        "es": "hambrientos",
+        "en": "hungry",
+        "de": "Hungrige",
+        "pt": "famintos",
+        "ru": "голодные",
+        "ruRom": "golodnye",
+        "zh": "饥饿的",
+        "zhPinyin": "jī'è de"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "19",
+      "zhRadical": "食 (comida)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "proklyatye": {
+      "id": "malditos-damned",
+      "term": "proklyatye",
+      "category": "adjetivo",
+      "translations": {
+        "es": "malditos",
+        "en": "damned",
+        "de": "Verdammte",
+        "pt": "malditos",
+        "ru": "проклятые",
+        "ruRom": "proklyatye",
+        "zh": "受诅咒的",
+        "zhPinyin": "shòu zǔzhòu de"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "25",
+      "zhRadical": "示 (sagrado)",
+      "zhStructure": "compuesto"
+    },
+    "raby": {
+      "id": "esclavos-slaves",
+      "term": "raby",
+      "category": "sustantivo",
+      "translations": {
+        "es": "esclavos",
+        "en": "slaves",
+        "de": "Sklaven",
+        "pt": "escravos",
+        "ru": "рабы",
+        "ruRom": "raby",
+        "zh": "奴隶",
+        "zhPinyin": "núlì"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "8",
+      "zhRadical": "女 (mujer)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "krov'": {
+      "id": "sangre-blood",
+      "term": "krov'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "sangre",
+        "en": "blood",
+        "de": "Blut",
+        "pt": "sangue",
+        "ru": "кровь",
+        "ruRom": "krov'",
+        "zh": "血液",
+        "zhPinyin": "xuèyè"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "12",
+      "zhRadical": "血 (sangre)",
+      "zhStructure": "independiente"
+    },
+    "kipit": {
+      "id": "hierve-boils",
+      "term": "kipit",
+      "category": "verbo",
+      "translations": {
+        "es": "hierve",
+        "en": "boils",
+        "de": "kocht",
+        "pt": "ferve",
+        "ru": "кипит",
+        "ruRom": "kipit",
+        "zh": "沸腾",
+        "zhPinyin": "fèi téng"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "16",
+      "zhRadical": "水 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "razum": {
+      "id": "raz-n-reason",
+      "term": "razum",
+      "category": "sustantivo",
+      "translations": {
+        "es": "razón",
+        "en": "reason",
+        "de": "Vernunft",
+        "pt": "razão",
+        "ru": "разум",
+        "ruRom": "razum",
+        "zh": "理性",
+        "zhPinyin": "lǐxìng"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "15",
+      "zhRadical": "王 (rey)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "borot'sya": {
+      "id": "luchar-to-fight",
+      "term": "borot'sya",
+      "category": "verbo",
+      "translations": {
+        "es": "luchar",
+        "en": "to fight",
+        "de": "kämpfen",
+        "pt": "lutar",
+        "ru": "бороться",
+        "ruRom": "borot'sya",
+        "zh": "战斗",
+        "zhPinyin": "zhàndòu"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "16",
+      "zhRadical": "戈 (arma)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "mir": {
+      "id": "mundo-world",
+      "term": "mir",
+      "category": "sustantivo",
+      "translations": {
+        "es": "mundo",
+        "en": "world",
+        "de": "Welt",
+        "pt": "mundo",
+        "ru": "мир",
+        "ruRom": "mir",
+        "zh": "世界",
+        "zhPinyin": "shìjiè"
+      },
+      "lessons": [
+        2,
+        6
+      ],
+      "frequency": 2,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "9",
+      "zhRadical": "世 (generación)",
+      "zhStructure": "arriba-abajo"
+    },
+    "nichego": {
+      "id": "nada-nothing",
+      "term": "nichego",
+      "category": "pronombre",
+      "translations": {
+        "es": "nada",
+        "en": "nothing",
+        "de": "nichts",
+        "pt": "nada",
+        "ru": "ничего",
+        "ruRom": "nichego",
+        "zh": "什么都没有",
+        "zhPinyin": "shénme dōu méiyǒu"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "25",
+      "zhRadical": "什 (qué)",
+      "zhStructure": "compuesto"
+    },
+    "proletariat": {
+      "id": "proletariado-proletariat",
+      "term": "proletariat",
+      "category": "sustantivo",
+      "translations": {
+        "es": "proletariado",
+        "en": "proletariat",
+        "de": "Proletariat",
+        "pt": "proletariado",
+        "ru": "пролетариат",
+        "ruRom": "proletariat",
+        "zh": "无产阶级",
+        "zhPinyin": "wúchǎnjiējí"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "20",
+      "zhRadical": "无 (sin)",
+      "zhStructure": "compuesto"
+    },
+    "sotsializm": {
+      "id": "socialismo-socialism",
+      "term": "sotsializm",
+      "category": "sustantivo",
+      "translations": {
+        "es": "socialismo",
+        "en": "socialism",
+        "de": "Sozialismus",
+        "pt": "socialismo",
+        "ru": "социализм",
+        "ruRom": "sotsializm",
+        "zh": "社会主义",
+        "zhPinyin": "shèhuìzhǔyì"
+      },
+      "lessons": [
+        2,
+        7
+      ],
+      "frequency": 2,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "22",
+      "zhRadical": "社 (sociedad)",
+      "zhStructure": "compuesto"
+    },
+    "rabochiy klass": {
+      "id": "clase-obrera-working-class",
+      "term": "rabochiy klass",
+      "category": "sustantivo",
+      "translations": {
+        "es": "clase obrera",
+        "en": "working class",
+        "de": "Arbeiterklasse",
+        "pt": "classe operária",
+        "ru": "рабочий класс",
+        "ruRom": "rabochiy klass",
+        "zh": "工人阶级",
+        "zhPinyin": "gōngrén jiējí"
+      },
+      "lessons": [
+        2
+      ],
+      "frequency": 1,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "18",
+      "zhRadical": "工 (trabajo)",
+      "zhStructure": "compuesto"
+    },
+    "solidarnost'": {
+      "id": "solidaridad-solidarity",
+      "term": "solidarnost'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "solidaridad",
+        "en": "solidarity",
+        "de": "Solidarität",
+        "pt": "solidariedade",
+        "ru": "солидарность",
+        "ruRom": "solidarnost'",
+        "zh": "团结",
+        "zhPinyin": "tuánjié"
+      },
+      "lessons": [
+        2,
+        9,
+        11
+      ],
+      "frequency": 3,
+      "firstAppearance": 2,
+      "source": "dia-02-l-internationale",
+      "zhStrokes": "14",
+      "zhRadical": "囗 (recinto)",
+      "zhStructure": "arriba-abajo"
+    },
+    "edinyy": {
+      "id": "unido-united",
+      "term": "edinyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "unido",
+        "en": "united",
+        "de": "vereint",
+        "pt": "unido",
+        "ru": "единый",
+        "ruRom": "edinyy",
+        "zh": "团结的",
+        "zhPinyin": "tuánjié de"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "14",
+      "zhRadical": "囗 (recinto)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "pobezhdyonnyy": {
+      "id": "vencido-defeated",
+      "term": "pobezhdyonnyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "vencido",
+        "en": "defeated",
+        "de": "besiegt",
+        "pt": "vencido",
+        "ru": "побеждённый",
+        "ruRom": "pobezhdyonnyy",
+        "zh": "被战胜的",
+        "zhPinyin": "bèi zhànshèng de"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "12",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "pobedit'": {
+      "id": "vencer-to-conquer",
+      "term": "pobedit'",
+      "category": "verbo",
+      "translations": {
+        "es": "vencer",
+        "en": "to conquer",
+        "de": "besiegen",
+        "pt": "vencer",
+        "ru": "победить",
+        "ruRom": "pobedit'",
+        "zh": "战胜",
+        "zhPinyin": "zhànshèng"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "12",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "nikogda": {
+      "id": "jam-s-never",
+      "term": "nikogda",
+      "category": "adverbio",
+      "translations": {
+        "es": "jamás",
+        "en": "never",
+        "de": "niemals",
+        "pt": "jamais",
+        "ru": "никогда",
+        "ruRom": "nikogda",
+        "zh": "永远不会",
+        "zhPinyin": "yǒngyuǎn bù huì"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "15",
+      "zhRadical": "水 (agua) + 辶 (caminar)",
+      "zhStructure": "compuesto"
+    },
+    "budet": {
+      "id": "ser--will-be",
+      "term": "budet",
+      "category": "verbo",
+      "translations": {
+        "es": "será",
+        "en": "will be",
+        "de": "wird sein",
+        "pt": "será",
+        "ru": "будет",
+        "ruRom": "budet",
+        "zh": "将是",
+        "zhPinyin": "jiāng shì"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "12",
+      "zhRadical": "寸 (pulgada) + 日 (sol)",
+      "zhStructure": "compuesto"
+    },
+    "marsh": {
+      "id": "marcha-march",
+      "term": "marsh",
+      "category": "sustantivo",
+      "translations": {
+        "es": "marcha",
+        "en": "march",
+        "de": "Marsch",
+        "pt": "marcha",
+        "ru": "марш",
+        "ruRom": "marsh",
+        "zh": "行进",
+        "zhPinyin": "xíngjìn"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "13",
+      "zhRadical": "行 (caminar) + 辶 (caminar)",
+      "zhStructure": "compuesto"
+    },
+    "vechnaya": {
+      "id": "eterna-eternal",
+      "term": "vechnaya",
+      "category": "adjetivo",
+      "translations": {
+        "es": "eterna",
+        "en": "eternal",
+        "de": "ewig",
+        "pt": "eterna",
+        "ru": "вечная",
+        "ruRom": "vechnaya",
+        "zh": "永恒的",
+        "zhPinyin": "yǒnghéng de"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "14",
+      "zhRadical": "水 (agua) + 心 (corazón)",
+      "zhStructure": "compuesto"
+    },
+    "istoriya": {
+      "id": "historia-history",
+      "term": "istoriya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "historia",
+        "en": "history",
+        "de": "Geschichte",
+        "pt": "história",
+        "ru": "история",
+        "ruRom": "istoriya",
+        "zh": "历史",
+        "zhPinyin": "lìshǐ"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "9",
+      "zhRadical": "厂 (acantilado) + 口 (boca)",
+      "zhStructure": "compuesto"
+    },
+    "znamyona": {
+      "id": "banderas-banners",
+      "term": "znamyona",
+      "category": "sustantivo",
+      "translations": {
+        "es": "banderas",
+        "en": "banners",
+        "de": "Fahnen",
+        "pt": "bandeiras",
+        "ru": "знамёна",
+        "ruRom": "znamyona",
+        "zh": "旗帜",
+        "zhPinyin": "qízhì"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "14",
+      "zhRadical": "方 (dirección)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "zarya": {
+      "id": "amanecer-dawn",
+      "term": "zarya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "amanecer",
+        "en": "dawn",
+        "de": "Morgendämmerung",
+        "pt": "amanhecer",
+        "ru": "заря",
+        "ruRom": "zarya",
+        "zh": "黎明",
+        "zhPinyin": "lí míng"
+      },
+      "lessons": [
+        3
+      ],
+      "frequency": 1,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "23",
+      "zhRadical": "黍 (mijo) + 日 (sol)",
+      "zhStructure": "compuesto"
+    },
+    "pobeda": {
+      "id": "victoria-victory",
+      "term": "pobeda",
+      "category": "sustantivo",
+      "translations": {
+        "es": "victoria",
+        "en": "victory",
+        "de": "Sieg",
+        "pt": "vitória",
+        "ru": "победа",
+        "ruRom": "pobeda",
+        "zh": "胜利",
+        "zhPinyin": "shènglì"
+      },
+      "lessons": [
+        3,
+        5,
+        8
+      ],
+      "frequency": 3,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido",
+      "zhStrokes": "14",
+      "zhRadical": "力 (fuerza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "tysyacha devyat'sot sem'desyat": {
+      "id": "mil-novecientos-setenta-nineteen-seventy",
+      "term": "tysyacha devyat'sot sem'desyat",
+      "category": "sustantivo",
+      "translations": {
+        "es": "mil novecientos setenta",
+        "en": "nineteen seventy",
+        "de": "neunzehnhundertsiebzig",
+        "pt": "mil novecentos e setenta",
+        "ru": "тысяча девятьсот семьдесят",
+        "ruRom": "tysyacha devyat'sot sem'desyat",
+        "zh": "一九七零年",
+        "zhPinyin": "yī jiǔ qī líng nián"
+      },
+      "lessons": [
+        3,
+        4
+      ],
+      "frequency": 2,
+      "firstAppearance": 3,
+      "source": "dia-03-el-pueblo-unido"
+    },
+    "galeon": {
+      "id": "gale-n-galleon",
+      "term": "galeon",
+      "category": "sustantivo",
+      "translations": {
+        "es": "galeón",
+        "en": "galleon",
+        "de": "Galeone",
+        "pt": "galeão",
+        "ru": "галеон",
+        "ruRom": "galeon",
+        "zh": "大帆船",
+        "zhPinyin": "dà fānchuán"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "12",
+      "zhRadical": "船 (barco)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "moryaki": {
+      "id": "marineros-sailors",
+      "term": "moryaki",
+      "category": "sustantivo",
+      "translations": {
+        "es": "marineros",
+        "en": "sailors",
+        "de": "Seeleute",
+        "pt": "marinheiros",
+        "ru": "моряки",
+        "ruRom": "moryaki",
+        "zh": "船员",
+        "zhPinyin": "chuányuán"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "16",
+      "zhRadical": "舟 (barco) + 口 (boca)",
+      "zhStructure": "compuesto"
+    },
+    "port": {
+      "id": "puerto-port",
+      "term": "port",
+      "category": "sustantivo",
+      "translations": {
+        "es": "puerto",
+        "en": "port",
+        "de": "Hafen",
+        "pt": "porto",
+        "ru": "порт",
+        "ruRom": "port",
+        "zh": "港口",
+        "zhPinyin": "gǎngkǒu"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "15",
+      "zhRadical": "氵 (agua) + 口 (boca)",
+      "zhStructure": "compuesto"
+    },
+    "veter": {
+      "id": "viento-wind",
+      "term": "veter",
+      "category": "sustantivo",
+      "translations": {
+        "es": "viento",
+        "en": "wind",
+        "de": "Wind",
+        "pt": "vento",
+        "ru": "ветер",
+        "ruRom": "veter",
+        "zh": "风",
+        "zhPinyin": "fēng"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "4",
+      "zhRadical": "风 (viento)",
+      "zhStructure": "independiente"
+    },
+    "volna": {
+      "id": "oleada-wave",
+      "term": "volna",
+      "category": "sustantivo",
+      "translations": {
+        "es": "oleada",
+        "en": "wave",
+        "de": "Welle",
+        "pt": "onda",
+        "ru": "волна",
+        "ruRom": "volna",
+        "zh": "波浪",
+        "zhPinyin": "bō làng"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "10",
+      "zhRadical": "氵 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "rab": {
+      "id": "esclavo-slave",
+      "term": "rab",
+      "category": "sustantivo",
+      "translations": {
+        "es": "esclavo",
+        "en": "slave",
+        "de": "Sklave",
+        "pt": "escravo",
+        "ru": "раб",
+        "ruRom": "rab",
+        "zh": "奴隶",
+        "zhPinyin": "núlì"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "12",
+      "zhRadical": "女 (mujer)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "tsepi": {
+      "id": "cadenas-chains",
+      "term": "tsepi",
+      "category": "sustantivo",
+      "translations": {
+        "es": "cadenas",
+        "en": "chains",
+        "de": "Ketten",
+        "pt": "correntes",
+        "ru": "цепи",
+        "ruRom": "tsepi",
+        "zh": "锁链",
+        "zhPinyin": "suǒliàn"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "13",
+      "zhRadical": "钅 (metal)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "dvizhenie": {
+      "id": "movimiento-movement",
+      "term": "dvizhenie",
+      "category": "sustantivo",
+      "translations": {
+        "es": "movimiento",
+        "en": "movement",
+        "de": "Bewegung",
+        "pt": "movimento",
+        "ru": "движение",
+        "ruRom": "dvizhenie",
+        "zh": "运动",
+        "zhPinyin": "yùn dòng"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "11",
+      "zhRadical": "辶 (caminar)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "anarkhiya": {
+      "id": "anarqu-a-anarchy",
+      "term": "anarkhiya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "anarquía",
+        "en": "anarchy",
+        "de": "Anarchie",
+        "pt": "anarquia",
+        "ru": "анархия",
+        "ruRom": "anarkhiya",
+        "zh": "无政府主义",
+        "zhPinyin": "wú zhèngfǔ zhǔyì"
+      },
+      "lessons": [
+        4
+      ],
+      "frequency": 1,
+      "firstAppearance": 4,
+      "source": "dia-04-il-galeone",
+      "zhStrokes": "16",
+      "zhRadical": "无 (sin)",
+      "zhStructure": "compuesto"
+    },
+    "partizany": {
+      "id": "partisanos-partisans",
+      "term": "partizany",
+      "category": "sustantivo",
+      "translations": {
+        "es": "partisanos",
+        "en": "partisans",
+        "de": "Partisanen",
+        "pt": "partidários",
+        "ru": "партизаны",
+        "ruRom": "partizany",
+        "zh": "游击队",
+        "zhPinyin": "yóujīduì"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "9",
+      "zhRadical": "辶 (camino)",
+      "zhStructure": "semi-encierro"
+    },
+    "soprotivlenie": {
+      "id": "resistencia-resistance",
+      "term": "soprotivlenie",
+      "category": "sustantivo",
+      "translations": {
+        "es": "resistencia",
+        "en": "resistance",
+        "de": "Widerstand",
+        "pt": "resistência",
+        "ru": "сопротивление",
+        "ruRom": "soprotivlenie",
+        "zh": "抵抗",
+        "zhPinyin": "dǐkàng"
+      },
+      "lessons": [
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "frequency": 5,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "15",
+      "zhRadical": "手 (mano)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "voyna": {
+      "id": "guerra-war",
+      "term": "voyna",
+      "category": "sustantivo",
+      "translations": {
+        "es": "guerra",
+        "en": "war",
+        "de": "Krieg",
+        "pt": "guerra",
+        "ru": "война",
+        "ruRom": "voyna",
+        "zh": "战争",
+        "zhPinyin": "zhànzhēng"
+      },
+      "lessons": [
+        5,
+        6,
+        8
+      ],
+      "frequency": 3,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "16",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "soldaty": {
+      "id": "soldados-soldiers",
+      "term": "soldaty",
+      "category": "sustantivo",
+      "translations": {
+        "es": "soldados",
+        "en": "soldiers",
+        "de": "Soldaten",
+        "pt": "soldados",
+        "ru": "солдаты",
+        "ruRom": "soldaty",
+        "zh": "士兵",
+        "zhPinyin": "shìbīng"
+      },
+      "lessons": [
+        5,
+        8
+      ],
+      "frequency": 2,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "10",
+      "zhRadical": "士 (soldado)",
+      "zhStructure": "arriba-abajo"
+    },
+    "gory": {
+      "id": "monta-as-mountains",
+      "term": "gory",
+      "category": "sustantivo",
+      "translations": {
+        "es": "montañas",
+        "en": "mountains",
+        "de": "Berge",
+        "pt": "montanhas",
+        "ru": "горы",
+        "ruRom": "gory",
+        "zh": "山脉",
+        "zhPinyin": "shānmài"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "10",
+      "zhRadical": "山 (montaña)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "osvoboditeli": {
+      "id": "libertadores-liberators",
+      "term": "osvoboditeli",
+      "category": "sustantivo",
+      "translations": {
+        "es": "libertadores",
+        "en": "liberators",
+        "de": "Befreier",
+        "pt": "libertadores",
+        "ru": "освободители",
+        "ruRom": "osvoboditeli",
+        "zh": "解放者",
+        "zhPinyin": "jiěfàng zhě"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "13",
+      "zhRadical": "角 (ángulo)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "diversiya": {
+      "id": "sabotaje-sabotage",
+      "term": "diversiya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "sabotaje",
+        "en": "sabotage",
+        "de": "Sabotage",
+        "pt": "sabotagem",
+        "ru": "диверсия",
+        "ruRom": "diversiya",
+        "zh": "破坏",
+        "zhPinyin": "pòhuài"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "13",
+      "zhRadical": "石 (piedra)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "podpol'nyy": {
+      "id": "clandestino-underground",
+      "term": "podpol'nyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "clandestino",
+        "en": "underground",
+        "de": "Untergrund",
+        "pt": "clandestino",
+        "ru": "подпольный",
+        "ruRom": "podpol'nyy",
+        "zh": "地下的",
+        "zhPinyin": "dìxià de"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "9",
+      "zhRadical": "土 (tierra)",
+      "zhStructure": "arriba-abajo"
+    },
+    "fashizm": {
+      "id": "fascismo-fascism",
+      "term": "fashizm",
+      "category": "sustantivo",
+      "translations": {
+        "es": "fascismo",
+        "en": "fascism",
+        "de": "Faschismus",
+        "pt": "fascismo",
+        "ru": "фашизм",
+        "ruRom": "fashizm",
+        "zh": "法西斯主义",
+        "zhPinyin": "fǎxīsī zhǔyì"
+      },
+      "lessons": [
+        5,
+        6,
+        8,
+        11
+      ],
+      "frequency": 4,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "23",
+      "zhRadical": "氵 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "antifashist": {
+      "id": "antifascista-antifascist",
+      "term": "antifashist",
+      "category": "adjetivo",
+      "translations": {
+        "es": "antifascista",
+        "en": "antifascist",
+        "de": "Antifaschist",
+        "pt": "antifascista",
+        "ru": "антифашист",
+        "ruRom": "antifashist",
+        "zh": "反法西斯",
+        "zhPinyin": "fǎn fǎxīsī"
+      },
+      "lessons": [
+        5,
+        6,
+        11
+      ],
+      "frequency": 3,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "16",
+      "zhRadical": "反 (opuesto)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "boytsy": {
+      "id": "combatientes-fighters",
+      "term": "boytsy",
+      "category": "sustantivo",
+      "translations": {
+        "es": "combatientes",
+        "en": "fighters",
+        "de": "Kämpfer",
+        "pt": "combatentes",
+        "ru": "бойцы",
+        "ruRom": "boytsy",
+        "zh": "战士",
+        "zhPinyin": "zhànshì"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "10",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "vrag": {
+      "id": "enemigo-enemy",
+      "term": "vrag",
+      "category": "sustantivo",
+      "translations": {
+        "es": "enemigo",
+        "en": "enemy",
+        "de": "Feind",
+        "pt": "inimigo",
+        "ru": "враг",
+        "ruRom": "vrag",
+        "zh": "敌人",
+        "zhPinyin": "dírén"
+      },
+      "lessons": [
+        5
+      ],
+      "frequency": 1,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "6",
+      "zhRadical": "攴 (golpear)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "rodina": {
+      "id": "patria-homeland",
+      "term": "rodina",
+      "category": "sustantivo",
+      "translations": {
+        "es": "patria",
+        "en": "homeland",
+        "de": "Vaterland",
+        "pt": "pátria",
+        "ru": "родина",
+        "ruRom": "rodina",
+        "zh": "祖国",
+        "zhPinyin": "zǔguó"
+      },
+      "lessons": [
+        5,
+        8
+      ],
+      "frequency": 2,
+      "firstAppearance": 5,
+      "source": "dia-05-pesn-partizan",
+      "zhStrokes": "14",
+      "zhRadical": "示 (sagrado)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "taynyy": {
+      "id": "secreto-secret",
+      "term": "taynyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "secreto",
+        "en": "secret",
+        "de": "heimlich",
+        "pt": "secreto",
+        "ru": "тайный",
+        "ruRom": "taynyy",
+        "zh": "秘密的",
+        "zhPinyin": "mìmì de"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "21",
+      "zhRadical": "禾 (cereal) + 宀 (techo)",
+      "zhStructure": "compuesto"
+    },
+    "shyopot": {
+      "id": "susurro-whisper",
+      "term": "shyopot",
+      "category": "sustantivo",
+      "translations": {
+        "es": "susurro",
+        "en": "whisper",
+        "de": "Geflüster",
+        "pt": "sussurro",
+        "ru": "шёпот",
+        "ruRom": "shyopot",
+        "zh": "窃窃私语",
+        "zhPinyin": "qièqiè sīyǔ"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "31",
+      "zhRadical": "穴 (cueva) + 禾 (cereal) + 言 (habla)",
+      "zhStructure": "compuesto"
+    },
+    "razboynichjya orda": {
+      "id": "horda-saqueadora-robber-horde",
+      "term": "razboynichjya orda",
+      "category": "sustantivo",
+      "translations": {
+        "es": "horda saqueadora",
+        "en": "robber horde",
+        "de": "Räuberheer",
+        "pt": "horda saqueadora",
+        "ru": "разбойничья орда",
+        "ruRom": "razboynichjya orda",
+        "zh": "强盗军队",
+        "zhPinyin": "qiángdào jūnduì"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "20",
+      "zhRadical": "弓 (arco) + 皿 (plato) + 冠 (corona)",
+      "zhStructure": "compuesto"
+    },
+    "slyshat'": {
+      "id": "escuchar-to-hear",
+      "term": "slyshat'",
+      "category": "verbo",
+      "translations": {
+        "es": "escuchar",
+        "en": "to hear",
+        "de": "hören",
+        "pt": "escutar",
+        "ru": "слышать",
+        "ruRom": "slyshat'",
+        "zh": "听见",
+        "zhPinyin": "tīngjiàn"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "15",
+      "zhRadical": "口 (boca) + 见 (ver)",
+      "zhStructure": "compuesto"
+    },
+    "voyennyy ministr": {
+      "id": "ministro-de-guerra-war-minister",
+      "term": "voyennyy ministr",
+      "category": "sustantivo",
+      "translations": {
+        "es": "ministro de guerra",
+        "en": "war minister",
+        "de": "Kriegsminister",
+        "pt": "ministro da guerra",
+        "ru": "военный министр",
+        "ruRom": "voyennyy ministr",
+        "zh": "战争部长",
+        "zhPinyin": "zhànzhēng bùzhǎng"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "13",
+      "zhRadical": "戈 (lanza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "sovetskiy svet": {
+      "id": "luz-sovi-tica-soviet-light",
+      "term": "sovetskiy svet",
+      "category": "sustantivo",
+      "translations": {
+        "es": "luz soviética",
+        "en": "Soviet light",
+        "de": "Sowjetlicht",
+        "pt": "luz soviética",
+        "ru": "советский свет",
+        "ruRom": "sovetskiy svet",
+        "zh": "苏维埃之光",
+        "zhPinyin": "Sūwéi'āi zhī guāng"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "18",
+      "zhRadical": "艹 (hierba) + 止 (parar) + 日 (sol)",
+      "zhStructure": "compuesto"
+    },
+    "mirovaya respublika": {
+      "id": "rep-blica-mundial-world-republic",
+      "term": "mirovaya respublika",
+      "category": "sustantivo",
+      "translations": {
+        "es": "república mundial",
+        "en": "world republic",
+        "de": "Weltrepublik",
+        "pt": "república mundial",
+        "ru": "мировая республика",
+        "ruRom": "mirovaya respublika",
+        "zh": "世界共和国",
+        "zhPinyin": "shìjiè gònghéguó"
+      },
+      "lessons": [
+        6
+      ],
+      "frequency": 1,
+      "firstAppearance": 6,
+      "source": "dia-06-der-heimliche-aufmarsch",
+      "zhStrokes": "17",
+      "zhRadical": "世 (generación) + 共 (junto)",
+      "zhStructure": "compuesto"
+    },
+    "vostok": {
+      "id": "oriente-east",
+      "term": "vostok",
+      "category": "sustantivo",
+      "translations": {
+        "es": "oriente",
+        "en": "east",
+        "de": "Osten",
+        "pt": "oriente",
+        "ru": "восток",
+        "ruRom": "vostok",
+        "zh": "东方",
+        "zhPinyin": "dōng fāng"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "8",
+      "zhRadical": "方 (dirección)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "krasnyy": {
+      "id": "rojo-red",
+      "term": "krasnyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "rojo",
+        "en": "red",
+        "de": "rot",
+        "pt": "vermelho",
+        "ru": "красный",
+        "ruRom": "krasnyy",
+        "zh": "红",
+        "zhPinyin": "hóng"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "6",
+      "zhRadical": "纟 (seda)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "solntse": {
+      "id": "sol-sun",
+      "term": "solntse",
+      "category": "sustantivo",
+      "translations": {
+        "es": "sol",
+        "en": "sun",
+        "de": "Sonne",
+        "pt": "sol",
+        "ru": "солнце",
+        "ruRom": "solntse",
+        "zh": "太阳",
+        "zhPinyin": "tài yáng"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "10",
+      "zhRadical": "日 (sol)",
+      "zhStructure": "arriba-abajo"
+    },
+    "spasitel'": {
+      "id": "salvador-savior",
+      "term": "spasitel'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "salvador",
+        "en": "savior",
+        "de": "Retter",
+        "pt": "salvador",
+        "ru": "спаситель",
+        "ruRom": "spasitel'",
+        "zh": "救星",
+        "zhPinyin": "jiùxīng"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "15",
+      "zhRadical": "攵 (golpear) + 日 (sol)",
+      "zhStructure": "compuesto"
+    },
+    "voskhodit'": {
+      "id": "surgir-to-rise",
+      "term": "voskhodit'",
+      "category": "verbo",
+      "translations": {
+        "es": "surgir",
+        "en": "to rise",
+        "de": "aufgehen",
+        "pt": "nascer",
+        "ru": "восходить",
+        "ruRom": "voskhodit'",
+        "zh": "升起",
+        "zhPinyin": "shēngqǐ"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "8",
+      "zhRadical": "十 (diez) + 辶 (caminar)",
+      "zhStructure": "compuesto"
+    },
+    "poyavlyat'sya": {
+      "id": "aparecer-to-appear",
+      "term": "poyavlyat'sya",
+      "category": "verbo",
+      "translations": {
+        "es": "aparecer",
+        "en": "to appear",
+        "de": "erscheinen",
+        "pt": "aparecer",
+        "ru": "появляться",
+        "ruRom": "poyavlyat'sya",
+        "zh": "出现",
+        "zhPinyin": "chūxiàn"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "11",
+      "zhRadical": "凵 (recipiente) + 王 (rey)",
+      "zhStructure": "compuesto"
+    },
+    "lider": {
+      "id": "l-der-leader",
+      "term": "lider",
+      "category": "sustantivo",
+      "translations": {
+        "es": "líder",
+        "en": "leader",
+        "de": "Führer",
+        "pt": "líder",
+        "ru": "лидер",
+        "ruRom": "lider",
+        "zh": "领袖",
+        "zhPinyin": "lǐngxiù"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "17",
+      "zhRadical": "页 (página) + 衣 (ropa)",
+      "zhStructure": "compuesto"
+    },
+    "velikiy": {
+      "id": "grande-great",
+      "term": "velikiy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "grande",
+        "en": "great",
+        "de": "groß",
+        "pt": "grande",
+        "ru": "великий",
+        "ruRom": "velikiy",
+        "zh": "伟大",
+        "zhPinyin": "wěi dà"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "9",
+      "zhRadical": "亻 (persona) + 大 (grande)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "predsedatel'": {
+      "id": "presidente-chairman",
+      "term": "predsedatel'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "presidente",
+        "en": "chairman",
+        "de": "Vorsitzender",
+        "pt": "presidente",
+        "ru": "председатель",
+        "ruRom": "predsedatel'",
+        "zh": "主席",
+        "zhPinyin": "zhǔxí"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "6",
+      "zhRadical": "主 (señor)",
+      "zhStructure": "arriba-abajo"
+    },
+    "kommunisticheskaya partiya": {
+      "id": "partido-comunista-communist-party",
+      "term": "kommunisticheskaya partiya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "partido comunista",
+        "en": "communist party",
+        "de": "Kommunistische Partei",
+        "pt": "partido comunista",
+        "ru": "коммунистическая партия",
+        "ruRom": "kommunisticheskaya partiya",
+        "zh": "共产党",
+        "zhPinyin": "gòngchǎndǎng"
+      },
+      "lessons": [
+        7
+      ],
+      "frequency": 1,
+      "firstAppearance": 7,
+      "source": "dia-07-dongfang-hong",
+      "zhStrokes": "20",
+      "zhRadical": "八 (ocho) + 文 (cultura) + 子 (hijo)",
+      "zhStructure": "compuesto"
+    },
+    "svyashchennaya": {
+      "id": "sagrada-sacred",
+      "term": "svyashchennaya",
+      "category": "adjetivo",
+      "translations": {
+        "es": "sagrada",
+        "en": "sacred",
+        "de": "heilig",
+        "pt": "sagrada",
+        "ru": "священная",
+        "ruRom": "svyashchennaya",
+        "zh": "神圣的",
+        "zhPinyin": "shénshèng de"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "13",
+      "zhRadical": "示 (mostrar)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "geroyicheskiy": {
+      "id": "heroico-heroic",
+      "term": "geroyicheskiy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "heroico",
+        "en": "heroic",
+        "de": "heldenhaft",
+        "pt": "heroico",
+        "ru": "героический",
+        "ruRom": "geroyicheskiy",
+        "zh": "英勇的",
+        "zhPinyin": "yīngyǒng de"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "13",
+      "zhRadical": "艹 (hierba)",
+      "zhStructure": "arriba-abajo"
+    },
+    "vtorzheniye": {
+      "id": "invasi-n-invasion",
+      "term": "vtorzheniye",
+      "category": "sustantivo",
+      "translations": {
+        "es": "invasión",
+        "en": "invasion",
+        "de": "Invasion",
+        "pt": "invasão",
+        "ru": "вторжение",
+        "ruRom": "vtorzheniye",
+        "zh": "入侵",
+        "zhPinyin": "rùqīn"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "8",
+      "zhRadical": "入 (entrar)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "oborona": {
+      "id": "defensa-defense",
+      "term": "oborona",
+      "category": "sustantivo",
+      "translations": {
+        "es": "defensa",
+        "en": "defense",
+        "de": "Verteidigung",
+        "pt": "defesa",
+        "ru": "оборона",
+        "ruRom": "oborona",
+        "zh": "防御",
+        "zhPinyin": "fáng yù"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "11",
+      "zhRadical": "阝 (montículo) + 彳 (caminar)",
+      "zhStructure": "compuesto"
+    },
+    "blokada Leningrada": {
+      "id": "asedio-leningrado-siege-of-leningrad",
+      "term": "blokada Leningrada",
+      "category": "sustantivo",
+      "translations": {
+        "es": "asedio Leningrado",
+        "en": "Siege of Leningrad",
+        "de": "Belagerung Leningrads",
+        "pt": "cerco de Leningrado",
+        "ru": "блокада Ленинграда",
+        "ruRom": "blokada Leningrada",
+        "zh": "列宁格勒围城",
+        "zhPinyin": "Lièníngélè wéichéng"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "35",
+      "zhRadical": "列 (enumerar)",
+      "zhStructure": "compuesto"
+    },
+    "Vostochnyy front": {
+      "id": "frente-oriental-eastern-front",
+      "term": "Vostochnyy front",
+      "category": "sustantivo",
+      "translations": {
+        "es": "frente oriental",
+        "en": "Eastern Front",
+        "de": "Ostfront",
+        "pt": "frente oriental",
+        "ru": "Восточный фронт",
+        "ruRom": "Vostochnyy front",
+        "zh": "东线战场",
+        "zhPinyin": "dōngxiàn zhànchǎng"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war",
+      "zhStrokes": "22",
+      "zhRadical": "东 (este)",
+      "zhStructure": "compuesto"
+    },
+    "tysyacha devyat'sot sorok odin": {
+      "id": "mil-novecientos-cuarenta-y-uno-nineteen-forty-one",
+      "term": "tysyacha devyat'sot sorok odin",
+      "category": "sustantivo",
+      "translations": {
+        "es": "mil novecientos cuarenta y uno",
+        "en": "nineteen forty-one",
+        "de": "neunzehnhunderteinundvierzig",
+        "pt": "mil novecentos e quarenta e um",
+        "ru": "тысяча девятьсот сорок один",
+        "ruRom": "tysyacha devyat'sot sorok odin",
+        "zh": "一九四一年",
+        "zhPinyin": "yījiǔsìyī nián"
+      },
+      "lessons": [
+        8
+      ],
+      "frequency": 1,
+      "firstAppearance": 8,
+      "source": "dia-08-the-sacred-war"
+    },
+    "ugneteniye": {
+      "id": "opresi-n-oppression",
+      "term": "ugneteniye",
+      "category": "sustantivo",
+      "translations": {
+        "es": "opresión",
+        "en": "oppression",
+        "de": "Unterdrückung",
+        "pt": "opressão",
+        "ru": "угнетение",
+        "ruRom": "ugneteniye",
+        "zh": "压迫",
+        "zhPinyin": "yā pò"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "16",
+      "zhRadical": "土 (tierra) + 白 (blanco)",
+      "zhStructure": "compuesto"
+    },
+    "deti": {
+      "id": "hijos-children",
+      "term": "deti",
+      "category": "sustantivo",
+      "translations": {
+        "es": "hijos",
+        "en": "children",
+        "de": "Kinder",
+        "pt": "filhos",
+        "ru": "дети",
+        "ruRom": "deti",
+        "zh": "孩子们",
+        "zhPinyin": "háizi men"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "18",
+      "zhRadical": "子 (hijo) + 亻 (persona)",
+      "zhStructure": "compuesto"
+    },
+    "ravenstvo": {
+      "id": "igualdad-equality",
+      "term": "ravenstvo",
+      "category": "sustantivo",
+      "translations": {
+        "es": "igualdad",
+        "en": "equality",
+        "de": "Gleichheit",
+        "pt": "igualdade",
+        "ru": "равенство",
+        "ruRom": "ravenstvo",
+        "zh": "平等",
+        "zhPinyin": "píng děng"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "10",
+      "zhRadical": "干 (seco) + 竹 (bambú)",
+      "zhStructure": "compuesto"
+    },
+    "rabochiye": {
+      "id": "trabajadores-workers",
+      "term": "rabochiye",
+      "category": "sustantivo",
+      "translations": {
+        "es": "trabajadores",
+        "en": "workers",
+        "de": "Arbeiter",
+        "pt": "trabalhadores",
+        "ru": "рабочие",
+        "ruRom": "rabochiye",
+        "zh": "工人",
+        "zhPinyin": "gōngrén"
+      },
+      "lessons": [
+        9,
+        10
+      ],
+      "frequency": 2,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "7",
+      "zhRadical": "工 (trabajo)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "tovarishchi": {
+      "id": "compa-eros-comrades",
+      "term": "tovarishchi",
+      "category": "sustantivo",
+      "translations": {
+        "es": "compañeros",
+        "en": "comrades",
+        "de": "Genossen",
+        "pt": "companheiros",
+        "ru": "товарищи",
+        "ruRom": "tovarishchi",
+        "zh": "同志",
+        "zhPinyin": "tóngzhì"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "14",
+      "zhRadical": "口 (boca) + 心 (corazón)",
+      "zhStructure": "compuesto"
+    },
+    "Pervyy Internatsional": {
+      "id": "primera-internacional-first-international",
+      "term": "Pervyy Internatsional",
+      "category": "sustantivo",
+      "translations": {
+        "es": "Primera Internacional",
+        "en": "First International",
+        "de": "Erste Internationale",
+        "pt": "Primeira Internacional",
+        "ru": "Первый Интернационал",
+        "ruRom": "Pervyy Internatsional",
+        "zh": "第一国际",
+        "zhPinyin": "dì-yī guójì"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "16",
+      "zhRadical": "囗 (recinto)",
+      "zhStructure": "encierro"
+    },
+    "vseobshchaya zabastovka": {
+      "id": "huelga-general-general-strike",
+      "term": "vseobshchaya zabastovka",
+      "category": "sustantivo",
+      "translations": {
+        "es": "huelga general",
+        "en": "general strike",
+        "de": "Generalstreik",
+        "pt": "greve geral",
+        "ru": "всеобщая забастовка",
+        "ruRom": "vseobshchaya zabastovka",
+        "zh": "总罢工",
+        "zhPinyin": "zǒng bàgōng"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo",
+      "zhStrokes": "18",
+      "zhRadical": "总 (total) + 工 (trabajo)",
+      "zhStructure": "compuesto"
+    },
+    "tysyacha vosem'sot vosem'desyat pyat'": {
+      "id": "mil-ochocientos-ochenta-y-cinco-eighteen-eighty-five",
+      "term": "tysyacha vosem'sot vosem'desyat pyat'",
+      "category": "sustantivo",
+      "translations": {
+        "es": "mil ochocientos ochenta y cinco",
+        "en": "eighteen eighty-five",
+        "de": "achtzehnhundertfünfundachtzig",
+        "pt": "mil oitocentos e oitenta e cinco",
+        "ru": "тысяча восемьсот восемьдесят пять",
+        "ruRom": "tysyacha vosem'sot vosem'desyat pyat'",
+        "zh": "一八八五年",
+        "zhPinyin": "yībābāwǔ nián"
+      },
+      "lessons": [
+        9
+      ],
+      "frequency": 1,
+      "firstAppearance": 9,
+      "source": "dia-09-hijos-del-pueblo"
+    },
+    "glupyy": {
+      "id": "necio-foolish",
+      "term": "glupyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "necio",
+        "en": "foolish",
+        "de": "töricht",
+        "pt": "tolo",
+        "ru": "глупый",
+        "ruRom": "glupyy",
+        "zh": "愚蠢",
+        "zhPinyin": "yúchǔn"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "13",
+      "zhRadical": "心 (corazón)",
+      "zhStructure": "arriba-abajo"
+    },
+    "fantazirovat'": {
+      "id": "fantasear-fantasize",
+      "term": "fantazirovat'",
+      "category": "verbo",
+      "translations": {
+        "es": "fantasear",
+        "en": "fantasize",
+        "de": "phantasieren",
+        "pt": "fantasiar",
+        "ru": "фантазировать",
+        "ruRom": "fantazirovat'",
+        "zh": "幻想",
+        "zhPinyin": "huànxiǎng"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "11",
+      "zhRadical": "幺 (pequeño) + 心 (corazón)",
+      "zhStructure": "compuesto"
+    },
+    "gibnut'": {
+      "id": "perecer-perish",
+      "term": "gibnut'",
+      "category": "verbo",
+      "translations": {
+        "es": "perecer",
+        "en": "perish",
+        "de": "verderben",
+        "pt": "perecer",
+        "ru": "гибнуть",
+        "ruRom": "gibnut'",
+        "zh": "灭亡",
+        "zhPinyin": "miè wáng"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "10",
+      "zhRadical": "火 (fuego) + 亡 (muerte)",
+      "zhStructure": "compuesto"
+    },
+    "molodyozh": {
+      "id": "juventud-youth",
+      "term": "molodyozh",
+      "category": "sustantivo",
+      "translations": {
+        "es": "juventud",
+        "en": "youth",
+        "de": "Jugend",
+        "pt": "juventude",
+        "ru": "молодежь",
+        "ruRom": "molodyozh",
+        "zh": "青年",
+        "zhPinyin": "qīngnián"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "11",
+      "zhRadical": "青 (azul) + 彡 (adorno)",
+      "zhStructure": "compuesto"
+    },
+    "soyuz": {
+      "id": "uni-n-union",
+      "term": "soyuz",
+      "category": "sustantivo",
+      "translations": {
+        "es": "unión",
+        "en": "union",
+        "de": "Verband",
+        "pt": "união",
+        "ru": "союз",
+        "ruRom": "soyuz",
+        "zh": "联盟",
+        "zhPinyin": "lián méng"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "25",
+      "zhRadical": "耳 (oreja)",
+      "zhStructure": "compuesto"
+    },
+    "diaspora": {
+      "id": "di-spora-diaspora",
+      "term": "diaspora",
+      "category": "sustantivo",
+      "translations": {
+        "es": "diáspora",
+        "en": "diaspora",
+        "de": "Diaspora",
+        "pt": "diáspora",
+        "ru": "диаспора",
+        "ruRom": "diaspora",
+        "zh": "散居",
+        "zhPinyin": "sànjū"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "16",
+      "zhRadical": "攵 (golpear) + 尸 (cuerpo)",
+      "zhStructure": "compuesto"
+    },
+    "proletariy": {
+      "id": "proletario-proletarian",
+      "term": "proletariy",
+      "category": "sustantivo",
+      "translations": {
+        "es": "proletario",
+        "en": "proletarian",
+        "de": "Proletarier",
+        "pt": "proletário",
+        "ru": "пролетарий",
+        "ruRom": "proletariy",
+        "zh": "无产者",
+        "zhPinyin": "wúchǎnzhě"
+      },
+      "lessons": [
+        10,
+        11
+      ],
+      "frequency": 2,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "11",
+      "zhRadical": "无 (nada) + 文 (cultura) + 者 (persona)",
+      "zhStructure": "compuesto"
+    },
+    "antisemitizm": {
+      "id": "antisemitismo-antisemitism",
+      "term": "antisemitizm",
+      "category": "sustantivo",
+      "translations": {
+        "es": "antisemitismo",
+        "en": "antisemitism",
+        "de": "Antisemitismus",
+        "pt": "antissemitismo",
+        "ru": "антисемитизм",
+        "ruRom": "antisemitizm",
+        "zh": "反犹主义",
+        "zhPinyin": "fǎn yóu zhǔyì"
+      },
+      "lessons": [
+        10
+      ],
+      "frequency": 1,
+      "firstAppearance": 10,
+      "source": "dia-10-oy-ir-narishe-tsienistn",
+      "zhStrokes": "12",
+      "zhRadical": "又 (otra vez) + 犭 (perro) + 主 (señor)",
+      "zhStructure": "compuesto"
+    },
+    "front": {
+      "id": "frente-front",
+      "term": "front",
+      "category": "sustantivo",
+      "translations": {
+        "es": "frente",
+        "en": "front",
+        "de": "Front",
+        "pt": "frente",
+        "ru": "фронт",
+        "ruRom": "front",
+        "zh": "前线",
+        "zhPinyin": "qiánxiàn"
+      },
+      "lessons": [
+        11
+      ],
+      "frequency": 1,
+      "firstAppearance": 11,
+      "source": "dia-11-einheitsfrontlied",
+      "zhStrokes": "9",
+      "zhRadical": "前 (delante)",
+      "zhStructure": "arriba-abajo"
+    },
+    "kommunist": {
+      "id": "comunista-communist",
+      "term": "kommunist",
+      "category": "sustantivo",
+      "translations": {
+        "es": "comunista",
+        "en": "communist",
+        "de": "Kommunist",
+        "pt": "comunista",
+        "ru": "коммунист",
+        "ruRom": "kommunist",
+        "zh": "共产主义者",
+        "zhPinyin": "gòngchǎn zhǔyì zhě"
+      },
+      "lessons": [
+        11
+      ],
+      "frequency": 1,
+      "firstAppearance": 11,
+      "source": "dia-11-einheitsfrontlied",
+      "zhStrokes": "16",
+      "zhRadical": "共 (junto)",
+      "zhStructure": "compuesto"
+    },
+    "sotsialist": {
+      "id": "socialista-socialist",
+      "term": "sotsialist",
+      "category": "sustantivo",
+      "translations": {
+        "es": "socialista",
+        "en": "socialist",
+        "de": "Sozialist",
+        "pt": "socialista",
+        "ru": "социалист",
+        "ruRom": "sotsialist",
+        "zh": "社会主义者",
+        "zhPinyin": "shèhuì zhǔyì zhě"
+      },
+      "lessons": [
+        11
+      ],
+      "frequency": 1,
+      "firstAppearance": 11,
+      "source": "dia-11-einheitsfrontlied",
+      "zhStrokes": "16",
+      "zhRadical": "示 (mostrar)",
+      "zhStructure": "compuesto"
+    },
+    "tysyacha devyat'sot tridtsat' chetyre": {
+      "id": "mil-novecientos-treinta-y-cuatro-nineteen-thirty-four",
+      "term": "tysyacha devyat'sot tridtsat' chetyre",
+      "category": "sustantivo",
+      "translations": {
+        "es": "mil novecientos treinta y cuatro",
+        "en": "nineteen thirty-four",
+        "de": "neunzehnhundertvierunddreißig",
+        "pt": "mil novecentos e trinta e quatro",
+        "ru": "тысяча девятьсот тридцать четыре",
+        "ruRom": "tysyacha devyat'sot tridtsat' chetyre",
+        "zh": "一九三四年",
+        "zhPinyin": "yījiǔsānsì nián"
+      },
+      "lessons": [
+        11
+      ],
+      "frequency": 1,
+      "firstAppearance": 11,
+      "source": "dia-11-einheitsfrontlied"
+    },
+    "batrak": {
+      "id": "jornalero-farmhand",
+      "term": "batrak",
+      "category": "sustantivo",
+      "translations": {
+        "es": "jornalero",
+        "en": "farmhand",
+        "de": "Landarbeiter",
+        "pt": "jornaleiro",
+        "ru": "батрак",
+        "ruRom": "batrak",
+        "zh": "雇农",
+        "zhPinyin": "gùnóng"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "12",
+      "zhRadical": "雇 (emplear)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "khozyain": {
+      "id": "amo-master",
+      "term": "khozyain",
+      "category": "sustantivo",
+      "translations": {
+        "es": "amo",
+        "en": "master",
+        "de": "Herr",
+        "pt": "patrão",
+        "ru": "хозяин",
+        "ruRom": "khozyain",
+        "zh": "地主",
+        "zhPinyin": "dìzhǔ"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "8",
+      "zhRadical": "土 (tierra)",
+      "zhStructure": "arriba-abajo"
+    },
+    "kulak": {
+      "id": "pu-o-fist",
+      "term": "kulak",
+      "category": "sustantivo",
+      "translations": {
+        "es": "puño",
+        "en": "fist",
+        "de": "Faust",
+        "pt": "punho",
+        "ru": "кулак",
+        "ruRom": "kulak",
+        "zh": "拳头",
+        "zhPinyin": "quántou"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "13",
+      "zhRadical": "手 (mano)",
+      "zhStructure": "arriba-abajo"
+    },
+    "podnyatyy": {
+      "id": "levantado-raised",
+      "term": "podnyatyy",
+      "category": "adjetivo",
+      "translations": {
+        "es": "levantado",
+        "en": "raised",
+        "de": "erhoben",
+        "pt": "levantado",
+        "ru": "поднятый",
+        "ruRom": "podnyatyy",
+        "zh": "举起的",
+        "zhPinyin": "jǔqǐ de"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "12",
+      "zhRadical": "手 (mano)",
+      "zhStructure": "arriba-abajo"
+    },
+    "zemlya": {
+      "id": "tierra-land",
+      "term": "zemlya",
+      "category": "sustantivo",
+      "translations": {
+        "es": "tierra",
+        "en": "land",
+        "de": "Land",
+        "pt": "terra",
+        "ru": "земля",
+        "ruRom": "zemlya",
+        "zh": "土地",
+        "zhPinyin": "tǔ dì"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "6",
+      "zhRadical": "土 (tierra)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "pot": {
+      "id": "sudor-sweat",
+      "term": "pot",
+      "category": "sustantivo",
+      "translations": {
+        "es": "sudor",
+        "en": "sweat",
+        "de": "Schweiß",
+        "pt": "suor",
+        "ru": "пот",
+        "ruRom": "pot",
+        "zh": "汗水",
+        "zhPinyin": "hànshuǐ"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "9",
+      "zhRadical": "氵 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "plug": {
+      "id": "arado-plow",
+      "term": "plug",
+      "category": "sustantivo",
+      "translations": {
+        "es": "arado",
+        "en": "plow",
+        "de": "Pflug",
+        "pt": "arado",
+        "ru": "плуг",
+        "ruRom": "plug",
+        "zh": "犁",
+        "zhPinyin": "lí"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "11",
+      "zhRadical": "牛 (buey)",
+      "zhStructure": "arriba-abajo"
+    },
+    "borozdy": {
+      "id": "surcos-furrows",
+      "term": "borozdy",
+      "category": "sustantivo",
+      "translations": {
+        "es": "surcos",
+        "en": "furrows",
+        "de": "Furchen",
+        "pt": "sulcos",
+        "ru": "борозды",
+        "ruRom": "borozdy",
+        "zh": "沟垄",
+        "zhPinyin": "gōulǒng"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "10",
+      "zhRadical": "氵 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "tovarishch": {
+      "id": "compa-ero-comrade",
+      "term": "tovarishch",
+      "category": "sustantivo",
+      "translations": {
+        "es": "compañero",
+        "en": "comrade",
+        "de": "Genosse",
+        "pt": "companheiro",
+        "ru": "товарищ",
+        "ruRom": "tovarishch",
+        "zh": "同志",
+        "zhPinyin": "tóngzhì"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "7",
+      "zhRadical": "同 (mismo)",
+      "zhStructure": "arriba-abajo"
+    },
+    "rabotat'": {
+      "id": "trabajar-to-work",
+      "term": "rabotat'",
+      "category": "verbo",
+      "translations": {
+        "es": "trabajar",
+        "en": "to work",
+        "de": "arbeiten",
+        "pt": "trabalhar",
+        "ru": "работать",
+        "ruRom": "rabotat'",
+        "zh": "劳作",
+        "zhPinyin": "láozuò"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "9",
+      "zhRadical": "力 (fuerza)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "polivat'": {
+      "id": "regar-to-water",
+      "term": "polivat'",
+      "category": "verbo",
+      "translations": {
+        "es": "regar",
+        "en": "to water",
+        "de": "bewässern",
+        "pt": "regar",
+        "ru": "поливать",
+        "ruRom": "polivat'",
+        "zh": "浇灌",
+        "zhPinyin": "jiāoguàn"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "15",
+      "zhRadical": "氵 (agua)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "pisat'": {
+      "id": "escribir-to-write",
+      "term": "pisat'",
+      "category": "verbo",
+      "translations": {
+        "es": "escribir",
+        "en": "to write",
+        "de": "schreiben",
+        "pt": "escrever",
+        "ru": "писать",
+        "ruRom": "pisat'",
+        "zh": "书写",
+        "zhPinyin": "shūxiě"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "9",
+      "zhRadical": "乚 (segundo)",
+      "zhStructure": "arriba-abajo"
+    },
+    "nishcheta": {
+      "id": "miseria-misery",
+      "term": "nishcheta",
+      "category": "sustantivo",
+      "translations": {
+        "es": "miseria",
+        "en": "misery",
+        "de": "Elend",
+        "pt": "miséria",
+        "ru": "нищета",
+        "ruRom": "nishcheta",
+        "zh": "痛苦",
+        "zhPinyin": "tòngkǔ"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "17",
+      "zhRadical": "痛 (dolor)",
+      "zhStructure": "arriba-abajo"
+    },
+    "stranitsy": {
+      "id": "p-ginas-pages",
+      "term": "stranitsy",
+      "category": "sustantivo",
+      "translations": {
+        "es": "páginas",
+        "en": "pages",
+        "de": "Seiten",
+        "pt": "páginas",
+        "ru": "страницы",
+        "ruRom": "stranitsy",
+        "zh": "篇章",
+        "zhPinyin": "piānzhāng"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "20",
+      "zhRadical": "竹 (bambú)",
+      "zhStructure": "arriba-abajo"
+    },
+    "anarkhist": {
+      "id": "anarquista-anarchist",
+      "term": "anarkhist",
+      "category": "adjetivo",
+      "translations": {
+        "es": "anarquista",
+        "en": "anarchist",
+        "de": "Anarchist",
+        "pt": "anarquista",
+        "ru": "анархист",
+        "ruRom": "anarkhist",
+        "zh": "无政府主义者",
+        "zhPinyin": "wúzhèngfǔzhǔyìzhě"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "23",
+      "zhRadical": "政 (gobierno)",
+      "zhStructure": "arriba-abajo"
+    },
+    "respublika": {
+      "id": "rep-blica-republic",
+      "term": "respublika",
+      "category": "sustantivo",
+      "translations": {
+        "es": "república",
+        "en": "republic",
+        "de": "Republik",
+        "pt": "república",
+        "ru": "республика",
+        "ruRom": "respublika",
+        "zh": "共和国",
+        "zhPinyin": "gònghéguó"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "14",
+      "zhRadical": "八 (ocho)",
+      "zhStructure": "izquierda-derecha"
+    },
+    "kommuna": {
+      "id": "comuna-commune",
+      "term": "kommuna",
+      "category": "sustantivo",
+      "translations": {
+        "es": "comuna",
+        "en": "commune",
+        "de": "Kommune",
+        "pt": "comuna",
+        "ru": "коммуна",
+        "ruRom": "kommuna",
+        "zh": "公社",
+        "zhPinyin": "gōngshè"
+      },
+      "lessons": [
+        12
+      ],
+      "frequency": 1,
+      "firstAppearance": 12,
+      "source": "dia-12-en-la-plaza-de-mi-pueblo",
+      "zhStrokes": "10",
+      "zhRadical": "八 (ocho)",
+      "zhStructure": "izquierda-derecha"
+    }
+  }
+}

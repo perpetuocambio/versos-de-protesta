@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated": "2025-07-30T20:52:12.530Z",
+    "generated": "2025-07-31T17:27:45.821Z",
     "version": "3.0.0",
     "description": "Unified radical database extracted from Chinese dictionary",
-    "totalRadicals": 76,
+    "totalRadicals": 80,
     "sources": [
       "Internal Chinese dictionary",
       "Automatic extraction",
@@ -21,271 +21,35 @@
     ]
   },
   "radicals": {
-    "戈": {
-      "radical": "戈",
+    "工": {
+      "radical": "工",
       "meaning": {
-        "es": "lanza",
-        "en": "lanza",
-        "de": "lanza",
-        "pt": "lanza",
-        "ru": "lanza",
-        "ru-rom": "lanza",
-        "zh": "戈",
+        "es": "trabajo",
+        "en": "trabajo",
+        "de": "trabajo",
+        "pt": "trabajo",
+        "ru": "trabajo",
+        "ru-rom": "trabajo",
+        "zh": "工",
         "zh-pinyin": "unknown"
       },
-      "strokes": 12,
+      "strokes": 7,
       "category": "general",
       "characters": [
-        "被",
-        "战",
-        "胜",
-        "的",
-        "斗",
-        "士",
-        "争"
-      ]
-    },
-    "氵": {
-      "radical": "氵",
-      "meaning": {
-        "es": "agua",
-        "en": "agua",
-        "de": "agua",
-        "pt": "agua",
-        "ru": "agua",
-        "ru-rom": "agua",
-        "zh": "氵",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 10,
-      "category": "general",
-      "characters": [
-        "波",
-        "浪",
-        "法",
-        "西",
-        "斯",
+        "工",
+        "人",
+        "团",
         "主",
         "义",
-        "港",
-        "口",
-        "沟",
-        "垄",
-        "汗",
-        "水",
-        "浇",
-        "灌"
-      ]
-    },
-    "口": {
-      "radical": "口",
-      "meaning": {
-        "es": "boca",
-        "en": "boca",
-        "de": "boca",
-        "pt": "boca",
-        "ru": "boca",
-        "ru-rom": "boca",
-        "zh": "口",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 11,
-      "category": "general",
-      "characters": [
-        "唱",
-        "听",
-        "见",
-        "同",
-        "志"
-      ]
-    },
-    "凵": {
-      "radical": "凵",
-      "meaning": {
-        "es": "recipiente",
-        "en": "recipiente",
-        "de": "recipiente",
-        "pt": "recipiente",
-        "ru": "recipiente",
-        "ru-rom": "recipiente",
-        "zh": "凵",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 11,
-      "category": "general",
-      "characters": [
-        "出",
-        "现"
-      ]
-    },
-    "舟": {
-      "radical": "舟",
-      "meaning": {
-        "es": "barco",
-        "en": "barco",
-        "de": "barco",
-        "pt": "barco",
-        "ru": "barco",
-        "ru-rom": "barco",
-        "zh": "舟",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 16,
-      "category": "general",
-      "characters": [
-        "船",
-        "员"
-      ]
-    },
-    "船": {
-      "radical": "船",
-      "meaning": {
-        "es": "barco",
-        "en": "barco",
-        "de": "barco",
-        "pt": "barco",
-        "ru": "barco",
-        "ru-rom": "barco",
-        "zh": "船",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 12,
-      "category": "general",
-      "characters": [
-        "大",
-        "帆",
-        "船"
-      ]
-    },
-    "土": {
-      "radical": "土",
-      "meaning": {
-        "es": "tierra",
-        "en": "tierra",
-        "de": "tierra",
-        "pt": "tierra",
-        "ru": "tierra",
-        "ru-rom": "tierra",
-        "zh": "土",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "地",
-        "下",
-        "的",
-        "主",
-        "土",
-        "压",
-        "迫"
-      ]
-    },
-    "竹": {
-      "radical": "竹",
-      "meaning": {
-        "es": "bambú",
-        "en": "bambú",
-        "de": "bambú",
-        "pt": "bambú",
-        "ru": "bambú",
-        "ru-rom": "bambú",
-        "zh": "竹",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 12,
-      "category": "general",
-      "characters": [
-        "等",
-        "待",
-        "篇",
-        "章"
-      ]
-    },
-    "攴": {
-      "radical": "攴",
-      "meaning": {
-        "es": "golpear",
-        "en": "golpear",
-        "de": "golpear",
-        "pt": "golpear",
-        "ru": "golpear",
-        "ru-rom": "golpear",
-        "zh": "攴",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 6,
-      "category": "general",
-      "characters": [
-        "敌",
-        "人"
-      ]
-    },
-    "囗": {
-      "radical": "囗",
-      "meaning": {
-        "es": "recinto",
-        "en": "recinto",
-        "de": "recinto",
-        "pt": "recinto",
-        "ru": "recinto",
-        "ru-rom": "recinto",
-        "zh": "囗",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 16,
-      "category": "general",
-      "characters": [
-        "第",
-        "一",
-        "国",
-        "际",
-        "团",
-        "结",
-        "的"
-      ]
-    },
-    "方": {
-      "radical": "方",
-      "meaning": {
-        "es": "dirección",
-        "en": "dirección",
-        "de": "dirección",
-        "pt": "dirección",
-        "ru": "dirección",
-        "ru-rom": "dirección",
-        "zh": "方",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 8,
-      "category": "general",
-      "characters": [
-        "东",
-        "方",
-        "旗",
-        "帜"
-      ]
-    },
-    "东": {
-      "radical": "东",
-      "meaning": {
-        "es": "este",
-        "en": "este",
-        "de": "este",
-        "pt": "este",
-        "ru": "este",
-        "ru-rom": "este",
-        "zh": "东",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 22,
-      "category": "general",
-      "characters": [
-        "东",
-        "线",
-        "战",
-        "场"
-      ]
+        "阶",
+        "级"
+      ],
+      "lessons": [
+        2,
+        9,
+        10
+      ],
+      "firstAppearance": 2
     },
     "斗": {
       "radical": "斗",
@@ -304,222 +68,222 @@
       "characters": [
         "斗",
         "争"
-      ]
+      ],
+      "lessons": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "firstAppearance": 0
     },
-    "反": {
-      "radical": "反",
+    "自": {
+      "radical": "自",
       "meaning": {
-        "es": "opuesto",
-        "en": "opuesto",
-        "de": "opuesto",
-        "pt": "opuesto",
-        "ru": "opuesto",
-        "ru-rom": "opuesto",
-        "zh": "反",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 16,
-      "category": "general",
-      "characters": [
-        "反",
-        "法",
-        "西",
-        "斯",
-        "抗"
-      ]
-    },
-    "又": {
-      "radical": "又",
-      "meaning": {
-        "es": "otra vez",
-        "en": "otra vez",
-        "de": "otra vez",
-        "pt": "otra vez",
-        "ru": "otra vez",
-        "ru-rom": "otra vez",
-        "zh": "又",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 12,
-      "category": "general",
-      "characters": [
-        "反",
-        "犹",
-        "主",
-        "义"
-      ]
-    },
-    "阝": {
-      "radical": "阝",
-      "meaning": {
-        "es": "montículo",
-        "en": "montículo",
-        "de": "montículo",
-        "pt": "montículo",
-        "ru": "montículo",
-        "ru-rom": "montículo",
-        "zh": "阝",
+        "es": "uno mismo",
+        "en": "uno mismo",
+        "de": "uno mismo",
+        "pt": "uno mismo",
+        "ru": "uno mismo",
+        "ru-rom": "uno mismo",
+        "zh": "自",
         "zh-pinyin": "unknown"
       },
       "strokes": 11,
       "category": "general",
       "characters": [
-        "防",
-        "御"
-      ]
+        "自",
+        "由",
+        "治",
+        "管",
+        "理"
+      ],
+      "lessons": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "firstAppearance": 0
     },
-    "水": {
-      "radical": "水",
+    "人": {
+      "radical": "人",
       "meaning": {
-        "es": "agua",
-        "en": "agua",
-        "de": "agua",
-        "pt": "agua",
-        "ru": "agua",
-        "ru-rom": "agua",
-        "zh": "水",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 16,
-      "category": "general",
-      "characters": [
-        "沸",
-        "腾",
-        "永",
-        "恒",
-        "的",
-        "远",
-        "不",
-        "会"
-      ]
-    },
-    "风": {
-      "radical": "风",
-      "meaning": {
-        "es": "viento",
-        "en": "viento",
-        "de": "viento",
-        "pt": "viento",
-        "ru": "viento",
-        "ru-rom": "viento",
-        "zh": "风",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 4,
-      "category": "general",
-      "characters": [
-        "风",
-        "暴"
-      ]
-    },
-    "工": {
-      "radical": "工",
-      "meaning": {
-        "es": "trabajo",
-        "en": "trabajo",
-        "de": "trabajo",
-        "pt": "trabajo",
-        "ru": "trabajo",
-        "ru-rom": "trabajo",
-        "zh": "工",
+        "es": "persona",
+        "en": "persona",
+        "de": "persona",
+        "pt": "persona",
+        "ru": "persona",
+        "ru-rom": "persona",
+        "zh": "人",
         "zh-pinyin": "unknown"
       },
       "strokes": 7,
       "category": "general",
       "characters": [
-        "工",
         "人",
-        "阶",
-        "级",
-        "团",
-        "主",
-        "义"
-      ]
+        "民"
+      ],
+      "lessons": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "firstAppearance": 0
     },
-    "八": {
-      "radical": "八",
+    "木": {
+      "radical": "木",
       "meaning": {
-        "es": "ocho",
-        "en": "ocho",
-        "de": "ocho",
-        "pt": "ocho",
-        "ru": "ocho",
-        "ru-rom": "ocho",
-        "zh": "八",
+        "es": "madera",
+        "en": "madera",
+        "de": "madera",
+        "pt": "madera",
+        "ru": "madera",
+        "ru-rom": "madera",
+        "zh": "木",
         "zh-pinyin": "unknown"
       },
-      "strokes": 10,
+      "strokes": 9,
       "category": "general",
       "characters": [
-        "公",
-        "社",
-        "共",
-        "产",
-        "党",
-        "和",
-        "国"
-      ]
+        "权",
+        "力"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0
     },
-    "共": {
-      "radical": "共",
+    "囗": {
+      "radical": "囗",
       "meaning": {
-        "es": "junto",
-        "en": "junto",
-        "de": "junto",
-        "pt": "junto",
-        "ru": "junto",
-        "ru-rom": "junto",
-        "zh": "共",
+        "es": "recinto",
+        "en": "recinto",
+        "de": "recinto",
+        "pt": "recinto",
+        "ru": "recinto",
+        "ru-rom": "recinto",
+        "zh": "囗",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 14,
+      "category": "general",
+      "characters": [
+        "团",
+        "结",
+        "的",
+        "第",
+        "一",
+        "国",
+        "际"
+      ],
+      "lessons": [
+        2,
+        3,
+        9,
+        11
+      ],
+      "firstAppearance": 2
+    },
+    "方": {
+      "radical": "方",
+      "meaning": {
+        "es": "dirección",
+        "en": "dirección",
+        "de": "dirección",
+        "pt": "dirección",
+        "ru": "dirección",
+        "ru-rom": "dirección",
+        "zh": "方",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 14,
+      "category": "general",
+      "characters": [
+        "旗",
+        "帜",
+        "东",
+        "方"
+      ],
+      "lessons": [
+        3,
+        7
+      ],
+      "firstAppearance": 3
+    },
+    "戈": {
+      "radical": "戈",
+      "meaning": {
+        "es": "arma",
+        "en": "arma",
+        "de": "arma",
+        "pt": "arma",
+        "ru": "arma",
+        "ru-rom": "arma",
+        "zh": "戈",
         "zh-pinyin": "unknown"
       },
       "strokes": 16,
       "category": "general",
       "characters": [
-        "共",
-        "产",
-        "主",
-        "义",
-        "者"
-      ]
+        "战",
+        "斗",
+        "被",
+        "胜",
+        "的",
+        "争",
+        "士",
+        "部",
+        "长"
+      ],
+      "lessons": [
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "firstAppearance": 2
     },
-    "雇": {
-      "radical": "雇",
+    "反": {
+      "radical": "反",
       "meaning": {
-        "es": "emplear",
-        "en": "emplear",
-        "de": "emplear",
-        "pt": "emplear",
-        "ru": "emplear",
-        "ru-rom": "emplear",
-        "zh": "雇",
+        "es": "oponer",
+        "en": "oponer",
+        "de": "oponer",
+        "pt": "oponer",
+        "ru": "oponer",
+        "ru-rom": "oponer",
+        "zh": "反",
         "zh-pinyin": "unknown"
       },
-      "strokes": 12,
+      "strokes": 11,
       "category": "general",
       "characters": [
-        "雇",
-        "农"
-      ]
-    },
-    "子": {
-      "radical": "子",
-      "meaning": {
-        "es": "hijo",
-        "en": "hijo",
-        "de": "hijo",
-        "pt": "hijo",
-        "ru": "hijo",
-        "ru-rom": "hijo",
-        "zh": "子",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 18,
-      "category": "general",
-      "characters": [
-        "孩",
-        "子",
-        "们"
-      ]
+        "反",
+        "抗",
+        "法",
+        "西",
+        "斯"
+      ],
+      "lessons": [
+        0,
+        5,
+        6,
+        11
+      ],
+      "firstAppearance": 0
     },
     "扌": {
       "radical": "扌",
@@ -540,7 +304,60 @@
         "卫",
         "摇",
         "撼"
-      ]
+      ],
+      "lessons": [
+        0,
+        1
+      ],
+      "firstAppearance": 0
+    },
+    "口": {
+      "radical": "口",
+      "meaning": {
+        "es": "boca",
+        "en": "boca",
+        "de": "boca",
+        "pt": "boca",
+        "ru": "boca",
+        "ru-rom": "boca",
+        "zh": "口",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "唱",
+        "听",
+        "见"
+      ],
+      "lessons": [
+        0,
+        6
+      ],
+      "firstAppearance": 0
+    },
+    "行": {
+      "radical": "行",
+      "meaning": {
+        "es": "caminar",
+        "en": "caminar",
+        "de": "caminar",
+        "pt": "caminar",
+        "ru": "caminar",
+        "ru-rom": "caminar",
+        "zh": "行",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 13,
+      "category": "general",
+      "characters": [
+        "行",
+        "进"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3
     },
     "黑": {
       "radical": "黑",
@@ -560,44 +377,259 @@
         "黑",
         "色",
         "的"
-      ]
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1
     },
-    "纟": {
-      "radical": "纟",
+    "风": {
+      "radical": "风",
       "meaning": {
-        "es": "seda",
-        "en": "seda",
-        "de": "seda",
-        "pt": "seda",
-        "ru": "seda",
-        "ru-rom": "seda",
-        "zh": "纟",
+        "es": "viento",
+        "en": "viento",
+        "de": "viento",
+        "pt": "viento",
+        "ru": "viento",
+        "ru-rom": "viento",
+        "zh": "风",
         "zh-pinyin": "unknown"
       },
-      "strokes": 6,
+      "strokes": 13,
       "category": "general",
       "characters": [
-        "红"
-      ]
+        "风",
+        "暴"
+      ],
+      "lessons": [
+        1,
+        4
+      ],
+      "firstAppearance": 1
     },
-    "幺": {
-      "radical": "幺",
+    "天": {
+      "radical": "天",
       "meaning": {
-        "es": "pequeño",
-        "en": "pequeño",
-        "de": "pequeño",
-        "pt": "pequeño",
-        "ru": "pequeño",
-        "ru-rom": "pequeño",
-        "zh": "幺",
+        "es": "cielo",
+        "en": "cielo",
+        "de": "cielo",
+        "pt": "cielo",
+        "ru": "cielo",
+        "ru-rom": "cielo",
+        "zh": "天",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "天",
+        "空"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1
+    },
+    "虫": {
+      "radical": "虫",
+      "meaning": {
+        "es": "insecto",
+        "en": "insecto",
+        "de": "insecto",
+        "pt": "insecto",
+        "ru": "insecto",
+        "ru-rom": "insecto",
+        "zh": "虫",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "虽",
+        "然"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1
+    },
+    "竹": {
+      "radical": "竹",
+      "meaning": {
+        "es": "bambú",
+        "en": "bambú",
+        "de": "bambú",
+        "pt": "bambú",
+        "ru": "bambú",
+        "ru-rom": "bambú",
+        "zh": "竹",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "等",
+        "待",
+        "篇",
+        "章"
+      ],
+      "lessons": [
+        1,
+        12
+      ],
+      "firstAppearance": 1
+    },
+    "痛": {
+      "radical": "痛",
+      "meaning": {
+        "es": "dolor",
+        "en": "dolor",
+        "de": "dolor",
+        "pt": "dolor",
+        "ru": "dolor",
+        "ru-rom": "dolor",
+        "zh": "痛",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 17,
+      "category": "general",
+      "characters": [
+        "痛",
+        "苦"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
+    },
+    "歹": {
+      "radical": "歹",
+      "meaning": {
+        "es": "mal",
+        "en": "mal",
+        "de": "mal",
+        "pt": "mal",
+        "ru": "mal",
+        "ru-rom": "mal",
+        "zh": "歹",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "死",
+        "亡"
+      ],
+      "lessons": [
+        1,
+        4
+      ],
+      "firstAppearance": 1
+    },
+    "召": {
+      "radical": "召",
+      "meaning": {
+        "es": "convocar",
+        "en": "convocar",
+        "de": "convocar",
+        "pt": "convocar",
+        "ru": "convocar",
+        "ru-rom": "convocar",
+        "zh": "召",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "召",
+        "唤"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1
+    },
+    "耳": {
+      "radical": "耳",
+      "meaning": {
+        "es": "oreja",
+        "en": "oreja",
+        "de": "oreja",
+        "pt": "oreja",
+        "ru": "oreja",
+        "ru-rom": "oreja",
+        "zh": "耳",
         "zh-pinyin": "unknown"
       },
       "strokes": 11,
       "category": "general",
       "characters": [
-        "幻",
-        "想"
-      ]
+        "职",
+        "责",
+        "联",
+        "盟"
+      ],
+      "lessons": [
+        1,
+        10
+      ],
+      "firstAppearance": 1
+    },
+    "无": {
+      "radical": "无",
+      "meaning": {
+        "es": "sin",
+        "en": "sin",
+        "de": "sin",
+        "pt": "sin",
+        "ru": "sin",
+        "ru-rom": "sin",
+        "zh": "无",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 16,
+      "category": "general",
+      "characters": [
+        "无",
+        "政",
+        "府",
+        "主",
+        "义",
+        "产",
+        "阶",
+        "级",
+        "者"
+      ],
+      "lessons": [
+        2,
+        4,
+        10,
+        11
+      ],
+      "firstAppearance": 2
+    },
+    "走": {
+      "radical": "走",
+      "meaning": {
+        "es": "caminar",
+        "en": "caminar",
+        "de": "caminar",
+        "pt": "caminar",
+        "ru": "caminar",
+        "ru-rom": "caminar",
+        "zh": "走",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 10,
+      "category": "general",
+      "characters": [
+        "起",
+        "来"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2
     },
     "食": {
       "radical": "食",
@@ -617,147 +649,124 @@
         "饥",
         "饿",
         "的"
-      ]
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2
     },
-    "寸": {
-      "radical": "寸",
+    "示": {
+      "radical": "示",
       "meaning": {
-        "es": "pulgada",
-        "en": "pulgada",
-        "de": "pulgada",
-        "pt": "pulgada",
-        "ru": "pulgada",
-        "ru-rom": "pulgada",
-        "zh": "寸",
+        "es": "sagrado",
+        "en": "sagrado",
+        "de": "sagrado",
+        "pt": "sagrado",
+        "ru": "sagrado",
+        "ru-rom": "sagrado",
+        "zh": "示",
         "zh-pinyin": "unknown"
       },
-      "strokes": 12,
+      "strokes": 25,
       "category": "general",
       "characters": [
-        "将",
-        "是"
-      ]
-    },
-    "角": {
-      "radical": "角",
-      "meaning": {
-        "es": "ángulo",
-        "en": "ángulo",
-        "de": "ángulo",
-        "pt": "ángulo",
-        "ru": "ángulo",
-        "ru-rom": "ángulo",
-        "zh": "角",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 13,
-      "category": "general",
-      "characters": [
-        "解",
-        "放",
-        "者"
-      ]
-    },
-    "攵": {
-      "radical": "攵",
-      "meaning": {
-        "es": "golpear",
-        "en": "golpear",
-        "de": "golpear",
-        "pt": "golpear",
-        "ru": "golpear",
-        "ru-rom": "golpear",
-        "zh": "攵",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 15,
-      "category": "general",
-      "characters": [
-        "救",
-        "星",
-        "散",
-        "居"
-      ]
-    },
-    "手": {
-      "radical": "手",
-      "meaning": {
-        "es": "mano",
-        "en": "mano",
-        "de": "mano",
-        "pt": "mano",
-        "ru": "mano",
-        "ru-rom": "mano",
-        "zh": "手",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 12,
-      "category": "general",
-      "characters": [
-        "举",
-        "起",
+        "受",
+        "诅",
+        "咒",
         "的",
-        "拳",
-        "头"
-      ]
+        "祖",
+        "国",
+        "神",
+        "圣",
+        "社",
+        "会",
+        "主",
+        "义",
+        "者"
+      ],
+      "lessons": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "firstAppearance": 2
     },
-    "力": {
-      "radical": "力",
+    "女": {
+      "radical": "女",
       "meaning": {
-        "es": "fuerza",
-        "en": "fuerza",
-        "de": "fuerza",
-        "pt": "fuerza",
-        "ru": "fuerza",
-        "ru-rom": "fuerza",
-        "zh": "力",
+        "es": "mujer",
+        "en": "mujer",
+        "de": "mujer",
+        "pt": "mujer",
+        "ru": "mujer",
+        "ru-rom": "mujer",
+        "zh": "女",
         "zh-pinyin": "unknown"
       },
-      "strokes": 9,
+      "strokes": 12,
       "category": "general",
       "characters": [
-        "劳",
-        "作",
-        "胜",
-        "利"
-      ]
+        "奴",
+        "隶"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4
     },
-    "牛": {
-      "radical": "牛",
+    "血": {
+      "radical": "血",
       "meaning": {
-        "es": "buey",
-        "en": "buey",
-        "de": "buey",
-        "pt": "buey",
-        "ru": "buey",
-        "ru-rom": "buey",
-        "zh": "牛",
+        "es": "sangre",
+        "en": "sangre",
+        "de": "sangre",
+        "pt": "sangre",
+        "ru": "sangre",
+        "ru-rom": "sangre",
+        "zh": "血",
         "zh-pinyin": "unknown"
       },
-      "strokes": 11,
+      "strokes": 12,
       "category": "general",
       "characters": [
-        "犁"
-      ]
+        "血",
+        "液"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2
     },
-    "黍": {
-      "radical": "黍",
+    "水": {
+      "radical": "水",
       "meaning": {
-        "es": "mijo",
-        "en": "mijo",
-        "de": "mijo",
-        "pt": "mijo",
-        "ru": "mijo",
-        "ru-rom": "mijo",
-        "zh": "黍",
+        "es": "agua",
+        "en": "agua",
+        "de": "agua",
+        "pt": "agua",
+        "ru": "agua",
+        "ru-rom": "agua",
+        "zh": "水",
         "zh-pinyin": "unknown"
       },
-      "strokes": 23,
+      "strokes": 16,
       "category": "general",
       "characters": [
-        "黎",
-        "明"
-      ]
+        "沸",
+        "腾",
+        "永",
+        "远",
+        "不",
+        "会",
+        "恒",
+        "的"
+      ],
+      "lessons": [
+        2,
+        3
+      ],
+      "firstAppearance": 2
     },
     "王": {
       "radical": "王",
@@ -776,388 +785,11 @@
       "characters": [
         "理",
         "性"
-      ]
-    },
-    "厂": {
-      "radical": "厂",
-      "meaning": {
-        "es": "acantilado",
-        "en": "acantilado",
-        "de": "acantilado",
-        "pt": "acantilado",
-        "ru": "acantilado",
-        "ru-rom": "acantilado",
-        "zh": "厂",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "历",
-        "史"
-      ]
-    },
-    "耳": {
-      "radical": "耳",
-      "meaning": {
-        "es": "oreja",
-        "en": "oreja",
-        "de": "oreja",
-        "pt": "oreja",
-        "ru": "oreja",
-        "ru-rom": "oreja",
-        "zh": "耳",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 25,
-      "category": "general",
-      "characters": [
-        "联",
-        "盟"
-      ]
-    },
-    "页": {
-      "radical": "页",
-      "meaning": {
-        "es": "página",
-        "en": "página",
-        "de": "página",
-        "pt": "página",
-        "ru": "página",
-        "ru-rom": "página",
-        "zh": "页",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 17,
-      "category": "general",
-      "characters": [
-        "领",
-        "袖"
-      ]
-    },
-    "禾": {
-      "radical": "禾",
-      "meaning": {
-        "es": "cereal",
-        "en": "cereal",
-        "de": "cereal",
-        "pt": "cereal",
-        "ru": "cereal",
-        "ru-rom": "cereal",
-        "zh": "禾",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 21,
-      "category": "general",
-      "characters": [
-        "秘",
-        "密",
-        "的"
-      ]
-    },
-    "火": {
-      "radical": "火",
-      "meaning": {
-        "es": "fuego",
-        "en": "fuego",
-        "de": "fuego",
-        "pt": "fuego",
-        "ru": "fuego",
-        "ru-rom": "fuego",
-        "zh": "火",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 10,
-      "category": "general",
-      "characters": [
-        "灭",
-        "亡"
-      ]
-    },
-    "女": {
-      "radical": "女",
-      "meaning": {
-        "es": "mujer",
-        "en": "mujer",
-        "de": "mujer",
-        "pt": "mujer",
-        "ru": "mujer",
-        "ru-rom": "mujer",
-        "zh": "女",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 8,
-      "category": "general",
-      "characters": [
-        "奴",
-        "隶"
-      ]
-    },
-    "石": {
-      "radical": "石",
-      "meaning": {
-        "es": "piedra",
-        "en": "piedra",
-        "de": "piedra",
-        "pt": "piedra",
-        "ru": "piedra",
-        "ru-rom": "piedra",
-        "zh": "石",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 13,
-      "category": "general",
-      "characters": [
-        "破",
-        "坏"
-      ]
-    },
-    "走": {
-      "radical": "走",
-      "meaning": {
-        "es": "caminar",
-        "en": "caminar",
-        "de": "caminar",
-        "pt": "caminar",
-        "ru": "caminar",
-        "ru-rom": "caminar",
-        "zh": "走",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 10,
-      "category": "general",
-      "characters": [
-        "起",
-        "来"
-      ]
-    },
-    "前": {
-      "radical": "前",
-      "meaning": {
-        "es": "delante",
-        "en": "delante",
-        "de": "delante",
-        "pt": "delante",
-        "ru": "delante",
-        "ru-rom": "delante",
-        "zh": "前",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "前",
-        "线"
-      ]
-    },
-    "弓": {
-      "radical": "弓",
-      "meaning": {
-        "es": "arco",
-        "en": "arco",
-        "de": "arco",
-        "pt": "arco",
-        "ru": "arco",
-        "ru-rom": "arco",
-        "zh": "弓",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 20,
-      "category": "general",
-      "characters": [
-        "强",
-        "盗",
-        "军",
-        "队"
-      ]
-    },
-    "穴": {
-      "radical": "穴",
-      "meaning": {
-        "es": "cueva",
-        "en": "cueva",
-        "de": "cueva",
-        "pt": "cueva",
-        "ru": "cueva",
-        "ru-rom": "cueva",
-        "zh": "穴",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 31,
-      "category": "general",
-      "characters": [
-        "窃",
-        "私",
-        "语"
-      ]
-    },
-    "木": {
-      "radical": "木",
-      "meaning": {
-        "es": "madera",
-        "en": "madera",
-        "de": "madera",
-        "pt": "madera",
-        "ru": "madera",
-        "ru-rom": "madera",
-        "zh": "木",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "权",
-        "力"
-      ]
-    },
-    "人": {
-      "radical": "人",
-      "meaning": {
-        "es": "persona",
-        "en": "persona",
-        "de": "persona",
-        "pt": "persona",
-        "ru": "persona",
-        "ru-rom": "persona",
-        "zh": "人",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 7,
-      "category": "general",
-      "characters": [
-        "人",
-        "民"
-      ]
-    },
-    "山": {
-      "radical": "山",
-      "meaning": {
-        "es": "montaña",
-        "en": "montaña",
-        "de": "montaña",
-        "pt": "montaña",
-        "ru": "montaña",
-        "ru-rom": "montaña",
-        "zh": "山",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 10,
-      "category": "general",
-      "characters": [
-        "山",
-        "脉"
-      ]
-    },
-    "社": {
-      "radical": "社",
-      "meaning": {
-        "es": "sociedad",
-        "en": "sociedad",
-        "de": "sociedad",
-        "pt": "sociedad",
-        "ru": "sociedad",
-        "ru-rom": "sociedad",
-        "zh": "社",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 22,
-      "category": "general",
-      "characters": [
-        "社",
-        "会",
-        "主",
-        "义"
-      ]
-    },
-    "示": {
-      "radical": "示",
-      "meaning": {
-        "es": "mostrar",
-        "en": "mostrar",
-        "de": "mostrar",
-        "pt": "mostrar",
-        "ru": "mostrar",
-        "ru-rom": "mostrar",
-        "zh": "示",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 16,
-      "category": "general",
-      "characters": [
-        "社",
-        "会",
-        "主",
-        "义",
-        "者",
-        "神",
-        "圣",
-        "的",
-        "受",
-        "诅",
-        "咒",
-        "祖",
-        "国"
-      ]
-    },
-    "什": {
-      "radical": "什",
-      "meaning": {
-        "es": "qué",
-        "en": "qué",
-        "de": "qué",
-        "pt": "qué",
-        "ru": "qué",
-        "ru-rom": "qué",
-        "zh": "什",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 25,
-      "category": "general",
-      "characters": [
-        "什",
-        "么",
-        "都",
-        "没",
-        "有"
-      ]
-    },
-    "十": {
-      "radical": "十",
-      "meaning": {
-        "es": "diez",
-        "en": "diez",
-        "de": "diez",
-        "pt": "diez",
-        "ru": "diez",
-        "ru-rom": "diez",
-        "zh": "十",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 8,
-      "category": "general",
-      "characters": [
-        "升",
-        "起"
-      ]
-    },
-    "士": {
-      "radical": "士",
-      "meaning": {
-        "es": "soldado",
-        "en": "soldado",
-        "de": "soldado",
-        "pt": "soldado",
-        "ru": "soldado",
-        "ru-rom": "soldado",
-        "zh": "士",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 10,
-      "category": "general",
-      "characters": [
-        "士",
-        "兵"
-      ]
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2
     },
     "世": {
       "radical": "世",
@@ -1179,45 +811,552 @@
         "共",
         "和",
         "国"
-      ]
+      ],
+      "lessons": [
+        2,
+        6
+      ],
+      "firstAppearance": 2
     },
-    "乚": {
-      "radical": "乚",
+    "什": {
+      "radical": "什",
       "meaning": {
-        "es": "segundo",
-        "en": "segundo",
-        "de": "segundo",
-        "pt": "segundo",
-        "ru": "segundo",
-        "ru-rom": "segundo",
-        "zh": "乚",
+        "es": "qué",
+        "en": "qué",
+        "de": "qué",
+        "pt": "qué",
+        "ru": "qué",
+        "ru-rom": "qué",
+        "zh": "什",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 25,
+      "category": "general",
+      "characters": [
+        "什",
+        "么",
+        "都",
+        "没",
+        "有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2
+    },
+    "社": {
+      "radical": "社",
+      "meaning": {
+        "es": "sociedad",
+        "en": "sociedad",
+        "de": "sociedad",
+        "pt": "sociedad",
+        "ru": "sociedad",
+        "ru-rom": "sociedad",
+        "zh": "社",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 22,
+      "category": "general",
+      "characters": [
+        "社",
+        "会",
+        "主",
+        "义"
+      ],
+      "lessons": [
+        2,
+        7
+      ],
+      "firstAppearance": 2
+    },
+    "力": {
+      "radical": "力",
+      "meaning": {
+        "es": "fuerza",
+        "en": "fuerza",
+        "de": "fuerza",
+        "pt": "fuerza",
+        "ru": "fuerza",
+        "ru-rom": "fuerza",
+        "zh": "力",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 14,
+      "category": "general",
+      "characters": [
+        "胜",
+        "利",
+        "劳",
+        "作"
+      ],
+      "lessons": [
+        3,
+        5,
+        8,
+        12
+      ],
+      "firstAppearance": 3
+    },
+    "寸": {
+      "radical": "寸",
+      "meaning": {
+        "es": "pulgada",
+        "en": "pulgada",
+        "de": "pulgada",
+        "pt": "pulgada",
+        "ru": "pulgada",
+        "ru-rom": "pulgada",
+        "zh": "寸",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "将",
+        "是"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3
+    },
+    "厂": {
+      "radical": "厂",
+      "meaning": {
+        "es": "acantilado",
+        "en": "acantilado",
+        "de": "acantilado",
+        "pt": "acantilado",
+        "ru": "acantilado",
+        "ru-rom": "acantilado",
+        "zh": "厂",
         "zh-pinyin": "unknown"
       },
       "strokes": 9,
       "category": "general",
       "characters": [
-        "书",
-        "写"
-      ]
+        "历",
+        "史"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3
     },
-    "歹": {
-      "radical": "歹",
+    "黍": {
+      "radical": "黍",
       "meaning": {
-        "es": "mal",
-        "en": "mal",
-        "de": "mal",
-        "pt": "mal",
-        "ru": "mal",
-        "ru-rom": "mal",
-        "zh": "歹",
+        "es": "mijo",
+        "en": "mijo",
+        "de": "mijo",
+        "pt": "mijo",
+        "ru": "mijo",
+        "ru-rom": "mijo",
+        "zh": "黍",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 23,
+      "category": "general",
+      "characters": [
+        "黎",
+        "明"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3
+    },
+    "船": {
+      "radical": "船",
+      "meaning": {
+        "es": "barco",
+        "en": "barco",
+        "de": "barco",
+        "pt": "barco",
+        "ru": "barco",
+        "ru-rom": "barco",
+        "zh": "船",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "大",
+        "帆",
+        "船"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4
+    },
+    "舟": {
+      "radical": "舟",
+      "meaning": {
+        "es": "barco",
+        "en": "barco",
+        "de": "barco",
+        "pt": "barco",
+        "ru": "barco",
+        "ru-rom": "barco",
+        "zh": "舟",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 16,
+      "category": "general",
+      "characters": [
+        "船",
+        "员"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4
+    },
+    "氵": {
+      "radical": "氵",
+      "meaning": {
+        "es": "agua",
+        "en": "agua",
+        "de": "agua",
+        "pt": "agua",
+        "ru": "agua",
+        "ru-rom": "agua",
+        "zh": "氵",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 15,
+      "category": "general",
+      "characters": [
+        "港",
+        "口",
+        "波",
+        "浪",
+        "法",
+        "西",
+        "斯",
+        "主",
+        "义",
+        "汗",
+        "水",
+        "沟",
+        "垄",
+        "浇",
+        "灌"
+      ],
+      "lessons": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        12
+      ],
+      "firstAppearance": 4
+    },
+    "钅": {
+      "radical": "钅",
+      "meaning": {
+        "es": "metal",
+        "en": "metal",
+        "de": "metal",
+        "pt": "metal",
+        "ru": "metal",
+        "ru-rom": "metal",
+        "zh": "钅",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 13,
+      "category": "general",
+      "characters": [
+        "锁",
+        "链"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4
+    },
+    "辶": {
+      "radical": "辶",
+      "meaning": {
+        "es": "caminar",
+        "en": "caminar",
+        "de": "caminar",
+        "pt": "caminar",
+        "ru": "caminar",
+        "ru-rom": "caminar",
+        "zh": "辶",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "运",
+        "动",
+        "游",
+        "击",
+        "队"
+      ],
+      "lessons": [
+        4,
+        5
+      ],
+      "firstAppearance": 4
+    },
+    "手": {
+      "radical": "手",
+      "meaning": {
+        "es": "mano",
+        "en": "mano",
+        "de": "mano",
+        "pt": "mano",
+        "ru": "mano",
+        "ru-rom": "mano",
+        "zh": "手",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 15,
+      "category": "general",
+      "characters": [
+        "抵",
+        "抗",
+        "拳",
+        "头",
+        "举",
+        "起",
+        "的"
+      ],
+      "lessons": [
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ],
+      "firstAppearance": 5
+    },
+    "士": {
+      "radical": "士",
+      "meaning": {
+        "es": "soldado",
+        "en": "soldado",
+        "de": "soldado",
+        "pt": "soldado",
+        "ru": "soldado",
+        "ru-rom": "soldado",
+        "zh": "士",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 10,
+      "category": "general",
+      "characters": [
+        "士",
+        "兵"
+      ],
+      "lessons": [
+        5,
+        8
+      ],
+      "firstAppearance": 5
+    },
+    "山": {
+      "radical": "山",
+      "meaning": {
+        "es": "montaña",
+        "en": "montaña",
+        "de": "montaña",
+        "pt": "montaña",
+        "ru": "montaña",
+        "ru-rom": "montaña",
+        "zh": "山",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 10,
+      "category": "general",
+      "characters": [
+        "山",
+        "脉"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5
+    },
+    "角": {
+      "radical": "角",
+      "meaning": {
+        "es": "ángulo",
+        "en": "ángulo",
+        "de": "ángulo",
+        "pt": "ángulo",
+        "ru": "ángulo",
+        "ru-rom": "ángulo",
+        "zh": "角",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 13,
+      "category": "general",
+      "characters": [
+        "解",
+        "放",
+        "者"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5
+    },
+    "石": {
+      "radical": "石",
+      "meaning": {
+        "es": "piedra",
+        "en": "piedra",
+        "de": "piedra",
+        "pt": "piedra",
+        "ru": "piedra",
+        "ru-rom": "piedra",
+        "zh": "石",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 13,
+      "category": "general",
+      "characters": [
+        "破",
+        "坏"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5
+    },
+    "土": {
+      "radical": "土",
+      "meaning": {
+        "es": "tierra",
+        "en": "tierra",
+        "de": "tierra",
+        "pt": "tierra",
+        "ru": "tierra",
+        "ru-rom": "tierra",
+        "zh": "土",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "地",
+        "下",
+        "的",
+        "压",
+        "迫",
+        "主",
+        "土"
+      ],
+      "lessons": [
+        5,
+        9,
+        12
+      ],
+      "firstAppearance": 5
+    },
+    "攴": {
+      "radical": "攴",
+      "meaning": {
+        "es": "golpear",
+        "en": "golpear",
+        "de": "golpear",
+        "pt": "golpear",
+        "ru": "golpear",
+        "ru-rom": "golpear",
+        "zh": "攴",
         "zh-pinyin": "unknown"
       },
       "strokes": 6,
       "category": "general",
       "characters": [
-        "死",
-        "亡"
-      ]
+        "敌",
+        "人"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5
+    },
+    "禾": {
+      "radical": "禾",
+      "meaning": {
+        "es": "cereal",
+        "en": "cereal",
+        "de": "cereal",
+        "pt": "cereal",
+        "ru": "cereal",
+        "ru-rom": "cereal",
+        "zh": "禾",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 21,
+      "category": "general",
+      "characters": [
+        "秘",
+        "密",
+        "的"
+      ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6
+    },
+    "穴": {
+      "radical": "穴",
+      "meaning": {
+        "es": "cueva",
+        "en": "cueva",
+        "de": "cueva",
+        "pt": "cueva",
+        "ru": "cueva",
+        "ru-rom": "cueva",
+        "zh": "穴",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 31,
+      "category": "general",
+      "characters": [
+        "窃",
+        "私",
+        "语"
+      ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6
+    },
+    "弓": {
+      "radical": "弓",
+      "meaning": {
+        "es": "arco",
+        "en": "arco",
+        "de": "arco",
+        "pt": "arco",
+        "ru": "arco",
+        "ru-rom": "arco",
+        "zh": "弓",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 20,
+      "category": "general",
+      "characters": [
+        "强",
+        "盗",
+        "军",
+        "队"
+      ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6
     },
     "艹": {
       "radical": "艹",
@@ -1238,46 +1377,38 @@
         "维",
         "埃",
         "之",
-        "光"
-      ]
+        "光",
+        "英",
+        "勇",
+        "的"
+      ],
+      "lessons": [
+        6,
+        8
+      ],
+      "firstAppearance": 6
     },
-    "虫": {
-      "radical": "虫",
+    "纟": {
+      "radical": "纟",
       "meaning": {
-        "es": "insecto",
-        "en": "insecto",
-        "de": "insecto",
-        "pt": "insecto",
-        "ru": "insecto",
-        "ru-rom": "insecto",
-        "zh": "虫",
+        "es": "seda",
+        "en": "seda",
+        "de": "seda",
+        "pt": "seda",
+        "ru": "seda",
+        "ru-rom": "seda",
+        "zh": "纟",
         "zh-pinyin": "unknown"
       },
-      "strokes": 9,
+      "strokes": 6,
       "category": "general",
       "characters": [
-        "虽",
-        "然"
-      ]
-    },
-    "钅": {
-      "radical": "钅",
-      "meaning": {
-        "es": "metal",
-        "en": "metal",
-        "de": "metal",
-        "pt": "metal",
-        "ru": "metal",
-        "ru-rom": "metal",
-        "zh": "钅",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 13,
-      "category": "general",
-      "characters": [
-        "锁",
-        "链"
-      ]
+        "红"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
     },
     "日": {
       "radical": "日",
@@ -1296,66 +1427,106 @@
       "characters": [
         "太",
         "阳"
-      ]
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
     },
-    "天": {
-      "radical": "天",
+    "攵": {
+      "radical": "攵",
       "meaning": {
-        "es": "cielo",
-        "en": "cielo",
-        "de": "cielo",
-        "pt": "cielo",
-        "ru": "cielo",
-        "ru-rom": "cielo",
-        "zh": "天",
+        "es": "golpear",
+        "en": "golpear",
+        "de": "golpear",
+        "pt": "golpear",
+        "ru": "golpear",
+        "ru-rom": "golpear",
+        "zh": "攵",
         "zh-pinyin": "unknown"
       },
-      "strokes": 12,
+      "strokes": 15,
       "category": "general",
       "characters": [
-        "天",
-        "空"
-      ]
+        "救",
+        "星",
+        "散",
+        "居"
+      ],
+      "lessons": [
+        7,
+        10
+      ],
+      "firstAppearance": 7
     },
-    "疒": {
-      "radical": "疒",
+    "十": {
+      "radical": "十",
       "meaning": {
-        "es": "enfermedad",
-        "en": "enfermedad",
-        "de": "enfermedad",
-        "pt": "enfermedad",
-        "ru": "enfermedad",
-        "ru-rom": "enfermedad",
-        "zh": "疒",
+        "es": "diez",
+        "en": "diez",
+        "de": "diez",
+        "pt": "diez",
+        "ru": "diez",
+        "ru-rom": "diez",
+        "zh": "十",
         "zh-pinyin": "unknown"
       },
-      "strokes": 12,
+      "strokes": 8,
       "category": "general",
       "characters": [
-        "痛",
-        "苦"
-      ]
+        "升",
+        "起"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
     },
-    "因": {
-      "radical": "因",
+    "凵": {
+      "radical": "凵",
       "meaning": {
-        "es": "causa",
-        "en": "causa",
-        "de": "causa",
-        "pt": "causa",
-        "ru": "causa",
-        "ru-rom": "causa",
-        "zh": "因",
+        "es": "recipiente",
+        "en": "recipiente",
+        "de": "recipiente",
+        "pt": "recipiente",
+        "ru": "recipiente",
+        "ru-rom": "recipiente",
+        "zh": "凵",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "出",
+        "现"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
+    },
+    "页": {
+      "radical": "页",
+      "meaning": {
+        "es": "página",
+        "en": "página",
+        "de": "página",
+        "pt": "página",
+        "ru": "página",
+        "ru-rom": "página",
+        "zh": "页",
         "zh-pinyin": "unknown"
       },
       "strokes": 17,
       "category": "general",
       "characters": [
-        "团",
-        "结",
-        "互",
-        "助"
-      ]
+        "领",
+        "袖"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
     },
     "亻": {
       "radical": "亻",
@@ -1374,33 +1545,489 @@
       "characters": [
         "伟",
         "大"
-      ]
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
     },
-    "无": {
-      "radical": "无",
+    "主": {
+      "radical": "主",
       "meaning": {
-        "es": "sin",
-        "en": "sin",
-        "de": "sin",
-        "pt": "sin",
-        "ru": "sin",
-        "ru-rom": "sin",
-        "zh": "无",
+        "es": "señor",
+        "en": "señor",
+        "de": "señor",
+        "pt": "señor",
+        "ru": "señor",
+        "ru-rom": "señor",
+        "zh": "主",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 6,
+      "category": "general",
+      "characters": [
+        "主",
+        "席"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7
+    },
+    "八": {
+      "radical": "八",
+      "meaning": {
+        "es": "ocho",
+        "en": "ocho",
+        "de": "ocho",
+        "pt": "ocho",
+        "ru": "ocho",
+        "ru-rom": "ocho",
+        "zh": "八",
         "zh-pinyin": "unknown"
       },
       "strokes": 20,
       "category": "general",
       "characters": [
-        "无",
+        "共",
         "产",
-        "阶",
-        "级",
-        "者",
-        "政",
-        "府",
+        "党",
+        "和",
+        "国",
+        "公",
+        "社"
+      ],
+      "lessons": [
+        7,
+        12
+      ],
+      "firstAppearance": 7
+    },
+    "入": {
+      "radical": "入",
+      "meaning": {
+        "es": "entrar",
+        "en": "entrar",
+        "de": "entrar",
+        "pt": "entrar",
+        "ru": "entrar",
+        "ru-rom": "entrar",
+        "zh": "入",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 8,
+      "category": "general",
+      "characters": [
+        "入",
+        "侵"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8
+    },
+    "阝": {
+      "radical": "阝",
+      "meaning": {
+        "es": "montículo",
+        "en": "montículo",
+        "de": "montículo",
+        "pt": "montículo",
+        "ru": "montículo",
+        "ru-rom": "montículo",
+        "zh": "阝",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "防",
+        "御"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8
+    },
+    "列": {
+      "radical": "列",
+      "meaning": {
+        "es": "enumerar",
+        "en": "enumerar",
+        "de": "enumerar",
+        "pt": "enumerar",
+        "ru": "enumerar",
+        "ru-rom": "enumerar",
+        "zh": "列",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 35,
+      "category": "general",
+      "characters": [
+        "列",
+        "宁",
+        "格",
+        "勒",
+        "围",
+        "城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8
+    },
+    "东": {
+      "radical": "东",
+      "meaning": {
+        "es": "este",
+        "en": "este",
+        "de": "este",
+        "pt": "este",
+        "ru": "este",
+        "ru-rom": "este",
+        "zh": "东",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 22,
+      "category": "general",
+      "characters": [
+        "东",
+        "线",
+        "战",
+        "场"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8
+    },
+    "子": {
+      "radical": "子",
+      "meaning": {
+        "es": "hijo",
+        "en": "hijo",
+        "de": "hijo",
+        "pt": "hijo",
+        "ru": "hijo",
+        "ru-rom": "hijo",
+        "zh": "子",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 18,
+      "category": "general",
+      "characters": [
+        "孩",
+        "子",
+        "们"
+      ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9
+    },
+    "干": {
+      "radical": "干",
+      "meaning": {
+        "es": "seco",
+        "en": "seco",
+        "de": "seco",
+        "pt": "seco",
+        "ru": "seco",
+        "ru-rom": "seco",
+        "zh": "干",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 10,
+      "category": "general",
+      "characters": [
+        "平",
+        "等"
+      ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9
+    },
+    "同": {
+      "radical": "同",
+      "meaning": {
+        "es": "mismo",
+        "en": "mismo",
+        "de": "mismo",
+        "pt": "mismo",
+        "ru": "mismo",
+        "ru-rom": "mismo",
+        "zh": "同",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 7,
+      "category": "general",
+      "characters": [
+        "同",
+        "志"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
+    },
+    "总": {
+      "radical": "总",
+      "meaning": {
+        "es": "total",
+        "en": "total",
+        "de": "total",
+        "pt": "total",
+        "ru": "total",
+        "ru-rom": "total",
+        "zh": "总",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 18,
+      "category": "general",
+      "characters": [
+        "总",
+        "罢",
+        "工"
+      ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9
+    },
+    "心": {
+      "radical": "心",
+      "meaning": {
+        "es": "corazón",
+        "en": "corazón",
+        "de": "corazón",
+        "pt": "corazón",
+        "ru": "corazón",
+        "ru-rom": "corazón",
+        "zh": "心",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 13,
+      "category": "general",
+      "characters": [
+        "愚",
+        "蠢"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10
+    },
+    "幺": {
+      "radical": "幺",
+      "meaning": {
+        "es": "pequeño",
+        "en": "pequeño",
+        "de": "pequeño",
+        "pt": "pequeño",
+        "ru": "pequeño",
+        "ru-rom": "pequeño",
+        "zh": "幺",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "幻",
+        "想"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10
+    },
+    "火": {
+      "radical": "火",
+      "meaning": {
+        "es": "fuego",
+        "en": "fuego",
+        "de": "fuego",
+        "pt": "fuego",
+        "ru": "fuego",
+        "ru-rom": "fuego",
+        "zh": "火",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 10,
+      "category": "general",
+      "characters": [
+        "灭",
+        "亡"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10
+    },
+    "青": {
+      "radical": "青",
+      "meaning": {
+        "es": "azul",
+        "en": "azul",
+        "de": "azul",
+        "pt": "azul",
+        "ru": "azul",
+        "ru-rom": "azul",
+        "zh": "青",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "青",
+        "年"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10
+    },
+    "又": {
+      "radical": "又",
+      "meaning": {
+        "es": "otra vez",
+        "en": "otra vez",
+        "de": "otra vez",
+        "pt": "otra vez",
+        "ru": "otra vez",
+        "ru-rom": "otra vez",
+        "zh": "又",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "反",
+        "犹",
         "主",
         "义"
-      ]
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10
+    },
+    "前": {
+      "radical": "前",
+      "meaning": {
+        "es": "delante",
+        "en": "delante",
+        "de": "delante",
+        "pt": "delante",
+        "ru": "delante",
+        "ru-rom": "delante",
+        "zh": "前",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "前",
+        "线"
+      ],
+      "lessons": [
+        11
+      ],
+      "firstAppearance": 11
+    },
+    "共": {
+      "radical": "共",
+      "meaning": {
+        "es": "junto",
+        "en": "junto",
+        "de": "junto",
+        "pt": "junto",
+        "ru": "junto",
+        "ru-rom": "junto",
+        "zh": "共",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 16,
+      "category": "general",
+      "characters": [
+        "共",
+        "产",
+        "主",
+        "义",
+        "者"
+      ],
+      "lessons": [
+        11
+      ],
+      "firstAppearance": 11
+    },
+    "雇": {
+      "radical": "雇",
+      "meaning": {
+        "es": "emplear",
+        "en": "emplear",
+        "de": "emplear",
+        "pt": "emplear",
+        "ru": "emplear",
+        "ru-rom": "emplear",
+        "zh": "雇",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 12,
+      "category": "general",
+      "characters": [
+        "雇",
+        "农"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
+    },
+    "牛": {
+      "radical": "牛",
+      "meaning": {
+        "es": "buey",
+        "en": "buey",
+        "de": "buey",
+        "pt": "buey",
+        "ru": "buey",
+        "ru-rom": "buey",
+        "zh": "牛",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 11,
+      "category": "general",
+      "characters": [
+        "犁"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
+    },
+    "乚": {
+      "radical": "乚",
+      "meaning": {
+        "es": "segundo",
+        "en": "segundo",
+        "de": "segundo",
+        "pt": "segundo",
+        "ru": "segundo",
+        "ru-rom": "segundo",
+        "zh": "乚",
+        "zh-pinyin": "unknown"
+      },
+      "strokes": 9,
+      "category": "general",
+      "characters": [
+        "书",
+        "写"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
     },
     "政": {
       "radical": "政",
@@ -1423,166 +2050,11 @@
         "主",
         "义",
         "者"
-      ]
-    },
-    "行": {
-      "radical": "行",
-      "meaning": {
-        "es": "caminar",
-        "en": "caminar",
-        "de": "caminar",
-        "pt": "caminar",
-        "ru": "caminar",
-        "ru-rom": "caminar",
-        "zh": "行",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 13,
-      "category": "general",
-      "characters": [
-        "行",
-        "进"
-      ]
-    },
-    "血": {
-      "radical": "血",
-      "meaning": {
-        "es": "sangre",
-        "en": "sangre",
-        "de": "sangre",
-        "pt": "sangre",
-        "ru": "sangre",
-        "ru-rom": "sangre",
-        "zh": "血",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 12,
-      "category": "general",
-      "characters": [
-        "血",
-        "液"
-      ]
-    },
-    "辶": {
-      "radical": "辶",
-      "meaning": {
-        "es": "camino",
-        "en": "camino",
-        "de": "camino",
-        "pt": "camino",
-        "ru": "camino",
-        "ru-rom": "camino",
-        "zh": "辶",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "游",
-        "击",
-        "队",
-        "运",
-        "动"
-      ]
-    },
-    "心": {
-      "radical": "心",
-      "meaning": {
-        "es": "corazón",
-        "en": "corazón",
-        "de": "corazón",
-        "pt": "corazón",
-        "ru": "corazón",
-        "ru-rom": "corazón",
-        "zh": "心",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 13,
-      "category": "general",
-      "characters": [
-        "愚",
-        "蠢"
-      ]
-    },
-    "召": {
-      "radical": "召",
-      "meaning": {
-        "es": "convocar",
-        "en": "convocar",
-        "de": "convocar",
-        "pt": "convocar",
-        "ru": "convocar",
-        "ru-rom": "convocar",
-        "zh": "召",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 9,
-      "category": "general",
-      "characters": [
-        "召",
-        "唤"
-      ]
-    },
-    "主": {
-      "radical": "主",
-      "meaning": {
-        "es": "señor",
-        "en": "señor",
-        "de": "señor",
-        "pt": "señor",
-        "ru": "señor",
-        "ru-rom": "señor",
-        "zh": "主",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 6,
-      "category": "general",
-      "characters": [
-        "主",
-        "席"
-      ]
-    },
-    "自": {
-      "radical": "自",
-      "meaning": {
-        "es": "uno mismo",
-        "en": "uno mismo",
-        "de": "uno mismo",
-        "pt": "uno mismo",
-        "ru": "uno mismo",
-        "ru-rom": "uno mismo",
-        "zh": "自",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 11,
-      "category": "general",
-      "characters": [
-        "自",
-        "由",
-        "治",
-        "管",
-        "理"
-      ]
-    },
-    "总": {
-      "radical": "总",
-      "meaning": {
-        "es": "total",
-        "en": "total",
-        "de": "total",
-        "pt": "total",
-        "ru": "total",
-        "ru-rom": "total",
-        "zh": "总",
-        "zh-pinyin": "unknown"
-      },
-      "strokes": 18,
-      "category": "general",
-      "characters": [
-        "总",
-        "罢",
-        "工"
-      ]
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated": "2025-07-30T20:52:12.530Z",
+    "generated": "2025-07-31T17:27:45.821Z",
     "version": "3.0.0",
     "description": "Character-radical mapping with integrated dictionary data",
-    "totalCharacters": 202,
+    "totalCharacters": 218,
     "sources": [
       "Internal Chinese dictionary",
       "Automatic radical detection"
@@ -20,6 +20,1783 @@
     ]
   },
   "characters": {
+    "工": {
+      "character": "工",
+      "radical": "工",
+      "unicode": 24037,
+      "pinyin": "gōngrén",
+      "strokes": 7,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 工人 (trabajadores)"
+      ],
+      "frequency": 4,
+      "words": [
+        "工人",
+        "工团主义",
+        "工人阶级",
+        "总罢工"
+      ],
+      "lessons": [
+        2,
+        9,
+        10
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "人": {
+      "character": "人",
+      "radical": "工",
+      "unicode": 20154,
+      "pinyin": "gōngrén",
+      "strokes": 7,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 工人 (trabajadores)"
+      ],
+      "frequency": 4,
+      "words": [
+        "工人",
+        "人民",
+        "工人阶级",
+        "敌人"
+      ],
+      "lessons": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "斗": {
+      "character": "斗",
+      "radical": "斗",
+      "unicode": 26007,
+      "pinyin": "dòuzhēng",
+      "strokes": 12,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 斗争 (lucha)"
+      ],
+      "frequency": 2,
+      "words": [
+        "斗争",
+        "战斗"
+      ],
+      "lessons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "争": {
+      "character": "争",
+      "radical": "斗",
+      "unicode": 20105,
+      "pinyin": "dòuzhēng",
+      "strokes": 12,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 斗争 (lucha)"
+      ],
+      "frequency": 3,
+      "words": [
+        "斗争",
+        "战争",
+        "战争部长"
+      ],
+      "lessons": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "自": {
+      "character": "自",
+      "radical": "自",
+      "unicode": 33258,
+      "pinyin": "zìyóu",
+      "strokes": 11,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 自由 (libertad)"
+      ],
+      "frequency": 2,
+      "words": [
+        "自由",
+        "自治管理"
+      ],
+      "lessons": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "由": {
+      "character": "由",
+      "radical": "自",
+      "unicode": 30001,
+      "pinyin": "zìyóu",
+      "strokes": 11,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 自由 (libertad)"
+      ],
+      "frequency": 1,
+      "words": [
+        "自由"
+      ],
+      "lessons": [
+        0,
+        4,
+        5,
+        8,
+        9
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "民": {
+      "character": "民",
+      "radical": "人",
+      "unicode": 27665,
+      "pinyin": "rénmín",
+      "strokes": 7,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 人民 (pueblo)"
+      ],
+      "frequency": 1,
+      "words": [
+        "人民"
+      ],
+      "lessons": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "权": {
+      "character": "权",
+      "radical": "木",
+      "unicode": 26435,
+      "pinyin": "quánlì",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 权力 (poder)"
+      ],
+      "frequency": 1,
+      "words": [
+        "权力"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "力": {
+      "character": "力",
+      "radical": "木",
+      "unicode": 21147,
+      "pinyin": "quánlì",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 权力 (poder)"
+      ],
+      "frequency": 1,
+      "words": [
+        "权力"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "团": {
+      "character": "团",
+      "radical": "囗",
+      "unicode": 22242,
+      "pinyin": "tuánjié",
+      "strokes": 14,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 团结 (solidaridad)"
+      ],
+      "frequency": 3,
+      "words": [
+        "团结",
+        "工团主义",
+        "团结的"
+      ],
+      "lessons": [
+        2,
+        3,
+        9,
+        11
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "结": {
+      "character": "结",
+      "radical": "囗",
+      "unicode": 32467,
+      "pinyin": "tuánjié",
+      "strokes": 14,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 团结 (solidaridad)"
+      ],
+      "frequency": 2,
+      "words": [
+        "团结",
+        "团结的"
+      ],
+      "lessons": [
+        2,
+        3,
+        9,
+        11
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "旗": {
+      "character": "旗",
+      "radical": "方",
+      "unicode": 26071,
+      "pinyin": "qízhì",
+      "strokes": 14,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 旗帜 (banderas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "旗帜"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "帜": {
+      "character": "帜",
+      "radical": "方",
+      "unicode": 24092,
+      "pinyin": "qízhì",
+      "strokes": 14,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 旗帜 (banderas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "旗帜"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "战": {
+      "character": "战",
+      "radical": "戈",
+      "unicode": 25112,
+      "pinyin": "zhàndòu",
+      "strokes": 16,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 战斗 (luchar)"
+      ],
+      "frequency": 7,
+      "words": [
+        "战斗",
+        "被战胜的",
+        "战胜",
+        "战争",
+        "战士",
+        "战争部长",
+        "东线战场"
+      ],
+      "lessons": [
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "反": {
+      "character": "反",
+      "radical": "反",
+      "unicode": 21453,
+      "pinyin": "fǎnkàng",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 反抗 (resistir)"
+      ],
+      "frequency": 3,
+      "words": [
+        "反抗",
+        "反法西斯",
+        "反犹主义"
+      ],
+      "lessons": [
+        0,
+        5,
+        6,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "抗": {
+      "character": "抗",
+      "radical": "反",
+      "unicode": 25239,
+      "pinyin": "fǎnkàng",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 反抗 (resistir)"
+      ],
+      "frequency": 2,
+      "words": [
+        "反抗",
+        "抵抗"
+      ],
+      "lessons": [
+        0,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "捍": {
+      "character": "捍",
+      "radical": "扌",
+      "unicode": 25421,
+      "pinyin": "hànwèi",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 捍卫 (defender)"
+      ],
+      "frequency": 1,
+      "words": [
+        "捍卫"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "卫": {
+      "character": "卫",
+      "radical": "扌",
+      "unicode": 21355,
+      "pinyin": "hànwèi",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 捍卫 (defender)"
+      ],
+      "frequency": 1,
+      "words": [
+        "捍卫"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "唱": {
+      "character": "唱",
+      "radical": "口",
+      "unicode": 21809,
+      "pinyin": "chàng",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 唱 (cantar)"
+      ],
+      "frequency": 1,
+      "words": [
+        "唱"
+      ],
+      "lessons": [
+        0
+      ],
+      "firstAppearance": 0,
+      "source": "dictionary_integration"
+    },
+    "行": {
+      "character": "行",
+      "radical": "行",
+      "unicode": 34892,
+      "pinyin": "xíngjìn",
+      "strokes": 13,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 行进 (marcha)"
+      ],
+      "frequency": 1,
+      "words": [
+        "行进"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "进": {
+      "character": "进",
+      "radical": "行",
+      "unicode": 36827,
+      "pinyin": "xíngjìn",
+      "strokes": 13,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 行进 (marcha)"
+      ],
+      "frequency": 1,
+      "words": [
+        "行进"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "黑": {
+      "character": "黑",
+      "radical": "黑",
+      "unicode": 40657,
+      "pinyin": "hēisè",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 黑色的 (Negras)"
+      ],
+      "frequency": 1,
+      "words": [
+        "黑色的"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "色": {
+      "character": "色",
+      "radical": "黑",
+      "unicode": 33394,
+      "pinyin": "de",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 黑色的 (Negras)"
+      ],
+      "frequency": 1,
+      "words": [
+        "黑色的"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "的": {
+      "character": "的",
+      "radical": "黑",
+      "unicode": 30340,
+      "pinyin": "hēisè",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 黑色的 (Negras)"
+      ],
+      "frequency": 11,
+      "words": [
+        "黑色的",
+        "饥饿的",
+        "受诅咒的",
+        "团结的",
+        "被战胜的",
+        "永恒的",
+        "地下的",
+        "秘密的",
+        "神圣的",
+        "英勇的",
+        "举起的"
+      ],
+      "lessons": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        12
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "风": {
+      "character": "风",
+      "radical": "风",
+      "unicode": 39118,
+      "pinyin": "fēng",
+      "strokes": 13,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 风暴 (tormentas)"
+      ],
+      "frequency": 2,
+      "words": [
+        "风暴",
+        "风"
+      ],
+      "lessons": [
+        1,
+        4
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "暴": {
+      "character": "暴",
+      "radical": "风",
+      "unicode": 26292,
+      "pinyin": "bào",
+      "strokes": 13,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 风暴 (tormentas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "风暴"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "摇": {
+      "character": "摇",
+      "radical": "扌",
+      "unicode": 25671,
+      "pinyin": "yáohàn",
+      "strokes": 14,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 摇撼 (agitan)"
+      ],
+      "frequency": 1,
+      "words": [
+        "摇撼"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "撼": {
+      "character": "撼",
+      "radical": "扌",
+      "unicode": 25788,
+      "pinyin": "yáohàn",
+      "strokes": 14,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 摇撼 (agitan)"
+      ],
+      "frequency": 1,
+      "words": [
+        "摇撼"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "天": {
+      "character": "天",
+      "radical": "天",
+      "unicode": 22825,
+      "pinyin": "tiānkōng",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 天空 (aires)"
+      ],
+      "frequency": 1,
+      "words": [
+        "天空"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "空": {
+      "character": "空",
+      "radical": "天",
+      "unicode": 31354,
+      "pinyin": "tiānkōng",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 天空 (aires)"
+      ],
+      "frequency": 1,
+      "words": [
+        "天空"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "虽": {
+      "character": "虽",
+      "radical": "虫",
+      "unicode": 34429,
+      "pinyin": "suīrán",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 虽然 (aunque)"
+      ],
+      "frequency": 1,
+      "words": [
+        "虽然"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "然": {
+      "character": "然",
+      "radical": "虫",
+      "unicode": 28982,
+      "pinyin": "suīrán",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 虽然 (aunque)"
+      ],
+      "frequency": 1,
+      "words": [
+        "虽然"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "等": {
+      "character": "等",
+      "radical": "竹",
+      "unicode": 31561,
+      "pinyin": "děng",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 等待 (espere)"
+      ],
+      "frequency": 2,
+      "words": [
+        "等待",
+        "平等"
+      ],
+      "lessons": [
+        1,
+        9
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "待": {
+      "character": "待",
+      "radical": "竹",
+      "unicode": 24453,
+      "pinyin": "dài",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 等待 (espere)"
+      ],
+      "frequency": 1,
+      "words": [
+        "等待"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "痛": {
+      "character": "痛",
+      "radical": "痛",
+      "unicode": 30171,
+      "pinyin": "tòngkǔ",
+      "strokes": 17,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 痛苦 (miseria)"
+      ],
+      "frequency": 1,
+      "words": [
+        "痛苦"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "苦": {
+      "character": "苦",
+      "radical": "痛",
+      "unicode": 33510,
+      "pinyin": "tòngkǔ",
+      "strokes": 17,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 痛苦 (miseria)"
+      ],
+      "frequency": 1,
+      "words": [
+        "痛苦"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "死": {
+      "character": "死",
+      "radical": "歹",
+      "unicode": 27515,
+      "pinyin": "sǐwáng",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 死亡 (muerte)"
+      ],
+      "frequency": 2,
+      "words": [
+        "死亡",
+        "死"
+      ],
+      "lessons": [
+        1,
+        4
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "亡": {
+      "character": "亡",
+      "radical": "歹",
+      "unicode": 20129,
+      "pinyin": "sǐwáng",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 死亡 (muerte)"
+      ],
+      "frequency": 2,
+      "words": [
+        "死亡",
+        "灭亡"
+      ],
+      "lessons": [
+        1,
+        4,
+        10
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "召": {
+      "character": "召",
+      "radical": "召",
+      "unicode": 21484,
+      "pinyin": "zhàohuàn",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 召唤 (llama)"
+      ],
+      "frequency": 1,
+      "words": [
+        "召唤"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "唤": {
+      "character": "唤",
+      "radical": "召",
+      "unicode": 21796,
+      "pinyin": "zhàohuàn",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 召唤 (llama)"
+      ],
+      "frequency": 1,
+      "words": [
+        "召唤"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "职": {
+      "character": "职",
+      "radical": "耳",
+      "unicode": 32844,
+      "pinyin": "zhízé",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 职责 (deber)"
+      ],
+      "frequency": 1,
+      "words": [
+        "职责"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "责": {
+      "character": "责",
+      "radical": "耳",
+      "unicode": 36131,
+      "pinyin": "zhízé",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 职责 (deber)"
+      ],
+      "frequency": 1,
+      "words": [
+        "职责"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "无": {
+      "character": "无",
+      "radical": "无",
+      "unicode": 26080,
+      "pinyin": "wú",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无政府主义 (anarquía)"
+      ],
+      "frequency": 4,
+      "words": [
+        "无政府主义",
+        "无产阶级",
+        "无产者",
+        "无政府主义者"
+      ],
+      "lessons": [
+        2,
+        4,
+        10,
+        11,
+        12
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "政": {
+      "character": "政",
+      "radical": "无",
+      "unicode": 25919,
+      "pinyin": "zhèngfǔ",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无政府主义 (anarquía)"
+      ],
+      "frequency": 2,
+      "words": [
+        "无政府主义",
+        "无政府主义者"
+      ],
+      "lessons": [
+        4,
+        12
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "府": {
+      "character": "府",
+      "radical": "无",
+      "unicode": 24220,
+      "pinyin": "zhǔyì",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无政府主义 (anarquía)"
+      ],
+      "frequency": 2,
+      "words": [
+        "无政府主义",
+        "无政府主义者"
+      ],
+      "lessons": [
+        4,
+        12
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "主": {
+      "character": "主",
+      "radical": "无",
+      "unicode": 20027,
+      "pinyin": "wú",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无政府主义 (anarquía)"
+      ],
+      "frequency": 10,
+      "words": [
+        "无政府主义",
+        "工团主义",
+        "社会主义",
+        "法西斯主义",
+        "主席",
+        "反犹主义",
+        "共产主义者",
+        "社会主义者",
+        "地主",
+        "无政府主义者"
+      ],
+      "lessons": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "义": {
+      "character": "义",
+      "radical": "无",
+      "unicode": 20041,
+      "pinyin": "wú",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无政府主义 (anarquía)"
+      ],
+      "frequency": 8,
+      "words": [
+        "无政府主义",
+        "工团主义",
+        "社会主义",
+        "法西斯主义",
+        "反犹主义",
+        "共产主义者",
+        "社会主义者",
+        "无政府主义者"
+      ],
+      "lessons": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "治": {
+      "character": "治",
+      "radical": "自",
+      "unicode": 27835,
+      "pinyin": "guǎnlǐ",
+      "strokes": 19,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 自治管理 (Autogestión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "自治管理"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "管": {
+      "character": "管",
+      "radical": "自",
+      "unicode": 31649,
+      "pinyin": "zìzhì",
+      "strokes": 19,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 自治管理 (Autogestión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "自治管理"
+      ],
+      "lessons": [
+        1
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "理": {
+      "character": "理",
+      "radical": "自",
+      "unicode": 29702,
+      "pinyin": "zìzhì",
+      "strokes": 19,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 自治管理 (Autogestión)"
+      ],
+      "frequency": 2,
+      "words": [
+        "自治管理",
+        "理性"
+      ],
+      "lessons": [
+        1,
+        2
+      ],
+      "firstAppearance": 1,
+      "source": "dictionary_integration"
+    },
+    "起": {
+      "character": "起",
+      "radical": "走",
+      "unicode": 36215,
+      "pinyin": "qǐlái",
+      "strokes": 10,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 起来 (levántate)"
+      ],
+      "frequency": 3,
+      "words": [
+        "起来",
+        "升起",
+        "举起的"
+      ],
+      "lessons": [
+        2,
+        7,
+        12
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "来": {
+      "character": "来",
+      "radical": "走",
+      "unicode": 26469,
+      "pinyin": "qǐlái",
+      "strokes": 10,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 起来 (levántate)"
+      ],
+      "frequency": 1,
+      "words": [
+        "起来"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "饥": {
+      "character": "饥",
+      "radical": "食",
+      "unicode": 39269,
+      "pinyin": "jī'è",
+      "strokes": 19,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 饥饿的 (hambrientos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "饥饿的"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "饿": {
+      "character": "饿",
+      "radical": "食",
+      "unicode": 39295,
+      "pinyin": "de",
+      "strokes": 19,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 饥饿的 (hambrientos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "饥饿的"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "受": {
+      "character": "受",
+      "radical": "示",
+      "unicode": 21463,
+      "pinyin": "shòu",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 受诅咒的 (malditos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "受诅咒的"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "诅": {
+      "character": "诅",
+      "radical": "示",
+      "unicode": 35781,
+      "pinyin": "zǔzhòu",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 受诅咒的 (malditos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "受诅咒的"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "咒": {
+      "character": "咒",
+      "radical": "示",
+      "unicode": 21650,
+      "pinyin": "de",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 受诅咒的 (malditos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "受诅咒的"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "奴": {
+      "character": "奴",
+      "radical": "女",
+      "unicode": 22900,
+      "pinyin": "núlì",
+      "strokes": 12,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 奴隶 (esclavo)"
+      ],
+      "frequency": 1,
+      "words": [
+        "奴隶"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "隶": {
+      "character": "隶",
+      "radical": "女",
+      "unicode": 38582,
+      "pinyin": "núlì",
+      "strokes": 12,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 奴隶 (esclavo)"
+      ],
+      "frequency": 1,
+      "words": [
+        "奴隶"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "血": {
+      "character": "血",
+      "radical": "血",
+      "unicode": 34880,
+      "pinyin": "xuèyè",
+      "strokes": 12,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 血液 (sangre)"
+      ],
+      "frequency": 1,
+      "words": [
+        "血液"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "液": {
+      "character": "液",
+      "radical": "血",
+      "unicode": 28082,
+      "pinyin": "xuèyè",
+      "strokes": 12,
+      "structure": "independiente",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 血液 (sangre)"
+      ],
+      "frequency": 1,
+      "words": [
+        "血液"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "沸": {
+      "character": "沸",
+      "radical": "水",
+      "unicode": 27832,
+      "pinyin": "fèi",
+      "strokes": 16,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 沸腾 (hierve)"
+      ],
+      "frequency": 1,
+      "words": [
+        "沸腾"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "腾": {
+      "character": "腾",
+      "radical": "水",
+      "unicode": 33150,
+      "pinyin": "téng",
+      "strokes": 16,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 沸腾 (hierve)"
+      ],
+      "frequency": 1,
+      "words": [
+        "沸腾"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "性": {
+      "character": "性",
+      "radical": "王",
+      "unicode": 24615,
+      "pinyin": "lǐxìng",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 理性 (razón)"
+      ],
+      "frequency": 1,
+      "words": [
+        "理性"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "世": {
+      "character": "世",
+      "radical": "世",
+      "unicode": 19990,
+      "pinyin": "shìjiè",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 世界 (mundo)"
+      ],
+      "frequency": 2,
+      "words": [
+        "世界",
+        "世界共和国"
+      ],
+      "lessons": [
+        2,
+        6
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "界": {
+      "character": "界",
+      "radical": "世",
+      "unicode": 30028,
+      "pinyin": "shìjiè",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 世界 (mundo)"
+      ],
+      "frequency": 2,
+      "words": [
+        "世界",
+        "世界共和国"
+      ],
+      "lessons": [
+        2,
+        6
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "什": {
+      "character": "什",
+      "radical": "什",
+      "unicode": 20160,
+      "pinyin": "shénme",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 什么都没有 (nada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "什么都没有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "么": {
+      "character": "么",
+      "radical": "什",
+      "unicode": 20040,
+      "pinyin": "dōu",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 什么都没有 (nada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "什么都没有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "都": {
+      "character": "都",
+      "radical": "什",
+      "unicode": 37117,
+      "pinyin": "méiyǒu",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 什么都没有 (nada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "什么都没有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "没": {
+      "character": "没",
+      "radical": "什",
+      "unicode": 27809,
+      "pinyin": "shénme",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 什么都没有 (nada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "什么都没有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "有": {
+      "character": "有",
+      "radical": "什",
+      "unicode": 26377,
+      "pinyin": "shénme",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 什么都没有 (nada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "什么都没有"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "产": {
+      "character": "产",
+      "radical": "无",
+      "unicode": 20135,
+      "pinyin": "wúchǎnjiējí",
+      "strokes": 20,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无产阶级 (proletariado)"
+      ],
+      "frequency": 4,
+      "words": [
+        "无产阶级",
+        "共产党",
+        "无产者",
+        "共产主义者"
+      ],
+      "lessons": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "阶": {
+      "character": "阶",
+      "radical": "无",
+      "unicode": 38454,
+      "pinyin": "wúchǎnjiējí",
+      "strokes": 20,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无产阶级 (proletariado)"
+      ],
+      "frequency": 2,
+      "words": [
+        "无产阶级",
+        "工人阶级"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "级": {
+      "character": "级",
+      "radical": "无",
+      "unicode": 32423,
+      "pinyin": "wúchǎnjiējí",
+      "strokes": 20,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 无产阶级 (proletariado)"
+      ],
+      "frequency": 2,
+      "words": [
+        "无产阶级",
+        "工人阶级"
+      ],
+      "lessons": [
+        2
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "社": {
+      "character": "社",
+      "radical": "社",
+      "unicode": 31038,
+      "pinyin": "shèhuìzhǔyì",
+      "strokes": 22,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 社会主义 (socialismo)"
+      ],
+      "frequency": 3,
+      "words": [
+        "社会主义",
+        "社会主义者",
+        "公社"
+      ],
+      "lessons": [
+        2,
+        7,
+        11,
+        12
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
+    "会": {
+      "character": "会",
+      "radical": "社",
+      "unicode": 20250,
+      "pinyin": "shèhuìzhǔyì",
+      "strokes": 22,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 社会主义 (socialismo)"
+      ],
+      "frequency": 3,
+      "words": [
+        "社会主义",
+        "永远不会",
+        "社会主义者"
+      ],
+      "lessons": [
+        2,
+        3,
+        7,
+        11
+      ],
+      "firstAppearance": 2,
+      "source": "dictionary_integration"
+    },
     "被": {
       "character": "被",
       "radical": "戈",
@@ -35,28 +1812,10 @@
       "words": [
         "被战胜的"
       ],
-      "source": "dictionary_integration"
-    },
-    "战": {
-      "character": "战",
-      "radical": "戈",
-      "unicode": 25112,
-      "pinyin": "zhànshèng",
-      "strokes": 12,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 被战胜的 (vencido)"
+      "lessons": [
+        3
       ],
-      "frequency": 6,
-      "words": [
-        "被战胜的",
-        "东线战场",
-        "战斗",
-        "战胜",
-        "战士",
-        "战争"
-      ],
+      "firstAppearance": 3,
       "source": "dictionary_integration"
     },
     "胜": {
@@ -76,152 +1835,246 @@
         "胜利",
         "战胜"
       ],
+      "lessons": [
+        3,
+        5,
+        8
+      ],
+      "firstAppearance": 3,
       "source": "dictionary_integration"
     },
-    "的": {
-      "character": "的",
-      "radical": "戈",
-      "unicode": 30340,
-      "pinyin": "bèi",
-      "strokes": 12,
+    "利": {
+      "character": "利",
+      "radical": "力",
+      "unicode": 21033,
+      "pinyin": "shènglì",
+      "strokes": 14,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 被战胜的 (vencido)"
-      ],
-      "frequency": 10,
-      "words": [
-        "被战胜的",
-        "地下的",
-        "黑色的",
-        "饥饿的",
-        "举起的",
-        "秘密的",
-        "神圣的",
-        "受诅咒的",
-        "团结的",
-        "永恒的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "波": {
-      "character": "波",
-      "radical": "氵",
-      "unicode": 27874,
-      "pinyin": "bō",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 波浪 (oleada)"
+        "Used in: 胜利 (victoria)"
       ],
       "frequency": 1,
       "words": [
-        "波浪"
+        "胜利"
       ],
+      "lessons": [
+        3,
+        5,
+        8
+      ],
+      "firstAppearance": 3,
       "source": "dictionary_integration"
     },
-    "浪": {
-      "character": "浪",
-      "radical": "氵",
-      "unicode": 28010,
-      "pinyin": "làng",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 波浪 (oleada)"
-      ],
-      "frequency": 1,
-      "words": [
-        "波浪"
-      ],
-      "source": "dictionary_integration"
-    },
-    "唱": {
-      "character": "唱",
-      "radical": "口",
-      "unicode": 21809,
-      "pinyin": "chàng",
-      "strokes": 11,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 唱 (cantar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "唱"
-      ],
-      "source": "dictionary_integration"
-    },
-    "出": {
-      "character": "出",
-      "radical": "凵",
-      "unicode": 20986,
-      "pinyin": "chū",
-      "strokes": 11,
+    "永": {
+      "character": "永",
+      "radical": "水",
+      "unicode": 27704,
+      "pinyin": "yǒngyuǎn",
+      "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 出现 (aparecer)"
-      ],
-      "frequency": 1,
-      "words": [
-        "出现"
-      ],
-      "source": "dictionary_integration"
-    },
-    "现": {
-      "character": "现",
-      "radical": "凵",
-      "unicode": 29616,
-      "pinyin": "xiàn",
-      "strokes": 11,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 出现 (aparecer)"
-      ],
-      "frequency": 1,
-      "words": [
-        "出现"
-      ],
-      "source": "dictionary_integration"
-    },
-    "船": {
-      "character": "船",
-      "radical": "舟",
-      "unicode": 33337,
-      "pinyin": "chuán",
-      "strokes": 16,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 船员 (marineros)"
+        "Used in: 永远不会 (jamás)"
       ],
       "frequency": 2,
       "words": [
-        "船员",
-        "大帆船"
+        "永远不会",
+        "永恒的"
       ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
       "source": "dictionary_integration"
     },
-    "员": {
-      "character": "员",
-      "radical": "舟",
-      "unicode": 21592,
-      "pinyin": "yuán",
-      "strokes": 16,
+    "远": {
+      "character": "远",
+      "radical": "水",
+      "unicode": 36828,
+      "pinyin": "bù",
+      "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 船员 (marineros)"
+        "Used in: 永远不会 (jamás)"
       ],
       "frequency": 1,
       "words": [
-        "船员"
+        "永远不会"
       ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "不": {
+      "character": "不",
+      "radical": "水",
+      "unicode": 19981,
+      "pinyin": "huì",
+      "strokes": 15,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 永远不会 (jamás)"
+      ],
+      "frequency": 1,
+      "words": [
+        "永远不会"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "将": {
+      "character": "将",
+      "radical": "寸",
+      "unicode": 23558,
+      "pinyin": "jiāng",
+      "strokes": 12,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 将是 (será)"
+      ],
+      "frequency": 1,
+      "words": [
+        "将是"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "是": {
+      "character": "是",
+      "radical": "寸",
+      "unicode": 26159,
+      "pinyin": "shì",
+      "strokes": 12,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 将是 (será)"
+      ],
+      "frequency": 1,
+      "words": [
+        "将是"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "恒": {
+      "character": "恒",
+      "radical": "水",
+      "unicode": 24658,
+      "pinyin": "de",
+      "strokes": 14,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 永恒的 (eterna)"
+      ],
+      "frequency": 1,
+      "words": [
+        "永恒的"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "历": {
+      "character": "历",
+      "radical": "厂",
+      "unicode": 21382,
+      "pinyin": "lìshǐ",
+      "strokes": 9,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 历史 (historia)"
+      ],
+      "frequency": 1,
+      "words": [
+        "历史"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "史": {
+      "character": "史",
+      "radical": "厂",
+      "unicode": 21490,
+      "pinyin": "lìshǐ",
+      "strokes": 9,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 历史 (historia)"
+      ],
+      "frequency": 1,
+      "words": [
+        "历史"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "黎": {
+      "character": "黎",
+      "radical": "黍",
+      "unicode": 40654,
+      "pinyin": "lí",
+      "strokes": 23,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 黎明 (amanecer)"
+      ],
+      "frequency": 1,
+      "words": [
+        "黎明"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
+      "source": "dictionary_integration"
+    },
+    "明": {
+      "character": "明",
+      "radical": "黍",
+      "unicode": 26126,
+      "pinyin": "míng",
+      "strokes": 23,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 黎明 (amanecer)"
+      ],
+      "frequency": 1,
+      "words": [
+        "黎明"
+      ],
+      "lessons": [
+        3
+      ],
+      "firstAppearance": 3,
       "source": "dictionary_integration"
     },
     "大": {
@@ -240,6 +2093,11 @@
         "大帆船",
         "伟大"
       ],
+      "lessons": [
+        4,
+        7
+      ],
+      "firstAppearance": 4,
       "source": "dictionary_integration"
     },
     "帆": {
@@ -257,6 +2115,510 @@
       "words": [
         "大帆船"
       ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "船": {
+      "character": "船",
+      "radical": "船",
+      "unicode": 33337,
+      "pinyin": "dà",
+      "strokes": 12,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 大帆船 (galeón)"
+      ],
+      "frequency": 2,
+      "words": [
+        "大帆船",
+        "船员"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "员": {
+      "character": "员",
+      "radical": "舟",
+      "unicode": 21592,
+      "pinyin": "chuányuán",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 船员 (marineros)"
+      ],
+      "frequency": 1,
+      "words": [
+        "船员"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "港": {
+      "character": "港",
+      "radical": "氵",
+      "unicode": 28207,
+      "pinyin": "gǎngkǒu",
+      "strokes": 15,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 港口 (puerto)"
+      ],
+      "frequency": 1,
+      "words": [
+        "港口"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "口": {
+      "character": "口",
+      "radical": "氵",
+      "unicode": 21475,
+      "pinyin": "gǎngkǒu",
+      "strokes": 15,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 港口 (puerto)"
+      ],
+      "frequency": 1,
+      "words": [
+        "港口"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "波": {
+      "character": "波",
+      "radical": "氵",
+      "unicode": 27874,
+      "pinyin": "bō",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 波浪 (oleada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "波浪"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "浪": {
+      "character": "浪",
+      "radical": "氵",
+      "unicode": 28010,
+      "pinyin": "làng",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 波浪 (oleada)"
+      ],
+      "frequency": 1,
+      "words": [
+        "波浪"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "锁": {
+      "character": "锁",
+      "radical": "钅",
+      "unicode": 38145,
+      "pinyin": "suǒliàn",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 锁链 (cadenas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "锁链"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "链": {
+      "character": "链",
+      "radical": "钅",
+      "unicode": 38142,
+      "pinyin": "suǒliàn",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 锁链 (cadenas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "锁链"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "运": {
+      "character": "运",
+      "radical": "辶",
+      "unicode": 36816,
+      "pinyin": "yùn",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 运动 (movimiento)"
+      ],
+      "frequency": 1,
+      "words": [
+        "运动"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "动": {
+      "character": "动",
+      "radical": "辶",
+      "unicode": 21160,
+      "pinyin": "dòng",
+      "strokes": 11,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 运动 (movimiento)"
+      ],
+      "frequency": 1,
+      "words": [
+        "运动"
+      ],
+      "lessons": [
+        4
+      ],
+      "firstAppearance": 4,
+      "source": "dictionary_integration"
+    },
+    "游": {
+      "character": "游",
+      "radical": "辶",
+      "unicode": 28216,
+      "pinyin": "yóujīduì",
+      "strokes": 9,
+      "structure": "semi-encierro",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 游击队 (partisanos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "游击队"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "击": {
+      "character": "击",
+      "radical": "辶",
+      "unicode": 20987,
+      "pinyin": "yóujīduì",
+      "strokes": 9,
+      "structure": "semi-encierro",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 游击队 (partisanos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "游击队"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "队": {
+      "character": "队",
+      "radical": "辶",
+      "unicode": 38431,
+      "pinyin": "yóujīduì",
+      "strokes": 9,
+      "structure": "semi-encierro",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 游击队 (partisanos)"
+      ],
+      "frequency": 2,
+      "words": [
+        "游击队",
+        "强盗军队"
+      ],
+      "lessons": [
+        5,
+        6
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "抵": {
+      "character": "抵",
+      "radical": "手",
+      "unicode": 25269,
+      "pinyin": "dǐkàng",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 抵抗 (resistencia)"
+      ],
+      "frequency": 1,
+      "words": [
+        "抵抗"
+      ],
+      "lessons": [
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "士": {
+      "character": "士",
+      "radical": "士",
+      "unicode": 22763,
+      "pinyin": "shìbīng",
+      "strokes": 10,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 士兵 (soldados)"
+      ],
+      "frequency": 2,
+      "words": [
+        "士兵",
+        "战士"
+      ],
+      "lessons": [
+        5,
+        8
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "兵": {
+      "character": "兵",
+      "radical": "士",
+      "unicode": 20853,
+      "pinyin": "shìbīng",
+      "strokes": 10,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 士兵 (soldados)"
+      ],
+      "frequency": 1,
+      "words": [
+        "士兵"
+      ],
+      "lessons": [
+        5,
+        8
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "山": {
+      "character": "山",
+      "radical": "山",
+      "unicode": 23665,
+      "pinyin": "shānmài",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 山脉 (montañas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "山脉"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "脉": {
+      "character": "脉",
+      "radical": "山",
+      "unicode": 33033,
+      "pinyin": "shānmài",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 山脉 (montañas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "山脉"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "解": {
+      "character": "解",
+      "radical": "角",
+      "unicode": 35299,
+      "pinyin": "jiěfàng",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 解放者 (libertadores)"
+      ],
+      "frequency": 1,
+      "words": [
+        "解放者"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "放": {
+      "character": "放",
+      "radical": "角",
+      "unicode": 25918,
+      "pinyin": "zhě",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 解放者 (libertadores)"
+      ],
+      "frequency": 1,
+      "words": [
+        "解放者"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "者": {
+      "character": "者",
+      "radical": "角",
+      "unicode": 32773,
+      "pinyin": "jiěfàng",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 解放者 (libertadores)"
+      ],
+      "frequency": 5,
+      "words": [
+        "解放者",
+        "无产者",
+        "共产主义者",
+        "社会主义者",
+        "无政府主义者"
+      ],
+      "lessons": [
+        5,
+        10,
+        11,
+        12
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "破": {
+      "character": "破",
+      "radical": "石",
+      "unicode": 30772,
+      "pinyin": "pòhuài",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 破坏 (sabotaje)"
+      ],
+      "frequency": 1,
+      "words": [
+        "破坏"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
+      "source": "dictionary_integration"
+    },
+    "坏": {
+      "character": "坏",
+      "radical": "石",
+      "unicode": 22351,
+      "pinyin": "pòhuài",
+      "strokes": 13,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 破坏 (sabotaje)"
+      ],
+      "frequency": 1,
+      "words": [
+        "破坏"
+      ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "地": {
@@ -276,6 +2638,11 @@
         "地主",
         "土地"
       ],
+      "lessons": [
+        5,
+        12
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "下": {
@@ -293,280 +2660,10 @@
       "words": [
         "地下的"
       ],
-      "source": "dictionary_integration"
-    },
-    "主": {
-      "character": "主",
-      "radical": "土",
-      "unicode": 20027,
-      "pinyin": "zhǔ",
-      "strokes": 8,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 地主 (amo)"
+      "lessons": [
+        5
       ],
-      "frequency": 10,
-      "words": [
-        "地主",
-        "法西斯主义",
-        "反犹主义",
-        "工团主义",
-        "共产主义者",
-        "社会主义",
-        "社会主义者",
-        "无政府主义",
-        "无政府主义者",
-        "主席"
-      ],
-      "source": "dictionary_integration"
-    },
-    "等": {
-      "character": "等",
-      "radical": "竹",
-      "unicode": 31561,
-      "pinyin": "děng",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 等待 (espere)"
-      ],
-      "frequency": 1,
-      "words": [
-        "等待"
-      ],
-      "source": "dictionary_integration"
-    },
-    "待": {
-      "character": "待",
-      "radical": "竹",
-      "unicode": 24453,
-      "pinyin": "dài",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 等待 (espere)"
-      ],
-      "frequency": 1,
-      "words": [
-        "等待"
-      ],
-      "source": "dictionary_integration"
-    },
-    "敌": {
-      "character": "敌",
-      "radical": "攴",
-      "unicode": 25932,
-      "pinyin": "dí",
-      "strokes": 6,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 敌人 (enemigo)"
-      ],
-      "frequency": 1,
-      "words": [
-        "敌人"
-      ],
-      "source": "dictionary_integration"
-    },
-    "人": {
-      "character": "人",
-      "radical": "攴",
-      "unicode": 20154,
-      "pinyin": "rén",
-      "strokes": 6,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 敌人 (enemigo)"
-      ],
-      "frequency": 4,
-      "words": [
-        "敌人",
-        "工人",
-        "工人阶级",
-        "人民"
-      ],
-      "source": "dictionary_integration"
-    },
-    "第": {
-      "character": "第",
-      "radical": "囗",
-      "unicode": 31532,
-      "pinyin": "dì-yī",
-      "strokes": 16,
-      "structure": "encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 第一国际 (Primera Internacional)"
-      ],
-      "frequency": 1,
-      "words": [
-        "第一国际"
-      ],
-      "source": "dictionary_integration"
-    },
-    "一": {
-      "character": "一",
-      "radical": "囗",
-      "unicode": 19968,
-      "pinyin": "guójì",
-      "strokes": 16,
-      "structure": "encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 第一国际 (Primera Internacional)"
-      ],
-      "frequency": 1,
-      "words": [
-        "第一国际"
-      ],
-      "source": "dictionary_integration"
-    },
-    "国": {
-      "character": "国",
-      "radical": "囗",
-      "unicode": 22269,
-      "pinyin": "dì-yī",
-      "strokes": 16,
-      "structure": "encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 第一国际 (Primera Internacional)"
-      ],
-      "frequency": 4,
-      "words": [
-        "第一国际",
-        "共和国",
-        "世界共和国",
-        "祖国"
-      ],
-      "source": "dictionary_integration"
-    },
-    "际": {
-      "character": "际",
-      "radical": "囗",
-      "unicode": 38469,
-      "pinyin": "dì-yī",
-      "strokes": 16,
-      "structure": "encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 第一国际 (Primera Internacional)"
-      ],
-      "frequency": 1,
-      "words": [
-        "第一国际"
-      ],
-      "source": "dictionary_integration"
-    },
-    "东": {
-      "character": "东",
-      "radical": "方",
-      "unicode": 19996,
-      "pinyin": "dōng",
-      "strokes": 8,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 东方 (oriente)"
-      ],
-      "frequency": 2,
-      "words": [
-        "东方",
-        "东线战场"
-      ],
-      "source": "dictionary_integration"
-    },
-    "方": {
-      "character": "方",
-      "radical": "方",
-      "unicode": 26041,
-      "pinyin": "fāng",
-      "strokes": 8,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 东方 (oriente)"
-      ],
-      "frequency": 1,
-      "words": [
-        "东方"
-      ],
-      "source": "dictionary_integration"
-    },
-    "线": {
-      "character": "线",
-      "radical": "东",
-      "unicode": 32447,
-      "pinyin": "zhànchǎng",
-      "strokes": 22,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 东线战场 (frente oriental)"
-      ],
-      "frequency": 2,
-      "words": [
-        "东线战场",
-        "前线"
-      ],
-      "source": "dictionary_integration"
-    },
-    "场": {
-      "character": "场",
-      "radical": "东",
-      "unicode": 22330,
-      "pinyin": "dōngxiàn",
-      "strokes": 22,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 东线战场 (frente oriental)"
-      ],
-      "frequency": 1,
-      "words": [
-        "东线战场"
-      ],
-      "source": "dictionary_integration"
-    },
-    "斗": {
-      "character": "斗",
-      "radical": "斗",
-      "unicode": 26007,
-      "pinyin": "dòu",
-      "strokes": 12,
-      "structure": "independiente",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 斗争 (lucha)"
-      ],
-      "frequency": 2,
-      "words": [
-        "斗争",
-        "战斗"
-      ],
-      "source": "dictionary_integration"
-    },
-    "争": {
-      "character": "争",
-      "radical": "斗",
-      "unicode": 20105,
-      "pinyin": "zhēng",
-      "strokes": 12,
-      "structure": "independiente",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 斗争 (lucha)"
-      ],
-      "frequency": 2,
-      "words": [
-        "斗争",
-        "战争"
-      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "法": {
@@ -585,6 +2682,13 @@
         "法西斯主义",
         "反法西斯"
       ],
+      "lessons": [
+        5,
+        6,
+        8,
+        11
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "西": {
@@ -603,6 +2707,13 @@
         "法西斯主义",
         "反法西斯"
       ],
+      "lessons": [
+        5,
+        6,
+        8,
+        11
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "斯": {
@@ -621,1128 +2732,84 @@
         "法西斯主义",
         "反法西斯"
       ],
+      "lessons": [
+        5,
+        6,
+        8,
+        11
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
-    "义": {
-      "character": "义",
-      "radical": "氵",
-      "unicode": 20041,
-      "pinyin": "fǎxīsī",
-      "strokes": 23,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 法西斯主义 (fascismo)"
-      ],
-      "frequency": 8,
-      "words": [
-        "法西斯主义",
-        "反犹主义",
-        "工团主义",
-        "共产主义者",
-        "社会主义",
-        "社会主义者",
-        "无政府主义",
-        "无政府主义者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "反": {
-      "character": "反",
-      "radical": "反",
-      "unicode": 21453,
-      "pinyin": "fǎn",
-      "strokes": 16,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 反法西斯 (antifascista)"
-      ],
-      "frequency": 3,
-      "words": [
-        "反法西斯",
-        "反抗",
-        "反犹主义"
-      ],
-      "source": "dictionary_integration"
-    },
-    "抗": {
-      "character": "抗",
-      "radical": "反",
-      "unicode": 25239,
-      "pinyin": "kàng",
-      "strokes": 11,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 反抗 (resistir)"
-      ],
-      "frequency": 1,
-      "words": [
-        "反抗"
-      ],
-      "source": "dictionary_integration"
-    },
-    "犹": {
-      "character": "犹",
-      "radical": "又",
-      "unicode": 29369,
-      "pinyin": "yóu",
-      "strokes": 12,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 反犹主义 (antisemitismo)"
-      ],
-      "frequency": 1,
-      "words": [
-        "反犹主义"
-      ],
-      "source": "dictionary_integration"
-    },
-    "防": {
-      "character": "防",
-      "radical": "阝",
-      "unicode": 38450,
-      "pinyin": "fáng",
-      "strokes": 11,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 防御 (defensa)"
-      ],
-      "frequency": 1,
-      "words": [
-        "防御"
-      ],
-      "source": "dictionary_integration"
-    },
-    "御": {
-      "character": "御",
-      "radical": "阝",
-      "unicode": 24481,
-      "pinyin": "yù",
-      "strokes": 11,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 防御 (defensa)"
-      ],
-      "frequency": 1,
-      "words": [
-        "防御"
-      ],
-      "source": "dictionary_integration"
-    },
-    "沸": {
-      "character": "沸",
-      "radical": "水",
-      "unicode": 27832,
-      "pinyin": "fèi",
-      "strokes": 16,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 沸腾 (hierve)"
-      ],
-      "frequency": 1,
-      "words": [
-        "沸腾"
-      ],
-      "source": "dictionary_integration"
-    },
-    "腾": {
-      "character": "腾",
-      "radical": "水",
-      "unicode": 33150,
-      "pinyin": "téng",
-      "strokes": 16,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 沸腾 (hierve)"
-      ],
-      "frequency": 1,
-      "words": [
-        "沸腾"
-      ],
-      "source": "dictionary_integration"
-    },
-    "风": {
-      "character": "风",
-      "radical": "风",
-      "unicode": 39118,
-      "pinyin": "fēng",
-      "strokes": 4,
-      "structure": "independiente",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 风 (viento)"
-      ],
-      "frequency": 2,
-      "words": [
-        "风",
-        "风暴"
-      ],
-      "source": "dictionary_integration"
-    },
-    "暴": {
-      "character": "暴",
-      "radical": "风",
-      "unicode": 26292,
-      "pinyin": "bào",
-      "strokes": 13,
-      "structure": "independiente",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 风暴 (tormentas)"
-      ],
-      "frequency": 1,
-      "words": [
-        "风暴"
-      ],
-      "source": "dictionary_integration"
-    },
-    "港": {
-      "character": "港",
-      "radical": "氵",
-      "unicode": 28207,
-      "pinyin": "gǎng",
-      "strokes": 15,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 港口 (puerto)"
-      ],
-      "frequency": 1,
-      "words": [
-        "港口"
-      ],
-      "source": "dictionary_integration"
-    },
-    "口": {
-      "character": "口",
-      "radical": "氵",
-      "unicode": 21475,
-      "pinyin": "kǒu",
-      "strokes": 15,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 港口 (puerto)"
-      ],
-      "frequency": 1,
-      "words": [
-        "港口"
-      ],
-      "source": "dictionary_integration"
-    },
-    "工": {
-      "character": "工",
-      "radical": "工",
-      "unicode": 24037,
-      "pinyin": "gōng",
-      "strokes": 7,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 工人 (trabajador)"
-      ],
-      "frequency": 4,
-      "words": [
-        "工人",
-        "工人阶级",
-        "工团主义",
-        "总罢工"
-      ],
-      "source": "dictionary_integration"
-    },
-    "阶": {
-      "character": "阶",
-      "radical": "工",
-      "unicode": 38454,
-      "pinyin": "gōngrén",
-      "strokes": 18,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 工人阶级 (clase obrera)"
-      ],
-      "frequency": 2,
-      "words": [
-        "工人阶级",
-        "无产阶级"
-      ],
-      "source": "dictionary_integration"
-    },
-    "级": {
-      "character": "级",
-      "radical": "工",
-      "unicode": 32423,
-      "pinyin": "gōngrén",
-      "strokes": 18,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 工人阶级 (clase obrera)"
-      ],
-      "frequency": 2,
-      "words": [
-        "工人阶级",
-        "无产阶级"
-      ],
-      "source": "dictionary_integration"
-    },
-    "团": {
-      "character": "团",
-      "radical": "工",
-      "unicode": 22242,
-      "pinyin": "zhǔyì",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 工团主义 (Sindicalismo)"
-      ],
-      "frequency": 4,
-      "words": [
-        "工团主义",
-        "团结",
-        "团结的",
-        "团结互助"
-      ],
-      "source": "dictionary_integration"
-    },
-    "公": {
-      "character": "公",
-      "radical": "八",
-      "unicode": 20844,
-      "pinyin": "gōng",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 公社 (comuna)"
-      ],
-      "frequency": 1,
-      "words": [
-        "公社"
-      ],
-      "source": "dictionary_integration"
-    },
-    "社": {
-      "character": "社",
-      "radical": "八",
-      "unicode": 31038,
-      "pinyin": "shè",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 公社 (comuna)"
-      ],
-      "frequency": 3,
-      "words": [
-        "公社",
-        "社会主义",
-        "社会主义者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "共": {
-      "character": "共",
-      "radical": "八",
-      "unicode": 20849,
-      "pinyin": "gòng",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 共产党 (partido comunista)"
-      ],
-      "frequency": 4,
-      "words": [
-        "共产党",
-        "共产主义者",
-        "共和国",
-        "世界共和国"
-      ],
-      "source": "dictionary_integration"
-    },
-    "产": {
-      "character": "产",
-      "radical": "八",
-      "unicode": 20135,
-      "pinyin": "chǎn",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 共产党 (partido comunista)"
-      ],
-      "frequency": 4,
-      "words": [
-        "共产党",
-        "共产主义者",
-        "无产阶级",
-        "无产者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "党": {
-      "character": "党",
-      "radical": "八",
-      "unicode": 20826,
-      "pinyin": "dǎng",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 共产党 (partido comunista)"
-      ],
-      "frequency": 1,
-      "words": [
-        "共产党"
-      ],
-      "source": "dictionary_integration"
-    },
-    "者": {
-      "character": "者",
-      "radical": "共",
-      "unicode": 32773,
-      "pinyin": "gòngchǎn",
-      "strokes": 16,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 共产主义者 (comunista)"
-      ],
-      "frequency": 5,
-      "words": [
-        "共产主义者",
-        "解放者",
-        "社会主义者",
-        "无产者",
-        "无政府主义者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "和": {
-      "character": "和",
-      "radical": "八",
-      "unicode": 21644,
-      "pinyin": "hé",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 共和国 (república)"
-      ],
-      "frequency": 2,
-      "words": [
-        "共和国",
-        "世界共和国"
-      ],
-      "source": "dictionary_integration"
-    },
-    "沟": {
-      "character": "沟",
-      "radical": "氵",
-      "unicode": 27807,
-      "pinyin": "gōu",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 沟垄 (surcos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "沟垄"
-      ],
-      "source": "dictionary_integration"
-    },
-    "垄": {
-      "character": "垄",
-      "radical": "氵",
-      "unicode": 22404,
-      "pinyin": "lǒng",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 沟垄 (surcos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "沟垄"
-      ],
-      "source": "dictionary_integration"
-    },
-    "雇": {
-      "character": "雇",
-      "radical": "雇",
-      "unicode": 38599,
-      "pinyin": "gùn",
-      "strokes": 12,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 雇农 (jornalero)"
-      ],
-      "frequency": 1,
-      "words": [
-        "雇农"
-      ],
-      "source": "dictionary_integration"
-    },
-    "农": {
-      "character": "农",
-      "radical": "雇",
-      "unicode": 20892,
-      "pinyin": "óng",
-      "strokes": 12,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 雇农 (jornalero)"
-      ],
-      "frequency": 1,
-      "words": [
-        "雇农"
-      ],
-      "source": "dictionary_integration"
-    },
-    "孩": {
-      "character": "孩",
-      "radical": "子",
-      "unicode": 23401,
-      "pinyin": "háizi",
-      "strokes": 18,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 孩子们 (hijos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "孩子们"
-      ],
-      "source": "dictionary_integration"
-    },
-    "子": {
-      "character": "子",
-      "radical": "子",
-      "unicode": 23376,
-      "pinyin": "men",
-      "strokes": 18,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 孩子们 (hijos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "孩子们"
-      ],
-      "source": "dictionary_integration"
-    },
-    "们": {
-      "character": "们",
-      "radical": "子",
-      "unicode": 20204,
-      "pinyin": "háizi",
-      "strokes": 18,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 孩子们 (hijos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "孩子们"
-      ],
-      "source": "dictionary_integration"
-    },
-    "汗": {
-      "character": "汗",
-      "radical": "氵",
-      "unicode": 27735,
-      "pinyin": "hàn",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 汗水 (sudor)"
-      ],
-      "frequency": 1,
-      "words": [
-        "汗水"
-      ],
-      "source": "dictionary_integration"
-    },
-    "水": {
-      "character": "水",
-      "radical": "氵",
-      "unicode": 27700,
-      "pinyin": "shuǐ",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 汗水 (sudor)"
-      ],
-      "frequency": 1,
-      "words": [
-        "汗水"
-      ],
-      "source": "dictionary_integration"
-    },
-    "捍": {
-      "character": "捍",
-      "radical": "扌",
-      "unicode": 25421,
-      "pinyin": "hàn",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 捍卫 (defender)"
-      ],
-      "frequency": 1,
-      "words": [
-        "捍卫"
-      ],
-      "source": "dictionary_integration"
-    },
-    "卫": {
-      "character": "卫",
-      "radical": "扌",
-      "unicode": 21355,
-      "pinyin": "wèi",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 捍卫 (defender)"
-      ],
-      "frequency": 1,
-      "words": [
-        "捍卫"
-      ],
-      "source": "dictionary_integration"
-    },
-    "黑": {
-      "character": "黑",
-      "radical": "黑",
-      "unicode": 40657,
-      "pinyin": "hēisè",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 黑色的 (Negras)"
-      ],
-      "frequency": 1,
-      "words": [
-        "黑色的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "色": {
-      "character": "色",
-      "radical": "黑",
-      "unicode": 33394,
-      "pinyin": "de",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 黑色的 (Negras)"
-      ],
-      "frequency": 1,
-      "words": [
-        "黑色的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "红": {
-      "character": "红",
-      "radical": "纟",
-      "unicode": 32418,
-      "pinyin": "hóng",
+    "敌": {
+      "character": "敌",
+      "radical": "攴",
+      "unicode": 25932,
+      "pinyin": "dírén",
       "strokes": 6,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 红 (rojo)"
+        "Used in: 敌人 (enemigo)"
       ],
       "frequency": 1,
       "words": [
-        "红"
+        "敌人"
       ],
+      "lessons": [
+        5
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
-    "幻": {
-      "character": "幻",
-      "radical": "幺",
-      "unicode": 24187,
-      "pinyin": "huàn",
-      "strokes": 11,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 幻想 (fantasear)"
-      ],
-      "frequency": 1,
-      "words": [
-        "幻想"
-      ],
-      "source": "dictionary_integration"
-    },
-    "想": {
-      "character": "想",
-      "radical": "幺",
-      "unicode": 24819,
-      "pinyin": "xiǎng",
-      "strokes": 11,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 幻想 (fantasear)"
-      ],
-      "frequency": 1,
-      "words": [
-        "幻想"
-      ],
-      "source": "dictionary_integration"
-    },
-    "饥": {
-      "character": "饥",
-      "radical": "食",
-      "unicode": 39269,
-      "pinyin": "jī'è",
-      "strokes": 19,
+    "祖": {
+      "character": "祖",
+      "radical": "示",
+      "unicode": 31062,
+      "pinyin": "zǔguó",
+      "strokes": 14,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 饥饿的 (hambrientos)"
+        "Used in: 祖国 (patria)"
       ],
       "frequency": 1,
       "words": [
-        "饥饿的"
+        "祖国"
       ],
+      "lessons": [
+        5,
+        8
+      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
-    "饿": {
-      "character": "饿",
-      "radical": "食",
-      "unicode": 39295,
-      "pinyin": "de",
-      "strokes": 19,
+    "国": {
+      "character": "国",
+      "radical": "示",
+      "unicode": 22269,
+      "pinyin": "zǔguó",
+      "strokes": 14,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 饥饿的 (hambrientos)"
+        "Used in: 祖国 (patria)"
       ],
-      "frequency": 1,
+      "frequency": 4,
       "words": [
-        "饥饿的"
+        "祖国",
+        "世界共和国",
+        "第一国际",
+        "共和国"
       ],
-      "source": "dictionary_integration"
-    },
-    "将": {
-      "character": "将",
-      "radical": "寸",
-      "unicode": 23558,
-      "pinyin": "jiāng",
-      "strokes": 12,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 将是 (será)"
+      "lessons": [
+        5,
+        6,
+        8,
+        9,
+        12
       ],
-      "frequency": 1,
-      "words": [
-        "将是"
-      ],
-      "source": "dictionary_integration"
-    },
-    "是": {
-      "character": "是",
-      "radical": "寸",
-      "unicode": 26159,
-      "pinyin": "shì",
-      "strokes": 12,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 将是 (será)"
-      ],
-      "frequency": 1,
-      "words": [
-        "将是"
-      ],
-      "source": "dictionary_integration"
-    },
-    "浇": {
-      "character": "浇",
-      "radical": "氵",
-      "unicode": 27975,
-      "pinyin": "jiāo",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 浇灌 (regar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "浇灌"
-      ],
-      "source": "dictionary_integration"
-    },
-    "灌": {
-      "character": "灌",
-      "radical": "氵",
-      "unicode": 28748,
-      "pinyin": "guàn",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 浇灌 (regar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "浇灌"
-      ],
-      "source": "dictionary_integration"
-    },
-    "解": {
-      "character": "解",
-      "radical": "角",
-      "unicode": 35299,
-      "pinyin": "jiěfàng",
-      "strokes": 13,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 解放者 (libertadores)"
-      ],
-      "frequency": 1,
-      "words": [
-        "解放者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "放": {
-      "character": "放",
-      "radical": "角",
-      "unicode": 25918,
-      "pinyin": "zhě",
-      "strokes": 13,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 解放者 (libertadores)"
-      ],
-      "frequency": 1,
-      "words": [
-        "解放者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "救": {
-      "character": "救",
-      "radical": "攵",
-      "unicode": 25937,
-      "pinyin": "jiù",
-      "strokes": 15,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 救星 (salvador)"
-      ],
-      "frequency": 1,
-      "words": [
-        "救星"
-      ],
-      "source": "dictionary_integration"
-    },
-    "星": {
-      "character": "星",
-      "radical": "攵",
-      "unicode": 26143,
-      "pinyin": "xīng",
-      "strokes": 15,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 救星 (salvador)"
-      ],
-      "frequency": 1,
-      "words": [
-        "救星"
-      ],
-      "source": "dictionary_integration"
-    },
-    "举": {
-      "character": "举",
-      "radical": "手",
-      "unicode": 20030,
-      "pinyin": "jǔqǐ",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 举起的 (levantado)"
-      ],
-      "frequency": 1,
-      "words": [
-        "举起的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "起": {
-      "character": "起",
-      "radical": "手",
-      "unicode": 36215,
-      "pinyin": "de",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 举起的 (levantado)"
-      ],
-      "frequency": 3,
-      "words": [
-        "举起的",
-        "起来",
-        "升起"
-      ],
-      "source": "dictionary_integration"
-    },
-    "劳": {
-      "character": "劳",
-      "radical": "力",
-      "unicode": 21171,
-      "pinyin": "láo",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 劳作 (trabajar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "劳作"
-      ],
-      "source": "dictionary_integration"
-    },
-    "作": {
-      "character": "作",
-      "radical": "力",
-      "unicode": 20316,
-      "pinyin": "zuò",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 劳作 (trabajar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "劳作"
-      ],
-      "source": "dictionary_integration"
-    },
-    "犁": {
-      "character": "犁",
-      "radical": "牛",
-      "unicode": 29313,
-      "pinyin": "lí",
-      "strokes": 11,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 犁 (arado)"
-      ],
-      "frequency": 1,
-      "words": [
-        "犁"
-      ],
-      "source": "dictionary_integration"
-    },
-    "黎": {
-      "character": "黎",
-      "radical": "黍",
-      "unicode": 40654,
-      "pinyin": "lí",
-      "strokes": 23,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 黎明 (amanecer)"
-      ],
-      "frequency": 1,
-      "words": [
-        "黎明"
-      ],
-      "source": "dictionary_integration"
-    },
-    "明": {
-      "character": "明",
-      "radical": "黍",
-      "unicode": 26126,
-      "pinyin": "míng",
-      "strokes": 23,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 黎明 (amanecer)"
-      ],
-      "frequency": 1,
-      "words": [
-        "黎明"
-      ],
-      "source": "dictionary_integration"
-    },
-    "理": {
-      "character": "理",
-      "radical": "王",
-      "unicode": 29702,
-      "pinyin": "lǐ",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 理性 (razón)"
-      ],
-      "frequency": 2,
-      "words": [
-        "理性",
-        "自治管理"
-      ],
-      "source": "dictionary_integration"
-    },
-    "性": {
-      "character": "性",
-      "radical": "王",
-      "unicode": 24615,
-      "pinyin": "xìng",
-      "strokes": 15,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 理性 (razón)"
-      ],
-      "frequency": 1,
-      "words": [
-        "理性"
-      ],
-      "source": "dictionary_integration"
-    },
-    "历": {
-      "character": "历",
-      "radical": "厂",
-      "unicode": 21382,
-      "pinyin": "lì",
-      "strokes": 9,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 历史 (historia)"
-      ],
-      "frequency": 1,
-      "words": [
-        "历史"
-      ],
-      "source": "dictionary_integration"
-    },
-    "史": {
-      "character": "史",
-      "radical": "厂",
-      "unicode": 21490,
-      "pinyin": "shǐ",
-      "strokes": 9,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 历史 (historia)"
-      ],
-      "frequency": 1,
-      "words": [
-        "历史"
-      ],
-      "source": "dictionary_integration"
-    },
-    "联": {
-      "character": "联",
-      "radical": "耳",
-      "unicode": 32852,
-      "pinyin": "lián",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 联盟 (unión)"
-      ],
-      "frequency": 1,
-      "words": [
-        "联盟"
-      ],
-      "source": "dictionary_integration"
-    },
-    "盟": {
-      "character": "盟",
-      "radical": "耳",
-      "unicode": 30431,
-      "pinyin": "méng",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 联盟 (unión)"
-      ],
-      "frequency": 1,
-      "words": [
-        "联盟"
-      ],
-      "source": "dictionary_integration"
-    },
-    "领": {
-      "character": "领",
-      "radical": "页",
-      "unicode": 39046,
-      "pinyin": "lǐng",
-      "strokes": 17,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 领袖 (líder)"
-      ],
-      "frequency": 1,
-      "words": [
-        "领袖"
-      ],
-      "source": "dictionary_integration"
-    },
-    "袖": {
-      "character": "袖",
-      "radical": "页",
-      "unicode": 34966,
-      "pinyin": "xiù",
-      "strokes": 17,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 领袖 (líder)"
-      ],
-      "frequency": 1,
-      "words": [
-        "领袖"
-      ],
+      "firstAppearance": 5,
       "source": "dictionary_integration"
     },
     "秘": {
@@ -1760,6 +2827,10 @@
       "words": [
         "秘密的"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "密": {
@@ -1777,280 +2848,10 @@
       "words": [
         "秘密的"
       ],
-      "source": "dictionary_integration"
-    },
-    "灭": {
-      "character": "灭",
-      "radical": "火",
-      "unicode": 28781,
-      "pinyin": "miè",
-      "strokes": 10,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 灭亡 (perecer)"
+      "lessons": [
+        6
       ],
-      "frequency": 1,
-      "words": [
-        "灭亡"
-      ],
-      "source": "dictionary_integration"
-    },
-    "亡": {
-      "character": "亡",
-      "radical": "火",
-      "unicode": 20129,
-      "pinyin": "wáng",
-      "strokes": 10,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 灭亡 (perecer)"
-      ],
-      "frequency": 2,
-      "words": [
-        "灭亡",
-        "死亡"
-      ],
-      "source": "dictionary_integration"
-    },
-    "奴": {
-      "character": "奴",
-      "radical": "女",
-      "unicode": 22900,
-      "pinyin": "nú",
-      "strokes": 8,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 奴隶 (esclavos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "奴隶"
-      ],
-      "source": "dictionary_integration"
-    },
-    "隶": {
-      "character": "隶",
-      "radical": "女",
-      "unicode": 38582,
-      "pinyin": "lì",
-      "strokes": 8,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 奴隶 (esclavos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "奴隶"
-      ],
-      "source": "dictionary_integration"
-    },
-    "篇": {
-      "character": "篇",
-      "radical": "竹",
-      "unicode": 31687,
-      "pinyin": "piān",
-      "strokes": 20,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 篇章 (páginas)"
-      ],
-      "frequency": 1,
-      "words": [
-        "篇章"
-      ],
-      "source": "dictionary_integration"
-    },
-    "章": {
-      "character": "章",
-      "radical": "竹",
-      "unicode": 31456,
-      "pinyin": "zhāng",
-      "strokes": 20,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 篇章 (páginas)"
-      ],
-      "frequency": 1,
-      "words": [
-        "篇章"
-      ],
-      "source": "dictionary_integration"
-    },
-    "破": {
-      "character": "破",
-      "radical": "石",
-      "unicode": 30772,
-      "pinyin": "pò",
-      "strokes": 13,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 破坏 (sabotaje)"
-      ],
-      "frequency": 1,
-      "words": [
-        "破坏"
-      ],
-      "source": "dictionary_integration"
-    },
-    "坏": {
-      "character": "坏",
-      "radical": "石",
-      "unicode": 22351,
-      "pinyin": "huài",
-      "strokes": 13,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 破坏 (sabotaje)"
-      ],
-      "frequency": 1,
-      "words": [
-        "破坏"
-      ],
-      "source": "dictionary_integration"
-    },
-    "旗": {
-      "character": "旗",
-      "radical": "方",
-      "unicode": 26071,
-      "pinyin": "qí",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 旗帜 (bandera)"
-      ],
-      "frequency": 1,
-      "words": [
-        "旗帜"
-      ],
-      "source": "dictionary_integration"
-    },
-    "帜": {
-      "character": "帜",
-      "radical": "方",
-      "unicode": 24092,
-      "pinyin": "zhì",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 旗帜 (bandera)"
-      ],
-      "frequency": 1,
-      "words": [
-        "旗帜"
-      ],
-      "source": "dictionary_integration"
-    },
-    "来": {
-      "character": "来",
-      "radical": "走",
-      "unicode": 26469,
-      "pinyin": "lái",
-      "strokes": 10,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 起来 (levántate)"
-      ],
-      "frequency": 1,
-      "words": [
-        "起来"
-      ],
-      "source": "dictionary_integration"
-    },
-    "前": {
-      "character": "前",
-      "radical": "前",
-      "unicode": 21069,
-      "pinyin": "qián",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 前线 (frente)"
-      ],
-      "frequency": 1,
-      "words": [
-        "前线"
-      ],
-      "source": "dictionary_integration"
-    },
-    "强": {
-      "character": "强",
-      "radical": "弓",
-      "unicode": 24378,
-      "pinyin": "qiángdào",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 强盗军队 (horda saqueadora)"
-      ],
-      "frequency": 1,
-      "words": [
-        "强盗军队"
-      ],
-      "source": "dictionary_integration"
-    },
-    "盗": {
-      "character": "盗",
-      "radical": "弓",
-      "unicode": 30423,
-      "pinyin": "jūnduì",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 强盗军队 (horda saqueadora)"
-      ],
-      "frequency": 1,
-      "words": [
-        "强盗军队"
-      ],
-      "source": "dictionary_integration"
-    },
-    "军": {
-      "character": "军",
-      "radical": "弓",
-      "unicode": 20891,
-      "pinyin": "qiángdào",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 强盗军队 (horda saqueadora)"
-      ],
-      "frequency": 1,
-      "words": [
-        "强盗军队"
-      ],
-      "source": "dictionary_integration"
-    },
-    "队": {
-      "character": "队",
-      "radical": "弓",
-      "unicode": 38431,
-      "pinyin": "qiángdào",
-      "strokes": 20,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 强盗军队 (horda saqueadora)"
-      ],
-      "frequency": 2,
-      "words": [
-        "强盗军队",
-        "游击队"
-      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "窃": {
@@ -2069,6 +2870,10 @@
         "窃窃私语",
         "窃窃私语"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "私": {
@@ -2086,6 +2891,10 @@
       "words": [
         "窃窃私语"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "语": {
@@ -2103,505 +2912,157 @@
       "words": [
         "窃窃私语"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "权": {
-      "character": "权",
-      "radical": "木",
-      "unicode": 26435,
-      "pinyin": "quán",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 权力 (poder)"
-      ],
-      "frequency": 1,
-      "words": [
-        "权力"
-      ],
-      "source": "dictionary_integration"
-    },
-    "力": {
-      "character": "力",
-      "radical": "木",
-      "unicode": 21147,
-      "pinyin": "lì",
-      "strokes": 9,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 权力 (poder)"
-      ],
-      "frequency": 1,
-      "words": [
-        "权力"
-      ],
-      "source": "dictionary_integration"
-    },
-    "拳": {
-      "character": "拳",
-      "radical": "手",
-      "unicode": 25331,
-      "pinyin": "quán",
-      "strokes": 13,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 拳头 (puño)"
-      ],
-      "frequency": 1,
-      "words": [
-        "拳头"
-      ],
-      "source": "dictionary_integration"
-    },
-    "头": {
-      "character": "头",
-      "radical": "手",
-      "unicode": 22836,
-      "pinyin": "tou",
-      "strokes": 13,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 拳头 (puño)"
-      ],
-      "frequency": 1,
-      "words": [
-        "拳头"
-      ],
-      "source": "dictionary_integration"
-    },
-    "民": {
-      "character": "民",
-      "radical": "人",
-      "unicode": 27665,
-      "pinyin": "mín",
-      "strokes": 7,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 人民 (pueblo)"
-      ],
-      "frequency": 1,
-      "words": [
-        "人民"
-      ],
-      "source": "dictionary_integration"
-    },
-    "散": {
-      "character": "散",
-      "radical": "攵",
-      "unicode": 25955,
-      "pinyin": "sàn",
-      "strokes": 16,
+    "强": {
+      "character": "强",
+      "radical": "弓",
+      "unicode": 24378,
+      "pinyin": "qiángdào",
+      "strokes": 20,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 散居 (diáspora)"
+        "Used in: 强盗军队 (horda saqueadora)"
       ],
       "frequency": 1,
       "words": [
-        "散居"
+        "强盗军队"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "居": {
-      "character": "居",
-      "radical": "攵",
-      "unicode": 23621,
-      "pinyin": "jū",
-      "strokes": 16,
+    "盗": {
+      "character": "盗",
+      "radical": "弓",
+      "unicode": 30423,
+      "pinyin": "jūnduì",
+      "strokes": 20,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 散居 (diáspora)"
+        "Used in: 强盗军队 (horda saqueadora)"
       ],
       "frequency": 1,
       "words": [
-        "散居"
+        "强盗军队"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "山": {
-      "character": "山",
-      "radical": "山",
-      "unicode": 23665,
-      "pinyin": "shān",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 山脉 (montañas)"
-      ],
-      "frequency": 1,
-      "words": [
-        "山脉"
-      ],
-      "source": "dictionary_integration"
-    },
-    "脉": {
-      "character": "脉",
-      "radical": "山",
-      "unicode": 33033,
-      "pinyin": "mài",
-      "strokes": 10,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 山脉 (montañas)"
-      ],
-      "frequency": 1,
-      "words": [
-        "山脉"
-      ],
-      "source": "dictionary_integration"
-    },
-    "会": {
-      "character": "会",
-      "radical": "社",
-      "unicode": 20250,
-      "pinyin": "huì",
-      "strokes": 22,
+    "军": {
+      "character": "军",
+      "radical": "弓",
+      "unicode": 20891,
+      "pinyin": "qiángdào",
+      "strokes": 20,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 社会主义 (socialismo)"
-      ],
-      "frequency": 3,
-      "words": [
-        "社会主义",
-        "社会主义者",
-        "永远不会"
-      ],
-      "source": "dictionary_integration"
-    },
-    "什": {
-      "character": "什",
-      "radical": "什",
-      "unicode": 20160,
-      "pinyin": "shénme",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 什么都没有 (nada)"
+        "Used in: 强盗军队 (horda saqueadora)"
       ],
       "frequency": 1,
       "words": [
-        "什么都没有"
+        "强盗军队"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "么": {
-      "character": "么",
-      "radical": "什",
-      "unicode": 20040,
-      "pinyin": "dōu",
-      "strokes": 25,
+    "听": {
+      "character": "听",
+      "radical": "口",
+      "unicode": 21548,
+      "pinyin": "tīngjiàn",
+      "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 什么都没有 (nada)"
+        "Used in: 听见 (escuchar)"
       ],
       "frequency": 1,
       "words": [
-        "什么都没有"
+        "听见"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "都": {
-      "character": "都",
-      "radical": "什",
-      "unicode": 37117,
-      "pinyin": "méiyǒu",
-      "strokes": 25,
+    "见": {
+      "character": "见",
+      "radical": "口",
+      "unicode": 35265,
+      "pinyin": "tīngjiàn",
+      "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 什么都没有 (nada)"
+        "Used in: 听见 (escuchar)"
       ],
       "frequency": 1,
       "words": [
-        "什么都没有"
+        "听见"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "没": {
-      "character": "没",
-      "radical": "什",
-      "unicode": 27809,
-      "pinyin": "shénme",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 什么都没有 (nada)"
-      ],
-      "frequency": 1,
-      "words": [
-        "什么都没有"
-      ],
-      "source": "dictionary_integration"
-    },
-    "有": {
-      "character": "有",
-      "radical": "什",
-      "unicode": 26377,
-      "pinyin": "shénme",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 什么都没有 (nada)"
-      ],
-      "frequency": 1,
-      "words": [
-        "什么都没有"
-      ],
-      "source": "dictionary_integration"
-    },
-    "神": {
-      "character": "神",
-      "radical": "示",
-      "unicode": 31070,
-      "pinyin": "shénshèng",
+    "部": {
+      "character": "部",
+      "radical": "戈",
+      "unicode": 37096,
+      "pinyin": "zhànzhēng",
       "strokes": 13,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 神圣的 (sagrada)"
+        "Used in: 战争部长 (ministro de guerra)"
       ],
       "frequency": 1,
       "words": [
-        "神圣的"
+        "战争部长"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "圣": {
-      "character": "圣",
-      "radical": "示",
-      "unicode": 22307,
-      "pinyin": "de",
+    "长": {
+      "character": "长",
+      "radical": "戈",
+      "unicode": 38271,
+      "pinyin": "zhànzhēng",
       "strokes": 13,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 神圣的 (sagrada)"
+        "Used in: 战争部长 (ministro de guerra)"
       ],
       "frequency": 1,
       "words": [
-        "神圣的"
+        "战争部长"
       ],
-      "source": "dictionary_integration"
-    },
-    "升": {
-      "character": "升",
-      "radical": "十",
-      "unicode": 21319,
-      "pinyin": "shēng",
-      "strokes": 8,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 升起 (surgir)"
+      "lessons": [
+        6
       ],
-      "frequency": 1,
-      "words": [
-        "升起"
-      ],
-      "source": "dictionary_integration"
-    },
-    "利": {
-      "character": "利",
-      "radical": "力",
-      "unicode": 21033,
-      "pinyin": "lì",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 胜利 (triunfar)"
-      ],
-      "frequency": 1,
-      "words": [
-        "胜利"
-      ],
-      "source": "dictionary_integration"
-    },
-    "士": {
-      "character": "士",
-      "radical": "士",
-      "unicode": 22763,
-      "pinyin": "shì",
-      "strokes": 10,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 士兵 (soldados)"
-      ],
-      "frequency": 2,
-      "words": [
-        "士兵",
-        "战士"
-      ],
-      "source": "dictionary_integration"
-    },
-    "兵": {
-      "character": "兵",
-      "radical": "士",
-      "unicode": 20853,
-      "pinyin": "bīng",
-      "strokes": 10,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 士兵 (soldados)"
-      ],
-      "frequency": 1,
-      "words": [
-        "士兵"
-      ],
-      "source": "dictionary_integration"
-    },
-    "世": {
-      "character": "世",
-      "radical": "世",
-      "unicode": 19990,
-      "pinyin": "shì",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 世界 (mundo)"
-      ],
-      "frequency": 2,
-      "words": [
-        "世界",
-        "世界共和国"
-      ],
-      "source": "dictionary_integration"
-    },
-    "界": {
-      "character": "界",
-      "radical": "世",
-      "unicode": 30028,
-      "pinyin": "jiè",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 世界 (mundo)"
-      ],
-      "frequency": 2,
-      "words": [
-        "世界",
-        "世界共和国"
-      ],
-      "source": "dictionary_integration"
-    },
-    "受": {
-      "character": "受",
-      "radical": "示",
-      "unicode": 21463,
-      "pinyin": "shòu",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 受诅咒的 (malditos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "受诅咒的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "诅": {
-      "character": "诅",
-      "radical": "示",
-      "unicode": 35781,
-      "pinyin": "zǔzhòu",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 受诅咒的 (malditos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "受诅咒的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "咒": {
-      "character": "咒",
-      "radical": "示",
-      "unicode": 21650,
-      "pinyin": "de",
-      "strokes": 25,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 受诅咒的 (malditos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "受诅咒的"
-      ],
-      "source": "dictionary_integration"
-    },
-    "书": {
-      "character": "书",
-      "radical": "乚",
-      "unicode": 20070,
-      "pinyin": "shū",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 书写 (escribir)"
-      ],
-      "frequency": 1,
-      "words": [
-        "书写"
-      ],
-      "source": "dictionary_integration"
-    },
-    "写": {
-      "character": "写",
-      "radical": "乚",
-      "unicode": 20889,
-      "pinyin": "xiě",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 书写 (escribir)"
-      ],
-      "frequency": 1,
-      "words": [
-        "书写"
-      ],
-      "source": "dictionary_integration"
-    },
-    "死": {
-      "character": "死",
-      "radical": "歹",
-      "unicode": 27515,
-      "pinyin": "sǐ",
-      "strokes": 6,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 死 (morir)"
-      ],
-      "frequency": 2,
-      "words": [
-        "死",
-        "死亡"
-      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "苏": {
@@ -2619,6 +3080,10 @@
       "words": [
         "苏维埃之光"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "维": {
@@ -2636,6 +3101,10 @@
       "words": [
         "苏维埃之光"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "埃": {
@@ -2653,6 +3122,10 @@
       "words": [
         "苏维埃之光"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "之": {
@@ -2670,6 +3143,10 @@
       "words": [
         "苏维埃之光"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
     "光": {
@@ -2687,74 +3164,125 @@
       "words": [
         "苏维埃之光"
       ],
+      "lessons": [
+        6
+      ],
+      "firstAppearance": 6,
       "source": "dictionary_integration"
     },
-    "虽": {
-      "character": "虽",
-      "radical": "虫",
-      "unicode": 34429,
-      "pinyin": "suī",
-      "strokes": 9,
+    "共": {
+      "character": "共",
+      "radical": "世",
+      "unicode": 20849,
+      "pinyin": "shìjiè",
+      "strokes": 17,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 世界共和国 (república mundial)"
+      ],
+      "frequency": 4,
+      "words": [
+        "世界共和国",
+        "共产党",
+        "共产主义者",
+        "共和国"
+      ],
+      "lessons": [
+        6,
+        7,
+        11,
+        12
+      ],
+      "firstAppearance": 6,
+      "source": "dictionary_integration"
+    },
+    "和": {
+      "character": "和",
+      "radical": "世",
+      "unicode": 21644,
+      "pinyin": "shìjiè",
+      "strokes": 17,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 世界共和国 (república mundial)"
+      ],
+      "frequency": 2,
+      "words": [
+        "世界共和国",
+        "共和国"
+      ],
+      "lessons": [
+        6,
+        12
+      ],
+      "firstAppearance": 6,
+      "source": "dictionary_integration"
+    },
+    "东": {
+      "character": "东",
+      "radical": "方",
+      "unicode": 19996,
+      "pinyin": "dōng",
+      "strokes": 8,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 虽然 (aunque)"
+        "Used in: 东方 (oriente)"
       ],
-      "frequency": 1,
+      "frequency": 2,
       "words": [
-        "虽然"
+        "东方",
+        "东线战场"
       ],
+      "lessons": [
+        7,
+        8
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "然": {
-      "character": "然",
-      "radical": "虫",
-      "unicode": 28982,
-      "pinyin": "rán",
-      "strokes": 9,
+    "方": {
+      "character": "方",
+      "radical": "方",
+      "unicode": 26041,
+      "pinyin": "fāng",
+      "strokes": 8,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 虽然 (aunque)"
+        "Used in: 东方 (oriente)"
       ],
       "frequency": 1,
       "words": [
-        "虽然"
+        "东方"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "锁": {
-      "character": "锁",
-      "radical": "钅",
-      "unicode": 38145,
-      "pinyin": "suǒ",
-      "strokes": 13,
+    "红": {
+      "character": "红",
+      "radical": "纟",
+      "unicode": 32418,
+      "pinyin": "hóng",
+      "strokes": 6,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 锁链 (cadenas)"
+        "Used in: 红 (rojo)"
       ],
       "frequency": 1,
       "words": [
-        "锁链"
+        "红"
       ],
-      "source": "dictionary_integration"
-    },
-    "链": {
-      "character": "链",
-      "radical": "钅",
-      "unicode": 38142,
-      "pinyin": "liàn",
-      "strokes": 13,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 锁链 (cadenas)"
+      "lessons": [
+        7
       ],
-      "frequency": 1,
-      "words": [
-        "锁链"
-      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
     "太": {
@@ -2772,6 +3300,10 @@
       "words": [
         "太阳"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
     "阳": {
@@ -2789,212 +3321,157 @@
       "words": [
         "太阳"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "天": {
-      "character": "天",
-      "radical": "天",
-      "unicode": 22825,
-      "pinyin": "tiān",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 天空 (aires)"
-      ],
-      "frequency": 1,
-      "words": [
-        "天空"
-      ],
-      "source": "dictionary_integration"
-    },
-    "空": {
-      "character": "空",
-      "radical": "天",
-      "unicode": 31354,
-      "pinyin": "kōng",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 天空 (aires)"
-      ],
-      "frequency": 1,
-      "words": [
-        "天空"
-      ],
-      "source": "dictionary_integration"
-    },
-    "听": {
-      "character": "听",
-      "radical": "口",
-      "unicode": 21548,
-      "pinyin": "tīng",
+    "救": {
+      "character": "救",
+      "radical": "攵",
+      "unicode": 25937,
+      "pinyin": "jiùxīng",
       "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 听见 (escuchar)"
+        "Used in: 救星 (salvador)"
       ],
       "frequency": 1,
       "words": [
-        "听见"
+        "救星"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "见": {
-      "character": "见",
-      "radical": "口",
-      "unicode": 35265,
-      "pinyin": "jiàn",
+    "星": {
+      "character": "星",
+      "radical": "攵",
+      "unicode": 26143,
+      "pinyin": "jiùxīng",
       "strokes": 15,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 听见 (escuchar)"
+        "Used in: 救星 (salvador)"
       ],
       "frequency": 1,
       "words": [
-        "听见"
+        "救星"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "同": {
-      "character": "同",
-      "radical": "口",
-      "unicode": 21516,
-      "pinyin": "tóng",
-      "strokes": 14,
+    "升": {
+      "character": "升",
+      "radical": "十",
+      "unicode": 21319,
+      "pinyin": "shēngqǐ",
+      "strokes": 8,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 同志 (compañeros)"
+        "Used in: 升起 (surgir)"
       ],
       "frequency": 1,
       "words": [
-        "同志"
+        "升起"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "志": {
-      "character": "志",
-      "radical": "口",
-      "unicode": 24535,
-      "pinyin": "zhì",
-      "strokes": 14,
+    "出": {
+      "character": "出",
+      "radical": "凵",
+      "unicode": 20986,
+      "pinyin": "chūxiàn",
+      "strokes": 11,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 同志 (compañeros)"
+        "Used in: 出现 (aparecer)"
       ],
       "frequency": 1,
       "words": [
-        "同志"
+        "出现"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "痛": {
-      "character": "痛",
-      "radical": "疒",
-      "unicode": 30171,
-      "pinyin": "tòng",
-      "strokes": 12,
-      "structure": "arriba-abajo",
+    "现": {
+      "character": "现",
+      "radical": "凵",
+      "unicode": 29616,
+      "pinyin": "chūxiàn",
+      "strokes": 11,
+      "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 痛苦 (dolor)"
+        "Used in: 出现 (aparecer)"
       ],
       "frequency": 1,
       "words": [
-        "痛苦"
+        "出现"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "苦": {
-      "character": "苦",
-      "radical": "疒",
-      "unicode": 33510,
-      "pinyin": "kǔ",
-      "strokes": 12,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 痛苦 (dolor)"
-      ],
-      "frequency": 1,
-      "words": [
-        "痛苦"
-      ],
-      "source": "dictionary_integration"
-    },
-    "土": {
-      "character": "土",
-      "radical": "土",
-      "unicode": 22303,
-      "pinyin": "tǔ",
-      "strokes": 6,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 土地 (tierra)"
-      ],
-      "frequency": 1,
-      "words": [
-        "土地"
-      ],
-      "source": "dictionary_integration"
-    },
-    "结": {
-      "character": "结",
-      "radical": "囗",
-      "unicode": 32467,
-      "pinyin": "jié",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 团结 (unidad)"
-      ],
-      "frequency": 3,
-      "words": [
-        "团结",
-        "团结的",
-        "团结互助"
-      ],
-      "source": "dictionary_integration"
-    },
-    "互": {
-      "character": "互",
-      "radical": "因",
-      "unicode": 20114,
-      "pinyin": "tuánjié",
+    "领": {
+      "character": "领",
+      "radical": "页",
+      "unicode": 39046,
+      "pinyin": "lǐngxiù",
       "strokes": 17,
-      "structure": "izquierda-derecha",
+      "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 团结互助 (solidaridad)"
+        "Used in: 领袖 (líder)"
       ],
       "frequency": 1,
       "words": [
-        "团结互助"
+        "领袖"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "助": {
-      "character": "助",
-      "radical": "因",
-      "unicode": 21161,
-      "pinyin": "tuánjié",
+    "袖": {
+      "character": "袖",
+      "radical": "页",
+      "unicode": 34966,
+      "pinyin": "lǐngxiù",
       "strokes": 17,
-      "structure": "izquierda-derecha",
+      "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 团结互助 (solidaridad)"
+        "Used in: 领袖 (líder)"
       ],
       "frequency": 1,
       "words": [
-        "团结互助"
+        "领袖"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
     "伟": {
@@ -3012,130 +3489,390 @@
       "words": [
         "伟大"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "无": {
-      "character": "无",
-      "radical": "无",
-      "unicode": 26080,
-      "pinyin": "wú",
+    "席": {
+      "character": "席",
+      "radical": "主",
+      "unicode": 24109,
+      "pinyin": "zhǔxí",
+      "strokes": 6,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 主席 (presidente)"
+      ],
+      "frequency": 1,
+      "words": [
+        "主席"
+      ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
+      "source": "dictionary_integration"
+    },
+    "党": {
+      "character": "党",
+      "radical": "八",
+      "unicode": 20826,
+      "pinyin": "gòngchǎndǎng",
       "strokes": 20,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 无产阶级 (proletariado)"
+        "Used in: 共产党 (partido comunista)"
       ],
-      "frequency": 4,
+      "frequency": 1,
       "words": [
-        "无产阶级",
-        "无产者",
-        "无政府主义",
-        "无政府主义者"
+        "共产党"
       ],
+      "lessons": [
+        7
+      ],
+      "firstAppearance": 7,
       "source": "dictionary_integration"
     },
-    "政": {
-      "character": "政",
-      "radical": "无",
-      "unicode": 25919,
-      "pinyin": "zhèngfǔ",
-      "strokes": 24,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 无政府主义 (anarquismo)"
-      ],
-      "frequency": 2,
-      "words": [
-        "无政府主义",
-        "无政府主义者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "府": {
-      "character": "府",
-      "radical": "无",
-      "unicode": 24220,
-      "pinyin": "zhǔyì",
-      "strokes": 24,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 无政府主义 (anarquismo)"
-      ],
-      "frequency": 2,
-      "words": [
-        "无政府主义",
-        "无政府主义者"
-      ],
-      "source": "dictionary_integration"
-    },
-    "行": {
-      "character": "行",
-      "radical": "行",
-      "unicode": 34892,
-      "pinyin": "xíng",
+    "神": {
+      "character": "神",
+      "radical": "示",
+      "unicode": 31070,
+      "pinyin": "shénshèng",
       "strokes": 13,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 行进 (marchar)"
+        "Used in: 神圣的 (sagrada)"
       ],
       "frequency": 1,
       "words": [
-        "行进"
+        "神圣的"
       ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
       "source": "dictionary_integration"
     },
-    "进": {
-      "character": "进",
-      "radical": "行",
-      "unicode": 36827,
-      "pinyin": "jìn",
+    "圣": {
+      "character": "圣",
+      "radical": "示",
+      "unicode": 22307,
+      "pinyin": "de",
       "strokes": 13,
       "structure": "izquierda-derecha",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 行进 (marchar)"
+        "Used in: 神圣的 (sagrada)"
       ],
       "frequency": 1,
       "words": [
-        "行进"
+        "神圣的"
       ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
       "source": "dictionary_integration"
     },
-    "血": {
-      "character": "血",
-      "radical": "血",
-      "unicode": 34880,
-      "pinyin": "xuè",
-      "strokes": 12,
-      "structure": "independiente",
+    "英": {
+      "character": "英",
+      "radical": "艹",
+      "unicode": 33521,
+      "pinyin": "yīngyǒng",
+      "strokes": 13,
+      "structure": "arriba-abajo",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 血液 (sangre)"
+        "Used in: 英勇的 (heroico)"
       ],
       "frequency": 1,
       "words": [
-        "血液"
+        "英勇的"
       ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
       "source": "dictionary_integration"
     },
-    "液": {
-      "character": "液",
-      "radical": "血",
-      "unicode": 28082,
-      "pinyin": "yè",
-      "strokes": 12,
-      "structure": "independiente",
+    "勇": {
+      "character": "勇",
+      "radical": "艹",
+      "unicode": 21191,
+      "pinyin": "de",
+      "strokes": 13,
+      "structure": "arriba-abajo",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 血液 (sangre)"
+        "Used in: 英勇的 (heroico)"
       ],
       "frequency": 1,
       "words": [
-        "血液"
+        "英勇的"
       ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "入": {
+      "character": "入",
+      "radical": "入",
+      "unicode": 20837,
+      "pinyin": "rùqīn",
+      "strokes": 8,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 入侵 (invasión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "入侵"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "侵": {
+      "character": "侵",
+      "radical": "入",
+      "unicode": 20405,
+      "pinyin": "rùqīn",
+      "strokes": 8,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 入侵 (invasión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "入侵"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "防": {
+      "character": "防",
+      "radical": "阝",
+      "unicode": 38450,
+      "pinyin": "fáng",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 防御 (defensa)"
+      ],
+      "frequency": 1,
+      "words": [
+        "防御"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "御": {
+      "character": "御",
+      "radical": "阝",
+      "unicode": 24481,
+      "pinyin": "yù",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 防御 (defensa)"
+      ],
+      "frequency": 1,
+      "words": [
+        "防御"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "列": {
+      "character": "列",
+      "radical": "列",
+      "unicode": 21015,
+      "pinyin": "Lièníngélè",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "宁": {
+      "character": "宁",
+      "radical": "列",
+      "unicode": 23425,
+      "pinyin": "wéichéng",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "格": {
+      "character": "格",
+      "radical": "列",
+      "unicode": 26684,
+      "pinyin": "Lièníngélè",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "勒": {
+      "character": "勒",
+      "radical": "列",
+      "unicode": 21202,
+      "pinyin": "Lièníngélè",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "围": {
+      "character": "围",
+      "radical": "列",
+      "unicode": 22260,
+      "pinyin": "Lièníngélè",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "城": {
+      "character": "城",
+      "radical": "列",
+      "unicode": 22478,
+      "pinyin": "Lièníngélè",
+      "strokes": 35,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 列宁格勒围城 (asedio Leningrado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "列宁格勒围城"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "线": {
+      "character": "线",
+      "radical": "东",
+      "unicode": 32447,
+      "pinyin": "zhànchǎng",
+      "strokes": 22,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 东线战场 (frente oriental)"
+      ],
+      "frequency": 2,
+      "words": [
+        "东线战场",
+        "前线"
+      ],
+      "lessons": [
+        8,
+        11
+      ],
+      "firstAppearance": 8,
+      "source": "dictionary_integration"
+    },
+    "场": {
+      "character": "场",
+      "radical": "东",
+      "unicode": 22330,
+      "pinyin": "dōngxiàn",
+      "strokes": 22,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 东线战场 (frente oriental)"
+      ],
+      "frequency": 1,
+      "words": [
+        "东线战场"
+      ],
+      "lessons": [
+        8
+      ],
+      "firstAppearance": 8,
       "source": "dictionary_integration"
     },
     "压": {
@@ -3153,6 +3890,10 @@
       "words": [
         "压迫"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
     "迫": {
@@ -3170,331 +3911,199 @@
       "words": [
         "压迫"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "摇": {
-      "character": "摇",
-      "radical": "扌",
-      "unicode": 25671,
-      "pinyin": "yáo",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 摇撼 (agitan)"
-      ],
-      "frequency": 1,
-      "words": [
-        "摇撼"
-      ],
-      "source": "dictionary_integration"
-    },
-    "撼": {
-      "character": "撼",
-      "radical": "扌",
-      "unicode": 25788,
-      "pinyin": "hàn",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 摇撼 (agitan)"
-      ],
-      "frequency": 1,
-      "words": [
-        "摇撼"
-      ],
-      "source": "dictionary_integration"
-    },
-    "永": {
-      "character": "永",
-      "radical": "水",
-      "unicode": 27704,
-      "pinyin": "yǒnghéng",
-      "strokes": 14,
+    "孩": {
+      "character": "孩",
+      "radical": "子",
+      "unicode": 23401,
+      "pinyin": "háizi",
+      "strokes": 18,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 永恒的 (eterna)"
+        "Used in: 孩子们 (hijos)"
       ],
-      "frequency": 2,
+      "frequency": 1,
       "words": [
-        "永恒的",
-        "永远不会"
+        "孩子们"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "恒": {
-      "character": "恒",
-      "radical": "水",
-      "unicode": 24658,
-      "pinyin": "de",
-      "strokes": 14,
+    "子": {
+      "character": "子",
+      "radical": "子",
+      "unicode": 23376,
+      "pinyin": "men",
+      "strokes": 18,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 永恒的 (eterna)"
+        "Used in: 孩子们 (hijos)"
       ],
       "frequency": 1,
       "words": [
-        "永恒的"
+        "孩子们"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "远": {
-      "character": "远",
-      "radical": "水",
-      "unicode": 36828,
-      "pinyin": "bù",
-      "strokes": 15,
+    "们": {
+      "character": "们",
+      "radical": "子",
+      "unicode": 20204,
+      "pinyin": "háizi",
+      "strokes": 18,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 永远不会 (jamás)"
+        "Used in: 孩子们 (hijos)"
       ],
       "frequency": 1,
       "words": [
-        "永远不会"
+        "孩子们"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "不": {
-      "character": "不",
-      "radical": "水",
-      "unicode": 19981,
-      "pinyin": "huì",
-      "strokes": 15,
+    "平": {
+      "character": "平",
+      "radical": "干",
+      "unicode": 24179,
+      "pinyin": "píng",
+      "strokes": 10,
       "structure": "compuesto",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 永远不会 (jamás)"
+        "Used in: 平等 (igualdad)"
       ],
       "frequency": 1,
       "words": [
-        "永远不会"
+        "平等"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "游": {
-      "character": "游",
-      "radical": "辶",
-      "unicode": 28216,
-      "pinyin": "yóu",
-      "strokes": 9,
-      "structure": "semi-encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 游击队 (partisanos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "游击队"
-      ],
-      "source": "dictionary_integration"
-    },
-    "击": {
-      "character": "击",
-      "radical": "辶",
-      "unicode": 20987,
-      "pinyin": "jī",
-      "strokes": 9,
-      "structure": "semi-encierro",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 游击队 (partisanos)"
-      ],
-      "frequency": 1,
-      "words": [
-        "游击队"
-      ],
-      "source": "dictionary_integration"
-    },
-    "愚": {
-      "character": "愚",
-      "radical": "心",
-      "unicode": 24858,
-      "pinyin": "yú",
-      "strokes": 13,
+    "同": {
+      "character": "同",
+      "radical": "同",
+      "unicode": 21516,
+      "pinyin": "tóngzhì",
+      "strokes": 7,
       "structure": "arriba-abajo",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 愚蠢 (necio)"
+        "Used in: 同志 (compañero)"
       ],
       "frequency": 1,
       "words": [
-        "愚蠢"
+        "同志"
       ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
       "source": "dictionary_integration"
     },
-    "蠢": {
-      "character": "蠢",
-      "radical": "心",
-      "unicode": 34850,
-      "pinyin": "chǔn",
-      "strokes": 13,
+    "志": {
+      "character": "志",
+      "radical": "同",
+      "unicode": 24535,
+      "pinyin": "tóngzhì",
+      "strokes": 7,
       "structure": "arriba-abajo",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 愚蠢 (necio)"
+        "Used in: 同志 (compañero)"
       ],
       "frequency": 1,
       "words": [
-        "愚蠢"
+        "同志"
       ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
       "source": "dictionary_integration"
     },
-    "运": {
-      "character": "运",
-      "radical": "辶",
-      "unicode": 36816,
-      "pinyin": "yùn",
-      "strokes": 11,
-      "structure": "izquierda-derecha",
+    "第": {
+      "character": "第",
+      "radical": "囗",
+      "unicode": 31532,
+      "pinyin": "dì-yī",
+      "strokes": 16,
+      "structure": "encierro",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 运动 (movimiento)"
+        "Used in: 第一国际 (Primera Internacional)"
       ],
       "frequency": 1,
       "words": [
-        "运动"
+        "第一国际"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "动": {
-      "character": "动",
-      "radical": "辶",
-      "unicode": 21160,
-      "pinyin": "dòng",
-      "strokes": 11,
-      "structure": "izquierda-derecha",
+    "一": {
+      "character": "一",
+      "radical": "囗",
+      "unicode": 19968,
+      "pinyin": "guójì",
+      "strokes": 16,
+      "structure": "encierro",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 运动 (movimiento)"
+        "Used in: 第一国际 (Primera Internacional)"
       ],
       "frequency": 1,
       "words": [
-        "运动"
+        "第一国际"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "召": {
-      "character": "召",
-      "radical": "召",
-      "unicode": 21484,
-      "pinyin": "zhào",
-      "strokes": 9,
-      "structure": "arriba-abajo",
+    "际": {
+      "character": "际",
+      "radical": "囗",
+      "unicode": 38469,
+      "pinyin": "dì-yī",
+      "strokes": 16,
+      "structure": "encierro",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 召唤 (llama)"
+        "Used in: 第一国际 (Primera Internacional)"
       ],
       "frequency": 1,
       "words": [
-        "召唤"
+        "第一国际"
       ],
-      "source": "dictionary_integration"
-    },
-    "唤": {
-      "character": "唤",
-      "radical": "召",
-      "unicode": 21796,
-      "pinyin": "huàn",
-      "strokes": 9,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 召唤 (llama)"
+      "lessons": [
+        9
       ],
-      "frequency": 1,
-      "words": [
-        "召唤"
-      ],
-      "source": "dictionary_integration"
-    },
-    "席": {
-      "character": "席",
-      "radical": "主",
-      "unicode": 24109,
-      "pinyin": "xí",
-      "strokes": 6,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 主席 (presidente)"
-      ],
-      "frequency": 1,
-      "words": [
-        "主席"
-      ],
-      "source": "dictionary_integration"
-    },
-    "自": {
-      "character": "自",
-      "radical": "自",
-      "unicode": 33258,
-      "pinyin": "zì",
-      "strokes": 11,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 自由 (libertad)"
-      ],
-      "frequency": 2,
-      "words": [
-        "自由",
-        "自治管理"
-      ],
-      "source": "dictionary_integration"
-    },
-    "由": {
-      "character": "由",
-      "radical": "自",
-      "unicode": 30001,
-      "pinyin": "yóu",
-      "strokes": 11,
-      "structure": "arriba-abajo",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 自由 (libertad)"
-      ],
-      "frequency": 1,
-      "words": [
-        "自由"
-      ],
-      "source": "dictionary_integration"
-    },
-    "治": {
-      "character": "治",
-      "radical": "自",
-      "unicode": 27835,
-      "pinyin": "guǎnlǐ",
-      "strokes": 19,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 自治管理 (Autogestión)"
-      ],
-      "frequency": 1,
-      "words": [
-        "自治管理"
-      ],
-      "source": "dictionary_integration"
-    },
-    "管": {
-      "character": "管",
-      "radical": "自",
-      "unicode": 31649,
-      "pinyin": "zìzhì",
-      "strokes": 19,
-      "structure": "compuesto",
-      "hasStrokeData": true,
-      "definitions": [
-        "Used in: 自治管理 (Autogestión)"
-      ],
-      "frequency": 1,
-      "words": [
-        "自治管理"
-      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
     "总": {
@@ -3512,6 +4121,10 @@
       "words": [
         "总罢工"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
     "罢": {
@@ -3529,23 +4142,703 @@
       "words": [
         "总罢工"
       ],
+      "lessons": [
+        9
+      ],
+      "firstAppearance": 9,
       "source": "dictionary_integration"
     },
-    "祖": {
-      "character": "祖",
-      "radical": "示",
-      "unicode": 31062,
-      "pinyin": "zǔ",
-      "strokes": 14,
-      "structure": "izquierda-derecha",
+    "愚": {
+      "character": "愚",
+      "radical": "心",
+      "unicode": 24858,
+      "pinyin": "yúchǔn",
+      "strokes": 13,
+      "structure": "arriba-abajo",
       "hasStrokeData": true,
       "definitions": [
-        "Used in: 祖国 (patria)"
+        "Used in: 愚蠢 (necio)"
       ],
       "frequency": 1,
       "words": [
-        "祖国"
+        "愚蠢"
       ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "蠢": {
+      "character": "蠢",
+      "radical": "心",
+      "unicode": 34850,
+      "pinyin": "yúchǔn",
+      "strokes": 13,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 愚蠢 (necio)"
+      ],
+      "frequency": 1,
+      "words": [
+        "愚蠢"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "幻": {
+      "character": "幻",
+      "radical": "幺",
+      "unicode": 24187,
+      "pinyin": "huànxiǎng",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 幻想 (fantasear)"
+      ],
+      "frequency": 1,
+      "words": [
+        "幻想"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "想": {
+      "character": "想",
+      "radical": "幺",
+      "unicode": 24819,
+      "pinyin": "huànxiǎng",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 幻想 (fantasear)"
+      ],
+      "frequency": 1,
+      "words": [
+        "幻想"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "灭": {
+      "character": "灭",
+      "radical": "火",
+      "unicode": 28781,
+      "pinyin": "miè",
+      "strokes": 10,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 灭亡 (perecer)"
+      ],
+      "frequency": 1,
+      "words": [
+        "灭亡"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "青": {
+      "character": "青",
+      "radical": "青",
+      "unicode": 38738,
+      "pinyin": "qīngnián",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 青年 (juventud)"
+      ],
+      "frequency": 1,
+      "words": [
+        "青年"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "年": {
+      "character": "年",
+      "radical": "青",
+      "unicode": 24180,
+      "pinyin": "qīngnián",
+      "strokes": 11,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 青年 (juventud)"
+      ],
+      "frequency": 1,
+      "words": [
+        "青年"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "联": {
+      "character": "联",
+      "radical": "耳",
+      "unicode": 32852,
+      "pinyin": "lián",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 联盟 (unión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "联盟"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "盟": {
+      "character": "盟",
+      "radical": "耳",
+      "unicode": 30431,
+      "pinyin": "méng",
+      "strokes": 25,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 联盟 (unión)"
+      ],
+      "frequency": 1,
+      "words": [
+        "联盟"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "散": {
+      "character": "散",
+      "radical": "攵",
+      "unicode": 25955,
+      "pinyin": "sànjū",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 散居 (diáspora)"
+      ],
+      "frequency": 1,
+      "words": [
+        "散居"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "居": {
+      "character": "居",
+      "radical": "攵",
+      "unicode": 23621,
+      "pinyin": "sànjū",
+      "strokes": 16,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 散居 (diáspora)"
+      ],
+      "frequency": 1,
+      "words": [
+        "散居"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "犹": {
+      "character": "犹",
+      "radical": "又",
+      "unicode": 29369,
+      "pinyin": "yóu",
+      "strokes": 12,
+      "structure": "compuesto",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 反犹主义 (antisemitismo)"
+      ],
+      "frequency": 1,
+      "words": [
+        "反犹主义"
+      ],
+      "lessons": [
+        10
+      ],
+      "firstAppearance": 10,
+      "source": "dictionary_integration"
+    },
+    "前": {
+      "character": "前",
+      "radical": "前",
+      "unicode": 21069,
+      "pinyin": "qiánxiàn",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 前线 (frente)"
+      ],
+      "frequency": 1,
+      "words": [
+        "前线"
+      ],
+      "lessons": [
+        11
+      ],
+      "firstAppearance": 11,
+      "source": "dictionary_integration"
+    },
+    "雇": {
+      "character": "雇",
+      "radical": "雇",
+      "unicode": 38599,
+      "pinyin": "gùnóng",
+      "strokes": 12,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 雇农 (jornalero)"
+      ],
+      "frequency": 1,
+      "words": [
+        "雇农"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "农": {
+      "character": "农",
+      "radical": "雇",
+      "unicode": 20892,
+      "pinyin": "gùnóng",
+      "strokes": 12,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 雇农 (jornalero)"
+      ],
+      "frequency": 1,
+      "words": [
+        "雇农"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "拳": {
+      "character": "拳",
+      "radical": "手",
+      "unicode": 25331,
+      "pinyin": "quántou",
+      "strokes": 13,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 拳头 (puño)"
+      ],
+      "frequency": 1,
+      "words": [
+        "拳头"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "头": {
+      "character": "头",
+      "radical": "手",
+      "unicode": 22836,
+      "pinyin": "quántou",
+      "strokes": 13,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 拳头 (puño)"
+      ],
+      "frequency": 1,
+      "words": [
+        "拳头"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "举": {
+      "character": "举",
+      "radical": "手",
+      "unicode": 20030,
+      "pinyin": "jǔqǐ",
+      "strokes": 12,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 举起的 (levantado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "举起的"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "土": {
+      "character": "土",
+      "radical": "土",
+      "unicode": 22303,
+      "pinyin": "tǔ",
+      "strokes": 6,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 土地 (tierra)"
+      ],
+      "frequency": 1,
+      "words": [
+        "土地"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "汗": {
+      "character": "汗",
+      "radical": "氵",
+      "unicode": 27735,
+      "pinyin": "hànshuǐ",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 汗水 (sudor)"
+      ],
+      "frequency": 1,
+      "words": [
+        "汗水"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "水": {
+      "character": "水",
+      "radical": "氵",
+      "unicode": 27700,
+      "pinyin": "hànshuǐ",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 汗水 (sudor)"
+      ],
+      "frequency": 1,
+      "words": [
+        "汗水"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "犁": {
+      "character": "犁",
+      "radical": "牛",
+      "unicode": 29313,
+      "pinyin": "lí",
+      "strokes": 11,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 犁 (arado)"
+      ],
+      "frequency": 1,
+      "words": [
+        "犁"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "沟": {
+      "character": "沟",
+      "radical": "氵",
+      "unicode": 27807,
+      "pinyin": "gōulǒng",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 沟垄 (surcos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "沟垄"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "垄": {
+      "character": "垄",
+      "radical": "氵",
+      "unicode": 22404,
+      "pinyin": "gōulǒng",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 沟垄 (surcos)"
+      ],
+      "frequency": 1,
+      "words": [
+        "沟垄"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "劳": {
+      "character": "劳",
+      "radical": "力",
+      "unicode": 21171,
+      "pinyin": "láozuò",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 劳作 (trabajar)"
+      ],
+      "frequency": 1,
+      "words": [
+        "劳作"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "作": {
+      "character": "作",
+      "radical": "力",
+      "unicode": 20316,
+      "pinyin": "láozuò",
+      "strokes": 9,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 劳作 (trabajar)"
+      ],
+      "frequency": 1,
+      "words": [
+        "劳作"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "浇": {
+      "character": "浇",
+      "radical": "氵",
+      "unicode": 27975,
+      "pinyin": "jiāoguàn",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 浇灌 (regar)"
+      ],
+      "frequency": 1,
+      "words": [
+        "浇灌"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "灌": {
+      "character": "灌",
+      "radical": "氵",
+      "unicode": 28748,
+      "pinyin": "jiāoguàn",
+      "strokes": 15,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 浇灌 (regar)"
+      ],
+      "frequency": 1,
+      "words": [
+        "浇灌"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "书": {
+      "character": "书",
+      "radical": "乚",
+      "unicode": 20070,
+      "pinyin": "shūxiě",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 书写 (escribir)"
+      ],
+      "frequency": 1,
+      "words": [
+        "书写"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "写": {
+      "character": "写",
+      "radical": "乚",
+      "unicode": 20889,
+      "pinyin": "shūxiě",
+      "strokes": 9,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 书写 (escribir)"
+      ],
+      "frequency": 1,
+      "words": [
+        "书写"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "篇": {
+      "character": "篇",
+      "radical": "竹",
+      "unicode": 31687,
+      "pinyin": "piānzhāng",
+      "strokes": 20,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 篇章 (páginas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "篇章"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "章": {
+      "character": "章",
+      "radical": "竹",
+      "unicode": 31456,
+      "pinyin": "piānzhāng",
+      "strokes": 20,
+      "structure": "arriba-abajo",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 篇章 (páginas)"
+      ],
+      "frequency": 1,
+      "words": [
+        "篇章"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
+      "source": "dictionary_integration"
+    },
+    "公": {
+      "character": "公",
+      "radical": "八",
+      "unicode": 20844,
+      "pinyin": "gōngshè",
+      "strokes": 10,
+      "structure": "izquierda-derecha",
+      "hasStrokeData": true,
+      "definitions": [
+        "Used in: 公社 (comuna)"
+      ],
+      "frequency": 1,
+      "words": [
+        "公社"
+      ],
+      "lessons": [
+        12
+      ],
+      "firstAppearance": 12,
       "source": "dictionary_integration"
     }
   }

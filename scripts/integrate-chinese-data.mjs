@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 
 // Configuración de rutas
 const PROJECT_ROOT = path.join(__dirname, '..');
-const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'languages', 'zh.json');
+const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'zh.json');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'public', 'data', 'chinese');
 
 console.log('🔥 INTEGRACIÓN INTELIGENTE DE DATOS CHINOS');
@@ -105,11 +105,15 @@ function processDictionaryData(dictionaryData) {
     Object.entries(dictionaryData.words).forEach(([word, wordData]) => {
         totalWords++;
         
-        // Extraer información de la primera entrada (más completa)
-        const primaryEntry = wordData.entries[0];
-        if (!primaryEntry) return;
+        // Extraer información directamente del wordData (nuevo formato)
+        const pinyin = wordData.translations?.zhPinyin;
+        const radicalText = wordData.zhRadical;
+        const strokes = wordData.zhStrokes;
+        const structure = wordData.zhStructure;
+        const lessons = wordData.lessons || [];
+        const firstAppearance = wordData.firstAppearance || 0;
         
-        const { pinyin, radical: radicalText, strokes, structure } = primaryEntry;
+        if (!pinyin || !radicalText) return;
         
         // Extraer info del radical
         const radicalInfo = extractRadicalInfo(radicalText);
@@ -130,8 +134,17 @@ function processDictionaryData(dictionaryData) {
                 },
                 strokes: parseStrokes(strokes) || 1,
                 category: 'general',
-                characters: []
+                characters: [],
+                lessons: new Set(),
+                firstAppearance: firstAppearance
             });
+        }
+        
+        // Actualizar lecciones del radical
+        const radicalData = radicalsMap.get(radicalInfo.radical);
+        lessons.forEach(lesson => radicalData.lessons.add(lesson));
+        if (firstAppearance < radicalData.firstAppearance) {
+            radicalData.firstAppearance = firstAppearance;
         }
         
         // Extraer caracteres individuales de la palabra
@@ -156,6 +169,11 @@ function processDictionaryData(dictionaryData) {
                 }
                 existingChar.frequency = (existingChar.frequency || 0) + 1;
                 existingChar.words.push(word);
+                // Actualizar lecciones
+                lessons.forEach(lesson => existingChar.lessons.add(lesson));
+                if (firstAppearance < existingChar.firstAppearance) {
+                    existingChar.firstAppearance = firstAppearance;
+                }
             } else {
                 // Crear nueva entrada de carácter
                 charactersMap.set(char, {
@@ -166,9 +184,11 @@ function processDictionaryData(dictionaryData) {
                     strokes: parseStrokes(strokes),
                     structure: structure,
                     hasStrokeData: true, // Asumimos que sí
-                    definitions: [`Used in: ${word} (${wordData.meaning})`],
+                    definitions: [`Used in: ${word} (${wordData.translations?.es || 'unknown meaning'})`],
                     frequency: 1,
                     words: [word],
+                    lessons: new Set(lessons),
+                    firstAppearance: firstAppearance,
                     source: 'dictionary_integration'
                 });
             }
@@ -204,17 +224,34 @@ function generateUnifiedFiles(processedData, outputDir) {
     
     const timestamp = new Date().toISOString();
     
+    // Convertir Sets a Arrays para JSON
+    const serializableRadicals = new Map();
+    for (const [key, radical] of processedData.radicals.entries()) {
+        serializableRadicals.set(key, {
+            ...radical,
+            lessons: Array.from(radical.lessons).sort((a, b) => a - b)
+        });
+    }
+    
+    const serializableCharacters = new Map();
+    for (const [key, character] of processedData.characters.entries()) {
+        serializableCharacters.set(key, {
+            ...character,
+            lessons: Array.from(character.lessons).sort((a, b) => a - b)
+        });
+    }
+    
     // 1. Archivo de radicales consolidados
     const radicalsData = {
         metadata: {
             generated: timestamp,
             version: '3.0.0',
             description: 'Unified radical database extracted from Chinese dictionary',
-            totalRadicals: processedData.radicals.size,
+            totalRadicals: serializableRadicals.size,
             sources: ['Internal Chinese dictionary', 'Automatic extraction', 'Dictionary integration'],
             languages: ['es', 'en', 'de', 'pt', 'ru', 'ru-rom', 'zh', 'zh-pinyin']
         },
-        radicals: Object.fromEntries(processedData.radicals)
+        radicals: Object.fromEntries(serializableRadicals)
     };
     
     // 2. Archivo de mapeo de caracteres
@@ -223,11 +260,11 @@ function generateUnifiedFiles(processedData, outputDir) {
             generated: timestamp,
             version: '3.0.0',
             description: 'Character-radical mapping with integrated dictionary data',
-            totalCharacters: processedData.characters.size,
+            totalCharacters: serializableCharacters.size,
             sources: ['Internal Chinese dictionary', 'Automatic radical detection'],
             languages: ['es', 'en', 'de', 'pt', 'ru', 'ru-rom', 'zh', 'zh-pinyin']
         },
-        characters: Object.fromEntries(processedData.characters)
+        characters: Object.fromEntries(serializableCharacters)
     };
     
     // Escribir archivos
@@ -237,15 +274,15 @@ function generateUnifiedFiles(processedData, outputDir) {
     fs.writeFileSync(radicalsFile, JSON.stringify(radicalsData, null, 2), 'utf8');
     fs.writeFileSync(charactersFile, JSON.stringify(charactersData, null, 2), 'utf8');
     
-    console.log(`✅ Guardado: radicals-unified.json (${processedData.radicals.size} radicales)`);
-    console.log(`✅ Guardado: character-radical-unified.json (${processedData.characters.size} caracteres)`);
+    console.log(`✅ Guardado: radicals-unified.json (${serializableRadicals.size} radicales)`);
+    console.log(`✅ Guardado: character-radical-unified.json (${serializableCharacters.size} caracteres)`);
     
     return {
         radicalsFile,
         charactersFile,
         stats: {
-            radicals: processedData.radicals.size,
-            characters: processedData.characters.size
+            radicals: serializableRadicals.size,
+            characters: serializableCharacters.size
         }
     };
 }

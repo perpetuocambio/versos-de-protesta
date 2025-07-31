@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 
 // Configuración
 const PROJECT_ROOT = path.join(__dirname, '..');
-const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'languages', 'zh.json');
+const DICTIONARY_PATH = path.join(PROJECT_ROOT, 'public', 'data', 'internal', 'v1', 'dictionary', 'zh.json');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'strokes');
 const METADATA_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'strokes-metadata.json');
 const CHARACTER_DATA_FILE = path.join(PROJECT_ROOT, 'public', 'data', 'chinese', 'character-data.json');
